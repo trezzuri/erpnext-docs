@@ -20,11 +20,11 @@ You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for 
 
 
 1. [Frappe School Course on Accounting Module](https://frappe.school/courses/erpnext-accounting)
-2. [Chart of Accounts](/docs/v13/user/videos/learn/chart-of-accounts.html)
-3. [Opening Account Balances](/docs/v13/user/videos/learn/opening-account-balances.html)
-4. [Taxes](/docs/v13/user/videos/learn/taxes.html)
-5. [Advance Payments](/docs/v13/user/videos/learn/advance-payments.html)
-6. [Budgeting](/docs/v13/user/videos/learn/budgeting.html)
-7. [Subscription Management](/docs/v13/user/videos/learn/subscription.html)
+2. [Chart of Accounts](https://docs.erpnext.com/docs/v13/user/videos/learn/chart-of-accounts.html)
+3. [Opening Account Balances](https://docs.erpnext.com/docs/v13/user/videos/learn/opening-account-balances.html)
+4. [Taxes](https://docs.erpnext.com/docs/v13/user/videos/learn/taxes.html)
+5. [Advance Payments](https://docs.erpnext.com/docs/v13/user/videos/learn/advance-payments.html)
+6. [Budgeting](https://docs.erpnext.com/docs/v13/user/videos/learn/budgeting.html)
+7. [Subscription Management](https://docs.erpnext.com/docs/v13/user/videos/learn/subscription.html)
 
 

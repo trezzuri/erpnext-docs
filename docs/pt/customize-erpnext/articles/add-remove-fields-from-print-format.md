@@ -1,13 +1,11 @@
 # Adicionar/remover campos do formato de impressão
 
 
-Para explicar, vamos considerar o Pedido de Compra que possui os seguintes campos no Formato de Impressão, e aqui, quero adicionar 'Nome de Contato do Fornecedor' em Nome do Fornecedor e remover a coluna 'Peso por Unidade' da tabela do Item.
-
-
+Para explicar, vamos considerar o Pedido de Compra que possui os seguintes campos no Formato de Impressão, e aqui, quero adicionar 'Nome de Contato do Fornecedor' em Nome do Fornecedor e remover a coluna 'Peso por Unidade' da tabela do Item.< /p>
 ![](/files/XcnBFUS.png)
 
 
-**Etapa 1:** Navegue até a visualização de impressão do documento para o qual deseja alterar o formato de impressão -> Menu (...) -> Personalizar
+**Etapa 1:** Navegue até a visualização de impressão do documento para o qual deseja alterar o formato de impressão de -> Menu (...) -> Personalizar
 
 
 ![](/files/LfToZz3.png)
@@ -32,3 +30,6 @@ Para explicar, vamos considerar o Pedido de Compra que possui os seguintes campo
 
 
 ![](/files/VrXN7YB.png)
+
+
+

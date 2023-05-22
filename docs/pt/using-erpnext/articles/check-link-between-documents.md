@@ -1,4 +1,4 @@
-# Verificando o link entre os documentos
+# Verificando vínculo entre documentos
 
 
 Cada documento pode ser vinculado a vários outros documentos no ERPNext.
@@ -14,16 +14,18 @@ Para isso, basta ir ao menu e clicar em 'Links'. Uma caixa pop-up será aberta, 
 
 
 
->
-> Nota: Esta opção mostrará apenas os links de encaminhamento em um documento; os links anteriores podem ser encontrados no próprio documento.
->
->
->
+> 
+> Observação: Esta opção mostrará apenas os links diretos em um documento; os links anteriores podem ser encontrados no próprio documento.
+> 
+> 
+> 
 
 
 
->
+> 
 > **Por exemplo**, se você quiser verificar quais faturas de vendas estão vinculadas ao seu pedido de venda, verifique os 'Links' no menu suspenso. No entanto, as informações sobre a Cotação à qual este Pedido de Venda foi vinculado deverão estar presentes no próprio Documento.
->
->
->
+> 
+> 
+> 
+
+

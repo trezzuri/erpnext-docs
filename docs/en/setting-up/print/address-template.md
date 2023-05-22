@@ -74,7 +74,7 @@ Here is an example:
 ### 2. Related Topics
 
 
-1. [Terms and Conditions Template](/docs/v13/user/manual/en/setting-up/print/terms-and-conditions)
-2. [Cheque Print Template](/docs/v13/user/manual/en/setting-up/print/cheque-print-template)
+1. [Terms and Conditions Template](/docs/en/setting-up/print/terms-and-conditions)
+2. [Cheque Print Template](/docs/en/setting-up/print/cheque-print-template)
 
 

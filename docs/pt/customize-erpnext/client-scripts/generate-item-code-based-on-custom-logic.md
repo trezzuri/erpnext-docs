@@ -1,8 +1,8 @@
 # Gerar código de item com base na lógica personalizada
 
 
-Adicione este Script Personalizado no script do **Item**, para que o novo Código do Item seja
-gerado logo antes de o Item ser salvo.
+Adicione este Custom Script no script do **Item**, para que o novo Item Code seja
+gerado logo antes de o item ser salvo.
 
 
 

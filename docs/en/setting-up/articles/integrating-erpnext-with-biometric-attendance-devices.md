@@ -8,7 +8,7 @@
 The Attendance punch logs from the biometric device are check-in and check-out logs of an employee. ERPNext has a provision to store these logs in a document called Employee Checkin.
 
 
-Attendance can then be marked based on the [Employee Checkin](/docs/v14/user/manual/en/human-resources/employee_checkin) records and the [Shift Type](/docs/v14/user/manual/en/human-resources/shift_type) of the employee by using [Auto Attendance](/docs/v14/user/manual/en/human-resources/auto-attendance)
+Attendance can then be marked based on the [Employee Checkin](/docs/en/human-resources/employee_checkin) records and the [Shift Type](/docs/en/human-resources/shift_type) of the employee by using [Auto Attendance](/docs/en/human-resources/auto-attendance)
 
 
 Hence, integrating your Biometric Device (*or any access control system that collects IN/OUT logs*), can be done using the following steps:
@@ -20,7 +20,7 @@ Hence, integrating your Biometric Device (*or any access control system that col
 Before you import/sync employees' Check-in and Check-out logs into your ERPNext system, you will have to set up the employees and their shifts to be able to generate attendance using the Auto Attendance feature in ERPNext.
 
 
-Please refer to the following link to set up Auto Attendance: [Set up Auto Attendance](/docs/v14/user/manual/en/human-resources/auto-attendance)
+Please refer to the following link to set up Auto Attendance: [Set up Auto Attendance](/docs/en/human-resources/auto-attendance)
 
 
 Once you have set up the employee master and assigned shifts to the employees, you are now ready to proceed to the next step.
@@ -36,16 +36,16 @@ Depending on your biometric system and its features, there can be a lot of ways 
 
 
 	* The simplest possible solution (in terms of implementation complexity) would be to generate an Excel/CSV of the Check-in/Check-out and use the built-in data import tool in ERPNext to periodically import the logs to your Employee Checkin Document
-	* Please refer to [ERPNext's Documentation on Data Import Tool](/docs/v14/user/manual/en/setting-up/data/data-import) for more on how to do this.
+	* Please refer to [ERPNext's Documentation on Data Import Tool](/docs/en/setting-up/data/data-import) for more on how to do this.
 2. **API Integration**:
 
 
 	* You can automate the process of syncing the Biometric Punch Logs by integrating it with the available API in ERPNext.
 	* This method requires some technical knowledge and you should probably get in touch with your ERPNext implementor or Biometric system vendor.
 	* Steps:
-		1. You will first need to create a [user](/docs/v14/user/manual/en/setting-up/users-and-permissions/adding-users#1-how-to-create-a-new-user) in your ERPNext instance that would be used for creating logs since this API method requires login. Make sure this user has all the required permissions to create Employee Checkin.
-		2. [Generate API Key and API Secret](/docs/v14/user/manual/en/setting-up/users-and-permissions/adding-users#210-api-access) for the user which will be used for authentication.
-		3. Make sure you have set the [Attendance Device ID (Biometric/RF tag ID)](/docs/v14/user/manual/en/human-resources/auto-attendance#3-setup-attendance-device-id-field-in-employee) for the employees based on your Biometric Device.
+		1. You will first need to create a [user](/docs/en/setting-up/users-and-permissions/adding-users#1-how-to-create-a-new-user) in your ERPNext instance that would be used for creating logs since this API method requires login. Make sure this user has all the required permissions to create Employee Checkin.
+		2. [Generate API Key and API Secret](/docs/en/setting-up/users-and-permissions/adding-users#210-api-access) for the user which will be used for authentication.
+		3. Make sure you have set the [Attendance Device ID (Biometric/RF tag ID)](/docs/en/human-resources/auto-attendance#3-setup-attendance-device-id-field-in-employee) for the employees based on your Biometric Device.
 		4. The API implementation details can be found [here](https://github.com/frappe/erpnext/blob/develop/erpnext/hr/doctype/employee_checkin/employee_checkin.py#L49-L78) and the API can be accessed at: `/api/method/erpnext.hr.doctype.employee_checkin.employee_checkin.add_log_based_on_employee_field`.
 		5. You can write a script to send a POST request to the API. This endpoint finds the relevant Employee using the employee field value and creates an Employee Checkin. Details of the API endpoint:
 			+ URL: `/api/method/erpnext.hr.doctype.employee_checkin.employee_checkin.add_log_based_on_employee_field`

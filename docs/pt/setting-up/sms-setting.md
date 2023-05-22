@@ -9,15 +9,15 @@ API. Eles criarão uma conta para você e fornecerão um nome de usuário exclus
 e senha.
 
 
-Para acessar as configurações de SMS, vá para:
+Para acessar as configurações de SMS, acesse:
 
 
 
->
-> Início > Configurações > Configurações de SMS
->
->
->
+> 
+> Página inicial > Configurações > Configurações de SMS
+> 
+> 
+> 
 
 
 Para definir as configurações de SMS no ERPNext, descubra sua API HTTP (um documento
@@ -27,24 +27,24 @@ SMS usando solicitação HTTP. Usando este URL, você pode definir as configura�
 ERPNext.
 
 
-URL de gateway de SMS de exemplo:
+Exemplo de URL do SMS Gateway:
 
 
 
 ```
-http://instant.smses.com/web2sms.php?username=<username>&password;=<password>&to;=<mobilenumber>&sender;=<senderid>&message;=<message>
+http://instant.smses.com/web2sms.php?username=&password;=&to;=&sender;=& ;mensagem;=
 
 ```
 
-![Configuração de SMS 2](/files/sms-settings2.jpg)
+![SMS Setting 2](/files/sms-settings2.jpg)
 
 
 
->
-> Nota: Para o SMS Gateway URL, inclua apenas a string antes do "?".
->
->
->
+> 
+> Observação: para SMS Gateway URL, inclua apenas a string antes de "?".
+> 
+> 
+> 
 
 
 Exemplo:
@@ -63,10 +63,10 @@ ID do remetente como DEMO com uma mensagem de texto como "ESTE É UM SMS DE TEST
 
 Observe que alguns parâmetros na URL são estáticos. Você obterá valores estáticos
 do seu provedor de SMS, como nome de usuário, senha, etc. Esses valores estáticos devem
-devem ser inseridos na tabela Parâmetros estáticos.
+ser inserido na tabela Parâmetros estáticos.
 
 
-![Configuração de SMS](/files/sms-settings1.png)
+![SMS Setting](/files/sms-settings1.png)
 
 
 ## Como configurar o ERPNext com Voip.ms
@@ -76,13 +76,13 @@ O primeiro passo é fazer login na conta voip.ms. Em seguida, vá para **Menu pr
 Ative a API, defina uma senha e coloque na lista de permissões o endereço IP do seu servidor.
 
 
-Em seguida, vá para DIDs e habilite o SMS no número do qual o SMS será enviado.
+Em seguida, vá para DIDs e ative o SMS no número do qual o SMS será enviado.
 
 
-Defina o SMS Gateway para **https://voip.ms/api/v1/rest.php**
+Definir SMS Gateway para **https://voip.ms/api/v1/rest.php**
 
 
-Defina o parâmetro de mensagem como **mensagem**
+Definir parâmetro de mensagem como **mensagem**
 
 
 Parâmetro do receptor para **dst**
@@ -93,7 +93,7 @@ Crie 4 novos parâmetros estáticos:
 
 * **api\_username** (nome de usuário da conta voip.ms
 * **api\_password** (a senha da API configurada há alguns minutos)
-* **método** define valor para **enviarSMS**
+* **método** define valor para **enviar SMS**
 * **did** (os 10 dígitos DID que serão usados ​​para enviar o sms)
 
 
@@ -106,5 +106,5 @@ Em seguida, vá ao SMS Center para testar se tudo funciona corretamente.
 ### Tópicos relacionados
 
 
-1. [Conta de e-mail](/docs/v13/user/manual/en/setting-up/email/email-account)
-2. [Notificações](/docs/v13/user/manual/en/configuração/notificações)
+1. [Conta de e-mail](/docs/pt/setting-up/email/email-account)
+2. [Notificações](/docs/pt/setting-up/notifications)

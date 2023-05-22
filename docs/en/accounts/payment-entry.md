@@ -51,25 +51,25 @@ To access the Payment Entry list, go to:
 A Payment Entry can also be created directly then linked to an order/invoice later. Before creating and using Payment Entry, it is advised to create the following first:
 
 
-1. [Customer](/docs/v13/user/manual/en/CRM/customer)
-2. [Supplier](/docs/v13/user/manual/en/buying/supplier)
-3. [Bank Account](/docs/v13/user/manual/en/accounts/bank-account)
+1. [Customer](/docs/en/CRM/customer)
+2. [Supplier](/docs/en/buying/supplier)
+3. [Bank Account](/docs/en/accounts/bank-account)
 
 
 If you're following the Sales/Purchase Cycle, you'd need the following:
 
 
-1. [Sales Order](/docs/v13/user/manual/en/selling/sales-order) (Advance Payment)
-2. [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order) (Advance Payment)
-3. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-4. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Sales Order](/docs/en/selling/sales-order) (Advance Payment)
+2. [Purchase Order](/docs/en/buying/purchase-order) (Advance Payment)
+3. [Sales Invoice](/docs/en/accounts/sales-invoice)
+4. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 
 Set up:
 
 
-1. [Chart Of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts)
-2. [Company](/docs/v13/user/manual/en/setting-up/company-setup) (for default accounts)
+1. [Chart Of Accounts](/docs/en/accounts/chart-of-accounts)
+2. [Company](/docs/en/setting-up/company-setup) (for default accounts)
 
 
 ## 2. How to create a Payment Entry
@@ -84,7 +84,7 @@ On submitting a document against which Payment Entry can be made, you will find 
 1. Change the posting date.
 2. The Payment Type will be set based on the transaction you're coming from. The types are 'Receive', 'Pay', and 'Internal Transfer'.
 3. The Party Type, Party, Party Name will be fetched automatically.
-4. The Account Paid To and Account Paid From will be fetched as set in the [Company form](/docs/v13/user/manual/en/setting-up/company-setup).
+4. The Account Paid To and Account Paid From will be fetched as set in the [Company form](/docs/en/setting-up/company-setup).
 5. The Amount Paid will be fetched from the Invoice.
 6. Save and Submit.
 ![Payment Entry from SO](/files/payment-entry-from-invoice.gif)
@@ -93,7 +93,7 @@ On submitting a document against which Payment Entry can be made, you will find 
 ### 2.1 Creating a Payment Manually
 
 
-A Payment Entry created manually will have no order/invoice linked to it. Payments made this will be recorded in the Customer's/Supplier's account and can be reconciled later using the [Payment Reconciliation Tool](/docs/v13/user/manual/en/accounts/payment-reconciliation).
+A Payment Entry created manually will have no order/invoice linked to it. Payments made this will be recorded in the Customer's/Supplier's account and can be reconciled later using the [Payment Reconciliation Tool](/docs/en/accounts/payment-reconciliation).
 
 
 1. Go to the Payment Entry list and click on New.
@@ -114,7 +114,7 @@ A Payment Entry created manually will have no order/invoice linked to it. Paymen
 
 
 > 
-> **Tip**: In the [Mode of Payment](/docs/v13/user/manual/en/accounts/mode-of-payment) master, default Account can be set. This default payment Account will be fetched into Payment Entries.
+> **Tip**: In the [Mode of Payment](/docs/en/accounts/mode-of-payment) master, default Account can be set. This default payment Account will be fetched into Payment Entries.
 > 
 > 
 > 
@@ -129,8 +129,8 @@ A Payment Entry created manually will have no order/invoice linked to it. Paymen
 * **Party Type**: Whether Customer, Supplier, Employee, Shareholder, Student, or NGO Member.
 * **Party**: The specific party for which the Payment Entry is made.
 * **Party Name**: The name of the party, this is fetched automatically.
-* **Company Bank Account**: Your Company's [Bank Account](/docs/v13/user/manual/en/accounts/bank-account).
-* **Party Bank Account**: The Party's [Bank Account](/docs/v13/user/manual/en/accounts/bank-account).
+* **Company Bank Account**: Your Company's [Bank Account](/docs/en/accounts/bank-account).
+* **Party Bank Account**: The Party's [Bank Account](/docs/en/accounts/bank-account).
 * **Contact**: If the Party is an organization, a Contact person can be stored here.
 
 
@@ -141,9 +141,9 @@ A Payment Entry created manually will have no order/invoice linked to it. Paymen
 
 
 * **Party Balance**: The overall amount receivable or payable from Customer or Supplier from Invoices set in the current Payment Entry. Paid amounts will be positive and if advance payments are made, they will be negative.
-* **Account Paid From**: The [Account](/docs/v13/user/manual/en/accounts/chart-of-accounts) from which the amount will be deducted when Payment is submitted.
-* **Account Paid To**: The [CoA account](/docs/v13/user/manual/en/accounts/chart-of-accounts) from which the amount will be added when Payment Entry is submitted.
-* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Account](/docs/v13/user/manual/en/accounts/chart-of-accounts) and cannot be edited here. To know about more about transactions in multiple currencies, [visit this page](/docs/v14/user/manual/en/accounts/multi-currency-accounting).
+* **Account Paid From**: The [Account](/docs/en/accounts/chart-of-accounts) from which the amount will be deducted when Payment is submitted.
+* **Account Paid To**: The [CoA account](/docs/en/accounts/chart-of-accounts) from which the amount will be added when Payment Entry is submitted.
+* **Account Currency**: The Currencies of these accounts will be fetched as set in the [Account](/docs/en/accounts/chart-of-accounts) and cannot be edited here. To know about more about transactions in multiple currencies, [visit this page](/docs/en/accounts/multi-currency-accounting).
 * **Account Balance**: The total amount balance from all the invoices of the selected accounts.
 
 
@@ -191,7 +191,7 @@ If creating Payment Entry for a Customer, the Payment Amount will be allocated a
 * **Name**: The particular transaction ID is fetched/selected here.
 * **Total Amount**: The total amount of one Invoice/Journal Entry in the row.
 * **Outstanding**: The amount to receive/to pay for this invoice.
-* **Allocated**: If the Paid Amount is less than the invoice amount only the paid amount will be allocated to the invoice(s) fetched in the Payment Entry. The payment may be made in parts, for example, if there are three invoices of amounts 20, 20, 20, the Paid Amount is 60 then this Paid Amount will be distributed equally. [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms) may also be involved.
+* **Allocated**: If the Paid Amount is less than the invoice amount only the paid amount will be allocated to the invoice(s) fetched in the Payment Entry. The payment may be made in parts, for example, if there are three invoices of amounts 20, 20, 20, the Paid Amount is 60 then this Paid Amount will be distributed equally. [Payment Terms](/docs/en/accounts/payment-terms) may also be involved.
 
 
 ![Outstanding Invoice](/files/get-outstanding-invoices.png)
@@ -262,7 +262,7 @@ If you want to maintain a receivable/payable account in foreign currency, then c
 ![Non-standard Currency in Receivable in Customer](/files/non-standard-currency-receivable.png)
 
 
-ERPNext allows you maintain accounts and invoicing in [multiple currency](/docs/v13/user/manual/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice.
+ERPNext allows you maintain accounts and invoicing in [multiple currency](/docs/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice.
 
 
 
@@ -291,7 +291,7 @@ Since Currency Exchange Rate fluctuates all the time, it can lead to a differenc
 Payments can also be made independent of invoices by creating a new Payment Entry.
 
 
-To know more about managing transactions in multiple currencies [visit this page](/docs/v13/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+To know more about managing transactions in multiple currencies [visit this page](/docs/en/accounts/articles/managing-transactions-in-multiple-currency).
 
 
 ### 4.2 Internal Transfer
@@ -362,9 +362,9 @@ To make payment using Journal Entry follow these steps:
 ## 5. Related Topics
 
 
-1. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
-2. [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms)
-3. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-4. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Payment Request](/docs/en/accounts/payment-request)
+2. [Payment Terms](/docs/en/accounts/payment-terms)
+3. [Sales Invoice](/docs/en/accounts/sales-invoice)
+4. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 

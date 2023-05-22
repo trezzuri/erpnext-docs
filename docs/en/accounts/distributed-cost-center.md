@@ -30,16 +30,16 @@ In ERPNext you can create Distributed Cost Center and use them in transactions a
 The following reports will be automatically updated when Cost Center filter is added:
 
 
-* [Accounting Reports](/docs/v13/user/manual/en/accounts/accounting-reports)
+* [Accounting Reports](/docs/en/accounts/accounting-reports)
 	+ Financial Statements
 	+ Budget Variance
 	+ General Ledger
-* [Profitability Analysis](/docs/v13/user/manual/en/accounts/articles/tracking-project-profitability-using-cost-center)
+* [Profitability Analysis](/docs/en/accounts/articles/tracking-project-profitability-using-cost-center)
 
 
 ### 2. Related Topics
 
 
-1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
+1. [Cost Center](/docs/en/accounts/cost-center)
 
 

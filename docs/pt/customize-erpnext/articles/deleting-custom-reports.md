@@ -1,7 +1,7 @@
 # Excluindo relatórios personalizados
 
 
-O ERPNext possui vários [tipos de relatórios](/docs/v13/user/manual/en/customize-erpnext/articles/making-custom-reports) que podem ser customizados de acordo com a necessidade do usuário.
+ERPNext tem vários [tipos de relatórios](/docs/pt/customize-erpnext/articles/making-custom-reports) que podem ser personalizados de acordo com os usuários ' requisito.
 
 
 Se houver um relatório personalizado que precise ser excluído, isso pode ser feito seguindo as etapas. Observe que é aplicável apenas para os relatórios personalizados e não para os relatórios padrão.
@@ -13,7 +13,7 @@ Se houver um relatório personalizado que precise ser excluído, isso pode ser f
 Na Awesome Bar, digite e selecione "Report List" para uma opção.
 
 
-![Pesquisa de relatórios](/files/customize-deleting-reports-1.png)
+![Report Search](/files/customize-deleting-reports-1.png)
 
 
 #### Etapa 2: excluir o relatório da lista
@@ -25,7 +25,9 @@ A Lista de relatórios terá todos os relatórios padrão e personalizados da su
 ![Lista de relatórios](/files/customize-deleting-reports.png)
 
 
-Ou você pode abrir esse relatório e excluí-lo do menu Arquivo.
+Ou você pode abrir esse relatório e excluí-lo no menu Arquivo.
 
 
-![Excluir relatório](/files/customize-deleting-reports-2.png)
+![Report Delete](/files/customize-deleting-reports-2.png)
+
+

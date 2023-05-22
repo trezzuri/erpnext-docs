@@ -23,7 +23,7 @@ To make a Workflow and transition rules go to:
 > 
 
 
-Once a Workflow is created, you can take actions on it via [Workflow Actions](/docs/v13/user/manual/en/setting-up/workflow-actions).
+Once a Workflow is created, you can take actions on it via [Workflow Actions](/docs/en/setting-up/workflow-actions).
 
 
 ## 1. Prerequisites
@@ -32,7 +32,7 @@ Once a Workflow is created, you can take actions on it via [Workflow Actions](/d
 Before creating a Workflow, it is advised to create these first:
 
 
-* [Workflow Actions](/docs/v13/user/manual/en/setting-up/workflow-actions)
+* [Workflow Actions](/docs/en/setting-up/workflow-actions)
 * Workflow States like Approved, Canceled, etc.
 
 
@@ -183,7 +183,7 @@ When the Regional Manager opens the quotation, he can finally "Approve" or "Reje
 ### 6. Related Topics
 
 
-1. [Workflow Actions](/docs/v13/user/manual/en/setting-up/workflow-actions)
-2. [Assignment Rule](/docs/v13/user/manual/en/automation/assignment-rule)
+1. [Workflow Actions](/docs/en/setting-up/workflow-actions)
+2. [Assignment Rule](/docs/en/automation/assignment-rule)
 
 

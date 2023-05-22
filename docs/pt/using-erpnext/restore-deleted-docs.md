@@ -1,7 +1,7 @@
 # Excluindo e Restaurando Documentos
 
 
-**No ERPNext, você pode excluir um documento se não for necessário. Eles podem ser mestres como Itens, Cliente ou transações como Pedido de Venda, Entradas de Pagamento, etc.**
+**No ERPNext, você pode excluir um documento se não for necessário. Eles podem ser mestres como Itens, Clientes ou transações como Pedidos de Venda, Entradas de Pagamento, etc.**
 
 
 Para excluir um documento, você pode ir ao menu suspenso do documento e selecionar 'Excluir'.
@@ -10,18 +10,18 @@ Para excluir um documento, você pode ir ao menu suspenso do documento e selecio
 ![Restaurar documento excluído](/files/using-restore-1.png)
 
 
-Para exclusão em massa, você pode selecionar vários registros cancelados e excluí-los de uma vez na exibição de lista.
+Para exclusão em massa, você pode selecionar vários registros cancelados e excluí-los de uma só vez na exibição de lista.
 
 
 ![Restaurar documentos excluídos](/files/using-restore-3.gif)
 
 
 
->
-> Nota: Qualquer documento submissível não será excluído após o envio. Para excluir um documento enviado, você deverá primeiro 'cancelar' o documento.
->
->
->
+> 
+> Observação: Qualquer documento que pode ser enviado não será excluído após o envio. Para excluir um documento enviado, você deverá primeiro 'cancelar' o documento.
+> 
+> 
+> 
 
 
 ## Restauração de documentos excluídos
@@ -34,17 +34,17 @@ Para acessar os Documentos Excluídos, acesse:
 
 
 
->
-> Início > Configurações > Dados > Documentos excluídos
->
->
->
+> 
+> Página inicial > Configurações > Dados > Documentos excluídos
+> 
+> 
+> 
 
 
 ### 1. Como restaurar documentos excluídos
 
 
-1. Vá para a Lista de Documentos Excluídos
+1. Ir para a lista de documentos excluídos
 2. Abra o documento excluído
 3. Clique no botão **Restaurar**.
 
@@ -53,16 +53,17 @@ Para acessar os Documentos Excluídos, acesse:
 
 
 
->
-> Nota: Se o documento foi excluído após ser *\* cancelado*\*, ele será restaurado com um novo nome.
->
->
->
+> 
+> Observação: se o documento foi excluído após ser *\* cancelado*\*, ​​ele será restaurado com um novo nome.
+> 
+> 
+> 
 
 
 
->
-> Além disso, somente os usuários com função de gerente de sistema atribuída a eles podem restaurar documentos excluídos.
->
->
->
+> 
+> Além disso, apenas os usuários com função de gerente de sistema atribuída a eles podem restaurar documentos excluídos.
+> 
+> 
+> 
+

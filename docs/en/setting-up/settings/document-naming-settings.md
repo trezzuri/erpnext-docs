@@ -81,7 +81,7 @@ You can change the starting/current sequence number of an existing series.
 For example, if the current Sales Order series number is at 16, and you want to restart or set it as 50, enter 0 or 50 depending on your case. Any new Sales Order created will start from the new sequence number.
 
 
-To know more about this, [visit this article](/docs/v13/user/manual/en/setting-up/articles/naming-series-current-value).
+To know more about this, [visit this article](/docs/en/setting-up/articles/naming-series-current-value).
 
 
 
@@ -123,6 +123,6 @@ Then under Naming Series, we allow something like
 ## 7. Related Topics
 
 
-1. [Bulk Rename](/docs/v13/user/manual/en/setting-up/settings/bulk-rename)
+1. [Bulk Rename](/docs/en/setting-up/settings/bulk-rename)
 
 

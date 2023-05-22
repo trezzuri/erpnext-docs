@@ -56,8 +56,8 @@ Automatic Email Linking links an Email to the Document specified in the unique E
 ### 3. Related Topics
 
 
-1. [Auto Email Reports](/docs/v13/user/manual/en/setting-up/email/auto-email-reports)
-2. [Sending Email from any Document](/docs/v13/user/manual/en/setting-up/email/sending-email)
-3. [Document Follow](/docs/v13/user/manual/en/setting-up/email/document-follow)
+1. [Auto Email Reports](/docs/en/setting-up/email/auto-email-reports)
+2. [Sending Email from any Document](/docs/en/setting-up/email/sending-email)
+3. [Document Follow](/docs/en/setting-up/email/document-follow)
 
 

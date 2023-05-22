@@ -1,46 +1,46 @@
-# Conciliar o Adiantamento feito ao Fornecedor
+# Reconciliar o adiantamento feito ao fornecedor
 
 
-**Durante a migração do aplicativo *x* para o ERPNext, como registrar contas a pagar antecipadamente e reconciliar com faturas futuras?**
-
-  
-
-
-**Reserva Antecipada de Contas a Pagar:**
+**Ao migrar do aplicativo *x* para o ERPNext, como reservar contas a pagar antecipadamente e reconciliar com faturas futuras?** 
 
   
 
 
-Crie um **Registro de Diário** com o tipo **Registro de Abertura**, debite a *Conta do Credor* escolhendo o *Fornecedor* necessário e Credite a *Conta de Abertura Temporária*.
-
-Expanda a Linha do Credor e selecione **Sim** para *É Adiantamento.*
-
-*Consulte o GIF que ilustra o mesmo:*
+**Agendamento de contas a pagar:** 
 
   
 
 
-![](/files/CsMRH40.gif)
+Criar um **Entrada de Diário** com o tipo **Abertura**, Debitar a *Conta do Credor* escolhendo o *Fornecedor* necessário e Creditar a *Temporária Abertura de conta*.
+
+Expanda a Linha do credor e selecione **Sim** para *É adiantado.* 
+
+*Consulte o GIF que ilustra o mesmo:* 
 
   
 
 
-O envio do lançamento contábil refletirá um saldo negativo no **Resumo de contas a pagar**:![](/files/FJeIj5k.png)**Reconciliando-o com as faturas de compra:**
+![](/ files/CsMRH40.gif)
 
   
 
 
-Consulte o relatório **Contas a Pagar** *depois* de criar uma Fatura de Compra:
+Enviar o lançamento contábil manual refletirá um saldo negativo no **Resumo de contas a pagar**:![](/files/FJeIj5k.png)**Conciliação com as Faturas de Compra:** 
 
   
 
 
-![](/files/cxZArKd.png)
+Consulte **Contas a Pagar**  relatório *após* criar uma Fatura de Compra:
 
   
 
 
-Atualmente, eles não são reconciliados e são refletidos como **duas** **entradas separadas**, use a ferramenta **Reconciliação de pagamentos** para reconciliar essas duas entradas, *consulte o GIF para obter as etapas:*
+![](/files/cxZArKd.png) 
+
+  
+
+
+Atualmente, eles não são reconciliados e são refletidos como **dois** **entradas separadas**, use o **Payment Reconciliation** ferramenta para reconciliar essas duas entradas, *consulte o GIF para as etapas:*
 
   
 
@@ -50,9 +50,10 @@ Atualmente, eles não são reconciliados e são refletidos como **duas** **entra
   
 
 
-Consulte o Relatório de Contas a Pagar após a reconciliação, ele *não* refletirá mais o **Lançamento Diário** e refletirá o (*Valor Faturado - Valor Adiantado)*:
+Consulte o Relatório de contas a pagar após a reconciliação, ele *não* refletirá o **Entrada de diário** e refletirá o (*Valor faturado - Valor do adiantamento)*: 
 
   
 
 
 ![](/files/vaXYQNc.png)
+

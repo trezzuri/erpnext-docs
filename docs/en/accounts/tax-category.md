@@ -22,7 +22,7 @@ If you want to apply different kinds of taxes based on Tax Categories, create Ta
 Before creating and using a Tax Category, it is advised to create the following first:
 
 
-1. [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule)
+1. [Tax Rule](/docs/en/accounts/tax-rule)
 
 
 ## 2. How does a Tax Category work
@@ -31,7 +31,7 @@ Before creating and using a Tax Category, it is advised to create the following 
 Creating a Tax Category is simple, go to the Tax Category list, click on New and enter a name.
 
 
-* A Tax category can be linked to one or more [Tax Rules](/docs/v13/user/manual/en/accounts/tax-rule).
+* A Tax category can be linked to one or more [Tax Rules](/docs/en/accounts/tax-rule).
 * This Tax Category can be assigned to a Customer, so when that Customer is selected, the Tax Category will be fetched. This also applies in case of a Supplier.
 * This will fetch the Sales Tax Template linked to the Tax Rule. Hence, the rows in the Tax table will be automatically filled.
 * Tax Category can be used to group Customers to whom same tax will be applied. For example, Government, NGO, commercial, etc.
@@ -54,12 +54,12 @@ Creating a Tax Category is simple, go to the Tax Category list, click on New and
 Tax Category is automatically determined in a transaction by either the Party Address or Party Master (Customer/Supplier). You can assign Tax Category based on:
 
 
-1. [Customer](/docs/v13/user/manual/en/CRM/customer)
-2. [Supplier](/docs/v13/user/manual/en/buying/supplier)
-3. [Address](/docs/v13/user/manual/en/CRM/address) Billing or Shipping.
+1. [Customer](/docs/en/CRM/customer)
+2. [Supplier](/docs/en/buying/supplier)
+3. [Address](/docs/en/CRM/address) Billing or Shipping.
 You can select whether Billing Address or Shipping Address gets preference by changing the 'Determine Address Tax Category From' option in Accounts Settings. Tax Category is determined from Party Address first. If the Address is not assigned any Tax Category, then the Party's Tax Category is used.
  ![Tax Cat Address](/files/tax-category-in-address.png)
-4. [Item](/docs/v13/user/manual/en/stock/item#316-item-tax)
+4. [Item](/docs/en/stock/item#316-item-tax)
 5. You can also manually select the Tax Category in a transaction.
 
 
@@ -73,9 +73,9 @@ You can select whether Billing Address or Shipping Address gets preference by ch
 ## 5. Related Topics
 
 
-1. [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule)
-2. [Customer](/docs/v13/user/manual/en/CRM/customer)
-3. [Supplier](/docs/v13/user/manual/en/buying/supplier)
-4. [Address](/docs/v13/user/manual/en/CRM/address)
+1. [Tax Rule](/docs/en/accounts/tax-rule)
+2. [Customer](/docs/en/CRM/customer)
+3. [Supplier](/docs/en/buying/supplier)
+4. [Address](/docs/en/CRM/address)
 
 

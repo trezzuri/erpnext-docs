@@ -25,8 +25,8 @@ To access the Tax Withholding Category list, go to:
 Before creating and using a Tax Withholding Category, it is advised to create the following first:
 
 
-1. [Supplier](/docs/v13/user/manual/en/buying/supplier)
-2. [Customer](/docs/v13/user/manual/en/CRM/customer)
+1. [Supplier](/docs/en/buying/supplier)
+2. [Customer](/docs/en/CRM/customer)
 
 
 ## 2. How to create a Tax Withholding Category
@@ -38,7 +38,7 @@ In ERPNext, Tax Withholding Categories for most cases are available by default, 
 1. Go to the Tax Withholding Category list and click on New.
 2. Enter a unique name, eg: Section 194C Individual.
 3. Enter a Category Name (Dividends, Professional Fees, etc,.).
-4. Enter a Tax Withholding Rate against a [Fiscal Year](/docs/v13/user/manual/en/accounts/fiscal-year).
+4. Enter a Tax Withholding Rate against a [Fiscal Year](/docs/en/accounts/fiscal-year).
 5. You can set the threshold for a single invoice or sum of all invoices.
 6. Select an account against your Company to which tax will be credited.
 7. Add more companies and accounts as needed.
@@ -185,8 +185,8 @@ Since the invoice cross the Cumulative threshold (50 Lakhs), we see that tax has
 ### 4. Related Topics
 
 
-1. [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule)
-2. [Supplier](/docs/v13/user/manual/en/buying/supplier)
-3. [Customer](/docs/v13/user/manual/en/CRM/customer)
+1. [Tax Rule](/docs/en/accounts/tax-rule)
+2. [Supplier](/docs/en/buying/supplier)
+3. [Customer](/docs/en/CRM/customer)
 
 

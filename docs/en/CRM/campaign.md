@@ -38,7 +38,7 @@ To access Campaign, go to:
 ### 2.1 Tag Campaign in Lead, Opportunity, and Quotation
 
 
-When a marketing campaign generates a lead or an opportunity, you can tag the campaign while creating the [Lead](/docs/v13/user/manual/en/CRM/lead) or [Opportunity](/docs/v13/user/manual/en/CRM/opportunity). You can also tag the campaign in [Quotation](/docs/v13/user/manual/en/selling/quotation).
+When a marketing campaign generates a lead or an opportunity, you can tag the campaign while creating the [Lead](/docs/en/CRM/lead) or [Opportunity](/docs/en/CRM/opportunity). You can also tag the campaign in [Quotation](/docs/en/selling/quotation).
 
 
 This helps in assessing the effectiveness of a marketing campaign by calculating the return on investment.
@@ -64,7 +64,7 @@ This helps in assessing the effectiveness of a marketing campaign by calculating
 ### 2.3 Set up email schedules for Email Campaigns
 
 
-If you want to carry out a campaign using emails for your leads or contacts, [Email Campaign](/docs/v13/user/manual/en/CRM/email-campaign) serves the purpose.
+If you want to carry out a campaign using emails for your leads or contacts, [Email Campaign](/docs/en/CRM/email-campaign) serves the purpose.
 
 
 You will have to set up a schedule for the campaign. Click on 'Add Row' to add an entry to the campaign schedule.
@@ -94,12 +94,12 @@ The Campaign dashboard shows you all the Email Campaigns and Social Media Post l
 ## 3. Related Topics
 
 
-1. [Lead](/docs/v13/user/manual/en/CRM/lead)
-2. [Opportunity](/docs/v13/user/manual/en/CRM/opportunity)
-3. [Quotation](/docs/v13/user/manual/en/selling/quotation)
-4. [Email Campaign](/docs/v13/user/manual/en/CRM/email-campaign)
+1. [Lead](/docs/en/CRM/lead)
+2. [Opportunity](/docs/en/CRM/opportunity)
+3. [Quotation](/docs/en/selling/quotation)
+4. [Email Campaign](/docs/en/CRM/email-campaign)
 
 
-Next: [Email Campaign](/docs/v13/user/manual/en/CRM/email-campaign)
+Next: [Email Campaign](/docs/en/CRM/email-campaign)
 
 

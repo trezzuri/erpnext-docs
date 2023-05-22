@@ -5,7 +5,7 @@
 **Data Export lets you export data from DocTypes to a CSV or an Excel format.**
 
 
-After exporting data, you can use the same file to import data using [Data Import](/docs/v13/user/manual/en/setting-up/data/data-import).
+After exporting data, you can use the same file to import data using [Data Import](/docs/en/setting-up/data/data-import).
 
 
 To access Data Export, go to:
@@ -36,6 +36,6 @@ To access Data Export, go to:
 ### Related Topics
 
 
-1. [Data Import](/docs/v13/user/manual/en/setting-up/data/data-import)
+1. [Data Import](/docs/en/setting-up/data/data-import)
 
 

@@ -11,11 +11,11 @@ Para acessar os Padrões Globais, acesse:
 
 
 
->
-> Início > Configurações > Padrões globais
->
->
->
+> 
+> Página inicial > Configurações > Padrões globais
+> 
+> 
+> 
 
 
 Ou pesquise na barra de pesquisa.
@@ -24,11 +24,11 @@ Ou pesquise na barra de pesquisa.
 Sempre que um novo documento for criado, esses valores serão definidos como padrão.
 
 
-![Padrões Globais](/files/global-defaults.png)
+![Global Defaults](/files/global-defaults.png)
 
 
-* Empresa Padrão
-* Ano Fiscal Atual
+* Empresa padrão
+* Ano fiscal atual
 * País
 * Unidade de distância padrão
 * Moeda padrão
@@ -37,10 +37,10 @@ Sempre que um novo documento for criado, esses valores serão definidos como pad
 * Desativar em palavras
 
 
-A unidade de distância padrão é usada para calcular a distância total em [viagens de entrega](/docs/v13/user/manual/en/stock/delivery-trip).
+A unidade de distância padrão é usada para calcular a distância total em [viagens de entrega](/docs/pt/stock/delivery-trip).
 
 
 ### Tópicos relacionados
 
 
-1. [Configurações do sistema](/docs/v13/user/manual/en/setting-up/settings/system-settings)
+1. [Configurações do sistema](/docs/pt/setting-up/settings/system-settings)

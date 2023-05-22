@@ -19,7 +19,7 @@ Let's assume that we need to enable Document Versioning for Purchase Order.
 
 1. Go to Purchase Order List.
 2. Click on Customize from the drop-down menu.
-3. You shall be directed to the [Customize Form](/docs/v13/user/manual/en/customize-erpnext/customize-form) page for Purchase Order.
+3. You shall be directed to the [Customize Form](/docs/en/customize-erpnext/customize-form) page for Purchase Order.
 4. Check the field "Track changes" in the Properties.
 
 

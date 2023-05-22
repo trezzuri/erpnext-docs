@@ -31,7 +31,7 @@ Further instructions on installing the QZ Tray Application can be [here](https:/
 ### 1.2 Create Raw Commands Print Format
 
 
-To be able to send raw commands to a printer you need to first create a print format in raw commands. Jinja Templating Language is used in raw commands just like in the [HTML custom print format](/docs/v13/user/manual/en/customize-erpnext/print-format).
+To be able to send raw commands to a printer you need to first create a print format in raw commands. Jinja Templating Language is used in raw commands just like in the [HTML custom print format](/docs/en/customize-erpnext/print-format).
 
 
 To create a new print format for Raw Printing:
@@ -94,7 +94,7 @@ To print a raw command print format from the Document print view:
 ### 2.2 Calling Raw Print functions from a client script
 
 
-It is often a requirement that a print command has to be issued on a certain event (like submit, save, amend, etc.). It is possible to write a [client script](/docs/v13/user/manual/en/customize-erpnext/client-scripts) to do this for you.
+It is often a requirement that a print command has to be issued on a certain event (like submit, save, amend, etc.). It is possible to write a [client script](/docs/en/customize-erpnext/client-scripts) to do this for you.
 
 
 Following are the relevant Raw Print functions:
@@ -155,8 +155,8 @@ You can also directly access the functions provided by the `qz-tray.js` library 
 ### 3. Related Topics
 
 
-1. [Print Settings](/docs/v13/user/manual/en/setting-up/print/print-settings)
-2. [Print Format](/docs/v13/user/manual/en/setting-up/print/print-format)
-3. [Print Style](/docs/v13/user/manual/en/setting-up/print/print-style)
+1. [Print Settings](/docs/en/setting-up/print/print-settings)
+2. [Print Format](/docs/en/setting-up/print/print-format)
+3. [Print Style](/docs/en/setting-up/print/print-style)
 
 

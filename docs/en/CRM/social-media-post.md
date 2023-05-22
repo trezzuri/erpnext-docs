@@ -10,7 +10,7 @@
 > 
 
 
-Social Media Post is used to create and schedule the post for LinkedIn and Twitter, it can be also linked with a [Campaign](/docs/v13/user/manual/en/CRM/campaign).
+Social Media Post is used to create and schedule the post for LinkedIn and Twitter, it can be also linked with a [Campaign](/docs/en/CRM/campaign).
 
 
 To access Social Media Post, go to:
@@ -27,8 +27,8 @@ To access Social Media Post, go to:
 ## 1. Prerequisites
 
 
-1. [LinkedIn Settings](/docs/v13/user/manual/en/CRM/linkedin-settings)
-2. [Twitter Settings](/docs/v13/user/manual/en/CRM/twitter-settings)
+1. [LinkedIn Settings](/docs/en/CRM/linkedin-settings)
+2. [Twitter Settings](/docs/en/CRM/twitter-settings)
 
 
 ## 2. How to create a Social Media Post
@@ -64,6 +64,6 @@ Users can change the Scheduled Time of the post. In case there is an error, user
 ## 4. Related Topics
 
 
-1. [Campaign](/docs/v13/user/manual/en/CRM/campaign)
+1. [Campaign](/docs/en/CRM/campaign)
 
 

@@ -31,8 +31,8 @@ A Maintenance Schedule is usually created from a Sales Order of type 'Maintenanc
 ## 1. Prerequisites
 
 
-* [Customer](/docs/v13/user/manual/en/CRM/customer)
-* [Item](/docs/v13/user/manual/en/stock/item)
+* [Customer](/docs/en/CRM/customer)
+* [Item](/docs/en/stock/item)
 
 
 ## 2. How to Create a Maintenance Schedule
@@ -61,9 +61,9 @@ When the document is Submitted Calendar events are created for the Sales Person 
 ## 3. Related Topics
 
 
-1. [Serial Number](/docs/v13/user/manual/en/stock/serial-no)
-2. [Warranty Claim](/docs/v13/user/manual/en/support/warranty-claim)
-3. [Maintenance Visit](/docs/v13/user/manual/en/support/maintenance-visit)
-4. [Sales Order](/docs/v13/user/manual/en/selling/sales-order)
+1. [Serial Number](/docs/en/stock/serial-no)
+2. [Warranty Claim](/docs/en/support/warranty-claim)
+3. [Maintenance Visit](/docs/en/support/maintenance-visit)
+4. [Sales Order](/docs/en/selling/sales-order)
 
 

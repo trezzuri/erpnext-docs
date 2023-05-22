@@ -141,15 +141,15 @@ This is executed from the `frappe-bench` directory.
 ## 4. Raw Printing
 
 
-You can enable raw printing and print to many supported thermal printers. Read [Raw Printing](/docs/v13/user/manual/en/setting-up/print/raw-printing) to know more.
+You can enable raw printing and print to many supported thermal printers. Read [Raw Printing](/docs/en/setting-up/print/raw-printing) to know more.
 
 
 ### 5. Related Topics
 
 
-1. [Print Format](/docs/v13/user/manual/en/setting-up/print/print-format)
-2. [Print Style](/docs/v13/user/manual/en/setting-up/print/print-style)
-3. [Print Headings](/docs/v13/user/manual/en/setting-up/print/print-headings)
-4. [Custom Translations](/docs/v13/user/manual/en/setting-up/print/custom-translations)
+1. [Print Format](/docs/en/setting-up/print/print-format)
+2. [Print Style](/docs/en/setting-up/print/print-style)
+3. [Print Headings](/docs/en/setting-up/print/print-headings)
+4. [Custom Translations](/docs/en/setting-up/print/custom-translations)
 
 

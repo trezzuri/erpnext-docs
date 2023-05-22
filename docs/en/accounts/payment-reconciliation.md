@@ -44,9 +44,9 @@ To access Payment Reconciliation, go to:
 ### 2. Related Topics
 
 
-1. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
-2. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-3. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
-4. [Semi-Auto Payment Reconciliation](/docs/v14/user/manual/en/accounts/semi-auto-payment-reconciliation)
+1. [Payment Request](/docs/en/accounts/payment-request)
+2. [Sales Invoice](/docs/en/accounts/sales-invoice)
+3. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
+4. [Semi-Auto Payment Reconciliation](/docs/en/accounts/semi-auto-payment-reconciliation)
 
 

@@ -1,7 +1,7 @@
 # Ocultar botões na exibição de formulário
 
 
-Em um pedido de venda enviado, você pode ver botões como **Atualizar itens**, **Status**. Além disso, existem muitas opções no botão 'Criar'.
+Em um pedido de venda enviado, você pode ver botões como **Atualizar itens**, **Status**. Além disso, há muitas opções no botão 'Criar'.
 
 
 ![Script personalizado](/files/sales_order_buttons.png)

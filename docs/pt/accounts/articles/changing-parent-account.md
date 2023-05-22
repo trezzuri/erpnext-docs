@@ -1,4 +1,5 @@
-# Alteração da conta principal
+# Mudando conta principal
 
 
-![Alterar conta principal](/files/change-parent-account.gif)
+![Change Parent Account](/files/change-parent-account.gif)
+

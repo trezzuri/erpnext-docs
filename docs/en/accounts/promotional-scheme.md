@@ -16,7 +16,7 @@
 Promotional schemes help businesses become successful as lower prices for a limited period of time to attract more Customers. They can be easily configured in ERPNext. A Promotional scheme is linked to a pricing rule, against each slab system that will generate the pricing rule.
 
 
-On creating a Promotional Scheme, the system creates a [Pricing Rule](/docs/v13/user/manual/en/accounts/pricing-rule). A Promotional Scheme can have multiple Pricing Rules associated with it. In ERPNext, a Promotional Scheme is an easier way to manage pricing on multiple Item/Groups based on different parties and conditions.
+On creating a Promotional Scheme, the system creates a [Pricing Rule](/docs/en/accounts/pricing-rule). A Promotional Scheme can have multiple Pricing Rules associated with it. In ERPNext, a Promotional Scheme is an easier way to manage pricing on multiple Item/Groups based on different parties and conditions.
 
 
 To access the Promotional Scheme list, go to:
@@ -36,10 +36,10 @@ To access the Promotional Scheme list, go to:
 Before creating and using a Promotional Scheme, it is advisable to create the following first:
 
 
-1. [Item](/docs/v13/user/manual/en/stock/item)
-2. [Item Group](/docs/v13/user/manual/en/stock/item-group)
-3. [Customer](/docs/v13/user/manual/en/CRM/customer)
-4. [Supplier](/docs/v13/user/manual/en/buying/supplier)
+1. [Item](/docs/en/stock/item)
+2. [Item Group](/docs/en/stock/item-group)
+3. [Customer](/docs/en/CRM/customer)
+4. [Supplier](/docs/en/buying/supplier)
 
 
 ## 2. How to create a Promotional Scheme
@@ -108,12 +108,12 @@ Set whether the Promotional Scheme is for Selling of Buying the Item.
 Based on your selection you can set applicability to one of the following masters.
 
 
-* [Customer](/docs/v13/user/manual/en/CRM/customer)
-* [Customer Group](/docs/v13/user/manual/en/CRM/customer-group)
-* [Territory](/docs/v13/user/manual/en/selling/territory)
-* [Sales Partner](/docs/v13/user/manual/en/selling/sales-partner)
-* [Campaign](/docs/v13/user/manual/en/CRM/campaign)
-* [Supplier](/docs/v13/user/manual/en/buying/supplier)
+* [Customer](/docs/en/CRM/customer)
+* [Customer Group](/docs/en/CRM/customer-group)
+* [Territory](/docs/en/selling/territory)
+* [Sales Partner](/docs/en/selling/sales-partner)
+* [Campaign](/docs/en/CRM/campaign)
+* [Supplier](/docs/en/buying/supplier)
 * Supplier Group
 
 
@@ -247,9 +247,9 @@ To configure this in ERPNext the steps are as follows
 ## 6. Related Topics
 
 
-1. [Pricing Rule](/docs/v13/user/manual/en/accounts/pricing-rule)
-2. [Customer](/docs/v13/user/manual/en/CRM/customer)
-3. [Supplier](/docs/v13/user/manual/en/buying/supplier)
-4. [Item](/docs/v13/user/manual/en/stock/item)
+1. [Pricing Rule](/docs/en/accounts/pricing-rule)
+2. [Customer](/docs/en/CRM/customer)
+3. [Supplier](/docs/en/buying/supplier)
+4. [Item](/docs/en/stock/item)
 
 

@@ -1,8 +1,9 @@
-# Conceitos e Termos
+
+# Concepts and Terms
 
 
-Antes de iniciar a implementação, vamos nos familiarizar com a terminologia que
-é utilizado e alguns conceitos básicos do ERPNext.
+Before you start implementation, lets get familiar with the terminology that
+is used and some basic concepts in ERPNext.
 
 
 
@@ -10,157 +11,158 @@ Antes de iniciar a implementação, vamos nos familiarizar com a terminologia qu
 ---
 
 
-### Conceitos Básicos
+### Basic Concepts
 
 
-#### Empresa
+#### Company
 
 
-Representa os registros da Empresa para os quais o ERPNext está configurado. Com este mesmo
-configuração, você pode criar vários registros de empresa, cada um representando um
-entidade legal. A contabilidade de cada empresa será diferente, mas
-compartilhar os registros de Cliente, Fornecedor e Item.
-
-
-
->
-> Configuração > Empresa
->
->
->
-
-
-#### Cliente
-
-
-Representa um cliente. Um cliente pode ser um indivíduo ou uma organização.
-Você pode criar vários contatos e endereços para cada cliente.
+This represents the Company records for which ERPNext is setup. With this same
+setup, you can create multiple Company records, each representing a different
+legal entity. The accounting for each Company will be different, but they will
+share the Customer, Supplier and Item records.
 
 
 
->
-> Venda > Cliente
->
->
->
+> 
+> Setup > Company
+> 
+> 
+> 
 
 
-#### Fornecedor
+#### Customer
 
 
-Representa um fornecedor de bens ou serviços. Sua companhia telefônica é uma
-Fornecedor, assim é o seu fornecedor de matérias-primas. Mais uma vez, um Fornecedor pode ser um
-indivíduo ou uma organização e tem vários contatos e endereços.
+Represents a customer. A Customer can be an individual or an organization.
+You can create multiple Contacts and Addresses for each Customer.
 
 
 
->
-> Compra > Fornecedor
->
->
->
+> 
+> Selling > Customer
+> 
+> 
+> 
+
+
+#### Supplier
+
+
+Represents a supplier of goods or services. Your telephone company is a
+Supplier, so is your raw materials Supplier. Again, a Supplier can be an
+individual or an organization and has multiple Contacts and Addresses.
+
+
+
+> 
+> Buying > Supplier
+> 
+> 
+> 
 
 
 #### Item
 
 
-Um produto, subproduto ou serviço que é comprado, vendido ou fabricado
-e é identificado de forma única.
+A Product, sub-product or Service that is either bought, sold or manufactured
+and is uniquely identified.
 
 
 
->
-> Estoque > Item
->
->
->
+> 
+> Stock > Item
+> 
+> 
+> 
 
 
-#### Conta
+#### Account
 
 
-Uma Conta é uma rubrica na qual as transações financeiras e comerciais são
-continuou. Exemplos de contas são "Devedores", "Credores", "IVA a Pagar", "Despesas de Viagem", "Vendas", "Capital Social", etc. O ERPNext acompanha os seus clientes e
-saldos dos fornecedores em segundo plano, para que você não precise criar contas dedicadas para eles.
-
-
-
->
-> Contabilidade > Plano de contas
->
->
->
-
-
-#### Endereço
-
-
-Um endereço representa detalhes de localização de um cliente ou fornecedor. estes podem ser
-de diferentes locais, como Sede, Fábrica, Armazém, Loja, etc.
+An Account is a heading under which financial and business transactions are
+carried on. Examples of accounts are "Debtors", "Creditors", "VAT Payable", “Travel Expenses”, "Sales", "Share Capital", etc. ERPNext keeps track of your customers' and
+suppliers' balances in the background, so you don't need to create dedicated Accounts for them.
 
 
 
->
-> Vendo > Endereço
->
->
->
+> 
+> Accounting > Chart of Accounts
+> 
+> 
+> 
 
 
-#### Contato
+#### Address
 
 
-Um contato individual pertence a um cliente ou fornecedor ou é apenas um
-independente. Um contato tem um nome e detalhes de contato, como e-mail e telefone
-número.
-
-
-
->
-> Venda > Contato
->
->
->
-
-
-#### Comunicação
-
-
-Uma lista de todas as comunicações com um contato ou lead. Todos os e-mails enviados pelo
-sistema são adicionados à tabela de comunicação.
+An address represents location details of a Customer or Supplier. These can be
+of different locations such as Head Office, Factory, Warehouse, Shop etc.
 
 
 
->
-> Suporte > Comunicação
->
->
->
+> 
+> Selling > Address
+> 
+> 
+> 
 
 
-#### Lista de preços
+#### Contact
 
 
-Uma Lista de Preços é um local onde diferentes planos de tarifas podem ser armazenados. é um nome
-você dá a um conjunto de preços de itens armazenados em uma lista específica.
-
-
-
->
-> Venda > Lista de preços
->
->
->
+An individual Contact belongs to a Customer or Supplier or is just an
+independent. A Contact has a name and contact details like email and phone
+number.
 
 
 
->
-> Compra > Tabela de preços
->
->
->
+> 
+> Selling > Contact
+> 
+> 
+> 
+
+
+#### Communication
+
+
+A list of all Communication with a Contact or Lead. All emails sent from the
+system are added to the Communication table.
+
+
+
+> 
+> Support > Communication
+> 
+> 
+> 
+
+
+#### Price List
+
+
+A Price List is a place where different rate plans can be stored. It’s a name
+you give to a set of Item Prices stored under a particular List.
+
+
+
+> 
+> Selling > Price List
+> 
+> 
+> 
+
+
+
+> 
+> Buying > Price List
+> 
+> 
+> 
 
 
 
 
 ---
+

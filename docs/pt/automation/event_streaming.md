@@ -1,356 +1,357 @@
-# Transmissão de eventos
 
+# Event Streaming
 
 
->
-> Introduzido na versão 13
->
->
->
 
+> 
+> Introduced in Version 13
+> 
+> 
+> 
 
-O Event Streaming permite comunicações entre dois ou mais sites. Você pode **assinar** os Tipos de Documentos e **transmitir** Documentos entre sites diferentes.
 
+Event Streaming enables inter site communications between two or more sites. You can **subscribe** to Document Types and **stream** Documents between different sites.
 
-Por Exemplo: Considere que você tem mais de uma Empresa hospedada em sites diferentes, um deles é o site principal onde você deseja fazer o lançamento contábil e em outros sites são geradas as Notas Fiscais de Vendas. Você pode usar o Streaming de eventos neste caso. Para isso, os sites de sua empresa filha podem se inscrever no site principal da empresa para tipos de documento de item, cliente e fornecedor. A Empresa principal, por sua vez, pode se inscrever nas empresas filhas para Notas Fiscais.
 
+For Example: Consider you have more than one Company hosted on different sites, one among them is the main site where you want to do ledger posting and on other sites, the Sales Invoices are generated. You can use Event Streaming in this case. For this, your child company sites can subscribe to the main company site for Item, Customer, and Supplier Document Types. The main Company in turn can subscribe to the child companies for Sales Invoices.
 
-Para acessar o Event Streaming, acesse:
 
+To access Event Streaming, go to:
 
 
->
-> Início > Automação > Transmissão de eventos
->
->
->
 
+> 
+> Home > Automation > Event Streaming
+> 
+> 
+> 
 
-## 1. Pré-requisitos
 
+## 1. Prerequisites
 
-Antes de criar um Produtor de Eventos, é necessário criar um usuário comum em ambos os sites que será usado para acessar o site e atuará como um Assinante do Evento. Certifique-se de que o usuário seja um System Manager e tenha as permissões necessárias para criação, atualização e exclusão dos DocTypes inscritos.
 
+Before creating an Event Producer, a common user needs to be created on both the sites which will be used to access the site and will act as an Event Subscriber. Make sure the user is a System Manager and has the necessary permissions for creation, updation, and deletion of the subscribed DocTypes.
 
-## 2. Como configurar o streaming de eventos
 
+## 2. How to set up Event Streaming
 
-Vamos pegar dois sites para explicar o processo. http://test*site:8000 (site do consumidor) e http://test*site\_producter:8000 (site do produtor)
 
+Let's take two sites for explaining the process. http://test*site:8000 (Consumer site) and http://test*site\_producer:8000 (Producer site)
 
-### 2.1 Obtenha as chaves do Assinante do Evento no Site do Produtor
 
+### 2.1 Obtain the Event Subscriber's keys from the Producer Site
 
-1. Em http://test*site*producer:8000 (site do produtor), vá para a lista de usuários.
-2. Abra o documento do usuário que você usará como assinante do evento. Role para baixo até a seção denominada "Acesso à API". Nessa seção, gere chaves para o usuário clicando no botão **Gerar Chaves**. Você receberá um prompt com o segredo do usuário, copie o segredo do usuário e salve-o com você. Ele também irá gerar uma chave de API.
 
+1. On http://test*site*producer:8000 (producer site), go to the User list.
+2. Open the user document you are going to use as an Event Subscriber. Scroll down to the section labelled "API Access". In that section, generate keys for the user by clicking on **Generate Keys** button. You will get a prompt with the user secret, copy the user secret and save it with you. It will also generate an API key.
 
-### 2.2 Gerar Chaves para o Assinante do Evento no Site do Consumidor
 
+### 2.2 Generate Keys for the Event Subscriber on the Consumer Site
 
-1. Em http://test\_site:8000 (site do consumidor), acesse a lista Usuário e siga o mesmo processo especificado na etapa anterior.
 
+1. On http://test\_site:8000 (consumer site), go to the User list and follow the same process specified in the previous step.
 
-### 2.3 Criar um Produtor de Eventos no Site do Consumidor
 
+### 2.3 Create an Event Producer on the Consumer Site
 
-1. O site que você deseja assinar é chamado de Produtor de Eventos. Crie um documento do Event Producer para o site do qual você deseja obter as atualizações.
-2. Em http://test\_site:8000 (site do consumidor), vá para **Home > Automation > Event Streaming > Event Producer**.
-3. Insira a URL do site que deseja assinar (neste caso http://test*site*producter:8000), no campo Producer URL.
-4. Adicione todos os Tipos de Documentos que deseja assinar na tabela Tipos de Documentos do Produtor de Eventos.
-5. Se você deseja que os documentos criados tenham o mesmo nome que estão no site do Event Producer remoto, marque a caixa de seleção 'Use Same Name' na tabela em relação ao tipo de documento necessário.
-6. Defina o campo Assinante do Evento para o usuário que será usado para criar os documentos buscados no Produtor do Evento. Você precisa criar o mesmo usuário nos dois sentidos, ou seja, no site Event Consumer e no Event Producer antes de criar o Event Producer.
-7. Cole a API key e API Secret que você gerou na primeira etapa (2.1) nos campos API key e API secret, respectivamente.
-8. Salve.
-9. Depois de salvar, um consumidor de evento é criado no site do produtor (http://test*site*producer:8000). As chaves do usuário no site do consumidor são copiadas automaticamente para o documento Event Consumer no site do produtor neste processo.
 
+1. The site which you want to subscribe to, is called as the Event Producer. Create an Event Producer document for the site you wish to get the updates from.
+2. On http://test\_site:8000 (consumer site), go to **Home > Automation > Event Streaming > Event Producer**.
+3. Enter the URL of the site you want to subscribe to (in this case http://test*site*producer:8000), in the Producer URL field.
+4. Add all the Document Types you want to subscribe to, in the Event Producer Document Types table.
+5. If you want to have the created documents with the same name as it is on the remote Event Producer site, check the 'Use Same Name' checkbox in the table against the required Document Type.
+6. Set the Event Subscriber field to the user that will be used to create the documents fetched from the Event Producer. You need to create the same user both ways, i.e. on the Event Consumer as well as the Event Producer site before creating the Event Producer.
+7. Paste the API key and API Secret you generated in the first step (2.1) in the API key and API secret fields respectively.
+8. Save.
+9. After saving, an Event Consumer is created on the producer site (http://test*site*producer:8000). The keys of the user on the consumer site are automatically copied to the Event Consumer document on the producer site in this process.
 
-![Produtor de evento](/files/event-producer-doc.png)
 
+![Event Producer](/files/event-producer-doc.png)
 
 
->
-> **Observação**: Se o Segredo da API for alterado para os usuários em qualquer um desses sites, você terá que atualizar manualmente as chaves no Produtor de evento, bem como no Consumidor de evento em ambos os sites.
->
->
->
 
+> 
+> **Note**: If at all the API Secret is changed for the users on any of these sites, you will have to manually update the keys in the Event Producer as well as the Event Consumer on both the sites.
+> 
+> 
+> 
 
-### 2.4 Aprovar consumidor de evento no site do produtor de evento
 
+### 2.4 Approve Event Consumer on the Event Producer site
 
-1. Após a criação do Produtor de Evento, um Consumidor de Evento é criado automaticamente no site do produtor. Por defeito, todos os Tipos de Documentos Subscritos têm o estado 'Pendente'. Para permitir que o Consumidor de Evento consuma os documentos desses Tipos de Documentos, seu Status precisa ser atualizado para 'Aprovado'.
-2. Acesse: **Página inicial > Automação > Streaming de eventos > Consumidor de eventos**.
-3. Depois de abrir o documento Event Consumer, você verá todos os Tipos de Documentos aos quais o consumidor se inscreveu. Altere o status de 'Pendente' para 'Aprovado' para todos os Tipos de Documentos que você deseja aprovar para serem consumidos. Você pode alterar o status para 'Rejeitado' se não quiser que os documentos desse Tipo de Documento sejam consumidos.
-4. Salve.
 
+1. After the Event Producer has been created, an Event Consumer automatically gets created on the producer site. By default, all the Subscribed Document Types have the status as 'Pending'. In order to enable the Event Consumer to consume the documents of these Document Types, their Status needs to be updated to 'Approved'.
+2. Go to: **Home > Automation > Event Streaming > Event Consumer**.
+3. Once you open the Event Consumer document you will see all the Document Types that the consumer has subscribed to. Change the status from 'Pending' to 'Approved' for all the Document Types that you want to approve to be consumed. You can change the status to 'Rejected' if you do not want the documents of that Document Type to be consumed.
+4. Save.
 
-![Consumidor de evento](/files/event-consumer-doc.png)
 
+![Event Consumer](/files/event-consumer-doc.png)
 
 
->
-> **Observação**: as atualizações de documentos para tipos de documentos assinados não serão sincronizadas, a menos que sejam aprovadas.
->
->
->
 
+> 
+> **Note**: Document updates for Subscribed Document Types won't be synced unless they are Approved.
+> 
+> 
+> 
 
-### 2.5 Acesso offline com site único
 
+### 2.5 Offline access with single site
 
-Se você tiver alguns lugares onde a conectividade com a Internet é baixa, por exemplo, uma loja em uma área remota onde as faturas de vendas são geradas e deseja sincronizar essas faturas da loja para a conta hospedada, você pode configurar a sincronização offline usando as seguintes etapas:
 
+If you have some places where internet connectivity is low, for example, a store in a remote area where sales invoices are generated and you want to sync these invoices from the store to the hosted account, you could setup offline syncing using the following steps:
 
-1. Configure uma instância local do ERPNext. Você pode consultar [este guia](https://github.com/frappe/bench) para configuração local.
-2. Você precisa ter uma conta hospedada com sua empresa configurada.
-3. Agora crie um Produtor de Evento na conta hospedada e defina a URL do produtor para a URL de sua conta local.
-4. Adicione os tipos de documento que deseja sincronizar na tabela filho Tipos de documento do produtor de evento.
-5. Aprove os doctypes.
 
+1. Set up an ERPNext local instance. You can refer [this guide](https://github.com/frappe/bench) for local setup.
+2. You need to have hosted account with your company set up.
+3. Now create an Event Producer on the hosted account and set the producer URL to the URL of your local account.
+4. Add whatever doctypes you want to sync in the Event Producer Document Types child table.
+5. Approve the doctypes.
 
-## 3. Características
 
+## 3. Features
 
-### 3.1 Cancelar a assinatura das atualizações
 
+### 3.1 Unsubscribe from the updates
 
-Como Consumidor de Eventos, se você deseja cancelar a assinatura das atualizações de quaisquer doctypes nos quais você se inscreveu anteriormente, verifique cancelar a assinatura no doctype. Você não receberá mais atualizações do site do produtor para esse tipo de documento específico depois de cancelar a inscrição.
 
+As an Event Consumer, if you wish to unsubscribe from the updates for any doctypes you had previously subscribed to, check unsubscribe against the doctype. You will not receive any more updates from the producer site for that particular doctype once you have unsubscribed.
 
-![Cancelar inscrição](/files/unsubscribe-event.png)
 
+![Unsubscribe](/files/unsubscribe-event.png)
 
-### 3.2 Registro de atualização de eventos
 
+### 3.2 Event Update Log
 
-O "Log de atualização de eventos" registra todas as ações de criação, atualização e exclusão de documentos que possuem consumidores no site do Event Producer.
-Para visualizar o log de atualização de eventos:
 
+"Event Update Log" logs every create, update, and delete action for documents that have consumers on the Event Producer site.
+In order to view the Event Update Log:
 
-Acesse: **Página inicial > Automação > Transmissão de eventos > Log de atualização de eventos**.
 
+Go to: **Home > Automation > Event Streaming > Event Update Log**.
 
-* Para 'Criar', digite o tipo de atualização, tipo de documento, nome do documento e todo o documento (como JSON) é registrado.
-* Para 'Atualizar' digite o tipo de atualização, tipo de documento, nome do documento e os dados atualizados (diferença entre o estado anterior e o estado atual do documento) são registrados.
-* Para o tipo 'Excluir', apenas o Tipo de atualização, o Tipo de documento e o Nome do documento são registrados.
 
+* For 'Create' type the Update Type, Document Type, Document Name and the entire document (as JSON) is logged.
+* For 'Update' type the Update Type, Document Type, Document Name and the updated data (difference between the previous state and current state of the document) is logged.
+* For 'Delete' type only the Update Type, Document Type, and Document Name is logged.
 
-![Registro de atualização de eventos](/files/event-update-log-doc.png)
 
+![Event Update Log](/files/event-update-log-doc.png)
 
-### 3.3 Log de Sincronização de Eventos
 
+### 3.3 Event Sync Log
 
-Assim como o log de atualização, o log de sincronização de eventos registra todos os documentos sincronizados do produtor de eventos no site do consumidor de eventos.
-Para visualizar o log de sincronização de eventos:
 
+Like the Update Log, Event Sync Log logs every document synced from the Event Producer on the Event Consumer site.
+In order to view the Event Sync Log:
 
-Acesse: **Página inicial > Automação > Transmissão de eventos > Log de sincronização de eventos**.
 
+Go to: **Home > Automation > Event Streaming > Event Sync Log**.
 
-![Log de sincronização de eventos](/files/event-sync-log.png)
 
+![Event Sync Log](/files/event-sync-log.png)
 
-Um evento sincronizado com sucesso gera um documento de log com:
 
+A successfully synced event generates a log document with:
 
-* **Tipo de atualização**: criar, atualizar ou excluir
-* **Status**: Status da sincronização
+
+* **Update Type**: Create, Update or Delete
+* **Status**: Sync Status
 * **DocType**
-* **Produtor do evento**: URL do site de onde o documento foi criado
-* **Nome do Documento**
-* **Remote Document Name**: Se 'Use Same Name' estiver desmarcado
-* **Use o mesmo nome**
-* **Data**: Os dados do documento como JSON
+* **Event Producer**: The site URL from where the document was created
+* **Document Name**
+* **Remote Document Name**: If 'Use Same Name' is unchecked
+* **Use Same Name**
+* **Data**: The document data as JSON
 
 
-![Log de sincronização de eventos](/files/event-synced.png)
+![Event Sync Log](/files/event-synced.png)
 
 
-Um evento com falha gera um documento de log com os campos acima junto com:
+A failed event generates a log doc with the above fields along with:
 
 
-* **Erro**: O erro devido ao qual o documento não foi sincronizado.
-![Evento sincronizado](/files/event-failed-error.png)
-* **Botão Ressincronizar**: Ele também fornece um botão 'Resincronizar' para ressincronizar o evento com falha.
-![Falha no evento](/files/event-failed.png)
+* **Error**: The error because of which the document was not synced.
+![Event Synced](/files/event-failed-error.png)
+* **Resync Button**: It also provides a 'Resync' button in order to resync the failed event.
+![Event Failed](/files/event-failed.png)
 
 
-### 3.4 Sincronização de Dependência
+### 3.4 Dependency Syncing
 
 
-Certos tipos de documento têm dependências. Por exemplo, antes de sincronizar uma Nota Fiscal de Venda, o Item e o Cliente precisam estar presentes no site atual. Assim, Item e Cliente são dependências da Nota Fiscal de Venda. O Event Streaming lida com isso por sincronização de dependência sob demanda. Sempre que algum documento for sincronizado, ele primeiro verifica se o documento possui dependências (campos de link, campos de link dinâmico, campos de tabela filho, etc.). Se essa dependência não for preenchida, ou seja, o documento dependente (por exemplo: Item) não estiver presente no site do consumidor, ele será sincronizado primeiro e, em seguida, a Fatura de Vendas será sincronizada.
+Certain Document Types have dependencies. For example, before syncing a Sales Invoice, the Item and Customer need to be present in the current site. So, Item and Customer are dependencies for Sales Invoice. Event Streaming handles this by on-demand dependency syncing. Whenever any document is to be synced, it first checks whether the document has any dependencies (Link fields, Dynamic Link fields, Child Table fields, etc.). If that dependency is not fullfilled i.e. the dependent document (eg: Item) is not present on your consumer site, it will be synced first and then the Sales Invoice will be synced.
 
 
-Por exemplo: Sincronização da Fatura de Vendas com a dependência do Item:
- ![Dependência de evento](/files/event-dependency-sync.gif)
+For example: Sales Invoice syncing with Item dependency:
+ ![Event Dependency](/files/event-dependency-sync.gif)
 
 
-### 3.5 Configuração de Nomenclatura
+### 3.5 Naming Configuration
 
 
-Marque a caixa de seleção 'Usar o mesmo nome' para permitir que os documentos tenham o mesmo nome nos sites Produtor de evento e Consumidor de evento. Se isso não estiver marcado, o documento será criado usando as convenções de nomenclatura do site atual.
+Check the 'Use Same Name' checkbox to let the documents have same name on both Event Producer and Event Consumer sites. If this is not checked, then the document will be created using the naming conventions of the current site.
 
 
-![Configuração de uso do mesmo nome](/files/event-use-same-name.png)
+![Use Same Name Config](/files/event-use-same-name.png)
 
 
 
->
-> **Observação**: Para Tipos de Documentos que possuem séries de nomenclatura, é recomendável manter a caixa de seleção 'Usar Mesmo Nome' desmarcada para evitar conflitos de nomenclatura. Se esta opção estiver desmarcada, os documentos serão criados seguindo as convenções de nomenclatura no site atual e os campos personalizados 'Nome do site remoto' e 'Nome do documento remoto' serão definidos no documento sincronizado para armazenar a URL do site do produtor de evento e o nome do documento no site remoto, respectivamente.
->
->
->
+> 
+> **Note**: For Document Types that have naming series, it is advised to keep the 'Use Same Name' checkbox unchecked, to prevent naming conflicts. If this is unchecked, the Documents are created by following the naming conventions on the current site and the 'Remote Site Name' and 'Remote Document Name' custom fields are set in the synced document to store the Event Producer site URL and the document name on the remote site respectively.
+> 
+> 
+> 
 
 
-![Documento Assinado](/files/event-subscribe-doc.png)
+![Subscribed Document](/files/event-subscribed-doc.png)
 
 
-### 3.6 Configuração do Mapeamento
+### 3.6 Mapping Configuration
 
 
-Se você deseja transmitir documentos entre uma instância do ERPNext e outro aplicativo Frappe para um tipo de documento específico com estruturas iguais ou diferentes, ou se os nomes dos campos forem diferentes em ambos os sites, você pode usar o Streaming de Eventos com Configuração de Mapeamento.
+If you want to stream documents between an ERPNext instance and another Frappe app for a particular Document Type with same or different structures, or if field names are different in both the sites, you can use Event Streaming with Mapping Configuration.
 
 
-Para isso, você precisa primeiro configurar um mapeamento de tipo de documento.
+For this you need to first set up a Document Type Mapping.
 
 
-Para acessar o Mapeamento de Tipo de Documento, acesse:
+To access Document Type Mapping, go to:
 
 
 
->
-> Home > Automação > Streaming de eventos > Mapeamento de tipo de documento.
->
->
->
+> 
+> Home > Automation > Event Streaming > Document Type Mapping.
+> 
+> 
+> 
 
 
-#### 3.6.1 Mapeamento para DocTypes com estrutura semelhante
+#### 3.6.1 Mapping for DocTypes with similar structure
 
 
-* **Nome do mapeamento**: Dê um nome exclusivo ao mapeamento
-* **Tipo de documento local**: o tipo de documento em seu site atual
-* **Tipo de Documento Remoto**: O Tipo de Documento no site do Produtor de Eventos que você deseja sincronizar
+* **Mapping Name**: Give a unique name to the mapping
+* **Local Document Type**: The Document Type in your current site
+* **Remote Document Type**: The Document Type on the Event Producer site which you want to sync
 
 
-Na tabela filho Mapeamento de Campo:
+In the Field Mapping child table:
 
 
-* **Nome do campo local**: O nome do campo no tipo de documento local do seu site atual.
-* **Remote Fieldname**: O fieldname no tipo de Documento Remoto do site do Produtor de Eventos que você deseja mapear para o Local Fieldname. Durante a sincronização, o valor do fieldname remoto é copiado para o fieldname local.
+* **Local Fieldname**: The fieldname in the Local Document type of your current site.
+* **Remote Fieldname**: The fieldname in the Remote Document type of the Event Producer site which you want to map to the Local Fieldname. During the sync, the value of the remote fieldname gets copied to the local fieldname.
 
 
-![Mapeamento de tipo de documento](/files/event-field-mapping.png)
+![Document Type Mapping](/files/event-field-mapping.png)
 
 
-#### 3.6.2 Valor padrão para algum campo
+#### 3.6.2 Default value for some field
 
 
-Se o seu campo não estiver mapeado para nenhum outro nome de campo remoto e você sempre quiser que o campo tenha o mesmo valor, defina o mesmo conjunto no campo de valor padrão. Evento se você tiver definido o nome do campo remoto, caso durante a sincronização, o valor do campo remoto não seja encontrado e se o "Valor padrão" tiver sido especificado, ele será definido.
+If your field is not mapped to any other remote fieldname and you always want the field to have the same value, set the set the same in the default value field. Event if you have set the remote fieldname, in case during the sync, remote field's value is not found and if the "Default Value" has been specified, it will be set.
 
 
-![Link de mapeamento da tabela filha](/files/default.png)
+![Child Table Mapping Link](/files/default.png)
 
 
-#### 3.6.3 Mapeamento para DocTypes com tabelas filhas
+#### 3.6.3 Mapping for DocTypes having child tables
 
 
-Se o campo que você está tentando mapear for uma tabela filho, será necessário criar outro mapeamento de tipo de documento para os campos da tabela filho.
+If the field you are trying to map is a child table, you need to create another Document Type Mapping for the child table fields.
 
 
-![Link de mapeamento da tabela filha](/files/child_table_map_doc.png)
+![Child Table Mapping Link](/files/child_table_map_doc.png)
 
 
-* **Tipo de mapeamento**: Selecione o tipo de mapeamento como tabela filha.
-* **Mapeamento**: Selecione o documento de mapeamento de tipo de documento que você criou para a tabela filha.
+* **Mapping Type**: Select the Mapping Type as Child Table.
+* **Mapping**: Select the Document Type Mapping document you created for the child table.
 
 
-![Link de mapeamento da tabela filha](/files/event-map-is-child-table.png)
+![Child Table Mapping Link](/files/event-map-is-child-table.png)
 
 
-#### 3.6.4 Mapeamento para DocTypes com dependências (campos Link, Dynamic Link)
+#### 3.6.4 Mapping for DocTypes having dependencies (Link, Dynamic Link fields)
 
 
-Se os DocTypes que você está tentando mapear tiverem algum tipo de dependência, como os campos Link ou Dynamic Link, será necessário configurar outro Mapeamento de tipo de documento para sincronizar as dependências.
+If the DocTypes you are trying to map have any kind of dependencies like Link or Dynamic Link fields, you need to set up another Document Type Mapping for syncing the dependencies.
 
 
-Por exemplo, vamos supor que o doctype local seja Opportunity e o doctype remoto seja ERPNext Opportunity. O campo `party_name` (campo Link para DocType Lead) na Oportunidade é mapeado para `full_name` (campo Dados) no ERPNext Opportunity. Durante a sincronização, este Lead deve ser criado para que a Oportunidade principal seja sincronizada. Portanto, você também precisa configurar um mapeamento para este campo de link.
+For example, let's assume that the local doctype is Opportunity and the remote doctype is ERPNext Opportunity. The field `party_name` (Link field for DocType Lead) in Opportunity is mapped to `full_name` (Data field) in ERPNext Opportunity. During the sync, this Lead has to be created for the main Opportunity to sync. So you need to set up a mapping for this Link Field too.
 
 
-![Criação de dependência de lead](/files/lead_dependency_creation.png)
+![Lead Dependency Creation](/files/lead_dependency_creation.png)
 
 
-* **Tipo de Mapeamento**: Neste caso, o Tipo de Mapeamento é Documento.
-* **Mapeamento**: Selecione o mapeamento que você acabou de criar.
-* **Filtros de valor remoto**: Você precisa especificar os filtros que buscarão o documento remoto exato a ser mapeado. Como neste caso, o DocType remoto é ERPNext Opportunity, que pode ser obtido exclusivamente usando nome, número de telefone e país.
+* **Mapping Type**: In this case, the Mapping Type is Document.
+* **Mapping**: Select the mapping you just created.
+* **Remote Value Filters**: You need to specify the filters that will fetch the exact remote document to be mapped. Like in this case, the remote DocType is ERPNext Opportunity which can be uniquely fetched using name, phone number and country.
 
 
-O formato é:
+The format is:
 
 
-{ "remote fieldname": "campo ou expressão de onde obteremos o valor para esse fieldname"}
+{ "remote fieldname": "field or expression from where we will get the value for that fieldname"}
 
 
-Se você quiser buscar o valor de algum lugar, comece a expressão com eval:
+If you want to fetch the value from somewhere, start the expression with eval:
 
 
-Como neste caso é: `eval:frappe.db.get_value('Global Defaults', None, 'country')`
+Like in this case it is: `eval:frappe.db.get_value('Global Defaults', None, 'country')`
 
 
-![Tipo de mapeamento de documento](/files/document_mapping_type.png)
+![Document Mapping Type](/files/document_mapping_type.png)
 
 
-Por fim, habilite a opção 'Has Mapping' na tabela filho Event Configuration no Event Producer em relação ao tipo de documento necessário e selecione o mapeamento de tipo de documento que você acabou de criar.
+Lastly, enable the 'Has Mapping' option in the Event Configuration child table in Event Producer against the required Document Type and select the Document Type Mapping you just created.
 
 
-![Configuração de mapeamento](/files/event-mapping-conf.png)
+![Mapping Configuration](/files/event-mapping-conf.png)
 
 
-### 3.6 Configuração de Eventos Condicionais
+### 3.6 Conditional Events Configuration
 
 
-Se você estiver em um cenário em que não deseja enviar todos os documentos em um doctype ao consumidor, poderá especificar as condições para eles.
+If you are in scenario when you do not want to send over all the documents in a doctype over to the consumer, you can specify the conditions for them.
 
 
-Por exemplo, se você quiser emitir apenas os documentos 'Nota' que são públicos, você pode especificá-los no documento Produtor/Consumidor.
+For example, if you would like to emit only those `Note` documents that are public, you can specify them within the Producer/Consumer document.
 
 
-![Link de mapeamento da tabela filha](/files/event-streaming-conditions.png)
+![Child Table Mapping Link](/files/event-streaming-conditions.png)
 
 
 
->
-> Se um documento satisfizer uma condição ao longo de sua vida útil, todos os 'Registros de atualização de eventos' antigos serão sincronizados com o consumidor
->
->
->
+> 
+> If a document satisfies a condition down the line in its lifetime, all the old `Event Update Logs` are synced to the consumer
+> 
+> 
+> 
 
 
-Vamos considerar outro exemplo. Você deseja sincronizar apenas as faturas de vendas enviadas.
-Você pode especificar `doc.docstatus == 1` como a condição. As faturas não serão sincronizadas até que sejam enviadas.
+Let's consider another example. You want to sync only those Sales Invoices that are submitted.
+You can specify `doc.docstatus == 1` as the condition. The invoices will not be synced until they are submitted.
 
 
-Para cada log de atualização, você pode ver seus consumidores no documento Log de atualização.
+For each update log, you can see its Consumers within the Update Log document.
 
 
-Se precisar de um controle mais preciso sobre as condições, você pode conectar uma função personalizada. Sua função será executada com os parâmetros `consumer`, `doc` e `update_log`. Por exemplo, você deseja sincronizar apenas as notas que são `ímpares`
+If you need more fine control over the conditions, you can hook up a custom function. Your function will be executed with parameters `consumer`, `doc` & `update_log`. For example, you want to sync only those Notes that are `odd`
 
 
 
 ```
-def is_odd_note(consumidor, doc, update_log):
+def is_odd_note(consumer, doc, update_log):
     return frappe.db.sql("""
-        SELECIONE
-            CONTAR(*)
-        DE `tabNote`
-        WHERE criação <= %(criação)s
-    """, { "criação": doc.criação })[0][0] % 2 != 0
+        SELECT
+            COUNT(*)
+        FROM `tabNote`
+        WHERE creation <= %(creation)s
+    """, { "creation": doc.creation })[0][0] % 2 != 0
 
 ```
 
-Então, você poderia especificar a condição:
+Then, you could specify the condition:
 
 
 
@@ -358,3 +359,4 @@ Então, você poderia especificar a condição:
 cmd: my_custom_app.note.is_odd_note
 
 ```
+

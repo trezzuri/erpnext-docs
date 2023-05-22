@@ -1,7 +1,7 @@
-# O campeão
+# O Campeão
 
 
-![Campeão](/files/implementation-image.png)
+![Champion](/files/implementation-image.png)
 
 
 Vimos dezenas de implementações de ERP nos últimos anos e
@@ -12,7 +12,7 @@ atitude.
 **ERPs não são necessários.**
 
 
-Como exercício.
+Gosta de exercício.
 
 
 O corpo humano pode parecer que não requer exercício hoje ou mesmo amanhã,
@@ -25,7 +25,7 @@ mantendo-o em forma e eficiente. Quanto mais você demora para colocar as coisas
 quanto mais tempo você perde e mais perto fica de um grande desastre.
 
 
-Portanto, quando você começar a implementar um ERP, mantenha o olhar no longo prazo
+Por isso, ao começar a implementar um ERP, tenha em mente o longo prazo
 benefícios. Como o exercício, é doloroso a curto prazo, mas fará maravilhas se
 você continua no curso.
 
@@ -46,13 +46,15 @@ precisa ser resiliente caso algo dê errado.
 
 Em muitas organizações que vimos, o campeão geralmente é o proprietário ou um
 gerente sênior. Ocasionalmente, o campeão é um estranho contratado para uma
-propósito particular.
+finalidade específica.
 
 
-Em ambos os casos, você deve primeiro identificar seu campeão.
+Em ambos os casos, você deve identificar seu campeão primeiro.
 
 
 Provavelmente é **você!**
 
 
 Vamos começar!
+
+

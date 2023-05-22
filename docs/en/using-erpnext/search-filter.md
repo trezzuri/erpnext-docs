@@ -57,7 +57,7 @@ You can also apply multiple filters at a time. To remove a specific filter, just
 ## Default Filters
 
 
-There are some filters present out of the box for the views which can be used for filtering the search results. The default filters for any Document Type can be set from [Customize Form](/docs/v13/user/manual/en/customize-erpnext/custom-field#12-more-properties) option.
+There are some filters present out of the box for the views which can be used for filtering the search results. The default filters for any Document Type can be set from [Customize Form](/docs/en/customize-erpnext/custom-field#12-more-properties) option.
 
 
 ![Search Filter](/files/using-search-filter-4.png)
@@ -66,8 +66,8 @@ There are some filters present out of the box for the views which can be used fo
 ## See also
 
 
-1. [Filter by](/docs/v13/user/manual/en/using-erpnext/filter-by)
-2. [Save Filter](/docs/v13/user/manual/en/using-erpnext/save-filter)
+1. [Filter by](/docs/en/using-erpnext/filter-by)
+2. [Save Filter](/docs/en/using-erpnext/save-filter)
 
 
 

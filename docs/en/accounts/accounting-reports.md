@@ -41,7 +41,7 @@ These reports help you to track the outstanding amount of Customers and Supplier
 #### 2.1.1 Accounts Receivables based on Payment terms
 
 
-You can also see Accounts Receivables based on [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms).
+You can also see Accounts Receivables based on [Payment Terms](/docs/en/accounts/payment-terms).
 
 
 Accounts Receivable report based on payment terms can be seen by clicking the checkbox 'Based On Payment Terms' as shown in the following screenshot.

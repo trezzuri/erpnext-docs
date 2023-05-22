@@ -1,4 +1,4 @@
-# Personalize o relatório de fluxo de caixa
+# Personalizar relatório de fluxo de caixa
 
 
 À medida que seu plano de contas começa a ficar mais complexo e os padrões de relatórios mudam e evoluem, o fluxo de caixa padrão
@@ -7,18 +7,18 @@ finalidade de todas as contas nos planos de contas. Outra reclamação que você
 formato para atender às suas necessidades.
 
 
-Isso não será mais um problema, pois o ERPNext agora permite que os usuários personalizem o relatório de fluxo de caixa.
+Isso não será mais um problema porque o ERPNext agora permite que os usuários personalizem o relatório de fluxo de caixa.
 
 
 ## Visão geral técnica
 
 
-A personalização é possibilitada pela introdução de dois novos tipos de documento - Mapeador de Fluxo de Caixa e Mapeamento de Fluxo de Caixa. Ambos
+A personalização é possível graças à introdução de dois novos tipos de documento - Cash Flow Mapper e Cash Flow Mapping. Ambos
 doctypes contêm as informações necessárias para gerar um relatório de fluxo de caixa.
 
 
 O mapeamento de fluxo de caixa mostra como as contas em seus planos de contas são mapeadas para um item de linha em seu relatório de fluxo de caixa enquanto
-O Mapeador de Fluxo de Caixa obtém todos os Mapeamentos de Fluxo de Caixa relacionados às três seções de uma demonstração de fluxo de caixa.
+O Mapeador de fluxo de caixa obtém todos os mapeamentos de fluxo de caixa relacionados às três seções de uma demonstração de fluxo de caixa.
 
 
 Com isso, você gera relatórios detalhados de fluxo de caixa de acordo com suas necessidades. Isso pode não fazer muito sentido, mas fará
@@ -43,10 +43,10 @@ Não gostamos do relatório pelos seguintes motivos:
 - O número 'Net Cash From Operations' está errado
 
 
-### Processo de Customização
+### Processo de personalização
 
 
-Queremos que o Relatório de fluxo de caixa seja algo semelhante ao formato das imagens abaixo:
+Queremos que o Relatório de fluxo de caixa seja semelhante ao formato das imagens abaixo:
 
 
 ![Formato de fluxo de caixa personalizado](/files/format-1.png)
@@ -77,7 +77,7 @@ Para cada linha, precisamos criar um documento de Mapeamento de Fluxo de Caixa p
 
 
 Você pode pensar no Mapeamento do Fluxo de Caixa como uma representação de cada linha no relatório de fluxo de caixa. Um mapeamento de fluxo de caixa
-é filho de um Mapeador de Fluxo de Caixa que será explicado mais adiante.
+é um filho de um mapeador de fluxo de caixa que será explicado mais tarde.
 
 
 Vamos começar criando Mapeamentos de Fluxo de Caixa que representarão a adição de despesas não monetárias já reconhecidas em
@@ -92,24 +92,24 @@ Comece abrindo um novo formulário de Mapeamento de Fluxo de Caixa.
 
 Os campos do tipo de documento Mapeamento de Fluxo de Caixa são:
 - **Nome**: Este algo para identificar este documento. Nomeie algo relacionado ao rótulo
-- **Rótulo**: É o que aparecerá no demonstrativo de fluxo de caixa
-- **Contas**: Esta tabela contém todas as contas a que esta linha se refere.
+- **Rótulo**: é o que aparecerá no demonstrativo de fluxo de caixa
+- **Contas**: Esta tabela contém todas as contas às quais esta linha se refere.
 
 
-Com essas informações, vamos criar o Documento de Mapeamento do Fluxo de Caixa para a linha 'Impostos de renda reconhecidos no resultado'
+De posse dessas informações, vamos criar o Documento de Mapeamento do Fluxo de Caixa para a linha 'Impostos de renda reconhecidos no resultado'
 
 
 ![Mapeamento do fluxo de caixa para despesas com imposto de renda](/files/cash-flow-mapping-for-income-tax.png)
 
 
-Chamei-o de 'Cobrança de Imposto de Renda' e dei-lhe um rótulo 'Impostos de renda reconhecidos no lucro ou prejuízo'. nós queremos isso
+Chamei-o de 'Cobrança de imposto de renda' e dei a ele o rótulo 'Impostos de renda reconhecidos no lucro ou prejuízo'. nós queremos isso
 linha para refletir os encargos de imposto de renda de nossa demonstração de lucros ou perdas. A conta onde isso acontece em nosso gráfico
 da conta é chamada 'Impostos de Renda' (uma despesa), então adicionei 'Impostos de Renda' na tabela de contas. Se você tem
 mais contas representando despesas de imposto de renda, você deve adicionar todas aqui.
 
 
 Como a despesa com imposto de renda precisa ser ajustada ainda mais na demonstração do fluxo de caixa, marque a opção 'É despesa com imposto de renda'
-checkbox. É isso que vai ajudar o ERPNext a calcular corretamente os ajustes a serem feitos.
+checkbox. É isso que ajudará o ERPNext a calcular corretamente os ajustes a serem feitos.
 
 
 *Para obter melhores resultados, permita que as contas principais tenham contas secundárias com o mesmo tratamento para relatórios de fluxo de caixa
@@ -123,7 +123,7 @@ Da mesma forma, criei para os dois mapeamentos restantes.
 ![Mapeamento de fluxo de caixa para custo financeiro](/files/cash-flow-mapping-for-finance-cost.png)
 
 
-Os custos financeiros também precisam ser ajustados, portanto, certifique-se de marcar a caixa de seleção 'É custo financeiro'.
+Os custos financeiros também precisam ser ajustados, portanto, marque a caixa de seleção "É custo financeiro".
 
 
 ![Mapeamento de fluxo de caixa para depreciação](/files/cash-flow-mapping-for-depreciation.png)
@@ -136,10 +136,10 @@ Em seguida, vamos adicionar o Mapeamento de Fluxo de Caixa para itens que mostra
 * (Aumento)/diminuição de contas a receber e outras contas a receber
 * Aumento/(diminuição) em fornecedores e outras contas a pagar
 * IVA a pagar
-* (Aumento)/diminuição do estoque
+* (Aumento)/redução no estoque
 
 
-![Mapeamento de fluxo de caixa para outros passivos](/files/cash-flow-mapping-for-other-liabilities.png)
+![Mapeamento de fluxo de caixa para outras obrigações](/files/cash-flow-mapping-for-other-liabilities.png)
 
 
 ![Mapeamento de fluxo de caixa para contas a receber](/files/cash-flow-mapping-for-receivables.png)
@@ -151,14 +151,14 @@ Em seguida, vamos adicionar o Mapeamento de Fluxo de Caixa para itens que mostra
 ![Mapeamento de fluxo de caixa para taxas e impostos](/files/cash-flow-mapping-for-taxes-payables.png)
 
 
-![Mapeamento de fluxo de caixa para estoque](/files/cash-flow-mapping-inventory.png)
+![Mapeamento de fluxo de caixa para inventário](/files/cash-flow-mapping-inventory.png)
 
 
-Não se esqueça de informar ao ERPNext que esses mapeamentos representam variações no capital de giro marcando a caixa 'Está funcionando
-Capital' caixa de seleção.
+Não se esqueça de informar ao ERPNext que esses mapeamentos representam mudanças no capital de giro marcando a caixa 'Está funcionando
+Caixa de seleção maiúscula.
 
 
-Neste ponto, criamos todos os mapeamentos necessários para a seção Atividades Operacionais do nosso fluxo de caixa
+Neste ponto, criamos todos os mapeamentos necessários para a seção de atividades operacionais do nosso fluxo de caixa
 declaração. No entanto, o ERPNext ainda não sabe disso até que criemos os documentos do Cash Flow Mapper. Faremos o Fluxo de Caixa
 Documentos do mapeador a seguir.
 
@@ -176,18 +176,18 @@ seções, portanto, quando você visualizar a lista do Mapeador de Fluxo de Caix
 Você não poderá adicionar ou remover nenhum deles, mas eles são editáveis ​​e podem ser renomeados.
 
 
-![Mapeadores de fluxo de caixa](/files/cash-flow-mappers-standard.png)
+![Cash Flow Mappers](/files/cash-flow-mappers-standard.png)
 
 
 Abra o Mapeador de Fluxo de Caixa de Atividades Operacionais para que possamos adicionar os Mapeamentos de Fluxo de Caixa que criamos.
 
 
-* **Nome da seção**: Este é o título da seção.
-* **Líder de Seção**: Este é o primeiro subtítulo imediatamente após o valor do lucro. Refere-se apenas ao Operacional
+* **Nome da seção**: este é o título da seção.
+* **Líder de seção**: Este é o primeiro subtítulo imediatamente após o valor do lucro. Refere-se apenas ao Operacional
 Mapeador de Fluxo de Caixa de Atividades
-* **Subtotal da seção**: Este é o rótulo do subtotal na seção de demonstração do fluxo de caixa. Refere-se apenas ao Operacional
+* **Subtotal da seção**: este é o rótulo do subtotal na seção de demonstração do fluxo de caixa. Refere-se apenas ao Operacional
 Mapeador de Fluxo de Caixa de Atividades
-* **Rodapé da seção**: Este é o rótulo para o total na seção de demonstração do fluxo de caixa.
+* **Rodapé da seção**: este é o rótulo para o total na seção de demonstração do fluxo de caixa.
 * **Mapeamento**: Esta tabela contém todos os Mapeamentos de Fluxo de Caixa relacionados ao Mapeador de Fluxo de Caixa.
 
 
@@ -197,11 +197,11 @@ Agora adicione todos os mapeamentos de fluxo de caixa que você criou e salve. V
 ![Mapeador de fluxo de caixa da atividade operacional](/files/cash-flow-mapper-operating-activity.png)
 
 
-Atualize a demonstração do fluxo de caixa e visualize as alterações.
+Atualize o demonstrativo de fluxo de caixa e visualize as alterações.
 ![Relatório de fluxo de caixa atualizado](/files/cash-flow-report-customized.png)
 
 
-Parece próximo aos nossos requisitos, mas ainda não terminamos. Crie novos mapeamentos para 'Investing Activities' e 'Financing Activities'
+Parece próximo de nossos requisitos, mas ainda não terminamos. Crie novos mapeamentos para 'Investing Activities' e 'Financing Activities'
 Seções de atividades da demonstração do fluxo de caixa.
 
 
@@ -221,3 +221,4 @@ Aqui está a aparência do nosso demonstrativo de fluxo de caixa:
 
 
 ![Relatório de fluxo de caixa personalizado](/files/final-cash-flow.png)
+

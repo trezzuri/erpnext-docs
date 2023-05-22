@@ -11,17 +11,19 @@ Para alterar a precisão globalmente, acesse:
 
 
 
->
-> Início > Configurações > Configurações do sistema
->
->
->
+> 
+> Página inicial > Configurações > Configurações do sistema
+> 
+> 
+> 
 
 
-![Precisão global](/files/customize-set-precision.png)
+![Global Precision](/files/customize-set-precision.png)
 
 
-Como alternativa, você também pode definir a precisão específica do campo. Para fazer isso, vá para [Personalizar formulário](/docs/v13/user/manual/en/customize-erpnext/customize-form) e selecione o DocType lá. Em seguida, vá para a linha do campo específico e altere a precisão. O campo de precisão só é visível se o tipo de campo for Float, Currency e Percent.
+Como alternativa, você também pode definir a precisão específica do campo. Para fazer isso, vá para [Personalizar formulário](/docs/pt/customize-erpnext/customize-form) e selecione o DocType lá. Em seguida, vá para a linha do campo específico e altere a precisão. O campo de precisão só é visível se o tipo de campo for Float, Currency e Percent.
 
 
-![Precisão em campo](/files/customize-set-precision-1.png)
+![Field-wise Precision](/files/customize-set-precision-1.png)
+
+

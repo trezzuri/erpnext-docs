@@ -48,8 +48,8 @@ Note -
 ### 2. Related Topics
 
 
-1. [Finance Book](/docs/v13/user/manual/en/accounts/finance-book)
-2. [Accounting Reports](/docs/v13/user/manual/en/accounts/accounting-reports)
-3. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
+1. [Finance Book](/docs/en/accounts/finance-book)
+2. [Accounting Reports](/docs/en/accounts/accounting-reports)
+3. [Budgeting](/docs/en/accounts/budgeting)
 
 

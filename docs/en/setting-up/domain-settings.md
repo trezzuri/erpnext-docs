@@ -29,6 +29,6 @@ If a domain is disabled, the following things will happen:
 ### Related Topics
 
 
-1. [Company Setup](/docs/v13/user/manual/en/setting-up/company-setup)
+1. [Company Setup](/docs/en/setting-up/company-setup)
 
 

@@ -28,7 +28,7 @@ To access POS, go to:
 Before creating and using Point of Sale, it is advisable to create the following first:
 
 
-1. [POS Profile](/docs/v13/user/manual/en/accounts/pos-profile)
+1. [POS Profile](/docs/en/accounts/pos-profile)
 
 
 ## 2. How to create a POS Invoice
@@ -126,7 +126,7 @@ Credits:
 5. Account for Change Amount (optional)
 
 
-To see entries after submitting the [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice), click on **View Ledger**.
+To see entries after submitting the [Sales Invoice](/docs/en/accounts/sales-invoice), click on **View Ledger**.
 
 
 ### 3.3 Email
@@ -178,9 +178,9 @@ If there are more than 10 invoices while closing a POS, consolidation of the inv
 ### 4. Related Topics
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
-3. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-4. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Purchase Order](/docs/en/buying/purchase-order)
+3. [Payment Entry](/docs/en/accounts/payment-entry)
+4. [Payment Request](/docs/en/accounts/payment-request)
 
 

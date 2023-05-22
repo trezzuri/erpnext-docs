@@ -73,7 +73,7 @@ You can also change the file format in which the report is created. The availabl
 ### 2. Related Topics
 
 
-1. [Email Digest](/docs/v13/user/manual/en/setting-up/email/email-digest)
-2. [Document Follow](/docs/v13/user/manual/en/setting-up/email/document-follow)
+1. [Email Digest](/docs/en/setting-up/email/email-digest)
+2. [Document Follow](/docs/en/setting-up/email/document-follow)
 
 

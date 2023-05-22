@@ -50,7 +50,7 @@ Similarly, a **Show Document** button is generated in case of events related to 
 ![Access Log](/files/using-access-log-2.png)
 
 
-Events such as [Raw Printing](/docs/v13/user/manual/en/setting-up/print/raw-printing) save information along with the chosen template for the document.
+Events such as [Raw Printing](/docs/en/setting-up/print/raw-printing) save information along with the chosen template for the document.
 
 
 ![Access Log](/files/using-acces-log-4.png)

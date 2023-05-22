@@ -44,7 +44,7 @@ To access, go to:
 3. Once you download the template, fill in the details in the template as shown in the sample template below. Please make sure to make accounts for account types "Cost of Goods Sold", "Depreciation", "Fixed Asset", "Payable", "Receivable", "Stock Adjustment". Root types for these accounts must be one of Asset, Liability, Income, Expense, and Equity.
 
 
-To know more about "Account Types" and "Root Types" click here [click here](/docs/v13/user/manual/en/accounts/chart-of-accounts)
+To know more about "Account Types" and "Root Types" click here [click here](/docs/en/accounts/chart-of-accounts)
 
 
 ![COA Import](/files/coa-sample-template.png)
@@ -69,6 +69,6 @@ To know more about "Account Types" and "Root Types" click here [click here](/doc
 ### 2. Related Topics
 
 
-1. [Chart Of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts)
+1. [Chart Of Accounts](/docs/en/accounts/chart-of-accounts)
 
 

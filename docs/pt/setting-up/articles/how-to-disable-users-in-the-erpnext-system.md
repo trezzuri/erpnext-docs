@@ -1,7 +1,7 @@
-# Desabilita qualquer usuário
+# Desativar qualquer usuário
 
 
-Para desabilitar o acesso ao sistema de um usuário ERPNext que saiu de sua empresa, siga os passos abaixo.
+Para impedir que um usuário ERPNext que saiu de sua empresa acesse o sistema, siga os passos abaixo. 
 
 
 1. Digite 'Lista de usuários' na barra incrível ou na barra de pesquisa
@@ -11,3 +11,4 @@ Para desabilitar o acesso ao sistema de um usuário ERPNext que saiu de sua empr
 
 
 ![](/files/LHzZayc.png)
+

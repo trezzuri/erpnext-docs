@@ -5,7 +5,7 @@
 **Budgeting is a financial plan that helps controlling Company expenses.**
 
 
-In ERPNext, you can set and manage budgets against a Cost Center or a Project. This is useful in controlling your expenses. With version 12, you can also create separate [Accounting Dimensions](/docs/v13/user/manual/en/accounts/accounting-dimensions) to tag transactions with different fields.
+In ERPNext, you can set and manage budgets against a Cost Center or a Project. This is useful in controlling your expenses. With version 12, you can also create separate [Accounting Dimensions](/docs/en/accounts/accounting-dimensions) to tag transactions with different fields.
 
 
 For example, if you are doing online sales, you can set a budget for search advertisements and configure ERPNext to stop or warn you from overspending beyond a set budget.
@@ -29,7 +29,7 @@ To access the Budget list, go to:
 
 
 1. Go to the Budget list and click on New.
-2. Select what to budget against, Cost Center, Project, or an [Accounting Dimensions](/docs/v13/user/manual/en/accounts/accounting-dimensions).
+2. Select what to budget against, Cost Center, Project, or an [Accounting Dimensions](/docs/en/accounts/accounting-dimensions).
 3. In the accounts table, select an income/expense account for which a budget is to be set. Let's set a budget for telephone expenses for the year.
 ![Budget](/files/budget.png)
 4. Enter the budget amount for that account.
@@ -54,8 +54,8 @@ You can also define a Monthly Distribution record to distribute the budget betwe
 Control actions can be triggered when:
 
 
-* A [Material Request](/docs/v13/user/manual/en/stock/material-request) is being submitted
-* A [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order) is being submitted
+* A [Material Request](/docs/en/stock/material-request) is being submitted
+* A [Purchase Order](/docs/en/buying/purchase-order) is being submitted
 * When an actual expense is being posted (through a journal entry or a purchase invoice).
 
 
@@ -115,8 +115,8 @@ Here is a video demonstration:
 ## 5. Related Topics
 
 
-1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
-2. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-3. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Cost Center](/docs/en/accounts/cost-center)
+2. [Sales Invoice](/docs/en/accounts/sales-invoice)
+3. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 

@@ -5,7 +5,7 @@
 **An appointment is a prearranged meeting between a Lead and an Employee of your Company.**
 
 
-Appointment document type can be used to schedule and manage interaction with a [Lead](/docs/v13/user/manual/en/CRM/lead) or an [Opportunity](/docs/v13/user/manual/en/CRM/opportunity).
+Appointment document type can be used to schedule and manage interaction with a [Lead](/docs/en/CRM/lead) or an [Opportunity](/docs/en/CRM/opportunity).
 
 
 To access Appointment list, go to:
@@ -22,11 +22,11 @@ To access Appointment list, go to:
 ## 1. Prerequisites
 
 
-1. [Appointment Booking Settings](/docs/v13/user/manual/en/CRM/appointment-booking-settings)
-2. [Holiday List](/docs/v13/user/manual/en/human-resources/holiday-list)
-3. [Employee](/docs/v13/user/manual/en/human-resources/employee)
-4. [Lead](/docs/v13/user/manual/en/CRM/lead)
-5. [Email](/docs/v13/user/manual/en/setting-up/email/email-account)
+1. [Appointment Booking Settings](/docs/en/CRM/appointment-booking-settings)
+2. [Holiday List](/docs/en/human-resources/holiday-list)
+3. [Employee](/docs/en/human-resources/employee)
+4. [Lead](/docs/en/CRM/lead)
+5. [Email](/docs/en/setting-up/email/email-account)
 
 
 ## 2. How to create an Appointment
@@ -64,7 +64,7 @@ If no lead is found, the appointment is marked as "Unverified" and an email is s
 ### 3.1 Autoassign
 
 
-Appointments are automatically assigned to employees as per the `Agents` list in [Appointment Booking Settings](/docs/v13/user/manual/en/CRM/appointment-booking-settings). The agent with the least number of assignments for the day of the appointment and who is free in the scheduled time is assigned to the appointment.
+Appointments are automatically assigned to employees as per the `Agents` list in [Appointment Booking Settings](/docs/en/CRM/appointment-booking-settings). The agent with the least number of assignments for the day of the appointment and who is free in the scheduled time is assigned to the appointment.
 
 
 ### 3.2 Email confirmation

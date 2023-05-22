@@ -1,7 +1,7 @@
 # E se os e-mails não estiverem sendo recebidos pelos destinatários?
 
 
-Quando um e-mail é enviado, você assume que o e-mail será recebido pelo destinatário, mas se receber um feedback de que ele não recebeu o e-mail, siga as etapas para solucionar o problema:
+Quando um e-mail é enviado, você assume que o e-mail será recebido pelo destinatário, mas se você receber um feedback de que ele não recebeu o E-mail, a seguir estão as etapas para solucionar problemas:
 
   
 
@@ -11,12 +11,12 @@ Quando um e-mail é enviado, você assume que o e-mail será recebido pelo desti
   
 
 
-2) A segunda coisa que você pode fazer para verificar é enviar um e-mail para si mesmo, isso pode ser feito através da criação de uma nova comunicação.
+2) A segunda coisa que você pode fazer para verificar é enviar um e-mail para você mesmo, isso pode ser feito criando uma Nova Comunicação.
 
   
 
 
-*Vá para Lista de Comunicação > Clique em Novo.*
+*Vá para Lista de Comunicações > Clique em Novo.* 
 
   
 
@@ -26,17 +26,17 @@ Quando um e-mail é enviado, você assume que o e-mail será recebido pelo desti
   
 
 
-* Vá para Conta de e-mail > Abra o e-mail para verificar > se de acordo com você tudo estiver correto, clique em Salvar. Ele lançará um erro se houver algum problema com a configuração e você poderá corrigi-lo de acordo.*
+*Vá em Conta de Email > Abra o Email para verificar > se para você está tudo correto, clique em Salvar. Ele gerará um erro se houver algum problema com a configuração e você poderá corrigi-lo adequadamente.*
 
   
 
 
-4) Verifique as filas de e-mail em busca de mensagens não enviadas ou erros, se houver.
+4) Verifique as filas de e-mail para os não enviados mensagens ou erros, se houver.
 
   
 
 
-*Se o estado for Erro (como na captura de tela abaixo), você pode encontrar a causa do erro abrindo o e-mail e descendo até o campo Erro para saber o erro.*
+*Se o estado for Erro (como na imagem abaixo), você pode encontrar a causa do erro abrindo o e-mail e role para baixo até o campo Error para saber o erro.* 
 
   
 
@@ -51,4 +51,10 @@ Quando um e-mail é enviado, você assume que o e-mail será recebido pelo desti
   
 
 
-***﻿NOTA: O erro pode diferir do que pode ser visto na captura de tela acima.***
+***﻿NOTA: O erro pode diferir o que pode ser visto na captura de tela acima.***
+
+  
+
+
+
+

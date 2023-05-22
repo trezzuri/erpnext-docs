@@ -2,37 +2,37 @@
 
 
 
->
+> 
 > Introduzido na versão 12
->
->
->
+> 
+> 
+> 
 
 
 **O painel fornece uma visão rápida dos principais indicadores de desempenho relevantes para o processo de negócios.**
 
 
-Cada Dashboard consiste em um ou mais de um Dashboard Charts, cada um dos quais configurado com uma fonte de dados conhecida como Dashboard Chart Source.
+Cada painel consiste em um ou mais gráficos do painel, cada um configurado com uma fonte de dados conhecida como fonte do gráfico do painel.
 
 
-Para acessar o Painel, vá para,
+Para acessar o Painel, acesse,
 
 
 
->
-> Home > Personalização > Painéis > Painel
->
->
->
+> 
+> Página inicial > Personalização > Painéis > Painel
+> 
+> 
+> 
 
 
 ## 1. Como criar um novo painel
 
 
-1. Vá para Lista de Painéis e clique em Novo.
-2. Insira o Nome do Módulo para o qual deseja ver o Painel.
-3. Informe os Gráficos do Dashboard que deseja que sejam parametrizados para este Dashboard.
-4. Salve.
+1. Vá para a lista de painéis e clique em Novo.
+2. Digite o nome do módulo para o qual deseja ver o painel.
+3. Insira os gráficos do painel que você deseja parametrizar para este painel.
+4. Salvar.
 
 
 Ao clicar em `Mostrar Dashboard`, você poderá ver o Dashboard dando a representação gráfica de suas transações.
@@ -47,7 +47,7 @@ Ao clicar em `Mostrar Dashboard`, você poderá ver o Dashboard dando a represen
 Adicione gráficos a este painel selecionando `Dashboard Chart` existente ou criando novos.
 
 
-![Adicionando painel aos gráficos](/files/dashboard-add-charts.png)
+![Adicionar painel a gráficos](/files/dashboard-add-charts.png)
 
 
 Salve as alterações e clique no botão `Mostrar painel` para ver o painel.
@@ -59,71 +59,69 @@ Salve as alterações e clique no botão `Mostrar painel` para ver o painel.
 ## 3. Criando um novo gráfico de painel
 
 
-Para criar um novo Dashboard Chart, vá para
+Para criar um novo gráfico de painel, acesse
 
 
 
->
-> Início > Personalizações > Painéis > Gráfico do painel > Novo
->
->
->
+> 
+> Página inicial > Personalizações > Painéis > Gráfico do painel > Novo
+> 
+> 
+> 
 
 
-Forneça um nome para o gráfico, ele aparecerá no painel como o rótulo do gráfico, selecione o tipo de gráfico como `Personalizado` e selecione uma `Fonte do gráfico do painel` como fonte de dados para este gráfico.
+Forneça um nome para o gráfico, ele aparecerá no painel como o rótulo do gráfico, selecione o tipo de gráfico como `Custom` e selecione uma `Dashboard Chart Source` como os dados fonte para este gráfico.
 
 
-**Observação:** A nova `fonte do gráfico do painel` só pode ser criada pelo usuário administrador no modo de desenvolvedor.
+**Observação:** a nova `origem do gráfico do painel` só pode ser criada pelo usuário administrador no modo de desenvolvedor.
 
 
 ![Selecione a origem do gráfico do painel](/files/dashboard-chart-from-source.png)
 
 
-Após definir o campo Chart Source, a tabela de filtros será mostrada.
+Depois de definir o campo Chart Source, a tabela de filtros será exibida.
 
 
 Clique na tabela para editar os filtros.
 
 
-![Filtro do gráfico do painel](/files/dashboard-chart-filter.png)
+![Dashboard Chart Filter](/files/dashboard-chart-filter.png)
 
 
-Um modal será mostrado para definir filtros. Clique em `Definir` para definir os filtros.
+Um modal será mostrado para definir os filtros. Clique em `Definir` para definir os filtros.
 ![Modal de filtro de gráfico de painel](/files/dashboard-chart-filter-modal.png)
 
 
 Após definir o campo Origem do gráfico, a tabela Filtros será atualizada com os valores de filtro selecionados.
-![Filtro do gráfico do painel](/files/dashboard-chart-filter-updated.png)
+![Dashboard Chart Filter](/files/dashboard-chart-filter-updated.png)
 
 
-No exemplo acima, criamos um `Dashboard Chart` personalizado para o qual já tínhamos uma `Dashboard Chart Source`.
+No exemplo acima, criamos um `Dashboard Chart` personalizado para o qual já tínhamos uma `Dashboard Chart Source`. 
 
 
-Você também pode criar gráficos básicos como Contagem/Soma/Média/Agrupar por ToDo com base na data de criação/modificação selecionando `Contagem/Soma/Média/Agrupar por` como `Tipo de gráfico`. Você também pode usar um relatório existente como fonte no campo `Nome do relatório` para criar um gráfico selecionando `Relatório` como `Tipo de gráfico`.
+Você também pode criar gráficos básicos como Count/Sum/Average/Group By de ToDo com base na data de criação/modificação selecionando `Count/Sum/Average/Group By` como `Chart Type< /code> você também pode usar um relatório existente como fonte no campo `Nome do relatório` para criar um gráfico selecionando `Relatório` como `Tipo de gráfico`.< /p>
+Para `Contagem`, você precisa selecionar o `Doctype` para o qual você precisa do gráfico no campo `Document Type` e `Based On Campo de data` em `Série temporal baseada em`.
 
 
-Para `Contagem`, você precisa selecionar o `Doctype` para o qual você precisa do gráfico no campo `Document Type` e no campo `Based On Date` em `Time Series Based On`.
+![Count Dashboard Chart](/files/dashboard-chart-count.png)
 
 
-![Gráfico do painel de contagem](/files/dashboard-chart-count.png)
+**Observação:** Se você selecionar um doctype de tabela filho em `Document Type`, também deverá selecionar o doctype pai para essa tabela filho em `Parent Document Type` (este campo só ficará visível quando você selecionar doctype da tabela filha no campo `Tipo de documento`).
 
 
-**Observação:** Se você selecionar um doctype de tabela filho em `Document Type`, você também deve selecionar o doctype pai para essa tabela filho em `Parent Document Type` (este campo só ficará visível quando você selecionar o doctype da tabela filho em campo `Tipo de Documento`).
+![Dashboard Chart Parent Document Type](/files/dashboard-chart-parent-document-type.png)
 
 
-![Tipo de documento principal do gráfico do painel](/files/dashboard-chart-parent-document-type.png)
+Para `Sum` e `Average` você também deve selecionar o campo `Based On Value` em `Value Based On`. 
 
 
-Para `Sum` e `Average`, você também deve selecionar o campo `Based On Value` em `Value Based On`.
+![Sum Dashboard Chart](/files/dashboard-chart-sum.png)
 
 
-![Gráfico de painel de soma](/files/dashboard-chart-sum.png)
+Para `Agrupar por`, você pode selecionar `Agrupar por tipo` como Contagem/Soma/Média, `Agrupar por com base em` como Criado por/Modificado por e `Número de grupos`.
 
 
-Para `Agrupar por`, você pode selecionar `Agrupar por tipo` como Contagem/Soma/Média, `Agrupar por baseado em` como Criado por/Modificado por e `Número de grupos`.
-
-
-![Grupo por gráfico do painel](/files/dashboard-chart-group-by.png)
+![Group By Dashboard Chart](/files/dashboard-chart-group-by.png)
 
 
 ## 4. Usando painéis
@@ -132,13 +130,14 @@ Para `Agrupar por`, você pode selecionar `Agrupar por tipo` como Contagem/Soma/
 Cada gráfico será mostrado de acordo com os campos definidos no Gráfico do Painel correspondente. O resultado da origem do gráfico do painel é armazenado em cache para evitar consultas redundantes. Como os dados do gráfico podem estar desatualizados, cada gráfico também mostrará o último horário sincronizado.
 
 
-![Painel sincronizado pela última vez](/files/dashboard-last-synced.png)
+![Dashboard Last Synced](/files/dashboard-last-synced.png)
 
 
 Os filtros usados ​​para gerar os dados do gráfico também podem ser alterados clicando em `Definir filtros`. O gráfico será atualizado automaticamente de acordo com os filtros definidos recentemente.
 
 
-![Filtros do painel](/files/dashboard-filters.png)
+![Dashboard Filters](/files/dashboard-filters.png)
 
 
-Para obter os dados mais recentes, cada gráfico deve ser atualizado vigorosamente clicando no botão **Forçar atualização** no menu suspenso.
+Para obter os dados mais recentes, cada gráfico deve ser atualizado vigorosamente clicando no botão **Forçar atualização** no menu suspenso.`
+

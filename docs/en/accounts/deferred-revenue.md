@@ -28,7 +28,7 @@ Before you start using deferred accounting you should be aware of the below sett
 ![Deferred Accounting Settings](/files/deferred-accounting-settings.png)
 
 
-1. **Automatically Process Deferred Accounting Entry:** This setting is enabled by default. In case you don't want the deferred accounting entries to be posted automatically you can disable this setting. If this setting is disabled deferred accounting will have to be processed manually using [Process Deferred Accounting](/docs/v13/user/manual/en/accounts/process-deferred-accounting)
+1. **Automatically Process Deferred Accounting Entry:** This setting is enabled by default. In case you don't want the deferred accounting entries to be posted automatically you can disable this setting. If this setting is disabled deferred accounting will have to be processed manually using [Process Deferred Accounting](/docs/en/accounts/process-deferred-accounting)
 2. **Book Deferred Entries Based On:** Deferred revenue amount can be booked based on two criteria. The default option here is "Days". If "Days" is selected, the deferred revenue amount will be booked based on the number of days in each month and if "Months" is selected, then it will be booked based on number of months. **For Eg:** If "Days" is selected and $12000 revenue has to be deferred over a period of 12 months, then $986.30 will be for the month having 30 days and $1019.17 will be booked for the month having 31 days. If "Months" is selected, $1000 deferred revenue will booked each month irrespective of the number of days in a month.
 3. **Book Deferred Entries Via Journal Entry:** By default Ledger Entries are posted directly to book deferred revenue against an invoice. In order to book this deferred amount posting via Journal Entry, this option can be enabled.
 4. **Submit Journal Entries:** This option is applicable only if deferred accounting entries are posted via Journal Entry. By default, the Journal Entries for deferred posting are kept in Draft state and a user has to verify those entries and submit them manually. If this option is enabled, Journal Entries will be automatically submitted without any user intervention.
@@ -37,7 +37,7 @@ Before you start using deferred accounting you should be aware of the below sett
 ## 2. How to use Deferred Revenue
 
 
-Internet and broadcasting service providers offer subscription plans on quarterly or yearly basis. They take complete payment in advance from the Customer for couple of months, but book income on monthly basis in their book of accounts. This is Deferred Revenue for the Supplier and [Deferred Expense](/docs/v13/user/manual/en/accounts/deferred-expense) for the Customer. Following is how they should configure Deferred Revenue accounting in ERPNext to automate the process.
+Internet and broadcasting service providers offer subscription plans on quarterly or yearly basis. They take complete payment in advance from the Customer for couple of months, but book income on monthly basis in their book of accounts. This is Deferred Revenue for the Supplier and [Deferred Expense](/docs/en/accounts/deferred-expense) for the Customer. Following is how they should configure Deferred Revenue accounting in ERPNext to automate the process.
 
 
 ### 2.1 Item
@@ -80,8 +80,8 @@ Following is an example of Income for the Deferred Revenue Item booked via multi
 ### 4. Related Topics
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
-3. [Chart Of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Journal Entry](/docs/en/accounts/journal-entry)
+3. [Chart Of Accounts](/docs/en/accounts/chart-of-accounts)
 
 

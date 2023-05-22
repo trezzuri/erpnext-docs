@@ -1,33 +1,33 @@
 # Caixa de entrada de e-mail
 
 
-**Depois que uma conta de e-mail for adicionada, a caixa de entrada do e-mail ficará acessível.**
+**Assim que uma conta de e-mail for adicionada, a caixa de entrada do e-mail ficará acessível.**
 
 
-Administrar um negócio envolve muitas trocas de e-mails transacionais com partes como clientes e fornecedores e outros membros da empresa. O recurso Caixa de entrada de e-mail permite que você extraia todos os seus e-mails comerciais para sua conta ERPNext. Habilitar o acesso a e-mails comerciais com outros detalhes transacionais torna o ERPNext uma plataforma única para acessar todas as informações comerciais em um só lugar.
+Administrar um negócio envolve muitas trocas de e-mails transacionais com partes como clientes e fornecedores e outros membros da empresa. O recurso Caixa de entrada de e-mail permite que você extraia todos os seus e-mails comerciais para sua conta ERPNext. Permitir o acesso a e-mails comerciais com outros detalhes transacionais torna o ERPNext uma plataforma única para acessar todas as informações comerciais em um só lugar.
 
 
-No ERPNext, você pode configurar a Caixa de Entrada de Email para cada Usuário do Sistema. A seguir estão as etapas detalhadas para configurar a caixa de entrada de e-mail para um usuário.
+No ERPNext, você pode configurar a caixa de entrada de e-mail para cada usuário do sistema. A seguir estão as etapas detalhadas para configurar a caixa de entrada de e-mail para um usuário.
 
 
-## 1. Crie um usuário
+## 1. Criar um usuário
 
 
-Você pode configurar uma caixa de entrada de e-mail apenas para um usuário do sistema. Portanto, certifique-se de ter adicionado você e seus colegas como um usuário e atribuído a eles as permissões necessárias.
+Você pode configurar uma caixa de entrada de e-mail apenas para um usuário do sistema. Portanto, certifique-se de ter adicionado a si mesmo e seus colegas como um usuário e atribuído a eles as permissões necessárias.
 
 
-Para saber como adicionar um novo usuário, acesse a [Página do usuário](/docs/v13/user/manual/en/setting-up/users-and-permissions/adding-users).
+Para saber como adicionar um novo usuário, vá para a [Página do usuário.](/docs/pt/setting-up/users-and-permissions/adding-users)
 
 
 ## 2. Crie um domínio de e-mail
 
 
-O domínio de e-mail para os seguintes serviços está disponível pronto para uso e você pode criar diretamente uma [conta de e-mail] (/docs/v13/user/manual/en/setting-up/email/email-account). Saiba mais sobre como criar um Domínio de Email [aqui](/docs/v13/user/manual/en/setting-up/email/email-domain).
+O domínio de e-mail para os seguintes serviços está disponível pronto para uso e você pode prosseguir diretamente para criar um [Conta de e-mail](/docs/pt/setting-up/email/email- conta). Saiba mais sobre como criar um domínio de e-mail [aqui](/docs/pt/setting-up/email/email-domain).
 
 
 * **Gmail**
 * **Yahoo**
-* **Posto de ignição**
+* **Sparkpost**
 * **SendGrid**
 * **Outlook.com**
 * **Yandex.mail**
@@ -36,24 +36,24 @@ O domínio de e-mail para os seguintes serviços está disponível pronto para u
 ![Serviço de e-mail](/files/email-service.png)
 
 
-Para poder enviar e receber e-mails em sua conta ERPNext de outros serviços de e-mail (como WebMail ou Gmail), você deve configurar um mestre de domínio de e-mail. Neste mestre, os detalhes do gateway de e-mail, como endereço SMTP, número da porta e detalhes do endereço IMAP/POP3, são capturados. Se você já configurou um cliente de e-mail local (como o Outlook), o mestre de domínio de e-mail exige que os detalhes sejam alimentados de maneira semelhante.
+Para poder enviar e receber e-mails em sua conta ERPNext de outros serviços de e-mail (como WebMail ou Gmail), você deve configurar um mestre de domínio de e-mail. Neste mestre, os detalhes do gateway de e-mail, como endereço SMTP, número da porta e detalhes do endereço IMAP/POP3, são capturados. Se você já configurou um cliente de e-mail local (como o Outlook), o mestre de domínio de e-mail requer que os detalhes sejam alimentados da mesma forma.
 
 
 Para adicionar um novo domínio de e-mail, acesse:
 
 
 
->
-> Início > Configurações > E-mails > Domínio de e-mail > Novo
->
->
->
+> 
+> Página inicial > Configurações > E-mails > Domínio de e-mail > Novo
+> 
+> 
+> 
 
 
 ![Email Domain](/files/email-domain.png)
 
 
-Saiba mais sobre Domínios de Email [aqui](/docs/v13/user/manual/en/setting-up/email/email-domain). Depois de configurar um Domínio de Email para o seu Serviço de Email, ele será usado para criar Contas de Email para todos os Usuários em sua conta ERPNext.
+Saiba mais sobre domínios de e-mail [aqui](/docs/pt/setting-up/email/email-domain). Depois de configurar um domínio de email para seu serviço de email, ele será usado para criar contas de email para todos os usuários em sua conta ERPNext.
 
 
 ## 3. Conta de e-mail
@@ -65,27 +65,27 @@ Crie uma conta de e-mail com base no ID de e-mail do usuário. Para cada Usuári
 Se você estiver criando uma conta de e-mail para seu colega cuja senha de e-mail é desconhecida para você, marque o campo "Aguardando senha". De acordo com esta configuração, um usuário (para quem a conta de e-mail foi criada) receberá uma solicitação para inserir a senha do e-mail ao acessar sua conta ERPNext.
 
 
-![Senha do e-mail](/files/email-password.png)
+![Email Password](/files/email-password.png)
 
 
 
->
+> 
 > Se você estiver criando uma conta de e-mail para a caixa de entrada de e-mail de um usuário, deixe o campo Anexar a em branco.
->
->
->
+> 
+> 
+> 
 
 
-Leia [Documentação da conta de e-mail](/docs/v13/user/manual/en/setting-up/email/email-account) para obter mais detalhes sobre como configurar.
+Leia [documentação da conta de e-mail](/docs/pt/setting-up/email/email-account) para obter mais detalhes sobre como configurar.
 
 
-## 4. Vinculando conta de e-mail no mestre do usuário
+## 4. Vinculando a conta de e-mail no usuário mestre
 
 
-Depois que uma conta de e-mail for criada para um usuário, selecione essa conta de e-mail no usuário. Isso garantirá que os e-mails extraídos do referido ID de e-mail sejam acessíveis apenas a este usuário em sua conta ERPNext.
+Assim que uma conta de e-mail for criada para um usuário, selecione essa conta de e-mail no usuário. Isso garantirá que os e-mails extraídos do referido ID de e-mail sejam acessíveis apenas a este usuário em sua conta ERPNext.
 
 
-![Link de usuário de e-mail](/files/email-user-link.png)
+![Email User Link](/files/email-user-link.png)
 
 
 Você pode vincular vários e-mails com um usuário.
@@ -94,7 +94,7 @@ Você pode vincular vários e-mails com um usuário.
 ## 5. Usando a caixa de entrada de e-mail
 
 
-Se você configurou corretamente a caixa de entrada de e-mail conforme instruído acima, no login de um usuário, o ícone da caixa de entrada de e-mail ficará visível. Isso levará o usuário à exibição Caixa de entrada de e-mail na conta ERPNext. Todos os e-mails recebidos nesse e-mail serão buscados e listados na exibição Caixa de entrada de e-mail. O usuário poderá abrir e-mails e executar várias ações neles.
+Se você configurou corretamente a caixa de entrada de e-mail conforme instruído acima, no login de um usuário, o ícone da caixa de entrada de e-mail ficará visível. Isso levará o usuário à exibição Caixa de entrada de e-mail na conta ERPNext. Todos os e-mails recebidos nesse e-mail serão buscados e listados na exibição Caixa de entrada de e-mail. O usuário poderá abrir e-mails e realizar várias ações neles.
 
 
 ### 5.1 Pastas
@@ -109,7 +109,7 @@ No ERPNext, você pode vincular várias contas de e-mail com um único usuário.
 ### 5.2 Ações
 
 
-Nos e-mails da sua caixa de entrada, você pode realizar várias ações como Responder, Encaminhar, Marcar como Spam ou Lixeira.
+Nos e-mails da sua caixa de entrada, você pode realizar várias ações, como responder, encaminhar, marcar como spam ou lixo.
 
 
 ![Ações de e-mail](/files/email-actions.png)
@@ -118,7 +118,7 @@ Nos e-mails da sua caixa de entrada, você pode realizar várias ações como Re
 ### 5.3 Revincular
 
 
-Você pode vincular novamente um e-mail a um documento como Problema, Lead, Oportunidade, etc. com base no contexto do e-mail. Selecione o tipo de documento e o documento ao qual vincular o e-mail.
+Você pode vincular novamente um e-mail a um documento como Problema, Lead, Oportunidade etc. com base no contexto do e-mail. Selecione o tipo de documento e o documento ao qual vincular o e-mail.
 
 
 ![Make from Email](/files/make-from-email.png)
@@ -127,6 +127,6 @@ Você pode vincular novamente um e-mail a um documento como Problema, Lead, Opor
 ### 6. Tópicos Relacionados
 
 
-1. [Conta de e-mail](/docs/v13/user/manual/en/setting-up/email/email-account)
-2. [Enviando e-mail](/docs/v13/user/manual/en/setting-up/email/sending-email)
-3. [Email Domain](/docs/v13/user/manual/en/setting-up/email/email-domain)
+1. [Conta de e-mail](/docs/pt/setting-up/email/email-account)
+2. [Envio de e-mail](/docs/pt/setting-up/email/sending-email)
+3. [Domínio de e-mail](/docs/pt/setting-up/email/email-domain)

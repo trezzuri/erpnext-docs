@@ -1,65 +1,65 @@
-# Programa de lealdade
+# Programa de fidelidade
 
 
-**Um Programa de Fidelidade permite que os Clientes ganhem pontos ao gastar um determinado valor e os resgatem em compras futuras.**
+**Um Programa de Fidelidade permite que os Clientes ganhem pontos ao gastar um determinado valor e permite resgatar os pontos em compras futuras.**
 
 
-Um Programa de Fidelidade do Cliente é um esforço de marketing estruturado e de longo prazo que fornece incentivos para clientes recorrentes. Programas bem-sucedidos são projetados para motivar os clientes no mercado-alvo de uma empresa a retornar com frequência, fazer compras frequentes e evitar concorrentes.
+Um Programa de Fidelidade de Clientes é um esforço de marketing estruturado e de longo prazo que fornece incentivos para clientes recorrentes. Os programas bem-sucedidos são projetados para motivar os clientes no mercado-alvo de uma empresa a retornar com frequência, fazer compras frequentes e evitar concorrentes.
 
 
 Para acessar a lista do Programa de Fidelidade, acesse:
 
 
 
->
-> Home > Varejo > Operações de Varejo > Programa de Fidelidade
->
->
->
+> 
+> Página inicial > Varejo > Operações de varejo > Programa de fidelidade
+> 
+> 
+> 
 
 
 ## 1. Pré-requisitos
 
 
-Antes de criar e usar um Programa de Fidelidade, é aconselhável criar primeiro o seguinte:
+Antes de criar e usar um Programa de Fidelidade, é recomendável criar primeiro o seguinte:
 
 
-1. [Cliente](/docs/v13/user/manual/en/CRM/cliente)
-2. [Fatura de vendas](/docs/v13/user/manual/en/accounts/fatura de vendas)
+1. [Cliente](/docs/pt/CRM/customer)
+2. [Fatura de vendas](/docs/pt/accounts/sales-invoice)
 
 
 ## 2. Como criar um programa de fidelidade
 
 
-1. Acesse a lista Programa de Fidelidade e clique em Novo.
-2. Digite um Nome para o Programa de Fidelidade.
-3. Selecione se o programa é de Camada Única ou Camada Múltipla (ouro, prata, etc.).
-4. Defina uma data inicial e final para o programa.
+1. Vá para a lista do Programa de Fidelidade e clique em Novo.
+2. Digite um nome para o programa de fidelidade.
+3. Selecione se o programa é de camada única ou de várias camadas (ouro, prata etc.).
+4. Defina uma data de início e término para o programa.
 5. Selecione o Grupo de Clientes e Território para os quais este programa é aplicável, o padrão é todos.
-6. Para optar por todos os clientes por padrão, marque 'Auto Opt In (para todos os clientes)'. Caso contrário, o programa precisa ser atribuído a partir do [Mestre do cliente](/docs/v13/user/manual/en/accounts/loyalty-program#22-loyalty-points-in-customer).
+6. Para ativar todos os clientes por padrão, marque 'Aceitação automática (para todos os clientes)'. Caso contrário, o programa precisa ser atribuído a partir do [Mestre do cliente](/docs/pt/accounts/loyalty-program#22-loyalty-points-in-customer).
 7. Na tabela, digite:
-2. **Nome do nível**: A ser atribuído a um cliente com base em sua elegibilidade.
-3. **Fator de Arrecadação**: Quanto precisa ser gasto para ganhar 1 Ponto Fidelidade no ERPNext.
-4. **Montante Mínimo**: Valor mínimo a ser gasto para se qualificar para uma categoria.
+	2. **Nome do nível**: a ser atribuído a um cliente com base em sua elegibilidade.
+	3. **Fator de Arrecadação**: Quanto precisa ser gasto para ganhar 1 Ponto de Fidelidade no ERPNext.
+	4. **Valor mínimo**: valor mínimo a ser gasto para se qualificar para uma modalidade.
 8. Defina o fator de conversão, por exemplo: 10 USD = 1 ponto.
-9. Salve.
+9. Salvar.
 
 
 ![Programa de fidelidade](/files/loyalty-program.png)
 
 
-### 2.1 Seção de Resgate
+### 2.1 Seção de resgate
 
 
-* **Fator de Conversão**: Ao resgatar pontos de fidelidade, este fator decide quanto dinheiro vale 1 Ponto de Fidelidade. Por exemplo, se um cliente tiver 100 pontos de fidelidade e 1 ponto de fidelidade = 1 USD, o cliente usará itens de até 100 USD com seus pontos de fidelidade para compras futuras.
-* **Conta de Despesas**: Defina uma Conta de Despesas de onde você oferecerá os benefícios. Isso é útil para rastrear os benefícios oferecidos separadamente.
-* **Duração da expiração (em dias)**: Os pontos de fidelidade acumulados expirarão após o número de dias definido neste campo.
+* **Fator de conversão**: ao resgatar pontos de fidelidade, esse fator decide quanto dinheiro vale 1 ponto de fidelidade. Por exemplo, se um cliente tiver 100 pontos de fidelidade e 1 ponto de fidelidade = 1 USD, o cliente usará itens de até 100 USD com seus pontos de fidelidade para compras futuras.
+* **Conta de Despesas**: Defina uma Conta de Despesas a partir da qual você oferecerá os benefícios. Isso é útil para rastrear os benefícios oferecidos separadamente.
+* **Duração da expiração (em dias)**: Os pontos de fidelidade coletados expirarão após o número de dias definido neste campo.
 
 
-### 2.2 Pontos de Fidelização no Cliente
+### 2.2 Pontos de fidelidade no cliente
 
 
-Defina uma seção do Programa de Fidelidade no mestre de Clientes para atribuir um Programa de Fidelidade a um Cliente.
+Defina uma seção do Programa de fidelidade no cadastro de clientes para atribuir um Programa de fidelidade a um cliente.
 
 
 ![Programa de fidelidade no cliente](/files/loyalty-program-in-customer.png)
@@ -74,8 +74,8 @@ Os **pontos de fidelidade** ganhos podem ser visualizados no painel do cliente.
 ### 2.3 Entrada de ponto de fidelidade
 
 
-Acesse: **Contas > Operações de varejo > Entrada de ponto de fidelidade**.
-Isso funciona como um registro para fornecer uma visão geral de qual cliente ganhou quantos pontos em relação a qual fatura de venda. Contém os dados Nota Fiscal e Cliente.
+Vá para: **Contas > Operações de varejo > Entrada de ponto de fidelidade**.
+Isso funciona como um registro para fornecer uma visão geral de qual cliente ganhou quantos pontos em relação a qual fatura de venda. Ele contém os dados da Fatura e do Cliente.
 
 
 ![Entrada no Programa de Fidelidade](/files/loyalty-program-entry.png)
@@ -84,49 +84,49 @@ Isso funciona como um registro para fornecer uma visão geral de qual cliente ga
 ## 3. Como funciona um Programa de Fidelidade?
 
 
-### 3.1 Ganhando Pontos
+### 3.1 Ganhando pontos
 
 
-* Primeiramente, um **Programa de Fidelidade** precisa ser criado conforme explicado na primeira seção.
+* Em primeiro lugar, um **Programa de Fidelidade** precisa ser criado conforme explicado na primeira seção.
 * Atribua este **Programa de Fidelidade** a um **Cliente**.
-* Crie uma nova Nota Fiscal de Venda para o **Cliente** ao qual você atribuiu o **Programa de Fidelidade**.
-* Para este exemplo, uma fatura é criada com um total geral de 3.000 INR e de acordo com o **Programa de Fidelidade** para um gasto mínimo de 2.000 INR, o fator de cobrança Silver Tier será elegível e para cada 300 INR gastos, o **Cliente** receberá 1 ponto (portanto, o total de pontos ganhos nesta transação é 15).
-* Após o envio da fatura, uma **Entrada de Ponto de Fidelidade** será criada para esta fatura (conforme mostrado acima na seção Entrada no Programa de Fidelidade).
-* Em nosso **Programa de Fidelidade**, com um gasto mínimo de 6.000, o nível Gold seria elegível. Assim, ao enviar outra fatura com o mesmo valor, o total de vendas deste Cliente passa a 6.000. Agora, o **Cliente** será atualizado automaticamente para o nível Gold.
+* Crie uma nova Fatura de Venda para o **Cliente** ao qual você atribuiu o **Programa de Fidelidade**.
+* Para este exemplo, uma fatura é criada com um total geral de 3.000 INR e, de acordo com o **Programa de fidelidade**, para um gasto mínimo de 2.000 INR, o fator de cobrança Silver Tier será elegível e para cada 300 INR gastos, o **Cliente** receberá 1 ponto (portanto, o total de pontos ganhos nesta transação é 15).
+* Após o envio da fatura, uma **Entrada de ponto de fidelidade** será criada para esta fatura (conforme mostrado acima na seção Entrada no programa de fidelidade).
+* Em nosso **Programa de Fidelidade**, com um gasto mínimo de 6.000, o nível Gold seria qualificado. Assim, ao enviar outra fatura com o mesmo valor, o total de vendas deste Cliente passa a 6.000. Agora, o **Cliente** será atualizado automaticamente para o nível Gold.
 
 
 
->
-> Observação: O mínimo gasto no Programa de Fidelidade não significa um valor mínimo para uma única fatura. Em vez disso, significa a soma do valor das faturas do Cliente em um determinado esquema de Programa de Fidelidade.
->
->
->
+> 
+> Observação: O mínimo gasto no Programa de Fidelidade não significa um valor mínimo para uma única fatura. Em vez disso, significa a soma do valor das faturas para o Cliente em um esquema específico do Programa de Fidelidade.
+> 
+> 
+> 
 
 
-### 3.2 Resgate de Pontos
+### 3.2 Resgate de pontos
 
 
-* Vamos continuar com o exemplo acima, onde criamos 1 fatura e ganhamos 15 pontos com ela. Ao criar outra fatura para o mesmo Cliente, aceda à secção Pontos Fidelidade e ative a caixa de seleção 'Trocar Pontos Fidelidade'.
+* Vamos continuar a partir do exemplo acima, onde criamos 1 fatura e ganhamos 15 pontos com ela. Ao criar outra fatura para o mesmo Cliente, aceda à secção Pontos Fidelidade e ative a caixa de seleção 'Trocar Pontos Fidelidade'.
 ![Resgatar pontos de fidelidade](/files/redeem-loyalty-points.png)
-* Os campos 'Ponto Fidelidade', 'Conta de Resgate' e 'Centro de Custo de Resgate' ficarão visíveis nesta seção. A conta e o Centro de Custo serão buscados no **Programa de Fidelidade** atribuído ao **Cliente**.
+* Os campos 'Ponto de Fidelidade', 'Conta de Resgate' e 'Centro de Custo de Resgate' ficarão visíveis nesta seção. A conta e o Centro de Custos serão buscados no **Programa de Fidelidade** atribuído ao **Cliente**.
 * Como o cliente ganhou 15 pontos, podemos usar todos até o vencimento. Se tentarmos usar mais do que temos, um erro será lançado.
-* No exemplo acima, usamos 6375 pontos a serem resgatados. Fazê-lo vai habilitar outro campo que exibirá o valor calculado usando (ponto de fidelidade \* fator de conversão). Portanto, USD 6375 serão deduzidos de nosso valor, pois nosso 'Fator de conversão' era '1'.
-* Quando enviado, 2 **Entradas de pontos de fidelidade** serão criadas. Uma para resgatados, que será um valor negativo e outra para a fatura atual.
-![Ponto de fidelidade](/files/loyalty-point-entry-redeem.png)
+* No exemplo acima, usamos 6375 pontos a serem resgatados. Ao fazer isso, outro campo será ativado, exibindo o valor calculado usando (ponto de fidelidade \* Fator de conversão). Portanto, USD 6.375 serão deduzidos de nosso valor, pois nosso 'Fator de conversão' era '1'.
+* Ao enviar, 2 **Entradas de pontos de fidelidade** serão criadas. Uma para resgatados, que será um valor negativo e outra para a fatura atual.
+![Loyalty Point](/files/loyalty-point-entry-redeem.png)
 
 
 
->
-> Nota: Para uma fatura na qual os pontos foram ganhos, se uma fatura de devolução for criada, ela excluirá a Entrada de Ponto de Fidelidade original e criará uma nova depois de subtrair o valor devolvido do valor original. Além disso, ao cancelar uma fatura, sua entrada de ponto de fidelidade subsequente será excluída.
->
->
->
+> 
+> Observação: Para uma fatura na qual os pontos foram ganhos, se uma fatura de devolução for criada, ela excluirá a Entrada de Ponto de Fidelidade original e criará uma nova depois de subtrair o valor devolvido do valor original. Além disso, ao cancelar uma fatura, sua entrada de ponto de fidelidade subsequente será excluída.
+> 
+> 
+> 
 
 
 ### 4. Tópicos Relacionados
 
 
-1. [Centro de custo](/docs/v13/user/manual/en/accounts/cost-center)
-2. [Fatura de vendas](/docs/v13/user/manual/en/accounts/fatura de vendas)
-3. [Cliente](/docs/v13/user/manual/en/CRM/cliente)
-4. [Grupo de clientes](/docs/v13/user/manual/en/CRM/customer-group)
+1. [Centro de custo](/docs/pt/accounts/cost-center)
+2. [Fatura de vendas](/docs/pt/accounts/sales-invoice)
+3. [Cliente](/docs/pt/CRM/customer)
+4. [Grupo de clientes](/docs/pt/CRM/customer-group)

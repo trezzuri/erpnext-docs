@@ -32,7 +32,7 @@ To create a new **Print Style** go to:
 The styles you create here apply to both standard and custom print formats. To find out the various CSS classes available, you can make a standard print format, open in a new page and see the source.
 
 
-A default Print Style, can be set from [Print Settings](/docs/v13/user/manual/en/setting-up/print/print-settings).
+A default Print Style, can be set from [Print Settings](/docs/en/setting-up/print/print-settings).
 
 
 All Print Format styles are based on Bootstrap (Version 3) CSS Framework.
@@ -47,9 +47,9 @@ If you have enabled developer mode and tick on Standard then system will generat
 ### 2. Related Topics
 
 
-1. [Print Format](/docs/v13/user/manual/en/setting-up/print/print-format)
-2. [Print Headings](/docs/v13/user/manual/en/setting-up/print/print-headings)
-3. [Letter Head](/docs/v13/user/manual/en/setting-up/print/letter-head)
-4. [Cheque Print Template](/docs/v13/user/manual/en/setting-up/print/cheque-print-template)
+1. [Print Format](/docs/en/setting-up/print/print-format)
+2. [Print Headings](/docs/en/setting-up/print/print-headings)
+3. [Letter Head](/docs/en/setting-up/print/letter-head)
+4. [Cheque Print Template](/docs/en/setting-up/print/cheque-print-template)
 
 

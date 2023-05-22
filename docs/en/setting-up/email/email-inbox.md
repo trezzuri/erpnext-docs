@@ -17,13 +17,13 @@ In ERPNext, you can configure Email Inbox for each System User. Following are th
 You can configure an Email Inbox for a System User only. Hence ensure that you have added yourself and your colleagues as a User and assigned them required permissions.
 
 
-To know how to add a new User, go to the [User page](/docs/v13/user/manual/en/setting-up/users-and-permissions/adding-users).
+To know how to add a new User, go to the [User page](/docs/en/setting-up/users-and-permissions/adding-users).
 
 
 ## 2. Create an Email Domain
 
 
-Email Domain for the following Services is available out-of-the-box and you can directly proceed to create an [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account). Know more about creating an Email Domain [here](/docs/v13/user/manual/en/setting-up/email/email-domain).
+Email Domain for the following Services is available out-of-the-box and you can directly proceed to create an [Email Account](/docs/en/setting-up/email/email-account). Know more about creating an Email Domain [here](/docs/en/setting-up/email/email-domain).
 
 
 * **Gmail**
@@ -54,7 +54,7 @@ To add new Email Domain, go to:
 ![Email Domain](/files/email-domain.png)
 
 
-Know more about Email Domains [here](/docs/v13/user/manual/en/setting-up/email/email-domain). Once you have configured an Email Domain for your Email Service, it will be used for creating Email Accounts for all the Users in your ERPNext account.
+Know more about Email Domains [here](/docs/en/setting-up/email/email-domain). Once you have configured an Email Domain for your Email Service, it will be used for creating Email Accounts for all the Users in your ERPNext account.
 
 
 ## 3. Email Account
@@ -77,7 +77,7 @@ If you are creating an Email Account for your colleague who's Email Password is 
 > 
 
 
-Read [Email Account documentation](/docs/v13/user/manual/en/setting-up/email/email-account) for more details on how to setup.
+Read [Email Account documentation](/docs/en/setting-up/email/email-account) for more details on how to setup.
 
 
 ## 4. Linking Email Account in the User master
@@ -128,8 +128,8 @@ You can relink an email to a document like Issue, Lead, Opportunity, etc. based 
 ### 6. Related Topics
 
 
-1. [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account)
-2. [Sending Email](/docs/v13/user/manual/en/setting-up/email/sending-email)
-3. [Email Domain](/docs/v13/user/manual/en/setting-up/email/email-domain)
+1. [Email Account](/docs/en/setting-up/email/email-account)
+2. [Sending Email](/docs/en/setting-up/email/sending-email)
+3. [Email Domain](/docs/en/setting-up/email/email-domain)
 
 

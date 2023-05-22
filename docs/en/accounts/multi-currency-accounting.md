@@ -17,7 +17,7 @@ Bank accounts in foreign currencies can be for other branches of your own compan
 ### 1.1 Set currency in Chart of Accounts
 
 
-To get started with multi-currency accounting, you need to assign accounting currency in the Account record. You can define Currency from [Chart of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts) while creating an Account.
+To get started with multi-currency accounting, you need to assign accounting currency in the Account record. You can define Currency from [Chart of Accounts](/docs/en/accounts/chart-of-accounts) while creating an Account.
 
 
 ![Set Currency in Account](/files/set-default-currency-in-ledger.png)
@@ -64,7 +64,7 @@ You can change accounting currency in Party/Account record before you make any t
 ## 2. Exchange Rates
 
 
-When dealing with multiple currencies, ERPNext has the Currency Exchange page for managing exchange rates. It allows you to save the exchange rate quotes you require. To know more, visit the [Currency Exchange](/docs/v13/user/manual/en/accounts/currency-exchange) page.
+When dealing with multiple currencies, ERPNext has the Currency Exchange page for managing exchange rates. It allows you to save the exchange rate quotes you require. To know more, visit the [Currency Exchange](/docs/en/accounts/currency-exchange) page.
 
 
 For foreign currency transactions, ERPNext checks exchange rates from:
@@ -76,7 +76,7 @@ For foreign currency transactions, ERPNext checks exchange rates from:
 4. If this still fails, then the exchange rate will have to be entered manually.
 
 
-The rates in the Currency Exchange master are fetched based on whether 'Allow Stale Exchange Rate' is enabled in Accounts Settings. To know more, visit the [Accounts Settings](/docs/v13/user/manual/en/accounts/accounts-settings) page.
+The rates in the Currency Exchange master are fetched based on whether 'Allow Stale Exchange Rate' is enabled in Accounts Settings. To know more, visit the [Accounts Settings](/docs/en/accounts/accounts-settings) page.
 
 
 ## 3. Transactions
@@ -91,7 +91,7 @@ In a Sales Invoice, transaction currency must be the same as the accounting curr
 Now, in Invoice, Paid Amount will be entered in transaction currency, instead of earlier Company Currency. Write Off Amount will also be entered in the transaction currency.
 
 
-Outstanding Amount and Advance Amount will always be calculated and shown in Customer's Account Currency. The paid amounts will be reflected in the [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry):
+Outstanding Amount and Advance Amount will always be calculated and shown in Customer's Account Currency. The paid amounts will be reflected in the [Payment Entry](/docs/en/accounts/payment-entry):
 
 
 ![Multi-currency in Payment Entry](/files/multi-currency-in-payment-entry.png)
@@ -142,10 +142,10 @@ In Accounts Receivable/Payable report, the system shows all the amounts in Party
 ### 5. Related Topics
 
 
-1. [Exchange Rate Revaluation](/docs/v13/user/manual/en/accounts/exchange-rate-revaluation)
-2. [Currency Exchange](/docs/v13/user/manual/en/accounts/currency-exchange)
-3. [Currency](/docs/v13/user/manual/en/accounts/currency)
-4. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-5. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Exchange Rate Revaluation](/docs/en/accounts/exchange-rate-revaluation)
+2. [Currency Exchange](/docs/en/accounts/currency-exchange)
+3. [Currency](/docs/en/accounts/currency)
+4. [Sales Invoice](/docs/en/accounts/sales-invoice)
+5. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 

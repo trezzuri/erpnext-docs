@@ -1,13 +1,13 @@
-# Estados do Documento
+# Estados do documento
 
 
-**Estado do documento é o emblema colorido que você vê na coluna Status na exibição de lista e ao lado do título na exibição de formulário.**
+**Estado do documento é o selo colorido que você vê na coluna Status na exibição de lista e ao lado do título na exibição de formulário.**
 
 
-Esta funcionalidade permite definir ou personalizar as cores dos estados dos seus documentos.
+Este recurso permite definir ou personalizar as cores dos status de seus documentos.
 
 
-## Personalize a cor do status
+## Personalizar a cor do status
 
 
 Digamos que você queira alterar a cor do status "Atrasado" no tipo de documento Tarefa:
@@ -21,11 +21,11 @@ Digamos que você queira alterar a cor do status "Atrasado" no tipo de documento
 ![](/files/document-state-task-list.png)
 
 
-## Defina o status e sua cor para doctypes personalizados
+## Definir status e sua cor para doctypes personalizados
 
 
 1. Defina suas opções de status
-![imagem](/files/document-state-config2.png)
+![image](/files/document-state-config2.png)
 2. Defina cores para seus estados
 ![](/files/document-state-doctype-states.png)
 3. Os emblemas coloridos aparecerão na exibição de lista e na exibição de formulário:

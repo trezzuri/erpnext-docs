@@ -25,7 +25,7 @@ To access the Service Level Agreement list, go to:
 Before creating and using a Service Level Agreement, it is advised that you create/update the following first:
 
 
-* [Holiday List](/docs/v13/user/manual/en/human-resources/holiday-list)
+* [Holiday List](/docs/en/human-resources/holiday-list)
 * Enable **Track Service Level Agreement** in Support Settings
 
 

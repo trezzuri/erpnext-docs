@@ -28,7 +28,7 @@ By default three latest backups will be available for the download. To change th
 ## Downloading Files Backup
 
 
-Clicking on Download Files Backup will send an email with links to the backup for both private and public files. [Email](/docs/v13/user/manual/en/setting-up/email) must be configured for this to work.
+Clicking on Download Files Backup will send an email with links to the backup for both private and public files. [Email](/docs/en/setting-up/email) must be configured for this to work.
 
 
 ![Download Backup](/files/download-backup-files.png)
@@ -41,7 +41,7 @@ You can also automate your backups to be uploaded directly on a cloud storage pl
 
 
 1. Amazon S3
-2. [Dropbox](/docs/v13/user/manual/en/erpnext_integration/dropbox-backup)
-3. [Google Drive](/docs/v13/user/manual/en/erpnext_integration/google_drive)
+2. [Dropbox](/docs/en/erpnext_integration/dropbox-backup)
+3. [Google Drive](/docs/en/erpnext_integration/google_drive)
 
 

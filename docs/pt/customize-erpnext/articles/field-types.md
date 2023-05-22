@@ -1,19 +1,19 @@
-# Tipos de campo
+# Tipos de Campo
 
 
-A seguir estão os tipos de campos que você pode definir ao criar novos ou ao corrigir os padrões.
+A seguir estão os tipos de campos que você pode definir ao criar novos ou ao alterar os padrão.
 
 
 #### Link
 
 
-O campo Link está conectado a outro mestre de onde busca os dados. Por exemplo, no mestre de cotações, o campo Cliente é um link. Para saber mais, [clique aqui](/docs/v13/user/manual/en/customize-erpnext/articles/creating-custom-link-field).
+O campo Link está conectado a outro mestre de onde ele busca os dados. Por exemplo, no mestre de cotações, o campo Cliente é um link. Para saber mais, [clique aqui](/docs/pt/customize-erpnext/articles/creating-custom-link-field).
 
 
-#### Link Dinâmico
+#### Link dinâmico
 
 
-O campo Dynamic Link é aquele que pode pesquisar e manter o valor de qualquer documento/doctype. [Clique aqui](/docs/v13/user/manual/en/customize-erpnext/articles/dynamic-link-fields) para saber como funciona o Dynamic Link Field.
+O campo Dynamic Link é aquele que pode pesquisar e manter o valor de qualquer documento/doctype. [Clique aqui](/docs/pt/customize-erpnext/articles/dynamic-link-fields) para saber como funciona o Dynamic Link Field.
 
 
 #### Verificar
@@ -25,46 +25,46 @@ Isso permitirá que você tenha uma caixa de seleção aqui.
 ![Check Field TYpe](/files/field-type-check.png)
 
 
-#### Selecione
+#### Selecionar
 
 
-Selecione será um campo suspenso. Você pode adicionar vários resultados no campo Opção, separados por linha.
+Selecionar será um campo suspenso. Você pode adicionar vários resultados no campo Opção, separados por linha.
 
 
-![Selecione o tipo de campo](/files/field-type-select.png)
+![Selecionar tipo de campo](/files/field-type-select.png)
 
 
-#### Mesa
+#### Tabela
 
 
-Uma tabela será uma espécie de campo Link que renderiza outro DocType dentro do formulário atual. Por exemplo, a tabela de itens no pedido de venda é um campo de tabela vinculado ao tipo de documento do item do pedido de venda.
+Uma tabela será uma espécie de campo Link que renderiza outro DocType dentro do formulário atual. Por exemplo, a tabela de itens no pedido de vendas é um campo de tabela vinculado ao tipo de documento do item do pedido de vendas.
 
 
-![Tipo de campo de tabela](/files/field-type-table.png)
+![Table Field Type](/files/field-type-table.png)
 
 
 #### Anexar
 
 
-Anexar campo permite que você navegue em um campo do Gerenciador de Arquivos e anexe o mesmo aqui.
+Anexar campo permite que você navegue em um campo do Gerenciador de arquivos e anexe o mesmo aqui.
 
 
 ![Anexar tipo de campo](/files/field-type-attach.png)
 
 
-#### Anexar Imagem
+#### Anexar imagem
 
 
-Anexar imagem é um campo no qual você poderá anexar imagens no formato jpeg, png, etc. Isso se torna a imagem que representa esse tipo de documento específico. Por exemplo, você deseja a imagem de um Item em seu DocType, você pode escolher seu campo para ser um campo Anexar imagem.
+Anexar imagem é um campo onde você poderá anexar imagens no formato jpeg, png, etc. Isso se torna a imagem que representa esse tipo de documento específico. Por exemplo, você deseja a imagem de um item em seu DocType, você pode escolher seu campo para ser um campo de anexar imagem.
 
 
-![Imagem do tipo de campo](/files/field-type-image.png)
+![Field Type Image](/files/field-type-image.png)
 
 
 #### Editor de texto
 
 
-Editor de texto é um campo de texto. Possui opções de formatação de texto. No ERPNext, este campo geralmente é utilizado para definição de Termos e Condições.
+Editor de texto é um campo de texto. Possui opções de formatação de texto. No ERPNext, este campo geralmente é usado para definir os Termos e Condições.
 
 
 ![Editor de texto de tipo de campo](/files/field-type-text-editor.png)
@@ -91,7 +91,7 @@ Este campo fornecerá um seletor de data e hora. A data e hora atuais (fornecida
 #### Código de barras
 
 
-Neste campo, você pode especificar o campo como Código de barras, o que permitirá inserir um número de código de barras. Depois de fazer isso, o código de barras seria gerado automaticamente em relação ao número.
+Neste campo, você pode especificar o campo como Código de barras, o que permitirá inserir um número de código de barras. Assim que você fizer isso, o código de barras será gerado automaticamente em relação ao número.
 
 
 ![Código de barras do tipo de campo](/files/field-type-barcode.png)
@@ -100,7 +100,7 @@ Neste campo, você pode especificar o campo como Código de barras, o que permit
 #### Botão
 
 
-Este tipo de campo será um botão de ação, como Salvar, Enviar, etc.
+Esse tipo de campo será um botão de ação, como Salvar, Enviar, etc.
 
 
 ![Botão de tipo de campo](/files/field-type-button.png)
@@ -109,10 +109,10 @@ Este tipo de campo será um botão de ação, como Salvar, Enviar, etc.
 #### Código
 
 
-Se o Tipo de campo for selecionado como código, você poderá inserir um Código no campo.
+Se o tipo de campo for selecionado como código, você poderá inserir um código no campo.
 
 
-![Código do tipo de campo](/files/field-type-code.png)
+![Código de tipo de campo](/files/field-type-code.png)
 
 
 #### Cor
@@ -124,22 +124,22 @@ Você terá a opção de especificar a cor para este Formulário.
 ![Cor do tipo de campo](/files/field-type-colour.png)
 
 
-#### Quebra de Coluna
+#### Quebra de coluna
 
 
-Como o ERPNext possui múltiplos layouts de colunas, utilizando Column Breaks, você pode dividir um conjunto de campos em no máximo duas colunas.
+Como o ERPNext possui vários layouts de coluna, usando quebras de coluna, você pode dividir um conjunto de campos em no máximo duas colunas.
 
 
-![Quebra de coluna do tipo de campo](/files/field-type-column-break.png)
+![Field Type Column Break](/files/field-type-column-break.png)
 
 
 #### Moeda
 
 
-O campo Moeda contém valores numéricos, como Preço do Item, Valor, etc. O campo Moeda pode ter valores de até seis casas decimais. Além disso, você pode ter um símbolo de moeda sendo mostrado para o campo de moeda.
+O campo de moeda contém valores numéricos, como preço do item, valor, etc. O campo de moeda pode ter valores de até seis casas decimais. Além disso, você pode ter um símbolo de moeda sendo mostrado para o campo de moeda.
 
 
-![Moeda do tipo de campo](/files/field-type-currency.png)
+![Field Type Currency](/files/field-type-currency.png)
 
 
 #### Dados
@@ -148,24 +148,24 @@ O campo Moeda contém valores numéricos, como Preço do Item, Valor, etc. O cam
 O campo de dados será um campo de texto simples. Ele permite inserir um valor de até 140 caracteres, tornando este o tipo de campo mais genérico. Para habilitar validações para entradas de e-mail, nome ou número de telefone, defina as opções para "E-mail", "Nome", "Telefone" em Configurações > Tipo de documento.
 
 
-![Dados do tipo de campo](/files/field-type-data.png)
+![Field Type Data](/files/field-type-data.png)
 
 
 #### Flutuar
 
 
-O campo float carrega um valor numérico, até nove casas decimais. A precisão do campo flutuante é definida por meio de [Definir precisão](/docs/v13/user/manual/en/customize-erpnext/articles/set-precision)
+O campo float carrega um valor numérico, até nove casas decimais. A precisão do campo flutuante é definida em [Definir precisão](/docs/pt/customize-erpnext/articles/set-precision)
 
 
 
->
+> 
 > Configuração > Configurações > Configurações do sistema
->
->
->
+> 
+> 
+> 
 
 
-A configuração será aplicável em todo o campo float.
+A configuração será aplicável em todos os campos flutuantes.
 
 
 ![Field Type Float](/files/field-type-float.png)
@@ -177,16 +177,16 @@ A configuração será aplicável em todo o campo float.
 Use o campo Geolocation para armazenar GeoJSON [feature\_collection](https://tools.ietf.org/html/rfc7946#section-3.3). Armazena polígonos, linhas e pontos. Internamente, ele usa as seguintes propriedades personalizadas para identificar um círculo.
 
 
-Leia [Campo de geolocalização](/docs/v13/user/manual/en/customize-erpnext/articles/geolocation-field) para entender melhor.
+Leia [Campo de geolocalização](/docs/pt/customize-erpnext/articles/geolocation-field) para entender melhor.
 
 
-![Geolocalização do tipo de campo](/files/field-type-geolocation.png)
+![Field Type Geolocation](/files/field-type-geolocation.png)
 
 
 #### HTML
 
 
-Você pode selecionar o campo para ser um campo HTML quando desejar que os dados sejam inseridos no formato HTML.
+Você pode selecionar o campo para ser um campo HTML quando quiser que os dados sejam inseridos no formato HTML.
 
 
 ![Tipo de campo HTML](/files/field-type-html.png)
@@ -201,7 +201,7 @@ O campo de imagem renderizará um arquivo de imagem selecionado em outro campo a
 Para o campo Imagem, em Opção (em Doctype), deve ser fornecido um nome de campo onde o arquivo de imagem está anexado. Ao referenciar o valor naquele campo, a imagem será uma referência no campo Imagem.
 
 
-![Imagem do tipo de campo](/files/field-type-image2.png)
+![Field Type Image](/files/field-type-image2.png)
 
 
 #### Int (Inteiro)
@@ -213,7 +213,7 @@ O campo inteiro contém valor numérico, sem casa decimal.
 ![Field Type Integer](/files/field-type-integer.png)
 
 
-#### Texto Pequeno
+#### Texto pequeno
 
 
 O campo de texto pequeno contém conteúdo de texto e tem mais limite de caracteres do que o campo de dados.
@@ -222,10 +222,10 @@ O campo de texto pequeno contém conteúdo de texto e tem mais limite de caracte
 ![Field Type Small Text](/files/field-type-small-text.png)
 
 
-#### Texto Longo
+#### Texto longo
 
 
-Você pode definir seu campo para um campo de texto longo quando desejar inserir dados com um limite de caracteres ilimitado.
+Você pode definir seu campo para um campo de texto longo quando desejar inserir dados com um limite ilimitado de caracteres.
 
 
 ![Field Type Long Text](/files/field-type-long-text.png)
@@ -234,7 +234,7 @@ Você pode definir seu campo para um campo de texto longo quando desejar inserir
 #### Texto
 
 
-Este tipo de campo permitiria que você adicionasse texto no campo. O limite de caracteres nos campos Texto Pequeno, Texto Longo e Texto será determinado com base no Sistema de Gerenciamento de Banco de Dados Relacional.
+Este tipo de campo permite adicionar texto ao campo. O limite de caracteres nos campos Texto Pequeno, Texto Longo e Texto será determinado com base no Sistema de Gerenciamento de Banco de Dados Relacional.
 
 
 ![Field Type Text](/files/field-type-text.png)
@@ -246,7 +246,7 @@ Este tipo de campo permitiria que você adicionasse texto no campo. O limite de 
 Este campo permitirá que você adicione o texto em linguagem de marcação.
 
 
-![Editor de markdown de tipo de campo](/files/field-type-markdown-editor.png)
+![Editor de marcação de tipo de campo](/files/field-type-markdown-editor.png)
 
 
 #### Senha
@@ -264,16 +264,16 @@ O campo de senha terá um valor decodificado nele.
 Você pode definir o campo como um campo de Porcentagem que, em segundo plano, será calculado como uma porcentagem.
 
 
-![Porcentagem do tipo de campo](/files/field-type-percent.png)
+![Field Type-percent](/files/field-type-percent.png)
 
 
 #### Avaliação
 
 
-Você pode definir o campo como um campo Taxa que em segundo plano será calculado como Classificação.
+Você pode definir o campo como um campo Taxa que, em segundo plano, será calculado como Classificação.
 
 
-![Classificação do tipo de campo](/files/field-type-rating.png)
+![Field Type Rating](/files/field-type-rating.png)
 
 
 #### Somente leitura
@@ -288,19 +288,19 @@ O campo Somente leitura carregará os dados obtidos de outro formulário que nã
 #### Quebra de seção
 
 
-A quebra de seção é usada para dividir o formulário em várias seções.
+Quebra de seção é usada para dividir o formulário em várias seções.
 
 
-![Quebra de seção de tipo de campo](/files/field-type-section-break.png)
+![Field Type Section Break](/files/field-type-section-break.png)
 
 
 #### Assinatura
 
 
-Você pode definir o campo para ser um campo de assinatura no qual você pode adicionar a assinatura digital neste campo. Leia a documentação para [Campo de assinatura](/docs/v13/user/manual/en/customize-erpnext/articles/signature-field) para saber mais.
+Você pode definir o campo para ser um campo de assinatura onde você pode adicionar a assinatura digital neste campo. Leia a documentação do [Campo de assinatura](/docs/pt/customize-erpnext/articles/signature-field) para saber mais.
 
 
-#### Seleção Múltipla de Mesa
+#### Tabela MultiSelect
 
 
 Esta é uma combinação de campos do tipo 'Link' e do tipo 'Tabela'. Em vez de uma tabela filha com o botão 'Adicionar linha', vários valores podem ser selecionados em um campo.
@@ -309,7 +309,7 @@ Esta é uma combinação de campos do tipo 'Link' e do tipo 'Tabela'. Em vez de 
 ![Field Type Table MultiSelect](/files/field-type-table-multiselect.png)
 
 
-#### Tempo
+#### Hora
 
 
 Este é um campo de Hora onde você pode definir a Hora no campo.
@@ -337,3 +337,4 @@ Se você não deseja rastrear a duração em termos de dias ou segundos, pode at
 
 
 ![Duração do tipo de campo](/files/field-type-duration2.png)
+

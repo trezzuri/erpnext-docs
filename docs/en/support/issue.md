@@ -35,14 +35,14 @@ To access the Issue list, go to:
 Before creating and using Issues, it is advised that you create the following first:
 
 
-* [Customer](/docs/v13/user/manual/en/CRM/customer)
-* [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account)
+* [Customer](/docs/en/CRM/customer)
+* [Email Account](/docs/en/setting-up/email/email-account)
 
 
 ## 2. How to Create Issue
 
 
-Issues are automatically created if you use the **append to feature** in [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account#32-incoming-email-accounts).
+Issues are automatically created if you use the **append to feature** in [Email Account](/docs/en/setting-up/email/email-account#32-incoming-email-accounts).
 
 
 You can also create an Issue manually, to do that:
@@ -74,7 +74,7 @@ replied, its status becomes "Replied".
 > 
 
 
-* **Customer**: If the email was sent from a [Customer](/docs/v13/user/manual/en/CRM/customer) stored in your ERPNext account, then a Customer link will appear in this field.
+* **Customer**: If the email was sent from a [Customer](/docs/en/CRM/customer) stored in your ERPNext account, then a Customer link will appear in this field.
 * **Priority**: Priority can be set as per the requirements. By default, there are three priorities--Low, Medium, and High. You can delete these or add more as needed.
 * **Issue Type**: An Issue can be classified using Issue Type. Examples of Issue Types can be: 'Functional', 'Technical', 'Hardware', etc.
 * **Raised By (Email)**: The email ID from which the Issue was sent will be shown here.
@@ -95,7 +95,7 @@ replied, its status becomes "Replied".
 It is a contract between a service provider and the end user that defines the level of service expected from the service provider.
 
 
-User can select the [Service Level Agreement](/docs/v13/user/manual/en/support/service-level-agreement) (SLA) from the list.
+User can select the [Service Level Agreement](/docs/en/support/service-level-agreement) (SLA) from the list.
 
 
 * Every Issue will have a Time to Response and Time to Resolve within which the Support team has to Respond and Resolve the Issue.
@@ -188,7 +188,7 @@ The email discussion thread in an Issue maintains all the emails which are sent 
 
 
 > 
-> Issues can be assigned automatically among Users using [Assignment Rule](/docs/v13/user/manual/en/automation/assignment-rule).
+> Issues can be assigned automatically among Users using [Assignment Rule](/docs/en/automation/assignment-rule).
 > 
 > 
 > 
@@ -210,6 +210,6 @@ You can assign an Issue to a specific User by clicking on "Assign" feature in th
 ### 5. Related Topics
 
 
-1. [Issue Type and Priority](/docs/v13/user/manual/en/support/issue-type-and-priority)
+1. [Issue Type and Priority](/docs/en/support/issue-type-and-priority)
 
 

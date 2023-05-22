@@ -11,7 +11,7 @@ A Credit Note is issued for the value of goods returned by the Customer, it may 
 ## 1. How to make a Credit Note
 
 
-The user can make a Credit Note against the Sales Invoice or they can directly make Credit Note from the Sales Invoice without reference. Note that to create a Credit Note, the invoice must be paid using a [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry).
+The user can make a Credit Note against the Sales Invoice or they can directly make Credit Note from the Sales Invoice without reference. Note that to create a Credit Note, the invoice must be paid using a [Payment Entry](/docs/en/accounts/payment-entry).
 
 
 1. Go to the respective Sales Invoice and click on **Create > Return / Credit Note**.
@@ -37,7 +37,7 @@ This is how the ledger is affected after a payment entry against a returned invo
 ![Credit Note Ledger](/files/credit-note-ledger.png)
 
 
-Refer the [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice) page for any other details.
+Refer the [Sales Invoice](/docs/en/accounts/sales-invoice) page for any other details.
 
 
 ### 1.2 No payment was made against Sales Invoice
@@ -61,8 +61,8 @@ Credit Note with payment entry in ERPNext for above example is as below:
 ### 3. Related Topics
 
 
-1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-2. [Debit Note](/docs/v13/user/manual/en/accounts/debit-note)
-3. [Sales Return](/docs/v13/user/manual/en/stock/sales-return)
+1. [Payment Entry](/docs/en/accounts/payment-entry)
+2. [Debit Note](/docs/en/accounts/debit-note)
+3. [Sales Return](/docs/en/stock/sales-return)
 
 

@@ -118,6 +118,6 @@ The leaderboard shows the user's standing in the organization.
 ### 5. Related Topics
 
 
-1. [Milestone Tracking](/docs/v13/user/manual/en/automation/milestone-tracker)
+1. [Milestone Tracking](/docs/en/automation/milestone-tracker)
 
 

@@ -8,7 +8,7 @@
 Using this feature you can also merge two master documents into a single one.
 
 
-Check [List of Renamable Documents](/docs/v13/user/manual/en/using-erpnext/articles/renaming-documents#list-of-renamable-documents) for the list of all the documents that can be renamed in the system.
+Check [List of Renamable Documents](/docs/en/using-erpnext/articles/renaming-documents#list-of-renamable-documents) for the list of all the documents that can be renamed in the system.
 
 
 ### Steps to rename a Document
@@ -80,7 +80,7 @@ Following is the list of all the documents that can be renamed.
 ## See also
 
 
-1. [Bulk Rename](/docs/v13/user/manual/en/using-erpnext/articles/bulk-rename)
+1. [Bulk Rename](/docs/en/using-erpnext/articles/bulk-rename)
 
 
 

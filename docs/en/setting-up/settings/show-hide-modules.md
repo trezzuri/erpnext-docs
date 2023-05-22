@@ -20,10 +20,10 @@ In versions **older** than v12, click on your username, select 'Everyone' and ch
 ### Related Topics
 
 
-1. [System Settings](/docs/v13/user/manual/en/setting-up/settings/system-settings)
-2. [Adding Users](/docs/v13/user/manual/en/setting-up/users-and-permissions/adding-users)
-3. [Role and Role Profile](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-and-role-profile)
-4. [Role Based Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
-5. [User Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/user-permissions)
+1. [System Settings](/docs/en/setting-up/settings/system-settings)
+2. [Adding Users](/docs/en/setting-up/users-and-permissions/adding-users)
+3. [Role and Role Profile](/docs/en/setting-up/users-and-permissions/role-and-role-profile)
+4. [Role Based Permissions](/docs/en/setting-up/users-and-permissions/role-based-permissions)
+5. [User Permissions](/docs/en/setting-up/users-and-permissions/user-permissions)
 
 

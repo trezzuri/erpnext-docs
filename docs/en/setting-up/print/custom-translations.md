@@ -70,8 +70,8 @@ The translation is applied when the user selects the language as Spanish on supp
 ### 3. Related Topics
 
 
-1. [Address Template](/docs/v13/user/manual/en/setting-up/print/address-template)
-2. [Quotation](/docs/v13/user/manual/en/selling/quotation)
-3. [Sales Order](/docs/v13/user/manual/en/selling/sales-order)
+1. [Address Template](/docs/en/setting-up/print/address-template)
+2. [Quotation](/docs/en/selling/quotation)
+3. [Sales Order](/docs/en/selling/sales-order)
 
 

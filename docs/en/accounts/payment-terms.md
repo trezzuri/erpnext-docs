@@ -103,13 +103,13 @@ Once you have composed the Payment Terms Template, you can use them in sales and
 ![Payment Schedule](/files/payment-term-in-invoice.png)
 
 
-Note: The Payment Schedule can be shown in the Print View using the [Print Format Builder](/docs/v13/user/manual/en/setting-up/print/print-format-builder).
+Note: The Payment Schedule can be shown in the Print View using the [Print Format Builder](/docs/en/setting-up/print/print-format-builder).
 
 
 ### 2. Related Topics
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 

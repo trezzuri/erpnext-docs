@@ -120,7 +120,7 @@ or simply search for 'Bank Statement Import' in the awesomebar.
 #### 3.2.2 Bank Account Synchronization
 
 
-You can use Plaid (see [Plaid Integrations page](/docs/v13/user/manual/en/erpnext_integration/plaid_integration)) to automatically synchronize your bank account with ERPNext. All your bank transactions will be automatically imported into ERPNext.
+You can use Plaid (see [Plaid Integrations page](/docs/en/erpnext_integration/plaid_integration)) to automatically synchronize your bank account with ERPNext. All your bank transactions will be automatically imported into ERPNext.
 
 
 #### 3.2.3 Reconcile the Bank Statement
@@ -158,8 +158,8 @@ or simply search for 'Bank Reconciliation Tool' in the awesomebar.
 ### 4. Related Topics
 
 
-1. [Payment Reconciliation](/docs/v13/user/manual/en/accounts/payment-reconciliation)
-2. [Bank Guarantee](/docs/v13/user/manual/en/accounts/bank-guarantee)
-3. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
+1. [Payment Reconciliation](/docs/en/accounts/payment-reconciliation)
+2. [Bank Guarantee](/docs/en/accounts/bank-guarantee)
+3. [Payment Entry](/docs/en/accounts/payment-entry)
 
 

@@ -5,7 +5,7 @@
 **Item Tax Template is useful for item wise taxation.**
 
 
-If some of your Items have tax rates different from the standard tax rate assigned in the Taxes and Charges table, then you can create an Item Tax Template and assign it to an [Item](/docs/v13/user/manual/en/stock/item) or [Item Group](/docs/v13/user/manual/en/stock/item-group). The rate assigned in the Item Tax Template will get preference over the standard tax rate assigned in the Taxes and Charges table.
+If some of your Items have tax rates different from the standard tax rate assigned in the Taxes and Charges table, then you can create an Item Tax Template and assign it to an [Item](/docs/en/stock/item) or [Item Group](/docs/en/stock/item-group). The rate assigned in the Item Tax Template will get preference over the standard tax rate assigned in the Taxes and Charges table.
 
 
 For example, if tax GST 18% is added in the Taxes and Charges table in Sales Order, then it will be applied on all the items in that Sales Order. However, if you need to have different tax rate applied on some of the items, the steps are given below
@@ -22,7 +22,7 @@ To access the Item Tax Template list, go to
 > 
 
 
-Let's assume that we are creating a Sales Order. We have the [Sales Taxes and Charges Template](/docs/v13/user/manual/en/selling/sales-taxes-and-charges-template) master for GST 9%. Out of all the Sales Items, on one Item, only 5% GST will be applied, while another item is exempted from tax (non taxable). You need to select the Account Head of the tax and set its overriding rate.
+Let's assume that we are creating a Sales Order. We have the [Sales Taxes and Charges Template](/docs/en/selling/sales-taxes-and-charges-template) master for GST 9%. Out of all the Sales Items, on one Item, only 5% GST will be applied, while another item is exempted from tax (non taxable). You need to select the Account Head of the tax and set its overriding rate.
 
 
 ## 1. Prerequisites
@@ -31,8 +31,8 @@ Let's assume that we are creating a Sales Order. We have the [Sales Taxes and Ch
 Before creating and using an Item Tax Template, it is advised to create the following first:
 
 
-1. [Item](/docs/v13/user/manual/en/stock/item)
-2. Enable 'Automatically add Taxes and Charges from Item Tax Template' in [Account Settings](/docs/v13/user/manual/en/accounts/accounts-settings)
+1. [Item](/docs/en/stock/item)
+2. Enable 'Automatically add Taxes and Charges from Item Tax Template' in [Account Settings](/docs/en/accounts/accounts-settings)
 
 
 ## 2. How to create an Item Tax Template
@@ -52,7 +52,7 @@ Now the Item Tax Template is ready to be assigned to an Item. To do this, go the
 
 
 > 
-> Note: It is advised to not use the Sales/Purchase Template selected here in [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule), it may cause interference. If you want to use same tax rates for Tax Rule and Item Tax Template, use a different name for the Sales/Purchase Tax Templates.
+> Note: It is advised to not use the Sales/Purchase Template selected here in [Tax Rule](/docs/en/accounts/tax-rule), it may cause interference. If you want to use same tax rates for Tax Rule and Item Tax Template, use a different name for the Sales/Purchase Tax Templates.
 > 
 > 
 > 
@@ -156,8 +156,8 @@ You can also assign validity to tax templates as shown in the image above.
 ### 3. Related Topics
 
 
-1. [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule)
-2. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-3. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Tax Rule](/docs/en/accounts/tax-rule)
+2. [Sales Invoice](/docs/en/accounts/sales-invoice)
+3. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 

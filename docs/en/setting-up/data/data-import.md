@@ -188,7 +188,7 @@ When you select a submittable document type for Import, you can tick **Submit Af
 ### 4.3 Don't Send Emails
 
 
-Let's say you have created a [Notification](/docs/v13/user/manual/en/setting-up/notifications) in your system and whenever a Lead is created an email is sent. Now, if you are bulk importing Leads then a lot of emails will be sent, which may not be desired. You can disable this option to avoid sending emails.
+Let's say you have created a [Notification](/docs/en/setting-up/notifications) in your system and whenever a Lead is created an email is sent. Now, if you are bulk importing Leads then a lot of emails will be sent, which may not be desired. You can disable this option to avoid sending emails.
 
 
 ## 5. Additional Notes
@@ -219,7 +219,7 @@ For older versions of Excel, there is no clear way of saving as UTF-8. So save y
 ## 7. Related Topics
 
 
-1. [Charts Of Accounts Importer](/docs/v13/user/manual/en/setting-up/chart-of-accounts-importer)
-2. [Data Export](/docs/v13/user/manual/en/setting-up/data/data-export)
+1. [Charts Of Accounts Importer](/docs/en/setting-up/chart-of-accounts-importer)
+2. [Data Export](/docs/en/setting-up/data/data-export)
 
 

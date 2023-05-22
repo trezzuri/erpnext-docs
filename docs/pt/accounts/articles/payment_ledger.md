@@ -1,21 +1,21 @@
-# Livro de Pagamentos
+# Registro de Pagamentos
 
 
 Um livro-razão separado para registrar transações em contas a receber e a pagar.
 
 
-## Projeto
+## Design
 
 
 Os campos 'Débito' e 'Crédito' foram substituídos por 'Tipo de Conta' e 'Valor' (que podem ter valores +ve e -ve).
-Se Voucher,
+Se for voucher,
 
 
-* aumenta o saldo da conta - valor tem valor +ve
+* aumenta o saldo da conta - o valor tem +ve valor
 * diminui o saldo da conta - valor tem valor -ve
 
 
-## Campos Chave
+## Campos-chave
 
 
 * Tipo de conta - a receber/a pagar
@@ -30,25 +30,26 @@ Se Voucher,
 
 
 Uma fatura de venda de ₹ 1.000 e uma entrada de pagamento contra essa fatura terão a aparência abaixo.
-![Captura de tela 2022 05 18 às 11.13.28 AM](/arquivos/Captura de tela 2022-05-18 às 11.13.28 AM.png)
+![Captura de tela 2022 05 18 às 11.13.28](/files/Screenshot 2022-05-18 às 11.13.28 AM.png)
 
 
 ## Fluxograma do design antigo e novo
 
 
 Desenho antigo
-![Pagamento Ledger.001](/arquivos/Pagamento Ledger.001.jpeg)
+![Payment Ledger.001](/files/Payment Ledger.001.jpeg)
 
 
-Novo design
-![Pagamento Ledger.002](/arquivos/Pagamento Ledger.002.jpeg)
+Novo Design
+![Payment Ledger.002](/files/Payment Ledger.002.jpeg)
 
 
 ## Vantagem
 
 
 Considere um cenário em que um pagamento é reconciliado com uma fatura de venda. No design antigo, isso exigiria que as entradas contábeis da entrada de pagamento fossem canceladas
-e novos lançamentos contábeis com o link para a nota fiscal de venda serão repassados.
+e novas entradas GL com o link para fatura de vendas serão repostadas.
 
 
-Com o novo design, há necessidade de tocar GL Entry. Somente o Razão de Pagamentos será atualizado.
+Com o novo design, é necessário tocar no GL Entry. Apenas o livro-razão de pagamentos será atualizado.
+

@@ -2,7 +2,7 @@
 # Perm Level Error
 
 
-While customizing rules in the [Permission Manager](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions), you might receive an error message saying:
+While customizing rules in the [Permission Manager](/docs/en/setting-up/users-and-permissions/role-based-permissions), you might receive an error message saying:
 
 
 

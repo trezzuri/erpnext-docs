@@ -111,7 +111,7 @@ If you want to set a due date on Issue assignment based on the "Resolution By" d
 ### 2. Related Topics
 
 
-1. [Workflows](/docs/v13/user/manual/en/setting-up/workflows)
-2. [Workflow Actions](/docs/v13/user/manual/en/setting-up/workflow-actions)
+1. [Workflows](/docs/en/setting-up/workflows)
+2. [Workflow Actions](/docs/en/setting-up/workflow-actions)
 
 

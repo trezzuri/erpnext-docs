@@ -78,7 +78,7 @@ The Settings button is only visible to the System Manager or to a person having 
 ### 3. Related Topics
 
 
-1. [Global Defaults](/docs/v13/user/manual/en/setting-up/settings/global-defaults)
-2. [System Settings](/docs/v13/user/manual/en/setting-up/settings/system-settings)
+1. [Global Defaults](/docs/en/setting-up/settings/global-defaults)
+2. [System Settings](/docs/en/setting-up/settings/system-settings)
 
 

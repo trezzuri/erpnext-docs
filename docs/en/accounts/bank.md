@@ -2,7 +2,7 @@
 # Bank
 
 
-In ERPNext, saving different banks lets you upload an excel sheet and map the transactions to the ledger. The transactions are created as Bank Transactions. These can then be used for reference and reports. This is done using [Bank Reconciliation](/docs/v13/user/manual/en/accounts/bank-reconciliation).
+In ERPNext, saving different banks lets you upload an excel sheet and map the transactions to the ledger. The transactions are created as Bank Transactions. These can then be used for reference and reports. This is done using [Bank Reconciliation](/docs/en/accounts/bank-reconciliation).
 
 
 To access Bank, go to:
@@ -32,12 +32,12 @@ Creating a Bank is simple, go to the Bank list, click on New, and enter a name.
 2. Under 'Column in Bank File', enter the column in the excel file exported from the bank.
 
 
-On setting this up, [Bank](/docs/v13/user/manual/en/accounts/bank-reconciliation) can be done smoothly.
+On setting this up, [Bank](/docs/en/accounts/bank-reconciliation) can be done smoothly.
 
 
 ## 2. Related Topics
 
 
-1. [Bank Account](/docs/v13/user/manual/en/accounts/bank-account)
+1. [Bank Account](/docs/en/accounts/bank-account)
 
 

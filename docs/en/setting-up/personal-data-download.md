@@ -36,6 +36,6 @@ The request is also recorded in the DocType "Personal Data Download Request", th
 ### 3. Related Topics
 
 
-1. [Personal Data Deletion](/docs/v13/user/manual/en/setting-up/personal-data-deletion)
+1. [Personal Data Deletion](/docs/en/setting-up/personal-data-deletion)
 
 

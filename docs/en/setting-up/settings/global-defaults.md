@@ -38,12 +38,12 @@ Whenever a new document is created, these values will be set as default.
 * Disable In Words
 
 
-The Default Distance Unit is used to calculate the total distance in [Delivery Trips](/docs/v13/user/manual/en/stock/delivery-trip).
+The Default Distance Unit is used to calculate the total distance in [Delivery Trips](/docs/en/stock/delivery-trip).
 
 
 ### Related Topics
 
 
-1. [System Settings](/docs/v13/user/manual/en/setting-up/settings/system-settings)
+1. [System Settings](/docs/en/setting-up/settings/system-settings)
 
 

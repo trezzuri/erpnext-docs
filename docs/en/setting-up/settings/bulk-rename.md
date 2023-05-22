@@ -37,6 +37,6 @@ You can also merge documents by renaming them. For example, if you have a custom
 ### 2. Related Topics
 
 
-1. [Data Import](/docs/v13/user/manual/en/setting-up/data/data-import)
+1. [Data Import](/docs/en/setting-up/data/data-import)
 
 

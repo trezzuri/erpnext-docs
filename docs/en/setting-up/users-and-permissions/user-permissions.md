@@ -111,7 +111,7 @@ For example, you don't want Assets to be restricted for any user, then select **
 This restricts user access to documents in a stricter way.
 
 
-To know more, go to the [System Settings page](/docs/v13/user/manual/en/setting-up/settings/system-settings#14-permissions).
+To know more, go to the [System Settings page](/docs/en/setting-up/settings/system-settings#14-permissions).
 
 
 ### 2.4 Checking How User Permissions are Applied
@@ -126,7 +126,7 @@ Ticking on the Show Permissions checkbox will show the read/write/submit and oth
 ![Permitted Documents for User report](/files/permitted-documents.png)
 
 
-Note: If you cannot access Sales Order or any other document type in this list, make sure you've set the [roles](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions) correctly.
+Note: If you cannot access Sales Order or any other document type in this list, make sure you've set the [roles](/docs/en/setting-up/users-and-permissions/role-based-permissions) correctly.
 
 
 For example, the user, Bruce is restricted to Company 'Unico Plastics Inc.'
@@ -136,9 +136,9 @@ For example, the user, Bruce is restricted to Company 'Unico Plastics Inc.'
 ### 3. Related Topics
 
 
-1. [Adding Users](/docs/v13/user/manual/en/setting-up/users-and-permissions/adding-users)
-2. [Role and Role Profile](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-and-role-profile)
-3. [Role Based Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
-4. [Role Permission For Page And Report](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
+1. [Adding Users](/docs/en/setting-up/users-and-permissions/adding-users)
+2. [Role and Role Profile](/docs/en/setting-up/users-and-permissions/role-and-role-profile)
+3. [Role Based Permissions](/docs/en/setting-up/users-and-permissions/role-based-permissions)
+4. [Role Permission For Page And Report](/docs/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
 
 

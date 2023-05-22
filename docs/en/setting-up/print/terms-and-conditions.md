@@ -72,7 +72,7 @@ Terms and conditions are the general and special arrangements, provisions, requi
 ### 2. Related Topics
 
 
-1. [Address Template](/docs/v13/user/manual/en/setting-up/print/address-template)
-2. [Cheque Print Template](/docs/v13/user/manual/en/setting-up/print/cheque-print-template)
+1. [Address Template](/docs/en/setting-up/print/address-template)
+2. [Cheque Print Template](/docs/en/setting-up/print/cheque-print-template)
 
 

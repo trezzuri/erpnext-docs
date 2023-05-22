@@ -20,11 +20,11 @@ In ERPNext, using the Payment Order, you can fetch multiple Payment Requests cre
 Before creating and using the Payment Order, it is advisable to create the following first:
 
 
-1. [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
+1. [Purchase Order](/docs/en/buying/purchase-order)
 
 
 Or
-2. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+2. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 
 ## 2. How to create a Payment Order

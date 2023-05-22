@@ -71,7 +71,7 @@ Once you build a company tree, ERPNext will validate if the accounts of the chil
 ### 1.3 Chart of Accounts
 
 
-For each Company, the master for Chart of Accounts is maintained separately. This allows you to maintain separate accounting for each company as per the legal requirements. You can also import chart of accounts using the [Charts Of Accounts Importer](/docs/v13/user/manual/en/setting-up/chart-of-accounts-importer).
+For each Company, the master for Chart of Accounts is maintained separately. This allows you to maintain separate accounting for each company as per the legal requirements. You can also import chart of accounts using the [Charts Of Accounts Importer](/docs/en/setting-up/chart-of-accounts-importer).
 
 
 ERPNext has localized Chart of Accounts readily available for some countries. When creating a new Company, you can choose to set up the Chart of Account for it from one of the following options.
@@ -111,13 +111,13 @@ The following defaults can be set for a company:
 ### 2.1 Monthly Sales Target
 
 
-Set the monthly sales target number in the company currency, for example, $10,000. Total monthly sales will be visible once transactions are made. To know more [click here](/docs/v13/user/manual/en/setting-up/setting-company-sales-goal).
+Set the monthly sales target number in the company currency, for example, $10,000. Total monthly sales will be visible once transactions are made. To know more [click here](/docs/en/setting-up/setting-company-sales-goal).
 
 
 ### 2.2 Account Settings
 
 
-Some of the following accounts will be set by default when you create a new company, others can be created. The accounts can be seen in the [Chart of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts). These values can be changed later on if needed.
+Some of the following accounts will be set by default when you create a new company, others can be created. The accounts can be seen in the [Chart of Accounts](/docs/en/accounts/chart-of-accounts). These values can be changed later on if needed.
 
 
 * Default Bank Account
@@ -146,7 +146,7 @@ Some of the following accounts will be set by default when you create a new comp
 ### 2.3 Stock Settings
 
 
-Perpetual Inventory feature would lead to Stock transactions impacting the company's books of accounts. Know more [here](/docs/v13/user/manual/en/stock/perpetual-inventory). It is enabled by default.
+Perpetual Inventory feature would lead to Stock transactions impacting the company's books of accounts. Know more [here](/docs/en/stock/perpetual-inventory). It is enabled by default.
 
 
 * Default Inventory Account
@@ -161,7 +161,7 @@ Perpetual Inventory feature would lead to Stock transactions impacting the compa
 ### 2.4 Fixed Asset Defaults
 
 
-For managing fixed assets in a company, the following accounts are needed. Most of them will be created by default. They can be seen in the [Chart of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts).
+For managing fixed assets in a company, the following accounts are needed. Most of them will be created by default. They can be seen in the [Chart of Accounts](/docs/en/accounts/chart-of-accounts).
 
 
 * Accumulated Depreciation Account
@@ -177,7 +177,7 @@ For managing fixed assets in a company, the following accounts are needed. Most 
 ![Fixed Asset Defaults](/files/Fixed Asset Defaults.png)
 
 
-If you wish to book your accounting entries against different [Finance Books](/docs/v13/user/manual/en/accounts/finance-book), check the Enable Finance Books box and set a Default Finance Book.
+If you wish to book your accounting entries against different [Finance Books](/docs/en/accounts/finance-book), check the Enable Finance Books box and set a Default Finance Book.
 
 
 ### 2.5 HRA Settings
@@ -307,13 +307,13 @@ You can change the Parent Company of an existing company. Go to the Parent Compa
 ### 3. Related Topics
 
 
-1. [Setting Up Taxes](/docs/v13/user/manual/en/setting-up/setting-up-taxes)
-2. [System Settings](/docs/v13/user/manual/en/setting-up/settings/system-settings)
-3. [Charts Of Accounts Importer](/docs/v13/user/manual/en/setting-up/chart-of-accounts-importer)
-4. [Users and Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions)
-5. [Adding Users](/docs/v13/user/manual/en/setting-up/users-and-permissions/adding-users)
-6. [Letter Head](/docs/v13/user/manual/en/setting-up/print/letter-head)
-7. [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account)
-8. [Administrator](/docs/v13/user/manual/en/setting-up/users-and-permissions/administrator)
+1. [Setting Up Taxes](/docs/en/setting-up/setting-up-taxes)
+2. [System Settings](/docs/en/setting-up/settings/system-settings)
+3. [Charts Of Accounts Importer](/docs/en/setting-up/chart-of-accounts-importer)
+4. [Users and Permissions](/docs/en/setting-up/users-and-permissions)
+5. [Adding Users](/docs/en/setting-up/users-and-permissions/adding-users)
+6. [Letter Head](/docs/en/setting-up/print/letter-head)
+7. [Email Account](/docs/en/setting-up/email/email-account)
+8. [Administrator](/docs/en/setting-up/users-and-permissions/administrator)
 
 

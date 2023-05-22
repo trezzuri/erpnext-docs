@@ -1,13 +1,13 @@
-# Regra de Autorização
+# Regra de autorização
 
 
-**Regra de autorização permite configurar uma autorização/aprovação personalizada em um documento, com base nas condições definidas.**
+**A Authorization Rule permite configurar uma autorização/aprovação personalizada em um documento, com base nas condições definidas.**
 
 
-Exemplo: Se o total geral de um pedido de vendas exceder US$ 1.000, ele deverá ser verificado/enviado apenas pelo gerente de vendas, mesmo que o usuário de vendas tenha permissão para "Enviar".
+Exemplo: se o total geral de um pedido de vendas exceder US$ 1.000, ele deverá ser verificado/enviado apenas pelo gerente de vendas, mesmo que o usuário de vendas tenha permissão para "Enviar".
 
 
-Da mesma forma, você pode definir a Regra de Autorização com base nos campos como Total Líquido, Total Geral, % de Desconto e especificar quem seria o aprovador do documento se a condição de autorização for atendida.
+Na mesma linha, você pode definir a Regra de Autorização com base nos campos como Total Líquido, Total Geral, % de Desconto e especificar quem seria o aprovador do documento se a condição de autorização for atendida.
 
 
 ![Regra de autorização](/files/authorization-rule.png)
@@ -16,7 +16,7 @@ Da mesma forma, você pode definir a Regra de Autorização com base nos campos 
 Vamos considerar um exemplo detalhado de uma regra de autorização para aprender melhor.
 
 
-Suponha que o gerente de vendas precise autorizar pedidos de vendas somente se o valor do total geral exceder 10.000. Se o valor do Pedido de Venda for inferior a 10.000, até mesmo o Usuário de Vendas poderá enviá-lo. Isso significa que a permissão de envio do usuário de vendas será restrita apenas até o pedido de vendas de total geral inferior a 10.000.
+Suponha que o gerente de vendas precise autorizar pedidos de vendas, somente se o valor do total geral exceder 10.000. Se o valor do Pedido de Venda for inferior a 10.000, até mesmo o Usuário de Vendas poderá enviá-lo. Isso significa que a permissão de envio do usuário de vendas será restrita apenas até o pedido de vendas de total geral inferior a 10.000.
 
 
 ## 1. Como criar uma regra de autorização
@@ -24,42 +24,42 @@ Suponha que o gerente de vendas precise autorizar pedidos de vendas somente se o
 
 1. Vá para a lista Regra de Autorização, clique em Novo.
 2. Selecione a transação na qual a Regra de Autorização será aplicável. Esta funcionalidade está disponível apenas para transações limitadas.
-3. Insira o Valor Autorizado, etc. Isso depende do campo selecionado em Baseado em.
+3. Insira o valor autorizado etc. Isso depende do campo selecionado em Baseado em.
 4. Selecione Com base em. A regra de autorização será aplicada com base no valor selecionado neste campo.
-5. Selecione Função Aplicável. Esta é a função na qual esta Regra de Autorização será aplicável. Conforme o exemplo, será o Usuário de Vendas.
-6. Para ser mais específico, você também pode selecionar Aplicável ao usuário se desejar aplicar a regra a um usuário de vendas específico e não a todos os usuários de vendas.
-7. Selecione Função de aprovação. Esta é a função que pode aprovar formulários sobre o valor Autorizado. Conforme nosso exemplo, é o Gerente de Vendas.
+5. Selecione a função aplicável. Esta é a função na qual esta Regra de Autorização será aplicável. Conforme o exemplo, será o Usuário de vendas.
+6. Para ser mais específico, você também pode selecionar Aplicável ao usuário se desejar aplicar a regra a um usuário de vendas específico, e não a todos os usuários de vendas.
+7. Selecione a função de aprovação. Esta é a função que pode aprovar formulários sobre o valor Autorizado. Conforme nosso exemplo, é o gerente de vendas.
 8. Você também pode selecionar um gerente de vendas específico.
-9. Salve.
+9. Salvar.
 
 
 ![Regra de autorização](/files/new-authorization-rule.png)
 
 
-Se o Usuário Comercial tentar enviar o Pedido de Venda de valor superior a 10.000, receberá uma mensagem de erro.
+Se o Usuário de Vendas tentar enviar o Pedido de Vendas de valor superior a 10.000, ele receberá uma mensagem de erro.
 
 
 ![Mensagem de validação da regra de autorização](/files/authorization-rule-validation-message.png)
 
 
 
->
-> Se você deseja restringir o usuário de vendas de enviar pedidos de vendas, em vez de criar uma regra de autorização, você deve remover o privilégio de envio para o usuário de vendas de [Gerente de permissão de função](/docs/v13/user/manual/en/setting-up/ usuários e permissões/permissões baseadas em função).
->
->
->
+> 
+> Se você deseja restringir o usuário de vendas de enviar pedidos de vendas, em vez de criar uma regra de autorização, você deve remover o privilégio de envio para o usuário de vendas de [Gerenciador de permissões de função](/docs/pt/setting-up /users-and-permissions/role-based-permissions).
+> 
+> 
+> 
 
 
-### Documentos em que a Regra de Autorização pode ser aplicada
+### Documentos nos quais a regra de autorização pode ser aplicada
 
 
-1. Ordem de venda
-2. Ordem de compra
+1. Pedido de venda
+2. Pedido de compra
 3. Cotação
 4. Nota de entrega
-5. Nota Fiscal de Venda
+5. Fatura de venda
 6. Fatura de compra
-7. Recibo de Compra
+7. Recibo de compra
 8. Avaliação
 
 
@@ -67,6 +67,6 @@ Se o Usuário Comercial tentar enviar o Pedido de Venda de valor superior a 10.0
 
 
 1. Total geral
-2. Desconto Médio
+2. Desconto médio
 3. Desconto para o cliente
 4. Desconto por item

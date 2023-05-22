@@ -47,7 +47,7 @@ If you try to submit a closed transaction after its Accounting Period ends, you 
 
 
 > 
-> Note: No role can submit transactions defined in the Accounting Period, even the Role set in 'Role Allowed to Set Frozen Accounts & Edit Frozen Entries' in [Account Settings](/docs/v13/user/manual/en/accounts/accounts-settings).
+> Note: No role can submit transactions defined in the Accounting Period, even the Role set in 'Role Allowed to Set Frozen Accounts & Edit Frozen Entries' in [Account Settings](/docs/en/accounts/accounts-settings).
 > 
 > 
 > 
@@ -57,6 +57,6 @@ If you try to submit a closed transaction after its Accounting Period ends, you 
 
 
 * [How Accounting Period is used for Closing Accounting Books](https://frappe.io/blog/erpnext-features/closing-accounting-books-in-erpnext)
-* [Period Closing Voucher](/docs/v13/user/manual/en/accounts/period-closing-voucher)
+* [Period Closing Voucher](/docs/en/accounts/period-closing-voucher)
 
 

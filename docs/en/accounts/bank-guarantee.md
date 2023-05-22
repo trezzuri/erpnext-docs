@@ -53,8 +53,8 @@ This document allows you to track Bank Guarantees given to Suppliers and receive
 ### 2. Related Topics
 
 
-1. [Chart Of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts)
-2. [Sales Order](/docs/v13/user/manual/en/selling/sales-order)
-3. [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
+1. [Chart Of Accounts](/docs/en/accounts/chart-of-accounts)
+2. [Sales Order](/docs/en/selling/sales-order)
+3. [Purchase Order](/docs/en/buying/purchase-order)
 
 

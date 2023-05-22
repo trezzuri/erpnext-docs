@@ -25,8 +25,8 @@ To access the Loyalty Program list, go to:
 Before creating and using a Loyalty Program, it is advised to create the following first:
 
 
-1. [Customer](/docs/v13/user/manual/en/CRM/customer)
-2. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
+1. [Customer](/docs/en/CRM/customer)
+2. [Sales Invoice](/docs/en/accounts/sales-invoice)
 
 
 ## 2. How to Create a Loyalty Program
@@ -37,7 +37,7 @@ Before creating and using a Loyalty Program, it is advised to create the followi
 3. Select whether the program is Single Tiered or Multi Tiered (gold, silver, etc).
 4. Set a start and end date for the program.
 5. Select the Customer Group and Territory for which this program is applicable, the default is all.
-6. For opting in all Customers by default, tick on 'Auto Opt In (For all customers)'. Otherwise, the program needs to be assigned from the [Customer master](/docs/v13/user/manual/en/accounts/loyalty-program#22-loyalty-points-in-customer).
+6. For opting in all Customers by default, tick on 'Auto Opt In (For all customers)'. Otherwise, the program needs to be assigned from the [Customer master](/docs/en/accounts/loyalty-program#22-loyalty-points-in-customer).
 7. In the table, enter:
 	2. **Tier name**: To be assigned to a Customer based on his eligibility.
 	3. **Collection Factor**: How much amount needs to be spent to gain 1 Loyalty Point in ERPNext.
@@ -127,9 +127,9 @@ This acts as a log to give an overview of which Customer earned how many points 
 ### 4. Related Topics
 
 
-1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
-2. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-3. [Customer](/docs/v13/user/manual/en/CRM/customer)
-4. [Customer Group](/docs/v13/user/manual/en/CRM/customer-group)
+1. [Cost Center](/docs/en/accounts/cost-center)
+2. [Sales Invoice](/docs/en/accounts/sales-invoice)
+3. [Customer](/docs/en/CRM/customer)
+4. [Customer Group](/docs/en/CRM/customer-group)
 
 

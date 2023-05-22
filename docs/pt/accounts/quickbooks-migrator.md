@@ -1,36 +1,36 @@
-# ERPNext QuickBooks Migrator
+# ERPNext Migrador de QuickBooks
 
 
 ## Como configurar o QuickBooks Migrator?
 
 
-### Crie um aplicativo QuickBooks Online
+### Criar um aplicativo QuickBooks Online
 
 
-1. Na barra Awesome, vá para o DocType "QuickBooks Migrator".
+1. Na Awesome-bar, vá para DocType "QuickBooks Migrator".
 2. Acesse [Inuit Developer Portal](https://developer.intuit.com)
-3. Entre com sua conta existente ou Inscreva-se.
+3. Faça login com sua conta existente ou cadastre-se.
 4. Vá para a página "Meus aplicativos".
 5. Clique em "Selecionar APIs".
 6. Em "API do QuickBooks", marque "Contabilidade".
 7. Clique em "Criar aplicativo".
 
 
-* Você será levado ao Dashboard do seu App.
+	* Você será direcionado para o Painel do seu aplicativo.
 8. Vá para a guia "Chaves".
 9. Vá para a seção "Chaves de produção".
 
 
-* Requisitos completos.
-10. Em "QuickBooks Migrator" DocType, um "URL de redirecionamento" será gerado para você e adicionado à lista de "URIs de redirecionamento" do seu aplicativo Inuit (na seção "Chaves de produção"). Clique em Salvar.
+	* Requisitos completos.
+10. No "QuickBooks Migrator" DocType, um "URL de redirecionamento" será gerado para você e adicionado à lista de "URIs de redirecionamento" do seu aplicativo Inuit (na seção "Chaves de produção"). Clique em Salvar.
 
 
-* Certifique-se de que o URL de redirecionamento comece com `https`.
+	* Certifique-se de que o URL de redirecionamento comece com `https`.
 11. Na seção "Chaves de produção", copie "ID do cliente" e "Segredo do cliente" para o DocType "QuickBooks Migrator".
 12. Salve "QuickBooks Migrator".
 
 
-### Conecte-se à API do QuickBooks Online
+### Conectar-se à API QuickBooks Online
 
 
 1. Clique em "Conectar ao QuickBooks".
@@ -39,21 +39,21 @@
 4. Clique em "Conectar".
 5. Após a autorização bem-sucedida, a guia será fechada.
 6. O indicador será definido como "Conectado ao QuickBooks".
-7. Em "QuickBooks Migrator" selecione "Empresa" para onde deseja migrar seus dados.
+7. Em "QuickBooks Migrator", selecione "Empresa" para onde deseja migrar seus dados.
 8. Salve "QuickBooks Migrator".
 
 
 ### Migrar dados
 
 
-1. Clique no botão "Obter dados".
+1. Clique no botão "Buscar dados".
 2. O indicador mudará de "Conectado ao QuickBooks" para "Em andamento".
 3. As barras de progresso mostrarão o status da migração.
 4. Isso levará alguns minutos, dependendo do tamanho dos dados.
-5. Após a conclusão da migração, o indicador mudará para "Complete" ou "Failed".
+5. Após a conclusão da migração, o indicador mudará para "Concluída" ou "Falha".
 
 
-## O que acontecerá quando eu clicar em buscar dados?
+## O que acontecerá quando eu clicar em Buscar dados?
 
 
 ## Conta
@@ -68,7 +68,7 @@ Ao criar uma Empresa o ERPNext cria um plano de contas para aquela empresa, essa
 
 ```
 
-### Nomenclatura da conta
+### Nomenclatura de contas
 
 
 
@@ -103,15 +103,15 @@ por exemplo.
 
 
 ```
-    Despesas de trabalho
-        Materiais de trabalho
+ Despesas de trabalho
+        Materiais de Trabalho
 
 ```
 
  se tornará
  
 ```
-    Despesas de trabalho
+ Despesas de Trabalho
         Despesas de Trabalho - 1
         Materiais de Trabalho
 
@@ -132,7 +132,7 @@ por exemplo.
 
 
 ```
-    Seguro
+ Seguro
         Materiais de Trabalho
     Despesas de trabalho
         Materiais de Trabalho
@@ -140,14 +140,10 @@ por exemplo.
 ```
 
  se tornará
- 
-```
-    Seguro
-        Materiais de Trabalho
-    Despesas de trabalho
-        Materiais de Trabalho - 1
-
-```
+  Seguro
+ Materiais de Trabalho
+ Despesas de trabalho
+ Materiais de Trabalho - 1
 
 
 
@@ -165,12 +161,12 @@ por exemplo. `Pen` se tornará `Pen - AZ` (assumindo que `AZ` é a abreviação 
 
 ```
 
-### UM
+### UOM
 
 
 
 ```
-Todos os itens serão atribuídos à `Unidade` como UDM padrão.
+Todos os itens serão atribuídos `Unit` como o UDM padrão.
 
 ```
 
@@ -188,7 +184,7 @@ Todos os itens serão atribuídos à `Unidade` como UDM padrão.
 
 
 ```
-Independentemente de o item ser um item de estoque ou não de estoque no QuickBooks, nenhuma informação relacionada ao estoque será mantida.
+Independentemente de o item ser um item de estoque ou não em QuickBooks, nenhuma informação relacionada ao estoque será mantida.
 
 ```
 
@@ -214,7 +210,7 @@ por exemplo. `Pen` se tornará `Pen - AZ` (assumindo que `AZ` é a abreviação 
 
 
 ```
-QuickBooks tem quatro variantes transacionais de fatura, todas elas serão salvas como fatura de vendas.
+QuickBooks tem quatro variantes transacionais de Fatura, todas elas serão salvas como Fatura de Vendas.
 
 - **Fatura** é equivalente a uma Nota Fiscal de Venda.
 - **Recibo de Venda** é equivalente a uma Nota Fiscal de Venda PDV.
@@ -223,12 +219,12 @@ QuickBooks tem quatro variantes transacionais de fatura, todas elas serão salva
 
 ```
 
-### Desconto e Remarcação
+### Desconto e acréscimo
 
 
 
 ```
-O QuickBooks usa contas especiais para acréscimo e desconto, o ERPNext não lida com as despesas de desconto e acréscimo dessa maneira; em vez disso, todos os itens verão a alteração em suas contas de receita.
+QuickBooks usa contas especiais para Markup e Discount, ERPNext não lida com a despesa de desconto e markup desta forma, em vez disso, todos os itens verão a mudança em suas contas de receita.
 
 ```
 
@@ -237,25 +233,21 @@ O QuickBooks usa contas especiais para acréscimo e desconto, o ERPNext não lid
 
 
 ```
-Para Notas Fiscais com Frete, será adicionado na tabela de Artigos um Item com o nome Frete.
+Para Notas Fiscais com Frete, será adicionado na tabela Item um Item com o nome Frete.
 
 ```
 
-### Arredondar
+### Arredondamento
 
 
-
-```
-O ERPNext usa método de arredondamento diferente do QuickBooks, por isso, em Notas Fiscais com Imposto e com moeda diferente da moeda da empresa, a Nota Fiscal de Venda terá total geral diferente da Nota Fiscal QuickBooks.
-
-```
+ERPNext usa método de arredondamento diferente do QuickBooks, por isso, em Notas Fiscais com Imposto e com moeda diferente da moeda da empresa, a Nota Fiscal de Venda terá total geral diferente da Nota Fiscal QuickBooks.
 
 ### Caso especial
 
 
 
 ```
-Se uma fatura do QuickBooks estiver vinculada a uma "cobrança atrasada" ou "cobrança de extrato", uma "entrada de diário" equivalente será criada para esta fatura.
+Se uma fatura do QuickBooks estiver vinculada a uma `Cobrança atrasada` ou `Cobrança de extrato`, uma `Entrada de diário` equivalente será criada para esta fatura.
 
 ```
 
@@ -280,15 +272,15 @@ QuickBooks tem duas variantes transacionais de Bill, todas elas serão salvas co
 As transações a seguir serão salvas como entrada no diário
 
 
-* Pagamento adiantado
-* Pagamento de conta
-* Verificar
-*Crédito Cartão de Crédito
+* Pagamento antecipado
+* Pagamento de contas
+* Cheque
+* Crédito de cartão de crédito
 * Despesa
 * Ajuste de quantidade de estoque
 * Entrada de diário
 * Pagamento
-* Pagamento de taxa
+* Pagamento de Impostos
 
 
 ## Imposto
@@ -297,24 +289,24 @@ As transações a seguir serão salvas como entrada no diário
 Para cada taxa de imposto do QuickBooks, uma conta ERPNext será criada.
 
 
-## Os campos personalizados
+## Campos personalizados
 
 
 O QuickBooks Migrator adicionará os seguintes campos personalizados
 
 
-* Campo empresa
+* Campo Empresa
 
 
-+ Cliente
-+ artigo
-+ Fornecedor
+	+ Cliente
+	+ Item
+	+ Fornecedor
 * Campo de ID do QuickBooks
 
 
-+ Cliente
-+ artigo
-+ Entrada de diário
-+ Fatura de compra
-+ Nota Fiscal
-+ Fornecedor
+	+ Cliente
+	+ Item
+	+ Entrada de diário
+	+ Fatura de compra
+	+ Fatura de venda
+	+ Fornecedor

@@ -72,7 +72,7 @@ Transfer Types:
 ### 2. Related Topics
 
 
-1. [Shareholder](/docs/v13/user/manual/en/accounts/shareholder)
-2. [Share Reports](/docs/v13/user/manual/en/accounts/share-reports)
+1. [Shareholder](/docs/en/accounts/shareholder)
+2. [Share Reports](/docs/en/accounts/share-reports)
 
 

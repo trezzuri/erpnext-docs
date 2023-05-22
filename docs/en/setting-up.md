@@ -18,35 +18,35 @@ You'll find the global configuration options here, for module-wise setup, visit 
 
 
 1. [Intoduction to ERPNext Frappe School Course](https://frappe.school/courses/introduction-to-erpnext)
-2. [User and Permissions](/docs/v13/user/videos/learn/user-and-permission.html)
+2. [User and Permissions](https://docs.erpnext.com/docs/v13/user/videos/learn/user-and-permission.html)
 
 
 ### 2 Data and Printing
 
 
-1. [Data Import Tool](/docs/v13/user/videos/learn/data-import-tool.html)
-2. [Printing and Branding](/docs/v13/user/videos/learn/printing-and-branding.html)
+1. [Data Import Tool](https://docs.erpnext.com/docs/v13/user/videos/learn/data-import-tool.html)
+2. [Printing and Branding](https://docs.erpnext.com/docs/v13/user/videos/learn/printing-and-branding.html)
 
 
 ### 3 Email and SMS
 
 
-1. [Email Account](/docs/v13/user/videos/learn/email-account.html)
-2. [Email Inbox](/docs/v13/user/videos/learn/email-inbox.html)
+1. [Email Account](https://docs.erpnext.com/docs/v13/user/videos/learn/email-account.html)
+2. [Email Inbox](https://docs.erpnext.com/docs/v13/user/videos/learn/email-inbox.html)
 
 
 ### 4 Files
 
 
-1. [File Manager](/docs/v13/user/videos/learn/file-manager.html)
+1. [File Manager](https://docs.erpnext.com/docs/v13/user/videos/learn/file-manager.html)
 
 
 ### 5 Sales
 
 
-1. [Customer and Supplier](/docs/v13/user/videos/learn/customer-and-supplier.html)
-2. [Item and Pricing](/docs/v13/user/videos/learn/item.html)
-3. [Opening Invoices Creation Tool](/docs/v13/user/videos/learn/opening-invoice-creation-tool.html)
-4. [Opening Stock](/docs/v13/user/videos/learn/opening-stock.html)
+1. [Customer and Supplier](https://docs.erpnext.com/docs/v13/user/videos/learn/customer-and-supplier.html)
+2. [Item and Pricing](https://docs.erpnext.com/docs/v13/user/videos/learn/item.html)
+3. [Opening Invoices Creation Tool](https://docs.erpnext.com/docs/v13/user/videos/learn/opening-invoice-creation-tool.html)
+4. [Opening Stock](https://docs.erpnext.com/docs/v13/user/videos/learn/opening-stock.html)
 
 

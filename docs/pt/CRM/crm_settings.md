@@ -2,11 +2,11 @@
 
 
 
->
+> 
 > Introduzido na versão 14.
->
->
->
+> 
+> 
+> 
 
 
 CRM Settings é onde você pode definir propriedades, configurações e validações que serão aplicadas aos masters e envolvidos nas pré-vendas.
@@ -16,11 +16,11 @@ Para acessar as configurações do CRM, acesse:
 
 
 
->
-> Início > CRM > Configurações > Configurações do CRM
->
->
->
+> 
+> Página inicial > CRM > Configurações > Configurações do CRM
+> 
+> 
+> 
 
 
 ## Liderar
@@ -41,16 +41,16 @@ Se ativado, o sistema permitirá que os usuários criem vários leads com o mesm
 O sistema criará automaticamente um documento de evento para a próxima data de contato do lead.
 
 
-### 3. Criação automática de contato
+### 3. Criação Automática de Contato
 
 
-O sistema criará automaticamente um documento de contato na criação de um lead. Que será vinculado a esse lead recém-criado.
+O sistema criará automaticamente um documento de contato na criação de um lead. Que será vinculado ao lead recém-criado.
 
 
 ## Oportunidade
 
 
-![Oportunidade](/files/opportunity-settings.png)
+![Opportunity](/files/opportunity-settings.png)
 
 
 ### 1. Fechar oportunidade respondida após dias
@@ -71,13 +71,13 @@ O sistema criará automaticamente um documento de evento para a próxima data de
 ![Quotation](/files/quotation-settings.png)
 
 
-### 1. Dias de Validade da Cotação Padrão
+### 1. Dias de validade da cotação padrão
 
 
 As cotações ao cliente são válidas apenas para determinados dias. Na Cotação, você pode atualizar Valid Till Date manualmente. Por padrão, a data Válido até é definida automaticamente como 30 dias a partir da Data de lançamento da cotação. Você pode alterar o n. de dias neste campo de acordo com o seu caso de negócios.
 
 
-## Outros ajustes
+## Outras configurações
 
 
 ![Outras configurações](/files/other-crm-settings.png)
@@ -86,16 +86,17 @@ As cotações ao cliente são válidas apenas para determinados dias. Na Cotaç�
 ### 1. Nomenclatura da campanha por
 
 
-Assim como para o Cliente, você também pode configurar a metodologia de nomenclatura para o mestre da Campanha. Por padrão, uma campanha será salva com o nome da campanha.
+Assim como para o Cliente, você também pode configurar a metodologia de nomenclatura para o mestre da campanha. Por padrão, uma campanha será salva com o nome da campanha.
 
 
 ### 2. Nomenclatura do contrato por
 
 
-Assim como para o Campaign, você também pode configurar a metodologia de nomenclatura para o contrato mestre. Por padrão, uma campanha será salva com o nome da festa.
+Assim como para o Campaign, você também pode configurar a metodologia de nomenclatura para o contrato principal. Por padrão, uma campanha será salva com o nome da festa.
 
 
-### 3. Transmita comunicações e comentários
+### 3. Comunicações e comentários encaminhados
 
 
-Se ativado, ao converter um Lead em Oportunidade e Oportunidade em Cotação, o sistema copiará automaticamente os e-mails e comentários do documento de origem.
+Se ativado, ao converter um lead em oportunidade e oportunidade em cotação, o sistema copiará automaticamente os e-mails e comentários do documento de origem.
+

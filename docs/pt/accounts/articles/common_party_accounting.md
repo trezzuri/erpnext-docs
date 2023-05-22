@@ -1,27 +1,27 @@
-# Contabilidade de parte comum
+# Contabilidade da parte comum
 
 
-A Contabilidade de Parte Comum no ERPNext envolve a contabilidade de transações incomuns, como a criação de uma Fatura de Venda contra um Fornecedor principal.
+A contabilidade de parte comum no ERPNext envolve a contabilidade de transações incomuns, como a criação de uma fatura de venda contra um fornecedor principal. 
 
 
-Suponhamos que um usuário do ERPNext que vem efetuando Notas Fiscais de Compra para um Fornecedor, queira emitir uma Nota Fiscal contra o mesmo fornecedor e ajustar esta Nota Fiscal contra uma das compras anteriores.
+Vamos supor que um usuário do ERPNext que vem fazendo Notas Fiscais de Compra para um Fornecedor, queira fazer uma Nota Fiscal de Venda contra o mesmo fornecedor e ajustar essa Nota Fiscal contra uma das compras anteriores.
 
 
-O acima pode ser alcançado ativando a Contabilidade de Parte Comum.
+O que foi dito acima pode ser alcançado ativando a Contabilidade de Parte Comum.
 
 
-**Passos:**
+**Etapas:**
 
 
-1. Vá para Configurações de contas e habilite *Contabilidade de parte comum*.
-2. Crie um link entre duas partes
+1. Vá para Configurações de contas e ative *Contabilidade de parte comum*.
+2. Criar um link entre duas partes
 
 
-* Se a função principal da parte for Fornecedor, acesse o Cadastro de Fornecedores e clique em Ações -> Vincular com o Cliente
-* Se a função principal da parte for Cliente, vá para o Mestre do Cliente e clique em Ações -> Vincular com Fornecedor![Link da Parte](/files/Party_Link.gif)
-3. Crie uma Nota Fiscal de Venda contra o Cliente que foi definido como Parte Secundária na 4ª etapa.
-4. Ao enviar a Fatura de Venda, um Lançamento Diário será lançado automaticamente, criando um saldo antecipado contra o Fornecedor vinculado.
+	* Se a função principal da parte for Fornecedor, vá para o Cadastro de fornecedores e clique em Ações -> Vincular com o cliente
+	* Se a função principal da parte for Cliente, vá para o Cadastro de Clientes e clique em Ações -> Vincular com o Fornecedor![Party Link](/files/Party_Link.gif)
+3. Crie uma Fatura de Venda contra o Cliente que foi definido como Parte Secundária na 4ª etapa.
+4. Ao enviar a fatura de venda, um lançamento contábil manual será lançado automaticamente, criando um saldo antecipado em relação ao fornecedor vinculado.
 
 
-![Entrada de diário](/files/Entrada de diário.png)
-5. Agora, esse adiantamento de lançamento contábil manual pode ser usado para reconciliar com uma fatura de compra.
+![Journal Entry](/files/Journal-Entry.png)
+5. Agora, esse adiantamento de entrada no diário pode ser usado para reconciliar com uma fatura de compra.

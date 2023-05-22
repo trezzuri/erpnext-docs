@@ -8,13 +8,13 @@ The following are the types of fields you can define while creating new ones, or
 #### Link
 
 
-Link field is connected to another master from where it fetches data. For example, in the Quotation master, the Customer is a Link field. To know more, [click here](/docs/v13/user/manual/en/customize-erpnext/articles/creating-custom-link-field).
+Link field is connected to another master from where it fetches data. For example, in the Quotation master, the Customer is a Link field. To know more, [click here](/docs/en/customize-erpnext/articles/creating-custom-link-field).
 
 
 #### Dynamic Link
 
 
-Dynamic Link field is one which can search and hold value of any document/doctype. [Click here](/docs/v13/user/manual/en/customize-erpnext/articles/dynamic-link-fields) to learn how Dynamic Link Field functions.
+Dynamic Link field is one which can search and hold value of any document/doctype. [Click here](/docs/en/customize-erpnext/articles/dynamic-link-fields) to learn how Dynamic Link Field functions.
 
 
 #### Check
@@ -155,7 +155,7 @@ The data field will be a simple text field. It allows you to enter a value of up
 #### Float
 
 
-Float field carries numeric value, up to nine decimal places. Precision for the float field is set via [Set Precision](/docs/v13/user/manual/en/customize-erpnext/articles/set-precision)
+Float field carries numeric value, up to nine decimal places. Precision for the float field is set via [Set Precision](/docs/en/customize-erpnext/articles/set-precision)
 
 
 
@@ -178,7 +178,7 @@ The setting will be applicable on all the float field.
 Use Geolocation field to store GeoJSON [feature\_collection](https://tools.ietf.org/html/rfc7946#section-3.3). Stores polygons, lines, and points. Internally it uses the following custom properties for identifying a circle.
 
 
-Read [Geolocation field](/docs/v13/user/manual/en/customize-erpnext/articles/geolocation-field) for more understanding.
+Read [Geolocation field](/docs/en/customize-erpnext/articles/geolocation-field) for more understanding.
 
 
 ![Field Type Geolocation](/files/field-type-geolocation.png)
@@ -298,7 +298,7 @@ Section Break is used to divide the form into multiple sections.
 #### Signature
 
 
-You can define the field to be a Signature field wherein you can add the Digital Signature in this field. Read documentation for [Signature Field](/docs/v13/user/manual/en/customize-erpnext/articles/signature-field) to know more.
+You can define the field to be a Signature field wherein you can add the Digital Signature in this field. Read documentation for [Signature Field](/docs/en/customize-erpnext/articles/signature-field) to know more.
 
 
 #### Table MultiSelect

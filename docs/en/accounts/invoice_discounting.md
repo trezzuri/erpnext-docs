@@ -42,7 +42,7 @@ You need to create following ledgers in order to post invoice discounting transa
 
 
 ![Disburse Loan in Invoice Discounting](/files/invoice-discounting.png)
-8. You'll be taken to a [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry) screen. Save and Submit the Journal Entry.
+8. You'll be taken to a [Journal Entry](/docs/en/accounts/journal-entry) screen. Save and Submit the Journal Entry.
 
 
 ![Journal Entry](/files/invoice-discounting-journal-entry.png)

@@ -1,9 +1,9 @@
-# Adicione um botão personalizado
+# Adicionar um botão personalizado
 
 
 
 ```
-frappe.ui.form.on("Evento", "atualizar", function(frm) {
+frappe.ui.form.on("Evento", "refresh", function(frm) {
     frm.add_custom_button(__("Faça alguma coisa"), function() {
         // Quando este botão for clicado, faça isso
 

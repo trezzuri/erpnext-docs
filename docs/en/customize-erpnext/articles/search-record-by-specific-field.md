@@ -2,7 +2,7 @@
 # Search Record by Specific Field
 
 
-While creating any DocType, you may want to link a particular field to another DocType. For example, in Sales Order DocType, 'Customer' field allows you to select an existing customer. Such fields are called [Link Fields](/docs/v13/user/manual/en/customize-erpnext/articles/field-types#link).
+While creating any DocType, you may want to link a particular field to another DocType. For example, in Sales Order DocType, 'Customer' field allows you to select an existing customer. Such fields are called [Link Fields](/docs/en/customize-erpnext/articles/field-types#link).
 
 
 Using Link Fields you can create a

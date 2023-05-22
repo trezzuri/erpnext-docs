@@ -1,25 +1,24 @@
 # Atribuição de Nota de Crédito e Pagamento
 
 
-**Pergunta:** Temos clientes que devolvem itens após o pagamento da fatura. Então, como de costume, criamos uma nota de crédito. Mas por vezes não existem outras faturas em aberto às quais possamos atribuir a nota de crédito. Portanto, neste caso, precisaremos pagar os clientes de volta. Como posso registar este tipo de transacções que não temos crédito negativo nas facturas de lista?
+**Pergunta:** Temos clientes que devolvem itens após o pagamento da fatura. Então, como de costume, criamos uma nota de crédito. Mas por vezes não existem outras faturas em aberto às quais possamos atribuir a nota de crédito. Portanto, neste caso, precisaremos pagar os clientes de volta. Como posso registrar este tipo de transações que não temos crédito negativo nas faturas de lista?
 
   
 
 
-**Responder**
+**Resposta** 
 
   
 
 
-Você deve ser capaz de gerenciar esse cenário específico seguindo as etapas compartilhadas abaixo.
+Você deve conseguir gerenciar esse cenário específico seguindo as etapas compartilhadas abaixo.
 
   
 
 
-1. Primeiro, crie uma Nota de Crédito contra uma Fatura
-2. Em seguida, crie uma Entrada de Pagamento para o valor devolvido
-3. Use a reconciliação de pagamento para compensar o pagamento contra a fatura de venda original (e não a própria nota de crédito).
-
+< ol>- Primeiro, crie uma nota de crédito contra uma fatura
+- Em seguida, crie uma entrada de pagamento para o valor devolvido
+- Use a reconciliação de pagamento para imitar o pagamento contra a fatura de venda original (e não a própria nota de crédito).
   
 
 
@@ -31,6 +30,6 @@ Você deve ser capaz de gerenciar esse cenário específico seguindo as etapas c
   
 
 
-1. Primeiro, crie uma Nota de Débito no sistema contra a Nota Fiscal de Compra
+1. Primeiro, crie uma Nota de Débito no sistema contra a Fatura de Compra
 2. Em seguida, crie uma entrada de pagamento para o valor devolvido
-3. Use a reconciliação de pagamento para compensar o pagamento contra a fatura de compra original (e não a própria nota de débito).
+3. Use a reconciliação de pagamento para imitar o pagamento contra a Nota Fiscal de Compra original (e não a própria Nota de Débito).

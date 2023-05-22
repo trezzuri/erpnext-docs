@@ -11,7 +11,7 @@ You can find all settings related to booking appointments in Appointment Booking
 ## 1. Enable Appointment scheduling
 
 
-This checkbox will enable appointment scheduling and also enable the `/book_appointment` Route for website users (your customers). Your customers will see a portal view. To know more, visit the [Appointment Page](/docs/v13/user/manual/en/CRM/appointment)
+This checkbox will enable appointment scheduling and also enable the `/book_appointment` Route for website users (your customers). Your customers will see a portal view. To know more, visit the [Appointment Page](/docs/en/CRM/appointment)
 
 
 ## 2. Agent Details
@@ -38,7 +38,7 @@ This is the list of agents which will be **autoassigned** to appointments. The n
 ### 2.3 Holiday list
 
 
-You can link a (holiday list)[https://erpnext.com/docs/v13/user/manual/en/human-resources/holiday-list] here to apply to the appointment schedule. If the day is a holiday, scheduling an appointment on that day won't be allowed.
+You can link a (holiday list)[https://erpnext.com/docs/en/human-resources/holiday-list] here to apply to the appointment schedule. If the day is a holiday, scheduling an appointment on that day won't be allowed.
 
 
 ## 3. Appointment Details

@@ -7,7 +7,7 @@
 A opção 'Filtrar por' está presente na barra lateral esquerda de todas as listas e relatórios.
 
 
-![Filtrar por](/files/using-filter-by-1.png)
+![Filter By](/files/using-filter-by-1.png)
 
 
 Por padrão, existem duas opções de classificação presentes no sistema.
@@ -19,16 +19,16 @@ Por padrão, existem duas opções de classificação presentes no sistema.
 Ao visualizar uma lista ou um relatório de documentos como Problemas, Leads, Oportunidades, você pode filtrar o resultado da pesquisa para ver apenas os documentos atribuídos a um determinado indivíduo. O menu suspenso Atribuído a também mostrará o número de documentos atribuídos a cada indivíduo.
 
 
-![Filtrar por](/files/using-filter-by-2.png)
+![Filter By](/files/using-filter-by-2.png)
 
 
 ## Criado por
 
 
-Assim como Atribuído a, você também poderá classificar o documento com base na entidade que o criou. Por exemplo, se quiser consultar todas as Questões levantadas por uma determinada entidade, pode fazê-lo aqui.
+Assim como Atribuído a, você também poderá classificar o documento com base na entidade que o criou. Por exemplo, se quiser consultar todos os problemas levantados por uma determinada entidade, pode fazê-lo aqui.
 
 
-![Filtrar por](/files/using-filter-by-3.png)
+![Filter By](/files/using-filter-by-3.png)
 
 
 ## Adicionar campos
@@ -37,4 +37,5 @@ Assim como Atribuído a, você também poderá classificar o documento com base 
 Além das duas opções padrão Filtrar por, conforme sua necessidade, você também pode adicionar outros campos Filtrar por para qualquer lista de documentos ou relatório.
 
 
-![Filtrar por](/arquivos/usando-filtro-por-1.gif)
+![Filter By](/files/using-filter-by-1.gif)
+

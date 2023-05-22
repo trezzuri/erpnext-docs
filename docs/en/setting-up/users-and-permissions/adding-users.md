@@ -20,7 +20,7 @@ There are two main types of users:
 **System Users**: People using ERPNext in the Company with access to modules, company data, etc.
 
 
-Read more about [difference between system and website user](/docs/v13/user/manual/en/setting-up/articles/difference-between-system-user-and-website-user).
+Read more about [difference between system and website user](/docs/en/setting-up/articles/difference-between-system-user-and-website-user).
 
 
 Under User, a lot of info can be entered. For the sake of usability, the information entered for web users is minimal: First Name and Email.
@@ -49,7 +49,7 @@ Details like Username and Language can also be changed.
 ### 2.1 Setting Roles
 
 
-After saving, you will see a list of roles and checkboxes next to them. Just check the roles you want the user to have and save the document. The roles have pre-defined permissions, to know more about roles, [click here](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions). You can set [Role profiles](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-and-role-profile) to use as a template which selects multiple roles together.
+After saving, you will see a list of roles and checkboxes next to them. Just check the roles you want the user to have and save the document. The roles have pre-defined permissions, to know more about roles, [click here](/docs/en/setting-up/users-and-permissions/role-based-permissions). You can set [Role profiles](/docs/en/setting-up/users-and-permissions/role-and-role-profile) to use as a template which selects multiple roles together.
 
 
 ![User Roles](/files/user-2.png)
@@ -85,7 +85,7 @@ Ticking on 'Mute Sounds' will mute sounds that play on interacting with document
 ### 2.4 Document Follow
 
 
-With this option you can follow various documents in the system and get email notifications when they are updated. Know more [here](/docs/v13/user/manual/en/setting-up/email/document-follow).
+With this option you can follow various documents in the system and get email notifications when they are updated. Know more [here](/docs/en/setting-up/email/document-follow).
 
 
 ### 2.5 Email Settings
@@ -94,13 +94,13 @@ With this option you can follow various documents in the system and get email no
 * **Send Notifications for Email threads**: The user will get notifications for Email conversations that take place in document types like Opportunities.
 * **Send Me A Copy of Outgoing Emails**: Sends the user a copy of the emails they send. This is useful for keeping track if the email got sent.
 * **Allowed In Mentions**: Allow this user's name to appear in thread conversations so that they can be mentioned using '@'.
-* **Email Signature**: Adding an email signature here will set it as default for all outgoing emails for the user. This is different from a footer which is set from the [Company master](/docs/v13/user/manual/en/setting-up/company-setup).
+* **Email Signature**: Adding an email signature here will set it as default for all outgoing emails for the user. This is different from a footer which is set from the [Company master](/docs/en/setting-up/company-setup).
 
 
 ### 2.6 Email Inbox
 
 
-Subscribe the user to different mailing lists of your company from this section. Add a new row and select the mailing list to assign this user. For example, mailing lists can be jobs, support, sales, etc. To know more about Email Inbox, [click here](/docs/v13/user/manual/en/setting-up/email/email-inbox).
+Subscribe the user to different mailing lists of your company from this section. Add a new row and select the mailing list to assign this user. For example, mailing lists can be jobs, support, sales, etc. To know more about Email Inbox, [click here](/docs/en/setting-up/email/email-inbox).
 
 
 ### 2.7 Allow Module Access
@@ -124,7 +124,7 @@ Role Profiles act as a template to store and select access to multiple modules. 
 ### 2.8 Security Settings
 
 
-* **Simultaneous Sessions**: Simultaneous login sessions the user is allowed. You can use the same set of credentials for multiple users by allowing more sessions. This can be restricted from [System Settings](/docs/v13/user/manual/en/setting-up/settings/system-settings#15-security) globally. For cloud account, the total number of simultaneous sessions cannot exceed the total number of subscribed users.
+* **Simultaneous Sessions**: Simultaneous login sessions the user is allowed. You can use the same set of credentials for multiple users by allowing more sessions. This can be restricted from [System Settings](/docs/en/setting-up/settings/system-settings#15-security) globally. For cloud account, the total number of simultaneous sessions cannot exceed the total number of subscribed users.
 * **User Type**: If the user has any role checked other than Customer, Supplier, Patient, or Student they automatically become a System User. This field is read-only.
 * **Login After, Login Before**: If you wish to give the user access to the system only between office hours,
 or during weekends, specify it here. For example, if office hours are from 10 am to 6 pm, set the Login After, Login Before hours as 10:00 and 18:00.
@@ -161,18 +161,18 @@ After saving a user, these buttons will be seen on the dashboard area of the Use
 #### Permissions
 
 
-* **Set User Permissions**: Will take you to the [User Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/user-permissions) page of Bruce from where you can restrict Bruce's access to documents.
+* **Set User Permissions**: Will take you to the [User Permissions](/docs/en/setting-up/users-and-permissions/user-permissions) page of Bruce from where you can restrict Bruce's access to documents.
 * **View Permitted Documents**: Will take you to the 'Permitted Documents For User' report for this user. Here you can see which documents does Bruce have access to. For example, on selected Sales Order, the list of Sales Orders Bruce has access to will be displayed.
 
 
 #### Password
 
 
-* **Reset Password**: An email with instructions to reset the user's password will be sent to the user's [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account).
+* **Reset Password**: An email with instructions to reset the user's password will be sent to the user's [Email Account](/docs/en/setting-up/email/email-account).
 * **Reset OTP Secret**: Reset OTP Secret for logging in via Two Factor Authentication.
 
 
-Create User Email will let you create an [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account) for the user based on the email entered in the User master.
+Create User Email will let you create an [Email Account](/docs/en/setting-up/email/email-account) for the user based on the email entered in the User master.
 
 
 ### 3. Login Methods
@@ -199,8 +199,8 @@ After adding these details, save the user.
 ### 4. Related Topics
 
 
-1. [Role Based Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
-2. [User Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/user-permissions)
-3. [Document Follow](/docs/v13/user/manual/en/setting-up/email/document-follow)
+1. [Role Based Permissions](/docs/en/setting-up/users-and-permissions/role-based-permissions)
+2. [User Permissions](/docs/en/setting-up/users-and-permissions/user-permissions)
+3. [Document Follow](/docs/en/setting-up/email/document-follow)
 
 

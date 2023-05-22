@@ -58,6 +58,6 @@ You can specify the confirmation email and welcome email template for the email 
 ![Email Group Templates](/files/email-group.png)
 
 
-Next: [Automate Lead Capturing](/docs/v13/user/manual/en/CRM/articles/automate_lead_capturing)
+Next: [Automate Lead Capturing](/docs/en/CRM/articles/automate_lead_capturing)
 
 

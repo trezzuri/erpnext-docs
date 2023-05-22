@@ -8,23 +8,23 @@ Para acessar as Configurações de suporte, acesse:
 
 
 
->
-> Início > Suporte > Configurações > Configurações de suporte
->
->
->
+> 
+> Página inicial > Suporte > Configurações > Configurações de suporte
+> 
+> 
+> 
 
 
 ![Configurações de suporte](/files/support-settings.png)
 
 
-## 1. Acordos de nível de serviço
+## 1. Contratos de Nível de Serviço
 
 
-### 1.1 Rastrear Acordo de Nível de Serviço
+### 1.1 Rastrear acordo de nível de serviço
 
 
-Habilite este recurso para começar a usar e monitorar o [Contrato de Nível de Serviço](/docs/v13/user/manual/en/support/service-level-agreement) em Problemas.
+Ative este recurso para começar a usar e acompanhar o [Acordo de nível de serviço](/docs/pt/support/service-level-agreement) em problemas.
 
 
 ### 1.2 Permitir a redefinição do contrato de nível de serviço
@@ -36,7 +36,8 @@ Isso permite que um usuário redefina o contrato de nível de serviço em proble
 ## 2. Problemas
 
 
-### 2.1 Fechar Problema Após Dias
+### 2.1 Fechar problema após dias
 
 
 Qualquer questão "Respondida" ou "Resolvida" será encerrada após o número de dias definido neste campo. No entanto, se o cliente responder a um problema fechado, o problema será aberto novamente.
+

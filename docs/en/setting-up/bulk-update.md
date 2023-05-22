@@ -45,6 +45,6 @@ To do this,
 ### Related Topics
 
 
-1. [Bulk Rename](/docs/v13/user/manual/en/setting-up/settings/bulk-rename)
+1. [Bulk Rename](/docs/en/setting-up/settings/bulk-rename)
 
 

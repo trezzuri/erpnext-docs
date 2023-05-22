@@ -8,7 +8,7 @@
 Every company has a default Letter Head. These Letter Head values are generally set as Header and Footer in the documents. In ERPNext, you can capture these details in the Letter Head master.
 
 
-These details will appear in the Print Format of transactions like Sales Order, Sales Invoice, Salary Slip, Purchase Order, etc. In ERPNext, the Letter Head is only for setting up the top part of the document, other content is pre-formatted and can be configured via [Print Format](/docs/v13/user/manual/en/setting-up/print/print-format) and [Print Headings](/docs/v13/user/manual/en/setting-up/print/print-headings).
+These details will appear in the Print Format of transactions like Sales Order, Sales Invoice, Salary Slip, Purchase Order, etc. In ERPNext, the Letter Head is only for setting up the top part of the document, other content is pre-formatted and can be configured via [Print Format](/docs/en/setting-up/print/print-format) and [Print Headings](/docs/en/setting-up/print/print-headings).
 
 
 To access Letter Head, go to:
@@ -74,9 +74,9 @@ This is how the Letter Head looks in a document's print.
 ### 3. Related Topics
 
 
-1. [Address Template](/docs/v13/user/manual/en/setting-up/print/address-template)
-2. [Terms and Conditions](/docs/v13/user/manual/en/setting-up/print/terms-and-conditions)
-3. [Cheque Print Template](/docs/v13/user/manual/en/setting-up/print/cheque-print-template)
-4. [Print Headings](/docs/v13/user/manual/en/setting-up/print/print-headings)
+1. [Address Template](/docs/en/setting-up/print/address-template)
+2. [Terms and Conditions](/docs/en/setting-up/print/terms-and-conditions)
+3. [Cheque Print Template](/docs/en/setting-up/print/cheque-print-template)
+4. [Print Headings](/docs/en/setting-up/print/print-headings)
 
 

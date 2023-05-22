@@ -11,7 +11,7 @@ For better processing of such reports, ERPNext offers Prepared Reports (since v1
 ## Steps to Set Up Prepared Reports
 
 
-1. Go to [Role Permission for Page and Report](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report).
+1. Go to [Role Permission for Page and Report](/docs/en/setting-up/users-and-permissions/role-permission-for-page-and-report).
 2. In the field 'Set Role For' select **Report**.
 3. In the 'Report' field select the report for which you want to enable/disable prepared report.
 4. Use the **Disable Prepared Report** checkbox to enable/disable the prepared report. If the option is checked, the prepared report option will be disabled for the selected report.
@@ -33,6 +33,6 @@ For better processing of such reports, ERPNext offers Prepared Reports (since v1
 ![Prepared Report Queued](/files/prepared-report-queued.png)
 As you see, the report page has status as "Queued". Once the report is ready, you will see a **Show Report** button which you can click to view the report:
  ![Prepared Report Initiated](/files/prepared-report-page.png)
-5. Since Prepared Report is also a doctype, to view the list of Prepared Reports, you can use the [Role Permission Manager](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions) to grant access to the same.
+5. Since Prepared Report is also a doctype, to view the list of Prepared Reports, you can use the [Role Permission Manager](/docs/en/setting-up/users-and-permissions/role-based-permissions) to grant access to the same.
 
 

@@ -95,7 +95,7 @@ It is important to reach out to leads from time to time and build the relationsh
 
 
 In Busines-to-business(B2B) scenario, in order to close a sales deal, you will have to contact multiple people working in the prospective company.
-You can add the details of all such people in the same lead. Once you save a Lead, you will get the option to add [Contact](/docs/v13/user/manual/en/CRM/contact) details by clicking on 'New Contact' button. Similarly, you can add the [Address](/docs/v13/user/manual/en/CRM/address) details by clicking on 'New Address'.
+You can add the details of all such people in the same lead. Once you save a Lead, you will get the option to add [Contact](/docs/en/CRM/contact) details by clicking on 'New Contact' button. Similarly, you can add the [Address](/docs/en/CRM/address) details by clicking on 'New Address'.
 
 
 ![Multiple Contacts and Addresses in Lead](/files/multiple-addresses-and-contacts-in-lead.png)
@@ -126,7 +126,7 @@ You can create an Opportunity, Customer or a Quotation from the Make dropdown. R
 > 
 
 
-You can define [Assignment Rules](/docs/v13/user/manual/en/automation/assignment-rule) to automatically assign the leads to sales executives.
+You can define [Assignment Rules](/docs/en/automation/assignment-rule) to automatically assign the leads to sales executives.
 
 
 ![Lead Assignment Rule](/files/lead-assignment-rule.png)
@@ -138,14 +138,14 @@ You can define [Assignment Rules](/docs/v13/user/manual/en/automation/assignment
 You may need to add custom fields to capture additional details as per your needs.
 
 
-You can customize the Lead DocType using [Customize Form](/docs/v13/user/manual/en/customize-erpnext/custom-field) tool.
+You can customize the Lead DocType using [Customize Form](/docs/en/customize-erpnext/custom-field) tool.
 
 
 ## 4. Related Topics
 
 
-1. [Opportunity](/docs/v13/user/manual/en/CRM/opportunity)
-2. [Customer](/docs/v13/user/manual/en/CRM/customer)
-3. [Difference between Lead, Contact, and Customer](/docs/v13/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)
+1. [Opportunity](/docs/en/CRM/opportunity)
+2. [Customer](/docs/en/CRM/customer)
+3. [Difference between Lead, Contact, and Customer](/docs/en/CRM/articles/difference_between_lead_contact_and_customer)
 
 

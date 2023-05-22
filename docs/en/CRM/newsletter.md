@@ -11,7 +11,7 @@ In the context of CRM, its is an informational and product-focused email that is
 Newsletter can also be used to share information to employees, investors etc.
 
 
-You need to create [Email Groups](/docs/v13/user/manual/en/CRM/email_group) before sending the newsletters.
+You need to create [Email Groups](/docs/en/CRM/email_group) before sending the newsletters.
 
 
 To access the Newsletter list, go to:
@@ -52,7 +52,7 @@ Below is the screenshot of the email received with link to unsubscribe and a lin
 ### 2.1 Create Subscriber Groups
 
 
-You can manage subscribers by grouping them into different [Email Groups](/docs/v13/user/manual/en/CRM/email_group).
+You can manage subscribers by grouping them into different [Email Groups](/docs/en/CRM/email_group).
 
 
 You can select multiple email groups in the 'RECIPIENT' tables in the newsletter.

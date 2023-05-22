@@ -38,9 +38,9 @@ To access *Process Statement Of Accounts* list you can either search in the navb
 1. The tool uses the email IDs of customers to send them the reports. On not finding the below email entries in the Customer contacts the tool won't allow you to select the respective Customer, so please ensure the following details are filled in the Customer documents.
 
 
-	* Billing Email of Customer: This is mandatory and can be set within the [Customer Contact](/docs/v13/user/manual/en/CRM/contact#1-how-to-create-a-contact) with "Is Billing Contact" option checked.
+	* Billing Email of Customer: This is mandatory and can be set within the [Customer Contact](/docs/en/CRM/contact#1-how-to-create-a-contact) with "Is Billing Contact" option checked.
 	* Primary Email of Customer: This is not mandatory, unless you select the "Send To Primary Contact" in the form.
-2. Email Account setup with outgoing enabled. Learn more about this [here](/docs/v13/user/manual/en/setting-up/email/email-account).
+2. Email Account setup with outgoing enabled. Learn more about this [here](/docs/en/setting-up/email/email-account).
 
 
 ## 2. How to create a Process Statement Account entry
@@ -52,7 +52,7 @@ To access *Process Statement Of Accounts* list you can either search in the navb
 
 
 	* "From Date" and "To Date" filters will be hidden and auto-filled dynamically when "Enable Auto Email" option is selected.
-	* "Project" and "Cost Center" are [Table MultiSelect](/docs/v13/user/manual/en/customize-erpnext/articles/table-multiselect-field) fields. Meaning you can select multiple Projects and Cost Centers in the General Ledger filters.![New Process Statement of Accounts](/files/process-statement-of-accounts.png)
+	* "Project" and "Cost Center" are [Table MultiSelect](/docs/en/customize-erpnext/articles/table-multiselect-field) fields. Meaning you can select multiple Projects and Cost Centers in the General Ledger filters.![New Process Statement of Accounts](/files/process-statement-of-accounts.png)
 4. In the "Customers" section, you have an option to select customers in the child table and fetch their primary and billing emails.
 
 
@@ -131,8 +131,8 @@ Report PDF:
 ## 4. Related Topics
 
 
-1. [Setting up an Email Account](/docs/v13/user/manual/en/setting-up/email/email-account)
-2. [Creating Customer Contact](/docs/v13/user/manual/en/CRM/contact#1-how-to-create-a-contact)
-3. [Contact](/docs/v13/user/manual/en/CRM/contact)
+1. [Setting up an Email Account](/docs/en/setting-up/email/email-account)
+2. [Creating Customer Contact](/docs/en/CRM/contact#1-how-to-create-a-contact)
+3. [Contact](/docs/en/CRM/contact)
 
 

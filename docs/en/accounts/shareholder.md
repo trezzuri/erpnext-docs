@@ -11,7 +11,7 @@ A Shareholder is any person, company or other institution that owns at least one
 Any profit or loss made by a Company belongs to the Shareholders and hence the Shareholders are a liability to the Company.
 
 
-ERPNext allows you to keep a track of all your Shareholders and maintain Share Transfers, Share Ledger and Share Balances. A shareholder is uniquely identified by the Shareholder ID. Normally this ID is a [Naming Series](/docs/v13/user/manual/en/setting-up/settings/naming-series) starting with 'ACC-SH-'. Also as soon as the Shareholder makes even a single transaction, a Folio number is allocated to him. This also is unique to the Shareholder.
+ERPNext allows you to keep a track of all your Shareholders and maintain Share Transfers, Share Ledger and Share Balances. A shareholder is uniquely identified by the Shareholder ID. Normally this ID is a [Naming Series](/docs/en/setting-up/settings/naming-series) starting with 'ACC-SH-'. Also as soon as the Shareholder makes even a single transaction, a Folio number is allocated to him. This also is unique to the Shareholder.
 
 
 To access the Shareholder list, go to:
@@ -37,19 +37,19 @@ To access the Shareholder list, go to:
 ![Shareholder](/files/shareholder.png)
 
 
-A Shareholder can avail the features (operations) in the [Share Transfer](/docs/v13/user/manual/en/accounts/share-transfer) process. Only after shares are issued to them, a Folio Number and the shares will be visible.
+A Shareholder can avail the features (operations) in the [Share Transfer](/docs/en/accounts/share-transfer) process. Only after shares are issued to them, a Folio Number and the shares will be visible.
 
 
 ### 1.1 Contacts and Addresses
 
 
-[Contacts](/docs/v13/user/manual/en/CRM/contact) and [Addresses](/docs/v13/user/manual/en/CRM/address) in ERPNext are stored separately so that you can attach multiple Contacts or Addresses to Shareholders and other parties.
+[Contacts](/docs/en/CRM/contact) and [Addresses](/docs/en/CRM/address) in ERPNext are stored separately so that you can attach multiple Contacts or Addresses to Shareholders and other parties.
 
 
 ### 2. Related Topics
 
 
-1. [Share Transfer](/docs/v13/user/manual/en/accounts/share-transfer)
-2. [Share Reports](/docs/v13/user/manual/en/accounts/share-reports)
+1. [Share Transfer](/docs/en/accounts/share-transfer)
+2. [Share Reports](/docs/en/accounts/share-reports)
 
 

@@ -45,7 +45,7 @@ If the Sales User tries submitting the Sales Order of value higher than 10,000, 
 
 
 > 
-> If you wish to restrict Sales User from submitting Sales Orders, then instead of creating Authorization Rule, you should remove submit privilege for Sales User from [Role Permission Manager](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions).
+> If you wish to restrict Sales User from submitting Sales Orders, then instead of creating Authorization Rule, you should remove submit privilege for Sales User from [Role Permission Manager](/docs/en/setting-up/users-and-permissions/role-based-permissions).
 > 
 > 
 > 

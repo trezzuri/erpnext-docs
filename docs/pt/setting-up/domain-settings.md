@@ -1,24 +1,24 @@
-# Configurações de domínio
+# Configurações do domínio
 
 
 Você pode selecionar os domínios a serem ativos globalmente em Configurações de domínio.
 
 
-Para acessar as Configurações do Domínio, acesse:
+Para acessar as Configurações de domínio, acesse:
 
 
 
->
-> Início > Configurações > Configurações de domínio
->
->
->
+> 
+> Página inicial > Configurações > Configurações do domínio
+> 
+> 
+> 
 
 
 Se um domínio for desativado, as seguintes coisas acontecerão:
 
 
-* O cartão de domínio estará indisponível na página inicial
+* O cartão de domínio ficará indisponível na página inicial
 * Os DocTypes relacionados ao domínio não estarão mais acessíveis. Por exemplo, se você desabilitar o módulo Education, Student e outros DocTypes em Education não estarão acessíveis.
 
 
@@ -28,4 +28,4 @@ Se um domínio for desativado, as seguintes coisas acontecerão:
 ### Tópicos relacionados
 
 
-1. [Configuração da empresa](/docs/v13/user/manual/en/setting-up/company-setup)
+1. [Configuração da empresa](/docs/pt/setting-up/company-setup)

@@ -1,16 +1,16 @@
-# Tag
+# Tags
 
 
-**Usando tags uma maneira fácil de classificar diferentes tipos de documentos em suas respectivas categorias.**
+**Usar tags é uma maneira fácil de classificar diferentes tipos de documentos em suas respectivas categorias.**
 
 
-Você pode adicionar qualquer tag a um DocType, como atribuições e comentários.
+Você pode adicionar qualquer tag a um DocType, assim como atribuições e comentários.
 
 
 ![Tags](/files/using-tags-1.gif)
 
 
-Ao passar por uma lista de documentos, você pode filtrar o mesmo usando tags. De relance, você poderá ver o número de documentos marcados para cada classificação.
+Ao percorrer uma lista de documentos, você pode filtrá-la usando tags. Rapidamente, você poderá ver o número de documentos marcados para cada classificação.
 
 
 ![Tags](/files/using-tags-2.png)
@@ -25,7 +25,7 @@ Depois de marcar alguns documentos com uma tag específica, você pode encontrar
 ![Tags](/files/find-tagged-documents.png)
 
 
-## Tags em Relatórios
+## Tags em relatórios
 
 
 Todas as tags que são criadas em sua conta ERPNext também podem ser pesquisadas ao buscar um relatório. Essas tags também podem ser pesquisadas como um filtro no relatório.
@@ -35,3 +35,4 @@ Todas as tags que são criadas em sua conta ERPNext também podem ser pesquisada
 
 
 ![Tags](/files/using-tags-6.png)
+

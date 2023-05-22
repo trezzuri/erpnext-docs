@@ -8,15 +8,16 @@ Para acessar a lista de assinaturas, acesse:
 
 
 
->
-> Início > Contabilidade > Gerenciamento de assinaturas > Configurações de assinatura
->
->
->
+> 
+> Página inicial > Contabilidade > Gerenciamento de assinaturas > Configurações de assinatura
+> 
+> 
+> 
 
 
-* **Período de Carência**: Número de dias após a data da fatura antes de cancelar a assinatura ou marcar a assinatura como não paga.
-* **Cancelar Fatura Após Período de Carência**: Ao invés de exibir 'Não Pago', a Assinatura será cancelada no ERPNext caso o Cliente não pague.
+* **Período de carência**: número de dias após a data da fatura antes de cancelar a assinatura ou marcar a assinatura como não paga.
+* **Cancelar Fatura Após o Período de Carência**: Em vez de exibir 'Não Pago', a Assinatura será cancelada no ERPNext caso o Cliente não pague.
 
 
-![Assinatura](/files/subscription-settings.png)
+![Subscription](/files/subscription-settings.png)
+

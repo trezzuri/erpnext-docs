@@ -26,7 +26,7 @@ In the Payment Terms Template, you can select all the Payment Terms and define a
 Before creating and using Payment Request, it is advisable to create the following first:
 
 
-1. [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms)
+1. [Payment Terms](/docs/en/accounts/payment-terms)
 
 
 ## 2. How to create a Payment Terms Template

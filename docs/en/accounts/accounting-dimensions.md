@@ -94,8 +94,8 @@ You can also disable the dimensions if you don't require them anymore. The old t
 ### Related Topics
 
 
-1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
-2. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
-3. [Accounting Reports](/docs/v13/user/manual/en/accounts/accounting-reports)
+1. [Cost Center](/docs/en/accounts/cost-center)
+2. [Budgeting](/docs/en/accounts/budgeting)
+3. [Accounting Reports](/docs/en/accounts/accounting-reports)
 
 

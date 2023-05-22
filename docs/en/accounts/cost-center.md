@@ -15,7 +15,7 @@ Most businesses have multiple activities like different product lines, market se
 are profitable or not. For this purpose, there is an alternate structure called the Chart of Cost Centers.
 
 
-A Cost Center acts like an [Accounting Dimension](/docs/v13/user/manual/en/accounts/accounting-dimensions) which helps you track costing based on particular areas.
+A Cost Center acts like an [Accounting Dimension](/docs/en/accounts/accounting-dimensions) which helps you track costing based on particular areas.
 
 
 The Cost Center can be set at these levels:
@@ -29,14 +29,14 @@ The Cost Center can be set at these levels:
 The Cost Center can be linked to the following transactions:
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
-3. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
-4. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-5. [Delivery Note](/docs/v13/user/manual/en/stock/delivery-note)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
+3. [Journal Entry](/docs/en/accounts/journal-entry)
+4. [Payment Entry](/docs/en/accounts/payment-entry)
+5. [Delivery Note](/docs/en/stock/delivery-note)
 
 
-And other transactions which can be used for budgeting. You can also use Cost Center for [Budgeting](/docs/v13/user/manual/en/accounts/budgeting).
+And other transactions which can be used for budgeting. You can also use Cost Center for [Budgeting](/docs/en/accounts/budgeting).
 
 
 ## 1. Cost Center tree
@@ -97,8 +97,8 @@ Selecting a different Company will display the Cost Centers for that Company.
 ### 3. Related Topics
 
 
-1. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
-2. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-3. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Budgeting](/docs/en/accounts/budgeting)
+2. [Sales Invoice](/docs/en/accounts/sales-invoice)
+3. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 

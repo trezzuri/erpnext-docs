@@ -27,7 +27,7 @@ The user can make a Debit Note against the Purchase Invoice or they can directly
 ![Debit Note](/files/debit-note.png)
 
 
-The other steps are similar to a [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice).
+The other steps are similar to a [Purchase Invoice](/docs/en/accounts/purchase-invoice).
 
 
 ### 1.1 How does Debit Note affect ledger
@@ -39,7 +39,7 @@ The Debit Note will reverse the impact of the purchase invoice.
 ![Debit Note Ledger](/files/debit-note-ledger.png)
 
 
-Refer the [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice) page for any other details.
+Refer the [Purchase Invoice](/docs/en/accounts/purchase-invoice) page for any other details.
 
 
 ### 1.2 No payment was made against Sales Invoice
@@ -63,7 +63,7 @@ Debit Note with payment entry in ERPNext for above example is as below:
 ### 3. Related Topics
 
 
-1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-2. [Credit Note](/docs/v13/user/manual/en/accounts/credit-note)
+1. [Payment Entry](/docs/en/accounts/payment-entry)
+2. [Credit Note](/docs/en/accounts/credit-note)
 
 

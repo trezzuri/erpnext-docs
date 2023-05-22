@@ -1,14 +1,16 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from pprint import pprint
+from googletrans import Translator  #  pip3 install googletrans==3.1.0a0
 import os
 import markdownify
-from googletrans import Translator  #  pip3 install googletrans==3.1.0a0
+import requests
 
 # cuidado ao usar o translate, pois pode ter correções manuais direto nos arquivos
 def main(translate=False):
     
     baseurl = "https://docs.erpnext.com/docs/v14/user/manual/en"
+    filesurl = "https://docs.erpnext.com"
     basepath = "./docs"
     translator = Translator()
     
@@ -28,19 +30,47 @@ def main(translate=False):
         title = md.find('div',{'class':'align-items-center'}).contents[1] # obtem o titulo do texto que está em um div
         md.find('div',{'class':'align-items-center'}).replace_with(title) # substitui o div pelo seu conteudo
         
-        content_en = markdownify.markdownify(md.decode_contents(), heading_style="ATX") # converte html para markdown                
+        # busca e download das imagens 
+        for img in md.findAll('img'):
+            try:
+                img_data = requests.get(filesurl + img['src']).content
+            except:
+                print(img['src'] + ' falhou no download')
+            else:
+                imgname = img['src'].split("/")[-1] # obtem o nome do arquivo
+                if imgname:
+                    img['src'] = "/files/" + imgname # troca o local da imagem
+                    with open("./files/" + imgname, 'wb') as handler:
+                        handler.write(img_data)
+                    
+        content_en = md.decode_contents()
+        content_en = markdownify.markdownify(content_en, heading_style="ATX") # converte html para markdown        
+        content_en = content_en.replace("/docs/v13/user/manual/en/", "/docs/en/") # substitui os links da documentação original
+        content_en = content_en.replace("/docs/v14/user/manual/en/", "/docs/en/") # substitui os links da documentação original
+        content_en = content_en.replace("/docs/v13/user/videos/", "https://docs.erpnext.com/docs/v13/user/videos/")
+        content_en = content_en.replace("/docs/v14/user/videos/", "https://docs.erpnext.com/docs/v14/user/videos/")
+        
         fname = basepath + "/en" + page + ".md"
         f = open(fname, "w")
         f.write(content_en)
         f.close()
         
         if translate:
-            content_pt = translator.translate(content_en, src='en', dest='pt').text # traduz para portugues
+            content_pt = md.decode_contents()
+            content_pt = translator.translate(content_pt, src='en', dest='pt').text # traduz para portugues
+            content_pt = markdownify.markdownify(content_pt, heading_style="ATX") # converte html para markdown        
+            content_pt = content_pt.replace("/docs/v13/user/manual/en/", "/docs/pt/") # substitui os links da documentação original
+            content_pt = content_pt.replace("/docs/v14/user/manual/en/", "/docs/pt/") # substitui os links da documentação original
+            content_pt = content_pt.replace("/docs/v13/user/videos/", "https://docs.erpnext.com/docs/v13/user/videos/")
+            content_pt = content_pt.replace("/docs/v14/user/videos/", "https://docs.erpnext.com/docs/v14/user/videos/")
+
             fname = basepath + "/pt" + page + ".md"
             f = open(fname, "w")
             f.write(content_pt)
             f.close()
-        
+
+
+
 def pages():
     return [
     "/accounts",
@@ -387,4 +417,4 @@ def pages():
     "/using-erpnext/video"
     ]
     
-main() # cuidado ao usar o translate, pois pode ter correções manuais direto nos arquivos
+main(True) # cuidado ao usar o translate, pois pode ter correções manuais direto nos arquivos

@@ -1,4 +1,4 @@
-# Bloquear folhas de ponto com base na data
+# Folhas de ponto de bloqueio com base na data
 
 
 Digamos que você gostaria que todos os funcionários preenchessem as planilhas de horas até sexta-feira de cada semana. E permita que apenas os usuários com função de 'Gerente de Projetos' editem ou adicionem planilhas de horas para os dias anteriores à última sexta-feira. O script personalizado abaixo implementará esse recurso.

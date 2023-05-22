@@ -20,13 +20,13 @@ Every Printable Document Type in ERPNext will have it's own Standard Print Forma
 ![Standard Print Format](/files/customize-standard-print-format.png)
 
 
-Any changes made to the Standard Print Format will have to be done using a Customize Form. You can also checkout [adding fields in Print Formats](/docs/v13/user/manual/en/customize-erpnext/articles/making-fields-visible-in-print-format).
+Any changes made to the Standard Print Format will have to be done using a Customize Form. You can also checkout [adding fields in Print Formats](/docs/en/customize-erpnext/articles/making-fields-visible-in-print-format).
 
 
 ## Custom Print Format
 
 
-You can also create your own custom Print Formats by using a tool called [Print Format Builder](/docs/v13/user/manual/en/setting-up/print/print-format-builder). This tool will help you in making a simple Customized Print Format by dragging and dropping fields in a format as per your preference.
+You can also create your own custom Print Formats by using a tool called [Print Format Builder](/docs/en/setting-up/print/print-format-builder). This tool will help you in making a simple Customized Print Format by dragging and dropping fields in a format as per your preference.
 
 
 ![Customize Print Format](/files/customize-print-format.gif)

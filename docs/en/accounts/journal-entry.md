@@ -16,7 +16,7 @@ Journal Entries can be used for entering expenses, opening entries, contra entri
 
 
 > 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the way cancellation of accounting entries works in ERPNext. [Learn more here](/docs/v13/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+> Note: From version-13 onwards we have introduced immutable ledger which changes the way cancellation of accounting entries works in ERPNext. [Learn more here](/docs/en/accounts/articles/immutable-ledger-in-erpnext).
 > 
 > 
 > 
@@ -37,10 +37,10 @@ To access the Journal Entry list, go to:
 
 
 1. Go to the Journal Entry list, click on New.
-2. The default Entry Type will be 'Journal Entry'. This is a general purpose entry type. Visit [section 3](/docs/v13/user/manual/en/accounts/journal-entry#3-journal-entry-types) to know more about entry types.
+2. The default Entry Type will be 'Journal Entry'. This is a general purpose entry type. Visit [section 3](/docs/en/accounts/journal-entry#3-journal-entry-types) to know more about entry types.
 3. You can change the Posting Date.
 4. Expand the table, select an Account from which amount is debited.
-5. The above details can be added from a [Journal Entry Template](/docs/v13/user/manual/en/accounts/journal-entry-template) too with the 'From Template' field.
+5. The above details can be added from a [Journal Entry Template](/docs/en/accounts/journal-entry-template) too with the 'From Template' field.
 6. Select the Party Type and Party if it's a Debtor entry.
 7. Add a row where the amount will be credited.
 8. Note that, in the end, total debit and credit amounts should add up to be the same.
@@ -50,7 +50,7 @@ To access the Journal Entry list, go to:
 ![Journal Entry](/files/journal-entry.png)
 
 
-**Finance Book**: You can post this entry to a specific [Finance Book](/docs/v13/user/manual/en/accounts/finance-book). On leaving this field blank, this Journal Entry will show up in all Finance Books. This field will only be visible if 'Enable Finance Books' under the Fixed Asset Defaults section of the Company master is checked.
+**Finance Book**: You can post this entry to a specific [Finance Book](/docs/en/accounts/finance-book). On leaving this field blank, this Journal Entry will show up in all Finance Books. This field will only be visible if 'Enable Finance Books' under the Fixed Asset Defaults section of the Company master is checked.
 
 
 ### 1.1 Quick Entry
@@ -68,8 +68,8 @@ When creating a Journal Entry, a **Quick Entry** button can be seen on the top r
 ### 2.1 Accounting Entries
 
 
-1. **Accounting Dimensions**: A Project or Cost Center can be linked here to track the costing separately. To know more, [visit this page](/docs/v13/user/manual/en/accounts/accounting-dimensions). ![Accounting Dimension](/files/journal-entry-accounting-dimension.png)
-2. **Bank Account No**: If you've added a [Bank Account](/docs/v13/user/manual/en/accounts/bank-account), the number associated with that bank account will be fetched.
+1. **Accounting Dimensions**: A Project or Cost Center can be linked here to track the costing separately. To know more, [visit this page](/docs/en/accounts/accounting-dimensions). ![Accounting Dimension](/files/journal-entry-accounting-dimension.png)
+2. **Bank Account No**: If you've added a [Bank Account](/docs/en/accounts/bank-account), the number associated with that bank account will be fetched.
 3. **Reference Type**: If this Accounting Entry is associated with another transaction, it can be referenced here. Select the Reference Type and select the specific document. For example, if you're creating a Journal Entry against a specific Sales Invoice. Link this Journal Entry to the invoice. The “outstanding” amount of that invoice will be affected.
 4. ![Reference](/files/journal-entry-reference.png)
 
@@ -77,19 +77,19 @@ When creating a Journal Entry, a **Quick Entry** button can be seen on the top r
 Following are the documents that can be selected in the Journal Entry under Reference Type:
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 3. Journal Entry
-4. [Sales Order](/docs/v13/user/manual/en/selling/sales-order)
-5. [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
-6. [Expense Claim](/docs/v13/user/manual/en/human-resources/expense-claim)
-7. [Asset](/docs/v13/user/manual/en/asset/asset)
-8. [Loan](/docs/v13/user/manual/en/loan-management/loan)
-9. [Payroll Entry](/docs/v13/user/manual/en/human-resources/payroll-entry)
-10. [Employee Advance](/docs/v13/user/manual/en/human-resources/employee-advance)
-11. [Exchange Rate Revaluation](/docs/v13/user/manual/en/accounts/exchange-rate-revaluation)
-12. [Invoice Discounting](/docs/v13/user/manual/en/accounts/invoice_discounting)
-13. **Is Advance**: If this is an advance payment by a Customer, set this option to 'Yes'. This is useful when you have linked a 'Reference Type' form to this Journal Entry. Selecting “Yes” will link this Journal Entry to the transaction selected in the 'Reference Name' field. To know more, visit the [Advance Payment Entry](/docs/v13/user/manual/en/accounts/advance-payment-entry) page.
+4. [Sales Order](/docs/en/selling/sales-order)
+5. [Purchase Order](/docs/en/buying/purchase-order)
+6. [Expense Claim](/docs/en/human-resources/expense-claim)
+7. [Asset](/docs/en/asset/asset)
+8. [Loan](/docs/en/loan-management/loan)
+9. [Payroll Entry](/docs/en/human-resources/payroll-entry)
+10. [Employee Advance](/docs/en/human-resources/employee-advance)
+11. [Exchange Rate Revaluation](/docs/en/accounts/exchange-rate-revaluation)
+12. [Invoice Discounting](/docs/en/accounts/invoice_discounting)
+13. **Is Advance**: If this is an advance payment by a Customer, set this option to 'Yes'. This is useful when you have linked a 'Reference Type' form to this Journal Entry. Selecting “Yes” will link this Journal Entry to the transaction selected in the 'Reference Name' field. To know more, visit the [Advance Payment Entry](/docs/en/accounts/advance-payment-entry) page.
 14. **User Remark**: Any additional remarks about the entry can be added in this field.
 
 
@@ -150,7 +150,7 @@ In th Reference section, the following fields can be entered manually if the bil
 ### 2.5 Multi Currency entries
 
 
-If the accounts selected are in different currencies, tick the 'Multi Currency' checkbox. If this checkbox is not enabled, you will not be able to select any foreign currencies in the Journal Entry. This will show the different currency and fetch the 'Exchange Rate'. To know more, visit the [Multi Currency Accounting](/docs/v13/user/manual/en/accounts/multi-currency-accounting) page.
+If the accounts selected are in different currencies, tick the 'Multi Currency' checkbox. If this checkbox is not enabled, you will not be able to select any foreign currencies in the Journal Entry. This will show the different currency and fetch the 'Exchange Rate'. To know more, visit the [Multi Currency Accounting](/docs/en/accounts/multi-currency-accounting) page.
 
 
 ![Multi Currency](/files/multi-currency-journal-entry.png)
@@ -172,7 +172,7 @@ It will fetch and add the following details to the entry:
 5. Is Opening
 
 
-To learn more go to the [Journal Entry Template](/docs/v13/user/manual/en/accounts/journal-entry-template) page.
+To learn more go to the [Journal Entry Template](/docs/en/accounts/journal-entry-template) page.
 
 
 ### 2.7 Print Settings
@@ -187,7 +187,7 @@ To learn more go to the [Journal Entry Template](/docs/v13/user/manual/en/accoun
 #### Letterhead
 
 
-You can print your Journal Entry on your company's letterhead. Know more [here](/docs/v13/user/manual/en/setting-up/print/letter-head).
+You can print your Journal Entry on your company's letterhead. Know more [here](/docs/en/setting-up/print/letter-head).
 
 
 #### Print Headings
@@ -199,14 +199,14 @@ Journal Entries can also be titled differently for printing purposes. You can do
 Home > Settings > Printing > Print Heading
 
 
-Read [Print Headings](/docs/v13/user/manual/en/setting-up/print/print-headings) to know more.
+Read [Print Headings](/docs/en/setting-up/print/print-headings) to know more.
 
 
 ### 2.7 More Information
 
 
 1. **Mode of Payment**: Whether the payment was done using Wire Transfer, Bank Draft, Credit Card, Cheque, or Cash. New Modes of Payment can also be created. If a Bank Account is set in Mode of Payment, it will be fetched here when the Mode of Payment is selected.
-2. **Is Opening**: If the Journal Entry is of type 'Opening Entry' this field will be set to 'Yes'. To know more, visit the [Opening Balance](/docs/v13/user/manual/en/accounts/opening-balance) page.
+2. **Is Opening**: If the Journal Entry is of type 'Opening Entry' this field will be set to 'Yes'. To know more, visit the [Opening Balance](/docs/en/accounts/opening-balance) page.
 3. **From Template**: When a template is selected, the 'Accounting Entries' table will be emptied first before loading the accounts from the template. You can add more account entries after that.
 
 
@@ -248,13 +248,13 @@ For crediting employee salaries, 'Journal Entry' type is used. In this case,
 If a transaction occurs between a parent and child company, or sister companies, or two companies belonging to the same group, this option can be used to make an Inter Company Journal Entry.
 
 
-To know more visit the [Inter Company Journal Entry](/docs/v13/user/manual/en/accounts/inter-company-journal-entry) page.
+To know more visit the [Inter Company Journal Entry](/docs/en/accounts/inter-company-journal-entry) page.
 
 
 ### 3.3 Bank Entry
 
 
-Use this type when making or receiving a payment using a [Bank Account](/docs/v13/user/manual/en/accounts/bank-account). For example, paying for an entertainment charges etc using the Company's bank account.
+Use this type when making or receiving a payment using a [Bank Account](/docs/en/accounts/bank-account). For example, paying for an entertainment charges etc using the Company's bank account.
 
 
 ### 3.4 Cash Entry
@@ -285,7 +285,7 @@ You can also create a Debit Note directly from a Purchase Invoice.
 2. Credit: Purchase Return Account.
 
 
-To know more, [visit this page](/docs/v13/user/manual/en/accounts/debit-note).
+To know more, [visit this page](/docs/en/accounts/debit-note).
 
 
 ### 3.7 Credit Note
@@ -301,7 +301,7 @@ This is a document sent by a supplier to a customer when returning goods/items.
 2. Credit: Customer Account.
 
 
-To know more, [visit this page](/docs/v13/user/manual/en/accounts/credit-note).
+To know more, [visit this page](/docs/en/accounts/credit-note).
 
 
 
@@ -389,7 +389,7 @@ Depreciation is when you write off certain value of your assets as an expense. F
 2. Credit: Asset (the Account under which you had booked the asset to be depreciated).
 
 
-To know more, visit the [Asset Depreciation](/docs/v13/user/manual/en/asset/asset-depreciation) page.
+To know more, visit the [Asset Depreciation](/docs/en/asset/asset-depreciation) page.
 
 
 
@@ -403,17 +403,17 @@ To know more, visit the [Asset Depreciation](/docs/v13/user/manual/en/asset/asse
 ### 3.13 Exchange Rate Revaluation
 
 
-If your Chart of Accounts has accounts with multiple currencies, a Journal Entry of type 'Exchange Rate Revaluation' helps in dealing with this situation. This entry is intended to be created from an Exchange Rate Revaluation form. To know more [visit the Exchange Rate Revaluation page](/docs/v13/user/manual/en/accounts/exchange-rate-revaluation).
+If your Chart of Accounts has accounts with multiple currencies, a Journal Entry of type 'Exchange Rate Revaluation' helps in dealing with this situation. This entry is intended to be created from an Exchange Rate Revaluation form. To know more [visit the Exchange Rate Revaluation page](/docs/en/accounts/exchange-rate-revaluation).
 
 
 ### 4. Related Topics
 
 
-1. [Inter Company Journal Entry](/docs/v13/user/manual/en/accounts/inter-company-journal-entry)
-2. [Credit Note](/docs/v13/user/manual/en/accounts/credit-note)
-3. [Debit Note](/docs/v13/user/manual/en/accounts/debit-note)
-4. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-5. [Difference Entry Button](/docs/v13/user/manual/en/accounts/articles/difference-entry-button)
-6. [Finance Book](/docs/v13/user/manual/en/accounts/finance-book)
+1. [Inter Company Journal Entry](/docs/en/accounts/inter-company-journal-entry)
+2. [Credit Note](/docs/en/accounts/credit-note)
+3. [Debit Note](/docs/en/accounts/debit-note)
+4. [Sales Invoice](/docs/en/accounts/sales-invoice)
+5. [Difference Entry Button](/docs/en/accounts/articles/difference-entry-button)
+6. [Finance Book](/docs/en/accounts/finance-book)
 
 

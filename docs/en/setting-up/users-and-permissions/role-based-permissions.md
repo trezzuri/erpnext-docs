@@ -42,7 +42,7 @@ Examples of Document Types are Sales Invoice, Leave Application, Stock Entry, et
 * **Permission Levels:** In each document, you can group fields by "levels". Each group of fields is denoted by a unique number (0 to 9). A separate set of permission rules can be applied to each field group. By default, all fields are of level 0.
 
 
-Permission "Level" connects fields with level X to a permission rule with level X. To know more click [here](/docs/v13/user/manual/en/setting-up/articles/managing-perm-level).
+Permission "Level" connects fields with level X to a permission rule with level X. To know more click [here](/docs/en/setting-up/articles/managing-perm-level).
 * **Document Stages:** Permissions are applied on each stage of the document like Creation, Saving, Submission, Cancellation, and Amendment. A role can be permitted to Print, Email, Import or Export data, access Reports, or define User Permissions.
 * **User Permissions:** Using User Permissions in ERPNext a user can be restricted to access only specific Documents for that Document Type. Eg: Only one Territory from all Territories. User Permissions defined for other Document Types also get applied if they are related to the current Document Type through Link Fields.
 
@@ -55,7 +55,7 @@ To set User Permissions based on documents/fields go to:
 
 
 > 
-> Home > Users and Permissions > Permissions > [User Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/user-permissions)
+> Home > Users and Permissions > Permissions > [User Permissions](/docs/en/setting-up/users-and-permissions/user-permissions)
 > 
 > 
 >
@@ -104,14 +104,14 @@ HR User is given the right to Set User Permissions. A User with HR User role wou
 ![Let HR User delegate access to Leave Applications by checking 'Set User Permissions'. This will allow HR User to access User Permissions Manager for 'Leave Application'](/files/setting-up-permissions-hr-user-role.png)
 
 
-In case you have correctly assigned the roles but still you're getting errors when accessing documents, refer [this page](/docs/v13/user/manual/en/setting-up/articles/report-permission-error).
+In case you have correctly assigned the roles but still you're getting errors when accessing documents, refer [this page](/docs/en/setting-up/articles/report-permission-error).
 
 
 ### 3. Related Topics
 
 
-1. [Role Based Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
-2. [User Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/user-permissions)
-3. [Role Permission For Page And Report](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
+1. [Role Based Permissions](/docs/en/setting-up/users-and-permissions/role-based-permissions)
+2. [User Permissions](/docs/en/setting-up/users-and-permissions/user-permissions)
+3. [Role Permission For Page And Report](/docs/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
 
 

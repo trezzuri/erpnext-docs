@@ -1,17 +1,17 @@
-# Gerenciamento de permissão em nível de campo
+# Gerenciamento de permissões em nível de campo
 
 
-A restrição de um campo com base em Funções pode ser facilmente configurada usando o Perm Level, que é exigido pela maioria das organizações. Para definir um **Perm Level**, você pode acessar o respectivo formulário e personalizá-lo.
+A restrição de um campo com base em funções pode ser facilmente configurada usando o nível de permissão, que é exigido pela maioria das organizações. Para definir um **Nível de Perm**, você pode acessar o respectivo formulário e personalizá-lo.
 
 
-Vamos considerar um cenário em que a organização não deseja que seu funcionário (usuário de contas) edite a taxa do item ao criar uma **fatura** de **vendas**. Para fazer isso, podemos simplesmente tornar o campo **Item Rate** um *read-only*.
+Vamos considerar um cenário em que a organização não deseja que seu Funcionário (Usuário de contas) edite a Taxa do item ao criar uma **Venda** **Fatura**. Para fazer isso, podemos simplesmente tornar o campo **Taxa do item** um *somente leitura*.
 
 
   
 
 
 
-1. Para conseguir isso, vá para **Customize Form**, selecione DocType como **Sales Invoice** **Item**, role até o campo **Item Rate** e expanda-o.
+1. Para conseguir isso, vá para **Personalizar formulário**, selecione DocType como **Fatura de vendas** **Item**, role até o campo **Taxa de item** e expanda-o.
 
 
 ![](/files/6eFVMRc.gif)
@@ -21,7 +21,7 @@ Vamos considerar um cenário em que a organização não deseja que seu funcion�
 
 
 
-2. Pesquise o **Perm Level**, digite o número (0, 1, 2, 3, etc) e *Salve*.
+2. Procure o **Perm Level**, digite o número (0, 1, 2, 3, etc) e *Salve*.
 
 
 ![](/files/6VNnxII.png)
@@ -31,7 +31,7 @@ Vamos considerar um cenário em que a organização não deseja que seu funcion�
 
 
 
-3. Uma vez salvo, clique em **Add a New Rule** no Role Permission Manager e selecione o Document Type e o Role, no nosso caso, *Accounts* *User*, defina o Perm Level como 2 e conceda o Employee Read acesso.
+3. Uma vez salvo, clique em **Adicionar uma nova regra** no Gerenciador de Permissões de Função e selecione o Tipo de Documento e a Função, no nosso caso, *Contas* *Usuário*, defina o Perm Level como 2 e conceda o acesso Employee Read.
 
 
 ![](/files/jACnHrX.png)
@@ -51,7 +51,7 @@ Vamos considerar um cenário em que a organização não deseja que seu funcion�
  
 
 
-4. Agora, como você pode ver na Nota Fiscal de Venda, o usuário pode ler apenas o campo Taxa do item que será buscado automaticamente na Tabela de preços.
+4. Agora, como você pode ver na Nota Fiscal, o usuário pode apenas ler o campo Taxa do item que será buscado automaticamente na Lista de preços.
 
 
 ![](/files/86CqBf1.png)
@@ -59,4 +59,5 @@ Vamos considerar um cenário em que a organização não deseja que seu funcion�
 
   
 
-Para saber mais sobre Perm Level, clique [aqui](https://erpnext.com/docs/user/manual/en/setting-up/articles/managing-perm-level/) e para qualquer assistência adicional, clique [aqui ](https://discuss.erpnext.com/).
+Para saber mais sobre Perm Level, clique [aqui](https://erpnext.com/docs/user/manual/en/setting-up/articles/managing-perm-level/) e para qualquer assistência adicional, clique [aqui](https://discuss.erpnext.com/).
+

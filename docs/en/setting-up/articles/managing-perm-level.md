@@ -8,7 +8,7 @@ Perm Level is way of reducing the amount information visible or changeable in a 
 In each document, you can group fields by "levels". Each group of fields or field group is denoted by a unique number (0, 1, 2, 3 etc.). A separate set of permission rules can be applied to each field group. By default all fields are of level 0.
 
 
-Perm Level (Abbreviated form of Permission Level) for a field can be defined in the [Customize Form](/docs/v13/user/manual/en/customize-erpnext/customize-form.html).
+Perm Level (Abbreviated form of Permission Level) for a field can be defined in the [Customize Form](/docs/en/customize-erpnext/customize-form.html).
 
 
 ![Perm Level Field](/files/perm-level-1.gif)

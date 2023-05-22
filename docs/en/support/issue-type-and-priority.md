@@ -31,7 +31,7 @@ To create an Issue Type, click on New and enter a name for the type. A descripti
 **Issue Priority indicates the urgency of solving an Issue**
 
 
-User can create priorities like "Low", "Medium", "High", "Critical", etc. Issue Priority will be used while creating the [Service Level Agreement](/docs/v13/user/manual/en/support/service-level-agreement).
+User can create priorities like "Low", "Medium", "High", "Critical", etc. Issue Priority will be used while creating the [Service Level Agreement](/docs/en/support/service-level-agreement).
 
 
 To access the Issue Priority list, go to:
@@ -60,7 +60,7 @@ To create an Issue Priority, click on New and enter a name for the type. A descr
 ### Related Topics
 
 
-1. [Issue](/docs/v13/user/manual/en/support/issue)
-2. [Service Level Agreement](/docs/v13/user/manual/en/support/service-level-agreement)
+1. [Issue](/docs/en/support/issue)
+2. [Service Level Agreement](/docs/en/support/service-level-agreement)
 
 

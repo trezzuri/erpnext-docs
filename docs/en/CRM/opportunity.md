@@ -61,7 +61,7 @@ It is important to reach out to opportunities from time to time and build the re
 > 
 
 
-You can define [Assignment Rules](/docs/v13/user/manual/en/automation/assignment-rule) to automatically assign the opportunities to sales executives.
+You can define [Assignment Rules](/docs/en/automation/assignment-rule) to automatically assign the opportunities to sales executives.
 
 
 ![Opportunity Assignment](/files/opportunity-assignment-rule.png)
@@ -73,7 +73,7 @@ You can define [Assignment Rules](/docs/v13/user/manual/en/automation/assignment
 If you do not receive a response from an opportunity for a certain number of days, you may want that opportunity to be closed automatically.
 
 
-You can set the number of days in [Selling Settings](/docs/v13/user/manual/en/selling/selling-settings).
+You can set the number of days in [Selling Settings](/docs/en/selling/selling-settings).
 
 
 ![Auto Close Opportunities](/files/auto-close-opportunities.png)
@@ -82,7 +82,7 @@ You can set the number of days in [Selling Settings](/docs/v13/user/manual/en/se
 ### 2.4 Create a Quotation
 
 
-You can create a [Quotation](/docs/v13/user/manual/en/selling/quotation) from the **Make** dropdown. Relevant field values will be copied over.
+You can create a [Quotation](/docs/en/selling/quotation) from the **Make** dropdown. Relevant field values will be copied over.
 
 
 ![Create Quotation From Opportunity](/files/create-quotation-from-opportunity.png)
@@ -91,7 +91,7 @@ You can create a [Quotation](/docs/v13/user/manual/en/selling/quotation) from th
 ### 2.5 Create a Supplier Quotation
 
 
-You may need to get a quotation from your supplier against the customer requirement and based on that, prepare the quotation for your customer. With ERPNext, you can make a [Supplier Quotation](/docs/v13/user/manual/en/buying/supplier-quotation) from the opportunity itself.
+You may need to get a quotation from your supplier against the customer requirement and based on that, prepare the quotation for your customer. With ERPNext, you can make a [Supplier Quotation](/docs/en/buying/supplier-quotation) from the opportunity itself.
 
 
 
@@ -120,16 +120,16 @@ When an opportunity is lost, you can capture the reasons, competitors and detail
 When you send the first reply(email) to an Opportunity, it calculates Mins to First Response and is displayed in a field.
 
 
-A report is generated called 'Minutes to First Response for Opportunity'. Read [CRM Reports](/docs/v13/user/manual/en/CRM/crm_reports) for more details.
+A report is generated called 'Minutes to First Response for Opportunity'. Read [CRM Reports](/docs/en/CRM/crm_reports) for more details.
 
 
 ### 3. Related Topics
 
 
-1. [Quotation](/docs/v13/user/manual/en/selling/quotation.html)
-2. [Customer](/docs/v13/user/manual/en/CRM/customer)
-3. [Lead](/docs/v13/user/manual/en/CRM/lead)
-4. [Supplier Quotation](/docs/v13/user/manual/en/buying/supplier-quotation)
-5. [Difference between Lead, Contact, and Customer](/docs/v13/user/manual/en/CRM/articles/difference_between_lead_contact_and_customer)
+1. [Quotation](/docs/en/selling/quotation.html)
+2. [Customer](/docs/en/CRM/customer)
+3. [Lead](/docs/en/CRM/lead)
+4. [Supplier Quotation](/docs/en/buying/supplier-quotation)
+5. [Difference between Lead, Contact, and Customer](/docs/en/CRM/articles/difference_between_lead_contact_and_customer)
 
 

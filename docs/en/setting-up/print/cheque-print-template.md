@@ -78,7 +78,7 @@ New print format generated for the cheque will be visible in the Payment Entry f
 ### 2. Related Topics
 
 
-1. [Address Template](/docs/v13/user/manual/en/setting-up/print/address-template)
-2. [Terms and Conditions Template](/docs/v13/user/manual/en/setting-up/print/terms-and-conditions)
+1. [Address Template](/docs/en/setting-up/print/address-template)
+2. [Terms and Conditions Template](/docs/en/setting-up/print/terms-and-conditions)
 
 

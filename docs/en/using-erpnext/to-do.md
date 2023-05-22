@@ -11,7 +11,7 @@ ToDo is a list of activities that is to be done by a particular individual.
 ![ToDo](/files/using-to-do-1.png)
 
 
-A ToDo also gets auto-created when any other Document is assigned to you. Checkout [ToDo Auto Creation](/docs/v13/user/manual/en/using-erpnext/articles/todo-auto-creation)
+A ToDo also gets auto-created when any other Document is assigned to you. Checkout [ToDo Auto Creation](/docs/en/using-erpnext/articles/todo-auto-creation)
 
 
 To access ToDo, go to

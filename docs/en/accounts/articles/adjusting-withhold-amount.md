@@ -8,7 +8,7 @@ Let's assume that outstanding against a Sales Invoice is 20,000. When client mak
 ## Step 1: Setup Withhold Account
 
 
-[Create a Withhold Account](/docs/v13/user/manual/en/accounts/chart-of-accounts#1-how-to-createedit-accounts) in your Chart of Accounts.
+[Create a Withhold Account](/docs/en/accounts/chart-of-accounts#1-how-to-createedit-accounts) in your Chart of Accounts.
 
 
 ## Step 2: Payment Entry

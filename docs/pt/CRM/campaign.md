@@ -5,45 +5,45 @@
 produto ou serviço.**
 
 
-Isso é feito em um segmento de mercado de uma determinada área geográfica para atingir objetivos específicos.
+Isso é feito em um segmento de mercado de uma área geográfica específica para atingir objetivos específicos.
 
 
 Para acessar a Campanha, acesse:
 
 
 
->
-> Home > CRM > Campanha > Campanha
->
->
->
+> 
+> Página inicial > CRM > Campanha > Campanha
+> 
+> 
+> 
 
 
-![Campanha](/files/campaign.png)
+![Campaign](/files/campaign.png)
 
 
 ## 1. Como criar uma campanha
 
 
 1. Vá para a lista de Campanhas, clique em novo.
-2. Insira um nome para a campanha.
-3. Insira uma descrição para descrever o assunto da campanha.
-4. Salve.
+2. Digite um nome para a campanha.
+3. Insira uma descrição para descrever sobre o que é a campanha.
+4. Salvar.
 
 
-## 2. Características
+## 2. Recursos
 
 
 ### 2.1 Campanha de tags em lead, oportunidade e cotação
 
 
-Quando uma campanha de marketing gera um lead ou uma oportunidade, você pode marcar a campanha ao criar o [Lead](/docs/v13/user/manual/en/CRM/lead) ou [Opportunity](/docs/v13/user/ manual/en/CRM/oportunidade). Você também pode marcar a campanha em [Cotação](/docs/v13/user/manual/en/selling/quotation).
+Quando uma campanha de marketing gera um lead ou uma oportunidade, você pode marcar a campanha ao criar o [Lead](/docs/pt/CRM/lead) ou < a href="/docs/pt/CRM/opportunity">Oportunidade. Você também pode marcar a campanha em [Cotação](/docs/pt/selling/quotation).
 
 
-Isso ajuda a avaliar a eficácia de uma campanha de marketing, calculando o retorno do investimento.
+Isso ajuda a avaliar a eficácia de uma campanha de marketing ao calcular o retorno do investimento.
 
 
-![Campanha na liderança](/files/campaign-in-lead.png)
+![Campaign in Lead](/files/campaign-in-lead.png)
 
 
 ### 2.2 Visualizar leads gerados por uma campanha
@@ -52,7 +52,7 @@ Isso ajuda a avaliar a eficácia de uma campanha de marketing, calculando o reto
 1. Clique no botão 'Visualizar leads' na campanha.
 
 
-![Campanha - Visualizar leads](/files/campaign-view-leads.png)
+![Campaign - View Leads](/files/campaign-view-leads.png)
 2. Você verá uma lista filtrada de leads gerados na campanha.
 3. Você também pode criar novos leads para a campanha clicando em 'Novo'
 
@@ -63,7 +63,7 @@ Isso ajuda a avaliar a eficácia de uma campanha de marketing, calculando o reto
 ### 2.3 Configurar agendamentos de e-mail para campanhas de e-mail
 
 
-Se você deseja realizar uma campanha usando e-mails para seus leads ou contatos, [Email Campaign](/docs/v13/user/manual/en/CRM/email-campaign) serve a esse propósito.
+Se você deseja realizar uma campanha usando e-mails para seus leads ou contatos, [Campanha por e-mail](/docs/pt/CRM/email-campaign) serve propósito.
 
 
 Você terá que configurar um cronograma para a campanha. Clique em 'Adicionar linha' para adicionar uma entrada à programação da campanha.
@@ -84,19 +84,20 @@ Você terá que configurar um cronograma para a campanha. Clique em 'Adicionar l
 ### 2.4 Painel
 
 
-O painel da campanha mostra todas as campanhas de e-mail e postagens de mídia social vinculadas à campanha. Você também pode criar uma nova campanha de e-mail e postagem de mídia social a partir daqui.
+O painel da campanha mostra todas as campanhas de e-mail e postagem de mídia social vinculadas à campanha. Você também pode criar uma nova campanha de e-mail e postagem de mídia social aqui.
 
 
-![Painel de campanha](/files/campaign-dashboard.png)
+![Campaign Dashboard](/files/campaign-dashboard.png)
 
 
 ## 3. Tópicos Relacionados
 
 
-1. [Lead](/docs/v13/user/manual/en/CRM/lead)
-2. [Oportunidade](/docs/v13/user/manual/en/CRM/oportunidade)
-3. [Cotação](/docs/v13/user/manual/en/selling/quotation)
-4. [Campanha por e-mail](/docs/v13/user/manual/en/CRM/email-campaign)
+1. [Lead](/docs/pt/CRM/lead)
+2. [Oportunidade](/docs/pt/CRM/opportunity)
+3. [Cotação](/docs/pt/selling/quotation)
+4. [Campanha por e-mail](/docs/pt/CRM/email-campaign)
 
 
-Próximo: [Campanha por e-mail](/docs/v13/user/manual/en/CRM/email-campaign)
+A seguir: [Campanha por e-mail](/docs/pt/CRM/email-campaign)
+

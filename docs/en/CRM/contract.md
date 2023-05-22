@@ -130,12 +130,12 @@ If the Contract can be linked to a transaction in ERPNext. Select the transactio
 ### 3. Related Topics
 
 
-1. [Quotation](/docs/v13/user/manual/en/selling/quotation)
-2. [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
-3. [Sales Order](/docs/v13/user/manual/en/selling/sales-order)
-4. [Purchase Receipt](/docs/v13/user/manual/en/stock/purchase-receipt)
-5. [Delivery Note](/docs/v13/user/manual/en/stock/delivery-note)
-6. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-7. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Quotation](/docs/en/selling/quotation)
+2. [Purchase Order](/docs/en/buying/purchase-order)
+3. [Sales Order](/docs/en/selling/sales-order)
+4. [Purchase Receipt](/docs/en/stock/purchase-receipt)
+5. [Delivery Note](/docs/en/stock/delivery-note)
+6. [Sales Invoice](/docs/en/accounts/sales-invoice)
+7. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
 
 

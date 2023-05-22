@@ -1,4 +1,4 @@
-# Área de Trabalho
+# Desktop
 
 
 **No momento em que um usuário fizer login no sistema, ele poderá ver uma tela inicial na qual todos os módulos e domínios serão listados na forma de cartões.**
@@ -10,19 +10,19 @@ Seus cartões são um substituto para os antigos ícones do Módulo que estavam 
 ![Nova área de trabalho](/files/desktop.png)
 
 
-Estes cartões podem ser classificados em quatro categorias, a saber:
+Esses cartões podem ser classificados em quatro categorias, a saber:
 
 
 * **Módulos**: São todos os módulos agnósticos de domínio disponíveis no ERPNext que são comuns a todos os tipos de negócios. Módulos como Recursos Humanos, CRM, Compras, Vendas, etc. são colocados nesta categoria.
-* **Domínios**: Aqui você encontra todos os módulos específicos do domínio, como Educação e Manufatura. Você pode aprender mais sobre todos os módulos específicos do setor [aqui](/docs/v13/user/manual/en#3-industry-specific-modules).
-* **Places**: Places é onde você pode encontrar recursos que não são específicos do setor e não são necessários nas operações diárias de sua empresa. Recursos como Site, Painéis e Marketplace podem ser encontrados aqui.
-* **Administração**: Aqui você encontra os módulos relacionados à configuração e administração do seu ERPNext.
+* **Domínios**: é aqui que você pode encontrar todos os módulos específicos do domínio, como Educação e Manufatura. Você pode saber mais sobre todos os módulos específicos do setor [aqui](/docs/v13/user/manual/en#3-industry-specific-modules).
+* **Places**: Places é onde você pode encontrar recursos que não são específicos do setor e não são necessários nas operações diárias de sua empresa. Recursos como site, painéis e mercado podem ser encontrados aqui.
+* **Administração**: Aqui você encontra módulos relacionados à configuração e administração do seu ERPNext.
 
 
 Esses cartões permitem uma melhor navegação com itens de atalho no menu suspenso. Você pode personalizar este menu suspenso para adicionar ou remover links para vários DocType desse módulo.
 
 
-![Desktop-dropdown](/files/desktop-dropdown.png)
+![Desktop Dropdown](/files/desktop-dropdown.png)
 
 
 Você pode reordenar, bem como mostrar ou ocultar esses cartões de módulo.
@@ -34,7 +34,7 @@ Você pode reordenar, bem como mostrar ou ocultar esses cartões de módulo.
 ## Página do módulo
 
 
-Clicar em qualquer cartão de módulo o levará à página do módulo. Aqui o usuário pode navegar por todos os tipos de documento, relatórios e configurações associadas a um determinado módulo.
+Clicar em qualquer cartão de módulo o levará à página do módulo. Aqui o usuário pode navegar por todos os doctypes, relatórios e configurações associadas a um determinado módulo.
 
 
 Por exemplo, aqui está a aparência da página do módulo Contabilidade.
@@ -46,7 +46,7 @@ Por exemplo, aqui está a aparência da página do módulo Contabilidade.
 ### Navegando na página
 
 
-Alguns links desses módulos podem estar marcados em cinza, clicar nesses links não abrirá nenhuma nova página. Eles são marcados assim porque há um documento dependente que precisa ser criado primeiro. Por exemplo, você precisará criar uma Nota Fiscal de Venda antes de acessar o registro de vendas. Passar o mouse sobre qualquer um desses links mostrará um pop-up orientando o usuário para o documento dependente.
+Alguns links desses módulos podem estar marcados em cinza, clicar nesses links não abrirá nenhuma nova página. Eles são marcados assim porque há um documento dependente que precisa ser criado primeiro. Por exemplo, você precisará criar uma Nota Fiscal de Venda antes de acessar o registro de vendas. Passar o mouse sobre qualquer um desses links exibirá um pop-up orientando o usuário para o documento dependente.
 
 
 ![Link silenciado na página do módulo](/files/module-link-hover.png)

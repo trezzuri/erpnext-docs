@@ -1,15 +1,15 @@
-# script do servidor
+# Script do servidor
 
 
 **Um Server Script permite definir dinamicamente um Python Script que é executado no servidor em um evento de documento ou API**
 
 
 
->
+> 
 > Introduzido na versão 12
->
->
->
+> 
+> 
+> 
 
 
 ## 1. Como criar um script de servidor
@@ -19,17 +19,17 @@ Para criar um script de servidor
 
 
 1. Se o seu site estiver hospedado em [erpnext.com](https://erpnext.com/), entre em contato com o suporte para ativar o Server Script.
-No caso de contas auto-hospedadas, defina `server_script_enabled` como true em site\_config.json do seu site.
+No caso de contas auto-hospedadas, defina `server_script_enabled` como true em site\_config.json de seu site.
 2. Para adicionar/editar script de servidor, certifique-se de que sua função seja Gerente do sistema.
 3. Crie um novo script de servidor por meio de "Novo script de servidor" na barra de ferramentas.
-4. Selecione o tipo de script do servidor: Document Event, API, Permission Query.
+4. Selecione o tipo de script de servidor: evento de documento, API, consulta de permissão.
 5. Defina o tipo de documento e o nome do evento, ou nome do método, script e salve.
 
 
-## 2. Características
+## 2. Recursos
 
 
-### 2.1 Ativando o Script do Servidor
+### 2.1 Ativando script de servidor
 
 
 O script do servidor deve ser ativado via site\_config.json
@@ -37,27 +37,27 @@ O script do servidor deve ser ativado via site\_config.json
 
 
 ```
-banco --site site1.local set-config server_script_enabled true
+bench --site site1.local set-config server_script_enabled true
 
 ```
 
-### 2.2 Documentar Eventos
+### 2.2 Eventos do documento
 
 
-Para scripts que devem ser chamados por meio de eventos de documento, você deve definir o tipo de documento de referência e o nome do evento para definir o acionador
+Para scripts que serão chamados por meio de eventos de documento, você deve definir o tipo de documento de referência e o nome do evento para definir o gatilho
 
 
 * Antes de inserir
-* Antes de Salvar
-* Depois de Salvar
+* Antes de salvar
+* Depois de salvar
 * Antes de enviar
 * Depois de enviar
-* Antes de Cancelar
+* Antes de cancelar
 * Após Cancelar
-* Antes de Excluir
+* Antes de excluir
 * Após Excluir
-* Antes de Salvar (Documento Enviado)
-* Após Salvar (Documento Enviado)
+* Antes de salvar (documento enviado)
+* Após salvar (documento enviado)
 
 
 ### 2.3 Scripts de API
@@ -66,13 +66,13 @@ Para scripts que devem ser chamados por meio de eventos de documento, você deve
 Você pode criar uma nova API que pode ser acessada via `api/method/[methodname]` pelo tipo de script "API"
 
 
-Se você deseja que o usuário convidado acesse a API, você deve marcar "Permitir convidado"
+Se você deseja que o usuário convidado acesse a API, marque "Permitir convidado"
 
 
 A resposta pode ser definida por meio do objeto `frappe.response["message"]`
 
 
-### 2.4 Consulta de Permissão
+### 2.4 Consulta de permissão
 
 
 Esse tipo de script permite adicionar condições personalizadas na cláusula where para uma consulta de lista DocType.
@@ -80,12 +80,12 @@ Esse tipo de script permite adicionar condições personalizadas na cláusula wh
 
 Por exemplo, digamos que você queira mostrar a lista de registros ToDo apenas para um usuário
 se eles atribuíram o registro ou se foi atribuído a eles. Isso pode ser implementado por
-o seguinte roteiro:
+o seguinte script:
 
 
 
 ```
-condições = 'dono = {usuário} ou atribuído_by = {usuário}'.format(usuário=frappe.db.escape(usuário))
+condições = 'proprietário = {usuário} ou atribuído_por = {usuário}'.format(usuário=frappe.db.escape(usuário))
 
 ```
 
@@ -105,7 +105,7 @@ os resultados mostrados nos campos Link.
 ### 2.5 Segurança
 
 
-Frappe Framework usa a biblioteca RestrictedPython para restringir o acesso aos métodos disponíveis para scripts de servidor. Apenas os métodos seguros listados abaixo estão disponíveis em scripts de servidor
+Frappe Framework usa a biblioteca RestrictedPython para restringir o acesso a métodos disponíveis para scripts de servidor. Apenas os métodos seguros listados abaixo estão disponíveis em scripts de servidor
 
 
 
@@ -183,12 +183,12 @@ frappe.cache.hget
 ### 3.1 Alterar o valor de uma propriedade antes da alteração
 
 
-Tipo de script: Antes de salvar
+Tipo de script: antes de salvar
 
 
 
 ```
-se "teste" em doc.description:
+if "test" in doc.description:
     doc.status = 'Fechado'
 
 ```
@@ -206,7 +206,7 @@ se "validar" em doc.description:
 
 ```
 
-### 3.3. Criação Automática de Tarefas
+### 3.3. Criação automática de tarefas
 
 
 Tipo de script: "Depois de salvar"
@@ -214,7 +214,7 @@ Tipo de script: "Depois de salvar"
 
 
 ```
-se doc.allocated_to:
+if doc.allocated_to:
     frappe.get_doc(dict(
         doctype = 'ToDo'
         proprietário = doc.allocated_to,
@@ -232,8 +232,9 @@ se doc.allocated_to:
 
 
 ```
-frappe.response['mensagem'] = "olá"
+frappe.response['message'] = "olá"
 
 ```
 
 Solicitação: `/api/method/test_method`
+

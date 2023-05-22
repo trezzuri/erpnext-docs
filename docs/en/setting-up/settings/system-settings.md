@@ -19,7 +19,7 @@ To open System Settings, go to:
 > 
 
 
-![System Settings](/private/files/system-settings.png)
+![System Settings](/files/system-settings.png)
 
 
 ## 1. Sections in System Settings
@@ -61,7 +61,7 @@ Keeping regular backups of your system is a good practice in case of any mishap 
 ### 1.4 Permissions
 
 
-Using permissions, you can limit user access to document types. The limitation can be based on fields like Company, Territory, Branch, etc. To know more about User Permissions, [click here](/docs/v13/user/manual/en/setting-up/users-and-permissions/user-permissions).
+Using permissions, you can limit user access to document types. The limitation can be based on fields like Company, Territory, Branch, etc. To know more about User Permissions, [click here](/docs/en/setting-up/users-and-permissions/user-permissions).
 
 
 If Apply Strict User Permissions checkbox is ticked and User Permission is defined for a DocType for a User, then all the documents where the value of the link is **blank**, will not be shown to that User.
@@ -92,7 +92,7 @@ If the Apply Strict User Permissions checkbox is ticked, documents, where Territ
 * **Document Share Key Expiry (in Days)**: Number of days after which "document web link" sent via email will be expired.
 * **Allow only one session per user**: If you want to use a single set of credentials for multiple users, tick this checkbox. The number of simultaneous sessions can be changed under User master. Mobile phone sessions are not counted here.
 * **Allow Login using Mobile Number**: By checking the 'Allow Login using Mobile Number' checkbox, you can log in to ERPNext using a valid mobile number set in your User account.
-* **Allow Login using User Name**: Allow user login via their username set in the [User master](/docs/v13/user/manual/en/setting-up/users-and-permissions/adding-users).
+* **Allow Login using User Name**: Allow user login via their username set in the [User master](/docs/en/setting-up/users-and-permissions/adding-users).
 * **Show Full Error and Allow Reporting of Issues to the Developer**: This will display the whole error on the screen and allow reporting issues. If you have technical knowledge in this area, you can get a better idea of the error by reading the whole message.
 * **Remove EXIF tags from uploaded images**: Metadata stored in image files in the EXIF file format can be exploited to get sensitive user information. This option lets users remove that data from the images before uploading.
 * **Allow Older Web View Links (Insecure)**: The configuration that allows web links with no expiry. 
@@ -145,7 +145,7 @@ On ticking 'Enable Two Factor Auth', the following two options will be seen.
 
 * **Email Footer Address**: Organization name, address, and other details can be added here. This will be set as default in all outgoing mails.
 * **Disable Standard Email Footer**: If ticked, the standard email footer will be disabled for outgoing emails.
-* **Hide footer in auto-email reports**: If ticked, footers will be hidden in [Auto Email reports](/docs/v13/user/manual/en/setting-up/email/auto-email-reports).
+* **Hide footer in auto-email reports**: If ticked, footers will be hidden in [Auto Email reports](/docs/en/setting-up/email/auto-email-reports).
 * **Send document web view link in the email**: ERPNext has a portal view available from where parties like Customers and Suppliers can sign up and view their order history. When you email a transaction to your party, you can also send a web link to view the same document on the portal of your ERPNext account. This option will enable this functionality.
 
 
@@ -167,8 +167,8 @@ On ticking 'Enable Two Factor Auth', the following two options will be seen.
 ### 2. Related Topics
 
 
-1. [Company Setup](/docs/v13/user/manual/en/setting-up/company-setup)
-2. [Global Defaults](/docs/v13/user/manual/en/setting-up/settings/global-defaults)
-3. [Show or Hide Modules](/docs/v13/user/manual/en/setting-up/settings/show-hide-modules)
+1. [Company Setup](/docs/en/setting-up/company-setup)
+2. [Global Defaults](/docs/en/setting-up/settings/global-defaults)
+3. [Show or Hide Modules](/docs/en/setting-up/settings/show-hide-modules)
 
 

@@ -17,7 +17,7 @@ In order to use Finance Books, you need to check **Enable Finance Books** under 
 Finance Book is **not** a mandatory setup. But if you choose to create multiple Finance Books, then you can make entries against a specific Finance Book by selecting that book in Journal Entry. If a Finance Book field is blank in a Journal Entry that means the entry will be available in all finance books.
 
 
-Many a times, for fixed asset depreciation, a Company may use different depreciation methods (Straight Line / Written Down Value / Double Declining Balance) for different finance books. You can set up different [depreciation schedules](/docs/v13/user/manual/en/asset/asset-depreciation) for each Finance Book. Then, automatic depreciations will booked against that Finance Book according to the schedule.
+Many a times, for fixed asset depreciation, a Company may use different depreciation methods (Straight Line / Written Down Value / Double Declining Balance) for different finance books. You can set up different [depreciation schedules](/docs/en/asset/asset-depreciation) for each Finance Book. Then, automatic depreciations will booked against that Finance Book according to the schedule.
 
 
 ![Finance Book](/files/finance-book.png)
@@ -26,7 +26,7 @@ Many a times, for fixed asset depreciation, a Company may use different deprecia
 #### Related Topics
 
 
-1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
-2. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
+1. [Cost Center](/docs/en/accounts/cost-center)
+2. [Budgeting](/docs/en/accounts/budgeting)
 
 

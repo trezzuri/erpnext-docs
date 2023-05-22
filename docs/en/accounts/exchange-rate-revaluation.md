@@ -51,7 +51,7 @@ Exchange Rate Revaluation feature is for dealing with the situation when you hav
 3. Go to **Accounting > Setup > Exchange Rate Revaluation > New**.
 4. Select the Company.
 5. Click the 'Get Entries' button. It'll fetch the accounts which have currency different from the 'Default Currency' set in the Company.
-6. This will fetch the new exchange rate automatically if not set in Currency Exchange DocType for that currency else it will fetch the 'Exchange Rate' set in the [Currency Exchange](/docs/v13/user/manual/en/accounts/currency-exchange) DocType.
+6. This will fetch the new exchange rate automatically if not set in Currency Exchange DocType for that currency else it will fetch the 'Exchange Rate' set in the [Currency Exchange](/docs/en/accounts/currency-exchange) DocType.
 ![Exchange Rate Revaluation](/files/exchange-rate-revaluation.png)
 7. On Submitting, **Create Journal Entry** button will appear.
 ![Journal Entry Option After Submission](/files/exchange-rate-revaluation-submit.png)
@@ -64,7 +64,7 @@ Exchange Rate Revaluation feature is for dealing with the situation when you hav
 ### 3. Related Topics
 
 
-1. [Inter Company Journal Entry](/docs/v13/user/manual/en/accounts/inter-company-journal-entry)
-2. [Inter Company Invoices](/docs/v13/user/manual/en/accounts/inter-company-invoices)
+1. [Inter Company Journal Entry](/docs/en/accounts/inter-company-journal-entry)
+2. [Inter Company Invoices](/docs/en/accounts/inter-company-invoices)
 
 

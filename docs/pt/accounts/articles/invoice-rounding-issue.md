@@ -20,4 +20,4 @@ Para fazer isso, digite **Moeda** na barra incrível (Ctrl/Cmd + G). No mestre d
 ![](/files/l5TqjSq.png)
   
 
-Aqui, certifique-se de que o arredondamento esteja definido corretamente. Por exemplo, o menor valor fracionário para INR deve ser 0,01 e não 0,05. Atualize esse valor e, em seguida, atualize a transação.
+Aqui, certifique-se de que o arredondamento esteja definido corretamente. Por exemplo, o menor valor fracionário para INR deve ser 0,01 e não 0,05. Atualize este valor e, em seguida, atualize a transação.

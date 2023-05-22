@@ -22,14 +22,14 @@ To access Email Accounts, go to:
 ## 1. Prerequisites
 
 
-Before creating an Email Account, you need an [Email Domain](/docs/v13/user/manual/en/setting-up/email/email-domain). However, you can skip creating an Email Domain if you're using one of the services listed [here](/docs/v13/user/manual/en/setting-up/email/email-inbox#2-create-an-email-domain).
+Before creating an Email Account, you need an [Email Domain](/docs/en/setting-up/email/email-domain). However, you can skip creating an Email Domain if you're using one of the services listed [here](/docs/en/setting-up/email/email-inbox#2-create-an-email-domain).
 
 
 ## 2. How to create an Email Account
 
 
 1. Go to the Email Account list, click on New.
-2. Enter the email address with the domain. [Domains](/docs/v13/user/manual/en/setting-up/email/email-domain) need to be created in order to create an email account. You don't need to create a domain if you're syncing an email from certain providers as listed [here](/docs/v13/user/manual/en/setting-up/email/email-inbox#2-create-an-email-domain).
+2. Enter the email address with the domain. [Domains](/docs/en/setting-up/email/email-domain) need to be created in order to create an email account. You don't need to create a domain if you're syncing an email from certain providers as listed [here](/docs/en/setting-up/email/email-inbox#2-create-an-email-domain).
 3. Enter the email account password.
 4. Save. If the credentials are correct, the email account will be synced.
 
@@ -91,7 +91,7 @@ The following options are available for incoming emails:
 This feature creates documents when an email is sent to a particular email account. For example, you can append [support@example.com](mailto:support@example.com) to the Issue DocType. On doing this, whenever an email is sent to [support@example.com](mailto:support@example.com), the system will create an Issue for it. Similarly, if you link [jobs@example.com](mailto:jobs@example.com), when emails are sent to [jobs@example.com](mailto:jobs@example.com), a Job Applicant document is created.
 
 
-Enable Automatic Linking in Documents will link emails to documents, to know more [click here](/docs/v13/user/manual/en/setting-up/email/linking-emails-to-document).
+Enable Automatic Linking in Documents will link emails to documents, to know more [click here](/docs/en/setting-up/email/linking-emails-to-document).
 
 
 ### 3.4 Outgoing Email Accounts
@@ -136,7 +136,7 @@ In ERPNext when you send an email to contact like a customer, the sender will be
 > 
 
 
-If you encounter errors when configuring an email account, refer to [this page](/docs/v13/user/manual/en/setting-up/articles/email-error).
+If you encounter errors when configuring an email account, refer to [this page](/docs/en/setting-up/articles/email-error).
 
 
 ## 5. Video
@@ -146,10 +146,10 @@ If you encounter errors when configuring an email account, refer to [this page](
 ### 6. Related Topics
 
 
-1. [Email Inbox](/docs/v13/user/manual/en/setting-up/email/email-inbox)
-2. [Email Digest](/docs/v13/user/manual/en/setting-up/email/email-digest)
-3. [Auto Email Reports](/docs/v13/user/manual/en/setting-up/email/auto-email-reports)
-4. [Sending Email](/docs/v13/user/manual/en/setting-up/email/sending-email)
-5. [Email Domain](/docs/v13/user/manual/en/setting-up/email/email-domain)
+1. [Email Inbox](/docs/en/setting-up/email/email-inbox)
+2. [Email Digest](/docs/en/setting-up/email/email-digest)
+3. [Auto Email Reports](/docs/en/setting-up/email/auto-email-reports)
+4. [Sending Email](/docs/en/setting-up/email/sending-email)
+5. [Email Domain](/docs/en/setting-up/email/email-domain)
 
 

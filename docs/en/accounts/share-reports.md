@@ -48,7 +48,7 @@ To access the Share Ledger report, go to:
 ### 3. Related Topics
 
 
-1. [Shareholder](/docs/v13/user/manual/en/accounts/shareholder)
-2. [Share Transfer](/docs/v13/user/manual/en/accounts/share-transfer)
+1. [Shareholder](/docs/en/accounts/shareholder)
+2. [Share Transfer](/docs/en/accounts/share-transfer)
 
 

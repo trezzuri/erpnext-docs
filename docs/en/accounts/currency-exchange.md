@@ -33,7 +33,7 @@ To access the Currency Exchange list, go to:
 ## 2. Related Topics
 
 
-1. [Exchange Rate Revaluation](/docs/v13/user/manual/en/accounts/exchange-rate-revaluation)
-2. [Multi Currency Accounting](/docs/v13/user/manual/en/accounts/multi-currency-accounting)
+1. [Exchange Rate Revaluation](/docs/en/accounts/exchange-rate-revaluation)
+2. [Multi Currency Accounting](/docs/en/accounts/multi-currency-accounting)
 
 

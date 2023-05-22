@@ -87,12 +87,12 @@ Check out a variety of [User Stories](https://erpnext.com/blog/customer-success-
 You can also checkout the following topics:
 
 
-1. [Do I Need an ERP?](/docs/v13/user/manual/en/introduction/do-i-need-an-erp)
-2. [Open Source](/docs/v13/user/manual/en/introduction/open-source)
-3. [Getting Started with ERPNext](/docs/v13/user/manual/en/introduction/getting-started-with-erpnext)
-4. [The Champion](/docs/v13/user/manual/en/introduction/the-champion)
-5. [Implementation Strategy](/docs/v13/user/manual/en/introduction/implementation-strategy)
-6. [Key Workflows](/docs/v13/user/manual/en/introduction/key-workflows)
-7. [Concepts and Terms](/docs/v13/user/manual/en/introduction/concepts-and-terms)
+1. [Do I Need an ERP?](/docs/en/introduction/do-i-need-an-erp)
+2. [Open Source](/docs/en/introduction/open-source)
+3. [Getting Started with ERPNext](/docs/en/introduction/getting-started-with-erpnext)
+4. [The Champion](/docs/en/introduction/the-champion)
+5. [Implementation Strategy](/docs/en/introduction/implementation-strategy)
+6. [Key Workflows](/docs/en/introduction/key-workflows)
+7. [Concepts and Terms](/docs/en/introduction/concepts-and-terms)
 
 

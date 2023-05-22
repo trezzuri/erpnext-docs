@@ -35,7 +35,7 @@ Example:
 ### Related Topics
 
 
-1. [Auto Email Reports](/docs/v13/user/manual/en/setting-up/email/auto-email-reports)
-2. [Sending Email](/docs/v13/user/manual/en/setting-up/email/sending-email)
+1. [Auto Email Reports](/docs/en/setting-up/email/auto-email-reports)
+2. [Sending Email](/docs/en/setting-up/email/sending-email)
 
 

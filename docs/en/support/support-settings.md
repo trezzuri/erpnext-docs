@@ -25,7 +25,7 @@ To access Support Settings, go to:
 ### 1.1 Track Service Level Agreement
 
 
-Enable this feature to start using and tracking [Service Level Agreement](/docs/v13/user/manual/en/support/service-level-agreement) in Issues.
+Enable this feature to start using and tracking [Service Level Agreement](/docs/en/support/service-level-agreement) in Issues.
 
 
 ### 1.2 Allow Resetting Service Level Agreement

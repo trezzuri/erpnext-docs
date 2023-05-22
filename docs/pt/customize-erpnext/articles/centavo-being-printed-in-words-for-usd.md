@@ -1,4 +1,4 @@
-# Imprimir "Centavo" em Word para USD
+# Imprima "Centavo" em Word para USD
 
 
 Para moedas não presentes na lista de moedas doctype:
@@ -20,3 +20,4 @@ Formato de impressão:
 
 
 ![](/files/QKgg11w.png)
+

@@ -20,7 +20,7 @@ Only User with System Manager's Role Assigned has permission to create new Fisca
 `Accounting > Accounting Masters > Fiscal Year`
 
 
-Read [Fiscal Year](/docs/v13/user/manual/en/accounts/fiscal-year) to learn more.
+Read [Fiscal Year](/docs/en/accounts/fiscal-year) to learn more.
 
 
 #### Set Fiscal Year as Default

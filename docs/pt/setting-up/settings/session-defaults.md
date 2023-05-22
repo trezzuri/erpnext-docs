@@ -1,4 +1,4 @@
-# Padrões de Sessão
+# Padrões da sessão
 
 
 **Padrões de sessão são valores padrão configuráveis ​​definidos durante as sessões do usuário.**
@@ -10,13 +10,13 @@ Considere um cenário em que você tenha 8 empresas configuradas em sua conta e 
 ## 1. Como criar padrões de sessão
 
 
-### 1.1 Definir as configurações padrão da sessão
+### 1.1 Defina as configurações padrão da sessão
 
 
-1. Vá para Configurações padrão da sessão. Lá você pode ver uma tabela para padrões de sessão.
+1. Vá para Configurações padrão da sessão. Lá você pode ver uma tabela de padrões de sessão.
 2. Clique em 'Adicionar linha'.
 3. Selecione o DocType para o qual você deseja definir os padrões de sessão.
-4. Salve.
+4. Salvar.
 
 
 ![Configurações de padrões de sessão](/files/session-defaults-settings.png)
@@ -25,14 +25,14 @@ Considere um cenário em que você tenha 8 empresas configuradas em sua conta e 
 ### 1.2 Configurar os valores padrão da sessão
 
 
-1. Clique no menu 'Configurações' na barra de ferramentas. Você encontrará uma opção 'Padrões de sessão' lá. Clique nisso.
+1. Clique no menu 'Configurações' na barra de ferramentas. Você encontrará uma opção 'Padrões de sessão' lá. Clique nele.
 
 
 ![Menu de padrões de sessão](/files/session-defaults-menu.png)
-2. Um prompt 'Padrões de Sessão' aparecerá. Defina os valores padrão para os respectivos campos e salve.
+2. Aparecerá um prompt 'Padrões de Sessão'. Defina os valores padrão para os respectivos campos e salve.
 
 
-![Prompt de padrões de sessão](/files/session-defaults-prompt.png)
+![Session Defaults Prompt](/files/session-defaults-prompt.png)
 
 
 Depois de salvar, os valores padrão serão definidos em todos os lugares.
@@ -41,25 +41,25 @@ Depois de salvar, os valores padrão serão definidos em todos os lugares.
 Você pode abrir um novo Pedido de Venda e verificar. O campo da empresa é definido como Empresa padrão.
 
 
-![Configuração de padrões de sessão](/files/session-defaults-set-1.png)
+![Session Defaults Set](/files/session-defaults-set-1.png)
 
 
 Abra uma nova tarefa. O campo 'Projeto' é definido como o Projeto padrão.
 
 
-![Configuração padrão da sessão](/files/session-defaults-set-2.png)
+![Session Default Set](/files/session-defaults-set-2.png)
 
 
 Abra um relatório, por exemplo, Razão Geral. O filtro da empresa é definido como a empresa padrão.
 
 
-![Padrão da sessão](/files/session-defaults-set-3.png)
+![Session Default ](/files/session-defaults-set-3.png)
 
 
-## 2. Características
+## 2. Recursos
 
 
-### 2.1 Padrões apagados no logout
+### 2.1 Padrões apagados ao sair
 
 
 Os valores padrão são definidos para esse usuário específico para a sessão em andamento. Uma vez desconectado, esses valores padrão são apagados.
@@ -68,7 +68,7 @@ Os valores padrão são definidos para esse usuário específico para a sessão 
 ### 2.2 Visibilidade do botão 'Configurações'
 
 
-O botão Configurações é visível apenas para o gerente do sistema ou para uma pessoa com permissão para acessar 'Configurações padrão da sessão'. Este botão o leva até as Configurações padrão da sessão, onde você pode adicionar ou remover os tipos de documento para os quais deseja definir os padrões da sessão.
+O botão Configurações é visível apenas para o Gerente do sistema ou para uma pessoa com permissão para acessar 'Configurações padrão da sessão'. Este botão leva você até as Configurações padrão da sessão, onde você pode adicionar ou remover os tipos de documento para os quais deseja definir os padrões da sessão.
 
 
 ![Prompt de padrões de sessão](/files/settings-button.png)
@@ -77,5 +77,5 @@ O botão Configurações é visível apenas para o gerente do sistema ou para um
 ### 3. Tópicos Relacionados
 
 
-1. [Padrões Globais](/docs/v13/user/manual/en/setting-up/settings/global-defaults)
-2. [Configurações do sistema](/docs/v13/user/manual/en/setting-up/settings/system-settings)
+1. [Padrões globais](/docs/pt/setting-up/settings/global-defaults)
+2. [Configurações do sistema](/docs/pt/setting-up/settings/system-settings)

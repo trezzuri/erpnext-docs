@@ -4,7 +4,7 @@
 Usando **Personalizar formulário**, podemos definir um valor *padrão* para qualquer campo de qualquer tipo de documento no ERPNext.
 
 
-**Passos:**
+**Etapas:**
 
 
 1. Abra o Formulário Personalizado usando a incrível barra de pesquisa ou por meio das opções de menu de qualquer DocType. Isso abrirá uma tela onde você poderá visualizar todos os campos que compõem este DocType.
@@ -28,4 +28,5 @@ Confira o GIF abaixo, onde definimos o valor *padrão* como **Stores - ETL** par
 ![](/files/wXMccxf.gif)
 
 
-Para saber mais sobre customizações no ERPNext, confira este [link](https://erpnext.com/docs/user/manual/en/customize-erpnext/customize-form)
+Para saber mais sobre customizações no ERPNext, confira este [link](https://erpnext.com/docs/user/manual/en/customize-erpnext/customize-form)< /p>
+

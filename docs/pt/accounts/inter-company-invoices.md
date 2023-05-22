@@ -4,45 +4,45 @@
 **Uma Nota Fiscal Interempresarial é feita entre organizações que pertencem ao mesmo grupo.**
 
 
-Juntamente com a criação de faturas de compra ou faturas de venda para uma única empresa, você pode criar faturas interligadas para várias empresas.
+Além de criar faturas de compra ou faturas de venda para uma única empresa, você pode criar faturas interligadas para várias empresas.
 
 
-Por exemplo, você pode criar uma Fatura de Compra para uma empresa, digamos 'Empresa ABC', e criar uma Fatura de Vendas contra esta Fatura de Compra para outra empresa, digamos 'Empresa XYZ' e vinculá-las.
+Por exemplo, você pode criar uma fatura de compra para uma empresa, digamos 'Empresa ABC', e criar uma fatura de venda contra esta fatura de compra para outra empresa, digamos 'Empresa XYZ' e vinculá-las.
 
 
-## 1. Como criar Faturas Entre Empresas
+## 1. Como criar faturas entre empresas
 
 
 ### 1.1 Configuração
 
 
-1. Acesse: **Contas > Masters > Cliente**.
-2. Selecione o Cliente que deseja escolher para a fatura interligada.
-3. Ative a caixa de seleção **É cliente interno** mostrada a seguir:
+1. Vá para: **Contas > Masters > Cliente**.
+2. Selecione o cliente que você deseja escolher para a fatura interligada.
+3. Ative a caixa de seleção, **É cliente interno** mostrado a seguir:
 
 
-![Cliente Interno](/files/inter-company-customer.png)
+![Internal Customer](/files/inter-company-customer.png)
 
 
 1. Adicione a empresa que o Cliente representa no campo **Represents Company**. Esta é a empresa para a qual a Nota Fiscal de Venda será criada.
-2. Na tabela **Allowed To Transact With**, adicione a empresa contra a qual você criará uma fatura de compra.
-3. Agora, ao criar uma Nota Fiscal de Compra contra a empresa A (o cliente é da empresa B, o vendedor é a empresa A), ela será vinculada à Nota Fiscal de Venda da empresa A criada a partir deste Cliente Interno da empresa B.
-4. Agora, você precisa seguir um procedimento semelhante para configurar um Fornecedor para faturas interligadas.
-5. Acesse: **Contas > Masters > *Selecione o Fornecedor***
-6. Marque É Fornecedor Interno.
-7. No campo **Represents Company**, adicione a empresa que você adicionou na tabela **Allowed To Transact With** para o cliente.
-8. Na tabela **Allowed To Transact With** para o Fornecedor, adicione a empresa que o Cliente representa. Esta é a empresa contra a qual você fará uma Nota Fiscal de Compra interligada.
-9. Aqui está uma captura de tela da empresa fornecedora para evitar qualquer confusão:
+2. Na tabela **Allowed To Transact With**, adicione a empresa para a qual você criará uma fatura de compra.
+3. Agora, quando você criar uma Nota Fiscal de Compra contra a empresa A (o cliente é da empresa B, o vendedor é a empresa A), ela será vinculada à Nota Fiscal de Venda da empresa A criada usando este Cliente Interno da empresa B.< /li>
+- Agora, você precisa seguir um procedimento semelhante para configurar um Fornecedor para faturas interligadas.
+- Vá para: **Contas > Masters > *Selecione o Fornecedor***
+- Marque em É fornecedor interno.
+- No campo **Represents Company**, adicione a empresa que você adicionou na tabela **Allowed To Transact With** para o cliente.
+- Na tabela **Allowed To Transact With** para o Fornecedor, adicione a empresa que o Cliente representa. Esta é a empresa contra a qual você fará uma Fatura de Compra interligada.
+- Aqui está uma captura de tela da empresa fornecedora para evitar qualquer confusão:
 
 
-![Fornecedor entre empresas](/files/inter-company-supplier.png)
+![Inter Company Supplier](/files/inter-company-supplier.png)
 
 
-### 1.2 Criação da Fatura
+### 1.2 Criação da fatura
 
 
-1. Agora, crie uma nova [Fatura de venda](/docs/v13/user/manual/pt/accounts/fatura-de-venda), preencha os campos.
-2. Lembre-se de selecionar o Cliente que é cliente interno e empresa da qual está comprando.
+1. Agora, crie uma nova [Fatura de venda](/docs/pt/accounts/sales-invoice), preencha os campos.
+2. Lembre-se de selecionar o Cliente que é um cliente interno e a empresa da qual ele está comprando.
 3. Salve e envie a fatura.
 
 
@@ -53,24 +53,24 @@ Por exemplo, você pode criar uma Fatura de Compra para uma empresa, digamos 'Em
 4. Antes de fazer uma *Fatura entre empresas*, você precisa fazer o seguinte:
 
 
-1. O preço de compra e venda entre as empresas deve estar sincronizado.
-2. Vá para **Estoque > Lista de Preços**, crie uma nova Lista de Preços para transações entre empresas.
-3. Marque Vendendo e Comprando nesta nova Lista de Preços.
-4. Vá para **Compras > Fornecedor > *fornecedor interno***, na seção lista de moedas e preços, defina a lista de preços para a nova que acabou de ser criada.
-5. Faça o mesmo para o cliente interno, ou seja, configure a tabela de preços para a nova.
-6. Agora, você pode fazer uma Nota Fiscal de Compra ou Venda entre empresas.
-5. Abaixo do botão **Fazer**, você encontrará um link **Inter Company Invoice**, ao clicar no link, você será direcionado para uma nova página de formulário de Compra de Fatura.
-6. Aqui, o fornecedor e a empresa serão buscados automaticamente, dependendo da empresa que você selecionou na Nota Fiscal.
-> ***Lembre-se***: Só pode haver um único Fornecedor ou Cliente Interno por empresa.
-7. Envie a nota fiscal, pronto! Agora, ambas as faturas estão interligadas. *Além disso, ao cancelar qualquer uma das faturas, o link também será interrompido.*
+	1. O preço de compra e venda entre as empresas deve estar sincronizado.
+	2. Vá para **Estoque > Lista de preços**, crie uma nova Lista de preços para transações entre empresas.
+	3. Marque Venda e Compra nesta nova Lista de Preços.
+	4. Vá para **Comprar > Fornecedor > *fornecedor interno***, na seção moeda e lista de preços, defina a lista de preços para a nova recém-criada.
+	5. Faça o mesmo para o cliente interno, ou seja, defina a tabela de preços para a nova.
+	6. Agora você pode fazer uma Nota Fiscal de Compra ou Venda entre empresas.
+5. Na lista suspensa do botão **Criar**, você encontrará um link **Fatura intercompanhia**, ao clicar no link, você será direcionado para uma nova página de formulário de Fatura de compra.< /li>
+- Aqui, o fornecedor e a empresa serão buscados automaticamente, dependendo da empresa que você selecionou na Nota Fiscal.
+> ***Lembre-se***: Só pode haver um único Fornecedor Interno ou Cliente por empresa.
+- Envie a fatura, pronto! Agora, ambas as faturas estão interligadas. *Além disso, ao cancelar qualquer uma das faturas, o link também será interrompido.*
 
 
 
->
-> Observação: Uma fatura entre empresas afetará apenas o livro-razão contábil e não o livro-razão de estoque. Isso ocorre porque as empresas pertencem ao mesmo grupo de empresas.
->
->
->
+> 
+> Observação: uma fatura entre empresas afetará apenas o livro-razão contábil e não o livro-razão de estoque. Isso ocorre porque as empresas pertencem ao mesmo grupo de empresas.
+> 
+> 
+> 
 
 
 Você pode seguir o mesmo processo para criar uma fatura de compra e, em seguida, uma fatura de venda interligada a partir da fatura de compra enviada.
@@ -79,6 +79,6 @@ Você pode seguir o mesmo processo para criar uma fatura de compra e, em seguida
 ### 2. Tópicos Relacionados
 
 
-1. [Fatura de venda](/docs/v13/user/manual/en/accounts/fatura-de-venda)
-2. [Fatura de compra](/docs/v13/user/manual/en/accounts/purchase-invoice)
-3. [Entrada no diário da empresa](/docs/v13/user/manual/en/accounts/inter-company-journal-entry)
+1. [Fatura de vendas](/docs/pt/accounts/sales-invoice)
+2. [Fatura de compra](/docs/pt/accounts/purchase-invoice)
+3. [Entrada no diário da empresa](/docs/pt/accounts/inter-company-journal-entry)

@@ -32,7 +32,7 @@ To access the POS Profile list, go to:
 
 1. Go to the Point-of-Sale Profile and click on New.
 2. Enter a name for the profile.
-3. Select a [Naming Series](/docs/v13/user/manual/en/setting-up/settings/naming-series).
+3. Select a [Naming Series](/docs/en/setting-up/settings/naming-series).
 4. Set a Write Off Account and Write Off Cost Center to which the transactions will be recorded.
 5. Set up payment modes in the table, the default will be cash if nothing is set here. Only the modes set here will be available when using POS. After adding payment modes, set one of them as the default payment method by ticking the checkbox.
 
@@ -50,10 +50,10 @@ To access the POS Profile list, go to:
 
 * **Customer**: Users can sell particular products to the particular Customers from the POS by adding item groups, customer groups in the POS Profile.
 * **Warehouse**: The stock quantities in the selected Warehouse will be affected for POS transactions with this POS Profile.
-* **Campaign**: A sales [Campaign](/docs/v13/user/manual/en/CRM/campaign) can be linked here to track total sales against it.
+* **Campaign**: A sales [Campaign](/docs/en/CRM/campaign) can be linked here to track total sales against it.
 * **Company Address**: If the POS counter is set up at a Company branch, the address can be selected here.
 * **Update Stock**: If enabled, the stock quantities will be affected when transactions are performed with the POS Profile. That is, Stock Ledger Entries will be made when you “Submit” this Sales Invoice thereby eliminating the need for a separate Delivery Note.
-* **Ignore Pricing Rule**: Any active [Pricing Rule](/docs/v13/user/manual/en/accounts/pricing-rule) will be ignored for this POS Profile.
+* **Ignore Pricing Rule**: Any active [Pricing Rule](/docs/en/accounts/pricing-rule) will be ignored for this POS Profile.
 * **Allow Delete**: In Offline POS, the data is cached. Ticking this checkbox will allow User to delete the Sales Invoice cached in the Draft stage.
 * **Allow user to edit Rate**: The POS Profile user will be allowed to edit the 'Rate' of Items added in transactions.
 * **Allow user to edit Discount**: The POS Profile user will be allowed to edit the 'Discount' of Items added in transactions.
@@ -80,7 +80,7 @@ By default, all Sales Users can access the POS Profiles created in ERPNext. Howe
 > 
 > Note: If you specify a particular User, the POS setting will be
 >  applied only to that User. If the User option is left blank, the setting will
->  be set for all users. To understand how POS works, visit the [Point of Sale](/docs/v13/user/manual/en/accounts/point-of-sales) page.
+>  be set for all users. To understand how POS works, visit the [Point of Sale](/docs/en/accounts/point-of-sales) page.
 > 
 > 
 > 
@@ -104,35 +104,35 @@ On setting an Item Group/Customer Group in a POS Profile, the group will be auto
 #### Print Format for Online
 
 
-You can set a Print Format which will decide what the layout of the printed document will look like. To know more, visit the [Print Format](/docs/v13/user/manual/en/setting-up/print/print-format) page.
+You can set a Print Format which will decide what the layout of the printed document will look like. To know more, visit the [Print Format](/docs/en/setting-up/print/print-format) page.
 
 
 #### Letterhead
 
 
-You can print your POS Sales Invoice on your Company's letterhead. Know more [here](/docs/v13/user/manual/en/setting-up/print/letter-head).
+You can print your POS Sales Invoice on your Company's letterhead. Know more [here](/docs/en/setting-up/print/letter-head).
 
 
 #### Print Headings
 
 
-POS Sales Invoice headings can also be changed when printing the document. For example, the heading can be 'Invoice', or 'Bill'. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/v13/user/manual/en/setting-up/print/print-headings).
+POS Sales Invoice headings can also be changed when printing the document. For example, the heading can be 'Invoice', or 'Bill'. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/en/setting-up/print/print-headings).
 
 
 #### Terms and Conditions
 
 
-There may be certain terms and conditions on the Item you're selling, these can be applied here. To know about adding Terms and Conditions, [click here](/docs/v13/user/manual/en/setting-up/print/terms-and-conditions).
+There may be certain terms and conditions on the Item you're selling, these can be applied here. To know about adding Terms and Conditions, [click here](/docs/en/setting-up/print/terms-and-conditions).
 
 
 ### 2.4 Accounting
 
 
-* **Price List**: A [Price List](/docs/v13/user/manual/en/stock/price-lists) stores the [Item Prices](/docs/v13/user/manual/en/stock/item-price). Setting a Price List here will fetch the Item Prices for the current POS Profile from that Price List.
+* **Price List**: A [Price List](/docs/en/stock/price-lists) stores the [Item Prices](/docs/en/stock/item-price). Setting a Price List here will fetch the Item Prices for the current POS Profile from that Price List.
 * **Currency**: By default, this will be set according to the Company's default currency. However, you can change it. In case you change the currency, remember to change the accounts too.
-* **Taxes and Charges**: Selecting a [Sales Taxes and Charges Template](/docs/v13/user/manual/en/selling/sales-taxes-and-charges-template) or [Purchase Taxes and Charges Template](/docs/v13/user/manual/en/buying/purchase-taxes-and-charges-template) here will automatically apply the taxes and charges to the POS transaction.
+* **Taxes and Charges**: Selecting a [Sales Taxes and Charges Template](/docs/en/selling/sales-taxes-and-charges-template) or [Purchase Taxes and Charges Template](/docs/en/buying/purchase-taxes-and-charges-template) here will automatically apply the taxes and charges to the POS transaction.
 * **Apply Discount On**: Here you can set whether the discount is to be applied on the Grand Total (pre tax amount) or the Net Total (post tax amount).
-* **Tax Category**: On selecting a [Tax Category](/docs/v13/user/manual/en/accounts/tax-category) here, the Tax Rules associated with the Tax Category will be applied to each transaction performed from this POS Profile.
+* **Tax Category**: On selecting a [Tax Category](/docs/en/accounts/tax-category) here, the Tax Rules associated with the Tax Category will be applied to each transaction performed from this POS Profile.
 
 
 The following accounts can be set so that the general ledger is updated accordingly:
@@ -148,7 +148,7 @@ The following accounts can be set so that the general ledger is updated accordin
 ### 2.5 Accounting Dimensions
 
 
-Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the criteria selected. To know more, visit the [Accounting Dimensions](/docs/v13/user/manual/en/accounts/accounting-dimensions) page.
+Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the criteria selected. To know more, visit the [Accounting Dimensions](/docs/en/accounts/accounting-dimensions) page.
 
 
 
@@ -162,8 +162,8 @@ Accounting Dimensions lets you tag transactions based on a specific Territory, B
 ## 3. Related Topics
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
-3. [Point Of Sales](/docs/v13/user/manual/en/accounts/point-of-sales)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
+3. [Point Of Sales](/docs/en/accounts/point-of-sales)
 
 

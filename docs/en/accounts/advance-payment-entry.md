@@ -69,8 +69,8 @@ Save and submit the Sales Invoice.
 ### 3. Related Topics
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
-3. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Journal Entry](/docs/en/accounts/journal-entry)
+3. [Payment Entry](/docs/en/accounts/payment-entry)
 
 

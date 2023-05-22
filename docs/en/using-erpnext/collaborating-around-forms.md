@@ -11,10 +11,10 @@ Following are the tools in each document using which you can collaborate with ot
 ### Assigned to
 
 
-If a Document requires some action from a particular user, you can assign that document to that User. On assignment, the user shall be intimated of the same via an email. [Click here](/docs/v13/user/manual/en/using-erpnext/assignment) to learn more about this feature.
+If a Document requires some action from a particular user, you can assign that document to that User. On assignment, the user shall be intimated of the same via an email. [Click here](/docs/en/using-erpnext/assignment) to learn more about this feature.
 
 
-E.g., an incoming [Lead](/docs/v13/user/manual/en/CRM/lead) can e assigned to a particular user to ensure that the same is being pursued by them.
+E.g., an incoming [Lead](/docs/en/CRM/lead) can e assigned to a particular user to ensure that the same is being pursued by them.
 
 
 ![Collaborating Around Forms](/files/using-assignment-1.png)
@@ -23,7 +23,7 @@ E.g., an incoming [Lead](/docs/v13/user/manual/en/CRM/lead) can e assigned to a 
 ### Comments
 
 
-For a lot of Documents, there can be information that is not a part of the transaction. To record such information, the 'Comments' feature is a great alternative. Checkout [Comments](/docs/v13/user/manual/en/using-erpnext/articles/comments) for more.
+For a lot of Documents, there can be information that is not a part of the transaction. To record such information, the 'Comments' feature is a great alternative. Checkout [Comments](/docs/en/using-erpnext/articles/comments) for more.
 
 
 ![Collaborating Around Forms](/files/using-collaborating-2.png)
@@ -41,7 +41,7 @@ You can share a document with the aspecific user in your ERPNext account. Irresp
 ### Tags
 
 
-You can also add tags to different Documents to classify them into categories. [Click here](/docs/v13/user/manual/en/using-erpnext/tags.html) to know more about tags.
+You can also add tags to different Documents to classify them into categories. [Click here](/docs/en/using-erpnext/tags.html) to know more about tags.
 
 
 ![Tags](/files/using-tags-2.png)
@@ -50,7 +50,7 @@ You can also add tags to different Documents to classify them into categories. [
 ### Reviews
 
 
-For every Document, there is an option to add Reviews for any User involved in the Document. This includes all the Users to whom this Document was assigned, and to all the Users who have Commented on this Document. Review Points can be gained by a User using the [Energy Point System](/docs/v13/user/manual/en/setting-up/energy-point-system).
+For every Document, there is an option to add Reviews for any User involved in the Document. This includes all the Users to whom this Document was assigned, and to all the Users who have Commented on this Document. Review Points can be gained by a User using the [Energy Point System](/docs/en/setting-up/energy-point-system).
 
 
 ![Collaborating Around Forms](/files/using-collaborating-5.png)

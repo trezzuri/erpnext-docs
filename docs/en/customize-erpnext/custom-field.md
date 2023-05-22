@@ -5,7 +5,7 @@
 **Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.**
 
 
-You can go to [Customize Form](/docs/v13/user/manual/en/customize-erpnext/customize-form) and add the Field in a particular Form or a Document type *(hereafter referred to as DocType)* .
+You can go to [Customize Form](/docs/en/customize-erpnext/customize-form) and add the Field in a particular Form or a Document type *(hereafter referred to as DocType)* .
 
 
 To access Custom Field, go to:
@@ -38,10 +38,10 @@ You can also go to the list view of any DocType and select Customize from the Me
 ![New Custom Field](/files/new-custom-field.png)
 
 
-*Learn more about Field types [here](/docs/v13/user/manual/en/customize-erpnext/articles/field-types.html).*
+*Learn more about Field types [here](/docs/en/customize-erpnext/articles/field-types.html).*
 
 
-You can also go to [Customize Form](/docs/v13/user/manual/en/customize-erpnext/customize-form) and add, edit or remove a Field in a particular Form.
+You can also go to [Customize Form](/docs/en/customize-erpnext/customize-form) and add, edit or remove a Field in a particular Form.
 
 
 ![Add Custom Field From Customize Form](/files/customize-erpnext-custom-field-from-customize-form.gif)
@@ -65,8 +65,8 @@ You can also go to [Customize Form](/docs/v13/user/manual/en/customize-erpnext/c
 
 
 ![Custom Field Description](/files/custom-field-description.png)
-7. **Permission Level**: This will allow you to specify which roles within your organization will be able to edit this Field. You can go through [Role Based Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions) for more understanding on this.
-8. **In Preview**: If [Show Preview Popup](/docs/v13/user/manual/en/customize-erpnext/customize-form#13-more-properties) for the document type is checked, the Field will be included in the popup that appears on hovering over links of the document type (in list view and other link fields).
+7. **Permission Level**: This will allow you to specify which roles within your organization will be able to edit this Field. You can go through [Role Based Permissions](/docs/en/setting-up/users-and-permissions/role-based-permissions) for more understanding on this.
+8. **In Preview**: If [Show Preview Popup](/docs/en/customize-erpnext/customize-form#13-more-properties) for the document type is checked, the Field will be included in the popup that appears on hovering over links of the document type (in list view and other link fields).
 9. **Width**: This will define the width allocated to this Field while viewing the Form in a Grid View.
 
 
@@ -77,16 +77,16 @@ You can also go to [Customize Form](/docs/v13/user/manual/en/customize-erpnext/c
 * **Unique**: Check this box when you want the value of this Field to be unique. This can be done in cases where the Custom Field is for a code or an Identification Number. E.g., Item Code in case of Item, GST Number in case of Customer.
 * **Read Only**: When you want this Field to be a read only or a non-editable Field. In this case, the value of the Field shall be auto-fetched from other fields.
 * **Hidden**: Check this Field when you want this Field to be hidden, or to hide an existing Field.
-* **Print Hide**: In cases that you want the print button to be hidden from the Print Format. Checkout [Fields in Print Format](/docs/v13/user/manual/en/customize-erpnext/articles/making-fields-visible-in-print-format) for more information.
+* **Print Hide**: In cases that you want the print button to be hidden from the Print Format. Checkout [Fields in Print Format](/docs/en/customize-erpnext/articles/making-fields-visible-in-print-format) for more information.
 * **No Copy**: Checking this box will restrict copying of this Field in the DocType.
-* **Allow on Submit**: This will allow you to make changes to the Field even after you have submitted the Form. Checkout [Editing Value in Submitted Document](/docs/v13/user/manual/en/customize-erpnext/articles/allow-fields-to-be-changed-after-submission) for more information.
+* **Allow on Submit**: This will allow you to make changes to the Field even after you have submitted the Form. Checkout [Editing Value in Submitted Document](/docs/en/customize-erpnext/articles/allow-fields-to-be-changed-after-submission) for more information.
 * **In List View**: This will make the field visible in the List View of the DocType.
 * **In Standard Filter**: The field will become a standard filter in the List view of the Document.
 * **In Global Search**: When this box is checked this Field can be searched form the Global Search.
 * **Bold**: This will make this Field type bold, this adds more value to the Field.
 * **Report Hide**: This field will not be visible in the reports when you check this box.
 * **Ignore XSS Filter**: This will allow you to view this Field without the HTML tags.
-* **Translatable**: When this box is checked, it becomes translatable while applying [Custom Translations](/docs/v13/user/manual/en/setting-up/print/custom-translations) to this.
+* **Translatable**: When this box is checked, it becomes translatable while applying [Custom Translations](/docs/en/setting-up/print/custom-translations) to this.
 
 
 ## 2. Videos

@@ -13,7 +13,7 @@ add_fetch(link_fieldname, source_fieldname, target_fieldname)
 ### Exemplo
 
 
-Digamos que você criou um campo personalizado **ID do IVA** (`id_vat`) em **Cliente** e **Fatura de vendas** e deseja garantir que esse valor seja atualizado toda vez que você selecionar um Cliente em uma Nota Fiscal de Venda.
+Digamos que você criou um campo personalizado **ID do IVA** (`vat_id`) em **Cliente** e **Fatura de vendas** e deseja garantir que esse valor seja atualizado toda vez que você selecionar um cliente em uma fatura de venda.
 
 
 Para configurar isso, no script personalizado de fatura de vendas, você pode adicionar esta linha:

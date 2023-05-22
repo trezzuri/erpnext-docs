@@ -67,9 +67,9 @@ Then click on **Edit HTML** to edit your content.
 ### 3. Related Topics
 
 
-1. [Print Style](/docs/v13/user/manual/en/setting-up/print/print-style)
-2. [Print Headings](/docs/v13/user/manual/en/setting-up/print/print-headings)
-3. [Letter Head](/docs/v13/user/manual/en/setting-up/print/letter-head)
-4. [Cheque Print Template](/docs/v13/user/manual/en/setting-up/print/cheque-print-template)
+1. [Print Style](/docs/en/setting-up/print/print-style)
+2. [Print Headings](/docs/en/setting-up/print/print-headings)
+3. [Letter Head](/docs/en/setting-up/print/letter-head)
+4. [Cheque Print Template](/docs/en/setting-up/print/cheque-print-template)
 
 

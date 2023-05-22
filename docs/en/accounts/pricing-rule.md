@@ -8,7 +8,7 @@
 A Pricing Rule has many options using which you can control the pricing of an Item. Filters like quantity, date, groups, and other conditions can be set.
 
 
-A Pricing Rule is somewhat similar to a [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule).
+A Pricing Rule is somewhat similar to a [Tax Rule](/docs/en/accounts/tax-rule).
 
 
 Following are the few cases which can be addressed using Pricing Rule:
@@ -41,10 +41,10 @@ To access the Pricing Rule list, go to:
 Before creating and using a Pricing Rule, it is advisable to create the following first:
 
 
-1. [Item](/docs/v13/user/manual/en/stock/item)
-2. [Item Group](/docs/v13/user/manual/en/stock/item-group)
-3. [Customer](/docs/v13/user/manual/en/CRM/customer)
-4. [Supplier](/docs/v13/user/manual/en/buying/supplier)
+1. [Item](/docs/en/stock/item)
+2. [Item Group](/docs/en/stock/item-group)
+3. [Customer](/docs/en/CRM/customer)
+4. [Supplier](/docs/en/buying/supplier)
 
 
 ## 2. How to create a Pricing Rule
@@ -57,7 +57,7 @@ Before creating and using a Pricing Rule, it is advisable to create the followin
 ![Pricing Rule](/files/pricing-rule.png)
 5. For a single item, select Item Code and select the items.
 6. If you want Pricing Rule to be applied on all the items, select 'Item Group' and select **All Item Group** (parent Item Group).
-7. Set the discount/price to be applied. To know more, [go to this section](/docs/v13/user/manual/en/accounts/pricing-rule#35-price-discount-scheme).
+7. Set the discount/price to be applied. To know more, [go to this section](/docs/en/accounts/pricing-rule#35-price-discount-scheme).
 8. Save.
 
 
@@ -76,8 +76,8 @@ Setting a Warehouse here will cause the Pricing Rule to be applied only if the I
 Based on the attribute selected in the 'Apply On' field, you can set the Pricing Rule based on one of these:
 
 
-* [Item](/docs/v13/user/manual/en/stock/item)
-* [Item Group](/docs/v13/user/manual/en/stock/item-group)
+* [Item](/docs/en/stock/item)
+* [Item Group](/docs/en/stock/item-group)
 * Brand
 * Transaction (on the total amount of the transaction)
 
@@ -145,12 +145,12 @@ Set whether the Pricing Rule is for Selling of Buying the Item.
 Based on your selection you can set applicability to one of the following masters.
 
 
-* [Customer](/docs/v13/user/manual/en/CRM/customer)
-* [Customer Group](/docs/v13/user/manual/en/CRM/customer-group)
-* [Territory](/docs/v13/user/manual/en/selling/territory)
-* [Sales Partner](/docs/v13/user/manual/en/selling/sales-partner)
-* [Campaign](/docs/v13/user/manual/en/CRM/campaign)
-* [Supplier](/docs/v13/user/manual/en/buying/supplier)
+* [Customer](/docs/en/CRM/customer)
+* [Customer Group](/docs/en/CRM/customer-group)
+* [Territory](/docs/en/selling/territory)
+* [Sales Partner](/docs/en/selling/sales-partner)
+* [Campaign](/docs/en/CRM/campaign)
+* [Supplier](/docs/en/buying/supplier)
 * Supplier Group
 
 
@@ -185,7 +185,7 @@ You can also set a date interval for when the Pricing Rule will be valid. This i
 * **Margin Rate or Amount**: The margin set can be based on Percentage or Amount, eg: 5% margin or $50 fixed margin.
 
 
-Read [adding margin](/docs/v13/user/manual/en/selling/articles/adding-margin) for more details.
+Read [adding margin](/docs/en/selling/articles/adding-margin) for more details.
 
 
 ### 3.6 Price Discount Scheme
@@ -198,7 +198,7 @@ The actual rule to be applied is set in this section.
 
 
 * **Rate**: This will be the new rate for an Item. For example, if you sell an Item for 100 and want to sell it for 112 for a specific party, then select Rate and set the Rate as 112.
-* **Discount Percentage**: A specific discount percentage can be set. The discount percentage can be set to a specific [Price List](/docs/v13/user/manual/en/stock/price-lists). Leaving the 'For Price List' blank will apply the Pricing Rule to all Price Lists.
+* **Discount Percentage**: A specific discount percentage can be set. The discount percentage can be set to a specific [Price List](/docs/en/stock/price-lists). Leaving the 'For Price List' blank will apply the Pricing Rule to all Price Lists.
 * **Discount Amount**: A fixed discount amount will be applied. For example if you sell an Item for 100 and want to sell it with a discount of 7, then this condition can be set using the Discount Amount option.
 
 
@@ -255,9 +255,9 @@ This is useful when the top distributor in the hierarchy decides the discount/ra
 ### 5. Related Topics
 
 
-1. [Promotional Scheme](/docs/v13/user/manual/en/accounts/promotional-scheme)
-2. [Tax Rule](/docs/v13/user/manual/en/accounts/tax-rule)
-3. [Supplier](/docs/v13/user/manual/en/buying/supplier)
-4. [Item](/docs/v13/user/manual/en/stock/item)
+1. [Promotional Scheme](/docs/en/accounts/promotional-scheme)
+2. [Tax Rule](/docs/en/accounts/tax-rule)
+3. [Supplier](/docs/en/buying/supplier)
+4. [Item](/docs/en/stock/item)
 
 

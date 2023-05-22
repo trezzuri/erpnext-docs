@@ -5,7 +5,7 @@
 In ERPNext, Bank Accounts can be created for a Company as well as other parties like Customers, Suppliers etc. Doing this lets you record all the bank transactions correctly for accounting accuracy.
 
 
-You can add Bank Accounts in ERPNext for Company. Supplier, Customer, or any other party with whom transactions are carried out. Then the Bank Account can be chosen in [Payment Entries](/docs/v13/user/manual/en/accounts/payment-entry) as a [Mode of Payment](/docs/v13/user/manual/en/accounts/mode-of-payment).
+You can add Bank Accounts in ERPNext for Company. Supplier, Customer, or any other party with whom transactions are carried out. Then the Bank Account can be chosen in [Payment Entries](/docs/en/accounts/payment-entry) as a [Mode of Payment](/docs/en/accounts/mode-of-payment).
 
 
 To access Bank Account, go to:
@@ -28,14 +28,14 @@ To access Bank Account, go to:
 Before creating and using Bank Account, it is advised to create the following first:
 
 
-* [Bank](/docs/v13/user/manual/en/accounts/bank)
+* [Bank](/docs/en/accounts/bank)
 
 
 ## 2. How to create a Bank Account
 
 
 1. Enter an Account Name.
-2. Link the General Ledger account set in 'Bank Accounts' in the [Chart of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts).
+2. Link the General Ledger account set in 'Bank Accounts' in the [Chart of Accounts](/docs/en/accounts/chart-of-accounts).
 3. Select a Bank.
 4. Save.
 
@@ -81,6 +81,6 @@ For reference, the following details about a Bank Account can be stored in ERPNe
 ### 3.4 Integration Details
 
 
-**Last Integration Date**: If your bank supports [Plaid Integration](/docs/v13/user/manual/en/erpnext_integration/plaid_integration), setting a date here will synchronize on the set date. This will create Bank Transactions entries.
+**Last Integration Date**: If your bank supports [Plaid Integration](/docs/en/erpnext_integration/plaid_integration), setting a date here will synchronize on the set date. This will create Bank Transactions entries.
 
 

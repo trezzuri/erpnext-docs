@@ -1,19 +1,19 @@
-# Entrada de Pagamento para Conta de Capital
+# Entrada de pagamento para conta de capital
 
 
-**Pergunta:**
+**Pergunta:** 
   
-Como criar uma Entrada de Pagamento onde um acionista está investindo capital. O valor deve ser adicionado na conta bancária da empresa.
+Como criar uma entrada de pagamento onde um acionista está investindo capital. O valor deve ser adicionado na conta bancária da empresa.
   
 
-**Responder:**
+**Resposta:** 
   
-Você também pode criar uma Entrada de Pagamento para um Acionista. Depois de adicionar um Acionista no ERPNext, você pode selecioná-lo no Lançamento de Pagamentos nestas linhas.
-![](/files/Etxow8j.png)
-A única coisa que você terá que verificar com sua autoridade de certificação seria Conta paga de. Se você criar esta Entrada de Entrada de Pagamento, que é projetada para receber pagamento com base em acréscimos, você terá que definir uma conta de Devedor ou Credor para seleção no campo Conta Paga de.
-### Entrada de Pagamento via Lançamento Diário
+Você também pode criar uma Entrada de Pagamento para um Acionista. Depois de adicionar um Acionista no ERPNext, você pode selecioná-lo na Entrada de Pagamento nestas linhas.  
+![](/files/Etxow8j.png )  
+A única coisa que você terá que verificar com sua autoridade de certificação seria Conta paga de. Se você criar esta entrada a partir da entrada de pagamento, que é projetada para receber pagamentos com base em acréscimos, você terá que definir uma conta de devedor ou credor para seleção no campo Conta paga de.  
+### Entrada de pagamento por meio de lançamento contábil manual
 
   
-Se isso não ajudar, você pode criar uma entrada de diário para gerenciar esse cenário. Uma entrada de diário simples seria:
-Cr. Conta de acionista................ XXXDr. Conta bancária ...................... XXX
-Também no Lançamento do diário, você usa os campos como Nº de referência e Data para rastrear os detalhes do cheque do cliente.
+Se isso não ajudar, você pode criar um lançamento contábil manual para gerenciar esse cenário. Uma entrada de diário simples seria:
+Cr. Conta do acionista................ XXXDr. Conta bancária ............................. XXX  
+ Também no lançamento contábil manual, você usa os campos como número de referência e data para rastrear os detalhes da verificação do cliente.

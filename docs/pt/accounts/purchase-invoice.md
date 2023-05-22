@@ -30,10 +30,10 @@ To access the Purchase Invoice list, go to:
 Before creating and using a Purchase Invoice, it is advised to create the following first:
 
 
-* [Item](/docs/v13/user/manual/en/stock/item)
-* [Supplier](/docs/v13/user/manual/en/buying/supplier)
-* [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
-* [Purchase Receipt](/docs/v13/user/manual/en/stock/purchase-receipt) (optional)
+* [Item](/docs/pt/stock/item)
+* [Supplier](/docs/pt/buying/supplier)
+* [Purchase Order](/docs/pt/buying/purchase-order)
+* [Purchase Receipt](/docs/pt/stock/purchase-receipt) (optional)
 
 
 ## 2. How to create a Purchase Invoice:
@@ -63,9 +63,9 @@ For manual creation, follow these steps:
 ### 2.1 Additional options when creating a Purchase Invoice
 
 
-* **Is Paid**: You can tick 'Is Paid' if the amount has already been paid via an [Advance Payment Entry](/docs/v13/user/manual/en/accounts/advance-payment-entry). This should be ticked if there is full or partial payment.
-* **Is Return (Debit Note)**: Tick this if the customer has returned the Items. To know more details, visit the [Debit Note](/docs/v13/user/manual/en/accounts/debit-note) page.
-* **Apply Tax Withholding Amount**: If the selected Supplier has a Tax Withholding Category set, this checkbox will be enabled. For more information, visit the [Tax Withholding Category](/docs/v13/user/manual/en/accounts/tax-withholding-category) page.
+* **Is Paid**: You can tick 'Is Paid' if the amount has already been paid via an [Advance Payment Entry](/docs/pt/accounts/advance-payment-entry). This should be ticked if there is full or partial payment.
+* **Is Return (Debit Note)**: Tick this if the customer has returned the Items. To know more details, visit the [Debit Note](/docs/pt/accounts/debit-note) page.
+* **Apply Tax Withholding Amount**: If the selected Supplier has a Tax Withholding Category set, this checkbox will be enabled. For more information, visit the [Tax Withholding Category](/docs/pt/accounts/tax-withholding-category) page.
 
 
 ### 2.2 Statuses
@@ -73,10 +73,10 @@ For manual creation, follow these steps:
 
 * **Draft**: A draft is saved but yet to be submitted to the system.
 * **Return**: The Items have been returned to the Supplier.
-* **Debit Note Issued**: The Items have been returned and a [Debit Note](/docs/v13/user/manual/en/accounts/debit-note) has been issued against the invoice.
+* **Debit Note Issued**: The Items have been returned and a [Debit Note](/docs/pt/accounts/debit-note) has been issued against the invoice.
 * **Submitted**: The Purchase Invoice has been submitted to the system and the general ledger has been updated.
-* **Paid**: Supplier has been fully paid the invoice amount and the corresponding [Payment Entries](/docs/v13/user/manual/en/accounts/payment-entry) have been submitted.
-* **Partly Paid**: Supplier has been paid a part of the invoice amount and the corresponding [Payment Entries](/docs/v13/user/manual/en/accounts/payment-entry) have been submitted.
+* **Paid**: Supplier has been fully paid the invoice amount and the corresponding [Payment Entries](/docs/pt/accounts/payment-entry) have been submitted.
+* **Partly Paid**: Supplier has been paid a part of the invoice amount and the corresponding [Payment Entries](/docs/pt/accounts/payment-entry) have been submitted.
 * **Unpaid**: The Purchase Invoice is yet to be paid.
 * **Overdue**: The due date has passed for payment.
 * **Canceled**: The invoice has been canceled due to some reason.
@@ -88,7 +88,7 @@ For manual creation, follow these steps:
 ### 3.1 Accounting Dimensions
 
 
-Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the criteria selected. To know more, visit the [Accounting Dimensions](/docs/v13/user/manual/en/accounts/accounting-dimensions) page.
+Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the criteria selected. To know more, visit the [Accounting Dimensions](/docs/pt/accounts/accounting-dimensions) page.
 
 
 
@@ -120,7 +120,7 @@ If you want to hold submitted purchase invoice then you can hold using 'Block In
 ![Block PI](/files/purchase-invoice-block.png)
 
 
-This is invoice level holding, Suppliers can be put on hold. [Learn more here](/docs/v13/user/manual/en/buying/supplier#23-credit-limit).
+This is invoice level holding, Suppliers can be put on hold. [Learn more here](/docs/pt/buying/supplier#23-credit-limit).
 
 
 ### 3.3 Supplier Invoice Details
@@ -134,7 +134,7 @@ This is invoice level holding, Suppliers can be put on hold. [Learn more here](/
 
 
 * **Supplier Address:** This is the Billing Address of the Supplier.
-* **Contact Person**: If the Supplier is a Company, the person to be contacted is fetched in this field if set in the [Supplier](/docs/v13/user/manual/en/buying/supplier) form.
+* **Contact Person**: If the Supplier is a Company, the person to be contacted is fetched in this field if set in the [Supplier](/docs/pt/buying/supplier) form.
 * **Shipping Address:** Address where the items will be shipped to.
 
 
@@ -149,41 +149,41 @@ For India, the following details can be recorded for GST purposes:
 ### 3.5 Currency and Price list
 
 
-You can set the currency in which the Purchase Invoice order is to be sent. This is fetched from the Purchase Order. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/v13/user/manual/en/accounts/pricing-rule) set in Accounts > Pricing Rule.
+You can set the currency in which the Purchase Invoice order is to be sent. This is fetched from the Purchase Order. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/pt/accounts/pricing-rule) set in Accounts > Pricing Rule.
 
 
 ![Purchase Invoice Price List](/files/purchase-invoice-price-list.png)
 
 
-Read about [Price Lists](/docs/v13/user/manual/en/stock/price-lists)
-and [Multi-Currency Transactions](/docs/v13/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency)
+Read about [Price Lists](/docs/pt/stock/price-lists)
+and [Multi-Currency Transactions](/docs/pt/accounts/articles/managing-transactions-in-multiple-currency)
 to know more.
 
 
 ### 3.6 Subcontracting or 'Supply Raw Materials'
 
 
-Setting 'Supply Raw Materials' option is useful for subcontracting where you provide the raw materials for manufacturing an Item. To know more, visit the [Subcontracting page](/docs/v13/user/manual/en/manufacturing/subcontracting).
+Setting 'Supply Raw Materials' option is useful for subcontracting where you provide the raw materials for manufacturing an Item. To know more, visit the [Subcontracting page](/docs/pt/manufacturing/subcontracting).
 
 
 ### 3.7 Items table
 
 
-* **scan barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/v13/user/manual/en/stock/articles/track-items-using-barcode) to know more.
-* The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/v13/user/manual/en/stock/item).
+* **scan barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/pt/stock/articles/track-items-using-barcode) to know more.
+* The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/pt/stock/item).
 * **Manufacturer**: If the Item is manufactured by a specific manufacturer, it can be added here. This will be fetched if set in the Item master.
 * **Quantity and Rate**: When you select the Item code, its name, description, and UOM will be fetched. The 'UOM Conversion Factor' is set to 1 by default, you can change it depending on the UOM received from the seller, more in the next section.
 
 
 'Price List Rate' will be fetched if a Standard Buying rate is set. 'Last Purchase Rate' shows the rate of the item from your last Purchase Order. Rate is fetched if set in the item master. You can attach an Item Tax Template to apply a specific tax rate to the item.
 * **Item weights** will be fetched if set in the Item master else enter manually.
-* **Discount on Price List Rate**: You can apply a discount on individual Items percentage-wise or on the total amount of the Item. Read [Applying Discount](/docs/v13/user/manual/en/selling/articles/applying-discount) for more details.
+* **Discount on Price List Rate**: You can apply a discount on individual Items percentage-wise or on the total amount of the Item. Read [Applying Discount](/docs/pt/selling/articles/applying-discount) for more details.
 * **Item Weight**: The Item Weight details per unit and Weight UOM are fetched if set in the Item master, else enter manually.
 * **Accounting Details**: The Expense account can be changed here you wish to.
-* **Deferred Expense**: If the expense for this Item will be billed over the coming months in parts, then tick on 'Enable Deferred Expense'. To know more, visit the [Deferred Expense page](/docs/v13/user/manual/en/accounts/deferred-expense).
+* **Deferred Expense**: If the expense for this Item will be billed over the coming months in parts, then tick on 'Enable Deferred Expense'. To know more, visit the [Deferred Expense page](/docs/pt/accounts/deferred-expense).
 * **Allow Zero Valuation Rate**: Ticking on 'Allow Zero Valuation Rate' will allow submitting the Purchase Receipt even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
-* **BOM**: If there is a [Bill of Materials](/docs/v13/user/manual/en/manufacturing/bill-of-materials) created for the Item, it'll be fetched here. This is useful for reference when [subcontracting](/docs/v13/user/manual/en/manufacturing/subcontracting).
-* **Item Tax Template**: You can set an Item Tax Template to apply a specific Tax amount to this particular Item. To know more, visit [this page](/docs/v13/user/manual/en/accounts/item-tax-template).
+* **BOM**: If there is a [Bill of Materials](/docs/pt/manufacturing/bill-of-materials) created for the Item, it'll be fetched here. This is useful for reference when [subcontracting](/docs/pt/manufacturing/subcontracting).
+* **Item Tax Template**: You can set an Item Tax Template to apply a specific Tax amount to this particular Item. To know more, visit [this page](/docs/pt/accounts/item-tax-template).
 * **Page Break** will create a page break just before this Item when printing.
 
 
@@ -192,7 +192,7 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 
 
 > 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/v13/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
 > 
 > 
 > 
@@ -204,19 +204,19 @@ The **Update Stock** checkbox should be checked if you want ERPNext to automatic
 ### 3.8 Taxes and charges
 
 
-The Taxes and Charges will be fetched from the [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order) or [Purchase Receipt](/docs/v13/user/manual/en/stock/purchase-receipt).
+The Taxes and Charges will be fetched from the [Purchase Order](/docs/pt/buying/purchase-order) or [Purchase Receipt](/docs/pt/stock/purchase-receipt).
 
 
 ![Purchase Invoice Tax](/files/purchase-invoice-tax.png)
 
 
-Visit the [Purchase Taxes and Charges Template](/docs/v13/user/manual/en/buying/purchase-taxes-and-charges-template) page to know more about taxes.
+Visit the [Purchase Taxes and Charges Template](/docs/pt/buying/purchase-taxes-and-charges-template) page to know more about taxes.
 
 
 The total taxes and charges will be displayed below the table.
 
 
-To add taxes automatically via a Tax Category, visit [this page](/docs/v13/user/manual/en/accounts/tax-category).
+To add taxes automatically via a Tax Category, visit [this page](/docs/pt/accounts/tax-category).
 
 
 Make sure to mark all your taxes in the Taxes and Charges table correctly for an accurate valuation.
@@ -225,7 +225,7 @@ Make sure to mark all your taxes in the Taxes and Charges table correctly for an
 #### Shipping Rule
 
 
-A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/v13/user/manual/en/selling/shipping-rule) page.
+A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/pt/selling/shipping-rule) page.
 
 
 ### 3.9 Additional Discount
@@ -237,13 +237,13 @@ Any additional discounts to the whole Invoice can be set in this section. This d
 ![Purchase Invoice Discount](/files/purchase-invoice-additional-discount.png)
 
 
-Visit the [Applying Discount](/docs/v13/user/manual/en/selling/articles/applying-discount) page for more details.
+Visit the [Applying Discount](/docs/pt/selling/articles/applying-discount) page for more details.
 
 
 ### 3.10 Advance Payment
 
 
-For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where advance payment was made. To know more, visit the [Advance Payment Entry](/docs/v13/user/manual/en/accounts/advance-payment-entry) page.
+For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where advance payment was made. To know more, visit the [Advance Payment Entry](/docs/pt/accounts/advance-payment-entry) page.
 
 
 ### 3.11 Payment Terms
@@ -255,19 +255,19 @@ The payment for an invoice may be made in parts depending on your understanding 
 ![Purchase Invoice Payment Terms](/files/purchase-invoice-payment-terms.png)
 
 
-To know more, visit the [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms) page.
+To know more, visit the [Payment Terms](/docs/pt/accounts/payment-terms) page.
 
 
 ### 3.12 Write Off
 
 
-Write off happens when the Customer pays an amount less than the invoice amount. This may be a small difference like 0.50. Over several orders, this might add up to a big number. For accounting accuracy, this difference amount is 'written off'. To know more, visit the [Payment Terms](/docs/v13/user/manual/en/accounts/payment-entry#25-deductions-or-loss) page.
+Write off happens when the Customer pays an amount less than the invoice amount. This may be a small difference like 0.50. Over several orders, this might add up to a big number. For accounting accuracy, this difference amount is 'written off'. To know more, visit the [Payment Terms](/docs/pt/accounts/payment-entry#25-deductions-or-loss) page.
 
 
 ### 3.13 Terms and Conditions
 
 
-In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/v13/user/manual/en/setting-up/print/terms-and-conditions)
+In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/pt/setting-up/print/terms-and-conditions)
 
 
 ### 3.14 Printing Settings
@@ -276,7 +276,7 @@ In Sales/Purchase transactions there might be certain Terms and Conditions based
 #### Letterhead
 
 
-You can print your Purchase Invoice on your Company's letterhead. Know more [here](/docs/v13/user/manual/en/setting-up/print/letter-head).
+You can print your Purchase Invoice on your Company's letterhead. Know more [here](/docs/pt/setting-up/print/letter-head).
 
 
 'Group same items' will group the same items added multiple times in the Items table. This can be seen when your print.
@@ -285,7 +285,7 @@ You can print your Purchase Invoice on your Company's letterhead. Know more [her
 #### Print Headings
 
 
-Purchase Invoice headings can also be changed when printing the document. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/v13/user/manual/en/setting-up/print/print-headings).
+Purchase Invoice headings can also be changed when printing the document. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/pt/setting-up/print/print-headings).
 
 
 There are additional checkboxes for printing the Purchase Invoice without the amount, this might be useful when the Item is of high value. You can also group the same Items in one row when printing.
@@ -321,11 +321,11 @@ The following details can be set for GST:
 On submitting a Purchase Invoice, the following documents can be created against it:
 
 
-1. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
-2. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-3. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
-4. [Landed Cost Voucher](/docs/v13/user/manual/en/stock/landed-cost-voucher)
-5. [Asset](/docs/v13/user/manual/en/asset/asset)
+1. [Journal Entry](/docs/pt/accounts/journal-entry)
+2. [Payment Entry](/docs/pt/accounts/payment-entry)
+3. [Payment Request](/docs/pt/accounts/payment-request)
+4. [Landed Cost Voucher](/docs/pt/stock/landed-cost-voucher)
+5. [Asset](/docs/pt/asset/asset)
 
 
 ![PI Submit](/files/purchase-invoice-post-submit.png)
@@ -459,12 +459,12 @@ Take note of the following:
 ### 5. Related Topics
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Item Wise Taxation](/docs/v13/user/manual/en/accounts/item-tax-template)
-3. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-4. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
-5. [Request For Quotation](/docs/v13/user/manual/en/buying/request-for-quotation)
-6. [Purchase Order](/docs/v13/user/manual/en/buying/purchase-order)
-7. [Purchase Receipt](/docs/v13/user/manual/en/stock/purchase-receipt)
+1. [Sales Invoice](/docs/pt/accounts/sales-invoice)
+2. [Item Wise Taxation](/docs/pt/accounts/item-tax-template)
+3. [Payment Entry](/docs/pt/accounts/payment-entry)
+4. [Payment Request](/docs/pt/accounts/payment-request)
+5. [Request For Quotation](/docs/pt/buying/request-for-quotation)
+6. [Purchase Order](/docs/pt/buying/purchase-order)
+7. [Purchase Receipt](/docs/pt/stock/purchase-receipt)
 
 

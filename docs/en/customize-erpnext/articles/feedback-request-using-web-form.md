@@ -13,7 +13,7 @@ Following are the steps on how you should configure a feature and start collecti
 Create a Custom DocType for Rating on these lines  
 ![](/files/oUDbd8e.png)  
 1. In the first fields, list a DocTypes for which you want to collect a rating
-2. In the Document Name field, just enter the name of first field "document", so that it becomes a [Dynamic Link](https://docs.erpnext.com/docs/v14/user/manual/en/customize-erpnext/articles/dynamic-link-fields) field.
+2. In the Document Name field, just enter the name of first field "document", so that it becomes a [Dynamic Link](https://docs.erpnext.com/docs/en/customize-erpnext/articles/dynamic-link-fields) field.
 3. Enter a Rating field. You can also choose other data or select field, if you wish to take rating on those lines.
 
   

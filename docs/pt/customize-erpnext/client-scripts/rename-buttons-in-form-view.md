@@ -1,4 +1,4 @@
-# Renomear botões na visualização de formulário
+# Renomear botões na exibição de formulário
 
 
 Em um pedido de venda enviado, você pode ver várias opções na opção 'Criar':
@@ -29,13 +29,14 @@ frappe.ui.form.on('Pedido de Venda', {
 
 ```
 
-Usando este script, removemos/ocultamos os botões indesejados e renomeamos um:
+Usando este script, removemos/ocultamos os botões indesejados e renomeamos um deles:
 
 
 ![Script personalizado](/files/customize-button-rename.png)
 
 
-**Observação:** Para saber mais sobre as APIs JS, visite a [documentação do frappe](https://frappe.io/docs/v13/user/en/api/form).
+**Observação:** para saber mais sobre as APIs JS, visite a [documentação do frappe](https://frappe.io/docs/v13/user/en/api/form) .
 
 
 Para verificar o método que é chamado, você precisará verificar o arquivo JS para esse doctype. Neste exemplo, para renomear 'Request For Raw Materials', estamos nos referindo a [esta linha](https://github.com/frappe/erpnext/blob/782f45ae5f272173b5daadb493d40cf7ccf131b4/erpnext/selling/doctype/sales_order/sales_order.js# L167).
+

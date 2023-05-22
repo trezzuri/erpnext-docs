@@ -65,8 +65,8 @@ In case any mandatory dimension is missing or a restricted dimension is tagged a
 ### Related Topics
 
 
-1. [Cost Center](/docs/v13/user/manual/en/accounts/cost-center)
-2. [Budgeting](/docs/v13/user/manual/en/accounts/budgeting)
-3. [Accounting Dimensions](/docs/v13/user/manual/en/accounts/accounting-dimensions)
+1. [Cost Center](/docs/en/accounts/cost-center)
+2. [Budgeting](/docs/en/accounts/budgeting)
+3. [Accounting Dimensions](/docs/en/accounts/accounting-dimensions)
 
 

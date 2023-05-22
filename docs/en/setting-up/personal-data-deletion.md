@@ -89,6 +89,6 @@ You can also set an SLA for Personal Data Deletion Request through Website Setti
 ### 4. Related Topics
 
 
-1. [Personal Data Download](/docs/v13/user/manual/en/setting-up/personal-data-download)
+1. [Personal Data Download](/docs/en/setting-up/personal-data-download)
 
 

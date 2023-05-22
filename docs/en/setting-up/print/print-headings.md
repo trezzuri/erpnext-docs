@@ -55,10 +55,10 @@ Example of a change in print heading is shown as follows:
 ### 3. Related Topics
 
 
-1. [Print Format](/docs/v13/user/manual/en/setting-up/print/print-format)
-2. [Print Style](/docs/v13/user/manual/en/setting-up/print/print-style)
-3. [Letter Head](/docs/v13/user/manual/en/setting-up/print/letter-head)
-4. [Cheque Print Template](/docs/v13/user/manual/en/setting-up/print/cheque-print-template)
-5. [Quotation](/docs/v13/user/manual/en/selling/quotation)
+1. [Print Format](/docs/en/setting-up/print/print-format)
+2. [Print Style](/docs/en/setting-up/print/print-style)
+3. [Letter Head](/docs/en/setting-up/print/letter-head)
+4. [Cheque Print Template](/docs/en/setting-up/print/cheque-print-template)
+5. [Quotation](/docs/en/selling/quotation)
 
 

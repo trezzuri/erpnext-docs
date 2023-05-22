@@ -25,8 +25,8 @@ To access the Process Deferred Accounting list, go to:
 Before creating and using a Process Deferred Accounting, it is advised to create and understand the following first:
 
 
-* [Deferred Revenue](/docs/v13/user/manual/en/accounts/deferred-revenue)
-* [Deferred Expense](/docs/v13/user/manual/en/accounts/deferred-expense)
+* [Deferred Revenue](/docs/en/accounts/deferred-revenue)
+* [Deferred Expense](/docs/en/accounts/deferred-expense)
 
 
 ## 2. How to create a Process Deferred Accounting

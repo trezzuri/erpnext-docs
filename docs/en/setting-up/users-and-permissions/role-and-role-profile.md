@@ -5,13 +5,13 @@
 **A Role defines the permissions for accessing various documents in ERPNext.**
 
 
-Roles define a set of permissions which can be set from the [Roles Permission Manager](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions). Most commonly used roles are already defined in ERPNext, you can use the system with them. If needed, you can add more roles. For example, if you assign the Sales User role to a user, they'll be able to access documents like Quotations and Sales Orders since the permissions are already set for the role Sales User.
+Roles define a set of permissions which can be set from the [Roles Permission Manager](/docs/en/setting-up/users-and-permissions/role-based-permissions). Most commonly used roles are already defined in ERPNext, you can use the system with them. If needed, you can add more roles. For example, if you assign the Sales User role to a user, they'll be able to access documents like Quotations and Sales Orders since the permissions are already set for the role Sales User.
 
 
 **Role profiles store different roles so that multiple roles can be assigned at once.**
 
 
-Role Profiles act as a template to store and select multiple roles. This Role Profile can then be assigned to a [User](/docs/v13/user/manual/en/setting-up/users-and-permissions/adding-users). For example, a Sales Supervisor will have the roles Employee, Sales Manager, Sales User, and Sales Master Manager. Role Profiles are useful to assign multiple roles at once when adding multiple employees.
+Role Profiles act as a template to store and select multiple roles. This Role Profile can then be assigned to a [User](/docs/en/setting-up/users-and-permissions/adding-users). For example, a Sales Supervisor will have the roles Employee, Sales Manager, Sales User, and Sales Master Manager. Role Profiles are useful to assign multiple roles at once when adding multiple employees.
 
 
 To access Role, go to:
@@ -34,7 +34,7 @@ To access Role, go to:
 4. Save.
 
 
-You can add two factor authentication for the role and also restrict it to a specific domain. From here, you can go to the [Roles Permission Manager](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions) and set permissions for the role across different DocTypes.
+You can add two factor authentication for the role and also restrict it to a specific domain. From here, you can go to the [Roles Permission Manager](/docs/en/setting-up/users-and-permissions/role-based-permissions) and set permissions for the role across different DocTypes.
 
 
 ![Permissions for new Role](/files/role-permissions.png)
@@ -66,8 +66,8 @@ To access Role Profile, go to:
 ### 3. Related Topics
 
 
-1. [Role Based Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-based-permissions)
-2. [User Permissions](/docs/v13/user/manual/en/setting-up/users-and-permissions/user-permissions)
-3. [Role Permission For Page And Report](/docs/v13/user/manual/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
+1. [Role Based Permissions](/docs/en/setting-up/users-and-permissions/role-based-permissions)
+2. [User Permissions](/docs/en/setting-up/users-and-permissions/user-permissions)
+3. [Role Permission For Page And Report](/docs/en/setting-up/users-and-permissions/role-permission-for-page-and-report)
 
 

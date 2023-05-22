@@ -26,7 +26,7 @@ Inter company Journal Entries are created using the Journal Entry form in ERPNex
 Before creating an Inter Company Journal Entry, you need the following:
 
 
-* At least two [Companies](/docs/v13/user/manual/en/setting-up/company-setup)
+* At least two [Companies](/docs/en/setting-up/company-setup)
 
 
 ## 2. How to create an Inter Company Journal Entry
@@ -72,7 +72,7 @@ You can also find the reference link at the bottom, which will be added in both 
 ### 3. Related Topics
 
 
-1. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
-2. [Inter Company Invoices](/docs/v13/user/manual/en/accounts/inter-company-invoices)
+1. [Journal Entry](/docs/en/accounts/journal-entry)
+2. [Inter Company Invoices](/docs/en/accounts/inter-company-invoices)
 
 

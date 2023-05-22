@@ -1,4 +1,4 @@
-# Remova o link na parte inferior da página de impressão
+# Remover link na parte inferior da página de impressão
 
 
 **Pergunta:**
@@ -13,7 +13,7 @@ Como remover o link ERPNext na parte inferior da página durante a impressão?
 **Solução:**
 
 
-Para remover a url na parte inferior da página de impressão, siga as etapas abaixo:
+Para remover a URL na parte inferior da página de impressão, siga os passos abaixo:
 
 
 1) Clique no botão Imprimir.
@@ -35,3 +35,4 @@ Para remover a url na parte inferior da página de impressão, siga as etapas ab
 
 
 4) Clique em Salvar.
+

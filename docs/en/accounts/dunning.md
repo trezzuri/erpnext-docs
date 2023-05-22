@@ -22,7 +22,7 @@ To access the Dunning list, go to:
 ## 1. Prerequisites
 
 
-* [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
+* [Sales Invoice](/docs/en/accounts/sales-invoice)
 
 
 A Dunning can only be created against an overdue Sales Invoice.
@@ -96,7 +96,7 @@ When you receive a full payment, including interest and fees, please open the un
 ## 4. Related Topics
 
 
-1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-2. [Sales Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
+1. [Payment Entry](/docs/en/accounts/payment-entry)
+2. [Sales Invoice](/docs/en/accounts/purchase-invoice)
 
 

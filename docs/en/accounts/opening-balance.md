@@ -34,7 +34,7 @@ We recommend that you start using ERPNext for accounting from a new financial ye
 3. Accounts Payables(AP) i.e. unpaid invoices which your suppliers have sent you
 
 
-If you were using another accounting software before, you should **close** financial statements in that software first. The closing balance of the accounts should be updated as an opening balance in the ERPNext. Before starting to update opening balance, ensure that your [Chart of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts) has all the Accounts required.
+If you were using another accounting software before, you should **close** financial statements in that software first. The closing balance of the accounts should be updated as an opening balance in the ERPNext. Before starting to update opening balance, ensure that your [Chart of Accounts](/docs/en/accounts/chart-of-accounts) has all the Accounts required.
 
 
 Opening entries can be created using the Opening Invoice Creation Tool in ERPNext.
@@ -51,28 +51,28 @@ Opening entries can be created using the Opening Invoice Creation Tool in ERPNex
 ## 2. Opening Balance of Assets
 
 
-2.1 [Fixed Assets](/docs/v13/user/manual/en/accounts/opening-balance/fixed_assets)
+2.1 [Fixed Assets](/docs/en/accounts/opening-balance/fixed_assets)
 
 
-2.2 [Stock Assets](/docs/v13/user/manual/en/stock/opening-stock)
+2.2 [Stock Assets](/docs/en/stock/opening-stock)
 
 
-2.3 [Accounts Receivable](/docs/v13/user/manual/en/accounts/opening-balance/accounts_receivable)
+2.3 [Accounts Receivable](/docs/en/accounts/opening-balance/accounts_receivable)
 
 
-2.4 [Current Assets](/docs/v13/user/manual/en/accounts/opening-balance/current_assets)
+2.4 [Current Assets](/docs/en/accounts/opening-balance/current_assets)
 
 
 ## 3. Opening Balance of Liabilities
 
 
-3.1 [Capital Accounts](/docs/v13/user/manual/en/accounts/opening-balance/capital_accounts)
+3.1 [Capital Accounts](/docs/en/accounts/opening-balance/capital_accounts)
 
 
-3.2 [Current Liabilities](/docs/v13/user/manual/en/accounts/opening-balance/current_liabilities)
+3.2 [Current Liabilities](/docs/en/accounts/opening-balance/current_liabilities)
 
 
-3.3 [Accounts Payable](/docs/v13/user/manual/en/accounts/opening-balance/accounts_payable)
+3.3 [Accounts Payable](/docs/en/accounts/opening-balance/accounts_payable)
 
 
 ## 4. Verify the Opening Balance
@@ -93,9 +93,9 @@ Once all assets and liabilities have been imported, the balance of **Temporary O
 ### 6. Related Topics
 
 
-1. [Chart of Accounts](/docs/v13/user/manual/en/accounts/chart-of-accounts)
-2. [Journal Entry](/docs/v13/user/manual/en/accounts/journal-entry)
-3. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-4. [Payment Reconciliation](/docs/v13/user/manual/en/accounts/payment-reconciliation)
+1. [Chart of Accounts](/docs/en/accounts/chart-of-accounts)
+2. [Journal Entry](/docs/en/accounts/journal-entry)
+3. [Payment Entry](/docs/en/accounts/payment-entry)
+4. [Payment Reconciliation](/docs/en/accounts/payment-reconciliation)
 
 

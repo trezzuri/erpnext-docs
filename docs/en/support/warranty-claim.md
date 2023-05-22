@@ -25,9 +25,9 @@ To access the Warranty Claim list, go to:
 Before creating and using Warranty Claim, it is advised that you create the following first:
 
 
-* [Customer](/docs/v13/user/manual/en/CRM/customer)
-* [Serial Number](/docs/v13/user/manual/en/stock/serial-no)
-* [Item](/docs/v13/user/manual/en/stock/item)
+* [Customer](/docs/en/CRM/customer)
+* [Serial Number](/docs/en/stock/serial-no)
+* [Item](/docs/en/stock/item)
 
 
 ## 2. How to Create Warranty Claim
@@ -80,7 +80,7 @@ The details about Warranty/AMC will be fetched according to the Serial Number.
 
 
 * **Resolution Date:** When the warranty or AMC is Closed, current date and time will be fetched in resolution Date field automatically. This field is also editable.
-* **Resolved By:** Set the Email ID of the User who has resolved the Warranty Claim. The email ID is linked with [User](/docs/v13/user/manual/en/setting-up/users-and-permissions/adding-users) created in the system.
+* **Resolved By:** Set the Email ID of the User who has resolved the Warranty Claim. The email ID is linked with [User](/docs/en/setting-up/users-and-permissions/adding-users) created in the system.
 * **Resolved Details:** This is a text field. User can enter details about the Warranty or AMC claim. A User can also upload the image, enter or create a table.
 
 
@@ -90,7 +90,7 @@ The details about Warranty/AMC will be fetched according to the Serial Number.
 ### 3.3 Customer Details
 
 
-The following details of the [Customer](/docs/v13/user/manual/en/CRM/customer) will be fetched:
+The following details of the [Customer](/docs/en/CRM/customer) will be fetched:
 
 
 * Customer Name
@@ -121,7 +121,7 @@ Maintenance Visit record from this.
 ## 4. Related Topics
 
 
-1. [Issue](/docs/v13/user/manual/en/support/issue)
-2. [Maintenance Visit](/docs/v13/user/manual/en/support/maintenance-visit)
+1. [Issue](/docs/en/support/issue)
+2. [Maintenance Visit](/docs/en/support/maintenance-visit)
 
 

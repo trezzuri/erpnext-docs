@@ -80,8 +80,8 @@ If **Book Cost Center Wise Profit/Loss** is enabled, the net profit & loss will 
 ### 2. Related Topics
 
 
-1. [Fiscal Year](/docs/v13/user/manual/en/accounts/fiscal-year)
-2. [Tax Withholding Category](/docs/v13/user/manual/en/accounts/tax-withholding-category)
-3. [Accounting Period](/docs/v13/user/manual/en/accounts/accounting-period)
+1. [Fiscal Year](/docs/en/accounts/fiscal-year)
+2. [Tax Withholding Category](/docs/en/accounts/tax-withholding-category)
+3. [Accounting Period](/docs/en/accounts/accounting-period)
 
 

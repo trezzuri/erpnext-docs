@@ -42,7 +42,7 @@ For example, you can create a Purchase Invoice for a company say 'Company ABC', 
 ### 1.2 Creating the Invoice
 
 
-1. Now, create a new [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice), fill up the fields.
+1. Now, create a new [Sales Invoice](/docs/en/accounts/sales-invoice), fill up the fields.
 2. Remember to select the Customer who is an internal customer and company from which he's buying.
 3. Save and Submit the Invoice.
 
@@ -80,8 +80,8 @@ You can follow the same process to create a Purchase Invoice and then an inter-l
 ### 2. Related Topics
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
-3. [Inter Company Journal Entry](/docs/v13/user/manual/en/accounts/inter-company-journal-entry)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
+3. [Inter Company Journal Entry](/docs/en/accounts/inter-company-journal-entry)
 
 

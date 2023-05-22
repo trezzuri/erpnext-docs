@@ -56,7 +56,7 @@ Enabling this will allow the deletion of linked General Ledger and Stock Ledger 
 ### 8. Book Asset Depreciation Entry Automatically
 
 
-When checked, an automatic entry for an asset depreciation will be created based on the first date set. For example, yearly depreciation for an item will be scheduled for the next 3/4 years based on the Number of Depreciations Booked set in the Asset master. For more details, visit the [Asset Depreciation](/docs/v13/user/manual/en/asset/asset-depreciation) page.
+When checked, an automatic entry for an asset depreciation will be created based on the first date set. For example, yearly depreciation for an item will be scheduled for the next 3/4 years based on the Number of Depreciations Booked set in the Asset master. For more details, visit the [Asset Depreciation](/docs/en/asset/asset-depreciation) page.
 
 
 ### 9. Unlink Advance Payment on Cancellation of Order
@@ -68,7 +68,7 @@ Similar to the previous option, this unlinks any advance payments made against P
 ### 10. Enable Common Party Accounting
 
 
-If checked, an adjustment Journal Entry will be posted automatically on creation of Sales/Purchase Invoices against common Customer & Supplier. For more details, visit [Common Party Accounting](/docs/v13/user/manual/en/accounts/articles/common_party_accounting)
+If checked, an adjustment Journal Entry will be posted automatically on creation of Sales/Purchase Invoices against common Customer & Supplier. For more details, visit [Common Party Accounting](/docs/en/accounts/articles/common_party_accounting)
 
 
 ### 11. Create Ledger Entries for Change Amount
@@ -92,19 +92,19 @@ If checked, Discount Accounts can be added in the Items table of Sales Invoices,
 ### 1. Determine Address Tax Category From
 
 
-[Tax category](/docs/v13/user/manual/en/accounts/tax-category) can be set on Addresses. An address can be Shipping or Billing address. Set which addres to select when applying Tax Category.
+[Tax category](/docs/en/accounts/tax-category) can be set on Addresses. An address can be Shipping or Billing address. Set which addres to select when applying Tax Category.
 
 
 ### 2. Automatically Add Taxes and Charges from Item Tax Template
 
 
-Enabling this will populate the Taxes table in transactions if an [Item Tax Template](/docs/v13/user/manual/en/accounts/item-tax-template) is set for an Item and that Item is selected in the transaction.
+Enabling this will populate the Taxes table in transactions if an [Item Tax Template](/docs/en/accounts/item-tax-template) is set for an Item and that Item is selected in the transaction.
 
 
 ### 3. Book Tax Loss on Early Payment Discount
 
 
-Enabling this will split the Payment Entry discount deductions into Income Loss and Tax Loss if the document against the Payment Entry has an [Early Payment Discount](/docs/v14/user/manual/en/accounts/payment-terms#11-setting-up-discount-on-early-payments) set.
+Enabling this will split the Payment Entry discount deductions into Income Loss and Tax Loss if the document against the Payment Entry has an [Early Payment Discount](/docs/en/accounts/payment-terms#11-setting-up-discount-on-early-payments) set.
 
 
 ## Period Closing Settings
@@ -140,7 +140,7 @@ Deferred revenue amount can be booked based on two criteria. The default option 
 ### 2. Automatically Process Deferred Accounting Entry
 
 
-This setting is enabled by default. In case you don't want the deferred accounting entries to be posted automatically you can disable this setting. If this setting is disabled deferred accounting will have to be processed manually using [Process Deferred Accounting](/docs/v13/user/manual/en/accounts/process-deferred-accounting)
+This setting is enabled by default. In case you don't want the deferred accounting entries to be posted automatically you can disable this setting. If this setting is disabled deferred accounting will have to be processed manually using [Process Deferred Accounting](/docs/en/accounts/process-deferred-accounting)
 
 
 ### 3. Book Deferred Entries Via Journal Entry
@@ -170,7 +170,7 @@ The applied taxes will be shown in the print view.
 ### 2. Show Payment Schedule in Print
 
 
-The Payment Schedule table is visible on using [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms). Enabling this will show this table in print view.
+The Payment Schedule table is visible on using [Payment Terms](/docs/en/accounts/payment-terms). Enabling this will show this table in print view.
 
 
 ## Currency Exchange Settings
@@ -211,6 +211,6 @@ If stale rates are disabled, the order of fetching is:
 ### 1. Use Custom Cash Flow Format
 
 
-You may choose to use Custom Cash Flow Formats to customize what the Cash Flow report looks like. To know more, [visit this page](/docs/v13/user/manual/en/accounts/articles/how-to-customise-cash-flow-report).
+You may choose to use Custom Cash Flow Formats to customize what the Cash Flow report looks like. To know more, [visit this page](/docs/en/accounts/articles/how-to-customise-cash-flow-report).
 
 

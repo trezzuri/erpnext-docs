@@ -1,4 +1,4 @@
-# Restrinja a finalidade da entrada de estoque
+# Restringir a finalidade da entrada de estoque
 
 
 

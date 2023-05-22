@@ -5,7 +5,7 @@
 **A Tax Rule automatically applies taxes to transactions based on preset rules.**
 
 
-You can define which [Tax Template](/docs/v13/user/manual/en/setting-up/setting-up-taxes.html) must be applied on a Sales / Purchase transaction using Tax Rule. This is decided by various factors like Customer, Customer Group, Supplier, Supplier Group, Item, Item Group or a combination of these.
+You can define which [Tax Template](/docs/en/setting-up/setting-up-taxes.html) must be applied on a Sales / Purchase transaction using Tax Rule. This is decided by various factors like Customer, Customer Group, Supplier, Supplier Group, Item, Item Group or a combination of these.
 
 
 To access the Tax Rule list, go to:
@@ -25,11 +25,11 @@ To access the Tax Rule list, go to:
 Before creating and using a Tax Rule, it is advised to create the following first:
 
 
-1. [Sales Taxes and Charges Template](/docs/v13/user/manual/en/selling/sales-taxes-and-charges-template)
+1. [Sales Taxes and Charges Template](/docs/en/selling/sales-taxes-and-charges-template)
 
 
 Or
-2. [Purchase Taxes and Charges Template](/docs/v13/user/manual/en/buying/purchase-taxes-and-charges-template)
+2. [Purchase Taxes and Charges Template](/docs/en/buying/purchase-taxes-and-charges-template)
 
 
 ## 2. How to create a Tax Rule
@@ -42,12 +42,12 @@ Or
 ![Tax Rule](/files/tax-rule.png)
 
 
-You can list Items online using the Website module. Selecting 'Use for Shopping Cart' will use this Tax Rule for Shopping Cart transactions also. To know more, visit the [Shopping Cart](/docs/v13/user/manual/en/e_commerce/shopping-cart) page.
+You can list Items online using the Website module. Selecting 'Use for Shopping Cart' will use this Tax Rule for Shopping Cart transactions also. To know more, visit the [Shopping Cart](/docs/en/e_commerce/shopping-cart) page.
 
 
 
 > 
-> Note: It is advised to not use the Sales/Purchase Template selected here in [Item Tax Template](/docs/v13/user/manual/en/accounts/item-tax-template), it may cause interference. If you want to use same tax rates for Tax Rule and Item Tax Template, use a different name for the Sales/Purchase Tax Templates.
+> Note: It is advised to not use the Sales/Purchase Template selected here in [Item Tax Template](/docs/en/accounts/item-tax-template), it may cause interference. If you want to use same tax rates for Tax Rule and Item Tax Template, use a different name for the Sales/Purchase Tax Templates.
 > 
 > 
 > 
@@ -74,7 +74,7 @@ On setting an Item or Item group in the Tax Rule, this Tax Rule will automatical
 ### 3.3 Setting a Tax Category
 
 
-Setting a Tax Category allows applying multiple Tax Rules to a transaction based on different factors. To know more, visit the [Tax Category](/docs/v13/user/manual/en/accounts/tax-category) page.
+Setting a Tax Category allows applying multiple Tax Rules to a transaction based on different factors. To know more, visit the [Tax Category](/docs/en/accounts/tax-category) page.
 
 
 ### 3.4 Validity
@@ -116,10 +116,10 @@ Once you select a customer and a billing address of that customer with city as '
 ### 5. Related Topics
 
 
-1. [Pricing Rule](/docs/v13/user/manual/en/accounts/pricing-rule)
-2. [Item Tax Template](/docs/v13/user/manual/en/accounts/item-tax-template)
-3. [Tax Category](/docs/v13/user/manual/en/accounts/tax-category)
-4. [Customer](/docs/v13/user/manual/en/CRM/customer)
-5. [Supplier](/docs/v13/user/manual/en/buying/supplier)
+1. [Pricing Rule](/docs/en/accounts/pricing-rule)
+2. [Item Tax Template](/docs/en/accounts/item-tax-template)
+3. [Tax Category](/docs/en/accounts/tax-category)
+4. [Customer](/docs/en/CRM/customer)
+5. [Supplier](/docs/en/buying/supplier)
 
 

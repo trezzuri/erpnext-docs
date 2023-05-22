@@ -1,13 +1,13 @@
-# Código aberto
+# Código Aberto
 
 
-O ERPNext é um software gratuito e de código aberto publicado sob a licença [GNU General Public License (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html). E esta licença concede a você
+ERPNext é um software gratuito e de código aberto publicado sob [GNU General Public License (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html) licença. E esta licença concede a você 
 
 
 * a liberdade de usar o software para qualquer finalidade
 * a liberdade de alterar o software para atender às suas necessidades
 * a liberdade de compartilhar o software com qualquer pessoa
-* a liberdade de compartilhar as mudanças que você faz
+* a liberdade de compartilhar as alterações feitas
 
 
 O código-fonte do ERPNext está disponível no [GitHub.](https://github.com/frappe/erpnext)

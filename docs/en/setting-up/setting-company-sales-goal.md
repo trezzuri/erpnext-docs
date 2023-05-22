@@ -22,8 +22,8 @@
 ### Related Topics
 
 
-1. [Company Setup](/docs/v13/user/manual/en/setting-up/company-setup)
-2. [Sales Order](/docs/v13/user/manual/en/selling/sales-order)
-3. [Sales Partner](/docs/v13/user/manual/en/selling/sales-partner)
+1. [Company Setup](/docs/en/setting-up/company-setup)
+2. [Sales Order](/docs/en/selling/sales-order)
+3. [Sales Partner](/docs/en/selling/sales-partner)
 
 

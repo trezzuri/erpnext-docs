@@ -28,7 +28,7 @@ To access the Subscription list, go to:
 Before creating and using a Subscription, it is advisable to create the following first:
 
 
-1. [Subscription Plan](/docs/v13/user/manual/en/accounts/subscription-plan)
+1. [Subscription Plan](/docs/en/accounts/subscription-plan)
 
 
 ## 2. How to set a Subscription
@@ -39,7 +39,7 @@ Before creating and using a Subscription, it is advisable to create the followin
 3. Set the Start Date from when the subscription will be active.
 4. Optionally you can also enter the subscription end date if you know it before hand.
 5. Days Until Due is the number of days within which Customer has to pay a generated Sales Invoice.
-6. Select the [Subscription Plans](/docs/v13/user/manual/en/accounts/subscription-plan).
+6. Select the [Subscription Plans](/docs/en/accounts/subscription-plan).
 7. Save.
 ![Subscription](/files/subscription.png)
 
@@ -66,7 +66,7 @@ On enabling the 'Cancel At End Of Period' the Subscription will be canceled at t
 ### 3.3 Taxes
 
 
-You can apply Taxes to a Subscription by using a Sales Taxes and Charges Template. Visit the [Sales Taxes and Charges Template](/docs/v13/user/manual/en/selling/sales-taxes-and-charges-template) page to know more.
+You can apply Taxes to a Subscription by using a Sales Taxes and Charges Template. Visit the [Sales Taxes and Charges Template](/docs/en/selling/sales-taxes-and-charges-template) page to know more.
 
 
 ### 3.4 Applying discounts
@@ -74,13 +74,13 @@ You can apply Taxes to a Subscription by using a Sales Taxes and Charges Templat
 
 You can apply additional discounts on the Subscription based on Grand Total (pre tax) or Net Total (post tax). A discount percentage can also be set. For example, a discount of 2% on 12,000 would be 240 in discount.
  ![Subscription Discount](/files/subscription-discount.png)
-Visit the [Applying Discount](/docs/v13/user/manual/en/selling/articles/applying-discount) page for more details.
+Visit the [Applying Discount](/docs/en/selling/articles/applying-discount) page for more details.
 
 
 ### 3.5 Automatically create invoices
 
 
-Based on the [Subscription Plans](/docs/v13/user/manual/en/accounts/subscription-plan) interval, invoices will be created automatically. "Generate Invoice At Beginning Of Period" needs to be enabled if you want to generate invoices as soon as the subscription is active. If "Generate New Invoices Past Due Date" is enabled then new invoices will keep on generating even though current invoice is unpaid or past due date. If "Generate Invoice Early" is enabled, an invoice will be generated before the end of the period by the number of days entered in "Generate Invoice Days Early."
+Based on the [Subscription Plans](/docs/en/accounts/subscription-plan) interval, invoices will be created automatically. "Generate Invoice At Beginning Of Period" needs to be enabled if you want to generate invoices as soon as the subscription is active. If "Generate New Invoices Past Due Date" is enabled then new invoices will keep on generating even though current invoice is unpaid or past due date. If "Generate Invoice Early" is enabled, an invoice will be generated before the end of the period by the number of days entered in "Generate Invoice Days Early."
 
 
 The generated invoices will be submitted automatically by default. If 'Submit Invoice Automatically' is disabled, the invoice will be saved as a draft.
@@ -123,10 +123,10 @@ Clicking on the **Fetch Subscription Updates** button will update the Subscripti
 ### 5. Related Topics
 
 
-1. [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice)
-2. [Purchase Invoice](/docs/v13/user/manual/en/accounts/purchase-invoice)
-3. [Item](/docs/v13/user/manual/en/stock/item)
-4. [Customer](/docs/v13/user/manual/en/CRM/customer)
-5. [Subscription Plan](/docs/v13/user/manual/en/accounts/subscription-plan)
+1. [Sales Invoice](/docs/en/accounts/sales-invoice)
+2. [Purchase Invoice](/docs/en/accounts/purchase-invoice)
+3. [Item](/docs/en/stock/item)
+4. [Customer](/docs/en/CRM/customer)
+5. [Subscription Plan](/docs/en/accounts/subscription-plan)
 
 

@@ -44,13 +44,13 @@ You can define a price a list which will be automatically applied to all custome
 #### 2.1 Assign Credit Limit, Default Price List, and Default Payment Terms Template
 
 
-You can assign the credit limit, [Price List](/docs/v13/user/manual/en/stock/price-lists), and [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms) and they will be automatically applied when a customer belonging to the customer group is selected in sales transactions like [Sales Order](/docs/v13/user/manual/en/selling/sales-order) and [Sales Invoice](/docs/v13/user/manual/en/accounts/sales-invoice).
+You can assign the credit limit, [Price List](/docs/en/stock/price-lists), and [Payment Terms](/docs/en/accounts/payment-terms) and they will be automatically applied when a customer belonging to the customer group is selected in sales transactions like [Sales Order](/docs/en/selling/sales-order) and [Sales Invoice](/docs/en/accounts/sales-invoice).
 
 
 #### 2.2 Default Receivable Account
 
 
-You need not create a separate accounting ledger for each customer in ERPNext. Read [Common Receivable Account](/docs/v13/user/manual/en/accounts/articles/common-receivable-account) for more details.
+You need not create a separate accounting ledger for each customer in ERPNext. Read [Common Receivable Account](/docs/en/accounts/articles/common-receivable-account) for more details.
 
 
 If you need a separate receivable account for a customer, you can add the same in 'Default Receivable Account' section.
@@ -59,8 +59,8 @@ If you need a separate receivable account for a customer, you can add the same i
 #### 3. Related Topics
 
 
-1. [Customer](/docs/v13/user/manual/en/CRM/customer)
-2. [Price List](/docs/v13/user/manual/en/stock/price-lists)
-3. [Payment Terms](/docs/v13/user/manual/en/accounts/payment-terms)
+1. [Customer](/docs/en/CRM/customer)
+2. [Price List](/docs/en/stock/price-lists)
+3. [Payment Terms](/docs/en/accounts/payment-terms)
 
 

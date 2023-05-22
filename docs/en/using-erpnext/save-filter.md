@@ -8,7 +8,7 @@
 ![Save Filter](/files/using-save-filter-1.png)
 
 
-To learn more about filters, checkout [Search Filter](/docs/v13/user/manual/en/using-erpnext/search-filter)
+To learn more about filters, checkout [Search Filter](/docs/en/using-erpnext/search-filter)
 
 
 Let's say, in purchase orders, you need to search for all the purchase orders where the Grand Total is more than ₹ 10000. However, as we know, there is no filter that is present for it out of the box.

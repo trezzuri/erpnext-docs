@@ -107,7 +107,7 @@ Then go to SMS Center to test if everything works properly.
 ### Related Topics
 
 
-1. [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account)
-2. [Notifications](/docs/v13/user/manual/en/setting-up/notifications)
+1. [Email Account](/docs/en/setting-up/email/email-account)
+2. [Notifications](/docs/en/setting-up/notifications)
 
 

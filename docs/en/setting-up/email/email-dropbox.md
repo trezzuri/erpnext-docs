@@ -11,7 +11,7 @@ When enabled, each record in ERPNext will have it's own unique email address to 
 ## 1. Enable Email Dropbox Feature
 
 
-In [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account), check 'Enable Email Dropbox'.
+In [Email Account](/docs/en/setting-up/email/email-account), check 'Enable Email Dropbox'.
 
 
 ![Enable Email Dropbox](/files/enable_email_dropbox.png)
@@ -38,8 +38,8 @@ Once the email is received, ERPNext attaches it to the appropriate record and it
 ### Related Topics
 
 
-1. [Email Domain](/docs/v13/user/manual/en/setting-up/email/email-domain)
-2. [Email Account](/docs/v13/user/manual/en/setting-up/email/email-account)
-3. [Email Inbox](/docs/v13/user/manual/en/setting-up/email/email-inbox)
+1. [Email Domain](/docs/en/setting-up/email/email-domain)
+2. [Email Account](/docs/en/setting-up/email/email-account)
+3. [Email Inbox](/docs/en/setting-up/email/email-inbox)
 
 

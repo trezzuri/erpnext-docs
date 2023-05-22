@@ -21,7 +21,7 @@ To access the Mode of Payment list, go to:
 
 1. Go to the Mode of Payment list and click on New.
 2. Enter a name for the Mode of Payment.
-3. Set a type whether Cash, Bank, or General. This is useful for knowing the mode of payment used in [Point Of Sales (PoS)](/docs/v13/user/manual/en/accounts/point-of-sales).
+3. Set a type whether Cash, Bank, or General. This is useful for knowing the mode of payment used in [Point Of Sales (PoS)](/docs/en/accounts/point-of-sales).
 4. Set a default payment Account for all the companies.
 5. Save.
 
@@ -31,7 +31,7 @@ To access the Mode of Payment list, go to:
 
 
 > 
-> **Tip**: Setting the default Account will this account fetched into [Payment Entries](/docs/v13/user/manual/en/accounts/payment-entry).
+> **Tip**: Setting the default Account will this account fetched into [Payment Entries](/docs/en/accounts/payment-entry).
 > 
 > 
 > 
@@ -65,7 +65,7 @@ To access the Mode of Payment list, go to:
 ## 2. Related Topics
 
 
-1. [Payment Entry](/docs/v13/user/manual/en/accounts/payment-entry)
-2. [Payment Request](/docs/v13/user/manual/en/accounts/payment-request)
+1. [Payment Entry](/docs/en/accounts/payment-entry)
+2. [Payment Request](/docs/en/accounts/payment-request)
 
 

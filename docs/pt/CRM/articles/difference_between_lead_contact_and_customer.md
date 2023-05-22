@@ -13,3 +13,4 @@ Cliente.
 
 
 ![Lead, cliente e contato](/files/lead-to-customer.gif)
+

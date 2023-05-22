@@ -76,8 +76,8 @@ Energy Point Rules can be defined to automatically give Energy Points to users w
 ## 3. Related Topics
 
 
-1. [Tracking Versions](/docs/v13/user/manual/en/using-erpnext/document-versioning)
-2. [Dashboards](/docs/v13/user/manual/en/using-erpnext/dashboard)
-3. [Energy Point System](/docs/v13/user/manual/en/setting-up/energy-point-system)
+1. [Tracking Versions](/docs/en/using-erpnext/document-versioning)
+2. [Dashboards](/docs/en/using-erpnext/dashboard)
+3. [Energy Point System](/docs/en/setting-up/energy-point-system)
 
 

@@ -42,7 +42,7 @@ You can also add a Contact from the Customer or Supplier record by clicking on â
 When you have multiple contacts against an entity like customer/supplier, you can check 'Is Primary Contact' to indicate the preferred contact. The primary contact will be chosen automatically in transactions like sales order and sales invoice.
 
 
-To Import multiple contacts from a spreadsheet, use the [Data Import Tool](/docs/v13/user/manual/en/setting-up/data/data-import).
+To Import multiple contacts from a spreadsheet, use the [Data Import Tool](/docs/en/setting-up/data/data-import).
 
 
 
@@ -68,7 +68,7 @@ A contact can also be linked to customers and suppliers at the same time.
 ### 2.2 Invite the Contact as a User
 
 
-You can allow contacts of your customers and suppliers to log into your ERPNext system and view data relevant to them. Check [Customer Portal](/docs/v13/user/manual/en/customer-portal) for more details on this.
+You can allow contacts of your customers and suppliers to log into your ERPNext system and view data relevant to them. Check [Customer Portal](/docs/en/customer-portal) for more details on this.
 You can send an email invitation to a contact by clicking on 'Invite as User' button.
 
 
@@ -78,8 +78,8 @@ You can send an email invitation to a contact by clicking on 'Invite as User' bu
 ### 3. Related Topics
 
 
-1. [Customer](/docs/v13/user/manual/en/CRM/customer)
-2. [Supplier](/docs/v13/user/manual/en/buying)
-3. [Sales Partner](/docs/v13/user/manual/en/selling)
+1. [Customer](/docs/en/CRM/customer)
+2. [Supplier](/docs/en/buying)
+3. [Sales Partner](/docs/en/selling)
 
 

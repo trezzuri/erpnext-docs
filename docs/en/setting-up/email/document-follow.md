@@ -58,7 +58,7 @@ This is what an email notification for Document Follow will look like:
 ### 2. Related Topics
 
 
-1. [Linking Emails to Document](/docs/v13/user/manual/en/setting-up/email/linking-emails-to-document)
-2. [Notifications](/docs/v13/user/manual/en/setting-up/notifications)
+1. [Linking Emails to Document](/docs/en/setting-up/email/linking-emails-to-document)
+2. [Notifications](/docs/en/setting-up/notifications)
 
 

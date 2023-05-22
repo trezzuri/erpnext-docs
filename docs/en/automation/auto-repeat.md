@@ -96,7 +96,7 @@ If you want to notify certain contacts whenever the recurring documents are crea
 
 
 > 
-> **Note**: If the document you are setting up Auto Repeat for, is submittable, ensure that "Allow Print for Draft" is enabled in [Print Settings](/docs/v13/user/manual/en/setting-up/print/print-settings) to receive the new recurring document in Auto Repeat Notification Email. If this is not enabled, you will be notified about the recurring document creation without the document.
+> **Note**: If the document you are setting up Auto Repeat for, is submittable, ensure that "Allow Print for Draft" is enabled in [Print Settings](/docs/en/setting-up/print/print-settings) to receive the new recurring document in Auto Repeat Notification Email. If this is not enabled, you will be notified about the recurring document creation without the document.
 > 
 > 
 > 

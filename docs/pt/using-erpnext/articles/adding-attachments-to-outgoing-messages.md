@@ -8,3 +8,5 @@ Se você tiver determinados arquivos anexados ao seu documento e desejar anexá-
 
 
 ![Anexos em mensagens enviadas](/files/using-add-attachments-in-message.gif)
+
+

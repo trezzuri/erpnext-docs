@@ -20,7 +20,7 @@ This report provides lead name, address, contact details, lead source, territory
 By using the sales funnel report, and by quantifying the number of prospects at each stage of the process, you can get an idea of your potential customers.
 
 
-For more details check [Sales Funnel](/docs/v13/user/manual/en/CRM/articles/sales_funnel).
+For more details check [Sales Funnel](/docs/en/CRM/articles/sales_funnel).
 
 
 ### 3. Prospects Engaged But Not Converted
@@ -41,7 +41,7 @@ In this internet era, we all expect a quicker response time to any of our querie
 You can input the date range for which you would like to analyse the minutes to first response. The line graph is shown on the top and date wise details at the bottom.
 
 
-![Minutes To First Response Opportunity](/docs/v13/assets/img/crm/report/minutes_to_first_response.png)
+![Minutes To First Response Opportunity](/files/minutes_to_first_response.png)
 
 
 ### 5. Inactive Customers

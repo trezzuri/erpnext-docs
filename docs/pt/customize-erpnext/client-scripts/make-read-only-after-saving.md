@@ -11,7 +11,7 @@ então o documento nunca foi salvo.
 
 
 ```
-frappe.ui.form.on("MeuDocType", "atualizar", function(frm) {
+frappe.ui.form.on("MyDocType", "refresh", function(frm) {
     // usa o método is_new de frm, para verificar se o doc está salvo ou não
     frm.set_df_property("myfield", "read_only", frm.is_new() ? 0 : 1);
 }

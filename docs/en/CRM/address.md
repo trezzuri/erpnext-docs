@@ -37,7 +37,7 @@ You can also add an Address from the Customer or Supplier record by clicking on 
 ![Add Address From Customer](/files/add-address-from-customer.png)
 
 
-To Import multiple addresses from a spreadsheet, use the [Data Import Tool](/docs/v13/user/manual/en/setting-up/data/data-import).
+To Import multiple addresses from a spreadsheet, use the [Data Import Tool](/docs/en/setting-up/data/data-import).
 
 
 
@@ -111,8 +111,8 @@ You can also add addresses of your own company's facilities. Check 'Is Your Comp
 ### 3. Related Topics
 
 
-1. [Customer](/docs/v13/user/manual/en/CRM/customer)
-2. [Supplier](/docs/v13/user/manual/en/buying)
-3. [Sales Partner](/docs/v13/user/manual/en/selling)
+1. [Customer](/docs/en/CRM/customer)
+2. [Supplier](/docs/en/buying)
+3. [Sales Partner](/docs/en/selling)
 
 
