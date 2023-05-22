@@ -1,7 +1,7 @@
 # Voucher de custo de importação
 
 
-Para criar um **voucher Landed cost** no ERPNext: Você deve criá-lo contra um **Recibo de Compra** e  **Fatura de Compra.**   
+Para criar um **voucher Landed cost** no SOMA: Você deve criá-lo contra um **Recibo de Compra** e  **Fatura de Compra.**   
 Ao criar contra **Fatura de compra**: Na fatura de compra --> **Atualizar estoque** deve ser verificado.  
 ![](/files/z3sBK9F.png)  
  Se este campo estiver desmarcada, as Faturas de Compra não serão buscadas no Voucher de Despesas de Desembarque  

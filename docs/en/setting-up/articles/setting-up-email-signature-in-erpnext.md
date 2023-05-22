@@ -1,8 +1,8 @@
 
-# Setting Up Email Signature in ERPNext
+# Setting Up Email Signature in SOMA
 
 
-### **Q. How do I add my Email Signature in ERPNext?**
+### **Q. How do I add my Email Signature in SOMA?**
 
   
 To add your signature, go to your User Profile under **Settings > My Settings**  

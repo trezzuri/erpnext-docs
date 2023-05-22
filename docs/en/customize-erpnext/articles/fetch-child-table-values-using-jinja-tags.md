@@ -2,7 +2,7 @@
 # Fetch child table values using Jinja tags
 
 
-Jinja templating can be used to reference any field on any DocType in ERPNext. This can simply be done by calling {{doc.field\_name}} on a print format, where 'doc.name' is the variable name for a certain field.
+Jinja templating can be used to reference any field on any DocType in SOMA. This can simply be done by calling {{doc.field\_name}} on a print format, where 'doc.name' is the variable name for a certain field.
 
 
 However this approach does not work for Child Tables inside a DocType. This article will help you traverse and display all rows pertaining to a child table inside any DocType.

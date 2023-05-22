@@ -2,13 +2,13 @@
 # Making Custom Reports
 
 
-There are three kind of reports in ERPNext.
+There are three kind of reports in SOMA.
 
 
 ### 1. Report Builder
 
 
-Report Builder is an in-built report customization tool in ERPNext. This allows you to define specific fields of the form which shall be added in the report. Also you can set required filters, sorting and give preferred name to report.
+Report Builder is an in-built report customization tool in SOMA. This allows you to define specific fields of the form which shall be added in the report. Also you can set required filters, sorting and give preferred name to report.
 
 
 
@@ -18,7 +18,7 @@ Report Builder is an in-built report customization tool in ERPNext. This allows 
 ### 2. Query Report
 
 
-Query Report is written in SQL which pulls values from account's database and displays the same in the report. Though SQL queries can be written from front end, like HTML, it has been restricted for ERPNext cloud users. This is because it allows users with no access to specific report to fetch data directly from the database.
+Query Report is written in SQL which pulls values from account's database and displays the same in the report. Though SQL queries can be written from front end, like HTML, it has been restricted for SOMA cloud users. This is because it allows users with no access to specific report to fetch data directly from the database.
 
 
 Check Purchase Order Item to be Received report in Stock module for example of a Query report. [Click here](https://frappeframework.com/docs/user/en/desk/reports/query-report) to learn how to create Query Report.

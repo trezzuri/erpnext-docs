@@ -1,7 +1,7 @@
 # Atribuição
 
 
-**Atribuir a é um recurso do ERPNext que permite atribuir um determinado documento a um usuário específico, que precisa trabalhar mais naquele documento.**
+**Atribuir a é um recurso do SOMA que permite atribuir um determinado documento a um usuário específico, que precisa trabalhar mais naquele documento.**
 
 
 Por exemplo, se um pedido de venda precisar ser aprovado ou enviado pelo gerente de vendas, o primeiro usuário do rascunho pode atribuir esse pedido de venda ao gerente de vendas.

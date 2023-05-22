@@ -1,7 +1,7 @@
 # Banco
 
 
-No ERPNext, salvar diferentes bancos permite que você carregue uma planilha Excel e mapeie as transações para o razão. As transações são criadas como transações bancárias. Estes podem então ser usados ​​para referência e relatórios. Isso é feito usando [Reconciliação bancária](/docs/pt/accounts/bank-reconciliation).
+No SOMA, salvar diferentes bancos permite que você carregue uma planilha Excel e mapeie as transações para o razão. As transações são criadas como transações bancárias. Estes podem então ser usados ​​para referência e relatórios. Isso é feito usando [Reconciliação bancária](/docs/pt/accounts/bank-reconciliation).
 
 
 Para acessar o Banco, acesse:

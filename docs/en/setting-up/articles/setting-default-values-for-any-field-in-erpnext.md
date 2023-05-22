@@ -2,7 +2,7 @@
 # Set default values for any field
 
 
-Using **Customize Form**, we can set a *default* value for any field of any Doctype in ERPNext.
+Using **Customize Form**, we can set a *default* value for any field of any Doctype in SOMA.
 
 
 **Steps:**
@@ -29,6 +29,6 @@ Check out the below GIF where we have set *default* value as **Stores - ETL** fo
 ![](/files/wXMccxf.gif)
 
 
-To learn more about customisations in ERPNext, check out this [link](https://erpnext.com/docs/user/manual/en/customize-erpnext/customize-form)
+To learn more about customisations in SOMA, check out this [link](https://erpnext.com/docs/user/manual/en/customize-erpnext/customize-form)
 
 

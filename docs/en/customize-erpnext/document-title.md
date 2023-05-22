@@ -14,7 +14,7 @@ For example, the default title on a Quotation is the customer name, but if you a
 ## Setting Title Fields
 
 
-From ERPNext Version 6.0 onwards, all transactions have a 'Title' property. If there is not a title property, you can add a **Custom Field** as title and set the **Title Field** via **Customize Form**.
+From SOMA Version 6.0 onwards, all transactions have a 'Title' property. If there is not a title property, you can add a **Custom Field** as title and set the **Title Field** via **Customize Form**.
 
 
 You can set the default value of that property by using Python style string formatting in **Default** or **Options**

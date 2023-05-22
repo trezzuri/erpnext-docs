@@ -1,7 +1,7 @@
 # Gerenciar Diferença de Câmbio
 
 
-No ERPNext, você também pode criar transações em moeda estrangeira. Ao criar uma transação em moeda estrangeira, o sistema atualiza a taxa de câmbio atual em relação à moeda do cliente/fornecedor e à moeda base de sua empresa. Como a Taxa de Câmbio está sempre flutuando, pode-se receber o pagamento do cliente em uma taxa de câmbio diferente daquela mencionada na Nota Fiscal de Compra/Venda. A seguir está a instrução sobre como gerenciar valores diferentes, aproveitados na entrada de pagamento, devido à alteração da taxa de câmbio.
+No SOMA, você também pode criar transações em moeda estrangeira. Ao criar uma transação em moeda estrangeira, o sistema atualiza a taxa de câmbio atual em relação à moeda do cliente/fornecedor e à moeda base de sua empresa. Como a Taxa de Câmbio está sempre flutuando, pode-se receber o pagamento do cliente em uma taxa de câmbio diferente daquela mencionada na Nota Fiscal de Compra/Venda. A seguir está a instrução sobre como gerenciar valores diferentes, aproveitados na entrada de pagamento, devido à alteração da taxa de câmbio.
 
 
 ## Adicionar conta de despesas

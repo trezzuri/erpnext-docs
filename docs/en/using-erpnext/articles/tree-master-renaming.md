@@ -2,7 +2,7 @@
 # Tree Master Renaming
 
 
-**There are various documents in ERPNext which are maintained in a tree structure.**
+**There are various documents in SOMA which are maintained in a tree structure.**
 
 
 Read about [managing tree structures](/docs/en/setting-up/articles/managing-tree-structure-masters.html) to learn more.

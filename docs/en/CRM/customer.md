@@ -104,7 +104,7 @@ You can set the Tax Withholding Category to set up TCS against eligible customer
 ### 2.4 Default Currency and Price List
 
 
-ERPNext supports [Multiple Currencies](/docs/en/accounts/multi-currency-accounting) and [Price Lists](/docs/en/stock/price-lists).
+SOMA supports [Multiple Currencies](/docs/en/accounts/multi-currency-accounting) and [Price Lists](/docs/en/stock/price-lists).
 
 
 You can set the default currency to be used for this customer in sales orders and sales invoices by selecting the appropriate currency in Billing Currency.
@@ -126,7 +126,7 @@ Accounts Receivable in the [Chart of Accounts](/docs/en/accounts/chart-of-accoun
 
 
 > 
-> Advanced Tip: ERPNext supports [Multi-company Accounting](/docs/en/accounts/inter-company-journal-entry). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
+> Advanced Tip: SOMA supports [Multi-company Accounting](/docs/en/accounts/inter-company-journal-entry). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
 > 
 > 
 > 

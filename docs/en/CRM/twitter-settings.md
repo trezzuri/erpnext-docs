@@ -2,13 +2,13 @@
 # Twitter Settings
 
 
-Twitter related settings like OAuth can be configured here. ERPNext needs access to the API through which the post is shared and achieved using OAuth 2.0 Authentication Protocol.
+Twitter related settings like OAuth can be configured here. SOMA needs access to the API through which the post is shared and achieved using OAuth 2.0 Authentication Protocol.
 
 
 ## 1. How to set up Twitter App
 
 
-You must have Twitter App for your company. ERPNext interacts with this App for sharing Tweet.
+You must have Twitter App for your company. SOMA interacts with this App for sharing Tweet.
 
 
 ### 1.1 Create Twitter Developer App

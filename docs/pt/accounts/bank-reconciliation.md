@@ -1,13 +1,13 @@
 # Reconciliação Bancária
 
 
-**Uma entrada de reconciliação bancária é usada para combinar os extratos da conta ERPNext com os extratos da sua conta bancária.**
+**Uma entrada de reconciliação bancária é usada para combinar os extratos da conta SOMA com os extratos da sua conta bancária.**
 
 
 Se estiver a receber pagamentos ou a efetuar pagamentos através de cheques, os extratos bancários não corresponderão exatamente às datas da sua entrada, porque o banco costuma demorar a “compensar” esses pagamentos.
 
 
-Além disso, você pode ter enviado um cheque ao seu fornecedor e pode levar alguns dias até que ele seja recebido e depositado pelo fornecedor. No ERPNext você pode sincronizar seus extratos bancários e seus lançamentos contábeis manuais usando as datas das transações.
+Além disso, você pode ter enviado um cheque ao seu fornecedor e pode levar alguns dias até que ele seja recebido e depositado pelo fornecedor. No SOMA você pode sincronizar seus extratos bancários e seus lançamentos contábeis manuais usando as datas das transações.
 
 
 ## 1. O que é um Extrato de Reconciliação Bancária?
@@ -57,7 +57,7 @@ Ao fazer isso, você poderá sincronizar seus extratos bancários e lançamentos
 ## 3. Tipos de ferramentas de reconciliação
 
 
-ERPNext possui duas ferramentas de reconciliação:
+SOMA possui duas ferramentas de reconciliação:
 
 
 1. Uma ferramenta de reconciliação manual que permite definir datas de compensação em entradas de pagamento, pagamentos de faturas de vendas ou lançamentos contábeis manuais
@@ -76,7 +76,7 @@ Para visualizar este relatório, vá para **Contas > Bancos e pagamentos > Extra
 É um processo de duas etapas:
 
 
-1. Adicionar transações bancárias ao ERPNext via importação de extrato bancário ou sincronização de conta bancária
+1. Adicionar transações bancárias ao SOMA via importação de extrato bancário ou sincronização de conta bancária
 2. Reconcilie o extrato bancário
 
 
@@ -119,13 +119,13 @@ ou simplesmente procure por 'Importação de Extrato Bancário' na barra incrív
 #### 3.2.2 Sincronização de contas bancárias
 
 
-Você pode usar o Plaid (consulte a [página Integrações do Plaid](/docs/pt/erpnext_integration/plaid_integration)) para sincronizar automaticamente sua conta bancária com o ERPNext. Todas as suas transações bancárias serão importadas automaticamente para o ERPNext.
+Você pode usar o Plaid (consulte a [página Integrações do Plaid](/docs/pt/erpnext_integration/plaid_integration)) para sincronizar automaticamente sua conta bancária com o SOMA. Todas as suas transações bancárias serão importadas automaticamente para o SOMA.
 
 
 #### 3.2.3 Conciliar o extrato bancário
 
 
-Depois que todas as suas transações bancárias forem importadas para o ERPNext, você poderá reconciliá-las com seus comprovantes existentes. Acesse:
+Depois que todas as suas transações bancárias forem importadas para o SOMA, você poderá reconciliá-las com seus comprovantes existentes. Acesse:
 
 
 
@@ -140,7 +140,7 @@ ou simplesmente procure por 'Ferramenta de reconciliação bancária' na barra i
 
 
 1. Selecione sua empresa, conta bancária, data de início e término do extrato bancário.
-2. Certifique-se de que o saldo inicial do ERPNext corresponda ao saldo inicial do seu extrato bancário.
+2. Certifique-se de que o saldo inicial do SOMA corresponda ao saldo inicial do seu extrato bancário.
 3. Insira o saldo final do extrato bancário.
 4. Salvar o documento mostrará as transações bancárias correspondentes.
 ![Reconciliar transações bancárias](/files/bank_reconciliation_tool.png)
@@ -150,7 +150,7 @@ ou simplesmente procure por 'Ferramenta de reconciliação bancária' na barra i
 ![Reconciliar transações bancárias](/files/match_voucher.png)
 8. Para criar um novo voucher, escolha 'Criar Voucher' em 'Ação' e depois escolha o tipo de documento. Preencha os dados que não estavam disponíveis na Transação Bancária. Clicar em Enviar criará o comprovante correspondente e atualizará sua data de liberação.
 ![Reconciliar transações bancárias](/files/create_voucher.png)
-9. Também é possível atualizar as Movimentações Bancárias. Atualizar a Transação Bancária pode ajudar o ERPNext a encontrar correspondências melhores. Para atualizar uma transação bancária, escolha 'Atualizar transação bancária' em 'Ação', preencha os detalhes necessários e clique em Enviar para salvar a transação bancária.
+9. Também é possível atualizar as Movimentações Bancárias. Atualizar a Transação Bancária pode ajudar o SOMA a encontrar correspondências melhores. Para atualizar uma transação bancária, escolha 'Atualizar transação bancária' em 'Ação', preencha os detalhes necessários e clique em Enviar para salvar a transação bancária.
 ![Reconciliar transações bancárias](/files/update_bank_transaction.png)
 
 

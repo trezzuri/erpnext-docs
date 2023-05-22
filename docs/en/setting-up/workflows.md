@@ -2,11 +2,11 @@
 # Workflows
 
 
-**With workflows you can rewrite how a particular process/workflow is approved in ERPNext.**
+**With workflows you can rewrite how a particular process/workflow is approved in SOMA.**
 
 
-You can set multiple levels of approval for an ERPNext Workflow. To allow multiple people to submit multiple requests, for approvals by multiple users, ERPNext requires you to fill the Workflow conditions.
-ERPNext tracks the multiple permissions before submission.
+You can set multiple levels of approval for an SOMA Workflow. To allow multiple people to submit multiple requests, for approvals by multiple users, SOMA requires you to fill the Workflow conditions.
+SOMA tracks the multiple permissions before submission.
 
 
 Consider a scenario, where multiple levels of approval are required for a quotation. A sales person (user with 'Sales User' role) will create a quotation. Then it is either approved or rejected by a sales lead (user with 'Sales Manager' role). If approved by sales lead, it is further approved or rejected by regional manager (user with 'Regional Manager' role).
@@ -57,7 +57,7 @@ The Workflow States can have different colors according to the state. Eg: Green 
 ### 2.2 Things to note when creating a Workflow
 
 
-* Creating a Workflow in ERPNext essentially overrides the regular Save and Submit workflow. Thus the document will function based on your Workflow and not based on the pre-set code workflow. Hence there might be no Submit button/option if you have not specified it in the Workflow you create.
+* Creating a Workflow in SOMA essentially overrides the regular Save and Submit workflow. Thus the document will function based on your Workflow and not based on the pre-set code workflow. Hence there might be no Submit button/option if you have not specified it in the Workflow you create.
 
 
 If you don't apply a Workflow to a document, and that document is submittable, then it has the default workflow with states: Draft - Submitted - Cancelled. If you are applying a Workflow to a submittable document, then those default states should be handled by the user.

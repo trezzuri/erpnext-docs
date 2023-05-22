@@ -1,7 +1,7 @@
 # Enviando e-mail de qualquer documento
 
 
-No ERPNext você pode enviar qualquer documento como e-mail (com um anexo em PDF) clicando em Menu > E-mail após abrir qualquer documento.
+No SOMA você pode enviar qualquer documento como e-mail (com um anexo em PDF) clicando em Menu > E-mail após abrir qualquer documento.
 
 
 ![Enviar e-mail](/files/send-email.gif)

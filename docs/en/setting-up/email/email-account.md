@@ -2,10 +2,10 @@
 # Email Account
 
 
-**You can sync your email account with ERPNext to send and receive emails from ERPNext.**
+**You can sync your email account with SOMA to send and receive emails from SOMA.**
 
 
-You can manage multiple incoming and outgoing Email Accounts in ERPNext. There has to be at least one default outgoing account and one default incoming account. If you are on the ERPNext cloud, the default outgoing email is set by us.
+You can manage multiple incoming and outgoing Email Accounts in SOMA. There has to be at least one default outgoing account and one default incoming account. If you are on the SOMA cloud, the default outgoing email is set by us.
 
 
 To access Email Accounts, go to:
@@ -56,7 +56,7 @@ Before creating an Email Account, you need an [Email Domain](/docs/en/setting-up
 ### 3.1 Default Email Accounts
 
 
-ERPNext will create templates for a bunch of email accounts by default. Not all of them are enabled. To enable them, you must set valid email account details.
+SOMA will create templates for a bunch of email accounts by default. Not all of them are enabled. To enable them, you must set valid email account details.
 
 
 There are two types of email accounts, outgoing and incoming. Outgoing email accounts use an SMTP service to send emails and emails are retrieved from your inbox using an IMAP or POP. Most email providers such as Gmail, Outlook, or Yahoo provide these services.
@@ -122,10 +122,10 @@ The following options are available for outgoing emails:
 11. **Use SSL for Outgoing Emails**: Use SSL as a standard for outgoing emails. Defaults to port 465.
 
 
-## 4. How ERPNext handles replies
+## 4. How SOMA handles replies
 
 
-In ERPNext when you send an email to contact like a customer, the sender will be the user who sent the email. In the **Reply-To** property, the Email Address will be of the default incoming account (like `[replies@yourcompany.com](mailto:replies@yourcompany.com)`). ERPNext will automatically extract these emails from the incoming account and tag them to the relevant communication.
+In SOMA when you send an email to contact like a customer, the sender will be the user who sent the email. In the **Reply-To** property, the Email Address will be of the default incoming account (like `[replies@yourcompany.com](mailto:replies@yourcompany.com)`). SOMA will automatically extract these emails from the incoming account and tag them to the relevant communication.
 
 
 

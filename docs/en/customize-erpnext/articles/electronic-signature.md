@@ -2,7 +2,7 @@
 # Signature Field
 
 
-Electronic signature can be created in ERPNext using the Signature field type. This field allows you to write a signature in a block, just like the signature on a paper.  
+Electronic signature can be created in SOMA using the Signature field type. This field allows you to write a signature in a block, just like the signature on a paper.  
 To create an electronic signature, follow the following steps:  
 1) Go to Settings > Customize Form.  
 2) Select the Form Type.  

@@ -90,7 +90,7 @@ Você pode criar uma [Cotação](/docs/pt/selling/quotation) no menu suspenso **
 ### 2.5 Criar uma cotação de fornecedor
 
 
-Talvez você precise obter uma cotação de seu fornecedor em relação ao requisito do cliente e, com base nisso, preparar a cotação para seu cliente. Com o ERPNext, você pode fazer uma [Cotação de fornecedor](/docs/pt/buying/supplier-quotation) a partir da própria oportunidade.
+Talvez você precise obter uma cotação de seu fornecedor em relação ao requisito do cliente e, com base nisso, preparar a cotação para seu cliente. Com o SOMA, você pode fazer uma [Cotação de fornecedor](/docs/pt/buying/supplier-quotation) a partir da própria oportunidade.
 
 
 

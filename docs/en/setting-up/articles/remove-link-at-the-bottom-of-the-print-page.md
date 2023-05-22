@@ -5,7 +5,7 @@
 **Question:**
 
 
-How to remove the ERPNext link at the bottom of the page while printing it?
+How to remove the SOMA link at the bottom of the page while printing it?
 
 
 ![](/files/tlLa26R.png)

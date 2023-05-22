@@ -1,7 +1,7 @@
 # Scripts de cliente
 
 
-**Client Scripts são pequenos trechos de código que são executados no navegador para estender ou customizar a funcionalidade padrão do ERPNext.** 
+**Client Scripts são pequenos trechos de código que são executados no navegador para estender ou customizar a funcionalidade padrão do SOMA.** 
 
 
 

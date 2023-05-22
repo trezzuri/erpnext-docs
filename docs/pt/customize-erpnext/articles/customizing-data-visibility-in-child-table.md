@@ -1,7 +1,7 @@
 # Visibilidade de dados em tabelas filhas
 
 
-No ERPNext, existe um recurso chamado grid editável. Isso permite que o usuário adicione valores na tabela filho sem abrir uma caixa de diálogo/formulário para cada linha.
+No SOMA, existe um recurso chamado grid editável. Isso permite que o usuário adicione valores na tabela filho sem abrir uma caixa de diálogo/formulário para cada linha.
 
 
 É assim que a tabela Item de Cotação renderiza o valor quando a Grade Editável está habilitada. Ele terá no máximo quatro colunas na tabela.

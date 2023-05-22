@@ -1,7 +1,7 @@
 # Editar um campo após o envio
 
 
-No ERPNext, uma vez enviado um documento, você só pode editá-lo através de Cancelar > Alterar. No entanto, você ainda pode tornar determinados campos (campos personalizados) editáveis ​​após o envio usando o recurso  **Permitir ao enviar** . Por exemplo, criamos um campo personalizado chamado "ID do fornecedor" na cotação do fornecedor. Para permitir a edição deste campo após o envio, siga os seguintes passos:  
+No SOMA, uma vez enviado um documento, você só pode editá-lo através de Cancelar > Alterar. No entanto, você ainda pode tornar determinados campos (campos personalizados) editáveis ​​após o envio usando o recurso  **Permitir ao enviar** . Por exemplo, criamos um campo personalizado chamado "ID do fornecedor" na cotação do fornecedor. Para permitir a edição deste campo após o envio, siga os seguintes passos:  
 1) Vá em Configurações > Personalizar Formulário e selecione o Tipo de Formulário (Cotação do Fornecedor neste caso).  
 2) Expanda a linha do campo e marque a caixa de seleção "Permitir ao enviar".  
 ![](/files/hyYfSoc.png)  

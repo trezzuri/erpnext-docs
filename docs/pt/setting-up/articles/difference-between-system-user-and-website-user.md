@@ -7,7 +7,7 @@
 **Resposta:**
 
 
-Existem dois tipos de usuários no ERPNext.
+Existem dois tipos de usuários no SOMA.
 
 
 * **Usuário do Sistema**: São Funcionários da sua empresa. Exemplo de funções atribuídas a usuários do sistema: usuário da conta, gerente de vendas, usuário de compras, equipe de suporte, etc.

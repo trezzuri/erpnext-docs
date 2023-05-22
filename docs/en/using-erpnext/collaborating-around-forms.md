@@ -5,7 +5,7 @@
 **In ERPNExt, every form comes with certain tools embedded in the system which allows you to collaborate with other users within your account to have quick and transparent operations.**
 
 
-Following are the tools in each document using which you can collaborate with other Users in your ERPNext account.
+Following are the tools in each document using which you can collaborate with other Users in your SOMA account.
 
 
 ### Assigned to
@@ -32,7 +32,7 @@ For a lot of Documents, there can be information that is not a part of the trans
 ### Share
 
 
-You can share a document with the aspecific user in your ERPNext account. Irrespective of their roles or permissions, a User will be able to access a document shared with them.
+You can share a document with the aspecific user in your SOMA account. Irrespective of their roles or permissions, a User will be able to access a document shared with them.
 
 
 ![Notes](/files/using-notes-4.png)

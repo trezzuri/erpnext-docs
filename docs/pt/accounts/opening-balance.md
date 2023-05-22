@@ -4,7 +4,7 @@
 **O saldo inicial é o saldo antecipado no início de um período contábil do final de um período contábil anterior ou no início.**
 
 
-Isso também se aplica ao iniciar uma nova empresa e gostaria que seus saldos off-line fossem atualizados no ERPNext.
+Isso também se aplica ao iniciar uma nova empresa e gostaria que seus saldos off-line fossem atualizados no SOMA.
 
 
 ## 1. Introdução
@@ -13,7 +13,7 @@ Isso também se aplica ao iniciar uma nova empresa e gostaria que seus saldos of
 Se você for uma nova empresa, terá saldos iniciais mínimos a serem importados. No entanto, se você estiver migrando de um sistema de contabilidade herdado como o Tally ou um software baseado no Fox Pro, você terá dados consideráveis ​​a serem importados como saldo inicial.
 
 
-Recomendamos que você comece a usar o ERPNext para contabilidade a partir de um novo exercício financeiro, mas também pode começar no meio do caminho. Para configurar suas contas, você precisará do seguinte para o “dia” em que começar a usar a contabilidade no ERPNext:
+Recomendamos que você comece a usar o SOMA para contabilidade a partir de um novo exercício financeiro, mas também pode começar no meio do caminho. Para configurar suas contas, você precisará do seguinte para o “dia” em que começar a usar a contabilidade no SOMA:
 
 
 ### Recursos
@@ -33,10 +33,10 @@ Recomendamos que você comece a usar o ERPNext para contabilidade a partir de um
 3. Contas a pagar (AP), ou seja, faturas não pagas que seus fornecedores lhe enviaram
 
 
-Se você estava usando outro software de contabilidade antes, você deve **fechar** as demonstrações financeiras nesse software primeiro. O saldo final das contas deve ser atualizado como saldo inicial no ERPNext. Antes de começar a atualizar o saldo inicial, certifique-se de que seu [Plano de contas](/docs/pt/accounts/chart-of-accounts) tenha todas as contas necessárias.
+Se você estava usando outro software de contabilidade antes, você deve **fechar** as demonstrações financeiras nesse software primeiro. O saldo final das contas deve ser atualizado como saldo inicial no SOMA. Antes de começar a atualizar o saldo inicial, certifique-se de que seu [Plano de contas](/docs/pt/accounts/chart-of-accounts) tenha todas as contas necessárias.
 
 
-Os lançamentos de abertura podem ser criados usando a Ferramenta de Criação de Nota Fiscal de Abertura no ERPNext.
+Os lançamentos de abertura podem ser criados usando a Ferramenta de Criação de Nota Fiscal de Abertura no SOMA.
 
 
 

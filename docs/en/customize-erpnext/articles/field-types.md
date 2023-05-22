@@ -65,7 +65,7 @@ Attach Image is a field wherein you will be allowed to attach Images of the form
 #### Text Editor
 
 
-Text Editor is a text field. It has text-formatting options. In ERPNext, this field is generally used for defining Terms and Conditions.
+Text Editor is a text field. It has text-formatting options. In SOMA, this field is generally used for defining Terms and Conditions.
 
 
 ![Field Type Text Editor](/files/field-type-text-editor.png)
@@ -128,7 +128,7 @@ You will have the option of specifying the color for this Form.
 #### Column Break
 
 
-Since ERPNext has multiple column layouts, using Column Breaks, you can divide a set of fields into a maximum of two columns.
+Since SOMA has multiple column layouts, using Column Breaks, you can divide a set of fields into a maximum of two columns.
 
 
 ![Field Type Column Break](/files/field-type-column-break.png)

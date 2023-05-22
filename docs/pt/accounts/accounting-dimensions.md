@@ -12,10 +12,10 @@
 Contabilidade dimensional significa marcar cada transação com dimensões apropriadas, como Filial, Unidade de Negócios, etc. Isso permite que você mantenha cada segmento separadamente, limitando assim a manutenção geral das contas contábeis e seu Plano de Contas permanece puro.
 
 
-Centro de Custo e Projeto são tratados como dimensões por padrão no ERPNext. Ao definir um campo na Dimensão Contábil, esse campo será adicionado nos relatórios de transações quando aplicável.
+Centro de Custo e Projeto são tratados como dimensões por padrão no SOMA. Ao definir um campo na Dimensão Contábil, esse campo será adicionado nos relatórios de transações quando aplicável.
 
 
-No ERPNext você pode criar dimensões contábeis configuráveis ​​e utilizá-las em transações e relatórios.
+No SOMA você pode criar dimensões contábeis configuráveis ​​e utilizá-las em transações e relatórios.
 
 
 Para acessar a lista Dimensão Contábil, acesse:
@@ -29,7 +29,7 @@ Para acessar a lista Dimensão Contábil, acesse:
 > 
 
 
-## 1. Como criar Dimensão Contábil no ERPNext.
+## 1. Como criar Dimensão Contábil no SOMA.
 
 
 1. Vá para a lista Dimensão Contábil e clique em Novo.

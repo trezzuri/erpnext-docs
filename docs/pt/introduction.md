@@ -35,7 +35,7 @@ Ao contrário das grandes empresas, as PME ficaram de fora da **1ª vaga da revo
 Assim, até hoje, as pequenas empresas continuam lutando para manter as coisas organizadas. Eles costumam usar uma combinação de aplicativos e ferramentas, como planilhas, software de contabilidade e CRMs baseados na Web, para gerenciar a manutenção diária de registros. Como consequência, eles precisam acessar diferentes sistemas para entender os dados mestre dos clientes, vendas, fluxos de caixa ou lucratividade. A informação existe em diferentes silos. Torna-se difícil combinar os dados para obter insights ou alertas úteis. Isso leva as PMEs a serem **reativas** em vez de serem **proativas** em suas operações diárias. Com uma forma de trabalho tão restrita, há pouco espaço para **crescimento**.
 
 
-ERPNext aborda alguns problemas fundamentais com os quais as PMEs lutam ao gerenciar seus recursos:
+SOMA aborda alguns problemas fundamentais com os quais as PMEs lutam ao gerenciar seus recursos:
 
 
 1. **Acessibilidade**: é um software gratuito e de código aberto, disponível gratuitamente para download e instalação.
@@ -45,13 +45,13 @@ ERPNext aborda alguns problemas fundamentais com os quais as PMEs lutam ao geren
 5. **Integridade**: um único sistema e banco de dados que permite que vários usuários registrem transações ou extraiam dados simultaneamente.
 
 
-## O que é ERPNext?
+## O que é SOMA?
 
 
-ERPNext é uma solução de gestão de negócios completa que ajuda as PMEs a registrar todas as suas transações de negócios em um único sistema. Com o ERPNext, as PMEs podem tomar decisões oportunas, informadas e baseadas em fatos para se manterem à frente da concorrência. Ele serve como a espinha dorsal de um negócio, adicionando força, transparência e controle à sua empresa em crescimento.
+SOMA é uma solução de gestão de negócios completa que ajuda as PMEs a registrar todas as suas transações de negócios em um único sistema. Com o SOMA, as PMEs podem tomar decisões oportunas, informadas e baseadas em fatos para se manterem à frente da concorrência. Ele serve como a espinha dorsal de um negócio, adicionando força, transparência e controle à sua empresa em crescimento.
 
 
-ERPNext irá ajudá-lo a:
+SOMA irá ajudá-lo a:
 
 
 1. Acompanhe todas as faturas e pagamentos.
@@ -71,10 +71,10 @@ ERPNext irá ajudá-lo a:
 E muito mais.
 
 
-## O ERPNext é apenas para PMEs?
+## O SOMA é apenas para PMEs?
 
 
-O ERPNext se adapta bem desde PMEs até grandes empresas. O ERPNext é usado por várias cadeias de varejo na África, bem como por uma conceituada empresa de negociação de ações na Índia, com mais de mil funcionários.
+O SOMA se adapta bem desde PMEs até grandes empresas. O SOMA é usado por várias cadeias de varejo na África, bem como por uma conceituada empresa de negociação de ações na Índia, com mais de mil funcionários.
 
 
 Confira uma variedade de [Histórias de usuários](https://erpnext.com/blog/customer-success-stories) para saber mais. Aqui está um vídeo para você começar:
@@ -88,7 +88,7 @@ Você também pode verificar os seguintes tópicos:
 
 1. [Preciso de um ERP?](/docs/pt/introduction/do-i-need-an-erp)
 2. [Código aberto](/docs/pt/introduction/open-source)
-3. [Introdução ao ERPNext](/docs/pt/introduction/getting-started-with-erpnext)
+3. [Introdução ao SOMA](/docs/pt/introduction/getting-started-with-erpnext)
 4. [O campeão](/docs/pt/introduction/the-champion)
 5. [Estratégia de implementação](/docs/pt/introduction/implementation-strategy)
 6. [Fluxos de trabalho principais](/docs/pt/introduction/key-workflows)

@@ -112,7 +112,7 @@ Ao criar um novo contrato usando este modelo, o `{{ start_date }}` é substituí
 ### 2.6 Referências
 
 
-Se o Contrato pode ser vinculado a uma transação no ERPNext. Selecione o tipo de transação e a transação específica. Os documentos que podem ser vinculados são:
+Se o Contrato pode ser vinculado a uma transação no SOMA. Selecione o tipo de transação e a transação específica. Os documentos que podem ser vinculados são:
 
 
 * Cotação

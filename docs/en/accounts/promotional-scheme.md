@@ -13,10 +13,10 @@
 **A Promotional Scheme is a temporary discount on one or more products.**
 
 
-Promotional schemes help businesses become successful as lower prices for a limited period of time to attract more Customers. They can be easily configured in ERPNext. A Promotional scheme is linked to a pricing rule, against each slab system that will generate the pricing rule.
+Promotional schemes help businesses become successful as lower prices for a limited period of time to attract more Customers. They can be easily configured in SOMA. A Promotional scheme is linked to a pricing rule, against each slab system that will generate the pricing rule.
 
 
-On creating a Promotional Scheme, the system creates a [Pricing Rule](/docs/en/accounts/pricing-rule). A Promotional Scheme can have multiple Pricing Rules associated with it. In ERPNext, a Promotional Scheme is an easier way to manage pricing on multiple Item/Groups based on different parties and conditions.
+On creating a Promotional Scheme, the system creates a [Pricing Rule](/docs/en/accounts/pricing-rule). A Promotional Scheme can have multiple Pricing Rules associated with it. In SOMA, a Promotional Scheme is an easier way to manage pricing on multiple Item/Groups based on different parties and conditions.
 
 
 To access the Promotional Scheme list, go to:
@@ -197,7 +197,7 @@ In this type of promotional scheme, the user gets an option to give a free produ
 ## 5. How to configure a Promotional Scheme (Examples)
 
 
-Let's understand how to configure a promotional scheme in ERPNext using some examples.
+Let's understand how to configure a promotional scheme in SOMA using some examples.
 
 
 ### 5.1 Mixed Conditions Schemes
@@ -209,7 +209,7 @@ Customer A has purchased 10 quantities of Britannia Cake 5 Rs packet and 5 quant
 So, the Supplier wants to apply the discount on products Britannia Cake 5 Rs, Britannia Cake 10 Rs only if his Customers have purchased 15 quantities of any product or sum of both products.
 
 
-To configure this in ERPNext the steps are as follows:
+To configure this in SOMA the steps are as follows:
 
 
 1. Set Apply On as Item Code.
@@ -231,7 +231,7 @@ Customer A has purchased 30 quantities of Britannia Cake 5 Rs packet and 2 quant
 The Supplier wants to apply the rule only if the Customer has purchased min 30 quantities of the product Britannia Cake 5 Rs or Britannia Cake 10 Rs.
 
 
-To configure this in ERPNext the steps are as follows
+To configure this in SOMA the steps are as follows
 
 
 1. Set Apply On as Item Code.

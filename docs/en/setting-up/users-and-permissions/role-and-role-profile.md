@@ -2,10 +2,10 @@
 # Role and Role Profile
 
 
-**A Role defines the permissions for accessing various documents in ERPNext.**
+**A Role defines the permissions for accessing various documents in SOMA.**
 
 
-Roles define a set of permissions which can be set from the [Roles Permission Manager](/docs/en/setting-up/users-and-permissions/role-based-permissions). Most commonly used roles are already defined in ERPNext, you can use the system with them. If needed, you can add more roles. For example, if you assign the Sales User role to a user, they'll be able to access documents like Quotations and Sales Orders since the permissions are already set for the role Sales User.
+Roles define a set of permissions which can be set from the [Roles Permission Manager](/docs/en/setting-up/users-and-permissions/role-based-permissions). Most commonly used roles are already defined in SOMA, you can use the system with them. If needed, you can add more roles. For example, if you assign the Sales User role to a user, they'll be able to access documents like Quotations and Sales Orders since the permissions are already set for the role Sales User.
 
 
 **Role profiles store different roles so that multiple roles can be assigned at once.**
@@ -30,7 +30,7 @@ To access Role, go to:
 
 1. Go to the Role list, click on New.
 2. Enter a name for the Role.
-3. Choose whether the Role has desk access. A role that has desk access can access ERPNext modules and the company's documents. The level of access depends on the roles assigned to the user.
+3. Choose whether the Role has desk access. A role that has desk access can access SOMA modules and the company's documents. The level of access depends on the roles assigned to the user.
 4. Save.
 
 

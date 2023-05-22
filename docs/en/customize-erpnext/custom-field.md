@@ -2,7 +2,7 @@
 # Custom Field
 
 
-**Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.**
+**Every form in SOMA has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field in a form as per your requirement.**
 
 
 You can go to [Customize Form](/docs/en/customize-erpnext/customize-form) and add the Field in a particular Form or a Document type *(hereafter referred to as DocType)* .
@@ -31,7 +31,7 @@ You can also go to the list view of any DocType and select Customize from the Me
 1. Go to the Custom Field list and click on New.
 2. **Document**: Select the Document in which you need to add the Custom Field.
 3. **Label**: Enter what Label would you like to give to your Custom Field.
-4. **Field Type**: ERPNext already has a set of Field Types defined which can be fetched from this drop-down menu. You can select the Type of your Custom Field from within this menu.
+4. **Field Type**: SOMA already has a set of Field Types defined which can be fetched from this drop-down menu. You can select the Type of your Custom Field from within this menu.
 5. Update.
 
 

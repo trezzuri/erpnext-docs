@@ -2,7 +2,7 @@
 # Opening Invoice Creation Tool
 
 
-The Opening Invoice Creation Tool allows importing data of outstanding Purchase or Sales Invoices into ERPNext. This specific tool is used in place of the Data Import Tool for cases where the Item data is irrelevant and outstanding balances against Customers/Suppliers are to be imported into ERPNext.
+The Opening Invoice Creation Tool allows importing data of outstanding Purchase or Sales Invoices into SOMA. This specific tool is used in place of the Data Import Tool for cases where the Item data is irrelevant and outstanding balances against Customers/Suppliers are to be imported into SOMA.
 
 
 To access the Opening Invoice Creation Tool, go to:
@@ -33,7 +33,7 @@ To access the Opening Invoice Creation Tool, go to:
 	* **Due Date**: The date after which the invoice will be overdue.
 	* **Item Name**: (Optional) The item name entered here will be shown in the invoice item table.
 	* **Outstanding Amount**: The outstanding amount of the invoice.
-	* **Invoice Number**: The corresponding invoice number as present in the previous system. If this field is empty, the ERPNext naming series will be used.
+	* **Invoice Number**: The corresponding invoice number as present in the previous system. If this field is empty, the SOMA naming series will be used.
 
 
 

@@ -8,7 +8,7 @@
 
 > 
 > Tip: A dedicated support Email Address is a good way to keep track of incoming
->  queries. For example, you can send support queries to ERPNext at
+>  queries. For example, you can send support queries to SOMA at
 >  support@erpnext.com and it will automatically create an Issue in our system.
 > 
 > 
@@ -74,7 +74,7 @@ replied, its status becomes "Replied".
 > 
 
 
-* **Customer**: If the email was sent from a [Customer](/docs/en/CRM/customer) stored in your ERPNext account, then a Customer link will appear in this field.
+* **Customer**: If the email was sent from a [Customer](/docs/en/CRM/customer) stored in your SOMA account, then a Customer link will appear in this field.
 * **Priority**: Priority can be set as per the requirements. By default, there are three priorities--Low, Medium, and High. You can delete these or add more as needed.
 * **Issue Type**: An Issue can be classified using Issue Type. Examples of Issue Types can be: 'Functional', 'Technical', 'Hardware', etc.
 * **Raised By (Email)**: The email ID from which the Issue was sent will be shown here.

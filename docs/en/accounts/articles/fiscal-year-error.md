@@ -41,7 +41,7 @@ Default Fiscal Year will be updated in the Global Default setting as well. You c
 ![Current Fiscal Year Setting in Global Defaults](/files/current-fiscal-year-in-global-defaults.png)
 
 
-Save Global Default, and Reload your ERPNext account. Then, default Fiscal Year will be auto-updated in your transactions.
+Save Global Default, and Reload your SOMA account. Then, default Fiscal Year will be auto-updated in your transactions.
 
 
 Note: In transactions, you can manually select required Fiscal Year, from More Info section.

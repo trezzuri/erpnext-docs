@@ -4,7 +4,7 @@
 **No ERPNExt, cada formulário vem com algumas ferramentas embutidas no sistema que permitem que você colabore com outros usuários dentro de sua conta para ter operações rápidas e transparentes.**
 
 
-A seguir estão as ferramentas em cada documento usando as quais você pode colaborar com outros usuários em sua conta ERPNext.
+A seguir estão as ferramentas em cada documento usando as quais você pode colaborar com outros usuários em sua conta SOMA.
 
 
 ### Atribuído a
@@ -31,7 +31,7 @@ Para muitos Documentos, pode haver informações que não fazem parte da transa�
 ### Compartilhar
 
 
-Você pode compartilhar um documento com um usuário específico em sua conta ERPNext. Independentemente de suas funções ou permissões, um usuário poderá acessar um documento compartilhado com ele.
+Você pode compartilhar um documento com um usuário específico em sua conta SOMA. Independentemente de suas funções ou permissões, um usuário poderá acessar um documento compartilhado com ele.
 
 
 ![Notes](/files/using-notes-4.png)

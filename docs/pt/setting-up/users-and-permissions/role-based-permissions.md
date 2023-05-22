@@ -4,7 +4,7 @@
 **A permissão para diferentes documentos pode ser controlada usando permissões baseadas em função.**
 
 
-ERPNext possui um sistema de permissão baseado em funções. Isso significa que você pode atribuir funções aos usuários e as permissões podem ser definidas nas funções. O Gerenciador de Permissões de Função permite que você defina quais funções podem acessar quais documentos e com quais permissões (ler, escrever, enviar, etc.).
+SOMA possui um sistema de permissão baseado em funções. Isso significa que você pode atribuir funções aos usuários e as permissões podem ser definidas nas funções. O Gerenciador de Permissões de Função permite que você defina quais funções podem acessar quais documentos e com quais permissões (ler, escrever, enviar, etc.).
 
 
 Depois que as funções são atribuídas a um usuário, seu acesso pode ser limitado a documentos específicos. A estrutura de permissão permite que você defina diferentes regras de permissão para diferentes campos usando um conceito chamado **Nível de permissão** de um campo.
@@ -43,7 +43,7 @@ Exemplos de tipos de documento são fatura de venda, pedido de licença, entrada
 
 Permissão "Nível" conecta campos com nível X a uma regra de permissão com nível X. Para saber mais, clique em [aqui](/docs/pt/setting-up/articles/managing-perm- nível).
 * **Estágios do documento:** as permissões são aplicadas em cada estágio do documento, como criação, salvamento, envio, cancelamento e alteração. Uma função pode ter permissão para imprimir, enviar por e-mail, importar ou exportar dados, acessar relatórios ou definir permissões de usuário.
-* **Permissões de Usuário:** Usando Permissões de Usuário no ERPNext, um usuário pode ser restrito a acessar apenas Documentos específicos para aquele Tipo de Documento. Ex: Apenas um Território de todos os Territórios. Permissões de usuário definidas para outros tipos de documento também são aplicadas se estiverem relacionadas ao tipo de documento atual por meio de campos de link.
+* **Permissões de Usuário:** Usando Permissões de Usuário no SOMA, um usuário pode ser restrito a acessar apenas Documentos específicos para aquele Tipo de Documento. Ex: Apenas um Território de todos os Territórios. Permissões de usuário definidas para outros tipos de documento também são aplicadas se estiverem relacionadas ao tipo de documento atual por meio de campos de link.
 
 
 Por exemplo, um cliente é um campo de link em um pedido de venda ou cotação. No Gerenciador de Permissões de Função, as Permissões do Usuário podem ser definidas usando o botão 'Definir Permissões do Usuário'.

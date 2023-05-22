@@ -31,7 +31,7 @@ Antes de criar e utilizar o Pedido de Pagamento, é aconselhável criar primeiro
 ## 2. Como criar um modelo de condições de pagamento
 
 
-Um modelo de condições de pagamento informa ao ERPNext como preencher a tabela na seção 'Agenda de condições de pagamento' do documento de compra/venda.
+Um modelo de condições de pagamento informa ao SOMA como preencher a tabela na seção 'Agenda de condições de pagamento' do documento de compra/venda.
 
 
 Você deve usá-lo se tiver um conjunto de condições de pagamento padrão ou para facilidade de uso.

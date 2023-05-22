@@ -10,7 +10,7 @@ Um Acionista é qualquer pessoa, empresa ou outra instituição que possua pelo 
 Qualquer lucro ou perda obtido por uma Empresa pertence aos Acionistas e, portanto, os Acionistas são um passivo para a Empresa.
 
 
-O ERPNext permite que você acompanhe todos os seus Acionistas e mantenha as Transferências de Ações, o Livro Razão de Ações e os Saldos de Ações. Um acionista é identificado exclusivamente pelo ID do acionista. Normalmente, esse ID é uma [Série de nomes](/docs/pt/setting-up/settings/naming-series) começando com 'ACC-SH-'. Além disso, assim que o Acionista faz uma única transação, um número de Folio é atribuído a ele. Isso também é exclusivo do Acionista.
+O SOMA permite que você acompanhe todos os seus Acionistas e mantenha as Transferências de Ações, o Livro Razão de Ações e os Saldos de Ações. Um acionista é identificado exclusivamente pelo ID do acionista. Normalmente, esse ID é uma [Série de nomes](/docs/pt/setting-up/settings/naming-series) começando com 'ACC-SH-'. Além disso, assim que o Acionista faz uma única transação, um número de Folio é atribuído a ele. Isso também é exclusivo do Acionista.
 
 
 Para acessar a lista de Acionistas, acesse:
@@ -42,7 +42,7 @@ Um Acionista pode aproveitar os recursos (operações) no processo de [Transfer�
 ### 1.1 Contatos e Endereços
 
 
-[Contatos](/docs/pt/CRM/contact) e [Endereços](/docs/pt/CRM/address) no ERPNext são armazenados separadamente para que você possa anexar vários Contatos ou Endereços para Acionistas e outras partes.
+[Contatos](/docs/pt/CRM/contact) e [Endereços](/docs/pt/CRM/address) no SOMA são armazenados separadamente para que você possa anexar vários Contatos ou Endereços para Acionistas e outras partes.
 
 
 ### 2. Tópicos Relacionados

@@ -4,10 +4,10 @@
 **O orçamento é um plano financeiro que ajuda a controlar as despesas da Empresa.**
 
 
-No ERPNext, você pode definir e gerenciar orçamentos em relação a um Centro de Custo ou um Projeto. Isso é útil para controlar suas despesas. Com a versão 12, você também pode criar [Dimensões contábeis](/docs/pt/accounts/accounting-dimensions) separadas para marcar transações com campos diferentes.
+No SOMA, você pode definir e gerenciar orçamentos em relação a um Centro de Custo ou um Projeto. Isso é útil para controlar suas despesas. Com a versão 12, você também pode criar [Dimensões contábeis](/docs/pt/accounts/accounting-dimensions) separadas para marcar transações com campos diferentes.
 
 
-Por exemplo, se você estiver fazendo vendas on-line, poderá definir um orçamento para anúncios de pesquisa e configurar o ERPNext para interromper ou avisá-lo sobre gastos excessivos além do orçamento definido.
+Por exemplo, se você estiver fazendo vendas on-line, poderá definir um orçamento para anúncios de pesquisa e configurar o SOMA para interromper ou avisá-lo sobre gastos excessivos além do orçamento definido.
 
 
 Os orçamentos também são ótimos para fins de planejamento. Ao fazer planos para o próximo exercício financeiro, você normalmente visa uma receita com base na qual definiria suas despesas. Definir um orçamento garantirá que suas despesas não saiam do controle em nenhum momento.
@@ -41,7 +41,7 @@ Para acessar a lista de orçamento, acesse:
 ### 2.1 Distribuição Mensal
 
 
-Você também pode definir um registro de Distribuição Mensal para distribuir o orçamento entre os meses. Se você não definir a distribuição mensal, o ERPNext calculará o orçamento anualmente ou em igual proporção para todos os meses.
+Você também pode definir um registro de Distribuição Mensal para distribuir o orçamento entre os meses. Se você não definir a distribuição mensal, o SOMA calculará o orçamento anualmente ou em igual proporção para todos os meses.
 
 
 ![Distribuição mensal](/files/monthly-budget-distribution.png)

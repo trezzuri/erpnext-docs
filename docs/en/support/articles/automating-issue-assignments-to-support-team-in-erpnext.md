@@ -1,9 +1,9 @@
 
-# Automating Issue Assignments in ERPNext
+# Automating Issue Assignments in SOMA
 
 
 Modern support automation tools demonstrably improve customer service. Automating the assignment of support issues ensure that every issue ticket has been assigned a product expert and the customer seeks resolution to their queries faster. Assignment Rule has been introduced in v12 and here's how you can automate your support team's troubles away.  
-First, we need to setup an email account that appends the incoming emails received there into the "Issue" DocType of ERPNext.**1) Create an Email Account:**You need to update email domain and setup your support email address in ERPNext's Email Account. To learn about email setup, please check out [this link](https://www.youtube.com/watch?v=ChsFbIuG06g&t=122s)  
+First, we need to setup an email account that appends the incoming emails received there into the "Issue" DocType of SOMA.**1) Create an Email Account:**You need to update email domain and setup your support email address in SOMA's Email Account. To learn about email setup, please check out [this link](https://www.youtube.com/watch?v=ChsFbIuG06g&t=122s)  
 ![](/files/NPp14kS.png)  
 **2) Append to Issue:**The checkbox, "Enable Incoming" has to be selected to allow emails sent on this email address to be received here. We need to capture them in a DocType, which is mentioned under "Appends To". In this case, we want to append all incoming emails to Issue  
 ![](/files/STAm8ko.png)  
@@ -14,4 +14,4 @@ This is a one-time configuration and you won't have to worry about it unless you
 ![](/files/Qb0kAzo.gif)  
 Note: If needed, the rule can also be disabled/updated:  
 ![](/files/PZbCDuu.png)  
-Similarly, you can automate the Sales process in ERPNext for assigning leads to your Sales team and ensure more conversion rates!! Thanks for reading this article! If you need further assistance with this, please reach our community [here](https://discuss.erpnext.com/)
+Similarly, you can automate the Sales process in SOMA for assigning leads to your Sales team and ensure more conversion rates!! Thanks for reading this article! If you need further assistance with this, please reach our community [here](https://discuss.erpnext.com/)

@@ -1,7 +1,7 @@
 # Excluindo relatórios personalizados
 
 
-ERPNext tem vários [tipos de relatórios](/docs/pt/customize-erpnext/articles/making-custom-reports) que podem ser personalizados de acordo com os usuários ' requisito.
+SOMA tem vários [tipos de relatórios](/docs/pt/customize-erpnext/articles/making-custom-reports) que podem ser personalizados de acordo com os usuários ' requisito.
 
 
 Se houver um relatório personalizado que precise ser excluído, isso pode ser feito seguindo as etapas. Observe que é aplicável apenas para os relatórios personalizados e não para os relatórios padrão.

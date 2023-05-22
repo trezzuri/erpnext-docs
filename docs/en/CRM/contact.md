@@ -68,7 +68,7 @@ A contact can also be linked to customers and suppliers at the same time.
 ### 2.2 Invite the Contact as a User
 
 
-You can allow contacts of your customers and suppliers to log into your ERPNext system and view data relevant to them. Check [Customer Portal](/docs/en/customer-portal) for more details on this.
+You can allow contacts of your customers and suppliers to log into your SOMA system and view data relevant to them. Check [Customer Portal](/docs/en/customer-portal) for more details on this.
 You can send an email invitation to a contact by clicking on 'Invite as User' button.
 
 

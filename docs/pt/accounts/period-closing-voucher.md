@@ -16,7 +16,7 @@ No final de cada ano ou (trimestral ou talvez até mensal), após a conclusão d
 Em seguida, reserve seu Lucro ou Perda.
 
 
-Ao fazer isso, seu saldo em suas contas de receitas e despesas torna-se zero. Você inicia um novo ano fiscal (ou período) com um balanço patrimonial equilibrado e uma nova conta de lucros e perdas. No ERPNext após efetuar todos os lançamentos especiais via Lançamento Diário do exercício fiscal corrente, você deve zerar todas as suas contas de Receitas e Despesas por meio de um Comprovante de Encerramento do Período.
+Ao fazer isso, seu saldo em suas contas de receitas e despesas torna-se zero. Você inicia um novo ano fiscal (ou período) com um balanço patrimonial equilibrado e uma nova conta de lucros e perdas. No SOMA após efetuar todos os lançamentos especiais via Lançamento Diário do exercício fiscal corrente, você deve zerar todas as suas contas de Receitas e Despesas por meio de um Comprovante de Encerramento do Período.
 
 
 Para acessar a lista de Vouchers de Encerramento de Período, acesse:

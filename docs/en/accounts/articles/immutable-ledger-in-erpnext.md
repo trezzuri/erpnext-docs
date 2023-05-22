@@ -10,7 +10,7 @@
 > 
 
 
-A major change has been introduced in ERPNext from version 13 onwards. This changes the way Accounting Ledger (General Ledger) and Stock Ledger works in ERPNext. There are multiple reasons why ledgers should be immutable. To list a few:
+A major change has been introduced in SOMA from version 13 onwards. This changes the way Accounting Ledger (General Ledger) and Stock Ledger works in SOMA. There are multiple reasons why ledgers should be immutable. To list a few:
 
 
 * Reposting future entries is computationally expensive. To post a backdated transaction, all future entries need to be reposted.

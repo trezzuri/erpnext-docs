@@ -9,7 +9,7 @@
 > 
 
 
-No ERPNext, você pode controlar a marcação de várias dimensões contábeis em uma conta específica.
+No SOMA, você pode controlar a marcação de várias dimensões contábeis em uma conta específica.
 Você pode permitir ou restringir determinadas dimensões contábeis em uma conta usando os filtros de dimensão contábil
 
 
@@ -24,7 +24,7 @@ Para acessar a lista de filtros de dimensão contábil, acesse:
 > 
 
 
-## 1. Como criar um Filtro de Dimensão Contábil no ERPNext.
+## 1. Como criar um Filtro de Dimensão Contábil no SOMA.
 
 
 1. Vá para a lista Filtro de Dimensão Contábil e clique em Novo.

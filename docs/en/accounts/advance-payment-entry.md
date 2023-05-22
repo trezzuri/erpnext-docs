@@ -8,7 +8,7 @@
 Generally, advance payment is done in the case of high value deals. Consider a Customer- Jane D'souza placing an order for a luxury furniture item costing ₹24,000 She is asked to give some advance before the furniture house begins work on her order. She gives them ₹10,000 in cash.
 
 
-In ERPNext, advance payment entry is created using Payment Entry. If there exist a Sales Order, you can directly create a Payment Entry for the advance amount. Or else, you can also create a standalone Payment Entry for the Customer. Same way, you can also create advance Payment Entry for Supplier, via Purchase Order.
+In SOMA, advance payment entry is created using Payment Entry. If there exist a Sales Order, you can directly create a Payment Entry for the advance amount. Or else, you can also create a standalone Payment Entry for the Customer. Same way, you can also create advance Payment Entry for Supplier, via Purchase Order.
 
 
 ![Payment Entry From Sales Order](/files/payment-option-in-sales-order.png)
@@ -43,7 +43,7 @@ Once a Sales Order or Purchase Order is submitted, you will find an option to cr
 3. Save and Submit.
 
 
-Any Payment Entry that is not linked to an invoice is considered as advance payment by the ERPNext system.
+Any Payment Entry that is not linked to an invoice is considered as advance payment by the SOMA system.
 
 
 If the Customer has given $5,000 as cash advance, it will be recorded as a

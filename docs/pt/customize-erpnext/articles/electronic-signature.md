@@ -1,7 +1,7 @@
 # Campo de assinatura
 
 
-A assinatura eletrônica pode ser criada no ERPNext utilizando o tipo de campo Assinatura. Este campo permite que você escreva uma assinatura em um bloco, assim como a assinatura em um papel .  
+A assinatura eletrônica pode ser criada no SOMA utilizando o tipo de campo Assinatura. Este campo permite que você escreva uma assinatura em um bloco, assim como a assinatura em um papel .  
 Para criar uma assinatura eletrônica, siga os seguintes passos:  
 1) Vá para Configurações > Personalizar formulário.  
 2 ) Selecione o Tipo de Formulário.  

@@ -10,7 +10,7 @@
 > 
 
 
-**An email can be linked to multiple documents in ERPNext.**
+**An email can be linked to multiple documents in SOMA.**
 
 
 This can be done in the following two ways:

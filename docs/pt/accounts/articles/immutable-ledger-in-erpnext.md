@@ -9,7 +9,7 @@
 > 
 
 
-Uma grande mudança foi introduzida no ERPNext a partir da versão 13 em diante. Isso altera a forma de funcionamento do Razão Contábil (General Ledger) e do Estoque no ERPNext. Existem várias razões pelas quais os livros contábeis devem ser imutáveis. Para listar alguns:
+Uma grande mudança foi introduzida no SOMA a partir da versão 13 em diante. Isso altera a forma de funcionamento do Razão Contábil (General Ledger) e do Estoque no SOMA. Existem várias razões pelas quais os livros contábeis devem ser imutáveis. Para listar alguns:
 
 
 * Repostar entradas futuras é computacionalmente caro. Para lançar uma transação retroativa, todas as entradas futuras precisam ser repostadas.

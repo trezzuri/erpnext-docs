@@ -5,10 +5,10 @@
 **A Payment Term helps to set a schedule according to which payments will be made.**
 
 
-A Payment Term defines a specific payment slab. For example, 50% payment on shipping and 50% on delivery of the item. You can save your business's payment terms on ERPNext and include them in all documents in the sales/purchase cycle. ERPNext will make all the General Ledger entries accordingly.
+A Payment Term defines a specific payment slab. For example, 50% payment on shipping and 50% on delivery of the item. You can save your business's payment terms on SOMA and include them in all documents in the sales/purchase cycle. SOMA will make all the General Ledger entries accordingly.
 
 
-In ERPNext, the Payment Terms form only defines portion percentages. The actual payment schedule can easily be applied using the Payment Terms Template.
+In SOMA, the Payment Terms form only defines portion percentages. The actual payment schedule can easily be applied using the Payment Terms Template.
 
 
 You can use Payment Terms in the following documents:

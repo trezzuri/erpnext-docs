@@ -1,7 +1,7 @@
 # Calendário
 
 
-**O calendário é uma ferramenta que ajuda você a criar, compartilhar e acompanhar eventos em sua conta ERPNext.**
+**O calendário é uma ferramenta que ajuda você a criar, compartilhar e acompanhar eventos em sua conta SOMA.**
 
 
 Você pode ter uma exibição de Dia, Semana ou Mês em um calendário.
@@ -50,7 +50,7 @@ No formulário de lead, você encontrará um campo chamado Próximo contato por 
 ### 1.2. Evento baseado em cartões de trabalho
 
 
-Para cada Job Card criado para um Usuário na conta ERPNext, um evento correspondente será criado no Calendário.
+Para cada Job Card criado para um Usuário na conta SOMA, um evento correspondente será criado no Calendário.
 
 
 ![Calendar](/files/using-calender-job-card.png)
@@ -65,7 +65,7 @@ O evento de aniversário é criado com base na data de nascimento especificada n
 ### 1.4. Eventos Recorrentes
 
 
-Existem vários eventos em uma organização que ocorrem regularmente em intervalos periódicos. No ERPNext, você pode criar tais eventos ativando a propriedade 'Repetir este evento' para aquele evento específico.
+Existem vários eventos em uma organização que ocorrem regularmente em intervalos periódicos. No SOMA, você pode criar tais eventos ativando a propriedade 'Repetir este evento' para aquele evento específico.
 
 
 Ao fazer isso, você será solicitado a inserir a periodicidade deste evento no 'Repetir On'. Isso pode ser diário, mensal, semanal ou anual.

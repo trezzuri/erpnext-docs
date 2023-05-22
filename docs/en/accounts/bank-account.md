@@ -2,10 +2,10 @@
 # Bank Account
 
 
-In ERPNext, Bank Accounts can be created for a Company as well as other parties like Customers, Suppliers etc. Doing this lets you record all the bank transactions correctly for accounting accuracy.
+In SOMA, Bank Accounts can be created for a Company as well as other parties like Customers, Suppliers etc. Doing this lets you record all the bank transactions correctly for accounting accuracy.
 
 
-You can add Bank Accounts in ERPNext for Company. Supplier, Customer, or any other party with whom transactions are carried out. Then the Bank Account can be chosen in [Payment Entries](/docs/en/accounts/payment-entry) as a [Mode of Payment](/docs/en/accounts/mode-of-payment).
+You can add Bank Accounts in SOMA for Company. Supplier, Customer, or any other party with whom transactions are carried out. Then the Bank Account can be chosen in [Payment Entries](/docs/en/accounts/payment-entry) as a [Mode of Payment](/docs/en/accounts/mode-of-payment).
 
 
 To access Bank Account, go to:
@@ -61,7 +61,7 @@ Before creating and using Bank Account, it is advised to create the following fi
 ### 3.2 Account Details
 
 
-For reference, the following details about a Bank Account can be stored in ERPNext:
+For reference, the following details about a Bank Account can be stored in SOMA:
 
 
 * IBAN

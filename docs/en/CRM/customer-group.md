@@ -5,7 +5,7 @@
 **Customer Group is an aggregation of customers that are similar in some way.**
 
 
-Customer groups allow you to organize your customers. Typically Customers are grouped by market segment based on the domain in which a business operates. Customer Groups are created in hierarchical manner in ERPNext. You can create a main customer group and add sub customer groups under it.
+Customer groups allow you to organize your customers. Typically Customers are grouped by market segment based on the domain in which a business operates. Customer Groups are created in hierarchical manner in SOMA. You can create a main customer group and add sub customer groups under it.
 
 
 You can define a price a list which will be automatically applied to all customers belonging to that group. You can also get trend analysis for each group. Individual, Commercial and Government customer groups are created by default. You can add your own customer groups based on your requirement like retail, wholesale etc.
@@ -50,7 +50,7 @@ You can assign the credit limit, [Price List](/docs/en/stock/price-lists), and [
 #### 2.2 Default Receivable Account
 
 
-You need not create a separate accounting ledger for each customer in ERPNext. Read [Common Receivable Account](/docs/en/accounts/articles/common-receivable-account) for more details.
+You need not create a separate accounting ledger for each customer in SOMA. Read [Common Receivable Account](/docs/en/accounts/articles/common-receivable-account) for more details.
 
 
 If you need a separate receivable account for a customer, you can add the same in 'Default Receivable Account' section.

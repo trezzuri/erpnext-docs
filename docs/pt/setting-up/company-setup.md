@@ -4,7 +4,7 @@
 **Empresa é a pessoa jurídica constituída pela associação de pessoas para o exercício de um empreendimento comercial ou industrial.**
 
 
-No ERPNext, a primeira Empresa é criada quando uma conta ERPNext é configurada. Para cada empresa, você pode definir um domínio como manufatura, varejo ou serviços, dependendo da natureza da sua atividade comercial.
+No SOMA, a primeira Empresa é criada quando uma conta SOMA é configurada. Para cada empresa, você pode definir um domínio como manufatura, varejo ou serviços, dependendo da natureza da sua atividade comercial.
 
 
 Se você tiver mais de uma empresa, poderá adicioná-las de:
@@ -44,7 +44,7 @@ Você também pode anexar um logotipo da empresa e adicionar uma descrição par
 Vamos supor que você administre um grupo de empresas, algumas podem ser empresas maiores e outras menores que fazem parte da(s) empresa(s) maior(is).
 
 
-No ERPNext, você pode configurar várias empresas. A estrutura da empresa pode ser paralela, ou seja, empresas irmãs, empresas controladoras ou uma combinação de ambas.
+No SOMA, você pode configurar várias empresas. A estrutura da empresa pode ser paralela, ou seja, empresas irmãs, empresas controladoras ou uma combinação de ambas.
 
 
 Uma empresa matriz é uma organização maior que consiste em uma ou mais empresas filhas. Uma empresa filha é uma subsidiária de uma empresa controladora.
@@ -56,7 +56,7 @@ A exibição em árvore da empresa exibe a estrutura geral de suas empresas.
 ![Company Tree](/files/company-tree.png)
 
 
-Uma vez construída a árvore da empresa, o ERPNext irá validar se as contas das empresas filhas correspondem às contas da empresa mãe. Todas as contas podem ser combinadas em um extrato consolidado do plano de contas.
+Uma vez construída a árvore da empresa, o SOMA irá validar se as contas das empresas filhas correspondem às contas da empresa mãe. Todas as contas podem ser combinadas em um extrato consolidado do plano de contas.
 
 
 ### 1.2 Outras opções ao criar uma empresa
@@ -73,7 +73,7 @@ Uma vez construída a árvore da empresa, o ERPNext irá validar se as contas da
 Para cada Empresa, o mestre do Plano de Contas é mantido separadamente. Isso permite que você mantenha uma contabilidade separada para cada empresa de acordo com os requisitos legais. Você também pode importar planos de contas usando o [Importador de planos de contas](/docs/pt/setting-up/chart-of-accounts-importer).
 
 
-O ERPNext possui Plano de Contas localizado prontamente disponível para alguns países. Ao criar uma nova empresa, você pode optar por configurar o plano de contas para ela a partir de uma das seguintes opções.
+O SOMA possui Plano de Contas localizado prontamente disponível para alguns países. Ao criar uma nova empresa, você pode optar por configurar o plano de contas para ela a partir de uma das seguintes opções.
 
 
 * Plano de contas padrão
@@ -222,7 +222,7 @@ Função de aprovador de orçamento de exceção: a função selecionada aqui po
 ### 2.8 Informações da empresa
 
 
-Para referência, os seguintes detalhes da sua empresa podem ser salvos no ERPNext:
+Para referência, os seguintes detalhes da sua empresa podem ser salvos no SOMA:
 
 
 * Data de Constituição

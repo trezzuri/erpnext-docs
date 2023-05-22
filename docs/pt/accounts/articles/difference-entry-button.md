@@ -1,7 +1,7 @@
 # Entrada de diferença
 
 
-De acordo com os padrões contábeis, o débito em um lançamento contábil deve ser igual ao crédito. Caso contrário, o sistema permite o envio da transação contábil, interrompendo assim o lançamento do razão. No ERPNext, ao salvar o lançamento contábil, o sistema valida se o débito e o crédito estão compensando.
+De acordo com os padrões contábeis, o débito em um lançamento contábil deve ser igual ao crédito. Caso contrário, o sistema permite o envio da transação contábil, interrompendo assim o lançamento do razão. No SOMA, ao salvar o lançamento contábil, o sistema valida se o débito e o crédito estão compensando.
 
 
 ![Débito e crédito](/files/journal-entry-message.png)

@@ -1,4 +1,4 @@
-# ERPNext Migrador de QuickBooks
+# SOMA Migrador de QuickBooks
 
 
 ## Como configurar o QuickBooks Migrator?
@@ -64,7 +64,7 @@
 
 
 ```
-Ao criar uma Empresa o ERPNext cria um plano de contas para aquela empresa, essas contas serão mantidas.
+Ao criar uma Empresa o SOMA cria um plano de contas para aquela empresa, essas contas serão mantidas.
 
 ```
 
@@ -77,7 +77,7 @@ Para evitar colisão de nomes com contas existentes, todas as contas do QuickBoo
 
 por exemplo. `Job Expense` se tornará `Job Expense - QB`.
 
-**Observação**: ERPNext também codifica nomes de contas com a abreviação da empresa. Levando isso em consideração, `Job Expense` se tornará `Job Expense - QB - AZ` (assumindo que `AZ` é a abreviação da empresa).
+**Observação**: SOMA também codifica nomes de contas com a abreviação da empresa. Levando isso em consideração, `Job Expense` se tornará `Job Expense - QB - AZ` (assumindo que `AZ` é a abreviação da empresa).
 
 ```
 
@@ -95,7 +95,7 @@ Cinco contas root, ou seja, `Asset`, `Equity`, `Expense`, `Liability`, `Income` 
 
 
 ```
-QuickBooks permite transações em contas de grupo, o que não é permitido no ERPNext, para lidar com isso, cada conta de grupo terá um filho com um nome hifenizado.
+QuickBooks permite transações em contas de grupo, o que não é permitido no SOMA, para lidar com isso, cada conta de grupo terá um filho com um nome hifenizado.
 
 por exemplo.
 
@@ -124,7 +124,7 @@ por exemplo.
 
 
 ```
-O QuickBooks permite que várias contas tenham o mesmo nome, o que não é permitido no ERPNext, para lidar com isso, toda conta duplicada terá um nome hifenizado.
+O QuickBooks permite que várias contas tenham o mesmo nome, o que não é permitido no SOMA, para lidar com isso, toda conta duplicada terá um nome hifenizado.
 
 por exemplo.
 
@@ -224,7 +224,7 @@ QuickBooks tem quatro variantes transacionais de Fatura, todas elas serão salva
 
 
 ```
-QuickBooks usa contas especiais para Markup e Discount, ERPNext não lida com a despesa de desconto e markup desta forma, em vez disso, todos os itens verão a mudança em suas contas de receita.
+QuickBooks usa contas especiais para Markup e Discount, SOMA não lida com a despesa de desconto e markup desta forma, em vez disso, todos os itens verão a mudança em suas contas de receita.
 
 ```
 
@@ -240,7 +240,7 @@ Para Notas Fiscais com Frete, será adicionado na tabela Item um Item com o nome
 ### Arredondamento
 
 
-ERPNext usa método de arredondamento diferente do QuickBooks, por isso, em Notas Fiscais com Imposto e com moeda diferente da moeda da empresa, a Nota Fiscal de Venda terá total geral diferente da Nota Fiscal QuickBooks.
+SOMA usa método de arredondamento diferente do QuickBooks, por isso, em Notas Fiscais com Imposto e com moeda diferente da moeda da empresa, a Nota Fiscal de Venda terá total geral diferente da Nota Fiscal QuickBooks.
 
 ### Caso especial
 
@@ -286,7 +286,7 @@ As transações a seguir serão salvas como entrada no diário
 ## Imposto
 
 
-Para cada taxa de imposto do QuickBooks, uma conta ERPNext será criada.
+Para cada taxa de imposto do QuickBooks, uma conta SOMA será criada.
 
 
 ## Campos personalizados

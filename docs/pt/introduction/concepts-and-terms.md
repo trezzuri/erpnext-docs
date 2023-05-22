@@ -3,7 +3,7 @@
 
 
 Before you start implementation, lets get familiar with the terminology that
-is used and some basic concepts in ERPNext.
+is used and some basic concepts in SOMA.
 
 
 
@@ -17,7 +17,7 @@ is used and some basic concepts in ERPNext.
 #### Company
 
 
-This represents the Company records for which ERPNext is setup. With this same
+This represents the Company records for which SOMA is setup. With this same
 setup, you can create multiple Company records, each representing a different
 legal entity. The accounting for each Company will be different, but they will
 share the Customer, Supplier and Item records.
@@ -81,7 +81,7 @@ and is uniquely identified.
 
 
 An Account is a heading under which financial and business transactions are
-carried on. Examples of accounts are "Debtors", "Creditors", "VAT Payable", “Travel Expenses”, "Sales", "Share Capital", etc. ERPNext keeps track of your customers' and
+carried on. Examples of accounts are "Debtors", "Creditors", "VAT Payable", “Travel Expenses”, "Sales", "Share Capital", etc. SOMA keeps track of your customers' and
 suppliers' balances in the background, so you don't need to create dedicated Accounts for them.
 
 

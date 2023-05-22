@@ -7,7 +7,7 @@
 Geralmente, o pagamento antecipado é feito no caso de negócios de alto valor. Considere uma cliente - Jane D'souza fazendo um pedido de um item de mobília de luxo no valor de ₹ 24.000. Ela é solicitada a dar algum adiantamento antes que a casa de móveis comece a trabalhar em seu pedido. Ela dá a eles ₹ 10.000 em dinheiro.
 
 
-No ERPNext, a entrada de pagamento antecipado é criada usando Entrada de pagamento. Se existir um Pedido de Venda, você pode criar diretamente uma Entrada de Pagamento para o valor do adiantamento. Ou então, você também pode criar uma entrada de pagamento autônoma para o cliente. Da mesma forma, você também pode criar Entrada de Pagamento Antecipado para Fornecedor, via Ordem de Compra.
+No SOMA, a entrada de pagamento antecipado é criada usando Entrada de pagamento. Se existir um Pedido de Venda, você pode criar diretamente uma Entrada de Pagamento para o valor do adiantamento. Ou então, você também pode criar uma entrada de pagamento autônoma para o cliente. Da mesma forma, você também pode criar Entrada de Pagamento Antecipado para Fornecedor, via Ordem de Compra.
 
 
 ![Entrada de pagamento do pedido de vendas](/files/payment-option-in-sales-order.png)
@@ -42,7 +42,7 @@ Depois que um pedido de venda ou pedido de compra for enviado, você encontrará
 3. Salvar e enviar.
 
 
-Qualquer Entrada de Pagamento que não esteja vinculada a uma fatura é considerada como adiantamento pelo sistema ERPNext.
+Qualquer Entrada de Pagamento que não esteja vinculada a uma fatura é considerada como adiantamento pelo sistema SOMA.
 
 
 Se o Cliente tiver dado US$ 5.000 como adiantamento em dinheiro, isso será registrado como um

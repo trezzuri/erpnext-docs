@@ -9,7 +9,7 @@ You can create Inter Company Journal Entry if you are making transactions with m
 You can select the Accounts which you wish to use in the Inter Company transactions. A possible use case would be a company buying goods on behalf of another company.
 
 
-Inter company Journal Entries are created using the Journal Entry form in ERPNext. To access the Journal Entry list, go to:
+Inter company Journal Entries are created using the Journal Entry form in SOMA. To access the Journal Entry list, go to:
 
 
 

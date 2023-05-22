@@ -2,7 +2,7 @@
 # Currency
 
 
-In ERPNext, the Currency list stores the currency value, it's symbol and fraction unit. Most of the commonly used currencies are already present in ERPNext. The exchange rates are fetched automatically according to the current market rate. You can also configure the system to use older fixed exchange rates by creating them in the [Currency Exchange](/docs/en/accounts/currency-exchange) form.
+In SOMA, the Currency list stores the currency value, it's symbol and fraction unit. Most of the commonly used currencies are already present in SOMA. The exchange rates are fetched automatically according to the current market rate. You can also configure the system to use older fixed exchange rates by creating them in the [Currency Exchange](/docs/en/accounts/currency-exchange) form.
 
 
 To access the Currency list, go to:

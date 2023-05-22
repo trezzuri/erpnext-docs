@@ -16,7 +16,7 @@ Existem dois tipos principais de usuários:
 
 
 **Usuários do site**: Clientes, Fornecedores, Alunos, etc., que têm acesso apenas ao portal e não a nenhum módulo.
-**Usuários do Sistema**: Pessoas que utilizam o ERPNext na Empresa com acesso a módulos, dados da empresa, etc.
+**Usuários do Sistema**: Pessoas que utilizam o SOMA na Empresa com acesso a módulos, dados da empresa, etc.
 
 
 Leia mais sobre [diferença entre usuário do sistema e do site< /a>.](/docs/pt/setting-up/articles/difference-between-system-user-and-website-user)

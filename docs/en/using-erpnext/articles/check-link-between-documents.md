@@ -2,7 +2,7 @@
 # Checking Link Between Documents
 
 
-Every document can be linked to various other documents in ERPNext.
+Every document can be linked to various other documents in SOMA.
 
 
 **The 'Links' tool gives you an option to check if the current document is linked to any previous documents and lists down all the forward links.**

@@ -48,7 +48,7 @@ Other examples of Deferred Expenses are:
 * For an Internet Subscription, the amount is paid upfront and service is delivered every month. So it is Deferred Expense for the Customer.
 
 
-Following is how you can configure Deferred Expense accounting in ERPNext to automate the process.
+Following is how you can configure Deferred Expense accounting in SOMA to automate the process.
 
 
 ### 2.1 Item

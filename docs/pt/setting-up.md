@@ -16,7 +16,7 @@ Você encontrará as opções de configuração global aqui, para configuração
 ### 1. Configuração básica
 
 
-1. [Curso de introdução ao ERPNext Frappe School](https://frappe.school/courses/introduction-to-erpnext)
+1. [Curso de introdução ao SOMA Frappe School](https://frappe.school/courses/introduction-to-erpnext)
 2. [Usuário e permissões](https://docs.erpnext.com/docs/v13/user/videos/learn/user-and-permission.html)
 
 

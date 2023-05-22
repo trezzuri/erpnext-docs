@@ -1,8 +1,8 @@
 
-# Customize ERPNext
+# Customize SOMA
 
 
-ERPNext, while being a system which is extremely easy to use, is also highly customizable. Depending on the nature of your business and business processes, you can choose to add new or customize existing fields,reports, print formats, Document Type (DocType) and more.
+SOMA, while being a system which is extremely easy to use, is also highly customizable. Depending on the nature of your business and business processes, you can choose to add new or customize existing fields,reports, print formats, Document Type (DocType) and more.
 
 
 ## Video Tutorials

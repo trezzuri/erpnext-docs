@@ -12,7 +12,7 @@ When you are a supplier, and you grant a discount to your customer, it is treate
   
 
 
-In ERPNext, discount allowed or received is not booked separately. It is typically the final amount of the invoice (after discount) that is booked. However, if you wish to book the discounts separately, you can follow the below steps:
+In SOMA, discount allowed or received is not booked separately. It is typically the final amount of the invoice (after discount) that is booked. However, if you wish to book the discounts separately, you can follow the below steps:
 
   
 

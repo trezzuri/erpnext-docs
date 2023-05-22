@@ -30,7 +30,7 @@ Antes de usar a Importação de dados, **certifique-se** de ter todos os seus da
 ## 1. Inserindo Novos Registros
 
 
-Digamos que você queira importar a lista de Clientes do seu sistema antigo para o ERPNext. O primeiro passo é baixar um modelo no qual podemos inserir nossos dados.
+Digamos que você queira importar a lista de Clientes do seu sistema antigo para o SOMA. O primeiro passo é baixar um modelo no qual podemos inserir nossos dados.
 
 
 ### 1.1 Baixe o modelo
@@ -148,10 +148,10 @@ Siga as etapas na seção [Importando o modelo](#23-importing-the-template) acim
 ## 3. Importando Registros Filhos
 
 
-Os dados no ERPNext são armazenados em tabelas como uma planilha com colunas e linhas de dados. Cada formulário, como Pedido de Venda, possui vários campos, como Cliente, Empresa, etc. Também possui tabelas como tabela de itens, tabela de impostos etc. dentro da tabela filho (tabela de itens) são tratados como tabela filho para importação de dados.
+Os dados no SOMA são armazenados em tabelas como uma planilha com colunas e linhas de dados. Cada formulário, como Pedido de Venda, possui vários campos, como Cliente, Empresa, etc. Também possui tabelas como tabela de itens, tabela de impostos etc. dentro da tabela filho (tabela de itens) são tratados como tabela filho para importação de dados.
 
 
-Cada formulário no ERPNext pode ter várias tabelas filhas associadas a ele. As tabelas filho são vinculadas às tabelas pai e são implementadas onde há vários valores para qualquer propriedade. Por exemplo, um item pode ter vários preços, uma fatura de venda tem vários itens, impostos e assim por diante.
+Cada formulário no SOMA pode ter várias tabelas filhas associadas a ele. As tabelas filho são vinculadas às tabelas pai e são implementadas onde há vários valores para qualquer propriedade. Por exemplo, um item pode ter vários preços, uma fatura de venda tem vários itens, impostos e assim por diante.
 
 
 Ao exportar um documento com tabelas filho, por exemplo, cada linha filho aparecerá em uma linha separada, mas está associada a uma única linha pai. Os valores subseqüentes nas colunas pai permanecerão em branco. Você deve garantir que essa ordem não seja quebrada ao importá-los por meio da importação de dados.
@@ -178,7 +178,7 @@ Você também pode importar dados do Planilhas Google. Importe seu modelo no Pla
 ### 4.2 Enviar após a importação
 
 
-No ERPNext, os tipos de documentos são principalmente de dois tipos - mestres e transações. Os mestres são registros como Cliente e Tarefa, que só podem ser salvos, não enviados. Transações como pedidos de vendas e faturas de compra são documentos que podem ser enviados e podem ser enviados.
+No SOMA, os tipos de documentos são principalmente de dois tipos - mestres e transações. Os mestres são registros como Cliente e Tarefa, que só podem ser salvos, não enviados. Transações como pedidos de vendas e faturas de compra são documentos que podem ser enviados e podem ser enviados.
 
 
 Ao selecionar um tipo de documento que pode ser enviado para Importação, você pode marcar **Enviar após a importação** para enviar o documento após a importação.
@@ -202,7 +202,7 @@ Não há limite rígido para o número de registros que podem ser importados. Ma
 ### 5.2 Arquivos CSV
 
 
-Um arquivo CSV (valor separado por vírgula) é um arquivo de dados que você pode carregar no ERPNext para atualizar vários dados. Qualquer arquivo de planilha de aplicativos de planilhas populares, como MS Excel ou Open Office Spreadsheet, pode ser salvo como um arquivo CSV.
+Um arquivo CSV (valor separado por vírgula) é um arquivo de dados que você pode carregar no SOMA para atualizar vários dados. Qualquer arquivo de planilha de aplicativos de planilhas populares, como MS Excel ou Open Office Spreadsheet, pode ser salvo como um arquivo CSV.
 
 
 Se você estiver usando o Microsoft Excel e usando caracteres não ingleses, certifique-se de salvar seu arquivo codificado como UTF-8.

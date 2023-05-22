@@ -1,7 +1,7 @@
 # Adicionando anexos a mensagens enviadas
 
 
-**Você pode adicionar anexos a e-mails enviados em qualquer lugar no ERPNext.**
+**Você pode adicionar anexos a e-mails enviados em qualquer lugar no SOMA.**
 
 
 Se você tiver determinados arquivos anexados ao seu documento e desejar anexá-los ao e-mail enviado, basta selecioná-los na lista de anexos.

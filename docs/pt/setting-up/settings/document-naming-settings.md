@@ -4,7 +4,7 @@
 **Os mestres e as transações podem receber prefixos na forma de séries de nomenclatura.**
 
 
-ERPNext permite que você crie prefixos para seus documentos, com cada prefixo
+SOMA permite que você crie prefixos para seus documentos, com cada prefixo
 formando sua própria série. Por exemplo, uma série com prefixo INV12#### terá
 números INV120001, INV120002 e assim por diante.
 

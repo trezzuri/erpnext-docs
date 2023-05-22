@@ -1,7 +1,7 @@
 # Suporte
 
 
-Excelente suporte ao cliente e manutenção estão no centro de qualquer negócio de sucesso. Com o ERPNext, você rastreia todas as solicitações e problemas recebidos dos clientes e os responde rapidamente. O banco de dados de consultas recebidas também ajudará você a identificar as maiores oportunidades de melhorias.
+Excelente suporte ao cliente e manutenção estão no centro de qualquer negócio de sucesso. Com o SOMA, você rastreia todas as solicitações e problemas recebidos dos clientes e os responde rapidamente. O banco de dados de consultas recebidas também ajudará você a identificar as maiores oportunidades de melhorias.
 
 
 Você pode acompanhar as consultas recebidas de seu e-mail usando o Suporte

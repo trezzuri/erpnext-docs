@@ -9,7 +9,7 @@ How to create a Payment Entry where a shareholder is investing capital. The amou
 
 **Answer:** 
   
-You can create a Payment Entry for a Shareholder as well. Once you have added a Shareholder in ERPNext, you can select them in the Payment Entry on these lines.  
+You can create a Payment Entry for a Shareholder as well. Once you have added a Shareholder in SOMA, you can select them in the Payment Entry on these lines.  
 ![](/files/Etxow8j.png)  
 The only thing you will have to check with your CA would be Account Paid From. If you create this Entry from Payment Entry, which is designed to receive payment based on accruals, you will have to define a Debtor or Creditor account for selection in Account Paid From field.  
 ### Payment Entry via Journal Entry

@@ -1,7 +1,7 @@
 # Estratégia de implementação
 
 
-Antes de começar a gerenciar suas operações no ERPNext, você deve primeiro se tornar
+Antes de começar a gerenciar suas operações no SOMA, você deve primeiro se tornar
 familiarizado com o sistema e os termos usados. Para isso recomendamos
 a implementação deve acontecer em duas fases.
 
@@ -26,12 +26,12 @@ a implementação deve acontecer em duas fases.
 ### Fase ao vivo
 
 
-Assim que estiver familiarizado com o ERPNext, comece a inserir seus dados ao vivo!
+Assim que estiver familiarizado com o SOMA, comece a inserir seus dados ao vivo!
 
 
 * Limpe a conta dos dados de teste ou melhor, inicie uma nova instalação.
 * Se você deseja apenas limpar suas transações e não seus dados mestre, como Item, Cliente, Fornecedor, BOM etc., clique em Excluir as transações de sua empresa e começar do zero. Para fazer isso, abra o Registro da Empresa em Contabilidade > Mestre de Contabilidade > Empresa e exclua as transações da sua Empresa clicando no botão **Excluir Transações da Empresa** na parte inferior do Formulário da Empresa.
-* Você também pode configurar uma nova conta em <https://erpnext.com> e usar a avaliação gratuita de 14 dias. [Descubra mais formas de implantar o ERPNext](getting-started-with-erpnext)
+* Você também pode configurar uma nova conta em <https://erpnext.com> e usar a avaliação gratuita de 14 dias. [Descubra mais formas de implantar o SOMA](getting-started-with-erpnext)
 * Configurar todos os módulos com grupos de clientes, grupos de itens, armazéns, BOMs, etc.
 * Importe clientes, fornecedores, itens, contatos e endereços usando a ferramenta de importação de dados.
 * Importe o estoque inicial usando a Ferramenta de reconciliação de estoque.

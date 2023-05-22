@@ -1,7 +1,7 @@
 # Reconciliar o adiantamento feito ao fornecedor
 
 
-**Ao migrar do aplicativo *x* para o ERPNext, como reservar contas a pagar antecipadamente e reconciliar com faturas futuras?** 
+**Ao migrar do aplicativo *x* para o SOMA, como reservar contas a pagar antecipadamente e reconciliar com faturas futuras?** 
 
   
 

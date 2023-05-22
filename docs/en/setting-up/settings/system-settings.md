@@ -5,7 +5,7 @@
 **System Setting contains settings for system-wide configuration of the account.**
 
 
-You can localize ERPNext to use particular timezone, date, number or currency format, and also set global session expiry via System Settings.
+You can localize SOMA to use particular timezone, date, number or currency format, and also set global session expiry via System Settings.
 
 
 To open System Settings, go to:
@@ -19,7 +19,7 @@ To open System Settings, go to:
 > 
 
 
-![System Settings](/files/system-settings.png)
+![System Settings](/private/files/system-settings.png)
 
 
 ## 1. Sections in System Settings
@@ -30,7 +30,7 @@ To open System Settings, go to:
 
 * **Country**: You can set the default country here, this will be fetched when creating new addresses. If your company has multiple branches in different countries, choose the head office location.
 * **Time Zone**: Sets time automatically based on the time zone.
-* **Language**: Sets the global language for the ERPNext account. Then language will be changed in all the menus, transactions, masters, etc.
+* **Language**: Sets the global language for the SOMA account. Then language will be changed in all the menus, transactions, masters, etc.
 * **Disable Document Sharing**: Disables share access for all users across the system (except Administrator) to make sure access is only given via permissions. Users will only be able to view who the document is shared with and not share the document itself. Additionally, assigning a document to a user will be **blocked** if the assignee does have access to the document.
 
 
@@ -49,7 +49,7 @@ To open System Settings, go to:
 ### 1.3 Backups
 
 
-In ERPNext you can backup the database as well as your files. Database backups are created automatically while file backups need to be downloaded explicitly.
+In SOMA you can backup the database as well as your files. Database backups are created automatically while file backups need to be downloaded explicitly.
 
 
 This field shows the number of backups after which older ones will be deleted. By default, 3 backups are saved over 24 hours. New backups are automatically created every few hours and the newest backup will overwrite the oldest one. For a backup of files, click on the Download Files Backup button in the Download Backups form.
@@ -91,7 +91,7 @@ If the Apply Strict User Permissions checkbox is ticked, documents, where Territ
 * **Session Expiry Mobile**: Session expiry when logged in from a mobile phone.
 * **Document Share Key Expiry (in Days)**: Number of days after which "document web link" sent via email will be expired.
 * **Allow only one session per user**: If you want to use a single set of credentials for multiple users, tick this checkbox. The number of simultaneous sessions can be changed under User master. Mobile phone sessions are not counted here.
-* **Allow Login using Mobile Number**: By checking the 'Allow Login using Mobile Number' checkbox, you can log in to ERPNext using a valid mobile number set in your User account.
+* **Allow Login using Mobile Number**: By checking the 'Allow Login using Mobile Number' checkbox, you can log in to SOMA using a valid mobile number set in your User account.
 * **Allow Login using User Name**: Allow user login via their username set in the [User master](/docs/en/setting-up/users-and-permissions/adding-users).
 * **Show Full Error and Allow Reporting of Issues to the Developer**: This will display the whole error on the screen and allow reporting issues. If you have technical knowledge in this area, you can get a better idea of the error by reading the whole message.
 * **Remove EXIF tags from uploaded images**: Metadata stored in image files in the EXIF file format can be exploited to get sensitive user information. This option lets users remove that data from the images before uploading.
@@ -146,7 +146,7 @@ On ticking 'Enable Two Factor Auth', the following two options will be seen.
 * **Email Footer Address**: Organization name, address, and other details can be added here. This will be set as default in all outgoing mails.
 * **Disable Standard Email Footer**: If ticked, the standard email footer will be disabled for outgoing emails.
 * **Hide footer in auto-email reports**: If ticked, footers will be hidden in [Auto Email reports](/docs/en/setting-up/email/auto-email-reports).
-* **Send document web view link in the email**: ERPNext has a portal view available from where parties like Customers and Suppliers can sign up and view their order history. When you email a transaction to your party, you can also send a web link to view the same document on the portal of your ERPNext account. This option will enable this functionality.
+* **Send document web view link in the email**: SOMA has a portal view available from where parties like Customers and Suppliers can sign up and view their order history. When you email a transaction to your party, you can also send a web link to view the same document on the portal of your SOMA account. This option will enable this functionality.
 
 
 ![Email Footer](/files/email-footer.png)

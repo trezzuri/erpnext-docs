@@ -5,7 +5,7 @@
 **The moment a User logs into the system they will be able to see a Home Screen wherein all the Modules and Domains will be listed in the form of cards.**
 
 
-Their cards are a replacement to the erstwhile Module icons which were present in ERPNext versions before version 12.
+Their cards are a replacement to the erstwhile Module icons which were present in SOMA versions before version 12.
 
 
 ![New Desktop](/files/desktop.png)
@@ -14,10 +14,10 @@ Their cards are a replacement to the erstwhile Module icons which were present i
 These cards can be classified into four categories, namely:
 
 
-* **Modules**: These are all the domain agnostic modules available in ERPNext that are common to all types of businesses. Modules like Human Resources, CRM, Buying, Selling, etc. are put under this category.
+* **Modules**: These are all the domain agnostic modules available in SOMA that are common to all types of businesses. Modules like Human Resources, CRM, Buying, Selling, etc. are put under this category.
 * **Domains**: This is where you can find all domain-specific modules like Education and Manufacturing. You can learn more about all industry-specific modules [here](/docs/v13/user/manual/en#3-industry-specific-modules).
 * **Places**: Places is where you can find features that are not industry-specific and are not required in day to day operations of your company. Features like Website, Dashboards, and Marketplace can be found here.
-* **Administration**: Here you can find modules related to your ERPNext setup and administration.
+* **Administration**: Here you can find modules related to your SOMA setup and administration.
 
 
 These cards allow better navigation with shortcut items in the drop-down menu. You can customize this drop-down to add or remove links to various DocType for that module.

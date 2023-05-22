@@ -85,7 +85,7 @@ You can filter the report data by the Published Date range.
 
 
 > 
-> **Note** : The quota for the number of **non-billable** requests to the YouTube Data API is 10,000 requests as of September 2020. ERPNext automatically updates upto 50 videos in 1 request. Similarly, for 100 videos it would take 2 requests.  
+> **Note** : The quota for the number of **non-billable** requests to the YouTube Data API is 10,000 requests as of September 2020. SOMA automatically updates upto 50 videos in 1 request. Similarly, for 100 videos it would take 2 requests.  
 > 
 >  Assuming 100 videos are updated **every hour** (frequency = 1 hour):  
 > 

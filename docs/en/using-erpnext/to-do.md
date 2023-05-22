@@ -5,7 +5,7 @@
 ToDo is a list of activities that is to be done by a particular individual.
 
 
-**In ERPNext, a ToDo is a simple tool where you can define the activities to be done. The ToDo List will enlist all the activities assigned to you and by you.**
+**In SOMA, a ToDo is a simple tool where you can define the activities to be done. The ToDo List will enlist all the activities assigned to you and by you.**
 
 
 ![ToDo](/files/using-to-do-1.png)
@@ -60,7 +60,7 @@ Once a ToDo is created, the assigned user will get a notification for the ToDo.
 2. **Priority**: You can define the Priority of this task as Low, Medium or High.
 3. **Color**: You can choose to assign a color to each of your ToDos. E.g., a ToDo created as a weekly reminder for sending reports can be assigned the color Purple, whereas all the personal ToDos can be assigned the Color Yellow.
 4. **Due Date**: You can add the Due Date to all the ToDos.
-5. **Allocated To**: In cases where you are assigning a ToDo to another ERPNext User, you can do so here.
+5. **Allocated To**: In cases where you are assigning a ToDo to another SOMA User, you can do so here.
 
 
 ![ToDo](/files/using-to-do-3.png)
@@ -69,7 +69,7 @@ Once a ToDo is created, the assigned user will get a notification for the ToDo.
 ### 1.2. References
 
 
-Every Document in ERPNext has an option called 'Assign To' in the side-bar. Using this option, any Dcoument can be assigned to the user. The User would be assigned a ToDo simultaneously.
+Every Document in SOMA has an option called 'Assign To' in the side-bar. Using this option, any Dcoument can be assigned to the user. The User would be assigned a ToDo simultaneously.
 
 
 1. **Reference Type**: When a ToDo is created from another document, say a Task or an Issue, the Reference Document Type gets linked to the ToDo here. You can also choose to add a Reference Document Type manually.

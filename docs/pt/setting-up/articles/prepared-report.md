@@ -4,7 +4,7 @@
 Muitas vezes ao gerar um relatório que lida com um grande volume de dados, digamos, um relatório GL para o ano inteiro, você pode acabar recebendo a seguinte mensagem de erro: **Request Timed Out**. Isso ocorre porque há muitos dados a serem processados ​​e apresentados na página do relatório, mas não há recursos de servidor suficientes, resultando em um tempo limite.
 
 
-Para melhor processamento desses relatórios, o ERPNext oferece Relatórios Preparados (desde a v11). Quando um relatório é definido como um relatório preparado, ele é gerado por meio de um [background trabalho](https://frappe.io/docs/v13/user/en/guides/app-development/running-background-jobs) e, uma vez pronto, está disponível para os usuários visualizarem.
+Para melhor processamento desses relatórios, o SOMA oferece Relatórios Preparados (desde a v11). Quando um relatório é definido como um relatório preparado, ele é gerado por meio de um [background trabalho](https://frappe.io/docs/v13/user/en/guides/app-development/running-background-jobs) e, uma vez pronto, está disponível para os usuários visualizarem.
 
 
 ## Etapas para configurar relatórios preparados

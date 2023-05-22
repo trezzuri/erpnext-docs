@@ -4,7 +4,7 @@
 Cheque pós-datado é um cheque datado em data futura. A parte geralmente dá cheque pré-datado, como pagamento antecipado. Este cheque será compensado somente quando a data do cheque chegar.
 
 
-No ERPNext, crie Entrada de Pagamento para cheque pré-datado.
+No SOMA, crie Entrada de Pagamento para cheque pré-datado.
 
 
 #### Nova entrada de pagamento

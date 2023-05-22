@@ -14,7 +14,7 @@ Mama (The Tea-stall owner) invests Rs. 25000 to start the business. ![JE](/files
 Mama invested Rs. 25000 in Company, hoping to get some profit. In other words, company is liable to pay Rs. 25000 to Mama in the future. So, account "Mama" is a liability account and it is credited. Company's cash balance will be increased due to the investment. "Cash" is an asset to the company and it will be debited.
 
 
-The company needs equipments (stove, teapot, cups, etc.) and raw materials (tea, sugar, milk, etc.) immediately. He decides to buy them from the nearest general store, "Super Bazaar" whose owner is a friend, so that he gets some credit. Equipments cost him Rs. 2800 and raw materials Rs. 2200. He pays Rs. 2000 out of the total cost which is Rs. 5000. This can be recorded in ERPNext using a [Payment Entry](/docs/en/accounts/payment-entry).
+The company needs equipments (stove, teapot, cups, etc.) and raw materials (tea, sugar, milk, etc.) immediately. He decides to buy them from the nearest general store, "Super Bazaar" whose owner is a friend, so that he gets some credit. Equipments cost him Rs. 2800 and raw materials Rs. 2200. He pays Rs. 2000 out of the total cost which is Rs. 5000. This can be recorded in SOMA using a [Payment Entry](/docs/en/accounts/payment-entry).
 
 
 ![JE](/files/payment-entry-gl.png)

@@ -192,13 +192,13 @@ Setting 'Supply Raw Materials' option is useful for subcontracting where you pro
 
 
 > 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/en/accounts/articles/immutable-ledger-in-erpnext).
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in SOMA. [Learn more here](/docs/en/accounts/articles/immutable-ledger-in-erpnext).
 > 
 > 
 > 
 
 
-The **Update Stock** checkbox should be checked if you want ERPNext to automatically update your inventory. Consequently, there will be no need for a Delivery Note.
+The **Update Stock** checkbox should be checked if you want SOMA to automatically update your inventory. Consequently, there will be no need for a Delivery Note.
 
 
 ### 3.8 Taxes and charges
@@ -311,7 +311,7 @@ The following details can be set for GST:
 ### 3.16 More Information
 
 
-* **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
+* **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to SOMA mid year, you might want to use an Opening Entry to update account balances in SOMA.
 * **Remarks**: Any additional remarks about the Purchase Invoice can be added here.
 
 
@@ -360,7 +360,7 @@ The Purchase Invoice will affect your accounts as follows:
 ### 4.2 Accounting When **Is Paid** is checked
 
 
-If **Is Paid** is checked, ERPNext will also make the following
+If **Is Paid** is checked, SOMA will also make the following
 accounting entries:
 
 

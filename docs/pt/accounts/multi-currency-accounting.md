@@ -4,7 +4,7 @@
 **A transação em duas moedas diferentes é conhecida como Contabilidade em várias moedas.**
 
 
-No ERPNext, você pode fazer lançamentos contábeis em várias moedas. Por exemplo, se você tiver uma conta bancária em moeda estrangeira, poderá fazer transações nessa moeda e o sistema mostrará o saldo bancário apenas nessa moeda específica.
+No SOMA, você pode fazer lançamentos contábeis em várias moedas. Por exemplo, se você tiver uma conta bancária em moeda estrangeira, poderá fazer transações nessa moeda e o sistema mostrará o saldo bancário apenas nessa moeda específica.
 
 
 As contas bancárias em moeda estrangeira podem ser para outras sucursais da sua própria empresa ou conta de Devedores/Credores para Clientes/Fornecedores estrangeiros.
@@ -63,15 +63,15 @@ Você pode alterar a moeda contábil no registro da Parte/Conta antes de fazer q
 ## 2. Taxas de câmbio
 
 
-Ao lidar com várias moedas, o ERPNext possui a página Câmbio para gerenciamento das taxas de câmbio. Ele permite que você salve as cotações de taxa de câmbio que você precisa. Para saber mais, visite a página [Câmbios](/docs/pt/accounts/currency-exchange).
+Ao lidar com várias moedas, o SOMA possui a página Câmbio para gerenciamento das taxas de câmbio. Ele permite que você salve as cotações de taxa de câmbio que você precisa. Para saber mais, visite a página [Câmbios](/docs/pt/accounts/currency-exchange).
 
 
-Para transações em moeda estrangeira, o ERPNext verifica as taxas de câmbio de:
+Para transações em moeda estrangeira, o SOMA verifica as taxas de câmbio de:
 
 
 1. Do Câmbio para qualquer registro correspondente (se criado por um usuário).
-2. Se isso falhar, o ERPNext tentará obter a taxa de câmbio atual do mercado de [Frankfurter](https://www.frankfurter.app).
-3. **NOTA**: A partir da versão 13.10.0 do ERPNext, o Frankfurter foi substituído por um novo serviço chamado [exchangerate.host](https://exchangerate.host).
+2. Se isso falhar, o SOMA tentará obter a taxa de câmbio atual do mercado de [Frankfurter](https://www.frankfurter.app).
+3. **NOTA**: A partir da versão 13.10.0 do SOMA, o Frankfurter foi substituído por um novo serviço chamado [exchangerate.host](https://exchangerate.host).
 4. Se isso ainda falhar, a taxa de câmbio terá que ser inserida manualmente.
 
 

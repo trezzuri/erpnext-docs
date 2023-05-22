@@ -35,7 +35,7 @@ To access the Email Template list, go to:
 ### 1.1 How to use Email Template
 
 
-You can use this Email Template in the Emails that are sent from ERPNext in the "CC, BCC & Email Template" field of the email section of the document. ERPNext will fetch the subject and response as per the template selected.
+You can use this Email Template in the Emails that are sent from SOMA in the "CC, BCC & Email Template" field of the email section of the document. SOMA will fetch the subject and response as per the template selected.
 
 
 You can set a Default Email Template for each document type via [Customize Form](/docs/en/customize-erpnext/customize-form).

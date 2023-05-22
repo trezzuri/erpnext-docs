@@ -2,7 +2,7 @@
 # Share Reports
 
 
-There are two types of reports in ERPNext for shares. Share Balance and Share ledger.
+There are two types of reports in SOMA for shares. Share Balance and Share ledger.
 
 
 ## 1. Share Balance

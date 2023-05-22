@@ -2,7 +2,7 @@
 # Subscription Settings
 
 
-The Subscription Settings page allows configuring settings for your ERPNext subscriptions.
+The Subscription Settings page allows configuring settings for your SOMA subscriptions.
 
 
 To access the Subscription list, go to:
@@ -17,7 +17,7 @@ To access the Subscription list, go to:
 
 
 * **Grace Period**: Number of days after invoice date has elapsed before canceling subscription or marking subscription as unpaid.
-* **Cancel Invoice After Grace Period**: Instead of displaying 'Unpaid', the Subscription will be canceled in ERPNext if the Customer does not pay.
+* **Cancel Invoice After Grace Period**: Instead of displaying 'Unpaid', the Subscription will be canceled in SOMA if the Customer does not pay.
 
 
 ![Subscription](/files/subscription-settings.png)

@@ -66,7 +66,7 @@ Transfer Types:
 **Folio Number**: This is a number used to uniquely identify a Shareholder and their transaction.
 
 
-**Share Type**: The two default options in ERPNext are Preference and Equity. This only indicates the type of share, more can be added as per your Company structure.
+**Share Type**: The two default options in SOMA are Preference and Equity. This only indicates the type of share, more can be added as per your Company structure.
 
 
 ### 2. Related Topics

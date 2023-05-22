@@ -7,7 +7,7 @@
 Para operações de varejo, a entrega de mercadorias, o acúmulo de vendas e o pagamento acontecem em um único evento, geralmente chamado de 'Ponto de venda' (POS).
 
 
-No ERPNext as Notas Fiscais podem ser geradas a partir do PDV. Existem duas etapas para configurar o PDV:
+No SOMA as Notas Fiscais podem ser geradas a partir do PDV. Existem duas etapas para configurar o PDV:
 
 
 Para acessar o PDV, acesse:

@@ -2,7 +2,7 @@
 # Feedback Request Using a Web Form
 
 
-In the ERPNext version 11, we have a feature which allowed collecting a Feedback from a Customer and users. In ERPNext, this feature is now manageable using built-in customisation tools like:  
+In the SOMA version 11, we have a feature which allowed collecting a Feedback from a Customer and users. In SOMA, this feature is now manageable using built-in customisation tools like:  
 * Custom DocType
 * Web Form
 * Notification
@@ -28,7 +28,7 @@ https://example.erpnext.com/feedback?new=1&document=Sales%20Order&document\_name
 ```
   
 Where:  
-* **example.erpnext.com** will be URL of your ERPNext account
+* **example.erpnext.com** will be URL of your SOMA account
 * **feedback** will be the name of custom doctype added for collecting a feedback
 * **document=Sales%20Order&** will be a name of DocType for which you want to sent a notification
 * document\_name={{doc.name}} will pick-up specific document name and update in the Document Name field of Feedback form.
@@ -37,5 +37,5 @@ Where:
 ![](/files/UDBhIaK.png)  
   
 **Quick Demo:**  
-Here is the demo of how link would be generated, Web Form would be filled and capture in ERPNext.  
+Here is the demo of how link would be generated, Web Form would be filled and capture in SOMA.  
 ![](/files/hEbdh6c.gif)

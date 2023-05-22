@@ -1,5 +1,5 @@
 
-# ERPNext QuickBooks Migrator
+# SOMA QuickBooks Migrator
 
 
 ## How to Setup QuickBooks Migrator?
@@ -65,7 +65,7 @@
 
 
 ```
-Upon creation of a Company ERPNext creates a chart of accounts for that company, these accounts will be kept.
+Upon creation of a Company SOMA creates a chart of accounts for that company, these accounts will be kept.
 
 ```
 
@@ -78,7 +78,7 @@ To avoid name collision with existing accounts, all accounts from QuickBooks wil
 
 e.g. `Job Expense` will become  `Job Expense - QB`.
 
-**Note**: ERPNext also encodes account names with Company abbreviation. Taking this into account `Job Expense` will become  `Job Expense - QB - AZ` (assuming `AZ` is the company abbreviation).
+**Note**: SOMA also encodes account names with Company abbreviation. Taking this into account `Job Expense` will become  `Job Expense - QB - AZ` (assuming `AZ` is the company abbreviation).
 
 ```
 
@@ -96,7 +96,7 @@ Five root accounts, namely `Asset`, `Equity`, `Expense`, `Liability`, `Income` w
 
 
 ```
-QuickBooks allows transactions on group accounts, which is not allowed in ERPNext, to handle this, every group account will have a child with a hyphenated name.
+QuickBooks allows transactions on group accounts, which is not allowed in SOMA, to handle this, every group account will have a child with a hyphenated name.
 
 e.g.
 
@@ -125,7 +125,7 @@ e.g.
 
 
 ```
-QuickBooks allows multiple accounts to have the same name, which is not allowed in ERPNext, to handle this, every duplicate account will have a hyphenated name.
+QuickBooks allows multiple accounts to have the same name, which is not allowed in SOMA, to handle this, every duplicate account will have a hyphenated name.
 
 e.g.
 
@@ -229,7 +229,7 @@ QuickBooks has four transactional variants of Invoice, all of these will be save
 
 
 ```
-QuickBooks uses special accounts for both Markup and Discount, ERPNext doesn't handle the discount expense and markup this way, instead, all Item's will see the change in their Income accounts.
+QuickBooks uses special accounts for both Markup and Discount, SOMA doesn't handle the discount expense and markup this way, instead, all Item's will see the change in their Income accounts.
 
 ```
 
@@ -247,7 +247,7 @@ For Invoices with Shipping, an Item with name Shipping will be added in the Item
 
 
 ```
-ERPNext uses different rounding method than QuickBooks, because of this, in Invoices with Tax and with a currency different than company currency, Sales Invoice will have different grand total than that of the QuickBooks Invoice.
+SOMA uses different rounding method than QuickBooks, because of this, in Invoices with Tax and with a currency different than company currency, Sales Invoice will have different grand total than that of the QuickBooks Invoice.
 
 ```
 
@@ -295,7 +295,7 @@ Following transactions will be saved as Journal Entry
 ## Tax
 
 
-For every QuickBooks Tax Rate an ERPNext account will be created.
+For every QuickBooks Tax Rate an SOMA account will be created.
 
 
 ## Custom Fields

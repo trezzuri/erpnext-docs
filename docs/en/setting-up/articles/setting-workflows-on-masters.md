@@ -7,7 +7,7 @@ Workflows are usually set on submittable documents. Once the document is approve
   
 
 
-In ERPNext, these masters are non-submittable. Hence, even on rejection, sometimes, they are still active and you can use them in transactions. In this article, we have taken the example of the Item master. We will set a simple workflow on Item and make it active only when it has been approved. To do so, follow the below steps:
+In SOMA, these masters are non-submittable. Hence, even on rejection, sometimes, they are still active and you can use them in transactions. In this article, we have taken the example of the Item master. We will set a simple workflow on Item and make it active only when it has been approved. To do so, follow the below steps:
 
   
 

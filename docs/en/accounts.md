@@ -5,7 +5,7 @@
 Whether you have an accountant in your internal team OR you do it yourself OR you have chosen to outsource it, the financial accounting process is at the center of any business management system (aka an ERP system).
 
 
-In ERPNext, accounting operations consists of 3 main transactions:
+In SOMA, accounting operations consists of 3 main transactions:
 
 
 * **Sales Invoice**: The bills that you raise to your Customers for the products or services you provide.
@@ -13,7 +13,7 @@ In ERPNext, accounting operations consists of 3 main transactions:
 * **Journal Entries**: For accounting entries, like payments, credit and other types.
 
 
-You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for a run down of the accounts module in ERPNext.
+You can check out [this video](https://www.youtube.com/watch?v=5wjollWN0OA) for a run down of the accounts module in SOMA.
 
 
 ## Video Tutorials

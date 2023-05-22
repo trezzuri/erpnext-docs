@@ -40,7 +40,7 @@ O ano fiscal padrão também será atualizado na configuração padrão global. 
 ![Configuração do ano fiscal atual em padrões globais](/files/current-fiscal-year-in-global-defaults.png)
 
 
-Salve o padrão global e recarregue sua conta ERPNext. Em seguida, o ano fiscal padrão será atualizado automaticamente em suas transações.
+Salve o padrão global e recarregue sua conta SOMA. Em seguida, o ano fiscal padrão será atualizado automaticamente em suas transações.
 
 
 Observação: em transações, você pode selecionar manualmente o ano fiscal necessário, na seção Mais informações.

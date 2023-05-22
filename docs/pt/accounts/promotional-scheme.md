@@ -12,10 +12,10 @@
 **Um esquema promocional é um desconto temporário em um ou mais produtos.**
 
 
-Esquemas promocionais ajudam as empresas a obter sucesso como preços mais baixos por um período limitado de tempo para atrair mais clientes. Eles podem ser facilmente configurados no ERPNext. Um esquema promocional está vinculado a uma regra de precificação, contra cada sistema de laje que gerará a regra de precificação.
+Esquemas promocionais ajudam as empresas a obter sucesso como preços mais baixos por um período limitado de tempo para atrair mais clientes. Eles podem ser facilmente configurados no SOMA. Um esquema promocional está vinculado a uma regra de precificação, contra cada sistema de laje que gerará a regra de precificação.
 
 
-Ao criar um esquema promocional, o sistema cria uma [regra de preços](/docs/pt/accounts/pricing-rule). Um Esquema Promocional pode ter várias Regras de Preços associadas a ele. No ERPNext, um esquema promocional é uma maneira mais fácil de gerenciar preços em vários itens/grupos com base em diferentes partes e condições.
+Ao criar um esquema promocional, o sistema cria uma [regra de preços](/docs/pt/accounts/pricing-rule). Um Esquema Promocional pode ter várias Regras de Preços associadas a ele. No SOMA, um esquema promocional é uma maneira mais fácil de gerenciar preços em vários itens/grupos com base em diferentes partes e condições.
 
 
 Para acessar a lista de esquemas promocionais, acesse:
@@ -196,7 +196,7 @@ Neste tipo de esquema promocional, o usuário tem a opção de dar um produto gr
 ## 5. Como configurar um esquema promocional (exemplos)
 
 
-Vamos entender como configurar um esquema promocional no ERPNext através de alguns exemplos.
+Vamos entender como configurar um esquema promocional no SOMA através de alguns exemplos.
 
 
 ### 5.1 Esquemas de condições mistas
@@ -208,7 +208,7 @@ O cliente A comprou 10 quantidades do pacote Britannia Cake 5 Rs e 5 quantidades
 Assim, o Fornecedor deseja aplicar o desconto nos produtos Bolo Britannia 5 Rs, Bolo Britannia 10 Rs somente se seus Clientes tiverem comprado 15 quantidades de qualquer produto ou a soma dos dois produtos.
 
 
-Para configurar isso no ERPNext os passos são os seguintes:
+Para configurar isso no SOMA os passos são os seguintes:
 
 
 1. Defina Apply On como código do item.
@@ -230,7 +230,7 @@ O cliente A comprou 30 quantidades de pacote Britannia Cake 5 Rs e 2 quantidades
 O Fornecedor deseja aplicar a regra somente se o Cliente tiver comprado no mínimo 30 quantidades do produto Bolo Britannia 5 Rs ou Bolo Britannia 10 Rs.
 
 
-Para configurar isso no ERPNext, as etapas são as seguintes
+Para configurar isso no SOMA, as etapas são as seguintes
 
 
 1. Defina Apply On como código do item.

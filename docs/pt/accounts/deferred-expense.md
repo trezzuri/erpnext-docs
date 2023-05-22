@@ -47,7 +47,7 @@ Outros exemplos de despesas diferidas são:
 * Para uma Assinatura de Internet, o valor é pago antecipadamente e o serviço é prestado mensalmente. Portanto, é Despesa Diferida para o Cliente.
 
 
-A seguir, você pode configurar a contabilidade de despesas diferidas no ERPNext para automatizar o processo.
+A seguir, você pode configurar a contabilidade de despesas diferidas no SOMA para automatizar o processo.
 
 
 ### 2.1 Item

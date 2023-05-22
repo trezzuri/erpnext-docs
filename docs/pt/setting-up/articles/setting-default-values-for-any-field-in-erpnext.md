@@ -1,7 +1,7 @@
 # Definir valores padrão para qualquer campo
 
 
-Usando **Personalizar formulário**, podemos definir um valor *padrão* para qualquer campo de qualquer tipo de documento no ERPNext.
+Usando **Personalizar formulário**, podemos definir um valor *padrão* para qualquer campo de qualquer tipo de documento no SOMA.
 
 
 **Etapas:**
@@ -28,5 +28,5 @@ Confira o GIF abaixo, onde definimos o valor *padrão* como **Stores - ETL** par
 ![](/files/wXMccxf.gif)
 
 
-Para saber mais sobre customizações no ERPNext, confira este [link](https://erpnext.com/docs/user/manual/en/customize-erpnext/customize-form)< /p>
+Para saber mais sobre customizações no SOMA, confira este [link](https://erpnext.com/docs/user/manual/en/customize-erpnext/customize-form)< /p>
 

@@ -5,7 +5,7 @@
 **In Print Settings you can set your printing preferences like Paper Size, default text size, whether you want to output as PDF or HTML, etc.**
 
 
-Since ERPNext is a browser-based application, the actual print command is executed by the browser you're using.
+Since SOMA is a browser-based application, the actual print command is executed by the browser you're using.
 
 
 To edit Print Settings, go to:
@@ -31,7 +31,7 @@ There are various configurations available in the Print Settings. Let's learn ab
 ### 1.1 PDF or HTML
 
 
-When you email any document (like Sales Order/Invoice) from ERPNext, it is sent in the PDF or HTML format. The file is sent in PDF by default. If you wish to send a document in the HTML format, just uncheck the option "Send Print as PDF".
+When you email any document (like Sales Order/Invoice) from SOMA, it is sent in the PDF or HTML format. The file is sent in PDF by default. If you wish to send a document in the HTML format, just uncheck the option "Send Print as PDF".
 
 
 ### 1.2 Repeat Header and Footer in PDF

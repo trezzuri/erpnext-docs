@@ -10,7 +10,7 @@
 > 
 
 
-In ERPNext, you can control the tagging of various accounting dimensions against a specific account.
+In SOMA, you can control the tagging of various accounting dimensions against a specific account.
 You can either allow or restrict certain accounting dimensions against an account using the accounting dimension filters
 
 
@@ -25,7 +25,7 @@ To access the Accounting Dimension Filter list, go to:
 > 
 
 
-## 1. How to create an Accounting Dimension Filter in ERPNext.
+## 1. How to create an Accounting Dimension Filter in SOMA.
 
 
 1. Go to the Accounting Dimension Filter list and click on New.

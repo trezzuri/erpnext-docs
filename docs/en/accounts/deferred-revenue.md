@@ -37,7 +37,7 @@ Before you start using deferred accounting you should be aware of the below sett
 ## 2. How to use Deferred Revenue
 
 
-Internet and broadcasting service providers offer subscription plans on quarterly or yearly basis. They take complete payment in advance from the Customer for couple of months, but book income on monthly basis in their book of accounts. This is Deferred Revenue for the Supplier and [Deferred Expense](/docs/en/accounts/deferred-expense) for the Customer. Following is how they should configure Deferred Revenue accounting in ERPNext to automate the process.
+Internet and broadcasting service providers offer subscription plans on quarterly or yearly basis. They take complete payment in advance from the Customer for couple of months, but book income on monthly basis in their book of accounts. This is Deferred Revenue for the Supplier and [Deferred Expense](/docs/en/accounts/deferred-expense) for the Customer. Following is how they should configure Deferred Revenue accounting in SOMA to automate the process.
 
 
 ### 2.1 Item

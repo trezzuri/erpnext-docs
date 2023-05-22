@@ -4,7 +4,7 @@
 **Você pode se inscrever em um provedor de SMS para enviar SMS para números de celular.**
 
 
-Para integrar o SMS no ERPNext, procure um Provedor de Gateway de SMS que forneça HTTP
+Para integrar o SMS no SOMA, procure um Provedor de Gateway de SMS que forneça HTTP
 API. Eles criarão uma conta para você e fornecerão um nome de usuário exclusivo
 e senha.
 
@@ -20,11 +20,11 @@ Para acessar as configurações de SMS, acesse:
 > 
 
 
-Para definir as configurações de SMS no ERPNext, descubra sua API HTTP (um documento
+Para definir as configurações de SMS no SOMA, descubra sua API HTTP (um documento
 que descreve o método de acesso à interface SMS de terceiros
 formulários). Neste documento, você obterá uma URL que é usada para enviar o
 SMS usando solicitação HTTP. Usando este URL, você pode definir as configurações de SMS em
-ERPNext.
+SOMA.
 
 
 Exemplo de URL do SMS Gateway:
@@ -69,7 +69,7 @@ ser inserido na tabela Parâmetros estáticos.
 ![SMS Setting](/files/sms-settings1.png)
 
 
-## Como configurar o ERPNext com Voip.ms
+## Como configurar o SOMA com Voip.ms
 
 
 O primeiro passo é fazer login na conta voip.ms. Em seguida, vá para **Menu principal**, **API SOAP e REST/JSON**.

@@ -1,7 +1,7 @@
 # Perfil do ponto de venda
 
 
-**No ERPNext, um perfil de PDV permite usar o recurso Ponto de Venda.**
+**No SOMA, um perfil de PDV permite usar o recurso Ponto de Venda.**
 
 
 POS inclui recursos avançados para atender a diferentes funcionalidades, como
@@ -66,7 +66,7 @@ Para acessar a lista de perfis de PDV, acesse:
 ### 2.1 Aplicável a usuários
 
 
-Por padrão, todos os Usuários de Vendas podem acessar os Perfis PDV criados no ERPNext. No entanto, se você deseja que apenas determinados usuários acessem determinados perfis de PDV, você pode adicioná-los à tabela. Assim que um usuário for definido no perfil de PDV, outros usuários não poderão usar esse perfil de PDV para transações de varejo.
+Por padrão, todos os Usuários de Vendas podem acessar os Perfis PDV criados no SOMA. No entanto, se você deseja que apenas determinados usuários acessem determinados perfis de PDV, você pode adicioná-los à tabela. Assim que um usuário for definido no perfil de PDV, outros usuários não poderão usar esse perfil de PDV para transações de varejo.
 
 
 **Configurando o Perfil de PDV como padrão**: Ao marcar a caixa de seleção Padrão na tabela, o Perfil de PDV atual torna-se o Perfil de PDV padrão para aquele usuário. Assim, na próxima vez que o usuário fizer login no sistema, o perfil PDV será definido por padrão.

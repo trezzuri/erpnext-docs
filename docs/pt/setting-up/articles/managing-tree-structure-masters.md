@@ -1,7 +1,7 @@
 # Gerenciar mestres de estrutura de árvore
 
 
-Alguns dos mestres do ERPNext são mantidos em estrutura de árvore. Os mestres estruturados em árvore permitem que você defina o mestre pai e os mestres filho sob esses pais. A configuração dessa estrutura permite criar relatórios inteligentes e acompanhar o crescimento em cada nível da hierarquia.
+Alguns dos mestres do SOMA são mantidos em estrutura de árvore. Os mestres estruturados em árvore permitem que você defina o mestre pai e os mestres filho sob esses pais. A configuração dessa estrutura permite criar relatórios inteligentes e acompanhar o crescimento em cada nível da hierarquia.
 
 
 A seguir está a lista parcial de mestres que são mantidos na estrutura em árvore.
@@ -61,6 +61,6 @@ Veja a seguir como os Territórios Filhos serão listados em um Território Prin
 ![Adicionando novos territórios](/files/territory-3.png)
 
 
-Seguindo estes passos, você pode gerenciar outras árvores mestres também no ERPNext.
+Seguindo estes passos, você pode gerenciar outras árvores mestres também no SOMA.
 
 

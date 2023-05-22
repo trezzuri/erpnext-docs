@@ -4,7 +4,7 @@
 **Configuração do sistema contém configurações para a configuração da conta em todo o sistema.**
 
 
-Você pode localizar o ERPNext para usar fuso horário, data, número ou formato de moeda específicos e também definir a expiração da sessão global por meio das Configurações do sistema.
+Você pode localizar o SOMA para usar fuso horário, data, número ou formato de moeda específicos e também definir a expiração da sessão global por meio das Configurações do sistema.
 
 
 Para abrir as Configurações do sistema, acesse:
@@ -18,7 +18,7 @@ Para abrir as Configurações do sistema, acesse:
 > 
 
 
-![Configurações do sistema](/files/system-settings.png)
+![Configurações do sistema](/private/files/system-settings.png)
 
 
 ## 1. Seções nas configurações do sistema
@@ -29,7 +29,7 @@ Para abrir as Configurações do sistema, acesse:
 
 * **País**: Você pode definir o país padrão aqui, ele será obtido ao criar novos endereços. Se sua empresa tiver várias filiais em diferentes países, escolha o local da sede.
 * **Fuso horário**: define a hora automaticamente com base no fuso horário.
-* **Idioma**: Define o idioma global para a conta ERPNext. Em seguida, o idioma será alterado em todos os menus, transações, mestres, etc.
+* **Idioma**: Define o idioma global para a conta SOMA. Em seguida, o idioma será alterado em todos os menus, transações, mestres, etc.
 * **Desativar compartilhamento de documentos**: desativa o acesso de compartilhamento para todos os usuários do sistema (exceto Administrador) para garantir que o acesso seja concedido apenas por meio de permissões. Os usuários só poderão ver com quem o documento é compartilhado e não compartilhar o documento em si. Além disso, atribuir um documento a um usuário será **bloqueado** se o responsável não tiver acesso ao documento.
 
 
@@ -48,7 +48,7 @@ Para abrir as Configurações do sistema, acesse:
 ### 1.3 Backups
 
 
-No ERPNext você pode fazer backup do banco de dados, bem como de seus arquivos. Os backups de banco de dados são criados automaticamente, enquanto os backups de arquivos precisam ser baixados explicitamente.
+No SOMA você pode fazer backup do banco de dados, bem como de seus arquivos. Os backups de banco de dados são criados automaticamente, enquanto os backups de arquivos precisam ser baixados explicitamente.
 
 
 Este campo mostra o número de backups após os quais os mais antigos serão excluídos. Por padrão, 3 backups são salvos em 24 horas. Novos backups são criados automaticamente a cada poucas horas e o backup mais recente substituirá o mais antigo. Para fazer backup dos arquivos, clique no botão Baixar backup de arquivos no formulário Baixar backups.
@@ -90,7 +90,7 @@ Se a caixa de seleção Apply Strict User Permissions estiver marcada, os docume
 * **Session Expiry Mobile**: expiração da sessão quando conectado a partir de um telefone celular.
 * **Expiração da chave de compartilhamento do documento (em dias)**: número de dias após o qual o "link da Web do documento" enviado por e-mail expirará.
 * **Permitir apenas uma sessão por usuário**: se você deseja usar um único conjunto de credenciais para vários usuários, marque esta caixa de seleção. O número de sessões simultâneas pode ser alterado em User master. As sessões de celular não são contadas aqui.
-* **Permitir login usando número de celular**: Ao marcar a caixa de seleção 'Permitir login usando número de celular', você pode fazer login no ERPNext usando um número de celular válido definido em sua conta de usuário.
+* **Permitir login usando número de celular**: Ao marcar a caixa de seleção 'Permitir login usando número de celular', você pode fazer login no SOMA usando um número de celular válido definido em sua conta de usuário.
 * **Permitir login usando o nome de usuário**: permite o login do usuário por meio do nome de usuário definido em [Usuário mestre](/docs/pt/setting-up/users- and-permissions/adding-users).
 * **Mostrar erro completo e permitir relatórios de problemas ao desenvolvedor**: isso exibirá todo o erro na tela e permitirá relatar problemas. Se você tiver conhecimento técnico nessa área, poderá ter uma ideia melhor do erro lendo toda a mensagem.
 * **Remover tags EXIF ​​de imagens carregadas**: os metadados armazenados em arquivos de imagem no formato de arquivo EXIF ​​podem ser explorados para obter informações confidenciais do usuário. Esta opção permite que os usuários removam esses dados das imagens antes de fazer o upload.
@@ -147,7 +147,7 @@ Ao marcar 'Ativar Autenticação de Dois Fatores', as duas opções a seguir ser
 * **Endereço do rodapé do e-mail**: nome da organização, endereço e outros detalhes podem ser adicionados aqui. Isso será definido como padrão em todos os e-mails enviados.
 * **Desativar rodapé de e-mail padrão**: se marcado, o rodapé de e-mail padrão será desativado para e-mails enviados.
 * **Ocultar rodapé em relatórios de e-mail automático**: se marcado, os rodapés serão ocultados em [Relatórios de e-mail automático](/docs/pt/setting-up/email/auto- email-reports).
-* **Enviar link de visualização da Web do documento no e-mail**: o ERPNext possui uma visualização do portal disponível onde partes como Clientes e Fornecedores podem se inscrever e visualizar seu histórico de pedidos. Ao enviar uma transação por e-mail para sua parte, você também pode enviar um link da web para visualizar o mesmo documento no portal de sua conta ERPNext. Esta opção habilitará esta funcionalidade.
+* **Enviar link de visualização da Web do documento no e-mail**: o SOMA possui uma visualização do portal disponível onde partes como Clientes e Fornecedores podem se inscrever e visualizar seu histórico de pedidos. Ao enviar uma transação por e-mail para sua parte, você também pode enviar um link da web para visualizar o mesmo documento no portal de sua conta SOMA. Esta opção habilitará esta funcionalidade.
 
 
 ![Email Footer](/files/email-footer.png)

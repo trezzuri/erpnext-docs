@@ -1,7 +1,7 @@
 # Moeda
 
 
-No ERPNext, a lista Moeda armazena o valor da moeda, seu símbolo e unidade de fração. A maioria das moedas comumente usadas já estão presentes no ERPNext. As taxas de câmbio são obtidas automaticamente de acordo com a taxa de mercado atual. Você também pode configurar o sistema para usar taxas de câmbio fixas mais antigas, criando-as no formulário [Câmbio](/docs/pt/accounts/currency-exchange). p>
+No SOMA, a lista Moeda armazena o valor da moeda, seu símbolo e unidade de fração. A maioria das moedas comumente usadas já estão presentes no SOMA. As taxas de câmbio são obtidas automaticamente de acordo com a taxa de mercado atual. Você também pode configurar o sistema para usar taxas de câmbio fixas mais antigas, criando-as no formulário [Câmbio](/docs/pt/accounts/currency-exchange). p>
 Para acessar a lista de moedas, acesse:
 
 

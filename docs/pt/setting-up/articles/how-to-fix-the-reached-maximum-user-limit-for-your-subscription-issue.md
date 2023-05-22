@@ -1,7 +1,7 @@
 # Problema de limite máximo de usuários
 
 
-Sua assinatura do ERPNext depende do número de Usuários do Sistema que você assina. Depois de ultrapassar esse limite, o sistema não permitirá que você crie mais nenhum número de usuários. Por exemplo, você se inscreveu para 10 usuários. Se você já criou 10 usuários do sistema em sua conta, o sistema não permitirá que você crie o 11º usuário do sistema e receberá a mensagem abaixo.
+Sua assinatura do SOMA depende do número de Usuários do Sistema que você assina. Depois de ultrapassar esse limite, o sistema não permitirá que você crie mais nenhum número de usuários. Por exemplo, você se inscreveu para 10 usuários. Se você já criou 10 usuários do sistema em sua conta, o sistema não permitirá que você crie o 11º usuário do sistema e receberá a mensagem abaixo.
 
   
 

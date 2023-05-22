@@ -1,7 +1,7 @@
 # Introdução ao CRM
 
 
-ERPNext ajuda você a rastrear **Oportunidades** de negócios de **Leads** e
+SOMA ajuda você a rastrear **Oportunidades** de negócios de **Leads** e
 **Clientes**, envie-lhes **Cotações** e reserve **Pedidos de vendas**.
 
 

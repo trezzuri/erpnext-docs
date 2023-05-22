@@ -11,7 +11,7 @@ If a business has a master Cost Center with dependent Cost Centers. In every mas
 For example, In your business, If the Cost Center 'B' and 'C' depend on Cost Center 'A' by 20% and 80%. Then, you can mention 'A' as a Distributed Cost Center. It helps to reflect income, expense, and budget of 'A' in 'B' and 'C' with allocated percentages.
 
 
-In ERPNext you can create Distributed Cost Center and use them in transactions and reports.
+In SOMA you can create Distributed Cost Center and use them in transactions and reports.
 
 
 ## 1. How to create a Distributed Cost Center

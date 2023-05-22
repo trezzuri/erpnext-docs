@@ -2,7 +2,7 @@
 # Document Versioning
 
 
-**In ERPNext, Document Versioning is a feature that allows you to track all the changes made in a form or a document.**
+**In SOMA, Document Versioning is a feature that allows you to track all the changes made in a form or a document.**
 
 
 This feature comes handy while conducting an Audit Tail to check on what changes were made in a document along with the time of change and the stakeholder responsible.

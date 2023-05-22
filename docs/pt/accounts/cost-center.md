@@ -4,7 +4,7 @@
 **Um Centro de Custo é uma parte de uma organização onde custos ou receitas podem ser cobrados.**
 
 
-No ERPNext você pode usar o Centro de Custo como um Centro de Lucro.
+No SOMA você pode usar o Centro de Custo como um Centro de Lucro.
 
 
 Seu plano de contas é projetado principalmente para fornecer relatórios ao governo e às autoridades fiscais.
@@ -60,7 +60,7 @@ da mesma forma.
 
 
 Assim, ao fazer sua análise, você entende melhor de que lado
-do seu negócio está indo melhor. Como o ERPNext tem a opção de adicionar vários
+do seu negócio está indo melhor. Como o SOMA tem a opção de adicionar vários
 Empresas, você pode criar Centros de Custo para cada Empresa e gerenciá-los
 separadamente.
 

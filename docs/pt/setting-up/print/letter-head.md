@@ -4,10 +4,10 @@
 **Um papel timbrado contém o nome, logotipo, endereço etc. da sua organização, que aparece na parte superior dos documentos.**
 
 
-Toda empresa tem um papel timbrado padrão. Esses valores de Cabeçalho geralmente são definidos como Cabeçalho e Rodapé nos documentos. No ERPNext, você pode capturar esses detalhes no mestre do papel timbrado.
+Toda empresa tem um papel timbrado padrão. Esses valores de Cabeçalho geralmente são definidos como Cabeçalho e Rodapé nos documentos. No SOMA, você pode capturar esses detalhes no mestre do papel timbrado.
 
 
-Esses detalhes aparecerão no Formato de Impressão de transações como Pedido de Venda, Nota Fiscal, Folha de Salário, Pedido de Compra, etc. No ERPNext, o Cabeçalho serve apenas para configurar a parte superior do documento, outros conteúdos são pré -formatado e pode ser configurado via [formato de impressão](/docs/pt/setting-up/print/print-format) e [Imprimir cabeçalhos](/docs/v13 /user/manual/en/setting-up/print/print-headings).
+Esses detalhes aparecerão no Formato de Impressão de transações como Pedido de Venda, Nota Fiscal, Folha de Salário, Pedido de Compra, etc. No SOMA, o Cabeçalho serve apenas para configurar a parte superior do documento, outros conteúdos são pré -formatado e pode ser configurado via [formato de impressão](/docs/pt/setting-up/print/print-format) e [Imprimir cabeçalhos](/docs/v13 /user/manual/en/setting-up/print/print-headings).
 
 
 Para acessar o papel timbrado, acesse:

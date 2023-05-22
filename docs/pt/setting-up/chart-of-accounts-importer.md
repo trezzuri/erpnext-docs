@@ -9,7 +9,7 @@
 > 
 
 
-Quando uma nova empresa é criada no ERPNext, o Plano de Contas para ela é criado por padrão com uma estrutura pré-definida. No entanto, se você tiver seu próprio Plano de Contas, poderá importá-lo usando o Importador de Plano de Contas.
+Quando uma nova empresa é criada no SOMA, o Plano de Contas para ela é criado por padrão com uma estrutura pré-definida. No entanto, se você tiver seu próprio Plano de Contas, poderá importá-lo usando o Importador de Plano de Contas.
 
 
 Permite que você crie seu próprio Plano de Contas de acordo com sua necessidade e importe-o para o sistema.

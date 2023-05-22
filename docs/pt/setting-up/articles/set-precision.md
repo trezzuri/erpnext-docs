@@ -1,7 +1,7 @@
 # Definir precisão
 
 
-No ERPNext, a precisão padrão para os campos **Float**, **Currency** e **Percent** é três. Ele permite que você insira um valor com valor de até três casas decimais.
+No SOMA, a precisão padrão para os campos **Float**, **Currency** e **Percent** é três. Ele permite que você insira um valor com valor de até três casas decimais.
 
 
 Você também pode alterar/personalizar as configurações de precisão globalmente ou para um campo específico.

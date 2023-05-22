@@ -1,13 +1,13 @@
 # Reavaliação da taxa de câmbio
 
 
-No ERPNext, você pode fazer lançamentos contábeis em várias moedas. Por exemplo, se você tiver uma conta bancária em moeda estrangeira, poderá fazer transações nessa moeda e o sistema mostrará o saldo bancário nessa moeda específica.
+No SOMA, você pode fazer lançamentos contábeis em várias moedas. Por exemplo, se você tiver uma conta bancária em moeda estrangeira, poderá fazer transações nessa moeda e o sistema mostrará o saldo bancário nessa moeda específica.
 
 
 O objetivo do mestre de reavaliação da taxa de câmbio é ajustar o saldo nas contas do Razão de acordo com quaisquer alterações nas taxas de câmbio. Isso é útil quando você está fechando seus livros contábeis e deseja atualizar as contas contábeis da sua empresa trazendo o dinheiro de outras contas em moeda.
 
 
-***Observação: A partir do ERPNext v14, a Reavaliação da Taxa de Câmbio pode lidar com Contas em Moeda Estrangeira com saldo '0' na Moeda Base ou na Moeda da Conta. Um diário separado do tipo 'Ganho/perda de câmbio' será criado no status de rascunho para eles.***
+***Observação: A partir do SOMA v14, a Reavaliação da Taxa de Câmbio pode lidar com Contas em Moeda Estrangeira com saldo '0' na Moeda Base ou na Moeda da Conta. Um diário separado do tipo 'Ganho/perda de câmbio' será criado no status de rascunho para eles.***
 
 
 Para acessar a lista de Reavaliação da Taxa de Câmbio, acesse:

@@ -67,7 +67,7 @@ Um contato também pode ser vinculado a clientes e fornecedores ao mesmo tempo.
 ### 2.2 Convidar o contato como usuário
 
 
-Você pode permitir que contatos de seus clientes e fornecedores acessem seu sistema ERPNext e visualizem dados relevantes para eles. Verifique o [Portal do cliente](/docs/pt/customer-portal) para obter mais detalhes sobre isso.
+Você pode permitir que contatos de seus clientes e fornecedores acessem seu sistema SOMA e visualizem dados relevantes para eles. Verifique o [Portal do cliente](/docs/pt/customer-portal) para obter mais detalhes sobre isso.
 Você pode enviar um convite por e-mail para um contato clicando no botão 'Convidar como usuário'.
 
 

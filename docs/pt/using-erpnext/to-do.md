@@ -4,7 +4,7 @@
 ToDo é uma lista de atividades que devem ser realizadas por um determinado indivíduo.
 
 
-**No ERPNext, um ToDo é uma ferramenta simples onde você pode definir as atividades a serem realizadas. A ToDo List listará todas as atividades atribuídas a você e por você.**
+**No SOMA, um ToDo é uma ferramenta simples onde você pode definir as atividades a serem realizadas. A ToDo List listará todas as atividades atribuídas a você e por você.**
 
 
 ![ToDo](/files/using-to-do-1.png)
@@ -59,7 +59,7 @@ Depois que um ToDo é criado, o usuário atribuído receberá uma notificação 
 2. **Prioridade**: Você pode definir a Prioridade desta tarefa como Baixa, Média ou Alta.
 3. **Cor**: você pode escolher atribuir uma cor a cada um dos seus ToDos. Por exemplo, um ToDo criado como um lembrete semanal para envio de relatórios pode ser atribuído à cor Roxo, enquanto todos os ToDos pessoais podem ser atribuídos à Cor Amarela.
 4. **Data de vencimento**: você pode adicionar a Data de vencimento a todos os ToDos.
-5. **Alocado para**: Nos casos em que você está atribuindo uma ToDo a outro usuário do ERPNext, você pode fazê-lo aqui.
+5. **Alocado para**: Nos casos em que você está atribuindo uma ToDo a outro usuário do SOMA, você pode fazê-lo aqui.
 
 
 ![ToDo](/files/using-to-do-3.png)
@@ -68,7 +68,7 @@ Depois que um ToDo é criado, o usuário atribuído receberá uma notificação 
 ### 1.2. Referências
 
 
-Todo documento no ERPNext tem uma opção chamada 'Atribuir a' na barra lateral. Usando esta opção, qualquer Dcoument pode ser atribuído ao usuário. O usuário receberia um ToDo simultaneamente.
+Todo documento no SOMA tem uma opção chamada 'Atribuir a' na barra lateral. Usando esta opção, qualquer Dcoument pode ser atribuído ao usuário. O usuário receberia um ToDo simultaneamente.
 
 
 1. **Tipo de referência**: quando um ToDo é criado a partir de outro documento, digamos uma tarefa ou um problema, o tipo de documento de referência é vinculado ao ToDo aqui. Você também pode optar por adicionar um tipo de documento de referência manualmente.

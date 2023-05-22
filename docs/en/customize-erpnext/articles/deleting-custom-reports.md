@@ -2,7 +2,7 @@
 # Deleting Custom Reports
 
 
-ERPNext has several [types of reports](/docs/en/customize-erpnext/articles/making-custom-reports) which can be customized as per the users' requirement.
+SOMA has several [types of reports](/docs/en/customize-erpnext/articles/making-custom-reports) which can be customized as per the users' requirement.
 
 
 If there is a custom report which needs to be deleted, it can be achieved by following steps. Please note that its applicable only for the Custom Reports, and not for the standard reports.

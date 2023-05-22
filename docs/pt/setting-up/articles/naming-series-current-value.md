@@ -1,16 +1,16 @@
 # Definir valor atual para nomear séries
 
 
-O recurso Naming Series permite que você defina o prefixo para nomear um documento. Por exemplo, se um Pedido de Venda tiver o prefixo "SO", então a série será gerada como SO-00001, SO-00002... e assim sucessivamente. Clique [aqui](/docs/pt/setting-up/settings/naming-series.html) para saber como você pode personalizar o Number Series para uma transação/mestre no ERPNext .
+O recurso Naming Series permite que você defina o prefixo para nomear um documento. Por exemplo, se um Pedido de Venda tiver o prefixo "SO", então a série será gerada como SO-00001, SO-00002... e assim sucessivamente. Clique [aqui](/docs/pt/setting-up/settings/naming-series.html) para saber como você pode personalizar o Number Series para uma transação/mestre no SOMA .
 
 
 ### 1. Definindo o valor atual
 
 
-O recurso de série de nomes também oferece uma ferramenta onde você pode definir o valor atual para um prefixo específico. Isso geralmente é necessário se você começou a usar o ERPNext recentemente e possui transações antigas no sistema anterior e deseja que a série de numeração comece de onde terminou no sistema antigo. Vamos considerar um cenário para aprender isso melhor.
+O recurso de série de nomes também oferece uma ferramenta onde você pode definir o valor atual para um prefixo específico. Isso geralmente é necessário se você começou a usar o SOMA recentemente e possui transações antigas no sistema anterior e deseja que a série de numeração comece de onde terminou no sistema antigo. Vamos considerar um cenário para aprender isso melhor.
 
 
-Por exemplo, você tem 322 pedidos de vendas criados em seu sistema antigo com SO00322 como ID de pedido de vendas mais alto. No ERPNext, você precisa que o primeiro Pedido de Venda seja retirado #323 quando for salvo. Para habilitar isso, você deve definir o valor atual para a série SO nas etapas a seguir.
+Por exemplo, você tem 322 pedidos de vendas criados em seu sistema antigo com SO00322 como ID de pedido de vendas mais alto. No SOMA, você precisa que o primeiro Pedido de Venda seja retirado #323 quando for salvo. Para habilitar isso, você deve definir o valor atual para a série SO nas etapas a seguir.
 
 
 #### Ir para a Ferramenta de Nomeação de Séries
@@ -67,7 +67,7 @@ Para confirmar o valor atual real para uma série específica, você deve verifi
 Vamos supor que descobrimos que o valor atual real para o preço do item é 22, então você vai nomear a série e define o valor atual para o prefixo/série do preço do item como 22 e atualiza o número da série.
 
 
-Estas instruções são aplicáveis ​​a todos os documentos no ERPNext para os quais o usuário pode personalizar a Série e seu Valor Atual.
+Estas instruções são aplicáveis ​​a todos os documentos no SOMA para os quais o usuário pode personalizar a Série e seu Valor Atual.
 
 
 Vamos considerar outro cenário para aprender melhor. Ao atribuir um documento a outro usuário, a mensagem de erro diz:

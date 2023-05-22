@@ -2,7 +2,7 @@
 # Disable any user
 
 
-To disable an ERPNext user who has left your company from accessing the system, follow the below given steps. 
+To disable an SOMA user who has left your company from accessing the system, follow the below given steps. 
 
 
 1. Type ‘User List’ in the awesome bar or search bar

@@ -23,7 +23,7 @@ Os logs de acesso são criados nos seguintes eventos:
 * Exportação via formatos XLSX/CSV
 
 
-No ERPNext, o Log de Acesso está disponível para os Gestores do Sistema, podendo ser acessado através da Busca Global ou através de:
+No SOMA, o Log de Acesso está disponível para os Gestores do Sistema, podendo ser acessado através da Busca Global ou através de:
 
 
 

@@ -8,7 +8,7 @@
 For retail operations, the delivery of goods, accrual of sale and payment all happens in one event, that is usually called the 'Point of Sale' (POS).
 
 
-In ERPNext Sales Invoices can be generated from the POS. There are two steps to set up POS:
+In SOMA Sales Invoices can be generated from the POS. There are two steps to set up POS:
 
 
 To access POS, go to:

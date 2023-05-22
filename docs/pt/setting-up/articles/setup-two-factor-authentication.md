@@ -64,5 +64,5 @@ Se um dos e-mails/SMS for usado como método de autenticação, você também re
 P. Não consigo fazer login mesmo depois de seguir todo o processo. 
 
 
-Resposta: Frappe usa o algoritmo OTP baseado em TOTP, que depende da hora do sistema do seu dispositivo. Certifique-se de que o dispositivo que você está usando tenha o mesmo horário definido como seu servidor ERPNext. 
+Resposta: Frappe usa o algoritmo OTP baseado em TOTP, que depende da hora do sistema do seu dispositivo. Certifique-se de que o dispositivo que você está usando tenha o mesmo horário definido como seu servidor SOMA. 
 

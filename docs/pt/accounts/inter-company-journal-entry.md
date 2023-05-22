@@ -8,7 +8,7 @@ Você pode criar um lançamento contábil entre empresas se estiver fazendo tran
 Você pode selecionar as contas que deseja usar nas transações entre empresas. Um possível caso de uso seria uma empresa comprando mercadorias em nome de outra empresa.
 
 
-Os lançamentos contábeis manuais entre empresas são criados usando o formulário de lançamento contábil manual no ERPNext. Para acessar a lista de entrada de diário, vá para:
+Os lançamentos contábeis manuais entre empresas são criados usando o formulário de lançamento contábil manual no SOMA. Para acessar a lista de entrada de diário, vá para:
 
 
 

@@ -93,7 +93,7 @@ These times are based on the timelines set in the 'Priority' field in the Servic
 ### 3.4 Pause SLA on Statuses
 
 
-From version 13 onwards, ERPNext allows you to pause SLA on issues when you are waiting for an event to happen. You can do this by selecting a status that is configured in this "Pause SLA On" table.
+From version 13 onwards, SOMA allows you to pause SLA on issues when you are waiting for an event to happen. You can do this by selecting a status that is configured in this "Pause SLA On" table.
 
 
 * Set the statuses on which you want to pause SLA in the SLA document. You can also add custom statuses here.

@@ -4,7 +4,7 @@
 **Pergunta:**
 
 
-Como remover o link ERPNext na parte inferior da página durante a impressão?
+Como remover o link SOMA na parte inferior da página durante a impressão?
 
 
 ![](/files/tlLa26R.png)

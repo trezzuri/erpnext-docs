@@ -7,7 +7,7 @@
 Descreve o Modelo e a Visualização dos seus dados. Ele contém quais campos são armazenados para seus dados e como eles se comportam uns com os outros. Ele contém informações sobre como seus dados são nomeados. Os formulários como Pedido de Vendas, Faturas de Vendas e Pedidos de Serviço são adicionados como DocTypes no back-end.
 
 
-DocType permite que você insira formulários personalizados no ERPNext conforme sua necessidade.
+DocType permite que você insira formulários personalizados no SOMA conforme sua necessidade.
 
 
 Para criar um novo DocType, acesse:
@@ -80,7 +80,7 @@ Você pode selecionar se deseja uma Visualização da Web deste DocType ou não.
 2. **É tabela filha**: Você pode definir se deseja que o Novo DocType seja uma tabela filha dentro de outro DocType. Confira [Tabela filha](/docs/pt/customize-erpnext/articles/customizing-data-visibility-in-child-table) para obter mais informações.
 3. **É Único**: Se marcada, este Doctype se tornará um formulário único, como Pedido de Venda, cujo usuário
 não conseguir reproduzir. Por exemplo, as configurações de venda no módulo de vendas são um único tipo de documento.
-4. **É Árvore**: Alguns DocTypes no ERPNext são estruturados como Árvores, onde existem alguns DocTypes Pais e alguns DocTypes Filhos. Por exemplo, a Doctype Company é estruturada como Tree, existem empresas-mãe e também empresas-filho, que chamamos de subsidiárias. Se você deseja que seus DocTypes sejam estruturados de forma semelhante, você pode habilitar esta opção.
+4. **É Árvore**: Alguns DocTypes no SOMA são estruturados como Árvores, onde existem alguns DocTypes Pais e alguns DocTypes Filhos. Por exemplo, a Doctype Company é estruturada como Tree, existem empresas-mãe e também empresas-filho, que chamamos de subsidiárias. Se você deseja que seus DocTypes sejam estruturados de forma semelhante, você pode habilitar esta opção.
 
 
 ![DocType Tree View](/files/doctype-treeview.png)

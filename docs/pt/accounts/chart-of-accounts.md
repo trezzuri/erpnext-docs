@@ -11,7 +11,7 @@ company is doing financially.
 
 
 Chart of Accounts is a tree view of the names of the Accounts (Ledgers and
-Groups) that a Company requires to manage its books of accounts. ERPNext sets
+Groups) that a Company requires to manage its books of accounts. SOMA sets
 up a simple chart of accounts for each Company you create, but you can
 modify it according to your needs and legal requirements.
 
@@ -59,7 +59,7 @@ To access the Chart of Accounts list, go to:
 ## 1. How to Create/Edit Accounts
 
 
-ERPNext comes with a standard set Chart of Accounts. Instead of creating/modifying, you can also use the [Chart of Accounts Importer](/docs/pt/setting-up/chart-of-accounts-importer) tool. Note that the existing Chart of Accounts will be overwritten when this tool is used.
+SOMA comes with a standard set Chart of Accounts. Instead of creating/modifying, you can also use the [Chart of Accounts Importer](/docs/pt/setting-up/chart-of-accounts-importer) tool. Note that the existing Chart of Accounts will be overwritten when this tool is used.
 
 
 1. Go to the Chart of Accounts list.
@@ -162,7 +162,7 @@ spent and collected in servicing customers during the period. Hence, at the
 beginning and end of your Fiscal Year, they become zero.
 
 
-In ERPNext it is easy to keep track of Profit and Loss via the Profit and Loss chart.
+In SOMA it is easy to keep track of Profit and Loss via the Profit and Loss chart.
 
 
 ![Profit and Loss Report](/files/profit-and-loss-report.png)
@@ -176,7 +176,7 @@ beginning or end of a period.
 ### 2.3 Groups and Ledgers
 
 
-There are two main kinds of Accounts in ERPNext - Group and Ledger. Groups can
+There are two main kinds of Accounts in SOMA - Group and Ledger. Groups can
 have sub-groups and ledgers within them, whereas ledgers are the leaf nodes of
 your chart and cannot contain more accounts in them.
 
@@ -208,7 +208,7 @@ Accounting Transactions can only be made against Ledger Accounts (not Groups)
 ### 2.4 Other Account Types
 
 
-In ERPNext, you can also specify more information when you create a new
+In SOMA, you can also specify more information when you create a new
 Account, this is there to help you select that particular account in a scenario like 'Bank Account' or a 'Tax Account' and has no effect on the Chart
 itself.
 
@@ -221,7 +221,7 @@ Explanation of account types:
 * **Bank**: The account type under which bank accounts will be created. There must be at least one group account of type "Bank" in the CoA.
 * **Cash**: The account type under which cash account will be created. There must be at least one group account of type "Cash" in the CoA.
 * **Chargeable**: Additional charges applied to Items can be stored in accounts of this type. For example, "Freight and Forwarding Charges".
-* **Capital Work in Progress**: Current charges when creating Fixed Assets are stored in CWIP accounts. For example, construction costs when constructing a building. In ERPNext Assets are booked against CWIP accounts when they are not yet being used.
+* **Capital Work in Progress**: Current charges when creating Fixed Assets are stored in CWIP accounts. For example, construction costs when constructing a building. In SOMA Assets are booked against CWIP accounts when they are not yet being used.
 * **Cost of Goods Sold**: An account under this type is used to book the accumulated total of all costs incurred while manufacturing/purchasing a product or service, sold by a Company.
 * **Depreciation**: The expense account to book the depreciation of the fixed assets. This appears on the Income statement.
 * **Equity**: These type of accounts represent transactions with people that own the business, i.e. the shareholders/owners.
@@ -236,7 +236,7 @@ Explanation of account types:
 * **Stock Adjustment**: An expense account to book any adjustment entry of stock/inventory. Generally comes at the same level of Cost of Goods Sold.
 * **Stock Received But Not Billed**: A temporary liability account which holds the value of stock received but not billed yet and used in Perpetual Inventory.
 * **Tax**: All tax accounts like VAT, TDS, GST, etc. come under this type.
-* **Temporary**: A Temporary account is useful for balancing incomes, expenses and nullifying them when shifting to ERPNext mid-year with outstanding accounting entries.
+* **Temporary**: A Temporary account is useful for balancing incomes, expenses and nullifying them when shifting to SOMA mid-year with outstanding accounting entries.
 
 
 
@@ -264,7 +264,7 @@ Explanation of account types:
 ### 2.5 Financial statements
 
 
-Financial statements for your company are easily viewable in ERPNext. You can view financial statements
+Financial statements for your company are easily viewable in SOMA. You can view financial statements
 such as Balance Sheet, Profit and Loss statement, and Cash flow statement.
 
 

@@ -2,7 +2,7 @@
 # Introduction to CRM
 
 
-ERPNext helps you track business **Opportunities** from **Leads** and
+SOMA helps you track business **Opportunities** from **Leads** and
 **Customers**, send them **Quotations**, and book **Sales Orders**.
 
 

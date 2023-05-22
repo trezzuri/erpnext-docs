@@ -36,7 +36,7 @@ Antes de começar a usar a contabilidade diferida, você deve estar ciente das c
 ## 2. Como usar receita diferida
 
 
-Os provedores de serviços de transmissão e Internet oferecem planos de assinatura trimestrais ou anuais. Eles recebem o pagamento adiantado do cliente por alguns meses, mas registram a receita mensalmente em seu livro de contas. Esta é a Receita Diferida para o Fornecedor e [Despesa Diferida](/docs/pt/accounts/deferred-expense) para o Cliente. Veja a seguir como eles devem configurar a contabilidade de receita diferida no ERPNext para automatizar o processo.
+Os provedores de serviços de transmissão e Internet oferecem planos de assinatura trimestrais ou anuais. Eles recebem o pagamento adiantado do cliente por alguns meses, mas registram a receita mensalmente em seu livro de contas. Esta é a Receita Diferida para o Fornecedor e [Despesa Diferida](/docs/pt/accounts/deferred-expense) para o Cliente. Veja a seguir como eles devem configurar a contabilidade de receita diferida no SOMA para automatizar o processo.
 
 
 ### 2.1 Item

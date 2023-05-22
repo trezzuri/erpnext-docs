@@ -33,7 +33,7 @@ Para acessar as Notas, acesse:
 ### Visibilidade das notas
 
 
-Você pode selecionar se deseja ou não que esta nota específica seja pública. Tornar uma Nota pública permitirá que você a compartilhe com os Usuários em sua conta ERPNext.
+Você pode selecionar se deseja ou não que esta nota específica seja pública. Tornar uma Nota pública permitirá que você a compartilhe com os Usuários em sua conta SOMA.
 
 
 ![Notes](/files/using-notes-3.png)

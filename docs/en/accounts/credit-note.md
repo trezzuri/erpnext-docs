@@ -52,7 +52,7 @@ In case **no payment** was made against the original invoice, you could just can
 Customer Rohan had purchased PVC pipes worth Rs 300 + taxes and at the time of delivery, Customer found that the products were damaged. Now Rohan has returned the product a Credit Note will be issued.
 
 
-Credit Note with payment entry in ERPNext for above example is as below:
+Credit Note with payment entry in SOMA for above example is as below:
 
 
 ![Creating Credit Note](/files/creating-credit-note.gif)

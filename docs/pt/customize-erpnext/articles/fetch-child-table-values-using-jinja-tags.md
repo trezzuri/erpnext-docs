@@ -1,7 +1,7 @@
 # Buscar valores da tabela filho usando tags Jinja
 
 
-O modelo Jinja pode ser usado para referenciar qualquer campo em qualquer DocType no ERPNext. Isso pode ser feito simplesmente chamando {{doc.field\_name}} em um formato de impressão, onde 'doc.name' é o nome da variável para um determinado campo.
+O modelo Jinja pode ser usado para referenciar qualquer campo em qualquer DocType no SOMA. Isso pode ser feito simplesmente chamando {{doc.field\_name}} em um formato de impressão, onde 'doc.name' é o nome da variável para um determinado campo.
 
 
 No entanto, esta abordagem não funciona para tabelas filhas dentro de um DocType. Este artigo irá ajudá-lo a percorrer e exibir todas as linhas pertencentes a uma tabela filha dentro de qualquer DocType.

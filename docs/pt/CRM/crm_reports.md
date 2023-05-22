@@ -1,7 +1,7 @@
 # Relatórios de CRM
 
 
-O recurso de relatórios do módulo CRM ajuda os usuários a obter informações sobre os clientes em potencial. Usando os relatórios a seguir, um usuário do ERPNext pode analisar os dados sobre o histórico de um cliente potencial com uma empresa e ajudará os usuários a construir relacionamentos fortes com os clientes potenciais. Estes são uma coleção de relatórios em **CRM > Relatórios**.
+O recurso de relatórios do módulo CRM ajuda os usuários a obter informações sobre os clientes em potencial. Usando os relatórios a seguir, um usuário do SOMA pode analisar os dados sobre o histórico de um cliente potencial com uma empresa e ajudará os usuários a construir relacionamentos fortes com os clientes potenciais. Estes são uma coleção de relatórios em **CRM > Relatórios**.
 
 
 ### 1. Detalhes do lead
@@ -40,7 +40,7 @@ Nesta era da Internet, todos esperamos um tempo de resposta mais rápido para qu
 Você pode inserir o intervalo de datas para o qual gostaria de analisar os minutos até a primeira resposta. O gráfico de linha é mostrado na parte superior e os detalhes da data na parte inferior.
 
 
-![Minutos para a primeira oportunidade de resposta](/files/minutes_to_first_response.png)
+![Minutos para a primeira oportunidade de resposta](/docs/v13/assets/img/crm/report/minutes_to_first_response.png)
 
 
 ### 5. Clientes Inativos

@@ -10,7 +10,7 @@ Se uma empresa tiver um Centro de Custo mestre com Centros de Custo dependentes.
 Por exemplo, no seu negócio, se os Centros de Custo 'B' e 'C' dependem do Centro de Custo 'A' em 20% e 80%. Então, você pode mencionar 'A' como Centro de Custo Distribuído. Ajuda a refletir receitas, despesas e orçamento de 'A' em 'B' e 'C' com porcentagens alocadas.
 
 
-No ERPNext você pode criar Centros de Custo Distribuídos e utilizá-los em transações e relatórios.
+No SOMA você pode criar Centros de Custo Distribuídos e utilizá-los em transações e relatórios.
 
 
 ## 1. Como criar um Centro de Custo Distribuído

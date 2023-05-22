@@ -2,7 +2,7 @@
 # Freeze Exchange Rate
 
 
-In ERPNext, you can fetch Exchange Rates between currencies in real-time, or save specific exchange rates as well. In ERPNext, saved exchange rates are also referred as Stale Exchange Rate.
+In SOMA, you can fetch Exchange Rates between currencies in real-time, or save specific exchange rates as well. In SOMA, saved exchange rates are also referred as Stale Exchange Rate.
 
 
 In your sales and purchase transactions, if the field of Currency Exchange Rate is frozen, that is because the feature of allowing stale exchange rates in transactions is enabled. To you wish to make Currency Exchange Rate field editable again, then disable the feature of Stale Exchange Rate from:
@@ -14,7 +14,7 @@ In your sales and purchase transactions, if the field of Currency Exchange Rate 
 
 ![Allow Stale Exchange Rates](/files/allow-stale-exchange-rates.png)
 * Save Account Settings
-* Refresh your ERPNext account
+* Refresh your SOMA account
 * Check Sales / Purchase transaction once again
 
 

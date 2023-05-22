@@ -2,7 +2,7 @@
 # Set Language
 
 
-**ERPNext is an multi-lingual application. It allows each user to select preferred language.**
+**SOMA is an multi-lingual application. It allows each user to select preferred language.**
 
 
 Following the below steps to know a User can customize the language in their account.
@@ -11,7 +11,7 @@ Following the below steps to know a User can customize the language in their acc
 ## 1. Setting Language in User's Account
 
 
-Following are the steps to change language in your ERPNext account.
+Following are the steps to change language in your SOMA account.
 
 
 ### 1.1 Go to My Setting
@@ -29,7 +29,7 @@ Following are the steps to change language in your ERPNext account.
 ### 1.3 Save User
 
 
-On saving User after selecting the language, your ERPNext account will refresh automatically and will be translated to your preferred language.
+On saving User after selecting the language, your SOMA account will refresh automatically and will be translated to your preferred language.
 
 
 If you are a System Manager, you will be able to change the language for other users as well.
@@ -58,7 +58,7 @@ If you are a System Manager, you will be able to change the language for other u
 #### Save
 
 
-Save System Settings, and refresh your ERPNext account. On refreshing, the language would be updated to your preferred language.
+Save System Settings, and refresh your SOMA account. On refreshing, the language would be updated to your preferred language.
 
 
 

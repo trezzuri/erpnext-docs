@@ -1,7 +1,7 @@
 # Copiar e colar vários registros do Excel
 
 
-**Caso você tenha uma sequência de registros salva em uma planilha do Excel, que precisa ser mapeada para uma Tabela Filho no ERPNext, o mesmo pode ser feito utilizando este recurso.**
+**Caso você tenha uma sequência de registros salva em uma planilha do Excel, que precisa ser mapeada para uma Tabela Filho no SOMA, o mesmo pode ser feito utilizando este recurso.**
 
 
 Digamos que você tenha uma lista de itens salva em uma planilha do Excel e precise copiá-la para a tabela filha 'Itens' no pedido de vendas.

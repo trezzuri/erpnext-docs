@@ -16,7 +16,7 @@ Payment Entry can be made against the following transactions.
 * Internal Transfer
 
 
-In ERPNext, there are two options through which User can capture the payment:
+In SOMA, there are two options through which User can capture the payment:
 
 
 * Payment Entry (Default)
@@ -200,7 +200,7 @@ If creating Payment Entry for a Customer, the Payment Amount will be allocated a
 #### What is Unallocated Amount?
 
 
-When a Payment Entry is made in ERPNext and the Paid Amount is more than the total invoice amount, it is stored in the Customer's/Supplier's account. This amount is hence currently 'Unallocated'. Unallocated amount can be used against future invoices.
+When a Payment Entry is made in SOMA and the Paid Amount is more than the total invoice amount, it is stored in the Customer's/Supplier's account. This amount is hence currently 'Unallocated'. Unallocated amount can be used against future invoices.
 
 
 For example, you create a Sales Invoice totaling 1,000 and the Customer paid 1,500. When another invoice is created for this Customer in the future for 1,000 again, the previously paid 500 can be used.
@@ -262,7 +262,7 @@ If you want to maintain a receivable/payable account in foreign currency, then c
 ![Non-standard Currency in Receivable in Customer](/files/non-standard-currency-receivable.png)
 
 
-ERPNext allows you maintain accounts and invoicing in [multiple currency](/docs/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice.
+SOMA allows you maintain accounts and invoicing in [multiple currency](/docs/en/accounts/multi-currency-accounting). If an invoice is made in the party currency, Currency Exchange Rate between the Company's base currency and party currency is also entered in the invoice.
 
 
 
@@ -328,7 +328,7 @@ In most cases, apart from retail sales, billing and payments are separate activi
 * Advances can be given together for a bunch of invoices (and can be split across invoices).
 
 
-ERPNext allows you to manage all these scenarios. All accounting entries (GL Entry) can be made against a Sales Invoice, Purchase Invoice or Payment Entry of advance payment (in special cases, an invoice can be made via a Sales Invoice too).
+SOMA allows you to manage all these scenarios. All accounting entries (GL Entry) can be made against a Sales Invoice, Purchase Invoice or Payment Entry of advance payment (in special cases, an invoice can be made via a Sales Invoice too).
 
 
 The total outstanding amount against an invoice is the sum of all the accounting entries that are made “against” (or are linked to) that invoice. This way you can combine or split payments in Payment Entry to manage the

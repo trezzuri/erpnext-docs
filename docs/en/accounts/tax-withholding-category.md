@@ -32,7 +32,7 @@ Before creating and using a Tax Withholding Category, it is advised to create th
 ## 2. How to create a Tax Withholding Category
 
 
-In ERPNext, Tax Withholding Categories for most cases are available by default, however, you can create more if needed.
+In SOMA, Tax Withholding Categories for most cases are available by default, however, you can create more if needed.
 
 
 1. Go to the Tax Withholding Category list and click on New.

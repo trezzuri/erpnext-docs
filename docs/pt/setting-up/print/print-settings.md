@@ -4,7 +4,7 @@
 **Em Configurações de impressão, você pode definir suas preferências de impressão, como tamanho do papel, tamanho de texto padrão, se deseja imprimir como PDF ou HTML, etc.**
 
 
-Como o ERPNext é um aplicativo baseado em navegador, o comando de impressão real é executado pelo navegador que você está usando.
+Como o SOMA é um aplicativo baseado em navegador, o comando de impressão real é executado pelo navegador que você está usando.
 
 
 Para editar as configurações de impressão, vá para:
@@ -30,7 +30,7 @@ Existem várias configurações disponíveis nas Configurações de impressão. 
 ### 1.1 PDF ou HTML
 
 
-Quando você envia por e-mail qualquer documento (como Pedido de Venda/Fatura) do ERPNext, ele é enviado no formato PDF ou HTML. O arquivo é enviado em PDF por padrão. Caso deseje enviar um documento no formato HTML, basta desmarcar a opção "Enviar impressão como PDF".
+Quando você envia por e-mail qualquer documento (como Pedido de Venda/Fatura) do SOMA, ele é enviado no formato PDF ou HTML. O arquivo é enviado em PDF por padrão. Caso deseje enviar um documento no formato HTML, basta desmarcar a opção "Enviar impressão como PDF".
 
 
 ### 1.2 Repetir cabeçalho e rodapé em PDF

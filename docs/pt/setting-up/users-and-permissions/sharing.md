@@ -1,7 +1,7 @@
 # Compartilhando
 
 
-**Você pode compartilhar documentos com outros usuários através do compartilhamento no ERPNext.**
+**Você pode compartilhar documentos com outros usuários através do compartilhamento no SOMA.**
 
 
 Além das permissões de usuário e função, você também pode compartilhar um documento com outro usuário se tiver direitos de compartilhamento para esse documento. Observe que um documento compartilhado ficará visível para o outro usuário, mesmo que o documento seja restrito por meio de [Permissões do usuário](/docs/pt/setting-up/users-and-permissions/user-permissions).

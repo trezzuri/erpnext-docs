@@ -8,7 +8,7 @@
 It describes the Model and the View of your data. It contains what fields are stored for your data, and how they behave with each other. It contains information about how your data is named. The forms like Sales Order, Sales Invoices, Work Order are added as DocTypes in the backend.
 
 
-DocType allows you to insert custom forms in ERPNext as per your requirement.
+DocType allows you to insert custom forms in SOMA as per your requirement.
 
 
 To create a new DocType, go to:
@@ -81,7 +81,7 @@ You can select whether you would want a Web View of this DocType or no. Having a
 2. **Is Child Table**: You can define if you want the New DocType to be a Child Table within another DocType. Checkout [Child Table](/docs/en/customize-erpnext/articles/customizing-data-visibility-in-child-table) for more information.
 3. **Is Single**: If checked, this Doctype will become a single form, like Sales Order, which user will
 not be able to re-produce. For e.g., Selling Settings in Sales Module is a Single DocType.
-4. **Is Tree**: A few DocTypes in ERPNext are structured as Trees, wherein there are some Parent DocTypes and some Children DocTypes. E.g., Doctype Company is structured as Tree, there are Parent Companies as well as Child Companies, which we call subsidiaries. If you want your DocTypes to be structured similarly, you can enable this option.
+4. **Is Tree**: A few DocTypes in SOMA are structured as Trees, wherein there are some Parent DocTypes and some Children DocTypes. E.g., Doctype Company is structured as Tree, there are Parent Companies as well as Child Companies, which we call subsidiaries. If you want your DocTypes to be structured similarly, you can enable this option.
 
 
 ![DocType Tree View](/files/doctype-treeview.png)

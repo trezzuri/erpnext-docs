@@ -9,7 +9,7 @@
 > 
 
 
-**Um e-mail pode ser vinculado a vários documentos no ERPNext.**
+**Um e-mail pode ser vinculado a vários documentos no SOMA.**
 
 
 Isso pode ser feito das duas maneiras a seguir:

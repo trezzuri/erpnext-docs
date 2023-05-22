@@ -4,7 +4,7 @@
 **Um período contábil define um período de tempo no qual as demonstrações financeiras são registradas.**
 
 
-No ERPNext, o Período Contábil é um período de tempo fora do qual as transações submissíveis selecionadas (como Fatura de Vendas/Compras, Lançamento em Estoque, Lançamento em Folha de Pagamento, Lançamento no Diário, etc.) não podem ser criadas. Em outras palavras, as transações selecionadas só podem ser criadas dentro do Período Contábil definido.
+No SOMA, o Período Contábil é um período de tempo fora do qual as transações submissíveis selecionadas (como Fatura de Vendas/Compras, Lançamento em Estoque, Lançamento em Folha de Pagamento, Lançamento no Diário, etc.) não podem ser criadas. Em outras palavras, as transações selecionadas só podem ser criadas dentro do Período Contábil definido.
 
 
 **Por que o período contábil é necessário?**

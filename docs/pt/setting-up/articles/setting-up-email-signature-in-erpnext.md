@@ -1,7 +1,7 @@
-# Configurando assinatura de e-mail no ERPNext
+# Configurando assinatura de e-mail no SOMA
 
 
-### **P. Como adiciono minha assinatura de e-mail no ERPNext?**
+### **P. Como adiciono minha assinatura de e-mail no SOMA?**
 
   
 Para adicionar sua assinatura, acesse seu Perfil de usuário em **Configurações > Minhas configurações**   

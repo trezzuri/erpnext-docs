@@ -2,10 +2,10 @@
 # Personal Data Deletion
 
 
-As a part of GDPR compliance, ERPNext has Personal Data Deletion.
+As a part of GDPR compliance, SOMA has Personal Data Deletion.
 
 
-Personal data deletion tool enables a user to delete their account and anonymize all the personally identifiable data a user has generated while using ERPNext. That is, personally identifiable information will be randomized. This includes personally identifiable data from your user account like: username, full name, birth date, phone numbers, mobile numbers, location, interests, bio, email signature, Email, Contact, Address, Communication, etc. It also includes data from Leads and Opportunities, the details you have saved like phone numbers, mobile numbers, fax, website, and name.
+Personal data deletion tool enables a user to delete their account and anonymize all the personally identifiable data a user has generated while using SOMA. That is, personally identifiable information will be randomized. This includes personally identifiable data from your user account like: username, full name, birth date, phone numbers, mobile numbers, location, interests, bio, email signature, Email, Contact, Address, Communication, etc. It also includes data from Leads and Opportunities, the details you have saved like phone numbers, mobile numbers, fax, website, and name.
 
 
 However, this excludes data that is required by law to be maintained by a business.
@@ -20,7 +20,7 @@ However, this excludes data that is required by law to be maintained by a busine
 ![Request for Account Deletion](/files/Screenshot 2021-12-01 at 8.53.14 PM.png)
 
 
-2. Enter the email associated with your ERPNext account. After submitting your request, you will receive a success response.
+2. Enter the email associated with your SOMA account. After submitting your request, you will receive a success response.
 
 
 ![Deletion Request Success](/files/deletion-request-success.png)

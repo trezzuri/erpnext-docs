@@ -13,10 +13,10 @@
 Dimensional accounting means tagging each transaction with appropriate dimensions like Branch, Business Unit, etc. This allows you to maintain each segment separately, thereby limiting the overall maintenance on GL accounts and your Chart of Accounts remains pure.
 
 
-Cost Center and Project are treated as dimensions by default in ERPNext. On setting a field in Accounting Dimension, that field will be added in transactions reports where applicable.
+Cost Center and Project are treated as dimensions by default in SOMA. On setting a field in Accounting Dimension, that field will be added in transactions reports where applicable.
 
 
-In ERPNext you can create configurable accounting dimensions and use them in transactions and reports.
+In SOMA you can create configurable accounting dimensions and use them in transactions and reports.
 
 
 To access the Accounting Dimension list, go to:
@@ -30,7 +30,7 @@ To access the Accounting Dimension list, go to:
 > 
 
 
-## 1. How to create Accounting Dimension in ERPNext.
+## 1. How to create Accounting Dimension in SOMA.
 
 
 1. Go to the Accounting Dimension list and click on New.

@@ -11,7 +11,7 @@ Quando você é um fornecedor , e conceder um desconto ao seu cliente, é tratad
   
 
 
-No ERPNext, o desconto concedido ou recebido não é contabilizado separadamente. Normalmente, é o valor final da fatura (após desconto) que é reservado. No entanto, se você deseja reservar os descontos separadamente, siga as etapas abaixo:
+No SOMA, o desconto concedido ou recebido não é contabilizado separadamente. Normalmente, é o valor final da fatura (após desconto) que é reservado. No entanto, se você deseja reservar os descontos separadamente, siga as etapas abaixo:
 
   
 

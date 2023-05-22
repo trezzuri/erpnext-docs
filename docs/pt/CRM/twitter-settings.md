@@ -1,13 +1,13 @@
 # Configurações do Twitter
 
 
-Configurações relacionadas ao Twitter, como OAuth, podem ser configuradas aqui. O ERPNext precisa de acesso à API por meio da qual a postagem é compartilhada e obtida usando o protocolo de autenticação OAuth 2.0.
+Configurações relacionadas ao Twitter, como OAuth, podem ser configuradas aqui. O SOMA precisa de acesso à API por meio da qual a postagem é compartilhada e obtida usando o protocolo de autenticação OAuth 2.0.
 
 
 ## 1. Como configurar o aplicativo do Twitter
 
 
-Você deve ter o Twitter App para sua empresa. O ERPNext interage com este aplicativo para compartilhar Tweet.
+Você deve ter o Twitter App para sua empresa. O SOMA interage com este aplicativo para compartilhar Tweet.
 
 
 ### 1.1 Criar aplicativo de desenvolvedor do Twitter

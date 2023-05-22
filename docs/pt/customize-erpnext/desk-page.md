@@ -4,7 +4,7 @@
 Ao fazer login, você é apresentado ao Desk. Possui uma barra lateral persistente classificada em categorias. Cada item da barra lateral é vinculado a uma página chamada Workspace.
 
 
-Um Workspace representa um módulo (por exemplo CRM no ERPNext). Um espaço de trabalho inclui o seguinte:
+Um Workspace representa um módulo (por exemplo CRM no SOMA). Um espaço de trabalho inclui o seguinte:
 
 
 * Uma seção de painel para esse módulo específico.
@@ -15,7 +15,7 @@ Um Workspace representa um módulo (por exemplo CRM no ERPNext). Um espaço de t
 ## Espaço de trabalho padrão
 
 
-Cada módulo no ERPNext possui seu próprio Standard Workspace, que é gerado com atalhos e links apropriados.
+Cada módulo no SOMA possui seu próprio Standard Workspace, que é gerado com atalhos e links apropriados.
 
 
 Qualquer personalização a ser feita no espaço de trabalho padrão pode ser feita com a opção Personalizar espaço de trabalho no canto superior direito do espaço de trabalho.

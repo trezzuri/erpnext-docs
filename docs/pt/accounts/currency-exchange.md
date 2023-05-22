@@ -1,7 +1,7 @@
 # Câmbios
 
 
-O formulário Câmbio do ERPNext armazena as taxas de câmbio armazenadas manualmente pelo Usuário. Por padrão, o ERPNext buscou automaticamente as taxas de câmbio atuais para moedas de acordo com o mercado. No entanto, você pode armazenar taxas de câmbio fixas e usá-las. Você precisa habilitar 'Permitir taxas de câmbio obsoletas' em Configurações de contas para usar as taxas de câmbio armazenadas no formulário Câmbio.
+O formulário Câmbio do SOMA armazena as taxas de câmbio armazenadas manualmente pelo Usuário. Por padrão, o SOMA buscou automaticamente as taxas de câmbio atuais para moedas de acordo com o mercado. No entanto, você pode armazenar taxas de câmbio fixas e usá-las. Você precisa habilitar 'Permitir taxas de câmbio obsoletas' em Configurações de contas para usar as taxas de câmbio armazenadas no formulário Câmbio.
 
 
 Para acessar a lista de Câmbio, acesse:

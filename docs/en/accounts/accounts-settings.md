@@ -2,7 +2,7 @@
 # Accounts Settings
 
 
-There are various account settings in ERPNext to restrict and configure actions in the Accounting module.
+There are various account settings in SOMA to restrict and configure actions in the Accounting module.
 
 
 ## Transactions Settings
@@ -182,7 +182,7 @@ The Payment Schedule table is visible on using [Payment Terms](/docs/en/accounts
 ### 1. Allow Stale Exchange Rates
 
 
-This should be unchecked if you want ERPNext to check the age of records fetched from Currency Exchange in foreign currency transactions. If it is unchecked, the exchange rate field will be read-only in documents.
+This should be unchecked if you want SOMA to check the age of records fetched from Currency Exchange in foreign currency transactions. If it is unchecked, the exchange rate field will be read-only in documents.
 
 
 Stale Days is the number of days to use when deciding if a Currency Exchange record is stale. This is valid when 'Allow Stale Rates' is **disabled**. So, if the Stale Days is set as 10, stale rates that are 10 days will be allowed. If Allow Stale Rates is enabled, there is no time limit on the age of stale rates.

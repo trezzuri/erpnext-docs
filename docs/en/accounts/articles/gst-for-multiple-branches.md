@@ -7,7 +7,7 @@ This will help you automate GST calculation if your company has different branch
   
 
 
-This is an extension to the blog: [5 Steps to automate Indian GST in ERPNext](https://erpnext.com/blog/erpnext-features/5-steps-to-automate-indian-gst-in-erpnext)
+This is an extension to the blog: [5 Steps to automate Indian GST in SOMA](https://erpnext.com/blog/erpnext-features/5-steps-to-automate-indian-gst-in-erpnext)
 
   
 

@@ -2,12 +2,12 @@
 
 
 À medida que seu plano de contas começa a ficar mais complexo e os padrões de relatórios mudam e evoluem, o fluxo de caixa padrão
-relatório pode não ser mais suficiente. Isso ocorre porque o ERPNext pode não ser capaz de adivinhar com precisão a classificação e
+relatório pode não ser mais suficiente. Isso ocorre porque o SOMA pode não ser capaz de adivinhar com precisão a classificação e
 finalidade de todas as contas nos planos de contas. Outra reclamação que você pode ter é a incapacidade de ajustar o relatório
 formato para atender às suas necessidades.
 
 
-Isso não será mais um problema porque o ERPNext agora permite que os usuários personalizem o relatório de fluxo de caixa.
+Isso não será mais um problema porque o SOMA agora permite que os usuários personalizem o relatório de fluxo de caixa.
 
 
 ## Visão geral técnica
@@ -58,7 +58,7 @@ Queremos que o Relatório de fluxo de caixa seja semelhante ao formato das image
 #### Ativar relatório de fluxo de caixa personalizado
 
 
-Faça isso em Configurações de contas marcando a caixa de seleção 'Usar formato de fluxo de caixa personalizado'. Isso fará com que o ERPNext use apenas seu formato personalizado para relatórios de fluxo de caixa.
+Faça isso em Configurações de contas marcando a caixa de seleção 'Usar formato de fluxo de caixa personalizado'. Isso fará com que o SOMA use apenas seu formato personalizado para relatórios de fluxo de caixa.
 
 
 ![Ativar relatório de fluxo de caixa personalizado](/files/enable-custom-cash-flow.png)
@@ -109,11 +109,11 @@ mais contas representando despesas de imposto de renda, você deve adicionar tod
 
 
 Como a despesa com imposto de renda precisa ser ajustada ainda mais na demonstração do fluxo de caixa, marque a opção 'É despesa com imposto de renda'
-checkbox. É isso que ajudará o ERPNext a calcular corretamente os ajustes a serem feitos.
+checkbox. É isso que ajudará o SOMA a calcular corretamente os ajustes a serem feitos.
 
 
 *Para obter melhores resultados, permita que as contas principais tenham contas secundárias com o mesmo tratamento para relatórios de fluxo de caixa
-porque o ERPNext calculará a variação líquida de todas as contas filhas em uma situação em que a conta selecionada
+porque o SOMA calculará a variação líquida de todas as contas filhas em uma situação em que a conta selecionada
 é uma conta principal.*
 
 
@@ -154,12 +154,12 @@ Em seguida, vamos adicionar o Mapeamento de Fluxo de Caixa para itens que mostra
 ![Mapeamento de fluxo de caixa para inventário](/files/cash-flow-mapping-inventory.png)
 
 
-Não se esqueça de informar ao ERPNext que esses mapeamentos representam mudanças no capital de giro marcando a caixa 'Está funcionando
+Não se esqueça de informar ao SOMA que esses mapeamentos representam mudanças no capital de giro marcando a caixa 'Está funcionando
 Caixa de seleção maiúscula.
 
 
 Neste ponto, criamos todos os mapeamentos necessários para a seção de atividades operacionais do nosso fluxo de caixa
-declaração. No entanto, o ERPNext ainda não sabe disso até que criemos os documentos do Cash Flow Mapper. Faremos o Fluxo de Caixa
+declaração. No entanto, o SOMA ainda não sabe disso até que criemos os documentos do Cash Flow Mapper. Faremos o Fluxo de Caixa
 Documentos do mapeador a seguir.
 
 

@@ -1,7 +1,7 @@
 # Campo personalizado
 
 
-**Cada formulário no ERPNext possui um conjunto padrão de campos. Se você precisa capturar alguma informação, mas não há um campo padrão disponível para isso, você pode inserir um campo personalizado em um formulário conforme sua necessidade.**
+**Cada formulário no SOMA possui um conjunto padrão de campos. Se você precisa capturar alguma informação, mas não há um campo padrão disponível para isso, você pode inserir um campo personalizado em um formulário conforme sua necessidade.**
 
 
 Você pode ir para [Personalizar formulário](/docs/pt/customize-erpnext/customize-form) e adicionar o campo em um determinado formulário ou tipo de documento *(doravante referido como DocType)* .
@@ -30,7 +30,7 @@ Você também pode ir para a exibição de lista de qualquer DocType e seleciona
 1. Vá para a lista Campo personalizado e clique em Novo.
 2. **Documento**: selecione o documento no qual você precisa adicionar o campo personalizado.
 3. **Rótulo**: insira o rótulo que você gostaria de dar ao seu campo personalizado.
-4. **Tipo de Campo**: O ERPNext já possui um conjunto de Tipos de Campo definidos que podem ser obtidos a partir deste menu suspenso. Você pode selecionar o tipo de seu campo personalizado neste menu.
+4. **Tipo de Campo**: O SOMA já possui um conjunto de Tipos de Campo definidos que podem ser obtidos a partir deste menu suspenso. Você pode selecionar o tipo de seu campo personalizado neste menu.
 5. Atualizar.
 
 

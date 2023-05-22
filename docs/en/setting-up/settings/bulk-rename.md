@@ -5,7 +5,7 @@
 **Bulk Renaming allows renaming multiple records at once.**
 
 
-You can rename a document in ERPNext (if it is allowed) by going to **Menu > Rename** in the document.
+You can rename a document in SOMA (if it is allowed) by going to **Menu > Rename** in the document.
 
 
 Alternatively, if you want to rename a whole bunch of records, use the Rename Tool. Go to:

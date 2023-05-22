@@ -1,10 +1,10 @@
 # Exclusão de dados pessoais
 
 
-Como parte da conformidade com o GDPR, o ERPNext possui exclusão de dados pessoais.
+Como parte da conformidade com o GDPR, o SOMA possui exclusão de dados pessoais.
 
 
-A ferramenta de exclusão de dados pessoais permite que um usuário exclua sua conta e anonimize todos os dados de identificação pessoal que um usuário gerou ao usar o ERPNext. Ou seja, as informações de identificação pessoal serão randomizadas. Isso inclui dados de identificação pessoal de sua conta de usuário, como: nome de usuário, nome completo, data de nascimento, números de telefone, números de celular, localização, interesses, biografia, assinatura de e-mail, e-mail, contato, endereço, comunicação, etc. Também inclui dados de leads e Oportunidades, os detalhes que você salvou, como números de telefone, números de celular, fax, site e nome.
+A ferramenta de exclusão de dados pessoais permite que um usuário exclua sua conta e anonimize todos os dados de identificação pessoal que um usuário gerou ao usar o SOMA. Ou seja, as informações de identificação pessoal serão randomizadas. Isso inclui dados de identificação pessoal de sua conta de usuário, como: nome de usuário, nome completo, data de nascimento, números de telefone, números de celular, localização, interesses, biografia, assinatura de e-mail, e-mail, contato, endereço, comunicação, etc. Também inclui dados de leads e Oportunidades, os detalhes que você salvou, como números de telefone, números de celular, fax, site e nome.
 
 
 No entanto, isso exclui os dados que são exigidos por lei para serem mantidos por uma empresa.
@@ -19,7 +19,7 @@ No entanto, isso exclui os dados que são exigidos por lei para serem mantidos p
 ![Pedido de exclusão de conta](/files/Screenshot 2021-12-01 às 8.53.14 PM.png)
 
 
-2. Insira o e-mail associado à sua conta ERPNext. Depois de enviar sua solicitação, você receberá uma resposta de sucesso.
+2. Insira o e-mail associado à sua conta SOMA. Depois de enviar sua solicitação, você receberá uma resposta de sucesso.
 
 
 ![Sucesso da solicitação de exclusão](/files/deletion-request-success.png)

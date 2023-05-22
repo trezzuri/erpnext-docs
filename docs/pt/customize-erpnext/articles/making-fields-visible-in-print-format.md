@@ -39,5 +39,5 @@ Clique para abrir o campo que ficará visível no formato de impressão padrão.
 #### Etapa 4: atualização
 
 
-Atualize Personalizar formulário para salvar as alterações. Recarregue sua conta ERPNext e verifique o formato de impressão para confirmação.
+Atualize Personalizar formulário para salvar as alterações. Recarregue sua conta SOMA e verifique o formato de impressão para confirmação.
 

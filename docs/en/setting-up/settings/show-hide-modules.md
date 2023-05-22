@@ -2,7 +2,7 @@
 # Show or Hide Modules
 
 
-**You can globally Hide or Unhide certain modules by clicking on Show/Hide Cards in your ERPNext Home Page.**
+**You can globally Hide or Unhide certain modules by clicking on Show/Hide Cards in your SOMA Home Page.**
 
 
 For example, if you are in the services business, you want to hide the Manufacturing Module, you can do this using this tool.

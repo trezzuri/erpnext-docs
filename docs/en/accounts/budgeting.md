@@ -5,10 +5,10 @@
 **Budgeting is a financial plan that helps controlling Company expenses.**
 
 
-In ERPNext, you can set and manage budgets against a Cost Center or a Project. This is useful in controlling your expenses. With version 12, you can also create separate [Accounting Dimensions](/docs/en/accounts/accounting-dimensions) to tag transactions with different fields.
+In SOMA, you can set and manage budgets against a Cost Center or a Project. This is useful in controlling your expenses. With version 12, you can also create separate [Accounting Dimensions](/docs/en/accounts/accounting-dimensions) to tag transactions with different fields.
 
 
-For example, if you are doing online sales, you can set a budget for search advertisements and configure ERPNext to stop or warn you from overspending beyond a set budget.
+For example, if you are doing online sales, you can set a budget for search advertisements and configure SOMA to stop or warn you from overspending beyond a set budget.
 
 
 Budgets are also great for planning purposes. When you are making plans for the next Financial Year, you would typically target a revenue based on which you would set your expenses. Setting a budget will ensure that your expenses do not get out of hand at any point.
@@ -42,7 +42,7 @@ To access the Budget list, go to:
 ### 2.1 Monthly Distribution
 
 
-You can also define a Monthly Distribution record to distribute the budget between months. If you don't set the monthly distribution, ERPNext will calculate the budget yearly or in equal proportion for every month.
+You can also define a Monthly Distribution record to distribute the budget between months. If you don't set the monthly distribution, SOMA will calculate the budget yearly or in equal proportion for every month.
 
 
 ![Monthly Distribution](/files/monthly-budget-distribution.png)

@@ -2,7 +2,7 @@
 # Reconcile Advance Payment made to the Supplier
 
 
-**While migrating from *x* application to ERPNext, how to book advance Accounts Payable and reconcile with future invoices?**
+**While migrating from *x* application to SOMA, how to book advance Accounts Payable and reconcile with future invoices?**
 
   
 

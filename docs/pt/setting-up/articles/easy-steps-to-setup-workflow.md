@@ -2,7 +2,7 @@
 
 
 Quando uma empresa possui vários níveis de aprovação para um documento, um Workflow pode ser definido.   
-No ERPNext, você pode ir para a lista Workflow --> Criar Novo --> Nomear o workflow e definir:1. Estados
+No SOMA, você pode ir para a lista Workflow --> Criar Novo --> Nomear o workflow e definir:1. Estados
 2. Regras de transição.
 
   

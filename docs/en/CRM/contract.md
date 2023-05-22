@@ -113,7 +113,7 @@ When you create a new contract using this template, the `{{ start_date }}` is re
 ### 2.6 References
 
 
-If the Contract can be linked to a transaction in ERPNext. Select the transaction type and the specific transaction. The documents that can be linked are:
+If the Contract can be linked to a transaction in SOMA. Select the transaction type and the specific transaction. The documents that can be linked are:
 
 
 * Quotation

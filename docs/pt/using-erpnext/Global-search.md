@@ -1,7 +1,7 @@
 # Pesquisa global
 
 
-**A pesquisa global é uma poderosa operação de processamento de texto no ERPNext que o ajudará na pesquisa de um determinado tipo de documento ou documento.**
+**A pesquisa global é uma poderosa operação de processamento de texto no SOMA que o ajudará na pesquisa de um determinado tipo de documento ou documento.**
 
 
 Para cada sequência de uma determinada palavra ou conjunto de caracteres, você terá um resultado de pesquisa.
@@ -13,7 +13,7 @@ Para cada sequência de uma determinada palavra ou conjunto de caracteres, você
 ![Tree Master Renameing](/files/using-global-search-2.gif)
 
 
-A Pesquisa Global ajuda os usuários a encontrar informações rapidamente. Ele está localizado no canto superior direito do ERPNext. Basta inserir alguns caracteres na barra de pesquisa para mostrar os resultados de vários tipos de registros diferentes (contato, cliente, problemas, etc.) relacionados a essa palavra-chave. Você também pode personalizar os campos com base nos quais a pesquisa será exibida.
+A Pesquisa Global ajuda os usuários a encontrar informações rapidamente. Ele está localizado no canto superior direito do SOMA. Basta inserir alguns caracteres na barra de pesquisa para mostrar os resultados de vários tipos de registros diferentes (contato, cliente, problemas, etc.) relacionados a essa palavra-chave. Você também pode personalizar os campos com base nos quais a pesquisa será exibida.
 
 
 Você também pode digitar várias palavras-chave separadas pelo operador & para encontrar os resultados desejados. Você pode consultar os seguintes casos para exemplos:

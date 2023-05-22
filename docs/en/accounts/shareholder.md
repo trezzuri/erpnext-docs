@@ -11,7 +11,7 @@ A Shareholder is any person, company or other institution that owns at least one
 Any profit or loss made by a Company belongs to the Shareholders and hence the Shareholders are a liability to the Company.
 
 
-ERPNext allows you to keep a track of all your Shareholders and maintain Share Transfers, Share Ledger and Share Balances. A shareholder is uniquely identified by the Shareholder ID. Normally this ID is a [Naming Series](/docs/en/setting-up/settings/naming-series) starting with 'ACC-SH-'. Also as soon as the Shareholder makes even a single transaction, a Folio number is allocated to him. This also is unique to the Shareholder.
+SOMA allows you to keep a track of all your Shareholders and maintain Share Transfers, Share Ledger and Share Balances. A shareholder is uniquely identified by the Shareholder ID. Normally this ID is a [Naming Series](/docs/en/setting-up/settings/naming-series) starting with 'ACC-SH-'. Also as soon as the Shareholder makes even a single transaction, a Folio number is allocated to him. This also is unique to the Shareholder.
 
 
 To access the Shareholder list, go to:
@@ -43,7 +43,7 @@ A Shareholder can avail the features (operations) in the [Share Transfer](/docs/
 ### 1.1 Contacts and Addresses
 
 
-[Contacts](/docs/en/CRM/contact) and [Addresses](/docs/en/CRM/address) in ERPNext are stored separately so that you can attach multiple Contacts or Addresses to Shareholders and other parties.
+[Contacts](/docs/en/CRM/contact) and [Addresses](/docs/en/CRM/address) in SOMA are stored separately so that you can attach multiple Contacts or Addresses to Shareholders and other parties.
 
 
 ### 2. Related Topics

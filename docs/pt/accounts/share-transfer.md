@@ -65,7 +65,7 @@ Tipos de transferência:
 **Número do Fólio**: Este é um número usado para identificar exclusivamente um Acionista e sua transação.
 
 
-**Tipo de compartilhamento**: As duas opções padrão no ERPNext são Preferência e Equidade. Isso indica apenas o tipo de compartilhamento, mais podem ser adicionados de acordo com a estrutura da sua empresa.
+**Tipo de compartilhamento**: As duas opções padrão no SOMA são Preferência e Equidade. Isso indica apenas o tipo de compartilhamento, mais podem ser adicionados de acordo com a estrutura da sua empresa.
 
 
 ### 2. Tópicos Relacionados

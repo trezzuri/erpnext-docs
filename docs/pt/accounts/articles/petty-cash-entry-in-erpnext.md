@@ -1,7 +1,7 @@
 # Reservar entrada de caixa pequena
 
 
-Pestinha é uma pequena quantia em dinheiro usada para pagar despesas como viagens, telefone, etc., que são muito pequenas para merecer a emissão de um cheque. Você pode fazer esses lançamentos no ERPNext por meio do lançamento no diário. 
+Pestinha é uma pequena quantia em dinheiro usada para pagar despesas como viagens, telefone, etc., que são muito pequenas para merecer a emissão de um cheque. Você pode fazer esses lançamentos no SOMA por meio do lançamento no diário. 
 
   
 

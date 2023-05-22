@@ -9,7 +9,7 @@
 It allows you to insert [Custom Fields](/docs/en/customize-erpnext/custom-field) as per your requirement or customize the properties of standard fields.
 
 
-Before we venture to learn the Form Customization tool, [click here](/docs/en/customize-erpnext/doctype) to understand the architecture of forms in ERPNext. It will help you in using the Customize Form tool more efficiently.
+Before we venture to learn the Form Customization tool, [click here](/docs/en/customize-erpnext/doctype) to understand the architecture of forms in SOMA. It will help you in using the Customize Form tool more efficiently.
 
 
 To access Customize Form, go to:
@@ -88,7 +88,7 @@ Once you click Update, your Customizations will be updated to the Form.
 ### 1.2. Customizing the Fields
 
 
-Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard field available for it, you can insert Custom Field in a form as per your requirement. Adding, editing or deleting of Fields can also be done here. You can also place the fields as per your requirement in the form by adding it below or above any other already present fields. [Click here](/docs/en/customize-erpnext/custom-field) for more information on Custom Fields.
+Every form in SOMA has a standard set of fields. If you need to capture some information, but there is no standard field available for it, you can insert Custom Field in a form as per your requirement. Adding, editing or deleting of Fields can also be done here. You can also place the fields as per your requirement in the form by adding it below or above any other already present fields. [Click here](/docs/en/customize-erpnext/custom-field) for more information on Custom Fields.
 
 
 ## 2. Videos

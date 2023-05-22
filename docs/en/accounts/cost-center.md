@@ -5,7 +5,7 @@
 **A Cost Center is a part of an organization where costs or income can be charged.**
 
 
-In ERPNext you can use the Cost Center as a Profit Center.
+In SOMA you can use the Cost Center as a Profit Center.
 
 
 Your Chart of Accounts is mainly designed to provide reports to the government and tax authorities.
@@ -61,7 +61,7 @@ same way.
 
 
 Thus when you do your analysis you get a better understanding as to which side
-of your business is doing better. Since ERPNext has an option to add multiple
+of your business is doing better. Since SOMA has an option to add multiple
 Companies, you can create Cost Centers for each Company and manage them
 separately.
 

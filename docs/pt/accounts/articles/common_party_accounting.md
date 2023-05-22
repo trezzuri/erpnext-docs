@@ -1,10 +1,10 @@
 # Contabilidade da parte comum
 
 
-A contabilidade de parte comum no ERPNext envolve a contabilidade de transações incomuns, como a criação de uma fatura de venda contra um fornecedor principal. 
+A contabilidade de parte comum no SOMA envolve a contabilidade de transações incomuns, como a criação de uma fatura de venda contra um fornecedor principal. 
 
 
-Vamos supor que um usuário do ERPNext que vem fazendo Notas Fiscais de Compra para um Fornecedor, queira fazer uma Nota Fiscal de Venda contra o mesmo fornecedor e ajustar essa Nota Fiscal contra uma das compras anteriores.
+Vamos supor que um usuário do SOMA que vem fazendo Notas Fiscais de Compra para um Fornecedor, queira fazer uma Nota Fiscal de Venda contra o mesmo fornecedor e ajustar essa Nota Fiscal contra uma das compras anteriores.
 
 
 O que foi dito acima pode ser alcançado ativando a Contabilidade de Parte Comum.

@@ -1,10 +1,10 @@
 # Conta Bancária
 
 
-No ERPNext, as Contas Bancárias podem ser criadas para uma Empresa, bem como para outras partes, como Clientes, Fornecedores, etc. Isso permite que você registre todas as transações bancárias corretamente para precisão contábil.
+No SOMA, as Contas Bancárias podem ser criadas para uma Empresa, bem como para outras partes, como Clientes, Fornecedores, etc. Isso permite que você registre todas as transações bancárias corretamente para precisão contábil.
 
 
-Você pode adicionar Contas Bancárias no ERPNext para Empresa. Fornecedor, Cliente ou qualquer outra parte com quem as transações são realizadas. Em seguida, a conta bancária pode ser escolhida em [Entradas de pagamento](/docs/pt/accounts/payment-entry) como [Forma de pagamento](/docs/v13/user /manual/pt/accounts/mode-of-payment).
+Você pode adicionar Contas Bancárias no SOMA para Empresa. Fornecedor, Cliente ou qualquer outra parte com quem as transações são realizadas. Em seguida, a conta bancária pode ser escolhida em [Entradas de pagamento](/docs/pt/accounts/payment-entry) como [Forma de pagamento](/docs/v13/user /manual/pt/accounts/mode-of-payment).
 
 
 Para acessar a Conta Bancária, acesse:
@@ -60,7 +60,7 @@ Antes de criar e usar uma Conta Bancária, é recomendável criar primeiro o seg
 ### 3.2 Detalhes da conta
 
 
-Para referência, os seguintes detalhes sobre uma Conta Bancária podem ser armazenados no ERPNext:
+Para referência, os seguintes detalhes sobre uma Conta Bancária podem ser armazenados no SOMA:
 
 
 * IBAN

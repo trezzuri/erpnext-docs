@@ -51,7 +51,7 @@ Caso **nenhum pagamento** tenha sido feito contra a fatura original, você pode 
 O cliente Rohan comprou tubos de PVC no valor de Rs 300 + impostos e, no momento da entrega, o cliente descobriu que os produtos estavam danificados. Agora que Rohan devolveu o produto, uma nota de crédito será emitida.
 
 
-A Nota de Crédito com entrada de pagamento no ERPNext para o exemplo acima é a seguinte:
+A Nota de Crédito com entrada de pagamento no SOMA para o exemplo acima é a seguinte:
 
 
 ![Criando nota de crédito](/files/creating-credit-note.gif)

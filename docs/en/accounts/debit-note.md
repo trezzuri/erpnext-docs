@@ -54,7 +54,7 @@ In case **no payment** was made against the original invoice, you could just can
 From Supplier Blue Mills, you had purchased Cotton worth Rs 2400 + taxes and at the time of delivery, you found that the products were damaged. Now you returned the product a Debit Note will be issued.
 
 
-Debit Note with payment entry in ERPNext for above example is as below:
+Debit Note with payment entry in SOMA for above example is as below:
 
 
 ![Creating Debit Note](/files/creating-debit-note.gif)

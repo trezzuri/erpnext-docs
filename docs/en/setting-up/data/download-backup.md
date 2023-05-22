@@ -2,7 +2,7 @@
 # Downloading Backups
 
 
-In the ERPNext, you can manually download database backup. To get the latest database backup, go to:
+In the SOMA, you can manually download database backup. To get the latest database backup, go to:
 
 
 
@@ -37,7 +37,7 @@ Clicking on Download Files Backup will send an email with links to the backup fo
 ## Automating Backups to Cloud Storage
 
 
-You can also automate your backups to be uploaded directly on a cloud storage platform. Currently, ERPNext supports:
+You can also automate your backups to be uploaded directly on a cloud storage platform. Currently, SOMA supports:
 
 
 1. Amazon S3

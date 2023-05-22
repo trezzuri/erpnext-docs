@@ -10,7 +10,7 @@
 **Resposta:**
 
 
-De acordo com o sistema de permissões do ERPNext, para que o Usuário possa acessar um formulário ou relatório, ele(a) deverá ter no mínimo permissão de leitura em todos os campos de link desse formulário/relatório. Como Território é um campo de link no relatório de contas a receber, adicione uma regra de permissão para permitir que o usuário/gerente da conta tenha pelo menos permissão de leitura no mestre do território. Siga as etapas abaixo para resolver esse problema.
+De acordo com o sistema de permissões do SOMA, para que o Usuário possa acessar um formulário ou relatório, ele(a) deverá ter no mínimo permissão de leitura em todos os campos de link desse formulário/relatório. Como Território é um campo de link no relatório de contas a receber, adicione uma regra de permissão para permitir que o usuário/gerente da conta tenha pelo menos permissão de leitura no mestre do território. Siga as etapas abaixo para resolver esse problema.
 
 
 1. As funções atribuídas ao usuário são Usuário da conta e Gerente da conta.

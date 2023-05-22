@@ -5,7 +5,7 @@
 Many times when generating a report that deals with a large volume of data, say, a GL report for the entire year, you may end up getting the following error message: **Request Timed Out**. This occurs as there is a lot of data to be processed and presented on the report page, but not enough server resource hence resulting in a time out.
 
 
-For better processing of such reports, ERPNext offers Prepared Reports (since v11). When a report is set as a Prepared Report, it is generated through a [background job](https://frappe.io/docs/v13/user/en/guides/app-development/running-background-jobs), and once ready, is available for users to view.
+For better processing of such reports, SOMA offers Prepared Reports (since v11). When a report is set as a Prepared Report, it is generated through a [background job](https://frappe.io/docs/v13/user/en/guides/app-development/running-background-jobs), and once ready, is available for users to view.
 
 
 ## Steps to Set Up Prepared Reports

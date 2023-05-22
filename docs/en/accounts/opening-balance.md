@@ -5,7 +5,7 @@
 **The opening balance is the balance that is brought forward at the beginning of an accounting period from the end of a previous accounting period or when starting out.**
 
 
-This also applies when starting a new Company and would like your offline balances to be updated in ERPNext.
+This also applies when starting a new Company and would like your offline balances to be updated in SOMA.
 
 
 ## 1. Introduction
@@ -14,7 +14,7 @@ This also applies when starting a new Company and would like your offline balanc
 If you are a new company, you will have minimal opening balances to be imported. However, if you are migrating from a legacy accounting system like Tally or a Fox Pro based software you will have considerable data to be imported as opening balance.
 
 
-We recommend that you start using ERPNext for accounting from a new financial year, but you could start midway too. To set up your accounts, you will need the following for the “day” you start using accounting in ERPNext:
+We recommend that you start using SOMA for accounting from a new financial year, but you could start midway too. To set up your accounts, you will need the following for the “day” you start using accounting in SOMA:
 
 
 ### Assets
@@ -34,10 +34,10 @@ We recommend that you start using ERPNext for accounting from a new financial ye
 3. Accounts Payables(AP) i.e. unpaid invoices which your suppliers have sent you
 
 
-If you were using another accounting software before, you should **close** financial statements in that software first. The closing balance of the accounts should be updated as an opening balance in the ERPNext. Before starting to update opening balance, ensure that your [Chart of Accounts](/docs/en/accounts/chart-of-accounts) has all the Accounts required.
+If you were using another accounting software before, you should **close** financial statements in that software first. The closing balance of the accounts should be updated as an opening balance in the SOMA. Before starting to update opening balance, ensure that your [Chart of Accounts](/docs/en/accounts/chart-of-accounts) has all the Accounts required.
 
 
-Opening entries can be created using the Opening Invoice Creation Tool in ERPNext.
+Opening entries can be created using the Opening Invoice Creation Tool in SOMA.
 
 
 

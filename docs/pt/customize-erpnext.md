@@ -1,7 +1,7 @@
-# Personalize o ERPNext
+# Personalize o SOMA
 
 
-O ERPNext, para além de ser um sistema extremamente fácil de utilizar, é também altamente personalizável. Dependendo da natureza de seus negócios e processos de negócios, você pode optar por adicionar novos ou personalizar campos, relatórios, formatos de impressão, tipo de documento (DocType) e muito mais.
+O SOMA, para além de ser um sistema extremamente fácil de utilizar, é também altamente personalizável. Dependendo da natureza de seus negócios e processos de negócios, você pode optar por adicionar novos ou personalizar campos, relatórios, formatos de impressão, tipo de documento (DocType) e muito mais.
 
 
 ## Tutoriais em vídeo

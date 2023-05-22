@@ -17,7 +17,7 @@ At the end of every year or (quarterly or maybe even monthly), after completing 
 Then book your Profit or Loss.
 
 
-By doing this, your balance in your Income and Expense Accounts becomes zero. You start a new Fiscal Year (or period) with a balanced Balance Sheet and fresh Profit and Loss account. In ERPNext after making all the special entries via Journal Entry for the current fiscal year, you should set all your Income and Expense accounts to zero via a Period Closing Voucher.
+By doing this, your balance in your Income and Expense Accounts becomes zero. You start a new Fiscal Year (or period) with a balanced Balance Sheet and fresh Profit and Loss account. In SOMA after making all the special entries via Journal Entry for the current fiscal year, you should set all your Income and Expense accounts to zero via a Period Closing Voucher.
 
 
 To access the Period Closing Voucher list, go to:

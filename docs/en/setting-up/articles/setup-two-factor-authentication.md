@@ -65,6 +65,6 @@ If either of Email/SMS is used as the authentication method, you get notificatio
 Q. I am unable to login even after following entire process. 
 
 
-Ans: Frappe uses TOTP based OTP algorithm, which depends on your device's system time. Please make sure that device you're using has same time set as your ERPNext server. 
+Ans: Frappe uses TOTP based OTP algorithm, which depends on your device's system time. Please make sure that device you're using has same time set as your SOMA server. 
 
 

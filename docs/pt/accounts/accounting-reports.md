@@ -68,7 +68,7 @@ Vá para: **Contas > Extratos Contábeis > Balancete**.
 
 
 Um balancete é um relatório contábil que lista os saldos de todas as suas contas
-(“Ledger” e “Grupo”) para qualquer período de relatório. Uma empresa prepara um balancete periodicamente, geralmente no final de cada período de relatório. O objetivo geral de produzir um balancete é garantir que os lançamentos no sistema de contabilidade de uma empresa estejam matematicamente corretos. Os totais das colunas Débito e Crédito devem ser iguais para qualquer período, para garantir que as entradas estejam corretas. No ERPNext, o relatório mostra as seguintes colunas:
+(“Ledger” e “Grupo”) para qualquer período de relatório. Uma empresa prepara um balancete periodicamente, geralmente no final de cada período de relatório. O objetivo geral de produzir um balancete é garantir que os lançamentos no sistema de contabilidade de uma empresa estejam matematicamente corretos. Os totais das colunas Débito e Crédito devem ser iguais para qualquer período, para garantir que as entradas estejam corretas. No SOMA, o relatório mostra as seguintes colunas:
 
 
 * Abertura (Dr): Saldo devedor inicial a partir da data
@@ -94,7 +94,7 @@ Vá para: **Contas > Extratos Contábeis > Balanço**.
 Um Balanço é a demonstração financeira de uma empresa que declara ativos, passivos e patrimônio em um determinado momento.
 
 
-O Balanço no ERPNext lhe dá mais flexibilidade para analisar sua posição financeira. Você pode executar o relatório em vários anos para comparar valores. Você pode verificar valores para um livro financeiro ou centro de custo específico. Você também pode escolher qualquer outra moeda para exibir os saldos.
+O Balanço no SOMA lhe dá mais flexibilidade para analisar sua posição financeira. Você pode executar o relatório em vários anos para comparar valores. Você pode verificar valores para um livro financeiro ou centro de custo específico. Você também pode escolher qualquer outra moeda para exibir os saldos.
 
 
 ![Balance Sheet](/files/balance-sheet-report.png)
@@ -121,7 +121,7 @@ Vá para: **Contas > Extratos Contábeis > Demonstrativo de Lucros e Perdas**.
 Uma Demonstração de Lucros e Perdas é uma demonstração financeira que resume todas as receitas e despesas em um determinado período. O relatório também é conhecido como Demonstração de P&L.
 
 
-No ERPNext, você pode executar o relatório em vários anos/períodos para comparar os valores. Você também pode verificar valores para um Livro Financeiro, Projeto ou Centro de Custo específico. Você também pode escolher qualquer outra moeda para exibir os saldos. Se você estiver executando o relatório para ver os saldos trimestrais / mensais, poderá escolher se deseja mostrar os saldos acumulados ou apenas para cada período.
+No SOMA, você pode executar o relatório em vários anos/períodos para comparar os valores. Você também pode verificar valores para um Livro Financeiro, Projeto ou Centro de Custo específico. Você também pode escolher qualquer outra moeda para exibir os saldos. Se você estiver executando o relatório para ver os saldos trimestrais / mensais, poderá escolher se deseja mostrar os saldos acumulados ou apenas para cada período.
 
 
 ![Relatório de lucros e perdas](/files/profit-and-loss-report.png)
@@ -163,7 +163,7 @@ O relatório Cadastro de Compras e Vendas mostra todas as transações de Compra
 Vá para: **Contas > Orçamento e centro de custo > Relatório de variação de orçamento**.
 
 
-No ERPNext, você pode atribuir orçamento de despesas para uma conta de despesas em relação a qualquer centro de custo específico. Este relatório oferece uma comparação entre as despesas orçadas e reais e a variação (a diferença entre as duas) na visualização mensal/trimestral/anual.
+No SOMA, você pode atribuir orçamento de despesas para uma conta de despesas em relação a qualquer centro de custo específico. Este relatório oferece uma comparação entre as despesas orçadas e reais e a variação (a diferença entre as duas) na visualização mensal/trimestral/anual.
 
 
 ![Budget Variance](/files/budget-variance-report.png)

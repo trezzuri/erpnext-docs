@@ -1,10 +1,10 @@
 # Download de Dados Pessoais
 
 
-Como parte da conformidade com o GDPR, o ERPNext oferece download de dados pessoais.
+Como parte da conformidade com o GDPR, o SOMA oferece download de dados pessoais.
 
 
-A ferramenta de download de dados pessoais permite que um usuário baixe automaticamente todos os dados pessoais gerados durante o uso do ERPNext. Isso inclui dados de identificação pessoal de sua conta de usuário, como: nome de usuário, nome completo, data de nascimento, números de telefone, números de celular, localização, interesses, biografia, assinatura de e-mail, e-mail, contato, endereço, comunicação, etc. Também inclui dados de leads e Oportunidades, os detalhes que você salvou, como números de telefone, números de celular, fax, site e nome.
+A ferramenta de download de dados pessoais permite que um usuário baixe automaticamente todos os dados pessoais gerados durante o uso do SOMA. Isso inclui dados de identificação pessoal de sua conta de usuário, como: nome de usuário, nome completo, data de nascimento, números de telefone, números de celular, localização, interesses, biografia, assinatura de e-mail, e-mail, contato, endereço, comunicação, etc. Também inclui dados de leads e Oportunidades, os detalhes que você salvou, como números de telefone, números de celular, fax, site e nome.
 
 
 ## 1. Como solicitar o download dos dados do usuário

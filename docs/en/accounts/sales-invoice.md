@@ -170,7 +170,7 @@ Read [Price List documentation](/docs/en/stock/price-lists) to know more.
 
 
 > 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/en/accounts/articles/immutable-ledger-in-erpnext).
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in SOMA. [Learn more here](/docs/en/accounts/articles/immutable-ledger-in-erpnext).
 > 
 > 
 > 
@@ -369,7 +369,7 @@ The following Sales details can be recorded:
 
 
 * **Debit To**: The account against which receivable will be booked for this Customer.
-* **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
+* **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to SOMA mid year, you might want to use an Opening Entry to update account balances in SOMA.
 * **Remarks**: Any additional remarks about the Sales Invoice can be added here.
 
 
@@ -385,20 +385,20 @@ If the sale took place via one of your Sales Partners, you can add their commiss
 ### 3.22 Sales Team
 
 
-**Sales Persons:** ERPNext allows you to add multiple Sales Persons who may have worked on this deal. This is also fetched from the Sales Order/Delivery Note.
+**Sales Persons:** SOMA allows you to add multiple Sales Persons who may have worked on this deal. This is also fetched from the Sales Order/Delivery Note.
 
 
 ### 3.23 Automatically Fetching Item Batch Numbers
 
 
 If you are selling an Item from a [Batch](/docs/en/stock/batch),
-ERPNext will automatically fetch a batch number for you if "Update Stock"
+SOMA will automatically fetch a batch number for you if "Update Stock"
 is checked. The batch number will be fetched on a First Expiring First Out
 (FEFO) basis. This is a variant of First In First Out (FIFO) that gives the highest priority to the soonest to expire Items.
 
 
 Note that if the first batch in the queue cannot satisfy the order on the invoice,
-the next batch in the queue that can satisfy the order will be selected. If no batch can satisfy the order, ERPNext will cancel its attempt to automatically fetch a suitable batch number.
+the next batch in the queue that can satisfy the order will be selected. If no batch can satisfy the order, SOMA will cancel its attempt to automatically fetch a suitable batch number.
 
 
 ### 3.24 POS Invoices

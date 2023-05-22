@@ -92,7 +92,7 @@ Esses tempos são baseados nos cronogramas definidos no campo 'Prioridade' na ta
 ### 3.4 Pausar SLA em status
 
 
-A partir da versão 13, o ERPNext permite pausar o SLA em problemas quando você está esperando que um evento aconteça. Você pode fazer isso selecionando um status configurado nesta tabela "Pausar SLA ativado".
+A partir da versão 13, o SOMA permite pausar o SLA em problemas quando você está esperando que um evento aconteça. Você pode fazer isso selecionando um status configurado nesta tabela "Pausar SLA ativado".
 
 
 * Defina os status nos quais deseja pausar o SLA no documento SLA. Você também pode adicionar status personalizados aqui.

@@ -1,7 +1,7 @@
 # Mostrar ou ocultar módulos
 
 
-**Você pode Ocultar ou Reexibir globalmente determinados módulos clicando em Mostrar/Ocultar Cartões na página inicial do ERPNext.**
+**Você pode Ocultar ou Reexibir globalmente determinados módulos clicando em Mostrar/Ocultar Cartões na página inicial do SOMA.**
 
 
 Por exemplo, se você está no ramo de serviços e deseja ocultar o Módulo de Manufatura, pode fazer isso usando esta ferramenta.

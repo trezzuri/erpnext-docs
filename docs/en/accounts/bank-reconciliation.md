@@ -2,13 +2,13 @@
 # Bank Reconciliation
 
 
-**A Bank Reconciliation entry is used to match ERPNext account statements with your bank account statements.**
+**A Bank Reconciliation entry is used to match SOMA account statements with your bank account statements.**
 
 
 If you are receiving payments or making payments via cheques, the bank statements will not accurately match the dates of your entry, this is because the bank usually takes time to “clear” these payments.
 
 
-Also, you may have mailed a cheque to your Supplier and it may be a few days before it is received and deposited by the Supplier. In ERPNext you can synchronize your bank statements and your Journal Entries using the transaction dates.
+Also, you may have mailed a cheque to your Supplier and it may be a few days before it is received and deposited by the Supplier. In SOMA you can synchronize your bank statements and your Journal Entries using the transaction dates.
 
 
 ## 1. What is a Bank Reconciliation Statement?
@@ -58,7 +58,7 @@ By doing this you will be able to sync your bank statements and entries into the
 ## 3. Types of reconciliation tools
 
 
-ERPNext has two reconciliation tools:
+SOMA has two reconciliation tools:
 
 
 1. A manual reconciliation tool allowing to set clearance dates against payment entries, sales invoice payments or journal entries
@@ -77,7 +77,7 @@ To view this report, go to **Accounts > Banking and Payments > Bank Reconciliati
 It is a two-step process:
 
 
-1. Add Bank Transactions into ERPNext via Bank Statement Import or Bank Account Synchronization
+1. Add Bank Transactions into SOMA via Bank Statement Import or Bank Account Synchronization
 2. Reconcile the Bank Statement
 
 
@@ -120,13 +120,13 @@ or simply search for 'Bank Statement Import' in the awesomebar.
 #### 3.2.2 Bank Account Synchronization
 
 
-You can use Plaid (see [Plaid Integrations page](/docs/en/erpnext_integration/plaid_integration)) to automatically synchronize your bank account with ERPNext. All your bank transactions will be automatically imported into ERPNext.
+You can use Plaid (see [Plaid Integrations page](/docs/en/erpnext_integration/plaid_integration)) to automatically synchronize your bank account with SOMA. All your bank transactions will be automatically imported into SOMA.
 
 
 #### 3.2.3 Reconcile the Bank Statement
 
 
-Once all your bank transactions are imported into ERPNext, you can reconcile them with your existing vouchers. Go to:
+Once all your bank transactions are imported into SOMA, you can reconcile them with your existing vouchers. Go to:
 
 
 
@@ -141,7 +141,7 @@ or simply search for 'Bank Reconciliation Tool' in the awesomebar.
 
 
 1. Select your Company, Bank Account, Bank Statement Start and End Date.
-2. Make sure that the opening balance from ERPNext matches the opening balance of your Bank Statement.
+2. Make sure that the opening balance from SOMA matches the opening balance of your Bank Statement.
 3. Enter the Closing Balance of the Bank Statement.
 4. Saving the document will show the matching bank transactions.
 ![Reconcile bank transactions](/files/bank_reconciliation_tool.png)
@@ -151,7 +151,7 @@ or simply search for 'Bank Reconciliation Tool' in the awesomebar.
 ![Reconcile bank transactions](/files/match_voucher.png)
 8. To create a new voucher, choose 'Create Voucher' in the 'Action' and then choose the document type. Fill in the details that were not available in the Bank Transaction. Clicking on Submit will create the corresponding voucher and update its clearance date.
 ![Reconcile bank transactions](/files/create_voucher.png)
-9. It is also possible to update the Bank Transactions. Updating the Bank Transaction might help ERPNext in finding better matches. To Update a Bank transaction, choose 'Update Bank Transaction' in 'Action', fill in the required details, and click on Submit to save the Bank Transaction.
+9. It is also possible to update the Bank Transactions. Updating the Bank Transaction might help SOMA in finding better matches. To Update a Bank transaction, choose 'Update Bank Transaction' in 'Action', fill in the required details, and click on Submit to save the Bank Transaction.
 ![Reconcile bank transactions](/files/update_bank_transaction.png)
 
 

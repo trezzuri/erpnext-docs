@@ -2,7 +2,7 @@
 # Point of Sale Profile
 
 
-**In ERPNext, a POS profile allows using the Point of Sale feature.**
+**In SOMA, a POS profile allows using the Point of Sale feature.**
 
 
 POS includes advanced features to cater to different functionality, such as
@@ -67,7 +67,7 @@ To access the POS Profile list, go to:
 ### 2.1 Applicable for Users
 
 
-By default, all Sales Users can access the POS Profiles created in ERPNext. However, if you want only certain Users to access certain POS Profiles, you can add them to the table. Once even one User is set in the POS Profile, other Users cannot use this POS Profile for retail transactions.
+By default, all Sales Users can access the POS Profiles created in SOMA. However, if you want only certain Users to access certain POS Profiles, you can add them to the table. Once even one User is set in the POS Profile, other Users cannot use this POS Profile for retail transactions.
 
 
 **Setting POS Profile as default**: On ticking the Default checkbox in the table, the current POS Profile becomes the default POS Profile for that User. So, the next time the User logs into the system, the POS Profile will be set by default.

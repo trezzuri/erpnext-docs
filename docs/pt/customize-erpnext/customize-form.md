@@ -8,7 +8,7 @@
 Ele permite que você insira [Campos personalizados](/docs/pt/customize-erpnext/custom-field) conforme sua necessidade ou personalize as propriedades dos campos padrão .
 
 
-Antes de nos aventurarmos a aprender a ferramenta de Customização de Formulários, [clique aqui](/docs/pt/customize-erpnext/doctype) para entender a arquitetura de formulários no ERPNext . Isso ajudará você a usar a ferramenta Personalizar formulário com mais eficiência.
+Antes de nos aventurarmos a aprender a ferramenta de Customização de Formulários, [clique aqui](/docs/pt/customize-erpnext/doctype) para entender a arquitetura de formulários no SOMA . Isso ajudará você a usar a ferramenta Personalizar formulário com mais eficiência.
 
 
 Para acessar o Formulário Personalizado, acesse:
@@ -87,7 +87,7 @@ Depois de clicar em Atualizar, suas personalizações serão atualizadas no form
 ### 1.2. Personalizando os Campos
 
 
-Cada formulário no ERPNext possui um conjunto padrão de campos. Se você precisa capturar alguma informação, mas não há um campo padrão disponível para isso, você pode inserir um Campo Personalizado em um formulário conforme sua necessidade. Adicionar, editar ou excluir campos também pode ser feito aqui. Você também pode colocar os campos conforme sua necessidade no formulário, adicionando-o abaixo ou acima de qualquer outro campo já presente. [Clique aqui](/docs/pt/customize-erpnext/custom-field) para obter mais informações sobre campos personalizados.
+Cada formulário no SOMA possui um conjunto padrão de campos. Se você precisa capturar alguma informação, mas não há um campo padrão disponível para isso, você pode inserir um Campo Personalizado em um formulário conforme sua necessidade. Adicionar, editar ou excluir campos também pode ser feito aqui. Você também pode colocar os campos conforme sua necessidade no formulário, adicionando-o abaixo ou acima de qualquer outro campo já presente. [Clique aqui](/docs/pt/customize-erpnext/custom-field) para obter mais informações sobre campos personalizados.
 
 
 ## 2. Vídeos

@@ -1,7 +1,7 @@
 # Quadro Kanban
 
 
-**Kanban Board é uma ferramenta que lhe dará um layout descritivo de seus dados no ERPNext com base no status e em um quadro virtual.**
+**Kanban Board é uma ferramenta que lhe dará um layout descritivo de seus dados no SOMA com base no status e em um quadro virtual.**
 
 
 Este quadro deve consistir de cartões que representam os vários Documentos listados em um determinado Tipo de Documento alinhado de acordo com o estágio de operação das transações representadas pelas Colunas de Status. O status do cartão pode ser alterado facilmente arrastando e soltando os cartões no quadro.

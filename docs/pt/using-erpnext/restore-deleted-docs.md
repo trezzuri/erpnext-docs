@@ -1,7 +1,7 @@
 # Excluindo e Restaurando Documentos
 
 
-**No ERPNext, você pode excluir um documento se não for necessário. Eles podem ser mestres como Itens, Clientes ou transações como Pedidos de Venda, Entradas de Pagamento, etc.**
+**No SOMA, você pode excluir um documento se não for necessário. Eles podem ser mestres como Itens, Clientes ou transações como Pedidos de Venda, Entradas de Pagamento, etc.**
 
 
 Para excluir um documento, você pode ir ao menu suspenso do documento e selecionar 'Excluir'.

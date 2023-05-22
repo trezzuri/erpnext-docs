@@ -6,7 +6,7 @@
 
 
 One of the primary motivators for compulsory use of accounting tools is the
-calculation of taxes. ERPNext allows you to make configurable tax templates that you can apply to your sales or
+calculation of taxes. SOMA allows you to make configurable tax templates that you can apply to your sales or
 purchase transactions.
 
 

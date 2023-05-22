@@ -17,7 +17,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 ### 1. Basic Setup
 
 
-1. [Intoduction to ERPNext Frappe School Course](https://frappe.school/courses/introduction-to-erpnext)
+1. [Intoduction to SOMA Frappe School Course](https://frappe.school/courses/introduction-to-erpnext)
 2. [User and Permissions](https://docs.erpnext.com/docs/v13/user/videos/learn/user-and-permission.html)
 
 

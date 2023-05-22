@@ -64,7 +64,7 @@ Anexar imagem é um campo onde você poderá anexar imagens no formato jpeg, png
 #### Editor de texto
 
 
-Editor de texto é um campo de texto. Possui opções de formatação de texto. No ERPNext, este campo geralmente é usado para definir os Termos e Condições.
+Editor de texto é um campo de texto. Possui opções de formatação de texto. No SOMA, este campo geralmente é usado para definir os Termos e Condições.
 
 
 ![Editor de texto de tipo de campo](/files/field-type-text-editor.png)
@@ -127,7 +127,7 @@ Você terá a opção de especificar a cor para este Formulário.
 #### Quebra de coluna
 
 
-Como o ERPNext possui vários layouts de coluna, usando quebras de coluna, você pode dividir um conjunto de campos em no máximo duas colunas.
+Como o SOMA possui vários layouts de coluna, usando quebras de coluna, você pode dividir um conjunto de campos em no máximo duas colunas.
 
 
 ![Field Type Column Break](/files/field-type-column-break.png)

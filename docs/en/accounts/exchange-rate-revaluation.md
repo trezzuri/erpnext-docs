@@ -2,13 +2,13 @@
 # Exchange Rate Revaluation
 
 
-In ERPNext, you can make accounting entries in multiple currencies. For example, if you have a bank account in a foreign currency, you can make transactions in that currency and the system will show bank balance in that specific currency.
+In SOMA, you can make accounting entries in multiple currencies. For example, if you have a bank account in a foreign currency, you can make transactions in that currency and the system will show bank balance in that specific currency.
 
 
 The purpose of Exchange Rate Revaluation master is to adjust the balance in General Ledger accounts according to any changes in the currency exchange rates. This is useful when you are closing your accounts books and want to update your Company's GL accounts by bringing in the money from other currency accounts.
 
 
-***Note: From ERPNext v14, Exchange Rate Revaluation can handle Foreign Currency Accounts that have '0' balance in either Base or Account Currency. A Separate Journal of type 'Exchange Gain/Loss' will be created in draft status for them.***
+***Note: From SOMA v14, Exchange Rate Revaluation can handle Foreign Currency Accounts that have '0' balance in either Base or Account Currency. A Separate Journal of type 'Exchange Gain/Loss' will be created in draft status for them.***
 
 
 To access the Exchange Rate Revaluation list, go to:

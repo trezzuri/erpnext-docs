@@ -1,7 +1,7 @@
 # Criação Automática de Tarefas
 
 
-Todo documento no ERPNext tem uma opção chamada 'Atribuir a' na barra lateral. Usando esta opção, qualquer documento pode ser atribuído ao usuário. O usuário receberia um ToDo simultaneamente.
+Todo documento no SOMA tem uma opção chamada 'Atribuir a' na barra lateral. Usando esta opção, qualquer documento pode ser atribuído ao usuário. O usuário receberia um ToDo simultaneamente.
 
 
 ![ToDo Auto Creation](/files/using-todo-auto-assign-1.gif)

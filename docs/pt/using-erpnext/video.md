@@ -84,7 +84,7 @@ Você pode filtrar os dados do relatório pelo intervalo de datas de publicaçã
 
 
 > 
-> **Observação**: a cota para o número de solicitações **não faturáveis** para a API de dados do YouTube é de 10.000 solicitações em setembro de 2020. O ERPNext atualiza automaticamente até 50 vídeos em 1 solicitar. Da mesma forma, para 100 vídeos seriam necessárias 2 solicitações.  
+> **Observação**: a cota para o número de solicitações **não faturáveis** para a API de dados do YouTube é de 10.000 solicitações em setembro de 2020. O SOMA atualiza automaticamente até 50 vídeos em 1 solicitar. Da mesma forma, para 100 vídeos seriam necessárias 2 solicitações.  
 > 
 >  Supondo que 100 vídeos sejam atualizados **a cada hora** (frequência = 1 hora):  
 > 

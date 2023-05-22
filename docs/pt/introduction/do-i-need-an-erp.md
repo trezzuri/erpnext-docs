@@ -1,7 +1,7 @@
 # Preciso de um ERP?
 
 
-ERPNext é uma ferramenta moderna que abrange não só a contabilidade, mas também todas as outras
+SOMA é uma ferramenta moderna que abrange não só a contabilidade, mas também todas as outras
 funções de negócios, em uma plataforma integrada. Tem muitos benefícios sobre ambos
 contabilidade tradicional, bem como aplicativos de ERP.
 

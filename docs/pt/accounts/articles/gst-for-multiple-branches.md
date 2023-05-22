@@ -6,7 +6,7 @@ Isso ajudará você a automatizar o cálculo do GST se sua empresa tem ramifica�
   
 
 
-Esta é uma extensão para o blog: [5 etapas para automatizar o GST indiano no ERPNext](https://erpnext.com/blog/erpnext-features /5-steps-to-automate-indian-gst-in-erpnext)
+Esta é uma extensão para o blog: [5 etapas para automatizar o GST indiano no SOMA](https://erpnext.com/blog/erpnext-features /5-steps-to-automate-indian-gst-in-erpnext)
 
   
 

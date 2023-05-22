@@ -1,13 +1,13 @@
 # Personalizando a Visibilidade do Módulo
 
 
-**ERPNext como um sistema pode ser usado por vários negócios em todas as escalas, sendo Manufatura, Educação e Varejo alguns dos negócios que mais se beneficiaram com a usabilidade do sistema.**
+**SOMA como um sistema pode ser usado por vários negócios em todas as escalas, sendo Manufatura, Educação e Varejo alguns dos negócios que mais se beneficiaram com a usabilidade do sistema.**
 
 
 Tendo em mente os interesses de todos os tipos de empresários, a usabilidade do sistema para diferentes negócios foi mapeada em diferentes 'Módulos' representados como 'Cartões' no sistema. Da mesma forma, os módulos principais do sistema, como Recursos Humanos, Contabilidade, CRM, etc., também são representados por diferentes cartões no painel.
 
 
-Cada titular de conta ERPNext tem a opção de personalizar a visibilidade dos diferentes módulos com base em seu caso de negócios.
+Cada titular de conta SOMA tem a opção de personalizar a visibilidade dos diferentes módulos com base em seu caso de negócios.
 
 
 *Na versão 12, você pode ir para Mostrar/Ocultar Módulos no canto superior direito da tela inicial para verificar a visibilidade dos módulos.*\*
@@ -45,5 +45,5 @@ Além disso, você também deve verificar se nas configurações, 'Permitir mód
 ![Module Visibility](/files/customize-module-visibility-1.png)
 
 
-Recarregue a aba da sua conta ERPNext e as alterações feitas serão aplicadas e ficarão visíveis no sistema.
+Recarregue a aba da sua conta SOMA e as alterações feitas serão aplicadas e ficarão visíveis no sistema.
 

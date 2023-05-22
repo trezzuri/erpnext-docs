@@ -5,7 +5,7 @@
 When you log in, you're presented with the Desk. It features a persistent sidebar sorted into categories. Each sidebar item links to a page called Workspace.
 
 
-A Workspace represents a module (for example CRM in ERPNext). A Workspace includes the following:
+A Workspace represents a module (for example CRM in SOMA). A Workspace includes the following:
 
 
 * A dashboard section for that particular module.
@@ -16,7 +16,7 @@ A Workspace represents a module (for example CRM in ERPNext). A Workspace includ
 ## Standard Workspace
 
 
-Every module in ERPNext has its own Standard Workspace which is generated with appropriate shortcuts and links.
+Every module in SOMA has its own Standard Workspace which is generated with appropriate shortcuts and links.
 
 
 Any customization to be made to the Standard Workspace can be done with Customize Workspace option in the top right corner of the Workspace.

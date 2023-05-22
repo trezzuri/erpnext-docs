@@ -4,7 +4,7 @@
 **Vendedor é uma pessoa que vende seus produtos/serviços.**
 
 
-Os Vendedores são criados de forma hierárquica no ERPNext. Você pode criar vendedores e adicionar outros vendedores nos vendedores principais.
+Os Vendedores são criados de forma hierárquica no SOMA. Você pode criar vendedores e adicionar outros vendedores nos vendedores principais.
 
 
 Para acessar a lista de vendedores, acesse:

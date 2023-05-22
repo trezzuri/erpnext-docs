@@ -6,7 +6,7 @@ Os fluxos de trabalho geralmente são definidos em documentos submissíveis. Dep
   
 
 
-No ERPNext , esses mestres não podem ser enviados. Assim, mesmo na rejeição, às vezes, eles ainda estão ativos e você pode usá-los em transações. Neste artigo, tomamos o exemplo do mestre de itens. Vamos definir um fluxo de trabalho simples no Item e torná-lo ativo somente quando for aprovado. Para fazer isso, siga as etapas abaixo:
+No SOMA , esses mestres não podem ser enviados. Assim, mesmo na rejeição, às vezes, eles ainda estão ativos e você pode usá-los em transações. Neste artigo, tomamos o exemplo do mestre de itens. Vamos definir um fluxo de trabalho simples no Item e torná-lo ativo somente quando for aprovado. Para fazer isso, siga as etapas abaixo:
 
   
 

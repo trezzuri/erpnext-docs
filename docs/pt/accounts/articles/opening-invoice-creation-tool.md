@@ -1,7 +1,7 @@
 # Ferramenta de criação de fatura de abertura
 
 
-A Ferramenta de Criação de Nota Fiscal de Abertura permite importar dados de Notas Fiscais de Compra ou Venda pendentes para o ERPNext. Esta ferramenta específica é utilizada no lugar da Ferramenta de Importação de Dados para os casos em que os dados do Item são irrelevantes e os saldos pendentes de Clientes/Fornecedores devem ser importados para o ERPNext.
+A Ferramenta de Criação de Nota Fiscal de Abertura permite importar dados de Notas Fiscais de Compra ou Venda pendentes para o SOMA. Esta ferramenta específica é utilizada no lugar da Ferramenta de Importação de Dados para os casos em que os dados do Item são irrelevantes e os saldos pendentes de Clientes/Fornecedores devem ser importados para o SOMA.
 
 
 Para acessar a Ferramenta de Criação de Nota Fiscal de Abertura, acesse:
@@ -32,7 +32,7 @@ Para acessar a Ferramenta de Criação de Nota Fiscal de Abertura, acesse:
 	* **Data de vencimento**: a data após a qual a fatura será vencida.
 	* **Nome do item**: (Opcional) O nome do item inserido aqui será mostrado na tabela de itens da fatura.
 	* **Valor pendente**: o valor pendente da fatura.
-	* **Número da Fatura**: O número da fatura correspondente conforme presente no sistema anterior. Se este campo estiver vazio, a série de nomenclatura ERPNext será usada.
+	* **Número da Fatura**: O número da fatura correspondente conforme presente no sistema anterior. Se este campo estiver vazio, a série de nomenclatura SOMA será usada.
 
 
 

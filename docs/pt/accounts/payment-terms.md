@@ -4,10 +4,10 @@
 **Um prazo de pagamento ajuda a definir um cronograma de acordo com o qual os pagamentos serão feitos.**
 
 
-Um Termo de Pagamento define um plano de pagamento específico. Por exemplo, pagamento de 50% no frete e 50% na entrega do item. Você pode salvar as condições de pagamento do seu negócio no ERPNext e incluí-las em todos os documentos do ciclo de compra/venda. O ERPNext fará todos os lançamentos do Razão de acordo.
+Um Termo de Pagamento define um plano de pagamento específico. Por exemplo, pagamento de 50% no frete e 50% na entrega do item. Você pode salvar as condições de pagamento do seu negócio no SOMA e incluí-las em todos os documentos do ciclo de compra/venda. O SOMA fará todos os lançamentos do Razão de acordo.
 
 
-No ERPNext, o formulário Condições de Pagamento define apenas as porcentagens das parcelas. O cronograma de pagamento real pode ser facilmente aplicado usando o modelo de condições de pagamento.
+No SOMA, o formulário Condições de Pagamento define apenas as porcentagens das parcelas. O cronograma de pagamento real pode ser facilmente aplicado usando o modelo de condições de pagamento.
 
 
 Você pode usar os Termos de Pagamento nos seguintes documentos:

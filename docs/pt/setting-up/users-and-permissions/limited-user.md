@@ -7,7 +7,7 @@
 Usuários limitados podem acessar apenas documentos específicos dos módulos específicos. Certos usuários não utilizam todos os módulos e precisam apenas de módulos específicos. Por exemplo, na empresa, para registrar o comparecimento diário ou aplicativo de licença, todos os funcionários receberam o acesso necessário ao sistema. Mas suponha que 500 pessoas estejam trabalhando na empresa, das quais apenas 100 usam todos os documentos e as 400 restantes precisam apenas de documentos para comparecimento diário ou pedidos de licença. Esses usuários são usuários limitados.
 
 
-O documento User Type desempenha um papel importante para lidar com este caso de uso. Existem tipos de usuário padrão, "Usuário do sistema" e "Usuário do site", o usuário do sistema pode acessar a mesa e o portal do site, enquanto o usuário do site só pode acessar o portal do site. Para lidar com o caso de acesso limitado de documentos para os funcionários por padrão, o ERPNext adicionou um novo tipo de usuário 'Autoatendimento do funcionário'.
+O documento User Type desempenha um papel importante para lidar com este caso de uso. Existem tipos de usuário padrão, "Usuário do sistema" e "Usuário do site", o usuário do sistema pode acessar a mesa e o portal do site, enquanto o usuário do site só pode acessar o portal do site. Para lidar com o caso de acesso limitado de documentos para os funcionários por padrão, o SOMA adicionou um novo tipo de usuário 'Autoatendimento do funcionário'.
 
 
 ## Tipo de usuário

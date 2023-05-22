@@ -36,7 +36,7 @@ In contrast to large enterprises, SMEs have been left out of the **1st wave of d
 So even today, small businesses continue to struggle to keep things organized. They often use a mix of applications and tools such as spreadsheets, accounting software, web-based CRMs to manage their day to day record keeping. As a consequence, they have to access different systems to understand customers' master data, sales, cash flows, or profitability. The information exists in different silos. It becomes hard to combine the data in order to get useful insights or alerts. This leads to SMEs being **reactive** instead of being **proactive** in their day to day operations. With such a constrained way of working, there's limited scope for **growth**.
 
 
-ERPNext addresses some fundamental problems SMEs struggle with when managing their resources:
+SOMA addresses some fundamental problems SMEs struggle with when managing their resources:
 
 
 1. **Affordability**: It is a Free and Open Source Software, freely available to download and install.
@@ -46,13 +46,13 @@ ERPNext addresses some fundamental problems SMEs struggle with when managing the
 5. **Wholesomeness**: A single system and database that allows multiple users to record transactions or extract data simultaneously.
 
 
-## What is ERPNext?
+## What is SOMA?
 
 
-ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead in the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.
+SOMA is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With SOMA, SMEs can make informed, fact-based, timely decisions to remain ahead in the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.
 
 
-ERPNext will help you to:
+SOMA will help you to:
 
 
 1. Track all invoices and payments.
@@ -72,10 +72,10 @@ ERPNext will help you to:
 And a ton more.
 
 
-## Is ERPNext only for SMEs?
+## Is SOMA only for SMEs?
 
 
-ERPNext scales well from SMEs to even large enterprises. ERPNext is used by several retail chains in Africa as well as a highly regarded equities trading company in India with over a thousand employees.
+SOMA scales well from SMEs to even large enterprises. SOMA is used by several retail chains in Africa as well as a highly regarded equities trading company in India with over a thousand employees.
 
 
 Check out a variety of [User Stories](https://erpnext.com/blog/customer-success-stories) to know more. Here is a video to get you started:
@@ -89,7 +89,7 @@ You can also checkout the following topics:
 
 1. [Do I Need an ERP?](/docs/en/introduction/do-i-need-an-erp)
 2. [Open Source](/docs/en/introduction/open-source)
-3. [Getting Started with ERPNext](/docs/en/introduction/getting-started-with-erpnext)
+3. [Getting Started with SOMA](/docs/en/introduction/getting-started-with-erpnext)
 4. [The Champion](/docs/en/introduction/the-champion)
 5. [Implementation Strategy](/docs/en/introduction/implementation-strategy)
 6. [Key Workflows](/docs/en/introduction/key-workflows)

@@ -4,10 +4,10 @@
 **Em Estilo de impressão, você pode definir estilos CSS personalizados aplicados a Formatos de impressão.**
 
 
-O ERPNext vem com estilos predefinidos para imprimir documentos. Você também pode criar novos estilos usando CSS que podem ser aplicados a todos os seus formatos de impressão.
+O SOMA vem com estilos predefinidos para imprimir documentos. Você também pode criar novos estilos usando CSS que podem ser aplicados a todos os seus formatos de impressão.
 
 
-Os Estilos de impressão padrão no ERPNext são: Monocromático, Moderno e Clássico.
+Os Estilos de impressão padrão no SOMA são: Monocromático, Moderno e Clássico.
 Para criar um novo **estilo de impressão**, vá para:
 
 

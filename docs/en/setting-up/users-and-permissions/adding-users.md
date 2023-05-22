@@ -17,7 +17,7 @@ There are two main types of users:
 
 
 **Website users**: Customers, Suppliers, Students, etc., who have access only to the portal and not to any modules.
-**System Users**: People using ERPNext in the Company with access to modules, company data, etc.
+**System Users**: People using SOMA in the Company with access to modules, company data, etc.
 
 
 Read more about [difference between system and website user](/docs/en/setting-up/articles/difference-between-system-user-and-website-user).

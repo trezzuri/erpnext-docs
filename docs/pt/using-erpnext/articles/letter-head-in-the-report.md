@@ -24,8 +24,8 @@ Em uma empresa mestre, se nenhum papel timbrado estiver definido como padrão, e
 ![Cabeçalho](/files/using-print-format-1.png)
 
 
-Se você estiver gerenciando várias empresas em uma única conta ERPNext, certifique-se de que, para cada empresa, o papel timbrado padrão esteja definido no mestre da empresa.
+Se você estiver gerenciando várias empresas em uma única conta SOMA, certifique-se de que, para cada empresa, o papel timbrado padrão esteja definido no mestre da empresa.
 
 
-Depois de atualizar o papel timbrado no mestre da empresa, atualize sua conta ERPNext e verifique o formato de impressão de um relatório.
+Depois de atualizar o papel timbrado no mestre da empresa, atualize sua conta SOMA e verifique o formato de impressão de um relatório.
 

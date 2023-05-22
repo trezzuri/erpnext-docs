@@ -5,7 +5,7 @@
 **A company is a legal entity made up of an association of people for carrying on a commercial or industrial enterprise.**
 
 
-In ERPNext, the first Company is created when an ERPNext account is set up. For each Company, you can set a domain as manufacturing, retail, or services depending on the nature of your business activity.
+In SOMA, the first Company is created when an SOMA account is set up. For each Company, you can set a domain as manufacturing, retail, or services depending on the nature of your business activity.
 
 
 If you have more than one company, you can add them from:
@@ -45,7 +45,7 @@ You can also attach a company logo and add a description for the company.
 Let's assume you run a group of companies, some may be larger companies and some may be smaller that are a part of the larger company(s).
 
 
-In ERPNext, you can set up multiple companies. The company structure can be parallel, i.e., sister companies, parent-child companies, or a combination of both.
+In SOMA, you can set up multiple companies. The company structure can be parallel, i.e., sister companies, parent-child companies, or a combination of both.
 
 
 A parent company is a larger organization which consists of one or more child companies. A child company is a subsidiary of a parent company.
@@ -57,7 +57,7 @@ The company tree view displays the overall structure of your companies.
 ![Company Tree](/files/company-tree.png)
 
 
-Once you build a company tree, ERPNext will validate if the accounts of the child companies match the accounts in the parent company. All the accounts can be combined in a consolidated chart of accounts statement.
+Once you build a company tree, SOMA will validate if the accounts of the child companies match the accounts in the parent company. All the accounts can be combined in a consolidated chart of accounts statement.
 
 
 ### 1.2 Other Options when Creating a Company
@@ -74,7 +74,7 @@ Once you build a company tree, ERPNext will validate if the accounts of the chil
 For each Company, the master for Chart of Accounts is maintained separately. This allows you to maintain separate accounting for each company as per the legal requirements. You can also import chart of accounts using the [Charts Of Accounts Importer](/docs/en/setting-up/chart-of-accounts-importer).
 
 
-ERPNext has localized Chart of Accounts readily available for some countries. When creating a new Company, you can choose to set up the Chart of Account for it from one of the following options.
+SOMA has localized Chart of Accounts readily available for some countries. When creating a new Company, you can choose to set up the Chart of Account for it from one of the following options.
 
 
 * Standard Chart of Accounts
@@ -223,7 +223,7 @@ Exception Budget Approver Role: The role selected here can bypass the set budget
 ### 2.8 Company Info
 
 
-For reference, the following details of your company can be saved in ERPNext:
+For reference, the following details of your company can be saved in SOMA:
 
 
 * Date of Incorporation

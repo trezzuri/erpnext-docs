@@ -31,7 +31,7 @@ Before using Data Import **ensure** that you have all of your data ready.
 ## 1. Inserting New Records
 
 
-Let's say you want to import the list of Customers from your old system into ERPNext. The first step is to download a template in which we can enter our data.
+Let's say you want to import the list of Customers from your old system into SOMA. The first step is to download a template in which we can enter our data.
 
 
 ### 1.1 Download the Template
@@ -149,10 +149,10 @@ Follow the steps in [Importing the Template](#23-importing-the-template) section
 ## 3. Importing Child Records
 
 
-Data in ERPNext is stored in tables like a spreadsheet with columns and rows of data. Each form likes Sales Order has multiple fields like Customer, Company, etc. It also has tables like the item table, tax table, etc. In Data Import, the set of fields in the Sales Order are treated as the main table and the rows inside the child table (item table) are treated as the child table for data import.
+Data in SOMA is stored in tables like a spreadsheet with columns and rows of data. Each form likes Sales Order has multiple fields like Customer, Company, etc. It also has tables like the item table, tax table, etc. In Data Import, the set of fields in the Sales Order are treated as the main table and the rows inside the child table (item table) are treated as the child table for data import.
 
 
-Each form in ERPNext can have multiple child tables associated with it. The child tables are linked to the parent tables and are implemented where there are multiple values for any property. For example, an Item can have multiple prices, a Sales Invoice has multiple Items, Taxes, and so on.
+Each form in SOMA can have multiple child tables associated with it. The child tables are linked to the parent tables and are implemented where there are multiple values for any property. For example, an Item can have multiple prices, a Sales Invoice has multiple Items, Taxes, and so on.
 
 
 When you export a document with child tables, for e.g., each child row will appear on a separate row but it is associated with a single parent row. The subsequent values in the parent columns will remain blank. You must ensure that this order is not broken when you are importing them via Data Import.
@@ -179,7 +179,7 @@ You can also import data from Google Sheets. Import your template in Google Shee
 ### 4.2 Submit After Import
 
 
-In ERPNext document types are mainly of two types - masters and transactions. The masters are records like Customer and Task which can only be saved not submitted. Transactions like Sales Orders, Purchase Invoices are submittable documents and can be submitted.
+In SOMA document types are mainly of two types - masters and transactions. The masters are records like Customer and Task which can only be saved not submitted. Transactions like Sales Orders, Purchase Invoices are submittable documents and can be submitted.
 
 
 When you select a submittable document type for Import, you can tick **Submit After Import** to submit the document after it is imported.
@@ -203,7 +203,7 @@ There is no hard limit on the number of records that can be imported. But you mu
 ### 5.2 CSV Files
 
 
-A CSV (Comma Separated Value) file is a data file that you can upload into ERPNext to update various data. Any spreadsheet file from popular spreadsheet applications like MS Excel or Open Office Spreadsheet can be saved as a CSV file.
+A CSV (Comma Separated Value) file is a data file that you can upload into SOMA to update various data. Any spreadsheet file from popular spreadsheet applications like MS Excel or Open Office Spreadsheet can be saved as a CSV file.
 
 
 If you are using Microsoft Excel and using non-English characters, make sure to save your file encoded as UTF-8.

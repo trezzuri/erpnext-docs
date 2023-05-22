@@ -1,7 +1,7 @@
 # Configurações de contas
 
 
-Existem várias configurações de conta no ERPNext para restringir e configurar ações no módulo Contabilidade.
+Existem várias configurações de conta no SOMA para restringir e configurar ações no módulo Contabilidade.
 
 
 ## Configurações de transações
@@ -181,7 +181,7 @@ A tabela Cronograma de pagamento está visível usando [Condições de pagamento
 ### 1. Permitir taxas de câmbio obsoletas
 
 
-Esta opção deve ser desmarcada se você deseja que o ERPNext verifique a idade dos registros obtidos do Câmbio em transações em moeda estrangeira. Se estiver desmarcado, o campo de taxa de câmbio será somente leitura em documentos.
+Esta opção deve ser desmarcada se você deseja que o SOMA verifique a idade dos registros obtidos do Câmbio em transações em moeda estrangeira. Se estiver desmarcado, o campo de taxa de câmbio será somente leitura em documentos.
 
 
 Stale Days é o número de dias a ser usado ao decidir se um registro de Câmbio está obsoleto. Isso é válido quando 'Permitir taxas obsoletas' está **desativado**. Portanto, se Stale Days for definido como 10, serão permitidas taxas obsoletas de 10 dias. Se Permitir taxas obsoletas estiver ativado, não há limite de tempo para a idade das taxas obsoletas.

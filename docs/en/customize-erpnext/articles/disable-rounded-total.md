@@ -34,7 +34,7 @@ Check Disable Rounded Total, and click on save.
 ![Print Preview](/files/customize-disable-rounded-total.png)
 
 
-To verify the changes, you should clear the cache and/or refresh your ERPNext account. Then your print formats shall not render value for the Rounded Total.
+To verify the changes, you should clear the cache and/or refresh your SOMA account. Then your print formats shall not render value for the Rounded Total.
 
 
 

@@ -91,7 +91,7 @@ You can create a [Quotation](/docs/en/selling/quotation) from the **Make** dropd
 ### 2.5 Create a Supplier Quotation
 
 
-You may need to get a quotation from your supplier against the customer requirement and based on that, prepare the quotation for your customer. With ERPNext, you can make a [Supplier Quotation](/docs/en/buying/supplier-quotation) from the opportunity itself.
+You may need to get a quotation from your supplier against the customer requirement and based on that, prepare the quotation for your customer. With SOMA, you can make a [Supplier Quotation](/docs/en/buying/supplier-quotation) from the opportunity itself.
 
 
 

@@ -13,7 +13,7 @@ Por exemplo, o título padrão em uma cotação é o nome do cliente, mas se voc
 ## Definindo campos de título
 
 
-A partir da versão 6.0 do ERPNext, todas as transações possuem uma propriedade 'Título'. Se não houver uma propriedade de título, você pode adicionar um **Campo personalizado** como título e definir o **Campo de título** por meio de **Personalizar formulário**.
+A partir da versão 6.0 do SOMA, todas as transações possuem uma propriedade 'Título'. Se não houver uma propriedade de título, você pode adicionar um **Campo personalizado** como título e definir o **Campo de título** por meio de **Personalizar formulário**.
 
 
 Você pode definir o valor padrão dessa propriedade usando a formatação de string estilo Python em **Padrão** ou **Opções**

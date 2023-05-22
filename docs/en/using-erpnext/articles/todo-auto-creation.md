@@ -2,7 +2,7 @@
 # To-Do Auto Creation
 
 
-Every Document in ERPNext has an option called 'Assign To' in the side-bar. Using this option, any Document can be assigned to the user. The User would be assigned a ToDo simultaneously.
+Every Document in SOMA has an option called 'Assign To' in the side-bar. Using this option, any Document can be assigned to the user. The User would be assigned a ToDo simultaneously.
 
 
 ![ToDo Auto Creation](/files/using-todo-auto-assign-1.gif)

@@ -40,7 +40,7 @@ Before creating and using a Loyalty Program, it is advised to create the followi
 6. For opting in all Customers by default, tick on 'Auto Opt In (For all customers)'. Otherwise, the program needs to be assigned from the [Customer master](/docs/en/accounts/loyalty-program#22-loyalty-points-in-customer).
 7. In the table, enter:
 	2. **Tier name**: To be assigned to a Customer based on his eligibility.
-	3. **Collection Factor**: How much amount needs to be spent to gain 1 Loyalty Point in ERPNext.
+	3. **Collection Factor**: How much amount needs to be spent to gain 1 Loyalty Point in SOMA.
 	4. **Minimum Amount**: Minimum amount to be spent to qualify into a tier.
 8. Set the Conversion Factor, eg: 10 USD = 1 point.
 9. Save.

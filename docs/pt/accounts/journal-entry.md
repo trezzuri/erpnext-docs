@@ -16,7 +16,7 @@ Journal Entries can be used for entering expenses, opening entries, contra entri
 
 
 > 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the way cancellation of accounting entries works in ERPNext. [Learn more here](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
+> Note: From version-13 onwards we have introduced immutable ledger which changes the way cancellation of accounting entries works in SOMA. [Learn more here](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
 > 
 > 
 > 
@@ -139,7 +139,7 @@ A Reference Number can be entered manually and a Reference Date can be set. On e
 > 
 
 
-In th Reference section, the following fields can be entered manually if the bill was recorded offline and not in the ERPNext system. This is only for reference purposes.
+In th Reference section, the following fields can be entered manually if the bill was recorded offline and not in the SOMA system. This is only for reference purposes.
 
 
 1. Bill No
@@ -213,7 +213,7 @@ Read [Print Headings](/docs/pt/setting-up/print/print-headings) to know more.
 ## 3. Journal Entry Types
 
 
-Let's take a look at some of the common accounting entries that can be done via Journal Entry in ERPNext.
+Let's take a look at some of the common accounting entries that can be done via Journal Entry in SOMA.
 
 
 ### 3.1 Journal Entry
@@ -376,7 +376,7 @@ If you are writing off an Invoice as a bad debt, you can create a Journal Vouche
 ### 3.11 Opening Entry
 
 
-This entry is useful when moving from an another software to ERPNext during any time of the year. Your outstanding bills, equities etc. can be recorded to ERPNext using this entry type. Selecting type will fetch the Balance Sheet accounts.
+This entry is useful when moving from an another software to SOMA during any time of the year. Your outstanding bills, equities etc. can be recorded to SOMA using this entry type. Selecting type will fetch the Balance Sheet accounts.
 
 
 ### 3.12 Depreciation

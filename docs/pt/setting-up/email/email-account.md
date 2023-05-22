@@ -1,10 +1,10 @@
 # Conta de e-mail
 
 
-**Você pode sincronizar sua conta de e-mail com o ERPNext para enviar e receber e-mails do ERPNext.**
+**Você pode sincronizar sua conta de e-mail com o SOMA para enviar e receber e-mails do SOMA.**
 
 
-Você pode gerenciar várias contas de e-mail recebidas e enviadas no ERPNext. Deve haver pelo menos uma conta de saída padrão e uma conta de entrada padrão. Se você estiver na nuvem ERPNext, o e-mail de saída padrão é definido por nós.
+Você pode gerenciar várias contas de e-mail recebidas e enviadas no SOMA. Deve haver pelo menos uma conta de saída padrão e uma conta de entrada padrão. Se você estiver na nuvem SOMA, o e-mail de saída padrão é definido por nós.
 
 
 Para acessar as contas de e-mail, acesse:
@@ -55,7 +55,7 @@ Antes de criar uma conta de e-mail, você precisa de um [domínio de e-mail](/do
 ### 3.1 Contas de e-mail padrão
 
 
-O ERPNext criará modelos para várias contas de e-mail por padrão. Nem todos eles estão ativados. Para ativá-los, você deve definir detalhes válidos da conta de e-mail.
+O SOMA criará modelos para várias contas de e-mail por padrão. Nem todos eles estão ativados. Para ativá-los, você deve definir detalhes válidos da conta de e-mail.
 
 
 Existem dois tipos de contas de e-mail, enviadas e recebidas. As contas de e-mail de saída usam um serviço SMTP para enviar e-mails e os e-mails são recuperados de sua caixa de entrada usando um IMAP ou POP. A maioria dos provedores de e-mail, como Gmail, Outlook ou Yahoo, fornece esses serviços.
@@ -121,10 +121,10 @@ As seguintes opções estão disponíveis para e-mails enviados:
 11. **Usar SSL para e-mails enviados**: use SSL como padrão para e-mails enviados. O padrão é a porta 465.
 
 
-## 4. Como o ERPNext trata as respostas
+## 4. Como o SOMA trata as respostas
 
 
-No ERPNext quando você enviar um e-mail para um contato como cliente, o remetente será o usuário que enviou o e-mail. Na propriedade **Reply-To**, o endereço de e-mail será da conta de entrada padrão (como `[replies@yourcompany.com](mailto:replies@yourcompany.com)`) . O ERPNext extrairá automaticamente esses e-mails da conta recebida e os marcará na comunicação relevante.
+No SOMA quando você enviar um e-mail para um contato como cliente, o remetente será o usuário que enviou o e-mail. Na propriedade **Reply-To**, o endereço de e-mail será da conta de entrada padrão (como `[replies@yourcompany.com](mailto:replies@yourcompany.com)`) . O SOMA extrairá automaticamente esses e-mails da conta recebida e os marcará na comunicação relevante.
 
 
 

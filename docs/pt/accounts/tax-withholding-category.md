@@ -31,7 +31,7 @@ Antes de criar e usar uma Categoria de Retenção de Imposto, é recomendável c
 ## 2. Como criar uma categoria de retenção de imposto
 
 
-No ERPNext, as Categorias de Retenção de Impostos para a maioria dos casos estão disponíveis por padrão, no entanto, você pode criar mais, se necessário.
+No SOMA, as Categorias de Retenção de Impostos para a maioria dos casos estão disponíveis por padrão, no entanto, você pode criar mais, se necessário.
 
 
 1. Vá para a lista Categoria de retenção de impostos e clique em Novo.

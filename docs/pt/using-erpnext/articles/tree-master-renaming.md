@@ -1,7 +1,7 @@
 # Renomeação da árvore principal
 
 
-**Existem vários documentos no ERPNext que são mantidos em uma estrutura de árvore.**
+**Existem vários documentos no SOMA que são mantidos em uma estrutura de árvore.**
 
 
 Leia sobre [gerenciamento de estruturas de árvore](/docs/pt/setting-up/articles/managing-tree-structure-masters.html) para saber mais.< /p>

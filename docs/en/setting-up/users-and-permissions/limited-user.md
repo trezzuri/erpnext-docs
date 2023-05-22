@@ -8,7 +8,7 @@
 Limited users can access only specific documents of the specific modules. Certain users don't use all the modules and need only specific modules. For example, in the company, to record the daily attendance or leave application every employee was given required system access. But assume 500 people are working in the company out of which only 100 use all documents and the remaining 400 need only documents for daily attendance or leave applications. Such users are limited users.
 
 
-The User Type document plays an important role to handle this use case. There are default User Types, "System User" and "Website User", the System User can access the desk and website portal whereas the Website User can only access the website portal. To handle the case of limited access of documents for the employees by default ERPNext has added a new user type 'Employee Self Service'.
+The User Type document plays an important role to handle this use case. There are default User Types, "System User" and "Website User", the System User can access the desk and website portal whereas the Website User can only access the website portal. To handle the case of limited access of documents for the employees by default SOMA has added a new user type 'Employee Self Service'.
 
 
 ## User Type

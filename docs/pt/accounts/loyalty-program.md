@@ -39,7 +39,7 @@ Antes de criar e usar um Programa de Fidelidade, é recomendável criar primeiro
 6. Para ativar todos os clientes por padrão, marque 'Aceitação automática (para todos os clientes)'. Caso contrário, o programa precisa ser atribuído a partir do [Mestre do cliente](/docs/pt/accounts/loyalty-program#22-loyalty-points-in-customer).
 7. Na tabela, digite:
 	2. **Nome do nível**: a ser atribuído a um cliente com base em sua elegibilidade.
-	3. **Fator de Arrecadação**: Quanto precisa ser gasto para ganhar 1 Ponto de Fidelidade no ERPNext.
+	3. **Fator de Arrecadação**: Quanto precisa ser gasto para ganhar 1 Ponto de Fidelidade no SOMA.
 	4. **Valor mínimo**: valor mínimo a ser gasto para se qualificar para uma modalidade.
 8. Defina o fator de conversão, por exemplo: 10 USD = 1 ponto.
 9. Salvar.

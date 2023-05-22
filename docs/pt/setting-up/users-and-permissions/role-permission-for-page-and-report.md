@@ -7,10 +7,10 @@
 Os tipos de documento são Pedido de Venda, Cliente, Fornecedor, etc. Eles são um **tipo de documento**, o que significa que podem conter vários documentos desse tipo. Uma página é uma única página como [Configurações de venda](/docs/pt/selling/selling-settings). Você não pode criar várias configurações de venda, mas pode criar vários pedidos de venda.
 
 
-No ERPNext, o usuário pode criar uma interface de usuário personalizada usando o Page e um relatório personalizado usando o [Report Builder](https://docs.erpnext.com/docs/v13/user/videos/learn/report-builder.html) ou [Relatório de consulta](https://frappe.io/docs/v13/user/en/guides/reports-and-printing/how-to-make-query-report). ERPNext tem um [sistema de permissão baseado em função](/docs/pt/setting-up/users-and-permissions/role-based-permissions) onde você pode atribuir funções ao usuário. A mesma função pode ser atribuída à página e relatório para acessá-los.
+No SOMA, o usuário pode criar uma interface de usuário personalizada usando o Page e um relatório personalizado usando o [Report Builder](https://docs.erpnext.com/docs/v13/user/videos/learn/report-builder.html) ou [Relatório de consulta](https://frappe.io/docs/v13/user/en/guides/reports-and-printing/how-to-make-query-report). SOMA tem um [sistema de permissão baseado em função](/docs/pt/setting-up/users-and-permissions/role-based-permissions) onde você pode atribuir funções ao usuário. A mesma função pode ser atribuída à página e relatório para acessá-los.
 
 
-Se o usuário habilitou o modo de desenvolvedor, ele pode adicionar as funções diretamente na página e registrar o relatório. Nesse caso, as permissões também serão refletidas no arquivo JSON da página/relatório. Considere que você deseja restringir as funções que podem acessar determinadas páginas e relatórios no ERPNext, isso pode ser feito por meio da Permissão de Função para Página e Relatório.
+Se o usuário habilitou o modo de desenvolvedor, ele pode adicionar as funções diretamente na página e registrar o relatório. Nesse caso, as permissões também serão refletidas no arquivo JSON da página/relatório. Considere que você deseja restringir as funções que podem acessar determinadas páginas e relatórios no SOMA, isso pode ser feito por meio da Permissão de Função para Página e Relatório.
 
 
 Para acessar a permissão de função para página e relatório, acesse:

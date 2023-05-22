@@ -3,12 +3,12 @@
 
 
 As your chart of accounts begins to get more complex and reporting standards change and evolve, the default cash flow
-report might no longer suffice. This is because ERPNext might not be able to accurately guess the classification and
+report might no longer suffice. This is because SOMA might not be able to accurately guess the classification and
 purpose of all accounts in the charts of accounts. Another gripe you might have is the inability to adjust the report
 format to fit your needs.
 
 
-This will no longer be a problem because ERPNext now allows users to customise the cash flow report.
+This will no longer be a problem because SOMA now allows users to customise the cash flow report.
 
 
 ## Technical Overview
@@ -59,7 +59,7 @@ We wants the Cash Flow Report to look something similar to the format in the ima
 #### Activate Customised Cash Flow Report
 
 
-Do this in Accounts Settings by checking the 'Use Custom Cash Flow Format' checkbox. This will cause ERPNext to only use your custom format for cash flow reports.
+Do this in Accounts Settings by checking the 'Use Custom Cash Flow Format' checkbox. This will cause SOMA to only use your custom format for cash flow reports.
 
 
 ![Enable Custom Cash Flow Report](/files/enable-custom-cash-flow.png)
@@ -110,11 +110,11 @@ more accounts representing income tax expenses, you should add all of them here.
 
 
 Because Income Tax expense needs to be adjusted further in the cash flow statement, check the 'Is Income Tax Expense'
-checkbox. This is what will help ERPNext properly calculate the adjustments to be made.
+checkbox. This is what will help SOMA properly calculate the adjustments to be made.
 
 
 *For best results, let parent accounts have child accounts that have the same treatment for cash flow reporting
-purposes because ERPNext will calculate net change of all children accounts in a situation where the selected account
+purposes because SOMA will calculate net change of all children accounts in a situation where the selected account
 is a parent account.*
 
 
@@ -155,12 +155,12 @@ Next let's add Cash Flow Mapping for items that show changes in working capital:
 ![Cash Flow Mapping for Inventory](/files/cash-flow-mapping-inventory.png)
 
 
-Don't forget to tell ERPNext that these mappings represent changes in working capital by checking the 'Is Working
+Don't forget to tell SOMA that these mappings represent changes in working capital by checking the 'Is Working
 Capital' checkbox.
 
 
 At this point we have created all the mappings necessary for the Operating Activities section of our cash flow
-statement. However, ERPNext doesn't know that yet until we create Cash Flow Mapper documents. We'll create Cash Flow
+statement. However, SOMA doesn't know that yet until we create Cash Flow Mapper documents. We'll create Cash Flow
 Mapper documents next.
 
 

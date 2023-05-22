@@ -2,7 +2,7 @@
 # Deleting and Restoring Documents
 
 
-**In ERPNext, you can delete a document if not needed. They can be masters like Items, Customer or transactions like Sales Order, Payment Entries, etc.**
+**In SOMA, you can delete a document if not needed. They can be masters like Items, Customer or transactions like Sales Order, Payment Entries, etc.**
 
 
 To delete a document, you can go to the dropdown menu of the document and select 'Delete'.

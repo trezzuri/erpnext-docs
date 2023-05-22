@@ -1,16 +1,16 @@
 # Usuários e permissões
 
 
-No ERPNext, você pode criar vários usuários e atribuir funções diferentes a eles.
+No SOMA, você pode criar vários usuários e atribuir funções diferentes a eles.
 
 
 Uma função é um conjunto de permissões atribuídas a um usuário para que ele possa acessar os documentos de que precisa. Por exemplo, um vendedor precisará acessar as transações de vendas, mas não terá acesso para aprovar licenças.
 
 
-Alguns usuários só podem acessar a parte pública do ERPNext (ou seja, uma visualização do portal). Esses usuários são chamados de "Usuários do site". Os "Usuários do sistema" terão acesso aos módulos e poderão acessar os documentos de acordo com as funções definidas.
+Alguns usuários só podem acessar a parte pública do SOMA (ou seja, uma visualização do portal). Esses usuários são chamados de "Usuários do site". Os "Usuários do sistema" terão acesso aos módulos e poderão acessar os documentos de acordo com as funções definidas.
 
 
-ERPNext implementa o controle de permissão no nível do usuário e função. Cada usuário no sistema pode receber várias funções e permissões. A função mais importante é "Gerente do Sistema". Qualquer usuário com essa função pode adicionar outros usuários e definir funções para todos os usuários.
+SOMA implementa o controle de permissão no nível do usuário e função. Cada usuário no sistema pode receber várias funções e permissões. A função mais importante é "Gerente do Sistema". Qualquer usuário com essa função pode adicionar outros usuários e definir funções para todos os usuários.
 
 
 

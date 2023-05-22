@@ -7,7 +7,7 @@
 Diferentes estados de fluxo de trabalho podem ser alcançados antes ou depois de aplicar diferentes ações de fluxo de trabalho neles. Se você deseja criar um fluxo de trabalho com várias aprovações de gerente, gerente sênior, gerente geral etc., pode definir os estados para ele em Estados do fluxo de trabalho.
 
 
-Por padrão, os seguintes estados de fluxo de trabalho são criados no ERPNext:
+Por padrão, os seguintes estados de fluxo de trabalho são criados no SOMA:
 
 
 ![Workflow States](/files/workflow-states.png)

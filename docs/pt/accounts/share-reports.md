@@ -1,7 +1,7 @@
 # Compartilhar relatórios
 
 
-Existem dois tipos de relatórios no ERPNext para ações. Saldo de Ações e Razão de Ações.
+Existem dois tipos de relatórios no SOMA para ações. Saldo de Ações e Razão de Ações.
 
 
 ## 1. Saldo de ações

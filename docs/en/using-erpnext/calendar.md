@@ -2,7 +2,7 @@
 # Calendar
 
 
-**The Calendar is a Tool which helps you to create, share and keep track of events in your ERPNext account.**
+**The Calendar is a Tool which helps you to create, share and keep track of events in your SOMA account.**
 
 
 You can have a Day, Week or Month view in a calendar.
@@ -51,7 +51,7 @@ In the Lead form, you will find a field called Next Contact By and Next Contact 
 ### 1.2. Event Based on Job Cards
 
 
-For every Job Card that gets created for a User in the ERPNext account, a corresponding event will be created in the Calendar.
+For every Job Card that gets created for a User in the SOMA account, a corresponding event will be created in the Calendar.
 
 
 ![Calendar](/files/using-calender-job-card.png)
@@ -66,7 +66,7 @@ Birthday Event is created based on Date of Birth specified in the Employee maste
 ### 1.4. Recurring Events
 
 
-There are various events in an organization that occur regularly at periodic intervals. In ERPNext, you can create such events by enabling the 'Repeat this Event' property for that particular event.
+There are various events in an organization that occur regularly at periodic intervals. In SOMA, you can create such events by enabling the 'Repeat this Event' property for that particular event.
 
 
 When you do this, you will ve asked to enter the periodicity of this event in the 'Repeat On'. This could be daily, monthly, weekly or Yearly.

@@ -7,7 +7,7 @@
 
 > 
 > Dica: um endereço de e-mail de suporte dedicado é uma boa maneira de acompanhar as
->  consultas. Por exemplo, você pode enviar consultas de suporte para ERPNext em
+>  consultas. Por exemplo, você pode enviar consultas de suporte para SOMA em
 >  support@erpnext.com e criará automaticamente um problema em nosso sistema.
 > 
 > 
@@ -73,7 +73,7 @@ respondeu, seu status passa a ser "Respondido".
 > 
 
 
-* **Cliente**: Se o e-mail foi enviado de um [Cliente](/docs/pt/CRM/customer) armazenado em sua conta ERPNext , um link Cliente aparecerá neste campo.
+* **Cliente**: Se o e-mail foi enviado de um [Cliente](/docs/pt/CRM/customer) armazenado em sua conta SOMA , um link Cliente aparecerá neste campo.
 * **Prioridade**: a prioridade pode ser definida de acordo com os requisitos. Por padrão, há três prioridades: Baixa, Média e Alta. Você pode excluí-los ou adicionar mais conforme necessário.
 * **Tipo de problema**: um problema pode ser classificado usando o tipo de problema. Exemplos de tipos de problema podem ser: 'Funcional', 'Técnico', 'Hardware', etc.
 * **Levantado por (e-mail)**: o ID do e-mail do qual o problema foi enviado será mostrado aqui.

@@ -2,10 +2,10 @@
 # Subscription
 
 
-If you offer a service that requires renewal in a certain time period or you pay some monthly expenses like rent (yearly, monthly, quarterly, etc.), you can use the Subscription feature in ERPNext to track them. The Subscription master captures all the details required for the auto-creation of Sales or Purchase Invoices.
+If you offer a service that requires renewal in a certain time period or you pay some monthly expenses like rent (yearly, monthly, quarterly, etc.), you can use the Subscription feature in SOMA to track them. The Subscription master captures all the details required for the auto-creation of Sales or Purchase Invoices.
 
 
-Let's consider a use-case of ERPNext subscription itself. Our hosting plans are available on a yearly basis. Each Customer's account has a subscription expiry date, after which customers must renew their subscription with us.
+Let's consider a use-case of SOMA subscription itself. Our hosting plans are available on a yearly basis. Each Customer's account has a subscription expiry date, after which customers must renew their subscription with us.
 
 
 To manage the client's subscription expiry and auto-generation of Sales Invoice for the renewal, we use the Subscription feature.

@@ -2,13 +2,13 @@
 # LinkedIn Settings
 
 
-LinkedIn related settings like OAuth can be configured here. ERPNext needs access to the API through which the post is shared and achieved using OAuth 2.0 Authentication Protocol.
+LinkedIn related settings like OAuth can be configured here. SOMA needs access to the API through which the post is shared and achieved using OAuth 2.0 Authentication Protocol.
 
 
 ## 1. How to set up LinkedIn Developer App
 
 
-You must have LinkedIn Developer App for your company. ERPNext interacts with this App for sharing the post.
+You must have LinkedIn Developer App for your company. SOMA interacts with this App for sharing the post.
 
 
 ### 1.1 Create LinkedIn Developer App

@@ -1,7 +1,7 @@
 # Verificando vínculo entre documentos
 
 
-Cada documento pode ser vinculado a vários outros documentos no ERPNext.
+Cada documento pode ser vinculado a vários outros documentos no SOMA.
 
 
 **A ferramenta 'Links' oferece a opção de verificar se o documento atual está vinculado a algum documento anterior e lista todos os links diretos.**

@@ -15,7 +15,7 @@
 Muitas impressoras térmicas precisam desses comandos brutos enviados a elas para executar funções como impressão de código de barras, impressão de recibos, impressão de etiquetas, etc. A impressão bruta ignora os drivers da impressora na maioria dos casos, tornando-os muito rápidos e confiáveis. A impressão bruta também é capaz de executar alguns recursos avançados, como cortar papel de recibo, abrir caixas registradoras, etc.
 
 
-## 1. Configurando a impressão bruta no ERPNext
+## 1. Configurando a impressão bruta no SOMA
 
 
 ### 1.1 Instalação do aplicativo QZ Tray no computador cliente
@@ -61,7 +61,7 @@ Para ativar a impressão bruta:
 3. Salvar.
 
 
-## 2. Métodos para utilizar impressão bruta no ERPNext
+## 2. Métodos para utilizar impressão bruta no SOMA
 
 
 Existem duas maneiras de enviar comandos de impressão bruta para sua impressora.

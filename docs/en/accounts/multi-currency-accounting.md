@@ -5,7 +5,7 @@
 **Transacting in two different currencies is known as Multi Currency Accounting.**
 
 
-In ERPNext, you can make accounting entries in multiple currencies. For example, if you have a bank account in foreign currency, you can make transactions in that currency and the system will show bank balance in that specific currency only.
+In SOMA, you can make accounting entries in multiple currencies. For example, if you have a bank account in foreign currency, you can make transactions in that currency and the system will show bank balance in that specific currency only.
 
 
 Bank accounts in foreign currencies can be for other branches of your own company or Debtors/Creditors account for foreign Customers/Suppliers.
@@ -64,15 +64,15 @@ You can change accounting currency in Party/Account record before you make any t
 ## 2. Exchange Rates
 
 
-When dealing with multiple currencies, ERPNext has the Currency Exchange page for managing exchange rates. It allows you to save the exchange rate quotes you require. To know more, visit the [Currency Exchange](/docs/en/accounts/currency-exchange) page.
+When dealing with multiple currencies, SOMA has the Currency Exchange page for managing exchange rates. It allows you to save the exchange rate quotes you require. To know more, visit the [Currency Exchange](/docs/en/accounts/currency-exchange) page.
 
 
-For foreign currency transactions, ERPNext checks exchange rates from:
+For foreign currency transactions, SOMA checks exchange rates from:
 
 
 1. From the Currency Exchange for any matching record (if created by a User).
-2. If this fails, ERPNext will attempt to get the current market exchange rate from [Frankfurter](https://www.frankfurter.app).
-3. **NOTE**: Starting from ERPNext version 13.10.0, Frankfurter is replaced by a new service called [exchangerate.host](https://exchangerate.host).
+2. If this fails, SOMA will attempt to get the current market exchange rate from [Frankfurter](https://www.frankfurter.app).
+3. **NOTE**: Starting from SOMA version 13.10.0, Frankfurter is replaced by a new service called [exchangerate.host](https://exchangerate.host).
 4. If this still fails, then the exchange rate will have to be entered manually.
 
 

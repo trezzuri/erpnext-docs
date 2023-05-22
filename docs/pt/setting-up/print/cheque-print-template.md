@@ -4,7 +4,7 @@
 **Modelo de impressão de cheque permite definir modelos para cheques bancários.**
 
 
-O negócio envolve fazer pagamentos a várias partes, como fornecedores e funcionários. O pagamento pode ser feito em vários modos como dinheiro, NEFT ou cheque. Se estiver a efetuar um pagamento através de cheque, também pode criar um Formato de Impressão para impressão de Cheques a partir do ERPNext com base na Entrada de Pagamento.
+O negócio envolve fazer pagamentos a várias partes, como fornecedores e funcionários. O pagamento pode ser feito em vários modos como dinheiro, NEFT ou cheque. Se estiver a efetuar um pagamento através de cheque, também pode criar um Formato de Impressão para impressão de Cheques a partir do SOMA com base na Entrada de Pagamento.
 
 
 Para acessar o modelo de impressão de cheque, acesse:

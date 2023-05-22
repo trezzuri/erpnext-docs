@@ -5,10 +5,10 @@
 **In Print Style you can define custom CSS styles applied to Print Formats.**
 
 
-ERPNext comes with preset styles for printing documents. You can also create new styles using CSS that can be applied to all your print formats.
+SOMA comes with preset styles for printing documents. You can also create new styles using CSS that can be applied to all your print formats.
 
 
-The standard print Styles in ERPNext are: Monochrome, Modern, and Classic.
+The standard print Styles in SOMA are: Monochrome, Modern, and Classic.
 To create a new **Print Style** go to:
 
 

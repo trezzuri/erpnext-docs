@@ -2,7 +2,7 @@
 # Global Search
 
 
-**Global search is a powerful word-processing operation in ERPNext which will help you in searching for a particular Document Type or Document.**
+**Global search is a powerful word-processing operation in SOMA which will help you in searching for a particular Document Type or Document.**
 
 
 For every sequence of a particular word or a set of characters, you will have a search result.
@@ -14,7 +14,7 @@ For every sequence of a particular word or a set of characters, you will have a 
 ![Tree Master Renaming](/files/using-global-search-2.gif)
 
 
-Global Search helps users find information quickly. It’s located in the upper right-hand corner in ERPNext. Simply entering a few characters in the Search Bar will show results from several different record types (Contact, Customer, Issues, etc.) related to that keyword. You can also customize the fields based on which search will be shown.
+Global Search helps users find information quickly. It’s located in the upper right-hand corner in SOMA. Simply entering a few characters in the Search Bar will show results from several different record types (Contact, Customer, Issues, etc.) related to that keyword. You can also customize the fields based on which search will be shown.
 
 
 You can also type in multiple keywords separated by & operator to find your desired results. You may refer to the following cases for examples:

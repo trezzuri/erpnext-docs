@@ -4,7 +4,7 @@
 **A renomeação em massa permite renomear vários registros de uma só vez.**
 
 
-Você pode renomear um documento no ERPNext (se permitido) acessando **Menu > Renomear** no documento.
+Você pode renomear um documento no SOMA (se permitido) acessando **Menu > Renomear** no documento.
 
 
 Como alternativa, se você quiser renomear um monte de registros, use a Ferramenta Renomear. Acesse:

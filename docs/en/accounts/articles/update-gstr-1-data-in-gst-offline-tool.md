@@ -3,7 +3,7 @@
 
 
   
-Follow below steps to generate JSON file using ERPNext.  
+Follow below steps to generate JSON file using SOMA.  
 **Setup GST Parameters:**Go to Accounts > Goods and Services Tax (GST India) > GST Settings and update GST parameters.![](/files/l1CthRB.png)  
 **Report GSTR-1:**Go to Accounts > Goods and Services Tax (GST India) > GSTR-1. Also, you can search in awesome bar.![](/files/Screen Shot 2018-07-22 at 12.10.10 PM.png)  
 **Select Return period and Type of Business:**Update filters as per return period and type of Business ( invoice Type) to get the required data.![](/files/Screen Shot 2018-07-22 at 12.31.17 PM.png)  

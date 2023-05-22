@@ -1,7 +1,7 @@
 # Versões de documentos
 
 
-**No ERPNext, o Document Versioning é um recurso que permite rastrear todas as alterações feitas em um formulário ou documento.**
+**No SOMA, o Document Versioning é um recurso que permite rastrear todas as alterações feitas em um formulário ou documento.**
 
 
 Esse recurso é útil durante a realização de uma auditoria para verificar quais alterações foram feitas em um documento, juntamente com o horário da alteração e a parte interessada responsável.

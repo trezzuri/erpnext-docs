@@ -32,7 +32,7 @@ Before creating and using Payment Request, it is advisable to create the followi
 ## 2. How to create a Payment Terms Template
 
 
-A Payment Terms Template tells ERPNext how to populate the table in the 'Payment Terms Schedule' section of the sales/purchase document.
+A Payment Terms Template tells SOMA how to populate the table in the 'Payment Terms Schedule' section of the sales/purchase document.
 
 
 You should use it if you have a set of standard Payment Terms or for ease of use.

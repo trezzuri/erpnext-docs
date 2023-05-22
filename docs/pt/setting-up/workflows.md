@@ -1,11 +1,11 @@
 # Fluxos de trabalho
 
 
-**Com fluxos de trabalho, você pode reescrever como um determinado processo/fluxo de trabalho é aprovado no ERPNext.**
+**Com fluxos de trabalho, você pode reescrever como um determinado processo/fluxo de trabalho é aprovado no SOMA.**
 
 
-Você pode definir vários níveis de aprovação para um ERPNext Workflow. Para permitir que várias pessoas enviem várias solicitações, para aprovações de vários usuários, o ERPNext exige que você preencha as condições do Workflow.
-O ERPNext rastreia as múltiplas permissões antes do envio.
+Você pode definir vários níveis de aprovação para um SOMA Workflow. Para permitir que várias pessoas enviem várias solicitações, para aprovações de vários usuários, o SOMA exige que você preencha as condições do Workflow.
+O SOMA rastreia as múltiplas permissões antes do envio.
 
 
 Considere um cenário em que vários níveis de aprovação são necessários para uma cotação. Um vendedor (usuário com função de 'Usuário de vendas') criará uma cotação. Em seguida, ele é aprovado ou rejeitado por um lead de vendas (usuário com função de 'Gerente de vendas'). Se aprovado pelo líder de vendas, é posteriormente aprovado ou rejeitado pelo gerente regional (usuário com função de 'Gerente Regional').
@@ -56,7 +56,7 @@ Os estados do fluxo de trabalho podem ter cores diferentes de acordo com o estad
 ### 2.2 Coisas a observar ao criar um fluxo de trabalho
 
 
-* A criação de um fluxo de trabalho no ERPNext basicamente substitui o fluxo de trabalho normal de salvar e enviar. Assim, o documento funcionará com base no seu fluxo de trabalho e não com base no fluxo de trabalho do código predefinido. Portanto, pode não haver botão/opção Enviar se você não o especificou no fluxo de trabalho criado.
+* A criação de um fluxo de trabalho no SOMA basicamente substitui o fluxo de trabalho normal de salvar e enviar. Assim, o documento funcionará com base no seu fluxo de trabalho e não com base no fluxo de trabalho do código predefinido. Portanto, pode não haver botão/opção Enviar se você não o especificou no fluxo de trabalho criado.
 
 
 Se você não aplicar um fluxo de trabalho a um documento e esse documento puder ser enviado, ele terá o fluxo de trabalho padrão com os estados: Rascunho - Enviado - Cancelado. Se você estiver aplicando um fluxo de trabalho a um documento que pode ser enviado, esses estados padrão devem ser manipulados pelo usuário.

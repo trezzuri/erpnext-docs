@@ -2,7 +2,7 @@
 # Sharing
 
 
-**You can share documents with other users via sharing in ERPNext.**
+**You can share documents with other users via sharing in SOMA.**
 
 
 In addition to user and role permissions, you can also share a document with another user if you have sharing rights for that document. Note that, a shared document will be visible to the other user even if the document is restricted via [User Permissions](/docs/en/setting-up/users-and-permissions/user-permissions).

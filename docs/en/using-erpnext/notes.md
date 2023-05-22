@@ -34,7 +34,7 @@ To access Notes, go to:
 ### Visibility of Notes
 
 
-You can select whether or not you want this particular Note to be Public. Making a Note public will allow you to share it across Users in your ERPNext account.
+You can select whether or not you want this particular Note to be Public. Making a Note public will allow you to share it across Users in your SOMA account.
 
 
 ![Notes](/files/using-notes-3.png)

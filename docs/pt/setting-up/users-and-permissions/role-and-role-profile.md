@@ -1,10 +1,10 @@
 # Função e perfil da função
 
 
-**Uma função define as permissões para acessar vários documentos no ERPNext.**
+**Uma função define as permissões para acessar vários documentos no SOMA.**
 
 
-As funções definem um conjunto de permissões que podem ser definidas em [Permissão de funções Gerente](/docs/pt/setting-up/users-and-permissions/role-based-permissions). As funções mais utilizadas já estão definidas no ERPNext, você pode utilizar o sistema com elas. Se necessário, você pode adicionar mais funções. Por exemplo, se você atribuir a função de Usuário de vendas a um usuário, ele poderá acessar documentos como Cotações e Pedidos de venda, pois as permissões já estão definidas para a função de Usuário de vendas.
+As funções definem um conjunto de permissões que podem ser definidas em [Permissão de funções Gerente](/docs/pt/setting-up/users-and-permissions/role-based-permissions). As funções mais utilizadas já estão definidas no SOMA, você pode utilizar o sistema com elas. Se necessário, você pode adicionar mais funções. Por exemplo, se você atribuir a função de Usuário de vendas a um usuário, ele poderá acessar documentos como Cotações e Pedidos de venda, pois as permissões já estão definidas para a função de Usuário de vendas.
 
 
 **Perfis de função armazenam diferentes funções para que várias funções possam ser atribuídas de uma só vez.**
@@ -29,7 +29,7 @@ Para acessar a função, vá para:
 
 1. Vá para a lista de Funções, clique em Novo.
 2. Digite um nome para a Função.
-3. Escolha se a função tem acesso à área de trabalho. Uma função que tem acesso de mesa pode acessar os módulos do ERPNext e os documentos da empresa. O nível de acesso depende das funções atribuídas ao usuário.
+3. Escolha se a função tem acesso à área de trabalho. Uma função que tem acesso de mesa pode acessar os módulos do SOMA e os documentos da empresa. O nível de acesso depende das funções atribuídas ao usuário.
 4. Salvar.
 
 

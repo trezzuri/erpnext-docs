@@ -13,7 +13,7 @@ Mama (dona da barraca de chá) investe Rs. 25000 para iniciar o negócio. ![JE](
 Mamãe investiu Rs. 25000 na empresa, esperando obter algum lucro. Em outras palavras, a empresa é obrigada a pagar Rs. 25000 para mamãe no futuro. Portanto, a conta "Mama" é uma conta de passivo e é creditada. O saldo de caixa da Companhia será aumentado em função do investimento. "Dinheiro" é um ativo da empresa e será debitado.
 
 
-A empresa necessita de equipamentos (fogão, bule, chávenas, etc.) e matérias-primas (chá, açúcar, leite, etc.) de imediato. Ele decide comprá-los no armazém geral mais próximo, "Super Bazar" cujo dono é um amigo, para que ele consiga algum crédito. Os equipamentos custam-lhe Rs. 2800 e matérias-primas Rs. 2200. Ele paga Rs. 2.000 do custo total, que é de Rs. 5000. Isso pode ser registrado no ERPNext usando uma [Entrada de pagamento](/docs/pt/accounts/payment-entry).
+A empresa necessita de equipamentos (fogão, bule, chávenas, etc.) e matérias-primas (chá, açúcar, leite, etc.) de imediato. Ele decide comprá-los no armazém geral mais próximo, "Super Bazar" cujo dono é um amigo, para que ele consiga algum crédito. Os equipamentos custam-lhe Rs. 2800 e matérias-primas Rs. 2200. Ele paga Rs. 2.000 do custo total, que é de Rs. 5000. Isso pode ser registrado no SOMA usando uma [Entrada de pagamento](/docs/pt/accounts/payment-entry).
 
 
 ![JE](/files/payment-entry-gl.png)

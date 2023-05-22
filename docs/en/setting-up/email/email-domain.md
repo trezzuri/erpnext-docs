@@ -2,13 +2,13 @@
 # Email Domain
 
 
-**The `Email Domain` is the display name of an email network/service account you're setting up for your email services in ERPnext.**
+**The `Email Domain` is the display name of an email network/service account you're setting up for your email services in SOMA.**
 
 
 You can skip to [Email Account](/docs/en/setting-up/email/email-account) creation if you are using one of the services listed [here](/docs/en/setting-up/email/email-inbox#2-create-an-email-domain).
 
 
-You can configure Email Domains in ERPNext for easy setup of all Email Accounts. To find Email Domain settings go to:
+You can configure Email Domains in SOMA for easy setup of all Email Accounts. To find Email Domain settings go to:
 
 
 
@@ -19,13 +19,13 @@ You can configure Email Domains in ERPNext for easy setup of all Email Accounts.
 > 
 
 
-**What is my Email Domain?:** You might have purchased an Email service from your internet service provider or your IT services provider. For example, if you access your business mailbox with URL like http://mail.yourcompany.com, then yourcompany.com is expected to be used as your email domain. ERPnext tries to guess the `Email Domain` from your initially entered example `Email Address` if you started from there.
+**What is my Email Domain?:** You might have purchased an Email service from your internet service provider or your IT services provider. For example, if you access your business mailbox with URL like http://mail.yourcompany.com, then yourcompany.com is expected to be used as your email domain. SOMA tries to guess the `Email Domain` from your initially entered example `Email Address` if you started from there.
 
 
-If you want to send and receive emails on your ERPNext account, you need to correctly setup an `Email Domain`. You may be using free mail services like GMail or Yahoo. In this case, you don't need to create a domain, instead select a service provider from the list. However, you might have to allow access to ERPNext for your GMail account.
+If you want to send and receive emails on your SOMA account, you need to correctly setup an `Email Domain`. You may be using free mail services like GMail or Yahoo. In this case, you don't need to create a domain, instead select a service provider from the list. However, you might have to allow access to SOMA for your GMail account.
 
 
-ERPNext creates a template `Email Domain` using example.com for your reference. You should add your new domain if you want to use it in your ERPNext account.
+SOMA creates a template `Email Domain` using example.com for your reference. You should add your new domain if you want to use it in your SOMA account.
 
 
 
@@ -52,7 +52,7 @@ ERPNext creates a template `Email Domain` using example.com for your reference. 
 **Do I have SSL?:** You may have purchased SSL certificate from your IT service provider for SSL and they may have set up SSL for your mail server. If you're using 'https' while accessing mail server over browser then you might have SSL setup.
 6. Use SSL for Outgoing. If your mailserver uses SSL for outgoing, enable this to explicitly use SSL for outgoing emails. Defaults to port 465.
 7. Append Outgoing Email to Sent Folder. If you are not using standard mailservers provided by GMail and similar services, you might need to enable this option to append all outgoing emails to the email account's inbox. (Recommended for email servers like Zimbra and CPanel).
-8. Attachment Limit (MB). You can limit the size of file attachments in emails sent from ERPNext.
+8. Attachment Limit (MB). You can limit the size of file attachments in emails sent from SOMA.
 9. SMTP Server is the outgoing email service address of your email server.
 10. Tick Use TLS if your SMTP service supports TLS for security.
 11. Default port. SMTP service is usually set on port 25. If your email server is set up on a separate port number you can set that up here.
@@ -61,7 +61,7 @@ ERPNext creates a template `Email Domain` using example.com for your reference. 
 ### 1.1 After saving the domain
 
 
-Once you click on save, these settings are validated by ERPNext and the Email Domain gets saved. Sometimes this could take a few seconds and you might have to wait. This email domain is then available in a dropdown called Domain in the Email Accounts screen.
+Once you click on save, these settings are validated by SOMA and the Email Domain gets saved. Sometimes this could take a few seconds and you might have to wait. This email domain is then available in a dropdown called Domain in the Email Accounts screen.
 
 
 ![Email domain in email account](/files/email-domain1.png)
@@ -70,7 +70,7 @@ Once you click on save, these settings are validated by ERPNext and the Email Do
 #### Entered everything but still unable to setup Email Domain?
 
 
-If you've entered and verified the above settings and are still unable to setup Email Domain, you can contact ERPNext support within your account for help.
+If you've entered and verified the above settings and are still unable to setup Email Domain, you can contact SOMA support within your account for help.
 
 
 ### 2. Related Topics

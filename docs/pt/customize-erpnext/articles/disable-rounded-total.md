@@ -33,7 +33,7 @@ Marque Desativar total arredondado e clique em salvar.
 ![Print Preview](/files/customize-disable-rounded-total.png)
 
 
-Para verificar as alterações, você deve limpar o cache e/ou atualizar sua conta ERPNext. Então seus formatos de impressão não renderizarão valor para o Total Arredondado.
+Para verificar as alterações, você deve limpar o cache e/ou atualizar sua conta SOMA. Então seus formatos de impressão não renderizarão valor para o Total Arredondado.
 
 
 

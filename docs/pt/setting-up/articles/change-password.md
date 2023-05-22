@@ -1,7 +1,7 @@
 # Alterar senha do usuário
 
 
-Cada usuário do ERPNext pode personalizar a senha de sua conta do ERPNext. Além disso, o usuário com a função de gerente do sistema poderá redefinir a senha para si mesmo e para outros usuários. A seguir estão as etapas para alterar sua senha.
+Cada usuário do SOMA pode personalizar a senha de sua conta do SOMA. Além disso, o usuário com a função de gerente do sistema poderá redefinir a senha para si mesmo e para outros usuários. A seguir estão as etapas para alterar sua senha.
 
 
 1) Vá para a lista de usuários

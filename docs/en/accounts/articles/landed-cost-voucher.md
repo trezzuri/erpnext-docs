@@ -2,7 +2,7 @@
 # Landed cost Voucher
 
 
-For creating a **Landed cost voucher** in ERPNext: You have to create it against a **Purchase Receipt** and **Purchase Invoice.**  
+For creating a **Landed cost voucher** in SOMA: You have to create it against a **Purchase Receipt** and **Purchase Invoice.**  
 While creating against **Purchase Invoice**: In the Purchase Invoice --> **Update Stock** should be checked.  
 ![](/files/z3sBK9F.png)  
  If this field is unchecked, the Purchase Invoices will not be fetched in the Landed Cost Voucher  

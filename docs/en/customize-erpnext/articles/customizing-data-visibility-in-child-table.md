@@ -2,7 +2,7 @@
 # Data Visibility in Child Tables
 
 
-In ERPNext, there is a feature called the editable grid. This allows the user to add values in the child table without opening a dialog box/form for each row.
+In SOMA, there is a feature called the editable grid. This allows the user to add values in the child table without opening a dialog box/form for each row.
 
 
 This is how the Quotation Item table renders value when the Editable Grid is enabled. It will have a maximum of four columns in the table.

@@ -10,7 +10,7 @@
 > 
 
 
-When a new company is created in ERPNext, the Chart of Accounts for it is created by default with a pre-set structure. However, if you have your own Chart of Accounts, you can import it using the Chart of Accounts Importer.
+When a new company is created in SOMA, the Chart of Accounts for it is created by default with a pre-set structure. However, if you have your own Chart of Accounts, you can import it using the Chart of Accounts Importer.
 
 
 It allows you to create your own Chart of Accounts according to your requirement and import it into the system.

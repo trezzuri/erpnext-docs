@@ -8,7 +8,7 @@
 Different Workflow States may be achieved before or after applying different Workflow Actions on them. If you want to create a Workflow where there are multiple approvals from manager, senior manager, general manager, etc, you can set the states for it from Workflow States.
 
 
-By default, the following Workflow States are created in ERPNext:
+By default, the following Workflow States are created in SOMA:
 
 
 ![Workflow States](/files/workflow-states.png)

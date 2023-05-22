@@ -19,7 +19,7 @@ Depois de me encontrar com meu contador aqui nos Estados Unidos, fui informado d
 ### Exemplo
 
 
-Exemplo de entrada no diário (usando Voucher de Diário no ERPNext) para uma retirada de $ 1.000 seria:
+Exemplo de entrada no diário (usando Voucher de Diário no SOMA) para uma retirada de $ 1.000 seria:
 
 
 1. Crédito **Dinheiro** $ 1.000

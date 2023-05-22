@@ -1,7 +1,7 @@
 # Solicitação de feedback usando um formulário da Web
 
 
-No ERPNext versão 11, temos uma funcionalidade que permitia coletar um Feedback de um Cliente e usuários. No ERPNext, esse recurso agora pode ser gerenciado usando ferramentas de personalização integradas, como:  
+No SOMA versão 11, temos uma funcionalidade que permitia coletar um Feedback de um Cliente e usuários. No SOMA, esse recurso agora pode ser gerenciado usando ferramentas de personalização integradas, como:  
 * Custom DocType
 * Web Form
 * Notificação
@@ -27,7 +27,7 @@ https://example.erpnext.com/feedback?new=1&document=Sales%20Order&document\_name
 ```
   
 Onde:  
-* **example.erpnext.com** será a URL da sua conta ERPNext
+* **example.erpnext.com** será a URL da sua conta SOMA
 * **feedback** será o nome do tipo de documento personalizado adicionado para coletar um feedback
 * **document=Sales%20Order&** será um nome de DocType para o qual você deseja enviar uma notificação
 * document\_name={{doc.name}} será coletado nome do documento específico e atualização no campo Nome do documento do formulário de comentários.
@@ -36,5 +36,5 @@ Onde:
 ![](/files/UDBhIaK.png)   
   
 **Demonstração rápida:**  
- Aqui está a demonstração de como o link seria gerado, o Web Form seria preenchido e capturado no ERPNext.  
+ Aqui está a demonstração de como o link seria gerado, o Web Form seria preenchido e capturado no SOMA.  
 ![](/files/hEbdh6c.gif)

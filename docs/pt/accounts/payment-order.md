@@ -10,7 +10,7 @@ Em grandes corporações, a decisão de pagamento aos Fornecedores é feita por 
 A Ordem de Pagamento é a comunicação entre o Gestor de Compras e a Conta notificando o Contabilista para proceder ao Pagamento.
 
 
-No ERPNext, através da Ordem de Pagamento, você pode buscar várias Solicitações de Pagamento criadas contra um Fornecedor.
+No SOMA, através da Ordem de Pagamento, você pode buscar várias Solicitações de Pagamento criadas contra um Fornecedor.
 
 
 ## 1. Pré-requisitos

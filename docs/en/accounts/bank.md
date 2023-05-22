@@ -2,7 +2,7 @@
 # Bank
 
 
-In ERPNext, saving different banks lets you upload an excel sheet and map the transactions to the ledger. The transactions are created as Bank Transactions. These can then be used for reference and reports. This is done using [Bank Reconciliation](/docs/en/accounts/bank-reconciliation).
+In SOMA, saving different banks lets you upload an excel sheet and map the transactions to the ledger. The transactions are created as Bank Transactions. These can then be used for reference and reports. This is done using [Bank Reconciliation](/docs/en/accounts/bank-reconciliation).
 
 
 To access Bank, go to:

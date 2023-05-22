@@ -1,10 +1,10 @@
 # Assinatura
 
 
-Se você oferece um serviço que exige renovação em um determinado período de tempo ou paga algumas despesas mensais como aluguel (anual, mensal, trimestral etc.), pode usar o recurso Assinatura do ERPNext para rastreá-las. O mestre de assinatura captura todos os detalhes necessários para a criação automática de faturas de venda ou compra.
+Se você oferece um serviço que exige renovação em um determinado período de tempo ou paga algumas despesas mensais como aluguel (anual, mensal, trimestral etc.), pode usar o recurso Assinatura do SOMA para rastreá-las. O mestre de assinatura captura todos os detalhes necessários para a criação automática de faturas de venda ou compra.
 
 
-Vamos considerar um caso de uso da própria assinatura do ERPNext. Nossos planos de hospedagem estão disponíveis anualmente. A conta de cada cliente tem uma data de vencimento da assinatura, após a qual os clientes devem renovar sua assinatura conosco.
+Vamos considerar um caso de uso da própria assinatura do SOMA. Nossos planos de hospedagem estão disponíveis anualmente. A conta de cada cliente tem uma data de vencimento da assinatura, após a qual os clientes devem renovar sua assinatura conosco.
 
 
 Para gerenciar o vencimento da assinatura do cliente e a geração automática da Nota Fiscal de Venda para a renovação, usamos o recurso Assinatura.

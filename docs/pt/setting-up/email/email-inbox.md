@@ -4,10 +4,10 @@
 **Assim que uma conta de e-mail for adicionada, a caixa de entrada do e-mail ficará acessível.**
 
 
-Administrar um negócio envolve muitas trocas de e-mails transacionais com partes como clientes e fornecedores e outros membros da empresa. O recurso Caixa de entrada de e-mail permite que você extraia todos os seus e-mails comerciais para sua conta ERPNext. Permitir o acesso a e-mails comerciais com outros detalhes transacionais torna o ERPNext uma plataforma única para acessar todas as informações comerciais em um só lugar.
+Administrar um negócio envolve muitas trocas de e-mails transacionais com partes como clientes e fornecedores e outros membros da empresa. O recurso Caixa de entrada de e-mail permite que você extraia todos os seus e-mails comerciais para sua conta SOMA. Permitir o acesso a e-mails comerciais com outros detalhes transacionais torna o SOMA uma plataforma única para acessar todas as informações comerciais em um só lugar.
 
 
-No ERPNext, você pode configurar a caixa de entrada de e-mail para cada usuário do sistema. A seguir estão as etapas detalhadas para configurar a caixa de entrada de e-mail para um usuário.
+No SOMA, você pode configurar a caixa de entrada de e-mail para cada usuário do sistema. A seguir estão as etapas detalhadas para configurar a caixa de entrada de e-mail para um usuário.
 
 
 ## 1. Criar um usuário
@@ -36,7 +36,7 @@ O domínio de e-mail para os seguintes serviços está disponível pronto para u
 ![Serviço de e-mail](/files/email-service.png)
 
 
-Para poder enviar e receber e-mails em sua conta ERPNext de outros serviços de e-mail (como WebMail ou Gmail), você deve configurar um mestre de domínio de e-mail. Neste mestre, os detalhes do gateway de e-mail, como endereço SMTP, número da porta e detalhes do endereço IMAP/POP3, são capturados. Se você já configurou um cliente de e-mail local (como o Outlook), o mestre de domínio de e-mail requer que os detalhes sejam alimentados da mesma forma.
+Para poder enviar e receber e-mails em sua conta SOMA de outros serviços de e-mail (como WebMail ou Gmail), você deve configurar um mestre de domínio de e-mail. Neste mestre, os detalhes do gateway de e-mail, como endereço SMTP, número da porta e detalhes do endereço IMAP/POP3, são capturados. Se você já configurou um cliente de e-mail local (como o Outlook), o mestre de domínio de e-mail requer que os detalhes sejam alimentados da mesma forma.
 
 
 Para adicionar um novo domínio de e-mail, acesse:
@@ -53,16 +53,16 @@ Para adicionar um novo domínio de e-mail, acesse:
 ![Email Domain](/files/email-domain.png)
 
 
-Saiba mais sobre domínios de e-mail [aqui](/docs/pt/setting-up/email/email-domain). Depois de configurar um domínio de email para seu serviço de email, ele será usado para criar contas de email para todos os usuários em sua conta ERPNext.
+Saiba mais sobre domínios de e-mail [aqui](/docs/pt/setting-up/email/email-domain). Depois de configurar um domínio de email para seu serviço de email, ele será usado para criar contas de email para todos os usuários em sua conta SOMA.
 
 
 ## 3. Conta de e-mail
 
 
-Crie uma conta de e-mail com base no ID de e-mail do usuário. Para cada Usuário cuja conta de e-mail será integrada ao ERPNext, deverá ser criada uma Conta de E-mail mestre para o mesmo.
+Crie uma conta de e-mail com base no ID de e-mail do usuário. Para cada Usuário cuja conta de e-mail será integrada ao SOMA, deverá ser criada uma Conta de E-mail mestre para o mesmo.
 
 
-Se você estiver criando uma conta de e-mail para seu colega cuja senha de e-mail é desconhecida para você, marque o campo "Aguardando senha". De acordo com esta configuração, um usuário (para quem a conta de e-mail foi criada) receberá uma solicitação para inserir a senha do e-mail ao acessar sua conta ERPNext.
+Se você estiver criando uma conta de e-mail para seu colega cuja senha de e-mail é desconhecida para você, marque o campo "Aguardando senha". De acordo com esta configuração, um usuário (para quem a conta de e-mail foi criada) receberá uma solicitação para inserir a senha do e-mail ao acessar sua conta SOMA.
 
 
 ![Email Password](/files/email-password.png)
@@ -82,7 +82,7 @@ Leia [documentação da conta de e-mail](/docs/pt/setting-up/email/email-account
 ## 4. Vinculando a conta de e-mail no usuário mestre
 
 
-Assim que uma conta de e-mail for criada para um usuário, selecione essa conta de e-mail no usuário. Isso garantirá que os e-mails extraídos do referido ID de e-mail sejam acessíveis apenas a este usuário em sua conta ERPNext.
+Assim que uma conta de e-mail for criada para um usuário, selecione essa conta de e-mail no usuário. Isso garantirá que os e-mails extraídos do referido ID de e-mail sejam acessíveis apenas a este usuário em sua conta SOMA.
 
 
 ![Email User Link](/files/email-user-link.png)
@@ -94,13 +94,13 @@ Você pode vincular vários e-mails com um usuário.
 ## 5. Usando a caixa de entrada de e-mail
 
 
-Se você configurou corretamente a caixa de entrada de e-mail conforme instruído acima, no login de um usuário, o ícone da caixa de entrada de e-mail ficará visível. Isso levará o usuário à exibição Caixa de entrada de e-mail na conta ERPNext. Todos os e-mails recebidos nesse e-mail serão buscados e listados na exibição Caixa de entrada de e-mail. O usuário poderá abrir e-mails e realizar várias ações neles.
+Se você configurou corretamente a caixa de entrada de e-mail conforme instruído acima, no login de um usuário, o ícone da caixa de entrada de e-mail ficará visível. Isso levará o usuário à exibição Caixa de entrada de e-mail na conta SOMA. Todos os e-mails recebidos nesse e-mail serão buscados e listados na exibição Caixa de entrada de e-mail. O usuário poderá abrir e-mails e realizar várias ações neles.
 
 
 ### 5.1 Pastas
 
 
-No ERPNext, você pode vincular várias contas de e-mail com um único usuário. Para alternar para a Caixa de entrada de uma conta de e-mail diferente e acessar outras pastas como E-mails enviados, Spam, Lixeira, clique na opção Caixa de entrada de e-mail na barra esquerda.
+No SOMA, você pode vincular várias contas de e-mail com um único usuário. Para alternar para a Caixa de entrada de uma conta de e-mail diferente e acessar outras pastas como E-mails enviados, Spam, Lixeira, clique na opção Caixa de entrada de e-mail na barra esquerda.
 
 
 ![Pastas de e-mail](/files/email-folders.png)

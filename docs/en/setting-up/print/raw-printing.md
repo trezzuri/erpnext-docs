@@ -16,7 +16,7 @@
 Many thermal printers need these raw commands sent to them in order to perform functions like barcode printing, receipt printing, label printing, etc. Raw Printing bypasses the printer's drivers in most cases, making them very fast and reliable. Raw Printing is also capable of doing some advanced features such as cutting receipt paper, kicking out cash drawers, etc.
 
 
-## 1. Setting up Raw Printing in ERPNext
+## 1. Setting up Raw Printing in SOMA
 
 
 ### 1.1 Installing QZ Tray application on the client computer
@@ -62,7 +62,7 @@ To enable Raw Printing:
 3. Save.
 
 
-## 2. Methods to utilize raw printing in ERPNext
+## 2. Methods to utilize raw printing in SOMA
 
 
 There are two ways to send Raw Printing commands to your printer.

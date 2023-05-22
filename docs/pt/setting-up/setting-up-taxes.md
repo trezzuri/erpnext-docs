@@ -5,7 +5,7 @@
 
 
 Um dos principais motivadores para o uso obrigatório de ferramentas contábeis é o
-cálculo de impostos. O ERPNext permite que você faça modelos de impostos configuráveis ​​que você pode aplicar em suas vendas ou
+cálculo de impostos. O SOMA permite que você faça modelos de impostos configuráveis ​​que você pode aplicar em suas vendas ou
 transações de compra.
 
 

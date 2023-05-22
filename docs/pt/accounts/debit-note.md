@@ -53,7 +53,7 @@ Caso **nenhum pagamento** tenha sido feito contra a fatura original, você pode 
 Do fornecedor Blue Mills, você comprou algodão no valor de Rs 2400 + impostos e, no momento da entrega, descobriu que os produtos estavam danificados. Agora que você devolveu o produto, será emitida uma Nota de Débito.
 
 
-A Nota de Débito com entrada de pagamento no ERPNext para o exemplo acima é a seguinte:
+A Nota de Débito com entrada de pagamento no SOMA para o exemplo acima é a seguinte:
 
 
 ![Criando nota de débito](/files/creating-debit-note.gif)

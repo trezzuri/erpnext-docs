@@ -32,13 +32,13 @@ def main(translate=False):
         
         # busca e download das imagens 
         for img in md.findAll('img'):
-            try:
-                img_data = requests.get(filesurl + img['src']).content
-            except:
-                print(img['src'] + ' falhou no download')
-            else:
-                imgname = img['src'].split("/")[-1] # obtem o nome do arquivo
-                if imgname:
+            imgname = img['src'].split("/")[-1] # obtem o nome do arquivo
+            if imgname and not os.path.exists("./files/" + imgname):
+                try:
+                    img_data = requests.get(filesurl + img['src']).content
+                except:
+                    print(img['src'] + ' falhou no download')
+                else:
                     img['src'] = "/files/" + imgname # troca o local da imagem
                     with open("./files/" + imgname, 'wb') as handler:
                         handler.write(img_data)
@@ -49,6 +49,8 @@ def main(translate=False):
         content_en = content_en.replace("/docs/v14/user/manual/en/", "/docs/en/") # substitui os links da documentação original
         content_en = content_en.replace("/docs/v13/user/videos/", "https://docs.erpnext.com/docs/v13/user/videos/")
         content_en = content_en.replace("/docs/v14/user/videos/", "https://docs.erpnext.com/docs/v14/user/videos/")
+        content_en = content_en.replace("ERPNext", "SOMA")
+        content_en = content_en.replace("ERPnext", "SOMA")
         
         fname = basepath + "/en" + page + ".md"
         f = open(fname, "w")
@@ -63,6 +65,8 @@ def main(translate=False):
             content_pt = content_pt.replace("/docs/v14/user/manual/en/", "/docs/pt/") # substitui os links da documentação original
             content_pt = content_pt.replace("/docs/v13/user/videos/", "https://docs.erpnext.com/docs/v13/user/videos/")
             content_pt = content_pt.replace("/docs/v14/user/videos/", "https://docs.erpnext.com/docs/v14/user/videos/")
+            content_pt = content_pt.replace("ERPNext", "SOMA")
+            content_pt = content_pt.replace("ERPnext", "SOMA")
 
             fname = basepath + "/pt" + page + ".md"
             f = open(fname, "w")
@@ -283,7 +287,6 @@ def pages():
     "/introduction/getting-started-with-erpnext",
     "/introduction/implementation-strategy",
     "/introduction/key-workflows",
-    "/introduction/open-source",
     "/introduction/the-champion",
     "/setting-up",
     "/setting-up/articles/change-password",

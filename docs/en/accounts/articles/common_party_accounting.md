@@ -2,10 +2,10 @@
 # Common Party Accounting
 
 
-Common Party Accounting in ERPNext involves accounting of unusual transactions like creating a Sales Invoice against a primary Supplier. 
+Common Party Accounting in SOMA involves accounting of unusual transactions like creating a Sales Invoice against a primary Supplier. 
 
 
-Let's assume an ERPNext user who has been making Purchase Invoices against a Supplier, wants to make a Sales Invoice against the same supplier and adjust this Sales Invoice against one of the previous purchases.
+Let's assume an SOMA user who has been making Purchase Invoices against a Supplier, wants to make a Sales Invoice against the same supplier and adjust this Sales Invoice against one of the previous purchases.
 
 
 The above can be achieved by enabling Common Party Accounting.

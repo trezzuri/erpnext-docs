@@ -29,7 +29,7 @@ Once you've tagged a couple of documents with a specific tag, you can find all t
 ## Tags in Reports
 
 
-All the tags that get created in your ERPNext account can also be searched when fetching a report. These tags can also be searched as a filter in the report.
+All the tags that get created in your SOMA account can also be searched when fetching a report. These tags can also be searched as a filter in the report.
 
 
 ![Tags](/files/using-tags-5.png)

@@ -24,7 +24,7 @@ Access logs are created in the following events:
 * Exporting via XLSX/CSV formats
 
 
-In ERPNext, Access Log is available to System Managers, it can be accessed using the Global Search or through:
+In SOMA, Access Log is available to System Managers, it can be accessed using the Global Search or through:
 
 
 

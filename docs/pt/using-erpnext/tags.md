@@ -28,7 +28,7 @@ Depois de marcar alguns documentos com uma tag específica, você pode encontrar
 ## Tags em relatórios
 
 
-Todas as tags que são criadas em sua conta ERPNext também podem ser pesquisadas ao buscar um relatório. Essas tags também podem ser pesquisadas como um filtro no relatório.
+Todas as tags que são criadas em sua conta SOMA também podem ser pesquisadas ao buscar um relatório. Essas tags também podem ser pesquisadas como um filtro no relatório.
 
 
 ![Tags](/files/using-tags-5.png)

@@ -4,7 +4,7 @@
 **No momento em que um usuário fizer login no sistema, ele poderá ver uma tela inicial na qual todos os módulos e domínios serão listados na forma de cartões.**
 
 
-Seus cartões são um substituto para os antigos ícones do Módulo que estavam presentes nas versões do ERPNext antes da versão 12.
+Seus cartões são um substituto para os antigos ícones do Módulo que estavam presentes nas versões do SOMA antes da versão 12.
 
 
 ![Nova área de trabalho](/files/desktop.png)
@@ -13,10 +13,10 @@ Seus cartões são um substituto para os antigos ícones do Módulo que estavam 
 Esses cartões podem ser classificados em quatro categorias, a saber:
 
 
-* **Módulos**: São todos os módulos agnósticos de domínio disponíveis no ERPNext que são comuns a todos os tipos de negócios. Módulos como Recursos Humanos, CRM, Compras, Vendas, etc. são colocados nesta categoria.
+* **Módulos**: São todos os módulos agnósticos de domínio disponíveis no SOMA que são comuns a todos os tipos de negócios. Módulos como Recursos Humanos, CRM, Compras, Vendas, etc. são colocados nesta categoria.
 * **Domínios**: é aqui que você pode encontrar todos os módulos específicos do domínio, como Educação e Manufatura. Você pode saber mais sobre todos os módulos específicos do setor [aqui](/docs/v13/user/manual/en#3-industry-specific-modules).
 * **Places**: Places é onde você pode encontrar recursos que não são específicos do setor e não são necessários nas operações diárias de sua empresa. Recursos como site, painéis e mercado podem ser encontrados aqui.
-* **Administração**: Aqui você encontra módulos relacionados à configuração e administração do seu ERPNext.
+* **Administração**: Aqui você encontra módulos relacionados à configuração e administração do seu SOMA.
 
 
 Esses cartões permitem uma melhor navegação com itens de atalho no menu suspenso. Você pode personalizar este menu suspenso para adicionar ou remover links para vários DocType desse módulo.

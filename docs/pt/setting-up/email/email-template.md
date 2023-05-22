@@ -34,7 +34,7 @@ Para acessar a lista de modelos de e-mail, acesse:
 ### 1.1 Como usar o modelo de e-mail
 
 
-Você pode usar este modelo de e-mail nos e-mails enviados do ERPNext no campo "CC, BCC e modelo de e-mail" da seção de e-mail do documento. O ERPNext buscará o assunto e a resposta de acordo com o modelo selecionado.
+Você pode usar este modelo de e-mail nos e-mails enviados do SOMA no campo "CC, BCC e modelo de e-mail" da seção de e-mail do documento. O SOMA buscará o assunto e a resposta de acordo com o modelo selecionado.
 
 
 Você pode definir um modelo de e-mail padrão para cada tipo de documento em [Personalizar formulário](/docs/pt/customize-erpnext/customize-form).

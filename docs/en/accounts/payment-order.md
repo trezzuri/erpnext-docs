@@ -11,7 +11,7 @@ In big corporations, the decision of making payment to Suppliers is done by some
 The Payment Order is the communication between the Purchase Manager and the Account notifying the Accountant to proceed with the Payment.
 
 
-In ERPNext, using the Payment Order, you can fetch multiple Payment Requests created against a Supplier.
+In SOMA, using the Payment Order, you can fetch multiple Payment Requests created against a Supplier.
 
 
 ## 1. Prerequisites

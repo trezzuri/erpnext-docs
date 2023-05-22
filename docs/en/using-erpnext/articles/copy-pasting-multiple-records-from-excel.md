@@ -2,7 +2,7 @@
 # Copy Pasting Multiple Records From Excel
 
 
-**If you have a sequence of records saved in an excel sheet, that need to be mapped into a Child Table in ERPNext, the same can be done using this feature.**
+**If you have a sequence of records saved in an excel sheet, that need to be mapped into a Child Table in SOMA, the same can be done using this feature.**
 
 
 Let's say, you have a list of items saved in an Excel sheet, and you need to copy the same to the 'Items' Child Table in the Sales Order.

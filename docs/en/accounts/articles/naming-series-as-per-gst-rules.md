@@ -7,7 +7,7 @@ Rule 46 (b) of the CGST **Rules** 2017 specifies that the tax **invoice** is
   
 
 
-This validation will come into effect in ERPNext from the new fiscal year i.e FY 2021-22. If you encounter an error similar to one shown in the screenshot below, follow the below steps to resolve the issue and add a new naming series for Sales and Purchase Invoices
+This validation will come into effect in SOMA from the new fiscal year i.e FY 2021-22. If you encounter an error similar to one shown in the screenshot below, follow the below steps to resolve the issue and add a new naming series for Sales and Purchase Invoices
 
   
 

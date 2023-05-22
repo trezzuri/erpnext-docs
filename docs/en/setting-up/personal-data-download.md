@@ -2,10 +2,10 @@
 # Personal Data Download
 
 
-As a part of GDPR compliance, ERPNext has Personal Data Download.
+As a part of GDPR compliance, SOMA has Personal Data Download.
 
 
-Personal data download tool enables a user to automatically download all the personal data they have generated while using ERPNext. This includes personally identifiable data from your user account like: username, full name, birth date, phone numbers, mobile numbers, location, interests, bio, email signature, Email, Contact, Address, Communication, etc. It also includes data from Leads and Opportunities, the details you have saved like phone numbers, mobile numbers, fax, website, and name.
+Personal data download tool enables a user to automatically download all the personal data they have generated while using SOMA. This includes personally identifiable data from your user account like: username, full name, birth date, phone numbers, mobile numbers, location, interests, bio, email signature, Email, Contact, Address, Communication, etc. It also includes data from Leads and Opportunities, the details you have saved like phone numbers, mobile numbers, fax, website, and name.
 
 
 ## 1. How to request user data download

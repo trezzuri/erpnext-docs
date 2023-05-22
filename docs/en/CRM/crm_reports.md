@@ -2,7 +2,7 @@
 # CRM Reports
 
 
-CRM module's reports feature helps users get the information about the prospects. Using the following reports, an ERPNext user can analyze the data about a prospect's history with a company and will help users build strong relationships with the prospects. These are a collection of reports under **CRM > Reports**.
+CRM module's reports feature helps users get the information about the prospects. Using the following reports, an SOMA user can analyze the data about a prospect's history with a company and will help users build strong relationships with the prospects. These are a collection of reports under **CRM > Reports**.
 
 
 ### 1. Lead Details
@@ -41,7 +41,7 @@ In this internet era, we all expect a quicker response time to any of our querie
 You can input the date range for which you would like to analyse the minutes to first response. The line graph is shown on the top and date wise details at the bottom.
 
 
-![Minutes To First Response Opportunity](/files/minutes_to_first_response.png)
+![Minutes To First Response Opportunity](/docs/v13/assets/img/crm/report/minutes_to_first_response.png)
 
 
 ### 5. Inactive Customers

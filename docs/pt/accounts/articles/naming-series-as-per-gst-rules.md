@@ -6,7 +6,7 @@ Regra 46 (b) da CGST **Regras** 2017 especifica que o imposto **fatura** emi
   
 
 
-< span style="color: rgb(32, 33, 36);">Esta validação entrará em vigor no ERPNext a partir do novo ano fiscal, ou seja, FY 2021-22. Se você encontrar um erro semelhante ao mostrado na captura de tela abaixo, siga as etapas abaixo para resolver o problema e adicionar uma nova série de nomes para faturas de vendas e compras
+< span style="color: rgb(32, 33, 36);">Esta validação entrará em vigor no SOMA a partir do novo ano fiscal, ou seja, FY 2021-22. Se você encontrar um erro semelhante ao mostrado na captura de tela abaixo, siga as etapas abaixo para resolver o problema e adicionar uma nova série de nomes para faturas de vendas e compras
 
   
 

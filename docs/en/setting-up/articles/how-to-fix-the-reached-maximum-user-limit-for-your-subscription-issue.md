@@ -2,7 +2,7 @@
 # Maximum User Limit Issue
 
 
-Your ERPNext subscription depends on the number of System Users you subscribe for. Once you cross that limit, the system will not let you create any further number of users. For example, you have subscribed for 10 users. If you already have already created 10 System Users in your account, the system wont let you create the 11th System User, and you will get the below message.
+Your SOMA subscription depends on the number of System Users you subscribe for. Once you cross that limit, the system will not let you create any further number of users. For example, you have subscribed for 10 users. If you already have already created 10 System Users in your account, the system wont let you create the 11th System User, and you will get the below message.
 
   
 

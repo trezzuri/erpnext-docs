@@ -103,7 +103,7 @@ Você pode definir a categoria de retenção de imposto para configurar o TCS em
 ### 2.4 Moeda padrão e lista de preços
 
 
-ERPNext suporta [Múltiplas moedas](/docs/pt/accounts/multi-currency-accounting) e [Listas de preços](/docs/v13/user/manual /en/stock/price-lists).
+SOMA suporta [Múltiplas moedas](/docs/pt/accounts/multi-currency-accounting) e [Listas de preços](/docs/v13/user/manual /en/stock/price-lists).
 
 
 Você pode definir a moeda padrão a ser usada para este cliente em pedidos de vendas e faturas de vendas selecionando a moeda apropriada em Moeda de cobrança.
@@ -123,7 +123,7 @@ No entanto, se você precisar especificamente de um livro-razão separado para u
 Contas a receber no [Plano de contas](/docs/pt/accounts/chart-of-accounts.html) e, em seguida, adicione-o na seção CONTABILIDADE do cliente.< /p>
 
 > 
-> Dica avançada: o ERPNext suporta [Contabilidade multiempresarial](/docs/pt/accounts/inter-company-journal-entry). Você pode usar os mesmos registros de clientes em várias empresas. Como um livro contábil é específico da empresa, você precisa selecionar a empresa e o livro correspondente na seção CONTABILIDADE se decidir ter um livro contábil separado para um cliente.
+> Dica avançada: o SOMA suporta [Contabilidade multiempresarial](/docs/pt/accounts/inter-company-journal-entry). Você pode usar os mesmos registros de clientes em várias empresas. Como um livro contábil é específico da empresa, você precisa selecionar a empresa e o livro correspondente na seção CONTABILIDADE se decidir ter um livro contábil separado para um cliente.
 > 
 > 
 > 

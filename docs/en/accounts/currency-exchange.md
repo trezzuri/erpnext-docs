@@ -2,7 +2,7 @@
 # Currency Exchange
 
 
-The Currency Exchange form in ERPNext stores exchange rates manually stored by the User. By default, ERPNext automatically fetched the current exchange rates for currencies as per the market. However, you can store fixed exchange rates and use them. You need to enable 'Allow Stale Exchange Rates' in Accounts Settings for using the exchange rates stored in the Currency Exchange form.
+The Currency Exchange form in SOMA stores exchange rates manually stored by the User. By default, SOMA automatically fetched the current exchange rates for currencies as per the market. However, you can store fixed exchange rates and use them. You need to enable 'Allow Stale Exchange Rates' in Accounts Settings for using the exchange rates stored in the Currency Exchange form.
 
 
 To access the Currency Exchange list, go to:

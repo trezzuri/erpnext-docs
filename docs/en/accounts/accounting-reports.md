@@ -69,7 +69,7 @@ Go to: **Accounts > Accounting Statements > Trial Balance**.
 
 
 A Trial Balance is an accounting report which lists account balances for all your Accounts
-(“Ledger” and “Group”) for any given reporting period. A company prepares a trial balance periodically, usually at the end of every reporting period. The general purpose of producing a trial balance is to ensure the entries in a company's bookkeeping system are mathematically correct. The totals of Debit and Credit columns must be same for any given period, to ensure the entries are correct. In ERPNext, the report shows following columns:
+(“Ledger” and “Group”) for any given reporting period. A company prepares a trial balance periodically, usually at the end of every reporting period. The general purpose of producing a trial balance is to ensure the entries in a company's bookkeeping system are mathematically correct. The totals of Debit and Credit columns must be same for any given period, to ensure the entries are correct. In SOMA, the report shows following columns:
 
 
 * Opening (Dr): Opening debit balance as on From Date
@@ -95,7 +95,7 @@ Go to: **Accounts > Accounting Statements > Balance Sheet**.
 A Balance Sheet is the financial statement of a company which states assets, liabilities and equity at a particular point in time.
 
 
-The Balance Sheet in ERPNext gives you more flexibility to analyse your financial position. You can run the report across multiple year to compare values. You can check values for a specific Finance Book or Cost Center. You can also choose any other currency to display the balances.
+The Balance Sheet in SOMA gives you more flexibility to analyse your financial position. You can run the report across multiple year to compare values. You can check values for a specific Finance Book or Cost Center. You can also choose any other currency to display the balances.
 
 
 ![Balance Sheet](/files/balance-sheet-report.png)
@@ -122,7 +122,7 @@ Go to: **Accounts > Accounting Statements > Profit and Loss Statement**.
 A Profit and Loss Statement is a financial statement which summarizes all the revenues and expenses in a given period. The report is also known as P&L Statement.
 
 
-In ERPNext, you can run the report across multiple year / period to compare the values. You can also check values for a specific Finance Book, Project or Cost Center. You can also choose any other currency to display the balances. If you are running the report to see quarterly / monthly balances, you can choose whether you want to show accumulated balances or only for each period.
+In SOMA, you can run the report across multiple year / period to compare the values. You can also check values for a specific Finance Book, Project or Cost Center. You can also choose any other currency to display the balances. If you are running the report to see quarterly / monthly balances, you can choose whether you want to show accumulated balances or only for each period.
 
 
 ![Profit and Loss Report](/files/profit-and-loss-report.png)
@@ -164,7 +164,7 @@ The Sales and Purchase Register report shows all the Sales and Purchase transact
 Go to: **Accounts > Budget and Cost Center > Budget Variance Report**.
 
 
-In ERPNext, you can assign expense budget for an expense account against any specific cost center. This report gives a comparison between budgeted and actual expenses and the variance (the difference between the two) in monthly / quarterly / yearly view.
+In SOMA, you can assign expense budget for an expense account against any specific cost center. This report gives a comparison between budgeted and actual expenses and the variance (the difference between the two) in monthly / quarterly / yearly view.
 
 
 ![Budget Variance](/files/budget-variance-report.png)

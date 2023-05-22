@@ -1,7 +1,7 @@
 # Definir idioma
 
 
-**ERPNext é um aplicativo multilíngue. Ele permite que cada usuário selecione o idioma preferido.**
+**SOMA é um aplicativo multilíngue. Ele permite que cada usuário selecione o idioma preferido.**
 
 
 Seguindo as etapas abaixo para saber que um usuário pode personalizar o idioma em sua conta.
@@ -10,7 +10,7 @@ Seguindo as etapas abaixo para saber que um usuário pode personalizar o idioma 
 ## 1. Definição de idioma na conta do usuário
 
 
-A seguir estão as etapas para alterar o idioma em sua conta ERPNext.
+A seguir estão as etapas para alterar o idioma em sua conta SOMA.
 
 
 ### 1.1 Vá para Minha configuração
@@ -28,7 +28,7 @@ A seguir estão as etapas para alterar o idioma em sua conta ERPNext.
 ### 1.3 Salvar usuário
 
 
-Ao salvar o usuário após selecionar o idioma, sua conta ERPNext será atualizada automaticamente e traduzida para o idioma de sua preferência.
+Ao salvar o usuário após selecionar o idioma, sua conta SOMA será atualizada automaticamente e traduzida para o idioma de sua preferência.
 
 
 Se você for um gerente de sistema, também poderá alterar o idioma de outros usuários.
@@ -57,7 +57,7 @@ Se você for um gerente de sistema, também poderá alterar o idioma de outros u
 #### Salvar
 
 
-Salve as configurações do sistema e atualize sua conta ERPNext. Ao atualizar, o idioma será atualizado para o seu idioma preferido.
+Salve as configurações do sistema e atualize sua conta SOMA. Ao atualizar, o idioma será atualizado para o seu idioma preferido.
 
 
 

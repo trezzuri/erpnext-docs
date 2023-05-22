@@ -3,7 +3,7 @@
 
 
 When a company has multiple levels of approval for a document, a Workflow can be set.   
-In ERPNext, you can go to Workflow list --> Create New --> Name the workflow and define :1. States
+In SOMA, you can go to Workflow list --> Create New --> Name the workflow and define :1. States
 2. Transition rules.
 
   

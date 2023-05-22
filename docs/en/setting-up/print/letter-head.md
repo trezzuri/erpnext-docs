@@ -5,10 +5,10 @@
 **A Letter Head contains your organization's name, logo, address, etc which appears at the top portion in documents.**
 
 
-Every company has a default Letter Head. These Letter Head values are generally set as Header and Footer in the documents. In ERPNext, you can capture these details in the Letter Head master.
+Every company has a default Letter Head. These Letter Head values are generally set as Header and Footer in the documents. In SOMA, you can capture these details in the Letter Head master.
 
 
-These details will appear in the Print Format of transactions like Sales Order, Sales Invoice, Salary Slip, Purchase Order, etc. In ERPNext, the Letter Head is only for setting up the top part of the document, other content is pre-formatted and can be configured via [Print Format](/docs/en/setting-up/print/print-format) and [Print Headings](/docs/en/setting-up/print/print-headings).
+These details will appear in the Print Format of transactions like Sales Order, Sales Invoice, Salary Slip, Purchase Order, etc. In SOMA, the Letter Head is only for setting up the top part of the document, other content is pre-formatted and can be configured via [Print Format](/docs/en/setting-up/print/print-format) and [Print Headings](/docs/en/setting-up/print/print-headings).
 
 
 To access Letter Head, go to:

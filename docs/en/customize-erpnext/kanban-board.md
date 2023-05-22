@@ -2,7 +2,7 @@
 # Kanban Board
 
 
-**Kanban Board is a tool which will give you a descriptive layout of your data in ERPNext based on status and a virtual board.**
+**Kanban Board is a tool which will give you a descriptive layout of your data in SOMA based on status and a virtual board.**
 
 
 This board shall consist of cards which represent the various Documents listed in a particular Document Type aligned as per the stage of operation of the transactions represented by Status Columns. The card status can be changed easily by dragging and dropping the cards across the board.

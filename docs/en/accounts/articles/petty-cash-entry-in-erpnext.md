@@ -2,7 +2,7 @@
 # Book Petty Cash Entry
 
 
-Petty Cash is a small amount of cash on hand used for paying expenses like Travel, Telephone, etc, that are too small to merit writing a cheque. You can make such entries into ERPNext via Journal Entry. 
+Petty Cash is a small amount of cash on hand used for paying expenses like Travel, Telephone, etc, that are too small to merit writing a cheque. You can make such entries into SOMA via Journal Entry. 
 
   
 
