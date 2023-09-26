@@ -34,7 +34,7 @@ Select document type for which Sort Order is to be customized.
 In the Customize Form, you will find these fields.
 
 
-![Sort Order Field]({{docs_base_url}}//assets/img/customize/customize-sort-field.png)
+![Sort Order Field](&lcub;&lcub;docs_base_url}}//assets/img/customize/customize-sort-field.png)
 
 
 ![Sort Order field](/files/customize-sorting-order-1.png)

@@ -1,7 +1,7 @@
 # Buscar valores da tabela filho usando tags Jinja
 
 
-O modelo Jinja pode ser usado para referenciar qualquer campo em qualquer DocType no SOMA. Isso pode ser feito simplesmente chamando {{doc.field\_name}} em um formato de impressão, onde 'doc.name' é o nome da variável para um determinado campo.
+O modelo Jinja pode ser usado para referenciar qualquer campo em qualquer DocType no SOMA. Isso pode ser feito simplesmente chamando &lcub;&lcub;doc.field\_name}} em um formato de impressão, onde 'doc.name' é o nome da variável para um determinado campo.
 
 
 No entanto, esta abordagem não funciona para tabelas filhas dentro de um DocType. Este artigo irá ajudá-lo a percorrer e exibir todas as linhas pertencentes a uma tabela filha dentro de qualquer DocType.
@@ -38,13 +38,13 @@ Também exigiremos os nomes das variáveis ​​de todos os campos dentro da ta
 
 {% para linha em doc.items %}
 
-* Código do item: {{ row.get\\_formatted("item\\_code", doc) }}
+* Código do item: &lcub;&lcub; row.get\\_formatted("item\\_code", doc) }}
 
-Quantidade: {{ row.get\\_formatted("qty", doc) }}
+Quantidade: &lcub;&lcub; row.get\\_formatted("qty", doc) }}
 
-Taxa: {{ row.get\\_formatted("rate", doc) }}
+Taxa: &lcub;&lcub; row.get\\_formatted("rate", doc) }}
 
-Valor: {{ row.get\\_formatted("amount", doc) }}
+Valor: &lcub;&lcub; row.get\\_formatted("amount", doc) }}
 
 
 {% endfor %}
@@ -69,7 +69,7 @@ A saída em um formato de impressão seria a seguinte
 
 {% para item em doc.items %}
 
-| {{item.item\\_code }} | {{item.qty}} | {{item.rate}} | {{item.amount}} |
+| &lcub;&lcub;item.item\\_code }} | &lcub;&lcub;item.qty}} | &lcub;&lcub;item.rate}} | &lcub;&lcub;item.amount}} |
 
 
 {% endfor %}

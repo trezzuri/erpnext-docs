@@ -85,16 +85,16 @@ Para estilizar, o [Bootstrap CSS Framework](http://getbootstrap.com/) é forneci
 
 
 ```
- {% raw %}### {{ doc.select\_print\_heading or "Invoice" }}
+ {% raw %}### &lcub;&lcub; doc.select\_print\_heading or "Invoice" }}
 
 
     
  Nome do cliente
- {{ doc.customer\_name }}
+ &lcub;&lcub; doc.customer\_name }}
  
     
  Data
- {{ doc.get\_formatted("invoice\_date") }}
+ &lcub;&lcub; doc.get\_formatted("invoice\_date") }}
  
 
             {%- para linha em doc.items -%}
@@ -104,13 +104,13 @@ Para estilizar, o [Bootstrap CSS Framework](http://getbootstrap.com/) é forneci
 
 
  | Sr | Nome do item | Descrição | Quantidade | Taxa | Valor |
-| {{ row.idx }} | 
- {{ row.item\_name }}
+| &lcub;&lcub; row.idx }} | 
+ &lcub;&lcub; row.item\_name }}
  {% if row.item\_code != row.item\_name -%}
- Código do item: {{ row.item\_code}}
+ Código do item: &lcub;&lcub; row.item\_code}}
  {%- fim se %}
-  | {{ row.description }} | {{ row.qty }} {{ row.uom or row.stock\_uom }} | {{
- row.get\_formatted("rate", doc) }} | {{
+  | &lcub;&lcub; row.description }} | &lcub;&lcub; row.qty }} &lcub;&lcub; row.uom or row.stock\_uom }} | &lcub;&lcub;
+ row.get\_formatted("rate", doc) }} | &lcub;&lcub;
  row.get\_formatted("amount", doc) }} |
 
  
@@ -122,7 +122,7 @@ Para estilizar, o [Bootstrap CSS Framework](http://getbootstrap.com/) é forneci
 
 
 1. Para obter valores formatados de data e moeda, use `doc.get_formatted("fieldname")`
-2. Para strings traduzíveis, use `{{ '{{ _("This string is translate") }}' }}`
+2. Para strings traduzíveis, use `&lcub;&lcub; '&lcub;&lcub; _("This string is translate") }}' }}`
 
 
 

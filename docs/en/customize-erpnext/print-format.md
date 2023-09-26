@@ -90,14 +90,14 @@ For styling, the [Bootstrap CSS Framework](http://getbootstrap.com/) is provided
 
 
 ```
-    {% raw %}<h3>{{ doc.select_print_heading or "Invoice" }}</h3>
+    {% raw %}<h3>&lcub;&lcub; doc.select_print_heading or "Invoice" }}</h3>
     <div class="row">
         <div class="col-md-3 text-right">Customer Name</div>
-        <div class="col-md-9">{{ doc.customer_name }}</div>
+        <div class="col-md-9">&lcub;&lcub; doc.customer_name }}</div>
     </div>
     <div class="row">
         <div class="col-md-3 text-right">Date</div>
-        <div class="col-md-9">{{ doc.get_formatted("invoice_date") }}</div>
+        <div class="col-md-9">&lcub;&lcub; doc.get_formatted("invoice_date") }}</div>
     </div>
 
             {%- for row in doc.items -%}
@@ -113,19 +113,19 @@ For styling, the [Bootstrap CSS Framework](http://getbootstrap.com/) is provided
                 <th class="text-right">Rate</th>
                 <th class="text-right">Amount</th>
             </tr><tr>
-                <td style="width: 3%;">{{ row.idx }}</td>
+                <td style="width: 3%;">&lcub;&lcub; row.idx }}</td>
                 <td style="width: 20%;">
-                    {{ row.item_name }}
+                    &lcub;&lcub; row.item_name }}
                     {% if row.item_code != row.item_name -%}
-                    <br>Item Code: {{ row.item_code}}
+                    <br>Item Code: &lcub;&lcub; row.item_code}}
                     {%- endif %}
                 </td>
                 <td style="width: 37%;">
-                    <div style="border: 0px;">{{ row.description }}</div></td>
-                <td style="width: 10%; text-align: right;">{{ row.qty }} {{ row.uom or row.stock_uom }}</td>
-                <td style="width: 15%; text-align: right;">{{
+                    <div style="border: 0px;">&lcub;&lcub; row.description }}</div></td>
+                <td style="width: 10%; text-align: right;">&lcub;&lcub; row.qty }} &lcub;&lcub; row.uom or row.stock_uom }}</td>
+                <td style="width: 15%; text-align: right;">&lcub;&lcub;
                     row.get_formatted("rate", doc) }}</td>
-                <td style="width: 15%; text-align: right;">{{
+                <td style="width: 15%; text-align: right;">&lcub;&lcub;
                     row.get_formatted("amount", doc) }}</td>
             </tr></tbody>
     </table>{% endraw %}
@@ -136,6 +136,6 @@ For styling, the [Bootstrap CSS Framework](http://getbootstrap.com/) is provided
 
 
 1. To get date and currency formatted values use, `doc.get_formatted("fieldname")`
-2. For translatable strings, use `{{ '{{ _("This string is translated") }}' }}`
+2. For translatable strings, use `&lcub;&lcub; '&lcub;&lcub; _("This string is translated") }}' }}`
 
 

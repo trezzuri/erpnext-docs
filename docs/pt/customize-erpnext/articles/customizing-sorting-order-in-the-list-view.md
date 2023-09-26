@@ -33,7 +33,7 @@ Selecione o tipo de documento para o qual a ordem de classificação deve ser pe
 No Formulário Personalizado, você encontrará esses campos.
 
 
-![Classificar campo de ordem]({{docs_base_url}}//assets/img/customize/customize-sort-field.png)
+![Classificar campo de ordem](&lcub;&lcub;docs_base_url}}//assets/img/customize/customize-sort-field.png)
 
 
 ![Campo de ordem de classificação](/files/customize-sorting-order-1.png)

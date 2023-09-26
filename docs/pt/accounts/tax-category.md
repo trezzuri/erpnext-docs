@@ -66,7 +66,7 @@ Você pode selecionar se o endereço de cobrança ou o endereço de entrega tem 
 
 
 * Modelos de impostos de itens específicos para essa categoria de impostos são definidos automaticamente para os itens.
-* Você pode criar [Regras fiscais]({{docs_base_url}}/user/manual/en/accounts/tax-rule) para definir automaticamente um modelo específico de impostos e cobranças sobre vendas/compras com base em diferentes categorias de impostos em transações.
+* Você pode criar [Regras fiscais](&lcub;&lcub;docs_base_url}}/user/manual/en/accounts/tax-rule) para definir automaticamente um modelo específico de impostos e cobranças sobre vendas/compras com base em diferentes categorias de impostos em transações.
 
 
 ## 5. Tópicos Relacionados

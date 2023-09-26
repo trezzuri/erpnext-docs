@@ -51,6 +51,7 @@ def main(translate=False):
         content_en = content_en.replace("/docs/v14/user/videos/", "https://docs.erpnext.com/docs/v14/user/videos/")
         content_en = content_en.replace("ERPNext", "SOMA")
         content_en = content_en.replace("ERPnext", "SOMA")
+        content_en = content_en.replace("{{", "&lcub;&lcub;") # substitui as chaves pois senão dá erro no markdown quando instalado no frappe
         
         fname = basepath + "/en" + page + ".md"
         f = open(fname, "w")
@@ -67,6 +68,7 @@ def main(translate=False):
             content_pt = content_pt.replace("/docs/v14/user/videos/", "https://docs.erpnext.com/docs/v14/user/videos/")
             content_pt = content_pt.replace("ERPNext", "SOMA")
             content_pt = content_pt.replace("ERPnext", "SOMA")
+            content_pt = content_pt.replace("{{", "&lcub;&lcub;") # substitui as chaves pois senão dá erro no markdown quando instalado no frappe
 
             fname = basepath + "/pt" + page + ".md"
             f = open(fname, "w")

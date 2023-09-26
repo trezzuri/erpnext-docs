@@ -24,14 +24,14 @@ Once a DocType is created, simply create a Web Form by fetching all the standard
 A Notification should be created to send a link to a user following which they will submit a rating. You can define the conditions for triggering an email based on standard features of [Notification](https://erpnext.com/docs/user/manual/en/setting-up/notifications). Following is the help on how to define a message and link which would take user to a Web Form and allow submitting a rating.  
 
 ```
-https://example.erpnext.com/feedback?new=1&document=Sales%20Order&document\_name={{doc.name}}
+https://example.erpnext.com/feedback?new=1&document=Sales%20Order&document\_name=&lcub;&lcub;doc.name}}
 ```
   
 Where:  
 * **example.erpnext.com** will be URL of your SOMA account
 * **feedback** will be the name of custom doctype added for collecting a feedback
 * **document=Sales%20Order&** will be a name of DocType for which you want to sent a notification
-* document\_name={{doc.name}} will pick-up specific document name and update in the Document Name field of Feedback form.
+* document\_name=&lcub;&lcub;doc.name}} will pick-up specific document name and update in the Document Name field of Feedback form.
 
   
 ![](/files/UDBhIaK.png)  

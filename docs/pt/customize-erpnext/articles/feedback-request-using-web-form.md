@@ -30,7 +30,7 @@ Onde:
 * **example.erpnext.com** será a URL da sua conta SOMA
 * **feedback** será o nome do tipo de documento personalizado adicionado para coletar um feedback
 * **document=Sales%20Order&** será um nome de DocType para o qual você deseja enviar uma notificação
-* document\_name={{doc.name}} será coletado nome do documento específico e atualização no campo Nome do documento do formulário de comentários.
+* document\_name=&lcub;&lcub;doc.name}} será coletado nome do documento específico e atualização no campo Nome do documento do formulário de comentários.
 
   
 ![](/files/UDBhIaK.png)   

@@ -52,23 +52,23 @@ Aqui está o modelo Jinja padrão:
 
 
 ```
-{% raw %}{{ address_line1 }}  
+{% raw %}&lcub;&lcub; address_line1 }}  
 
-{% if address_line2 %}{{ address_line2 }}  
+{% if address_line2 %}&lcub;&lcub; address_line2 }}  
 {% endif -%}
-{{ cidade }}  
+&lcub;&lcub; cidade }}  
 
-{% if estado %}{{ estado }}  
+{% if estado %}&lcub;&lcub; estado }}  
 {% endif -%}
-{% if pincode %}PIN: {{ pincode }}  
+{% if pincode %}PIN: &lcub;&lcub; pincode }}  
 {% endif -%}
-{{ país }}  
+&lcub;&lcub; país }}  
 
-{% if phone %}Telefone: {{ phone }}  
+{% if phone %}Telefone: &lcub;&lcub; phone }}  
 {% endif -%}
-{% if fax %}Fax: {{ fax }}  
+{% if fax %}Fax: &lcub;&lcub; fax }}  
 {% endif -%}
-{% if email_id %}E-mail: {{ email_id }}  
+{% if email_id %}E-mail: &lcub;&lcub; email_id }}  
 {% endif -%}{% enddraw %}
 
 ```

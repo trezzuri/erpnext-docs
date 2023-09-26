@@ -67,7 +67,7 @@ You can select whether Billing Address or Shipping Address gets preference by ch
 
 
 * Specific Item Tax Templates for that Tax Category are automatically set for items.
-* You can create [Tax Rules]({{docs_base_url}}/user/manual/en/accounts/tax-rule) to automatically set a specific Sales / Purchase Taxes and Charges Template based on different Tax Categories in transactions.
+* You can create [Tax Rules](&lcub;&lcub;docs_base_url}}/user/manual/en/accounts/tax-rule) to automatically set a specific Sales / Purchase Taxes and Charges Template based on different Tax Categories in transactions.
 
 
 ## 5. Related Topics

@@ -53,15 +53,15 @@ Here is the default Jinja template:
 
 
 ```
-{% raw %}{{ address_line1 }}<br>
-{% if address_line2 %}{{ address_line2 }}<br>{% endif -%}
-{{ city }}<br>
-{% if state %}{{ state }}<br>{% endif -%}
-{% if pincode %}PIN:  {{ pincode }}<br>{% endif -%}
-{{ country }}<br>
-{% if phone %}Phone: {{ phone }}<br>{% endif -%}
-{% if fax %}Fax: {{ fax }}<br>{% endif -%}
-{% if email_id %}Email: {{ email_id }}<br>{% endif -%}{% endraw %}
+{% raw %}&lcub;&lcub; address_line1 }}<br>
+{% if address_line2 %}&lcub;&lcub; address_line2 }}<br>{% endif -%}
+&lcub;&lcub; city }}<br>
+{% if state %}&lcub;&lcub; state }}<br>{% endif -%}
+{% if pincode %}PIN:  &lcub;&lcub; pincode }}<br>{% endif -%}
+&lcub;&lcub; country }}<br>
+{% if phone %}Phone: &lcub;&lcub; phone }}<br>{% endif -%}
+{% if fax %}Fax: &lcub;&lcub; fax }}<br>{% endif -%}
+{% if email_id %}Email: &lcub;&lcub; email_id }}<br>{% endif -%}{% endraw %}
 
 ```
 

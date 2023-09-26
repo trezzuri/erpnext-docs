@@ -7,7 +7,7 @@ While sending an email notification in SOMA, many a times, we need the document 
 2) Create a new Notification for any DocType. In this case, we have taken an example of sending an Email Notification on creation of every new Material Request as shown below.  
 ![](/files/6WPgqY6.png)  
   
-3) To send the document ID of the associated record as a link, copy the below snippet in the email message:**<a href="{{frappe.utils.get\_url\_to\_form(doc.doctype, doc.name)}}">{{doc.name}}</a>**  
+3) To send the document ID of the associated record as a link, copy the below snippet in the email message:**<a href="&lcub;&lcub;frappe.utils.get\_url\_to\_form(doc.doctype, doc.name)}}">&lcub;&lcub;doc.name}}</a>**  
 ![](/files/vHK6tDW.png)  
 4) Now on creation of a new Material Request, following email will be received because of the above set Notification.  
 ![](/files/3WOeTEv.png)  

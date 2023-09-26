@@ -2,7 +2,7 @@
 # Fetch child table values using Jinja tags
 
 
-Jinja templating can be used to reference any field on any DocType in SOMA. This can simply be done by calling {{doc.field\_name}} on a print format, where 'doc.name' is the variable name for a certain field.
+Jinja templating can be used to reference any field on any DocType in SOMA. This can simply be done by calling &lcub;&lcub;doc.field\_name}} on a print format, where 'doc.name' is the variable name for a certain field.
 
 
 However this approach does not work for Child Tables inside a DocType. This article will help you traverse and display all rows pertaining to a child table inside any DocType.
@@ -39,13 +39,13 @@ We will also require the variable names of all the fields inside the child table
 
 {% for row in doc.items %}
 
-* Item Code: {{ row.get\\_formatted("item\\_code", doc) }}
+* Item Code: &lcub;&lcub; row.get\\_formatted("item\\_code", doc) }}
 
-Quantity: {{ row.get\\_formatted("qty", doc) }}
+Quantity: &lcub;&lcub; row.get\\_formatted("qty", doc) }}
 
-Rate: {{ row.get\\_formatted("rate", doc) }}
+Rate: &lcub;&lcub; row.get\\_formatted("rate", doc) }}
 
-Amount: {{ row.get\\_formatted("amount", doc) }}
+Amount: &lcub;&lcub; row.get\\_formatted("amount", doc) }}
 
 
 {% endfor %}
@@ -70,7 +70,7 @@ The output on a print format would be as follows
 
 {% for item in doc.items %}
 
-| {{item.item\\_code }} | {{item.qty}} | {{item.rate}} | {{item.amount}} |
+| &lcub;&lcub;item.item\\_code }} | &lcub;&lcub;item.qty}} | &lcub;&lcub;item.rate}} | &lcub;&lcub;item.amount}} |
 
 
 {% endfor %}

@@ -99,11 +99,11 @@ Você pode criar modelos usando Jinja. Ex.:
 
 
 ```
-As partes celebram este contrato em {{ start_date }}.
+As partes celebram este contrato em &lcub;&lcub; start_date }}.
 
 ```
 
-Ao criar um novo contrato usando este modelo, o `{{ start_date }}` é substituído pela data inserida no campo com o mesmo nome.
+Ao criar um novo contrato usando este modelo, o `&lcub;&lcub; start_date }}` é substituído pela data inserida no campo com o mesmo nome.
 
 
 ![Modelo de contrato](/files/contract-template-jinja.gif)
