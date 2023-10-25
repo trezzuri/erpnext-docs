@@ -1,2 +1,2 @@
 # soma-docs
-Documentação do app Soma
+Tradução da documentação do app Erpnext para Português do Brasil
