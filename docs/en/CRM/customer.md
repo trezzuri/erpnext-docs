@@ -2,6 +2,7 @@
 # Customer
 
 
+
 **A customer, who is sometimes known as a client, buyer, or purchaser is the one
 who receives goods, services, products, or ideas, from a seller for a monetary
 consideration.**
@@ -11,25 +12,13 @@ Every customer needs to be assigned a unique id. Customer name itself can be the
 
 
 To access the Customer list, go to:
-
-
-
-> 
 > Home > CRM > Sales Pipeline
-> 
-> 
-> 
 
 
 Or
 
 
-
-> 
 > Home > Selling > Customers
-> 
-> 
-> 
 
 
 ## 1. How to create a Customer
@@ -50,12 +39,7 @@ Or
 You can disallow sales orders and sales invoices against a customer by clicking on 'Disabled'.
 
 
-
-> 
-> Advanced Tip: If the customer represents one of your own companies then check 'Is Internal Customer'. Check [Inter Company Invoices](/docs/en/accounts/inter-company-invoices) for more details.
-> 
-> 
-> 
+>Advanced Tip: If the customer represents one of your own companies then check 'Is Internal Customer'. Check [Inter Company Invoices](/docs/en/accounts/inter-company-invoices) for more details.
 
 
 You can also upload customer details via the [Data Import Tool](/docs/en/setting-up/data/data-import).
@@ -70,13 +54,8 @@ General flow of transactions for a customer is as following:
 ![Sales Flowchart](/files/customer-to selling-flowchart.jpeg)
 
 
-
-> 
 > Note: Customers are separate from Contacts and Addresses. A Customer can
->  have multiple Contacts and Addresses.
-> 
-> 
-> 
+have multiple Contacts and Addresses.
 
 
 ### 2.1 Multiple Contacts and Addresses
@@ -104,7 +83,7 @@ You can set the Tax Withholding Category to set up TCS against eligible customer
 ### 2.4 Default Currency and Price List
 
 
-SOMA supports [Multiple Currencies](/docs/en/accounts/multi-currency-accounting) and [Price Lists](/docs/en/stock/price-lists).
+ERPNext supports [Multiple Currencies](/docs/en/accounts/multi-currency-accounting) and [Price Lists](/docs/en/stock/price-lists).
 
 
 You can set the default currency to be used for this customer in sales orders and sales invoices by selecting the appropriate currency in Billing Currency.
@@ -124,12 +103,7 @@ However if you specifically need a separate ledger for a customer, first create 
 Accounts Receivable in the [Chart of Accounts](/docs/en/accounts/chart-of-accounts.html) and then add it in ACCOUNTING section of the customer.
 
 
-
-> 
-> Advanced Tip: SOMA supports [Multi-company Accounting](/docs/en/accounts/inter-company-journal-entry). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
-> 
-> 
-> 
+>Advanced Tip: ERPNext supports [Multi-company Accounting](/docs/en/accounts/inter-company-journal-entry). You can use the same customer records in multiple companies. Since an accounting ledger is company specific, you need to select the company and the corresponding ledger in ACCOUNTING section if you decide have separate accounting ledger for a customer.
 
 
 ### 2.6 Credit Limit and Payment Terms
@@ -205,5 +179,7 @@ You can customize the Customer DocType using [Customize Form](/docs/en/customize
 3. [Price List](/docs/en/stock/price-lists)
 4. [Contact](/docs/en/CRM/contact)
 5. [Difference between Lead, Contact, and Customer](/docs/en/CRM/articles/difference_between_lead_contact_and_customer)
+
+
 
 

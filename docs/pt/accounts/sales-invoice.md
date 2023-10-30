@@ -2,6 +2,7 @@
 # Sales Invoice
 
 
+
 **A Sales Invoice is a bill that you send to your Customers against which the Customer makes the payment.**
 
 
@@ -9,14 +10,7 @@ Sales Invoice is an accounting transaction. On submission of Sales Invoice, the 
 
 
 To access the Sales Invoice list, go to:
-
-
-
-> 
 > Home > Accounting > Accounts Receivable > Sales Invoice
-> 
-> 
-> 
 
 
 ![SO Flow](/files/so-flow.png)
@@ -62,7 +56,7 @@ For manual creation, follow these steps:
 ### 2.1 Additional options when creating a Sales Invoice
 
 
-* **Include Payment (POS)**: If this invoice is for retail sales / Point of Sale. [Know more here](/docs/pt/accounts/sales-invoice#324-pos-invoices).
+* **Include Payment (POS)**: If this invoice is for retail sales/Point of Sale. [Know more here](/docs/pt/accounts/sales-invoice#324-pos-invoices).
 * **Is Return Credit Note**: Tick this if the customer has returned the Items. To know more details, visit the [Credit Note](/docs/pt/accounts/credit-note) page.
 
 
@@ -110,12 +104,7 @@ The credit limit can be set from the [Customer](/docs/pt/CRM/customer#24-credit-
 Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the selected dimension(s). To know more, check help on [Accounting Dimensions](/docs/pt/accounts/accounting-dimensions) feature.
 
 
-
-> 
 > Note: Project and Cost Center are treated as dimensions by default.
-> 
-> 
-> 
 
 
 ### 3.3 Customer PO Details
@@ -168,12 +157,7 @@ Read [Price List documentation](/docs/pt/stock/price-lists) to know more.
 ### 3.7 The Items table
 
 
-
-> 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in SOMA. [Learn more here](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
-> 
-> 
-> 
+> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
 
 
 * **Update Stock**
@@ -369,7 +353,7 @@ The following Sales details can be recorded:
 
 
 * **Debit To**: The account against which receivable will be booked for this Customer.
-* **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to SOMA mid year, you might want to use an Opening Entry to update account balances in SOMA.
+* **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
 * **Remarks**: Any additional remarks about the Sales Invoice can be added here.
 
 
@@ -385,20 +369,20 @@ If the sale took place via one of your Sales Partners, you can add their commiss
 ### 3.22 Sales Team
 
 
-**Sales Persons:** SOMA allows you to add multiple Sales Persons who may have worked on this deal. This is also fetched from the Sales Order/Delivery Note.
+**Sales Persons:** ERPNext allows you to add multiple Sales Persons who may have worked on this deal. This is also fetched from the Sales Order/Delivery Note.
 
 
 ### 3.23 Automatically Fetching Item Batch Numbers
 
 
 If you are selling an Item from a [Batch](/docs/pt/stock/batch),
-SOMA will automatically fetch a batch number for you if "Update Stock"
+ERPNext will automatically fetch a batch number for you if "Update Stock"
 is checked. The batch number will be fetched on a First Expiring First Out
 (FEFO) basis. This is a variant of First In First Out (FIFO) that gives the highest priority to the soonest to expire Items.
 
 
 Note that if the first batch in the queue cannot satisfy the order on the invoice,
-the next batch in the queue that can satisfy the order will be selected. If no batch can satisfy the order, SOMA will cancel its attempt to automatically fetch a suitable batch number.
+the next batch in the queue that can satisfy the order will be selected. If no batch can satisfy the order, ERPNext will cancel its attempt to automatically fetch a suitable batch number.
 
 
 ### 3.24 POS Invoices
@@ -443,13 +427,8 @@ Account in the “Income” section of your Chart of Accounts. It is a good
 practice to classify your income by type (like product income, service income, etc). The Income Account must be set for each row of the Items table.
 
 
-
-> 
 > Tip: To set default Income Accounts for Items, you can set it in the Item or
->  Item Group.
-> 
-> 
-> 
+Item Group.
 
 
 The other account that is affected is the Account of the Customer. That is
@@ -476,13 +455,8 @@ When booking a sale (accrual):
 ![SI Ledger](/files/ledger-updates-on-sales-invoice-submission.png)
 
 
-
-> 
 > To see entries in your Sales Invoice after you “Submit”, click on “View
->  Ledger”.
-> 
-> 
-> 
+Ledger”.
 
 
 ## 5. Related Topics
@@ -497,5 +471,7 @@ When booking a sale (accrual):
 7. [Sales Order](/docs/pt/selling/sales-order)
 8. [Quotation](/docs/pt/selling/quotation)
 9. [Delivery Note](/docs/pt/stock/delivery-note)
+
+
 
 

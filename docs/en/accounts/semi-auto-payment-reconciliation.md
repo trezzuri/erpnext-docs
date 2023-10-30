@@ -2,6 +2,7 @@
 # Semi-Auto Payment Reconciliation
 
 
+
 If there are large no of Invoices that needs be reconciled quickly without manual allocation, `Process Payment Reconciliation` doctype can be used.
 
 
@@ -20,5 +21,7 @@ If there are large no of Invoices that needs be reconciled quickly without manua
 
 
 1. [Payment Reconciliation](/docs/en/accounts/payment-reconciliation)
+
+
 
 

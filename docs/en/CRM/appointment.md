@@ -2,6 +2,7 @@
 # Appointment
 
 
+
 **An appointment is a prearranged meeting between a Lead and an Employee of your Company.**
 
 
@@ -71,5 +72,7 @@ Appointments are automatically assigned to employees as per the `Agents` list in
 
 
 If there is no matching lead in your system, an email will be sent to the email address in the appointment to confirm if the email address is valid. Upon confirmation, a new Lead will also be created in the system along with the Appointment.
+
+
 
 

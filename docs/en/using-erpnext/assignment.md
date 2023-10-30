@@ -2,7 +2,8 @@
 # Assignment
 
 
-**Assign To is a feature in SOMA that allows you to assign a particular document to a specific user, who needs to further work on that document.**
+
+**Assign To is a feature in ERPNext that allows you to assign a particular document to a specific user, who needs to further work on that document.**
 
 
 For example, if a Sales Order needs to be approved or submitted by the Sales Manager, the first draft user can assign that Sales Order to the Sales Manager.
@@ -59,5 +60,7 @@ Users will be able to remove assignments by clicking on the "Closed" button in t
 
 
 Once the assignment is set as completed, the corresponding ToDo will simultaneously be updated as 'Closed'.
+
+
 
 

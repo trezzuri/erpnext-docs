@@ -2,6 +2,7 @@
 # Setting Up
 
 
+
 Setting up an ERP system is like starting your business all over again but in the virtual world. Thankfully it is not as hard as the real business and you get to do a trial too!
 
 
@@ -17,7 +18,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 ### 1. Basic Setup
 
 
-1. [Intoduction to SOMA Frappe School Course](https://frappe.school/courses/introduction-to-erpnext)
+1. [Intoroduction to ERPNext](https://frappe.school/courses/introduction-to-erpnext)
 2. [User and Permissions](https://docs.erpnext.com/docs/v13/user/videos/learn/user-and-permission.html)
 
 
@@ -48,5 +49,7 @@ You'll find the global configuration options here, for module-wise setup, visit 
 2. [Item and Pricing](https://docs.erpnext.com/docs/v13/user/videos/learn/item.html)
 3. [Opening Invoices Creation Tool](https://docs.erpnext.com/docs/v13/user/videos/learn/opening-invoice-creation-tool.html)
 4. [Opening Stock](https://docs.erpnext.com/docs/v13/user/videos/learn/opening-stock.html)
+
+
 
 

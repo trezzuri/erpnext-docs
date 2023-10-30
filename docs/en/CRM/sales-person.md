@@ -2,21 +2,15 @@
 # Sales Person
 
 
+
 **Sales Person is a person who sells your products/services.**
 
 
-Sales Persons are created in hierarchical manner in SOMA. You can create sales persons and add other sales persons under the main sales persons.
+Sales Persons are created in hierarchical manner in ERPNext. You can create sales persons and add other sales persons under the main sales persons.
 
 
 To access the Sales Person list, go to:
-
-
-
-> 
 > Home > Selling > Selling > Sales Person
-> 
-> 
-> 
 
 
 It can also be accessed from:
@@ -60,5 +54,7 @@ You can assign sales target for sales person and track the progress. Read [Sales
 3. [Delivery Note](/docs/en/stock/delivery-note)
 4. [Sales Invoice](/docs/en/accounts/sales-invoice)
 5. [Sales Cycle](https://docs.erpnext.com/docs/v13/user/videos/learn/sales-cycle.html)
+
+
 
 

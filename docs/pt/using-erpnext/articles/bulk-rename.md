@@ -1,58 +1,38 @@
-# Renomear em massa
-
-
-Usando a ferramenta Bulk Rename, você pode optar por retificar/alterar vários IDs de documentos de uma só vez. Esta ferramenta só é acessível ao usuário que tem a função de gerente do sistema atribuída.
-
-
-### Ferramenta Renomear
-
-
-Você pode renomear IDs de até 500 registros por vez. A seguir estão as etapas para renomear registros em massa. Vamos supor que estamos renomeando IDs de funcionários para os funcionários existentes.
-
-
-#### Etapa 1: Abra o arquivo Excel
-
-
-Em um arquivo de planilha, insira IDs de funcionários antigos na primeira coluna, novos IDs de funcionários na segunda coluna e se esse registro deve ser mesclado com um existente (falso por padrão). Salve o arquivo da planilha no formato CSV sem o cabeçalho.
+# Renomeação em massa de registros
 
 
 
-
-| Nome antigo | Novo nome | Mesclar |
-| --- | --- | --- |
-
-| HR-EMP-00001 | EMP0001 | FALSO |
-
-| HR-EMP-00002 | EMP0002 | FALSO |
-
-| HR-EMP-00003 | EMP0003 | FALSO |
-
-| HR-EMP-00004 | EMP0004 | FALSO |
-
-| HR-EMP-00005 | EMP0005 | FALSO |
-
-| HR-EMP-00006 | EMP0006 | FALSO |
+**A renomeação em massa permite renomear vários registros de uma só vez.**
 
 
+Você pode renomear um documento no ERPNext (se for permitido) acessando **Menu > Renomear** no documento.
 
 
-#### Etapa 2: Carregar arquivo de dados
+Como alternativa, se você quiser renomear vários registros, use a ferramenta Renomear. Acesse:
 
 
-Para carregar o arquivo de dados, acesse,
+![Renomeando um documento](/files/renaming-a-document.gif)
 
 
-
-> 
-> Configurações > Dados > Renomear em massa
-> 
-> 
-> 
+> Página inicial > Configurações > Ferramenta Renomear
 
 
-Selecione DocType que você deseja renomear. Aqui, DocType será Item. Em seguida, navegue e carregue o arquivo de dados.
+Esta ferramenta permitirá renomear vários registros ao mesmo tempo.
 
 
-![Upload Data](/files/using-bulk-rename-2.gif)
+Para renomear vários registros, carregue um arquivo **.csv** com os nomes antigos na primeira coluna e os novos nomes na segunda coluna. Em seguida, clique em **Fazer upload**.
+
+
+![Renomear em massa](/files/rename-tool.png)
+
+
+Você também pode mesclar documentos renomeando-os. Por exemplo, se você tiver um cliente chamado Steve e uma duplicata chamada Steve1, você pode ir para qualquer um deles, clicar em Menu > Renomear e marcar a caixa de seleção ‘Mesclar com existente’. Isso mesclará todos os documentos vinculados de ambos os documentos. Para saber mais, visite esta página.
+
+
+### 2. Tópicos Relacionados
+
+
+1. [Importação de dados](/docs/pt/setting-up/data/data-import)
+
 
 

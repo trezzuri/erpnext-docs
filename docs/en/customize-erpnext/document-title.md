@@ -2,6 +2,7 @@
 # Document Title
 
 
+
 **You can customize the title of documents based on properties so that you have meaningful information for the list views.**
 
 
@@ -14,7 +15,7 @@ For example, the default title on a Quotation is the customer name, but if you a
 ## Setting Title Fields
 
 
-From SOMA Version 6.0 onwards, all transactions have a 'Title' property. If there is not a title property, you can add a **Custom Field** as title and set the **Title Field** via **Customize Form**.
+From ERPNext Version 6.0 onwards, all transactions have a 'Title' property. If there is not a title property, you can add a **Custom Field** as title and set the **Title Field** via **Customize Form**.
 
 
 You can set the default value of that property by using Python style string formatting in **Default** or **Options**
@@ -50,5 +51,7 @@ If your title is generated as a default title, it can be edited by the user by c
 
 
 If you want a fixed title, you can set the rule in the **Options** property. In this way, the title will be automatically updated every time the document is updated.
+
+
 
 

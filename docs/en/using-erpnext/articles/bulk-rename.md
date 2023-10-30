@@ -1,52 +1,40 @@
 
-# Bulk Rename
-
-
-Using the Bulk Rename tool, you can choose to rectify/change multiple document IDs at once. This tool is only accessible to the User who has the System Manager role assigned.
-
-
-### Rename Tool
-
-
-You can rename IDs of up to 500 records at a time. The following are steps to bulk rename bulk records. Let's assume we are renaming Employee IDs for the existing employees.
-
-
-#### Step 1: Open Excel File
-
-
-In a spreadsheet file, enter old Employee IDs in the first column, new Employee Ids in the second column, and whether this record should be merged with an existing (false by default). Save spreadsheet file in a CSV format without the header.
+# Bulk Renaming of Records
 
 
 
-
-| Old Name | New Name | Merge |
-| --- | --- | --- |
-| HR-EMP-00001 | EMP0001 | FALSE |
-| HR-EMP-00002 | EMP0002 | FALSE |
-| HR-EMP-00003 | EMP0003 | FALSE |
-| HR-EMP-00004 | EMP0004 | FALSE |
-| HR-EMP-00005 | EMP0005 | FALSE |
-| HR-EMP-00006 | EMP0006 | FALSE |
+**Bulk Renaming allows renaming multiple records at once.**
 
 
-#### Step 2: Upload Data File
+You can rename a document in ERPNext (if it is allowed) by going to **Menu > Rename** in the document.
 
 
-To upload data file go to,
+Alternatively, if you want to rename a whole bunch of records, use the Rename Tool. Go to:
 
 
-
-> 
-> Settings > Data > Bulk Rename
-> 
-> 
-> 
+![Renaming a document](/files/renaming-a-document.gif)
 
 
-Select DocType which you want to rename. Here, DocType will be Item. Then Browse and Upload data file.
+> Home > Settings > Rename Tool
 
 
-![Upload Data](/files/using-bulk-rename-2.gif)
+This tool will allow you to rename multiple records at the same time.
+
+
+To rename multiple records, upload a **.csv** file with the old names in the first column and the new names in the second column. Then click on **Upload**.
+
+
+![Bulk Rename](/files/rename-tool.png)
+
+
+You can also merge documents by renaming them. For example, if you have a customer named Steve and a duplicate named Steve1, you can go to either of them, click on Menu > Rename and tick the 'Merge with existing' checkbox. This will merge all the linked documents of both documents. To know more, visit this page.
+
+
+### 2. Related Topics
+
+
+1. [Data Import](/docs/en/setting-up/data/data-import)
+
 
 
 

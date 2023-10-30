@@ -2,6 +2,7 @@
 # Print Format
 
 
+
 **With Print Format, you can set how document types look when printing.**
 
 
@@ -17,12 +18,7 @@ Every transaction has a default Print Format called 'Standard'. You can change P
 To access Print Format, go to:
 
 
-
-> 
 > Home > Settings > Print Format
-> 
-> 
-> 
 
 
 ## 1. How to create a Print Format
@@ -83,5 +79,7 @@ A newly created Print Format can be selected on the print screen of a transactio
 3. [Letter Head](/docs/en/setting-up/print/letter-head)
 4. [Cheque Print Template](/docs/en/setting-up/print/cheque-print-template)
 5. [Disabling Line Breaks in Print Format Sections](/docs/en/setting-up/articles/print-format-sections)
+
+
 
 

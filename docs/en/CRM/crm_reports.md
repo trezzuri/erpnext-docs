@@ -2,7 +2,8 @@
 # CRM Reports
 
 
-CRM module's reports feature helps users get the information about the prospects. Using the following reports, an SOMA user can analyze the data about a prospect's history with a company and will help users build strong relationships with the prospects. These are a collection of reports under **CRM > Reports**.
+
+CRM module's reports feature helps users get the information about the prospects. Using the following reports, an ERPNext user can analyze the data about a prospect's history with a company and will help users build strong relationships with the prospects. These are a collection of reports under **CRM > Reports**.
 
 
 ### 1. Lead Details
@@ -72,5 +73,7 @@ This report provides Lost Opportunity details like opportunity from, party, cust
 
 
 ![Lost Opportunity](/files/lost-opportunity.png)
+
+
 
 

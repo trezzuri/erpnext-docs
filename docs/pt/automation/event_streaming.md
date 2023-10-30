@@ -3,6 +3,7 @@
 
 
 
+
 > 
 > Introduced in Version 13
 > 
@@ -103,7 +104,7 @@ Let's take two sites for explaining the process. http://test*site:8000 (Consumer
 If you have some places where internet connectivity is low, for example, a store in a remote area where sales invoices are generated and you want to sync these invoices from the store to the hosted account, you could setup offline syncing using the following steps:
 
 
-1. Set up an SOMA local instance. You can refer [this guide](https://github.com/frappe/bench) for local setup.
+1. Set up an ERPNext local instance. You can refer [this guide](https://github.com/frappe/bench) for local setup.
 2. You need to have hosted account with your company set up.
 3. Now create an Event Producer on the hosted account and set the producer URL to the URL of your local account.
 4. Add whatever doctypes you want to sync in the Event Producer Document Types child table.
@@ -211,7 +212,7 @@ Check the 'Use Same Name' checkbox to let the documents have same name on both E
 ### 3.6 Mapping Configuration
 
 
-If you want to stream documents between an SOMA instance and another Frappe app for a particular Document Type with same or different structures, or if field names are different in both the sites, you can use Event Streaming with Mapping Configuration.
+If you want to stream documents between an ERPNext instance and another Frappe app for a particular Document Type with same or different structures, or if field names are different in both the sites, you can use Event Streaming with Mapping Configuration.
 
 
 For this you need to first set up a Document Type Mapping.
@@ -277,7 +278,7 @@ If the field you are trying to map is a child table, you need to create another 
 If the DocTypes you are trying to map have any kind of dependencies like Link or Dynamic Link fields, you need to set up another Document Type Mapping for syncing the dependencies.
 
 
-For example, let's assume that the local doctype is Opportunity and the remote doctype is SOMA Opportunity. The field `party_name` (Link field for DocType Lead) in Opportunity is mapped to `full_name` (Data field) in SOMA Opportunity. During the sync, this Lead has to be created for the main Opportunity to sync. So you need to set up a mapping for this Link Field too.
+For example, let's assume that the local doctype is Opportunity and the remote doctype is ERPNext Opportunity. The field `party_name` (Link field for DocType Lead) in Opportunity is mapped to `full_name` (Data field) in ERPNext Opportunity. During the sync, this Lead has to be created for the main Opportunity to sync. So you need to set up a mapping for this Link Field too.
 
 
 ![Lead Dependency Creation](/files/lead_dependency_creation.png)
@@ -285,7 +286,7 @@ For example, let's assume that the local doctype is Opportunity and the remote d
 
 * **Mapping Type**: In this case, the Mapping Type is Document.
 * **Mapping**: Select the mapping you just created.
-* **Remote Value Filters**: You need to specify the filters that will fetch the exact remote document to be mapped. Like in this case, the remote DocType is SOMA Opportunity which can be uniquely fetched using name, phone number and country.
+* **Remote Value Filters**: You need to specify the filters that will fetch the exact remote document to be mapped. Like in this case, the remote DocType is ERPNext Opportunity which can be uniquely fetched using name, phone number and country.
 
 
 The format is:
@@ -359,4 +360,6 @@ Then, you could specify the condition:
 cmd: my_custom_app.note.is_odd_note
 
 ```
+
+
 

@@ -1,95 +1,97 @@
 # Introdução
 
 
-O que é um sistema ERP? E por que as empresas devem usá-lo?
+
+## O que é um ERP?
 
 
 
 > 
-> Se você já está convencido de que precisa de um sistema de soluções empresariais completo para sua organização, pode pular esta página.
+> Se você já está convencido de que precisa de um software multifuncional para sua organização, pule esta página.
 > 
 > 
 > 
 
 
-Hoje, as pequenas e médias empresas (PMEs) também enfrentam alguns dos problemas que as grandes empresas enfrentam. Um deles sendo planejamento e gerenciamento de seus recursos. As PMEs enfrentam complexidades semelhantes, mas têm recursos limitados para lidar com elas.
+ERP significa Planejamento de Recursos Empresariais. ERP é uma categoria de software de gestão empresarial usada para coletar, armazenar, gerenciar, interpretar dados de atividades empresariais, aplicar processos, ativar mecanismos de controle e automatizar uma série de atividades.
 
 
-As pequenas empresas (como suas contrapartes maiores) precisam:
+Aqui está um pouco do contexto histórico sobre como o termo ERP surgiu. As empresas de manufatura precisam planejar e gerenciar seus recursos, como matérias-primas, máquinas e força de trabalho, para atender às demandas dos clientes. Nas décadas de 1960 e 70 as empresas começaram a utilizar software para melhor planejar e gerenciar os recursos. Esses softwares foram chamados de **Planejamento de Requisitos de Materiais (MRP ou MRP I)**. A partir disso evoluiu o **Planejamento de Recursos de Manufatura (MRP ou MRP II)**, que adicionou mais funcionalidades como previsão, agendamento de manutenção e contabilidade financeira. Posteriormente, mais funcionalidades como gerenciamento de recursos humanos e planejamento de projetos foram adicionadas pelos fornecedores de MRP na tentativa de oferecer um software completo, e esse software foi denominado **Enterprise Resource Planning (ERP)**. Embora os ERPs tenham suas raízes na indústria de manufatura, hoje empresas de todos os tipos de setores os utilizam.
 
 
-1. Faça contas para rastrear suas vendas/compras.
-2. Cumpra seus impostos.
-3. Pagar seus funcionários.
-4. Gerencie as entregas dentro dos prazos prometidos.
-5. Fornecer bens e serviços de qualidade.
-6. Comunique-se com os clientes, responda às suas perguntas.
+Quer você seja uma organização pequena, pequena, média, grande, enorme ou enorme, você se beneficiará em ter um ERP.
 
 
-Grandes empresas investem milhões de dólares em sistemas altamente sofisticados como o SAP. A SAP e sistemas semelhantes são capazes de lidar com os requisitos dessas grandes empresas para trazer seus clientes globais **vários países**, **várias empresas**, **várias moedas** negócios em uma única plataforma. Isso os ajudou a obter a consolidação de dados/registros nos processos fundamentais, como contabilidade, tributação, folha de pagamento, relatórios e cadeia de suprimentos, para citar alguns.
+## Por que as empresas usam ERP?
 
 
-Ao contrário das grandes empresas, as PME ficaram de fora da **1ª vaga da revolução digital (1995-2015)**. A principal razão para ficar de fora é porque eles não têm recursos financeiros para **licenciar, contratar programadores e personalizar** esse software para atender às suas necessidades. Sistemas como o SAP têm sido **proibidos** para a maioria das PMEs. Esses sistemas precisam de um layout **mínimo** de CAPEX ou OPEX de **US$ 100.000 (sim, cem mil dólares)** ou mais. Mesmo com as ofertas de nuvem (software como serviço, SAAS) de tais fornecedores, não existe um Do It Yourself (DIY) fácil em que as pessoas possam se sentir confiantes.
+**1. Fonte Única da Verdade**
 
 
-Assim, até hoje, as pequenas empresas continuam lutando para manter as coisas organizadas. Eles costumam usar uma combinação de aplicativos e ferramentas, como planilhas, software de contabilidade e CRMs baseados na Web, para gerenciar a manutenção diária de registros. Como consequência, eles precisam acessar diferentes sistemas para entender os dados mestre dos clientes, vendas, fluxos de caixa ou lucratividade. A informação existe em diferentes silos. Torna-se difícil combinar os dados para obter insights ou alertas úteis. Isso leva as PMEs a serem **reativas** em vez de serem **proativas** em suas operações diárias. Com uma forma de trabalho tão restrita, há pouco espaço para **crescimento**.
+Se a equipe de vendas da sua empresa usar um software para gerenciar vendas e a equipe de contabilidade usar um software de contabilidade separado, isso poderá resultar em alguns problemas. A equipe de contabilidade precisa duplicar os dados do cliente e atualizá-los continuamente para mantê-los sincronizados com os dados do software de vendas. E dependendo de a quem você perguntar, poderá obter uma resposta diferente para a mesma pergunta, como qual é o endereço de cobrança de um cliente específico. Os sistemas ERP eliminam isso, pois atuam como um único banco de dados central (única fonte de verdade). Isso resulta em eficiência e precisão dos dados. Você pode obter insights sobre seu negócio por meio de relatórios e análises.
 
 
-SOMA aborda alguns problemas fundamentais com os quais as PMEs lutam ao gerenciar seus recursos:
+**2. Aplicar mecanismos de processo e controle**
 
 
-1. **Acessibilidade**: é um software gratuito e de código aberto, disponível gratuitamente para download e instalação.
-2. **Integridade**: Todos os módulos necessários estão disponíveis. [Ver lista completa](https://erpnext.com/docs/v13/user/manual/en).
-3. **Personalização**: é fácil adicionar campos ou adicionar mais recursos.
-4. **Eficiência**: os requisitos de computação são relativamente baixos (mais baratos para hospedar e gerenciar).
-5. **Integridade**: um único sistema e banco de dados que permite que vários usuários registrem transações ou extraiam dados simultaneamente.
+Para que sua organização opere perfeitamente em grande escala, você precisa impor determinados processos e criar mecanismos de controle. Por exemplo, cada cotação deve ser aprovada por um gestor de vendas, depois por um gestor de contas e se o valor total dos itens cotados for superior a um determinado limite, deve ser aprovado pelo CEO. Você pode facilmente aplicar esses processos por meio de ERPs. Aqui está um exemplo de outro processo: Um produto específico deve passar por uma verificação de qualidade e atender aos parâmetros de qualidade antes de ser aceito e pago. Elas são chamadas de 'Regras de Negócios' e os ERPs facilitam a aplicação de regras de negócios.
 
 
-## O que é SOMA?
+**3. Automação**
 
 
-SOMA é uma solução de gestão de negócios completa que ajuda as PMEs a registrar todas as suas transações de negócios em um único sistema. Com o SOMA, as PMEs podem tomar decisões oportunas, informadas e baseadas em fatos para se manterem à frente da concorrência. Ele serve como a espinha dorsal de um negócio, adicionando força, transparência e controle à sua empresa em crescimento.
+Você pode automatizar uma série de coisas por meio de ERPs. Por exemplo, você pode configurar seu ERP para preparar um pedido de compra e enviá-lo ao fornecedor preferencial se o nível de estoque de um item específico cair abaixo de um limite. Aqui está outro exemplo: você pode configurar seu ERP para atribuir leads automaticamente ao vendedor certo com base em certas regras.
 
 
-SOMA irá ajudá-lo a:
+Os ERPs estão evoluindo continuamente em sua busca para se tornarem um software completo. Por exemplo, as empresas anteriores precisavam adquirir e gerir um sistema separado se quisessem vender os seus produtos online. Mas os sistemas ERP modernos, como o ERPNext, oferecem esses recursos.
 
 
-1. Acompanhe todas as faturas e pagamentos.
-2. Saiba a quantidade de qual produto está disponível em estoque.
-3. Identifique e acompanhe seus principais indicadores de desempenho (KPIs).
-4. Identifique consultas de clientes em aberto.
-5. Gerencie a folha de pagamento dos funcionários.
-6. Atribua tarefas e faça o acompanhamento delas.
-7. Mantenha um banco de dados de todos os seus clientes, fornecedores e contatos.
-8. Preparar cotações.
-9. Acompanhe seus orçamentos e gastos.
-10. Determine o preço de venda efetivo com base no custo real de matéria-prima, maquinário e esforço.
-11. Receba lembretes sobre os cronogramas de manutenção.
-12. Publique seu site.
+## O que é ERPNext?
 
 
-E muito mais.
+ERPNext é um ERP completo que ajuda sua empresa a registrar todas as transações comerciais em um único sistema. Com o ERPNext, você pode tomar decisões informadas, baseadas em fatos e em tempo hábil para permanecer à frente da concorrência. Ele serve como a espinha dorsal do seu negócio em crescimento, adicionando força, transparência e controle.
 
 
-## O SOMA é apenas para PMEs?
+ERPNext irá ajudá-lo a:
 
 
-O SOMA se adapta bem desde PMEs até grandes empresas. O SOMA é usado por várias cadeias de varejo na África, bem como por uma conceituada empresa de negociação de ações na Índia, com mais de mil funcionários.
+* Rastreie todas as faturas e pagamentos.
+* Saiba qual quantidade de qual produto está disponível em estoque.
+* Identifique e acompanhe seus principais indicadores de desempenho (KPIs).
+* Identifique as dúvidas abertas dos clientes.
+* Gerencie a folha de pagamento dos funcionários.
+* Atribua tarefas e acompanhe-as.
+* Mantenha um banco de dados de todos os seus clientes, fornecedores e contatos.
+* Preparar cotações.
+* Acompanhe seus orçamentos e gastos.
+* Determine o preço de venda efetivo com base na matéria-prima, no maquinário e no custo real do esforço.
+* Receba lembretes sobre cronogramas de manutenção.
+* Publique seu site.
 
 
-Confira uma variedade de [Histórias de usuários](https://erpnext.com/blog/customer-success-stories) para saber mais. Aqui está um vídeo para você começar:
+E muito mais!
+
+
+Aqui está um vídeo para você começar no ERPNext:
+
+
+Confira uma variedade de [histórias de usuários](https://erpnext.com/blog/customer-success-stories) para saber mais sobre quem já usa o ERPNext.
 
 
 ### Tópicos
 
 
-Você também pode verificar os seguintes tópicos:
+Você também pode conferir os seguintes tópicos:
 
 
-1. [Preciso de um ERP?](/docs/pt/introduction/do-i-need-an-erp)
-2. [Código aberto](/docs/pt/introduction/open-source)
-3. [Introdução ao SOMA](/docs/pt/introduction/getting-started-with-erpnext)
-4. [O campeão](/docs/pt/introduction/the-champion)
-5. [Estratégia de implementação](/docs/pt/introduction/implementation-strategy)
-6. [Fluxos de trabalho principais](/docs/pt/introduction/key-workflows)
-7. [Conceitos e termos](/docs/pt/introduction/concepts-and-terms)
+1. [Código aberto](/docs/user/manual/en/introduction/open-source)
+
+
+* [Introdução ao ERPNext](/docs/user/manual/en/introduction/getting-started-with-erpnext)
+* [O Campeão](/docs/user/manual/en/introduction/the-champion)
+* [Estratégia de implementação](/docs/user/manual/en/introduction/implementation-strategy)
+* [Principais fluxos de trabalho](/docs/user/manual/en/introduction/key-workflows)
+* [Conceitos e termos](/docs/user/manual/en/introduction/concepts-and-terms)
+
+
+

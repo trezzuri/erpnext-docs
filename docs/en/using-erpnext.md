@@ -2,6 +2,7 @@
 # Introduction
 
 
+
 In any organization, it is very important to ensure transparency and accountability towards transactions and operations. To facilitate the same, there is a need to have ease of communication across teams and discussions, and for assignments and feedbacks to have minimal turn-round time.
 
 
@@ -13,5 +14,7 @@ Messaging tool.
 
 These tools are integrated into all aspects of the product so that you can
 effectively manage your data and collaborate with your co-workers.
+
+
 
 
