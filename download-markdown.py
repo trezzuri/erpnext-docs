@@ -19,7 +19,6 @@ def main(translate=False):
 
     for page in pages():
         md = None
-        print(page)
 
         # url já processada pula.
         if page in open("urls.txt", "r", encoding="utf-8").read():
@@ -114,6 +113,7 @@ def main(translate=False):
             content_pt = content_pt.replace("erpnext .com", "erpnext.com")
             content_pt = content_pt.replace("<código>", "<code>")
             content_pt = content_pt.replace("</código>", "</code>")
+            content_pt = content_pt.replace("\_", "_")
             ###
 
             content_pt = markdownify.markdownify(content_pt, heading_style="ATX") # converte html para markdown 
