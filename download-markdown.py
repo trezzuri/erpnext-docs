@@ -40,9 +40,9 @@ def main(translate=False):
         except HTTPError as e:
             print("Página: " + str(page) + " Erro HTTP:", e)
 
-        # se não tiver class from-markdown ou md não estiver sido definido, pula iteração, provavelmente vá passar pela verificação de not "/manual/en" in.
+        # se não tiver class from-markdown ou md não estiver sido definido, pula iteração
         if not md:
-            url_processadas.write(page + "\n")
+            url_processadas.write(page + "\n") # não processa novamente
             continue
 
         title = md.find('div',{'class':'align-items-center'}).contents[1] # obtem o titulo do texto que está em um div
