@@ -11,4 +11,7 @@ Número de série e responda a eles com base na garantia e outras informações.
 Você também pode fazer Cronogramas de Manutenção para NOs de Série e manter um registro de todas as Visitas de Manutenção feitas aos seus Clientes.
 
 
+Você pode assistir ao vídeo no [Módulo de suporte aqui](https://frappe.school/courses/customer-support-management)
+
+
 

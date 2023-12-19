@@ -18,7 +18,7 @@ mais eficiente e simples possível.
 ### 1 compra
 
 
-1. [Curso da Escola Frappe sobre Compras](https://frappe.school/courses/procurement)
+1. [Curso da Frappe School sobre Módulo de Compra](https://frappe.school/courses/procurement)
 2. [Ciclo de compra](https://docs.erpnext.com/docs/v13/user/videos/learn/purchase-cycle)
 3. [Fornecedor](https://docs.erpnext.com/docs/v13/user/videos/learn/customer-and-supplier)
 4. [Solicitação de material para pedido de compra](https://docs.erpnext.com/docs/v13/user/videos/learn/material-request.html)

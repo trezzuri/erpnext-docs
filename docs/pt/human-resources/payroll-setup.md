@@ -121,7 +121,7 @@ Na nova estrutura salarial,
 1. Nomeie a estrutura salarial e defina a empresa, papel timbrado para impressão do comprovante de salário e frequência da folha de pagamento etc.
 2. Defina a data de início da validade (Nota: Só pode haver uma Estrutura Salarial que pode estar “Ativa” para um Funcionário durante qualquer período).
 3. Configure o valor do reembolso de licenças por dia, que será o valor a pagar aos funcionários nas solicitações de reembolso de licenças.
-4. O valor máximo de benefícios é o valor máximo elegível como Componentes Flexíveis para funcionários.
+4. O valor máximo de benefícios é o valor máximo elegível como componentes flexíveis para funcionários.
 
 
 #### Recibo de salário com base no quadro de horários

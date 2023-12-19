@@ -19,7 +19,7 @@ efficient and seamless as possible.
 ### 1 Purchase
 
 
-1. [Frappe School Course on Procurement](https://frappe.school/courses/procurement)
+1. [Frappe School Course on Buying Module](https://frappe.school/courses/procurement)
 2. [Purchase Cycle](https://docs.erpnext.com/docs/v13/user/videos/learn/purchase-cycle)
 3. [Supplier](https://docs.erpnext.com/docs/v13/user/videos/learn/customer-and-supplier)
 4. [Material Request to Purchase Order](https://docs.erpnext.com/docs/v13/user/videos/learn/material-request.html)

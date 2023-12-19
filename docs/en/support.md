@@ -12,5 +12,8 @@ Serial No and respond to them based on their warranty and other information.
 You can also make Maintenance Schedules for Serial NOs and keep a record of all Maintenance Visits made to your Customers.
 
 
+You can view the video on [Support Module here](https://frappe.school/courses/customer-support-management)
+
+
 
 

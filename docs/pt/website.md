@@ -29,10 +29,12 @@ Você pode conferir [este vídeo](https://www.youtube.com/watch?v=lyW6mfFBSNw)
 para uma demonstração do módulo Website no ERPNext.
 
 
-## Tutorial em vídeo
+## Tutoriais em vídeo
 
 
-1. [Módulo de site Curso Frappe School](https://frappe.school/courses/website-management)
+1. [Seminário on-line do módulo de site](https://www.youtube.com/watch?v=lyW6mfFBSNw)
+2. [Publicar itens no site](/docs/user/videos/learn/publish-items-on-website)
+3. [Carrinho de compras](/docs/user/videos/learn/shopping-cart)
 
 
 

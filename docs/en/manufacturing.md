@@ -9,18 +9,17 @@ The Manufacturing module in ERPNext covers all necessary features a Manufacturin
 Different types of manufacturing like make to stock, make to order, and engineer to order can be managed in the ERPNext Manufacturing module.
 
 
-![Manufacturing Desk](/files/manufacturing-desk.png)
+![Manufacturing Desk](/files/manufacturing-deskf28653.png)
 
 
-## Video Tutorials
+### Video Tutorials
 
 
-1. [Frappe School Course on Production Planning and Execution](https://frappe.school/courses/production-planning-and-execution)
-2. [Bill of Materials](https://docs.erpnext.com/docs/v13/user/videos/learn/bill-of-materials)
-3. [Work Order](https://docs.erpnext.com/docs/v13/user/videos/learn/work-order)
-4. [ERPNext for Manufacturers (Make to Order)](https://docs.erpnext.com/docs/v13/user/videos/learn/manufacturing-make-to-order)
-5. [ERPNext for Manufacturers (Engineer to Order)](https://docs.erpnext.com/docs/v13/user/videos/learn/manufacturing-engineer-to-order)
-6. [ERPNext for Manufacturers](https://docs.erpnext.com/docs/v13/user/videos/learn/manufacturing-make-to-order)
+1. [Bill of Materials](/docs/user/videos/learn/bill-of-materials)
+2. [Work Order](/docs/user/videos/learn/work-order)
+3. [ERPNext for Manufacturers (Make to Order)](/docs/user/videos/learn/manufacturing-make-to-order)
+4. [ERPNext for Manufacturers (Engineer to Order)](/docs/user/videos/learn/manufacturing-engineer-to-order)
+5. [ERPNext for Manufacturers](/docs/user/videos/learn/manufacturing-make-to-order)
 
 
 

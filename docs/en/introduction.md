@@ -3,77 +3,97 @@
 
 
 
-What is an ERP system? And why should businesses use it?
+## What is an ERP?
 
 
-> If you are already convinced you need an all-in-one enterprise solutions system for your organization, you can skip this page.
+
+> 
+> If you are already convinced that you need an all-in-one software for your organization, you can skip this page.
 > 
 > 
+> 
 
-Today, small and medium-sized businesses (SMEs) also face some of the problems that large enterprises do. One of them is planning and managing their resources. SMEs face similar complexities but have limited resources to deal with them.
 
-Small businesses (like their bigger counterparts) have to:
+ERP stands for Enterprise Resource Planning. ERP is a category of business management software used to collect, store, manage, interpret data from business activities, enforce processes, enable control mechanisms and automate a range of activities.
 
-1. Do accounts to track their sales/purchases.
-2. Do their taxes.
-3. Pay their employees.
-4. Manage deliveries within promised timelines.
-5. Deliver quality goods and services.
-6. Communicate with customers, and answer their queries.
 
-Large enterprises invest millions of dollars in highly sophisticated systems like SAP. SAP and similar systems can handle requirements from these large enterprises to bring their **multi-country*\*, \**multi-company*\*, \**multi-currency**, global businesses into a single platform. This has helped them consolidate data/records in the fundamental processes such as accounting, taxation, payroll, reporting, and supply chain, to name a few.
+Here is a bit of historical context on how the term ERP came to be. Manufacturing companies need to plan and manage their resources like raw materials, machinery, and workforce to meet customer demands. In the 1960s and 70s companies started to use software to better plan and manage the resources. These software were called **Material Requirements Planning (MRP or MRP I)**. From this **Manufacturing Resource Planning (MRP or MRP II)** evolved which added more functionalities like forecasting, maintenance scheduling, and financial accounting. Later more functionalities like human resource management, project planning were added by the MRP vendors in an attempt to offer an all-in-one software, and such software were named **Enterprise Resource Planning (ERP)**. While ERPs have their root in the manufacturing industry, today companies in all sorts of industries use them.
 
-In contrast to large enterprises, SMEs have been left out of the **1st wave of digital revolution (1995-2015)*\*. The main reason for being left out is because they need the financial resources to \**license, hire programmers and customize*\* such software to match their needs. Systems like SAP have been a \**no-go*\* for most SMEs. Such systems need a \**minimum*\* CAPEX or OPEX layout of \**$100k (Yes, One Hundred Thousand Dollars)** and upwards. Even with cloud offerings (Software as a Service, SAAS) from such vendors, there is no easy Do It Yourself (DIY) people can feel confident about.
 
-So even today, small businesses continue to need help to keep things organized. They often use a mix of applications and tools such as spreadsheets, accounting software, and web-based CRMs to manage their day-to-day record keeping. As a consequence, they have to access different systems to understand customers' master data, sales, cash flows, or profitability. The information exists in seperate silos. It becomes hard to combine the data to get valuable insights or alerts. This leads to SMEs being **reactive*\* instead of being \**proactive*\* in their day-to-day operations. With such a constrained way of working, there's limited scope for \**growth**.
+Whether you are a tiny, small, mid, large, huge, or humongous organization, you will benefit from having an ERP.
 
-ERPNext addresses some fundamental problems SMEs struggle with when managing their resources:
 
-1. **Affordability**: It is a Free and Open Source Software, freely available to download and install.
-2. **Completeness**: All necessary modules are available -[view full list](https://erpnext.com/docs/v13/user/manual/en).
-3. **Customization**: It is easy to add fields or add more features.
-4. **Efficiency**: Computing requirements are relatively low (cheaper to host and manage).
-5. **Wholesomeness**: A single system and database that allows multiple users to record transactions or extract data simultaneously.
+## Why do companies use ERP?
+
+
+**1. Single Source of Truth**
+
+
+If the sales team in your company uses one software to manage sales and the accounting team uses a separate accounting software this could result some issues. The accounting team needs to duplicate the customer data and continuously update it to keep it in sync with the data in the sales software. And depending on whom you ask you may get a different answer for the same question like what is the billing address of a specific customer. ERP systems eliminate this as they act as a single central database (single source of truth). This results in efficiency and data accuracy. You can gain insights into your business via reports and analytics.
+
+
+**2. Enforce Process and Control Mechanisms**
+
+
+For your organization to operate seamlessly at a scale you need to enforce certain processes and build control mechanisms. For example, every quotation must be approved by a sales manager, then by an accounts manager and if the total value of the items being quoted is above a certain threshold it must be approved by the CEO. You can easily enforce such processes via ERPs. Here is an example of another process: A specific product must go through a quality check and meet the quality parameters before it is accepted and paid for. These are called 'Business Rules' and ERPs make it easy to enforce business rules.
+
+
+**3. Automation**
+
+
+You can automate a range of things via ERPs. For example, you can configure your ERP to prepare a purchase order and send it to the preferred supplier if the stock level of a specific item falls below a threshold. Here is another example, you can configure your ERP to automatically assign leads to the right salesperson based on certain rules.
+
+
+ERPs are continuously evolving in their pursuit to be the all-in-one software. For example, earlier companies needed to procure and manage a separate system if they wanted to sell their goods online. But modern ERP systems like ERPNext offer such capabilities.
+
 
 ## What is ERPNext?
 
-ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead of the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.
+
+ERPNext is a full-featured ERP that helps your company to record all business transactions in a single system. With ERPNext, you can make informed, fact-based, and timely decisions to remain ahead in the competition. It serves as the backbone of your growing business by adding strength, transparency, and control.
+
 
 ERPNext will help you to:
 
-1. Keep track of the financial indicators of the organisation.
-2. Track all invoices and payments.
-3. Know what quantity of which product is available in stock.
-4. Identify and track your key performance indicators (KPIs).
-5. Identify open customer queries.
-6. Manage employee payroll.
-7. Assign tasks and follow up on them.
-8. Maintain a database of all your customers, suppliers, and contacts.
-9. Prepare quotations.
-10. Track your budgets and spending.
-11. Determine effective selling price based on the actual raw material, machinery, and effort cost.
-12. Get reminders on maintenance schedules.
-13. Publish your website.
 
-And a ton more.
+* Track all invoices and payments.
+* Know what quantity of which product is available in stock.
+* Identify and track your key performance indicators (KPIs).
+* Identify open customer queries.
+* Manage employee payroll.
+* Assign tasks and follow up on them.
+* Maintain a database of all your customers, suppliers, and contacts.
+* Prepare quotations.
+* Track your budgets and spending.
+* Determine effective selling price based on the actual raw material, machinery, and effort cost.
+* Get reminders on maintenance schedules.
+* Publish your website.
 
-## Is ERPNext only for SMEs?
 
-ERPNext scales well from SMEs to even large enterprises. ERPNext is used by several African retail chains, and a highly regarded equities trading company in India with over a thousand employees.
+And a ton more!
 
-Check out a variety of [User Stories](https://erpnext.com/blog/customer-success-stories) to know more. Here is a video to get you started:
+
+Here is a video to get you started on ERPNext:
+
+
+Check out a variety of [User Stories](https://erpnext.com/blog/customer-success-stories) to know more about who is using ERPNext already.
+
 
 ### Topics
 
+
 You can also checkout the following topics:
 
-1. [Do I Need an ERP?](/docs/en/introduction/do-i-need-an-erp)
-2. [Open Source](/docs/en/introduction/open-source)
-3. [Getting Started with ERPNext](/docs/en/introduction/getting-started-with-erpnext)
-4. [The Champion](/docs/en/introduction/the-champion)
-5. [Implementation Strategy](/docs/en/introduction/implementation-strategy)
-6. [Key Workflows](/docs/en/introduction/key-workflows)
-7. [Concepts and Terms](/docs/en/introduction/concepts-and-terms)
+
+1. [Open Source](/docs/user/manual/en/introduction/open-source)
+
+
+* [Getting Started with ERPNext](/docs/user/manual/en/introduction/getting-started-with-erpnext)
+* [The Champion](/docs/user/manual/en/introduction/the-champion)
+* [Implementation Strategy](/docs/user/manual/en/introduction/implementation-strategy)
+* [Key Workflows](/docs/user/manual/en/introduction/key-workflows)
+* [Concepts and Terms](/docs/user/manual/en/introduction/concepts-and-terms)
+
 
 
 
