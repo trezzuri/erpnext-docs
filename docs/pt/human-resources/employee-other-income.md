@@ -8,7 +8,7 @@
 Outras receitas de um funcionário também são importantes para calcular o imposto de renda de um funcionário. No Frappe RH, o colaborador pode declarar seus demais rendimentos por meio deste documento.
 
 
-Para acessar Outras Rendas do Funcionário, acesse:
+Para acessar Outras Receitas do Funcionário, acesse:
 > Home > Recursos Humanos > Impostos e Benefícios dos Funcionários > Outras receitas dos funcionários
 
 

@@ -35,7 +35,7 @@ Antes de criar um Salário Adicional, é aconselhável criar o seguinte:
 6. Salvar e enviar.
 
 
-Selecione a caixa de seleção 'Substituir valor da estrutura salarial' para substituir o componente Salário adicional no valor da estrutura salarial. Além disso, a caixa de seleção "Deduzir o imposto total na data selecionada da folha de pagamento" pode ser selecionada se o imposto total precisar ser deduzido no componente Salário Adicional para essa data específica da folha de pagamento.
+Selecione a caixa de seleção 'Substituir valor da estrutura salarial' para substituir o componente Salário adicional no valor da estrutura salarial. Além disso, a caixa de seleção "Deduzir imposto integral na data selecionada da folha de pagamento" pode ser selecionada se o imposto integral precisar ser deduzido no componente Salário Adicional para essa data específica da folha de pagamento.
 
 
 ![Salário Adicional](/files/additional-salary.png)

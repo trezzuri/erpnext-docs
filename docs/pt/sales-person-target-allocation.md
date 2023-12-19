@@ -56,7 +56,7 @@ Para verificar este relatório, acesse:
 Este relatório fornecerá a variação entre o desempenho alvo e real do vendedor. Este relatório é baseado no relatório de pedidos de vendas.
 
 
-Aqui, de acordo com o relatório, a meta alocada ao vendedor era de aproximadamente 83 em quantidade por um mês, mas ele atingiu a meta de 80 quando o relatório está sendo visualizado, portanto, o relatório de variação é mostrado de acordo.
+Aqui, de acordo com o relatório, a meta alocada ao vendedor foi de aproximadamente 83 em quantidade por um mês, mas ele atingiu a meta de 80 quando o relatório está sendo visualizado, portanto, o relatório de variação é mostrado de acordo.
 
  >
 ![Grupo de itens de destino](/files/sales_person_target_variance_report.png)

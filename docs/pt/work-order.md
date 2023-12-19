@@ -1,282 +1,280 @@
+# Ordem de serviço
 
-# Work Order
 
 
+**Uma Ordem de Serviço é um documento entregue ao chão de fábrica pelo Planejador de Produção como um sinal para fabricar uma determinada quantidade de um determinado Item.**
 
-**A Work Order is a document given to the manufacturing shop floor by the Production Planner as a signal to manufacture a certain quantity of a certain Item.**
 
+![Ordem de trabalho](/files/manufacturing-flow-wo.png)
 
-![Work Order](/files/manufacturing-flow-wo.png)
 
+A Ordem de Serviço também ajuda a gerar os requisitos de material (Entrada de Estoque) para o Item a ser produzido a partir de sua **Lista de Materiais**.
 
-The Work Order also helps generate the material requirements (Stock Entry) for the Item to be produced from its **Bill of Materials**.
 
+A **Ordem de Serviço** pode ser gerada a partir do [Plano de Produção](/docs/pt/manufacturing/production-plan) com base nas Vendas Pedidos.
 
-The **Work Order** can be generated from the [Production Plan](/docs/pt/manufacturing/production-plan) based on Sales Orders.
 
+Para acessar a lista de Ordens de Serviço, acesse:
 
-To access the Work Order list, go to:
 
+> Home > Fabricação > Produção > Ordem de Serviço
 
-> Home > Manufacturing > Production > Work Order
 
+## 1. Pré-requisitos
 
-## 1. Prerequisites
 
+Antes de criar e usar uma Ordem de Serviço, é aconselhável criar primeiro o seguinte:
 
-Before creating and using a Work Order, it is advised that you create the following first:
 
+* [Lista de materiais](/docs/pt/manufacturing/bill-of-materials)
+* [Operação](/docs/pt/manufacturing/operation)
+* [Estação de trabalho](/docs/pt/manufacturing/workstation)
 
-* [Bill Of Materials](/docs/pt/manufacturing/bill-of-materials)
-* [Operation](/docs/pt/manufacturing/operation)
-* [Workstation](/docs/pt/manufacturing/workstation)
 
+## 2. Como criar uma ordem de serviço
 
-## 2. How to Create a Work Order
 
+1. Vá para a lista de Ordens de Serviço e clique em Novo.
+2. Selecione o item a ser fabricado.
+3. A lista técnica padrão desse item será obtida pelo sistema. Você também pode alterar a lista técnica.
+4. Insira a quantidade a ser fabricada. Os itens de matéria-prima serão obtidos somente quando isso estiver definido.
+5. Se a BOM selecionada tiver Operações mencionadas nela, o sistema irá buscar todas as Operações da BOM, esses valores podem ser alterados. Consulte a [seção 3.2](/docs/pt/manufacturing/work-order#32-operations-table) para saber mais.
+6. Defina a Data de Início Planejada (uma Data Estimada na qual você deseja que a Produção comece).
+![Ordem de trabalho](/files/work-order.png)
+7. **Usar BOM multinível**: ativado por padrão. Se você deseja planejar materiais para submontagens do item que você está fabricando, deixe esta opção habilitada. Se você planejar e fabricar as submontagens separadamente, poderá desativar esta caixa de seleção. Para saber mais, visite [esta página](/docs/pt/manufacturing/articles/managing-multi-level-bom).
+8. Selecione Armazéns:
+	1. **Armazéns de Origem**: Selecione este Armazém na linha Item. O armazém onde você armazena suas matérias-primas. Cada item necessário pode ter um armazém de origem separado. O armazém de grupo também pode ser selecionado como armazém de origem. Após o envio da Ordem de Serviço, as matérias-primas serão reservadas nestes armazéns para utilização na produção.
+	2. **Armazém de trabalho em andamento**: O armazém para onde seus itens serão transferidos quando você iniciar a produção. O Armazém de Grupo também pode ser selecionado como um armazém de Trabalho em Andamento.
+	3. **Armazém de destino**: o armazém onde você armazena os itens acabados antes de serem enviados.
+	4. **Depósito de Sucata**: Se a lista técnica resultar em material de sucata, o Depósito de Sucata precisa ser selecionado.
+9. **Itens Obrigatórios**: Todos os itens necessários (matérias-primas) serão obtidos da BOM e preenchidos nesta tabela. Aqui você também pode alterar o Armazém de Origem para qualquer item. E durante a produção, você pode acompanhar as matérias-primas transferidas desta tabela.
 
-1. Go to the Work Order list, click on New.
-2. Select the Item to be manufactured.
-3. The default BOM for that item will be fetched by the system. You can also change the BOM.
-4. Enter the quantity to manufacture. Raw material Items will be fetched only when this is set.
-5. If the selected BOM has Operations mentioned in it, the system will fetch all Operations from BOM, these values can be changed. Refer [section 3.2](/docs/pt/manufacturing/work-order#32-operations-table) to know more.
-6. Set the Planned Start Date (an Estimated Date at which you want the Production to begin).
-![Work Order](/files/work-order.png)
-7. **Use Multi-Level BOM**: This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately, you can disable this checkbox. To know more, visit [this page](/docs/pt/manufacturing/articles/managing-multi-level-bom).
-8. Select Warehouses:
-	1. **Source Warehouses**: Select this Warehouse in the Item row. The warehouse where you store your raw materials. Each required item can have a separate source warehouse. Group warehouse also can be selected as source warehouse. On submission of the Work Order, the raw materials will be reserved in these warehouses for production usage.
-	2. **Work-in-Progress Warehouse**: The warehouse where your Items will be transferred when you begin production. Group Warehouse can also be selected as a Work in Progress warehouse.
-	3. **Target Warehouse**: The warehouse where you store finished Items before they are shipped.
-	4. **Scrap Warehouse**: If the BOM results in Scrap material, the Scrap Warehouse needs to be selected.
-9. **Required Items**: All the required items (raw materials) will be fetched from BOM and populated in this table. Here you can also change the Source Warehouse for any item. And during the production, you can track transferred raw materials from this table.
 
+> Observação: você pode salvar uma Ordem de Serviço sem selecionar os Armazéns, mas os Armazéns são obrigatórios para enviar uma Ordem de Serviço.
 
-> Note: You can save a Work Order without selecting the Warehouses, but Warehouses are mandatory for submitting a Work Order.
 
+Uma ordem de serviço também pode ser criada diretamente a partir de um [pedido de vendas](/docs/pt/selling/sales-order#214-after-subusing).
 
-A Work Order can also be directly created from a [Sales Order](/docs/pt/selling/sales-order#214-after-submitting).
 
+### 2.1 Opções adicionais ao criar uma ordem de serviço
 
-### 2.1 Additional Options when Creating a Work Order
 
+* **Pedido de Venda**: Se você criar uma Ordem de Serviço a partir de um Pedido de Venda, ela será buscada aqui. Você também pode vincular uma Ordem de Venda existente que contenha o Item a ser fabricado a esta Ordem de Serviço.
+* **Projeto**: vincule a ordem de serviço a um projeto para acompanhar o progresso em casos como do engenheiro ao pedido.
+* **Permitir item alternativo**: Às vezes, durante a fabricação de um produto acabado, materiais específicos podem não estar disponíveis. Por exemplo, usando contas de plástico em vez de cristais de plástico. O produto acabado em si poderia ser diferente. Marcar esta caixa de seleção permitirá que você selecione um item alternativo. Para saber mais, visite [esta página](/docs/pt/manufacturing/item-alternative).
+* **Ignorar transferência de material para armazém WIP**: Normalmente, uma entrada de estoque é criada quando as matérias-primas são transferidas para um armazém de trabalho em andamento. Neste caso, a matéria-prima é considerada consumida e o Registro de Estoque é ignorado. A próxima opção será mostrada se você marcar esta caixa de seleção.
+* **Backflush de matérias-primas do armazém de trabalho em andamento**: Marcar esta caixa de seleção criará automaticamente uma entrada de estoque com o tipo 'Fabricação'. Isso significa que as matérias-primas foram consumidas do Armazém de Origem, utilizadas para fabricar produtos acabados e outra Entrada de Estoque foi criada para o seu Armazém de Destino.
+![Opções ao criar WO](/files/work-order-options.png)
 
-* **Sales Order**: If you create a Work Order from a Sales Order, it will be fetched here. You can also link an existing Sales Order which has the Item to be manufactured to this Work Order.
-* **Project**: Link the Work Order to a Project to track progress in cases like engineer to order.
-* **Allow Alternative Item**: Sometimes when manufacturing a finished good, specific materials may not be available. For example, using plastic beads instead of plastic crystals. The finished good itself could be different. Ticking this checkbox will allow you the select an Alternative Item. To know more, visit [this page](/docs/pt/manufacturing/item-alternative).
-* **Skip Material Transfer to WIP Warehouse**: Usually, a Stock Entry is created when the raw materials are transferred to a Work In Progress Warehouse. In this case, the raw material is considered to be consumed hence the Stock Entry is skipped. The next option will be shown if you tick this checkbox.
-* **Backflush Raw Materials From Work-in-Progress Warehouse**: Ticking this checkbox will automatically create a Stock Entry with the type 'Manufacture'. This means that the raw materials were consumed from the Source Warehouse, used to manufacture finished goods and another Stock Entry was created for your Target Warehouse.
-![Options when creating WO](/files/work-order-options.png)
 
+## 3. Recursos
 
-## 3. Features
 
+### 3,1 Tempo
 
-### 3.1 Time
 
+A data de início planejada e a data de entrega prevista podem ser definidas aqui. O padrão para Data de início planejada é a data e hora atuais no momento da criação da ordem de serviço.
 
-The Planned Start Date and Expected Delivery Date can be set here. The default for Planned Start Date is the current date and time at the time of creating the Work Order.
 
+### 3.2 Tabela de itens obrigatórios
 
-### 3.2 Required Items table
 
+O Armazém de Origem pode ser alterado para os itens de matéria-prima usados ​​aqui. O Armazém padrão pode ser definido no nível do Item no [Item](/docs/pt/stock/item#28-item-defaults) mestre ou globalmente no [Configurações de estoque](/docs/pt/stock/stock-settings#23-default-warehouse).
 
-The Source Warehouse can be changed for the raw material items used here. The default Warehouse can be set at the Item level in the [Item](/docs/pt/stock/item#28-item-defaults) master or globally in [Stock Settings](/docs/pt/stock/stock-settings#23-default-warehouse).
 
+* **Quantidade necessária**: será calculada automaticamente com base na [Lista de materiais](/docs/pt/manufacturing/bill-of-materials).
+* **Quantidade transferida**: assim que a ordem de serviço for iniciada e os cartões de trabalho forem executados, os itens serão transferidos do armazém de origem para o armazém de trabalho em andamento. Este campo mostra a quantidade no Armazém WIP. Observe que se você marcar 'Ignorar transferência de material para armazém WIP', esta coluna não será atualizada.
+* **Quantidade Consumida**: Quando o Item do Armazém WIP for consumido e o produto acabado for fabricado, este campo será atualizado.
+* **Permitir item alternativo**: Se um item específico (matéria-prima ou subconjunto) não estiver disponível, marcar esta caixa de seleção permitirá que você selecione um item alternativo definido na lista Alternativa de item.
+* **Ignorar transferência de material**: se você não deseja transferir a matéria-prima específica para o armazém de trabalho em andamento, será necessário ativar esta caixa de seleção.
 
-* **Required Quantity**: This will be calculated automatically based on the [Bill Of Materials](/docs/pt/manufacturing/bill-of-materials).
-* **Transferred Quantity**: Once the Work Order starts and Job Cards are run, items are transferred from the Source Warehouse to Work In Progress Warehouse. This field shows the quantity in the WIP Warehouse. Note that if you tick on 'Skip Material Transfer to WIP Warehouse', this column will not be updated.
-* **Consumed Quantity**: When the Item from the WIP Warehouse is consumed and the finished product is manufactured, this field will be updated.
-* **Allow Alternative Item**: If a particular Item (raw material or sub-assembly) is not available, ticking this checkbox will allow you to select an alternative item defined in the Item Alternative list.
-* **Skip Material Transfer**: If you don't want to transfer the specific raw material to the work in progress warehouse then you need to enable this checkbox.
 
+Depois de desmarcar esta caixa de seleção para um item, você ainda poderá selecioná-lo na BOM e na ordem de serviço, mas nenhuma entrada de estoque será criada para ele.
 
-Once uncheck this checkbox for an Item, you can still select it in the BOM and Work Order, but no Stock Entries will be created against it.
 
+Depois que a Ordem de Serviço for salva, os dois campos a seguir também mostrarão a disponibilidade nos respectivos Armazéns na tabela Itens Necessários:
 
-Once the Work Order is saved the following two fields will also show the availability in the respective Warehouses in the Required Items table:
 
+* Quantidade disponível no armazém de origem
+* Quantidade disponível no armazém WIP
 
-* Available Qty at Source Warehouse
-* Available Qty at WIP Warehouse
 
+![Quantidade de material WO](/files/work-order-material-qty.png)
 
-![WO material Qty](/files/work-order-material-qty.png)
 
+### 3.2 Tabela de operações
 
-### 3.2 Operations table
 
+Os materiais podem ser transferidos mediante uma Ordem de Serviço ou um Cartão de Trabalho. Geralmente, isso é obtido na [lista de materiais](/docs/pt/manufacturing/bill-of-materials), mas você também pode alterá-lo na ordem de serviço. 
 
-Materials can be transferred against a Work Order or a Job Card. This is usually fetched from the [Bill Of Materials](/docs/pt/manufacturing/bill-of-materials), but you can change it in the Work Order also.
 
+O seguinte será obtido da BOM:
 
-The following will be fetched from the BOM:
 
+* Na tabela Operações: As Estações de Trabalho onde as Operações serão realizadas
+![PO Opeartions](/files/PO-Operations.png)
+* Na tabela Itens: As operações que serão realizadas nos Itens
+![PO reatribuindo operações](/files/PO-reassigning-operations.png)
 
-* In the Operations table: The Workstations where the Operations will be performed
-![PO Opeartions](/files/PO-operations.png)
-* In the Items table: The Operations which will be performed on the Items
-![PO reassigning Operations](/files/PO-reassigning-operations.png)
 
+Esses valores também podem ser alterados.
 
-These values can also be changed.
 
+Depois que a Ordem de Serviço for salva, os seguintes campos serão mostrados:
 
-Once the Work Order is saved the following fields will be shown:
 
+* **Quantidade concluída**: o número de itens nos quais esta operação foi realizada.
+* **Status**: se a operação está pendente, em andamento ou concluída. O status aqui é atualizado quando os cartões de trabalho são atualizados.
+* **Tempo de operação**: é obtido na lista técnica, mas pode ser alterado.
+* **Custo operacional planejado**: é calculado com base no tempo de operação, taxa horária, quantidade sendo fabricada, etc.
 
-* **Completed Qty**: The number of Items on which this Operation was performed.
-* **Status**: Whether the Operation is Pending, Work In Progress, or Completed. The status here is updated when the Job Cards are updated.
-* **Operation Time**: This is fetched from the BOM, but can be changed.
-* **Planned Operating Cost**: This is calculated based on the Operating Time, Hourly Rate, Quantity being manufactured, etc.
 
+O Tempo Real de Operação, o Custo Operacional Real, o Horário Real de Início e o Horário Real de Término são atualizados quando os Cartões de Trabalho são atualizados.
 
-The Actual Operation Time, Actual Operating Cost, Actual Start Time, and Actual End Time are updated when Job Cards are updated.
 
+### 3.3 Custo operacional
 
-### 3.3 Operation Cost
 
+Nesta seção, são mostrados os seguintes itens:
 
-In this section, the following are shown:
 
+* **Custo Operacional Planejado**: É obtido de acordo com a BOM e as Operações nela definidas.
+* **Custo Operacional Real**: É obtido dos Cartões de Trabalho com base nas Operações executadas nos Itens.
+* **Custo Operacional Adicional**: Quaisquer despesas adicionais que você possa ter incorrido durante a fabricação do Item podem ser adicionadas aqui.
+* **Custo operacional total**: é calculado como custo operacional real + custo operacional adicional.
 
-* **Planned Operating Cost**: This is fetched as per the BOM and the Operations defined in it.
-* **Actual Operating Cost**: This is fetched from the Job Cards based on the Operations run on the Items.
-* **Additional Operating Cost**: Any additional expenses you may have incurred when manufacturing the Item can be added here.
-* **Total Operating Cost**: This is calculated as Actual Operating Cost + Additional Operating Cost.
 
+Esses valores são calculados de acordo com os Cartões de Trabalho.
 
-These values are calculated as per the Job Cards.
 
+![Custos operacionais de ordem de serviço](/files/wo-operation-cost.png)
 
-![Work Order Operation Costs](/files/wo-operation-cost.png)
 
+### 3.4 Mais informações
 
-### 3.4 More Information
 
+Aqui a descrição do item e a UDM do estoque são mostradas para o item que está sendo fabricado.
 
-Here the Item Description and Stock UOM is shown for the Item being manufactured.
 
+Quando uma ordem de serviço é criada a partir de uma [solicitação de material](/docs/pt/stock/material-request), ela será mostrada aqui.
+### 3.5 Transferência de materiais para fabricação
 
-When a Work Order is created from a [Material Request](/docs/pt/stock/material-request), it'll be shown here.
 
+* Depois de enviar sua Ordem de Serviço, você precisará Transferir as Matérias-Primas para iniciar o Processo de Fabricação.
+* Isso criará uma entrada de estoque com todos os itens necessários para concluir esta ordem de serviço a serem adicionados ao armazém WIP. Isso adicionará os itens da submontagem como estão ou os explodirá para mostrar as matérias-primas, dependendo se você marcou 'Usar lista técnica multinível' ou não.
+* Clique em 'Iniciar'. Depois de clicar em Iniciar, os Cartões de Trabalho serão criados para as [Operações](/docs/pt/manufacturing/job-card) envolvidas.
 
-### 3.5 Transferring Materials for Manufacturing
 
+![Transferir materiais](/files/PO-material-transfer.png)
+* Mencione a quantidade de materiais a serem transferidos nesta execução.
 
-* Once you have submitted your Work Order, you need to Transfer the Raw Materials to initiate the Manufacturing Process.
-* This will create a Stock Entry with all the Items required to complete this Work Order to be added to the WIP Warehouse. This will add the sub-assembly Items as is or explode them to show the raw materials depending on whether you ticked 'Use Multi-Level BOM' or not.
-* Click on 'Start'. Once you click on Start, Job Cards will be created for the [Operations](/docs/pt/manufacturing/job-card) involved.
 
+![Quantidade de transferência de material](/files/PO-material-transfer-qty.png)
+* Você será direcionado para uma entrada de estoque para 'Transferência de material para fabricação'. Envie.
+* O material transferido para fabricação será atualizado na ordem de serviço com base na entrada de estoque.
 
-![Transfer Materials](/files/PO-material-transfer.png)
-* Mention the quantity of materials to be transferred in this run.
 
+![Entrada de estoque para PO](/files/PO-material-transfer-updated.png)
 
-![Material Transfer Qty](/files/PO-material-transfer-qty.png)
-* You'll be taken to a Stock Entry for 'Material Transfer for Manufacture'. Submit it.
-* Material Transferred for Manufacturing will be updated in the Work Order based on the Stock Entry.
 
+### 3.6 Transferência de materiais por meio de entrada em estoque
 
-![Stock Entry for PO](/files/PO-material-transfer-updated.png)
 
+Os casos de uso desta opção são:
 
-### 3.6 Material Transfer through Stock Entry
 
+* Se uma transferência de material for feita em massa e/ou não precisar ser rastreada em relação a uma ordem de serviço específica.
+* Se a responsabilidade pela transferência de material e entrada de produção for de dois usuários separados.
 
-Use cases for this option are:
 
+Se for esse o caso, você pode marcar a caixa de seleção 'Pular transferência de material', que permitirá fazer a entrada de estoque do tipo 'Fabricação' diretamente clicando no botão 'Concluir'.
 
-* If a material transfer is done in bulk and/or is not required to be tracked against a particular Work Order.
-* If the responsibility for Material Transfer and Production Entry lies with two separate Users.
 
+### 3.7 Criando cartões de trabalho
 
-If this is the case, you can tick the 'Skip Material Transfer' checkbox, which will allow you to make the Stock Entry of type 'Manufacture' directly by clicking on the ‘Finish’ button.
 
+* O progresso na ordem de serviço pode ser rastreado usando cartões de trabalho
+* Os rascunhos de cartões de trabalho são criados com base no momento em que uma ordem de serviço é enviada.
+* Para criar mais Cartões de Trabalho em uma Ordem de Serviço, clique no sinal de mais ao lado do Cartão de Trabalho no painel da Ordem de Serviço.
 
-### 3.7 Creating Job Cards
 
+Para saber mais sobre cartões de trabalho, visite [esta página](/docs/pt/manufacturing/job-card).
 
-* Progress in the Work Order can be tracked using Job Cards
-* Drafts of Job Cards are created based on when a Work Order is Submitted.
-* To create more Job Cards against a Work Order click on the plus sign next to Job Card on the Work Order dashboard.
 
+### 3.8 Atualizando produtos acabados
 
-To know more about Job Cards, visit [this page](/docs/pt/manufacturing/job-card).
 
+* Depois de concluir a Ordem de Serviço, você precisará atualizar os Produtos Acabados.
+* Isso criará uma entrada de estoque que deduzirá todos os itens e subconjuntos do Armazém WIP e os adicionará ao Armazém de Produtos Acabados.
+* Clique em 'Concluir'.
 
-### 3.8 Updating Finished Goods
 
+![Atualizar produtos acabados](/files/PO-FG-update.png)
+* Mencione a quantidade de materiais a serem transferidos.
 
-* Once you are done with the Work Order you need to update the Finished Goods.
-* This will create a Stock Entry that will deduct all the items and sub-assemblies from the WIP Warehouse and add them to the Finished Goods Warehouse.
-* Click on 'Finish'.
 
+> Dica: você também pode concluir parcialmente uma Ordem de Serviço atualizando o estoque de Produtos Acabados criando uma Entrada de Estoque.
 
-![Update Finished Goods](/files/PO-FG-update.png)
-* Mention the quantity of materials to be transferred.
 
+### 3.9 Planejamento de capacidade na ordem de serviço
 
-> Tip: You can also partially complete a Work Order by updating the Finished Goods stock creating a Stock Entry.
 
+* Quando uma Ordem de Serviço é enviada, com base na Data de Início Planejada e na disponibilidade das Estações de Trabalho, o sistema agenda todas as operações para a Ordem de Serviço (se a Ordem de Serviço tiver Operações especificadas).
+* Rascunhos de registros de tempo também são criados com base nas operações agendadas.
 
-### 3.9 Capacity Planning in Work Order
 
+Ao enviar a ordem de serviço, o sistema reservará um slot para cada uma das operações da ordem de serviço em série após a data de início planejada com base na disponibilidade da estação de trabalho. A disponibilidade da estação de trabalho depende dos horários da estação de trabalho, da lista de feriados e se alguma outra operação de ordem de serviço está agendada nesse horário.
 
-* When a Work Order is submitted, based on the Planned Start Date and the availability of the Workstations, the system schedules all operations for the Work Order (if Work Order has Operations specified).
-* Drafts of Time Logs are also created based on the scheduled operations.
 
+Você pode mencionar o número de dias para o sistema tentar agendar as operações nas Configurações de Fabricação. Isso é definido como 30 dias por padrão. Caso a operação exija tempo superior ao slot disponível, o sistema solicitará que você interrompa as operações. Assim que o agendamento for concluído, o sistema criará Registros de Tempo e os salvará. Você pode modificá-los e enviá-los mais tarde.
 
-On Submitting the Work Order, the system will reserve a slot for each of the Work Order Operations serially after the planned start date based on the Workstation availability. The Workstation availability depends on the Workstation timings, holiday list, and if some other Work Order Operation is scheduled in that slot.
 
+### 4.0 Interrupção de uma ordem de serviço
 
-You can mention the number of days for the system to try scheduling the operations in the Manufacturing Settings. This is set to 30 Days by default. If the operation requires time exceeding the available slot, the system will ask you to break the operations. Once the scheduling is done the system will create Time Logs and save them. You can Modify them and submit them later.
 
+Quando você interrompe uma Ordem de Serviço, seu status é alterado para Interrompido, indicando que todo o processo de produção dessa Ordem de Serviço foi interrompido. Porém, antes de interromper a ordem de serviço, o usuário deve certificar-se de que as matérias-primas que foram transferidas para o armazém de Trabalho em Andamento foram devolvidas ou não. Caso o usuário tenha tentado interromper a ordem de serviço sem devolver a matéria-prima, o sistema gerará o erro e não permitirá que o usuário interrompa a ordem de serviço.
 
-### 4.0 Stopping a Work Order
 
-
-When you stop a Work Order its status is changed to Stopped indicating that all production process against that Work Order has stopped. But before stopping the work order user has to make sure that the raw materials which were transferred to the Work In Progress warehouse have been returned or not. In case, if the user has tried to stop the work order without returning the raw materials then the system will throw the error and not allow the user to stop the work order.
-
-
-To stop a Work Order, click on the 'Stop' button.
+Para interromper uma ordem de serviço, clique no botão 'Parar'.
 
 
 ![PO-stop](/files/PO-stop.png)
 
 
-You can also re-open the stopped Work Order.
+Você também pode reabrir a ordem de serviço interrompida.
 
 
-![Reopen Work Order](/files/reopen-work-order.png)
+![Reabrir ordem de serviço](/files/reopen-work-order.png)
 
 
-### 4.1 Return Non Consumed Materials to the Stores from WIP Warehouse
+### 4.1 Devolver materiais não consumidos às lojas do armazém WIP
 
 
-If you have transferred extra materials to the Work In Progress warehouse and after completion of the work order you want to return it to the Store warehouse. Then you have to goto the Work Order and click on Return Components. After that system creates the return stock entry with type as Material Transfer for Manufacture.
+Se você transferiu materiais extras para o armazém de Trabalho em Andamento e após a conclusão da ordem de serviço deseja devolvê-los ao armazém da Loja. Então você tem que ir para a Ordem de Serviço e clicar em Devolver Componentes. Após esse sistema cria o lançamento de estoque de devolução com o tipo Transferência de Material para Fabricação.
 
 
-![Return Components](/files/return-components.png)
+![Componentes de retorno](/files/return-components.png)
 
 
-You can also checks the returned components against the work order using Work Order Consumed Materials report
+Você também pode verificar os componentes devolvidos em relação à ordem de serviço usando o relatório Materiais consumidos da ordem de serviço
 
 
-![Return Components Qty](/files/work-order-consumed-materials-returned-qty.png)
+![Quantidade de componentes de devolução](/files/work-order-consumed-materials-returned-qty.png)
 
 
-## 4. Video
-
-
-
+## 4. Vídeo
 
 
 
-## 5. Related Topics
 
 
-1. [Job Card](/docs/pt/manufacturing/job-card)
-2. [Pick List](/docs/pt/stock/pick-list#22-create-pick-list-from-work-order)
+
+## 5. Tópicos Relacionados
+
+
+1. [Cartão de trabalho](/docs/pt/manufacturing/job-card)
+2. [Lista de seleção](/docs/pt/stock/pick-list#22-create-pick-list-from-work-order)
+
 
 
 

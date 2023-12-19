@@ -2,7 +2,7 @@
 
 
 
-**Um pedido programado é um pedido de um cliente para fornecer materiais para itens específicos durante um período de tempo a preços pré-negociados.**
+**Um pedido de cobertura é um pedido de um cliente para fornecer materiais para itens específicos durante um período de tempo a preços pré-negociados.**
 
 
 A partir de um pedido programado, os pedidos de vendas podem ser gerados de acordo com a programação de entrega fornecida pelo cliente. Os pedidos programados ajudam os clientes a evitar o armazenamento de materiais em grandes quantidades, ao mesmo tempo que lhes permite aproveitar as taxas fixas ao comprometer volumes dentro de um período de tempo específico.
@@ -70,7 +70,7 @@ Depois que um pedido de cobertura for enviado, você poderá criar novas cotaç�
 Você pode visualizar pedidos de compra, pedidos de vendas e cotações referentes a esse pedido de cobertura por meio do Painel.
 
 
-![Painel de pedidos de cobertores](/files/blanket-order-dashboard.png)
+![Painel de pedidos de cobertor](/files/blanket-order-dashboard.png)
 
 
 **Observação:** vários pedidos de vendas, pedidos de compra e cotações podem ser criados em um pedido de cobertura.

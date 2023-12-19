@@ -6,7 +6,7 @@
 ```
 //restringe determinado armazém ao Material Manager
 cur_frm.cscript.custom_validate=função(doc){
-    if(frappe.user_roles.indexOf("Gerenciador de Materiais")==-1) {
+    if(frappe.user_roles.indexOf("Gerenciador de materiais")==-1) {
 
         var restrito_in_source = frappe.model.get_list("Detalhe de entrada de estoque",
             {parent:cur_frm.doc.name, s_warehouse:"Restrito"});

@@ -50,7 +50,7 @@ Isso especifica o intervalo de tempo que deve ser mantido entre duas operações
 ### Porcentagem de subsídio de produção excedente
 
 
-Ao criar Ordens de Serviço em relação a um Pedido de Vendas, o sistema permitirá apenas que a quantidade de itens de produção seja menor ou igual à quantidade no Pedido de Vendas. Caso você queira permitir que Ordens de Serviço sejam levantadas em maior quantidade, você pode mencionar aqui o Percentual de Superprodução.
+Ao criar Ordens de Serviço em relação a um Pedido de Venda, o sistema permitirá apenas que a quantidade de itens de produção seja menor ou igual à quantidade no Pedido de Venda. Caso você queira permitir que Ordens de Serviço sejam levantadas em maior quantidade, você pode mencionar aqui o Percentual de Superprodução.
 
 
 Exemplo: Em certos casos, uma Estação de Trabalho precisa fabricar 100 unidades para obter boa relação custo-benefício, mas a Ordem de Serviço pode ser de 50 unidades. Nesse caso, a porcentagem de subsídio de produção excessiva seria 100.

@@ -135,7 +135,7 @@ Algumas das contas a seguir serão definidas por padrão quando você criar uma 
 * Conta a pagar de relatório de despesas padrão
 * Centro de custo padrão
 * Limite de crédito
-* Modelo de condições de pagamento padrão
+* Modelo de termos de pagamento padrão
 
 
 ### 2.3 Configurações de estoque
@@ -172,7 +172,7 @@ Para gerenciar ativos fixos em uma empresa, são necessárias as seguintes conta
 ![Padrões de ativos fixos](/files/Padrões de ativos fixos.png)
 
 
-Se desejar contabilizar seus lançamentos contábeis em diferentes [Livros Financeiros](/docs/pt/accounts/finance-book), marque a caixa Ativar Livros Financeiros e definir um livro financeiro padrão.
+Se você deseja contabilizar seus lançamentos contábeis em diferentes [Livros Financeiros](/docs/pt/accounts/finance-book), marque a caixa Ativar Livros Financeiros e definir um livro financeiro padrão.
 
 
 ### 2.5 Configurações de HRA
@@ -184,7 +184,7 @@ Defina o componente padrão para os seguintes componentes salariais.
 > Para o usuário indiano, definir o valor padrão nesta seção ajudará nos cálculos da Declaração de Imposto do Funcionário, especialmente para o valor da isenção de HRA.
 
 
-* Componente Batico
+* Componente Básico
 * Componente HRA
 * Componente atrasado
 

@@ -5,7 +5,7 @@
 Para comprar um novo recurso:
 
 
-1. Criar uma categoria de recurso
+1. Criar uma categoria de recursos
 2. Crie um item relacionado com 'É ativo fixo' ativado para criar o ativo.
 3. Você também pode ativar a opção 'Criar ativos automaticamente na compra' para criar ativos automaticamente. (Opcional)
 
@@ -19,7 +19,7 @@ Para comprar um novo recurso:
 ![Comprar ativo](/files/asset-auto-create-on-purchase.png)
 
 
-Os seguintes lançamentos contábeis serão lançados no envio da entrada de recibo se a contabilidade do trabalho de capital em andamento estiver habilitada na categoria de ativo do ativo adquirido.
+Os seguintes lançamentos contábeis serão lançados no envio da entrada de recibo se a contabilidade de trabalho de capital em andamento estiver habilitada na categoria de ativo do ativo adquirido.
 
 
 ![Asset](/files/asset-purchase-receipt-gl-entries.png)

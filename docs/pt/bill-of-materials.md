@@ -1,229 +1,227 @@
-
-# Bill Of Materials
-
-
-
-**A Bill of Materials is a list of items and sub-assemblies with quantities required to manufacture an Item.**
-
-
-A BOM may also contain the manufacturing operations required to manufacture the Item.
-
-
-A **Bill of Materials** (BOM) is at the heart of the Manufacturing system and the most important document that will help to create other document types like Work Orders and Job Cards. ERPNext supports multi-level BOM. To know more, visit [this page](/docs/pt/manufacturing/articles/managing-multi-level-bom).
-
-
-The **BOM** is a list of all materials (either bought or made) and operations
-that go into manufacturing a finished product or sub-assembly. In ERPNext, each item (sub-assembly) could
-have its own BOM hence forming a tree of Items with multiple levels.
-
-
-![Work Order](/files/manufacturing-flow-bom.png)
-
-
-To make accurate Purchase Requests, you must always maintain correct BOMs.
-
-
-To access the BOM list, go to:
-> Home > Manufacturing > Bill of Materials > Bill of Materials
+# Lista de materiais
 
 
 
-> Note that once a BOM is submitted, it cannot be edited. You can only cancel the existing, duplicate it and submit another one. A BOM is also linked to multiple places in the Manufacturing module, so making changes to it can be time-consuming and tedious. Hence it is a good practice to carefully think and fill out the BOMs before submitting.
+**Uma lista de materiais é uma lista de itens e subconjuntos com as quantidades necessárias para fabricar um item.**
 
 
-## 1. Prerequisites
+Uma BOM também pode conter as operações de fabricação necessárias para fabricar o Item.
 
 
-Before creating and using a BOM, it is advised that you create the following first:
+Uma **lista de materiais** (BOM) está no centro do sistema de manufatura e é o documento mais importante que ajudará a criar outros tipos de documentos, como ordens de serviço e cartões de trabalho. ERPNext suporta BOM multinível. Para saber mais, visite [esta página](/docs/pt/manufacturing/articles/managing-multi-level-bom).
+
+
+A **BOM** é uma lista de todos os materiais (comprados ou fabricados) e operações
+que vão para a fabricação de um produto acabado ou subconjunto. No ERPNext, cada item (submontagem) poderia
+tem sua própria lista técnica, formando assim uma árvore de itens com vários níveis.
+
+
+![Ordem de serviço](/files/manufacturing-flow-bom.png)
+
+
+Para fazer solicitações de compra precisas, você deve sempre manter BOMs corretas.
+
+
+Para acessar a lista BOM, vá para:
+> Home > Fabricação > Lista de materiais > Lista de materiais
+
+
+
+> Observe que depois que uma BOM é enviada, ela não pode ser editada. Você só pode cancelar o existente, duplicá-lo e enviar outro. Uma BOM também está vinculada a vários locais no módulo de Manufatura, portanto, fazer alterações nela pode ser demorado e tedioso. Portanto, é uma boa prática pensar cuidadosamente e preencher as listas técnicas antes de enviá-las.
+
+
+## 1. Pré-requisitos
+
+
+Antes de criar e usar uma BOM, é aconselhável criar primeiro o seguinte:
 
 
 * [Item](/docs/pt/stock/item)
-* [Operation](/docs/pt/manufacturing/operation)
-* [Workstation](/docs/pt/manufacturing/workstation)
-* [Routing](/docs/pt/manufacturing/routing)
+* [Operação](/docs/pt/manufacturing/operation)
+* [Estação de trabalho](/docs/pt/manufacturing/workstation)
+* [Roteamento](/docs/pt/manufacturing/routing)
 
 
-## 2. How to create a Bill of Materials
+## 2. Como criar uma lista de materiais
 
 
-1. Go to the Bill of Materials list, click on New.
-2. Select the Item to be manufactured. The Item name, UoM, company, and currency will be fetched automatically.
-3. Enter the quantity of the Item that will be manufactured from this Bill of Materials.
-4. Under the Items table, select the raw materials (Items) required to manufacture the Item. Then proceed to:
+1. Vá para a lista Lista de materiais e clique em Novo.
+2. Selecione o item a ser fabricado. O nome do item, unidade de medida, empresa e moeda serão obtidos automaticamente.
+3. Insira a quantidade do Item que será fabricado a partir desta Lista de Materiais.
+4. Na tabela Itens, selecione as matérias-primas (Itens) necessárias para fabricar o Item. Então prossiga para:
 
 
-	1. Select the quantity of Raw Material used.
-	2. Set an Item operation here to be fetched in Work Orders later.
-	3. If this Item is a sub-assembly, the default BOM for it will be fetched.
-	4. Select the Source Warehouse to track inventory.
-	5. Enter the scrap percentage that will remain after this raw material is used.
-	![BOM Materials](/files/bom-materials.png)
-5. Under the Scrap section, select the scrap Item that will be created when manufacturing and its quantity. The scrap Item can also have a Rate if it is a by-product and not waste. Skip this section if 100% of raw materials are completely utilized. If the scrap Item is the same as the Item to be manufactured, it is set as a Process Loss Item and its quantity is subtracted from the manufactured Item quantity.
+	1. Selecione a quantidade de matéria-prima utilizada.
+	2. Defina aqui uma operação de Item para ser buscada posteriormente nas Ordens de Serviço.
+	3. Se este item for uma submontagem, a lista técnica padrão dele será buscada.
+	4. Selecione o armazém de origem para rastrear o inventário.
+	5. Insira o percentual de refugo que restará após a utilização desta matéria-prima.
+	![Materiais BOM](/files/bom-materials.png)
+5. Na seção Sucata, selecione o item de sucata que será criado durante a fabricação e sua quantidade. O Item de sucata também pode ter uma Taxa se for um subproduto e não um desperdício. Pule esta seção se 100% das matérias-primas forem totalmente utilizadas. Se o Item de refugo for igual ao Item a ser fabricado, ele é definido como Item de Perda de Processo e sua quantidade é subtraída da quantidade do Item fabricado.
 ![BOM Scrap](/files/bom-scrap.png)
-6. Save and Submit.
+6. Salvar e enviar.
 
 
-In the Items table, you'll see an option 'Include Item in Manufacturing'. Raw Materials need to have this checkbox ticked. In case there are Operations or services you need to include in the BOM that are not necessarily an Item used for manufacturing, uncheck this checkbox. For example, treating the plastic with a chemical involves some cost but it is not an Item and the cost needs to be tracked.
+Na tabela Itens, você verá a opção 'Incluir Item na Fabricação'. Matérias-primas precisam ter esta caixa de seleção marcada. Caso existam Operações ou serviços que você precise incluir na BOM que não sejam necessariamente um Item utilizado para fabricação, desmarque esta caixa de seleção. Por exemplo, tratar o plástico com um produto químico envolve algum custo, mas não é um Item e o custo precisa ser rastreado.
 
 
 ![Task](/files/bom-item-include.png)
 
 
-### 2.1 Bill of Materials with Operations
+### 2.1 Lista de materiais com operações
 
 
-To add [Operations](/docs/pt/manufacturing/operation) tick the 'With Operations' checkbox. Now, an Operations table can be seen. This option is useful for tracking the costing of various Operations performed to manufacture the [Item](/docs/pt/stock/item). Operations can be added easily by setting a template with the [Routing](/docs/pt/manufacturing/routing) master.
+Para adicionar [Operações](/docs/pt/manufacturing/operation) marque a caixa de seleção 'Com operações'. Agora, uma tabela de Operações pode ser vista. Esta opção é útil para rastrear o custo de diversas operações realizadas para fabricar o [Item](/docs/pt/stock/item). As operações podem ser adicionadas facilmente definindo um modelo com o mestre [Roteamento](/docs/pt/manufacturing/routing).
 
 
 ![Task](/files/bom-operations.png)
 
 
-1. In the “Operations” table, add the operations that need to be performed to manufacture this particular Item.
-2. For each operation, you will be asked to enter a [Workstation](/docs/pt/manufacturing/workstation) where the Operation will be performed. A default Workstation can be set from the [Operation](/docs/pt/manufacturing/operation) document.
-3. Enter the Operating Hourly Rate, Operation Time in minutes, and the Batch Size created with the Operation. The Operating Cost will be calculated based on these values.
+1. Na tabela “Operações”, adicione as operações que precisam ser realizadas para fabricar este item específico.
+2. Para cada operação, você será solicitado a inserir uma [Estação de trabalho](/docs/pt/manufacturing/workstation) onde a operação será executada. Uma estação de trabalho padrão pode ser definida no documento [Operação](/docs/pt/manufacturing/operation).
+3. Insira a taxa horária de operação, o tempo de operação em minutos e o tamanho do lote criado com a operação. O Custo Operacional será calculado com base nestes valores.
 
 
-> Note: Workstations are defined only for product costing and Work Order Operations scheduling purposes not tracking inventory. Inventory is tracked in [Warehouses](/docs/pt/stock/warehouse) set in the Items table of the BOM.
+> Observação: As estações de trabalho são definidas apenas para fins de cálculo de custos de produtos e agendamento de operações de ordens de serviço, não para rastreamento de estoque. O estoque é rastreado em [Armazéns](/docs/pt/stock/warehouse) definidos na tabela Itens da BOM.
 
 
-Transfer Material Against needs to be set for a BOM With Operations. Materials can be transferred against a [Work Order](/docs/pt/manufacturing/work-order) in bulk or individual [Job Cards](/docs/pt/manufacturing/job-card). Changing this affects whether the 'Material Transfer for Manufacture' is done against the Work Order at once or multiple times against the individual Job Cards. Setting this option depends on factors like time taken to manufacture the item, value of the items manufactured, number of parts used in manufacturing, the skill of your labor involved, etc.
+Transferir material contra precisa ser definido para uma lista técnica com operações. Os materiais podem ser transferidos de acordo com uma [Ordem de serviço](/docs/pt/manufacturing/work-order) em massa ou [Cartões de trabalho](/docs/v13/user individual/manual/en/manufacturing/job-card). Alterar isso afeta se a 'Transferência de material para fabricação' é feita na ordem de serviço de uma só vez ou várias vezes em relação aos cartões de trabalho individuais. Definir esta opção depende de fatores como o tempo necessário para fabricar o item, o valor dos itens fabricados, o número de peças utilizadas na fabricação, a habilidade do trabalho envolvido, etc.
 
 
-![BOM transfer materials against](/files/bom-transfer-materials.png)
+![BOM transfere materiais contra](/files/bom-transfer-materials.png)
 
 
-### 2.2 Additional options when creating a Bill of Materials
+### 2.2 Opções adicionais ao criar uma lista de materiais
 
 
-* **Is Active**: An Item could also be manufactured using an alternate set of materials/operations. In that case, uncheck this checkbox to disable this BOM and use another one.
-* **Is Default**: This BOM will be selected by default in Work Orders etc. when the Item selected.
-* **Inspection Required**: This will make 'Quality Inspection' mandatory for raw materials and the finished goods. Select the Quality Inspection Template after ticking this checkbox.
-* **Allow Alternative Item**: Sometimes when manufacturing a finished good, specific materials may not be available. If you tick this, you can create and select an alternative item from the Item Alternative list. For example, using plastic beads instead of plastic crystals. For more details visit [this page](/docs/pt/manufacturing/item-alternative).
-* **Allow Same Item Multiple Times**: In some manufacturing cases, the same item needs to be added twice. For example, two metal pipes of length 0.5m each to form another shape. Here the quantity cannot be simply set to 2 and be done since the UoM will show 1m as total but we need 0.5m + 0.5m in the form of two pipes for production. Ticking this checkbox allows you to select the same item multiple times.
-* **Set rate of sub-assembly item based on BOM**: Enabling this checkbox will set the rate of sub-assembly items based on their BOMs. If unchecked, the rate will be fetched from the Valuation Rate of the sub-assembly Item.
-* **Rate Of Materials Based On**: The Rate of raw materials used can be calculated based on different parameters.
+* **Está ativo**: um item também pode ser fabricado usando um conjunto alternativo de materiais/operações. Nesse caso, desmarque esta caixa de seleção para desativar esta BOM e usar outra.
+* **É padrão**: esta lista técnica será selecionada por padrão em ordens de serviço etc. quando o item for selecionado.
+* **Inspeção necessária**: Isso tornará a 'Inspeção de qualidade' obrigatória para matérias-primas e produtos acabados. Selecione o modelo de inspeção de qualidade após marcar esta caixa de seleção.
+* **Permitir item alternativo**: Às vezes, durante a fabricação de um produto acabado, materiais específicos podem não estar disponíveis. Se você marcar esta opção, poderá criar e selecionar um item alternativo na lista Alternativa de item. Por exemplo, usando contas de plástico em vez de cristais de plástico. Para obter mais detalhes, visite [esta página](/docs/pt/manufacturing/item-alternative).
+* **Permitir o mesmo item várias vezes**: em alguns casos de fabricação, o mesmo item precisa ser adicionado duas vezes. Por exemplo, dois tubos de metal com 0,5 m de comprimento cada para formar outro formato. Aqui a quantidade não pode ser simplesmente definida como 2 e feita, pois a UM mostrará 1m como total, mas precisamos de 0,5m + 0,5m na forma de dois tubos para produção. Marcar esta caixa de seleção permite selecionar o mesmo item várias vezes.
+* **Definir taxa de item de submontagem com base na BOM**: Ativar esta caixa de seleção definirá a taxa de itens de submontagem com base em suas BOMs. Se desmarcada, a taxa será obtida a partir da Taxa de Avaliação do Item da submontagem.
+* **Taxa de materiais baseada em**: A taxa de matérias-primas utilizadas pode ser calculada com base em diferentes parâmetros.
 
 
-	+ **Valuation Rate**: The Valuation Rate set in the [Item master](/docs/pt/stock/item).
-	+ **Last Purchase Rate**: The Rate is fetched from the last Sales [Order](/docs/pt/selling/sales-order)/[Invoice](/docs/pt/accounts/sales-invoice).
-	+ **Price List**: The Rate will be fetched from the [Item Price](/docs/pt/stock/item-price).
-	For more details, visit [this page](/docs/pt/manufacturing/articles/valuation-based-on-field-in-bom).
+	+ **Taxa de avaliação**: a taxa de avaliação definida no [Mestre de itens](/docs/pt/stock/item).
+	+ **Taxa da última compra**: a taxa é obtida do último [pedido](/docs/pt/selling/sales-order) de vendas/[Fatura](/docs/pt/accounts/sales-invoice).
+	+ **Lista de preços**: A taxa será obtida no [Preço do item](/docs/pt/stock/item-price).
+	Para obter mais detalhes, visite [esta página](/docs/pt/manufacturing/articles/valuation-based-on-field-in-bom).
 
 
-## 3. Features
+## 3. Recursos
 
 
-### 3.1 BOM Costing
+### 3.1 Custo da lista de materiais
 
 
-The Costing section in a BOM gives an approximate cost of manufacturing the Item.
+A seção Custos em uma lista técnica fornece um custo aproximado de fabricação do item.
 
 
-The costing is calculated from the Valuation Rate of the raw materials/sub-assemblies involved and the Operation costs.
+O custeio é calculado a partir da Taxa de Avaliação das matérias-primas/subconjuntos envolvidos e dos custos da Operação.
 
 
 ![Costing](/files/bom-costing.png)
 
 
-In case the BOM was submitted when the costs for Items/Operations were not updated, you can update the costs using the **Update Cost** button. This will fetch the latest price/costs.
+Caso a BOM tenha sido enviada quando os custos de Itens/Operações não foram atualizados, você pode atualizar os custos usando o botão **Atualizar Custo**. Isso irá buscar os preços/custos mais recentes.
 
 
-![Update Cost](/files/bom-update-cost.png)
+![Custo de atualização](/files/bom-update-cost.png)
 
 
-The BOM cost can also be set to be updated automatically via Manufacturing Settings, 'Update BOM Cost Automatically' option.
+O custo da BOM também pode ser configurado para ser atualizado automaticamente nas Configurações de fabricação, opção 'Atualizar custo da BOM automaticamente'.
 
 
-### 3.2 Materials Required (Exploded)
+### 3.2 Materiais necessários (explodidos)
 
 
-This table lists down all the raw materials required to manufacture an Item. It also fetches raw materials for the sub-assemblies along with the quantities. The non-exploded table will not list the raw materials required for producing the sub-assemblies.
+Esta tabela lista todas as matérias-primas necessárias para fabricar um item. Também busca matéria-prima para os subconjuntos junto com as quantidades. A tabela não explodida não listará as matérias-primas necessárias para a produção dos subconjuntos.
 
 
-For example, to manufacture a plastic shaving brush you need some raw materials and the bristles as a sub-assembly. For the handle, you manufacture your own plastic, but for the bristles, you use raw plastic crystals.
+Por exemplo, para fabricar um pincel de barbear de plástico são necessárias algumas matérias-primas e as cerdas como subconjunto. Para o cabo você fabrica seu próprio plástico, mas para as cerdas você usa cristais de plástico bruto.
 
 
-![Exploded Section](/files/bom-exploded.png)
+![Seção Explodida](/files/bom-exploded.png)
 
 
-#### 3.2.1 Do Not Explode
+#### 3.2.1 Não explodir
 
 
-If user wants to exclude the exploded items then they have to enable the checkbox "Do Not Explode" in the BOM Item table. 
+Se o usuário quiser excluir os itens explodidos, ele deverá ativar a caixa de seleção "Não explodir" na tabela de itens da BOM. 
 
 
-##### Use Case:
+##### Caso de uso:
 
 
-* Laptop
-	+ Motherboard (Kept in stock)
-	+ Keyboard
+* Computador portátil
+	+ Placa-mãe (mantida em estoque)
+	+ Teclado
 
 
-A company manufacture the Laptop which required two sub-assembly items as Motherboard and Keyboard. The company does the manufacturing once they received the order from the customer. The Manufacturing Time required for the Motherboard is more than the Keyboard, therefore the company does the manufacturing of the Motherboard individually irrespective of the sales orders and kept in the stock. As the item Motherboard is already in stock it helps to reduce the overall Manufacturing Time of the main item Laptop.
-Now while preparing the BOM for the Laptop in the ERPNext, they don't want to Explode the BOM of the item Motherboard but they want to Explode the BOM of the item Keyboard. Therefore we have added the checkbox "Do Not Explode" for the BOM Item. With this user will enable the checkbox "Do Not Explode" for the item Motherboard and not for the item Keyboard.
+Uma empresa fabricava o Laptop que exigia dois itens de submontagem como Placa-Mãe e Teclado. A empresa faz a fabricação assim que recebe o pedido do cliente. O Tempo de Fabricação da Placa-mãe é maior que o do Teclado, portanto a empresa faz a fabricação da Placa-mãe individualmente independente dos pedidos de venda e mantida em estoque. Como o item Placa-mãe já está em estoque ajuda a reduzir o Tempo geral de Fabricação do item principal Laptop.
+Agora enquanto preparam a BOM para o Laptop no ERPNext, eles não querem Explodir a BOM do item Placa-Mãe mas querem Explodir a BOM do item Teclado. Portanto, adicionamos a caixa de seleção "Do Not Explode" para o item da BOM. Com isso o usuário irá habilitar o checkbox “Do Not Explode” para o item Placa Mãe e não para o item Teclado.
 
 
-![Exploded Section](/files/dont_explode_items.png)
+![Seção Explodida](/files/dont_explode_items.png)
 
 
-### 3.3 Project and Website
+### 3.3 Projeto e site
 
 
-The BOM can be linked to a [Project](/docs/pt/projects) to track progress, Project costing, etc. In case of engineer to order, every order could be a [Project](/docs/pt/projects/project) and the sub-assemblies would be [Tasks](/docs/pt/projects/tasks). The completion can be tracked by linking to a Project in that case.
+A lista técnica pode ser vinculada a um [Projeto](/docs/pt/projects) para acompanhar o progresso, custos do projeto, etc. cada pedido poderia ser um [Projeto](/docs/pt/projects/project) e os subconjuntos seriam [Tarefas](/docs/v13/user/manual/pt/projetos/tarefas). Nesse caso, a conclusão pode ser rastreada vinculando-se a um projeto.
 
 
-The BOM can also be shown in the [Website](/docs/pt/website) for Open-source hardware products. Open-source hardware is similar to open-source where the product specifications are listed publicly.
+A BOM também pode ser mostrada no [Site](/docs/pt/website) para produtos de hardware de código aberto. O hardware de código aberto é semelhante ao código aberto, onde as especificações do produto são listadas publicamente.
 
 
-### 3.4 BOM Template
+### 3.4 Modelo de BOM
 
 
-![BOM Template](/files/bom-template.png)
+![Modelo BOM](/files/bom-template.png)
 
 
-With BOM template you can create BOMs for template items (against which you create variant items). These BOMs can be used as the default BOM while making Work Orders against the template Item's variants. You can also add the template items as raw materials in the template BOM. While making Work Order from the BOM Template, ERPNext gives provision to select the Item Variant against the template Item, for more details check following screenshot.
+Com o modelo de BOM você pode criar BOMs para itens de modelo (com base nos quais você cria itens variantes). Essas BOMs podem ser usadas como BOM padrão ao criar Ordens de Serviço em relação às variantes do item do modelo. Você também pode adicionar os itens do modelo como matéria-prima na lista técnica do modelo. Ao fazer a Ordem de Serviço a partir do Modelo de BOM, o ERPNext permite selecionar a Variante do Item em relação ao Item do modelo, para mais detalhes verifique a captura de tela a seguir.
 
 
-![Variant Selection](/files/variant-selection-against-template.png)
+![Seleção de variante](/files/variant-selection-against-template.png)
 
 
-The user can also make the BOM for the variant item using the template BOM. To make the variant BOM:
+O usuário também pode criar a lista técnica para o item variante usando o modelo de lista técnica. Para criar a lista técnica da variante:
 
 
-* Go to the BOM Template.
-* Click on **Create** button.
-* Click on Variant BOM.
-* Select the Variant Item for which you want to make the BOM.
-* If the raw materials in the BOM is a template Item, then system gives provision to select the Item Variant.
+* Acesse o modelo de BOM.
+* Clique no botão **Criar**.
+* Clique na BOM da variante.
+* Selecione o item variante para o qual deseja criar a lista técnica.
+* Se a matéria-prima na lista técnica for um item de modelo, o sistema permite selecionar a variante do item.
 
 
-![Variant BOM](/files/variant-bom.png)
+![Variante BOM](/files/variant-bom.png)
 
 
-### 3.5 After Submitting
+### 3.5 Após o envio
 
 
-Once the BOM is submitted, the following document types can be created against the BOM from the Dashboard:
+Depois que a BOM for enviada, os seguintes tipos de documentos poderão ser criados na BOM no Painel:
 
 
 ![BOM submit](/files/bom-submit.png)
 
 
-## 4. Video
+## 4. Vídeo
 
 
 
 
 
 
-### 5. Related Topics
+### 5. Tópicos Relacionados
 
 
-1. [Scrap Management](/docs/pt/manufacturing/articles/scrap-management)
-2. [Material Consumption](/docs/pt/manufacturing/articles/material_consumption)
-3. [Nested BOM Structure](/docs/pt/manufacturing/articles/managing-multi-level-bom)
-
+1. [Gerenciamento de sucata](/docs/pt/manufacturing/articles/scrap-management)
+2. [Consumo de materiais](/docs/pt/manufacturing/articles/material_consumption)
+3. [Estrutura de BOM aninhada](/docs/pt/manufacturing/articles/managing-multi-level-bom)
 
 
 

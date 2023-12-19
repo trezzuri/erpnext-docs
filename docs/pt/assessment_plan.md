@@ -41,7 +41,7 @@ Antes de criar um Plano de Avaliação, é aconselhável que você crie primeiro
 Além dos campos obrigatórios, você também pode adicionar os seguintes detalhes ao plano de avaliação:
 
 
-1. **Nome da Avaliação**: Insira o nome da avaliação que será realizada. Por exemplo, Avaliação para Curso Batico IV de Economia, Período I.
+1. **Nome da Avaliação**: Insira o nome da avaliação que será realizada. Por exemplo, Avaliação para Curso Básico IV de Economia, Período I.
 2. **Programa**: selecione o programa sob o qual a avaliação foi realizada.
 3. **Ano Acadêmico e Período Acadêmico**: Selecione e insira o Ano Acadêmico e o Ano Acadêmico para o qual a Avaliação está sendo feita.
 

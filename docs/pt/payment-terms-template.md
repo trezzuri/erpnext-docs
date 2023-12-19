@@ -40,7 +40,7 @@ Você deve usar use-o se você tiver um conjunto de condições de pagamento pad
 Se 'Alocar pagamento com base em termos de pagamento' estiver habilitado em um modelo, os pagamentos feitos na fatura através de Criar->Pagamento terão alocação baseada nos Termos.
 
 1. Modelo com 'Alocar pagamento com base nas condições de pagamento' ativado. ![Screenshot 2023-08-01 às 10h30.32](/files/Screenshot 2023-08-01 às 10h30.32.png "Screenshot 2023-08-01 às 10h30.32.png")
-2. Fatura feita acima modelo. ![Screenshot 2023-08-01 às 10.32.01 AM](/files/Screenshot 2023-08-01 às 10.32.01 AM.png "Screenshot 2023-08-01 às 10.32.01 AM.png")
-3. Pagamento criado acima fatura. ![Screenshot 2023-08-01 às 10h32.31](/files/Screenshot 2023-08-01 às 10h32.31.png "Screenshot 2023-08-01 às 10h32.31.png")
+2. Fatura feita acima modelo. ![Screenshot 01/08/2023 às 10/32/01](/files/Screenshot 01/08/2023 às 10/32/01.png "Screenshot 2023-08-01 às 10.32.01 AM.png")
+3. Pagamento criado acima fatura. ![Screenshot 2023-08-01 às 10h32.31](/files/Screenshot 2023-08-01 às 10h32.31.png "Screenshot 01/08/2023 às 10h32.31.png")
 
 

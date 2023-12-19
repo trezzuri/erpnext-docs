@@ -14,7 +14,7 @@ as pessoas acessam seu site e querem ler sobre você e seu produto.
 
 
 Para acessar a postagem do blog, acesse:
-> Página inicial > Site > Blog > Postagem no blog
+> Página inicial > Site > Blog > Postagem do blog
 
 
 ## 1. Como criar uma postagem no blog

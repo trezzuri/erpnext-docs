@@ -2,7 +2,7 @@
 
 
 
-Os vários relatórios no módulo de suporte ajudam a compreender os dados sobre a rapidez com que a equipe de suporte respondeu aos problemas dos clientes, os tipos de problemas, as prioridades dos problemas, os prazos e muito mais.
+Os vários relatórios no módulo de suporte ajudam a compreender os dados sobre a rapidez com que a equipe de suporte respondeu aos problemas dos clientes, os tipos de problemas, as prioridades dos problemas, os cronogramas e muito mais.
 
 
 ## 1. Tempo de primeira resposta para problemas

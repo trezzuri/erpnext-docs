@@ -21,10 +21,10 @@ Você pode usar suas contas GST atuais com o tipo "Saída" e criar novas contas 
 ![new settings](/files/new-settings.png)
 
 
-Agora, caso você ainda queira ver o saldo líquido do GST em uma única conta, um lançamento contábil manual pode ser lançado para mover o saldo para a conta GST de entrada e o saldo final fornecerá o GST a pagar.
+Agora, caso você ainda queira ver o saldo líquido do GST em uma única conta, um lançamento contábil manual pode ser lançado para mover o saldo para a conta GST de entrada e o saldo final lhe dará o GST a pagar.
 
 
-###  Cenário 2: você tem várias contas GST com base em taxas ou talvez estados e suas configurações de GST são mostradas abaixo
+###  Cenário 2: você tem várias contas GST com base na taxa ou talvez nos estados e suas configurações de GST são mostradas abaixo
 
 
 ![conta multipe](/files/multipe-account.png)

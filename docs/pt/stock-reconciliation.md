@@ -141,7 +141,7 @@ Os exemplos são os seguintes.
 
 Considere um item com o código 'ABC001' em um depósito em 'Mumbai'.
 Vamos supor que o estoque em 10 de janeiro seja de 100 unidades.
-A reconciliação de estoque é feita no dia 12 de janeiro para definir o saldo de estoque em 150 unidades.
+A reconciliação de estoque é feita no dia 12 de janeiro para definir o saldo do estoque em 150 unidades.
 
 
 O livro razão de estoque ficaria conforme mostrado abaixo:
@@ -158,8 +158,6 @@ O livro razão de estoque ficaria conforme mostrado abaixo:
  borda: 1px preto sólido;
  colapso da fronteira: colapso;
  }
-
-
 
 
 
@@ -217,9 +215,7 @@ O saldo de stocks após apresentação da reconciliação de stocks:
 ![Reconciliação de estoque](/files/stock_balance_after_stock_reco_submission.png)
 
 O razão geral da conta de armazém Nagpur após a apresentação da reconciliação de estoque:
-![Reconciliação de estoque](/files/general_ledger_after_stock_reco_submission.png)
-
-### 4.3 Para itens em lote
+![Reconciliação de estoque](/files/general_ledger_after_stock_reco_submission.png)### 4.3 Para itens em lote
 
 A reconciliação de estoque para itens de lote será usada para adicionar um novo lote ou para atualizar a quantidade do lote existente. Por exemplo, o lote JHGJH00003 tem a quantidade atual de 60, mas se o usuário quiser aumentar para 100, usando a reconciliação de estoque, o usuário pode atualizar a quantidade do lote.
 

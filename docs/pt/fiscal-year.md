@@ -1,4 +1,4 @@
-# Ano Fiscal
+# Ano fiscal
 
 
 
@@ -22,7 +22,7 @@ Para acessar a lista do Ano Fiscal, acesse:
 
 
 > 
-> Página inicial > Contabilidade > Configuração > Ano Fiscal
+> Página inicial > Contabilidade > Configuração > Ano fiscal
 > 
 > 
 > 

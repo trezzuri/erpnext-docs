@@ -39,13 +39,13 @@ Também exigiremos os nomes das variáveis ​​de todos os campos dentro da ta
 
 {% para linha em doc.items %}
 
-* Código do item: &lcub;&lcub; row.get\\_formatted("item\\_code", doc) }}
+* Código do item: &lcub;&lcub; row.get\_formatted("item\_code", doc) }}
 
-Quantidade: &lcub;&lcub; row.get\\_formatted("qty", doc) }}
+Quantidade: &lcub;&lcub; row.get\_formatted("qty", doc) }}
 
-Taxa: &lcub;&lcub; row.get\\_formatted("taxa", doc) }}
+Taxa: &lcub;&lcub; row.get\_formatted("taxa", doc) }}
 
-Valor: &lcub;&lcub; row.get\\_formatted("quantia", doc) }}
+Valor: &lcub;&lcub; row.get\_formatted("quantia", doc) }}
 
 
 {% fim para %}

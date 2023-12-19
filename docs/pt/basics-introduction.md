@@ -5,7 +5,7 @@
 As empresas têm grande parte de seus recursos financeiros investidos nos itens de estoque que comercializam. Com o ERPNext, você sempre pode ter uma visão geral da disponibilidade de estoque, reposição, compras, vendas e muito mais.
 
 
-## 1. Transações de ações baticas
+## 1. Transações de ações básicas
 
 
 Existem três tipos **principais** de entradas:

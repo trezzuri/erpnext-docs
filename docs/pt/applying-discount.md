@@ -41,7 +41,7 @@ Se um Desconto for aplicado ao **Total Líquido**, a Taxa Líquida e o Valor Lí
 ### 2.2 Desconto no "Total Geral"
 
 
-Se um desconto for aplicado com base no **total geral**, com a taxa líquida do item, o valor líquido e os impostos também serão recalculados de acordo com o valor do desconto.
+Se um desconto for aplicado com base no **total geral**, então, com a taxa líquida do item, o valor líquido e os impostos também serão recalculados de acordo com o valor do desconto.
 
 
 ![Desconto no total geral](/files/discount-on-grand-total.png)

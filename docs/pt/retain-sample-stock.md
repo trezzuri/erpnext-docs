@@ -1,4 +1,4 @@
-# Retenção de estoque de amostra
+# Retenção de estoque de amostras
 
 
 

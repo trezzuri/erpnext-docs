@@ -122,7 +122,7 @@ Se você já tem membros, você pode importá-los usando a [Ferramenta de import
 Você precisa importar membros com os seguintes campos.
 
 
-1. **Nome do membro**: nome completo do membro
+1. **Nome do membro**: Nome completo do membro
 2. **Tipo de adesão**: nome do plano ao qual está inscrito
 3. **Endereço de e-mail**: ID de e-mail usado para transações Razorpay
 4. **ID da assinatura**: ID da assinatura fornecido pelo RazorPay
@@ -217,7 +217,7 @@ Na criação bem-sucedida, um membro e um cliente serão criados automaticamente
 {
     'subscription_details': {
         'plan_id': 'plan_EXwyxDYDCj3X4v',
-        'cliente_notify': 1
+        'customer_notify': 1
     },
     'subscrição_id': 'sub_EZycCvXFvqnC6p'
 }

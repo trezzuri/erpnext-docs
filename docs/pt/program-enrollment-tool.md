@@ -14,8 +14,8 @@ Para acessar a Ferramenta de Inscrição no Programa, acesse:
 ## 1. Como criar matrícula de alunos usando a ferramenta de matrícula de alunos
 
 
-1. **Obter alunos de**: se você estiver matriculando um novo aluno, poderá buscar os alunos no **Student Candidant** ou, se estiver promovendo os alunos mais antigos, poderá buscá-los na própria **inscrição no programa**.
-2. **Ano Acadêmico**: Insira o Ano Acadêmico para o qual os novos alunos se inscreveram ou no qual os alunos existentes foram matriculados.
+1. **Obter alunos de**: se você estiver matriculando um novo aluno, poderá buscar os alunos no **Student Candidant** ou, se estiver promovendo os alunos mais antigos, poderá buscá-los. na própria **inscrição no programa**.
+2. **Ano Letivo**: Insira o Ano Letivo para o qual os novos alunos se inscreveram ou no qual os alunos existentes foram matriculados.
 3. **Período Acadêmico**: Insira o Período Acadêmico para o qual os novos alunos se inscreveram ou sob o qual os alunos existentes foram matriculados.
 4. **Programa**: insira o programa para o qual os novos alunos se inscreveram ou no qual os alunos existentes estavam matriculados.
 

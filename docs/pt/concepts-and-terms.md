@@ -1,63 +1,58 @@
-
-# Concepts and Terms
-
-
-
-Before you start implementation, lets get familiar with the terminology that
-is used and some basic concepts in ERPNext.
+# Conceitos e Termos
 
 
 
-
----
-
-
-### Basic Concepts
+Antes de iniciar a implementação, vamos nos familiarizar com a terminologia que
+é usado e alguns conceitos básicos no ERPNext.
 
 
-#### Company
+
+### Conceitos Básicos
 
 
-This represents the Company records for which ERPNext is setup. With this same
-setup, you can create multiple Company records, each representing a different
-legal entity. The accounting for each Company will be different, but they will
-share the Customer, Supplier and Item records.
+#### Empresa
+
+
+Isto representa os registros da Empresa para os quais o ERPNext está configurado. Com este mesmo
+configuração, você pode criar vários registros de empresa, cada um representando um diferente
+entidade legal. A contabilização de cada Empresa será diferente, mas
+compartilhar os registros de Cliente, Fornecedor e Item.
 
 
 
 > 
-> Setup > Company
+> Configuração > Empresa
 > 
 > 
 > 
 
 
-#### Customer
+#### Cliente
 
 
-Represents a customer. A Customer can be an individual or an organization.
-You can create multiple Contacts and Addresses for each Customer.
-
-
-
-> 
-> Selling > Customer
-> 
-> 
-> 
-
-
-#### Supplier
-
-
-Represents a supplier of goods or services. Your telephone company is a
-Supplier, so is your raw materials Supplier. Again, a Supplier can be an
-individual or an organization and has multiple Contacts and Addresses.
+Representa um cliente. Um Cliente pode ser um indivíduo ou uma organização.
+Você pode criar vários contatos e endereços para cada cliente.
 
 
 
 > 
-> Buying > Supplier
+> Venda > Cliente
+> 
+> 
+> 
+
+
+#### Fornecedor
+
+
+Representa um fornecedor de bens ou serviços. Sua companhia telefônica é uma
+Fornecedor, seu fornecedor de matérias-primas também. Novamente, um Fornecedor pode ser um
+indivíduo ou organização e possui vários contatos e endereços.
+
+
+
+> 
+> Compra > Fornecedor
 > 
 > 
 > 
@@ -66,235 +61,227 @@ individual or an organization and has multiple Contacts and Addresses.
 #### Item
 
 
-A Product, sub-product or Service that is either bought, sold or manufactured
-and is uniquely identified.
+Um produto, subproduto ou serviço que é comprado, vendido ou fabricado
+e é identificado exclusivamente.
 
 
 
 > 
-> Stock > Item
-> 
-> 
-> 
-
-
-#### Account
-
-
-An Account is a heading under which financial and business transactions are
-carried on. Examples of accounts are "Debtors", "Creditors", "VAT Payable", “Travel Expenses”, "Sales", "Share Capital", etc. ERPNext keeps track of your customers' and
-suppliers' balances in the background, so you don't need to create dedicated Accounts for them.
-
-
-
-> 
-> Accounting > Chart of Accounts
+> Estoque > Item
 > 
 > 
 > 
 
 
-#### Address
+#### Conta
 
 
-An address represents location details of a Customer or Supplier. These can be
-of different locations such as Head Office, Factory, Warehouse, Shop etc.
-
-
-
-> 
-> Selling > Address
-> 
-> 
-> 
-
-
-#### Contact
-
-
-An individual Contact belongs to a Customer or Supplier or is just an
-independent. A Contact has a name and contact details like email and phone
-number.
+Uma conta é um título sob o qual as transações financeiras e comerciais são
+continuou. Exemplos de contas são "Devedores", "Credores", "IVA a Pagar", "Despesas de Viagem", "Vendas", "Capital Social", etc.
+os saldos dos fornecedores em segundo plano, para que você não precise criar contas dedicadas para eles.
 
 
 
 > 
-> Selling > Contact
+> Contabilidade > Plano de contas
 > 
 > 
 > 
 
 
-#### Communication
+#### Endereço
 
 
-A list of all Communication with a Contact or Lead. All emails sent from the
-system are added to the Communication table.
-
-
-
-> 
-> Support > Communication
-> 
-> 
-> 
-
-
-#### Price List
-
-
-A Price List is a place where different rate plans can be stored. It’s a name
-you give to a set of Item Prices stored under a particular List.
+Um endereço representa detalhes de localização de um Cliente ou Fornecedor. Estes podem ser
+de diferentes locais, como sede, fábrica, armazém, loja, etc.
 
 
 
 > 
-> Selling > Price List
+> Venda > Endereço
 > 
 > 
 > 
 
 
+#### Contato
+
+
+Um Contato individual pertence a um Cliente ou Fornecedor ou é apenas um
+independente. Um contato tem um nome e detalhes de contato, como e-mail e telefone
+número.
+
+
 
 > 
-> Buying > Price List
+> Venda > Contato
+> 
+> 
+> 
+
+
+#### Comunicação
+
+
+Uma lista de todas as comunicações com um contato ou lead. Todos os e-mails enviados do
+sistema são adicionados à tabela Comunicação.
+
+
+
+> 
+> Suporte > Comunicação
+> 
+> 
+> 
+
+
+#### Lista de preços
+
+
+Uma Lista de Preços é um local onde diferentes planos de tarifas podem ser armazenados. É um nome
+você dá a um conjunto de preços de itens armazenados em uma lista específica.
+
+
+
+> 
+> Venda > Lista de Preços
 > 
 > 
 > 
 
 
 
-
----
-
-
-### Accounting
-
-
-#### Fiscal Year
-
-
-Represents a Financial Year or Accounting Year. You can operate multiple
-Fiscal Years at the same time. Each Fiscal Year has a start date and an end
-date and transactions can only be recorded in this period. When you “close” a
-fiscal year, it's balances are transferred as “opening” balances for the next
-fiscal year.
-
-
-
 > 
-> Setup > Company > Fiscal Year
-> 
-> 
-> 
-
-
-#### Cost Center
-
-
-A Cost Center is like an Account, but the only difference is that its
-structure represents your business more closely than Accounts.
-For example, in your Chart of Accounts, you can separate your expenses by its type
-(i.e., travel, marketing, etc.). In your Chart of Cost Centers, you can separate
-them by product line or business group (e.g., online sales, retail sales, etc.).
-
-
-
-> 
-> Accounting > Chart of Cost Centers
-> 
-> 
-> 
-
-
-#### Journal Entry
-
-
-A document that contains General Ledger (GL) entries and the sum of Debits and
-Credits of those entries is the same. In ERPNext you can update Payments,
-Returns, etc., using Journal Entries.
-
-
-
-> 
-> Accounting > Journal Entry
-> 
-> 
-> 
-
-
-#### Sales Invoice
-
-
-A bill sent to Customers for delivery of Items (goods or services).
-
-
-
-> 
-> Accounting > Sales Invoice
-> 
-> 
-> 
-
-
-#### Purchase Invoice
-
-
-A bill sent by a Supplier for delivery of Items (goods or services).
-
-
-
-> 
-> Accounting > Purchase Invoice
-> 
-> 
-> 
-
-
-#### Currency
-
-
-ERPNext allows you to book transactions in multiple currencies. There is only
-one currency for your book of accounts though. While posting your Invoices with
-payments in different currencies, the amount is converted to the default
-currency by the specified conversion rate.
-
-
-
-> 
-> Setup > Currency
+> Compra > Lista de preços
 > 
 > 
 > 
 
 
 
-
----
-
-
-### Selling
+### Contabilidade
 
 
-#### Customer Group
+#### Ano fiscal
 
 
-A classification of Customers, usually based on market segment.
+Representa um exercício financeiro ou exercício contábil. Você pode operar vários
+Exercícios Fiscais ao mesmo tempo. Cada ano fiscal tem uma data de início e uma data de término
+data e as transações só podem ser registradas neste período. Quando você “fecha” um
+exercício fiscal, seus saldos são transferidos como saldos de “abertura” para o próximo
+ano fiscal.
 
 
 
 > 
-> Selling > Setup > Customer Group
+> Configuração > Empresa > Ano Fiscal
 > 
 > 
 > 
 
 
-#### Lead
+#### Centro de Custo
 
 
-A person who could be a future source of business. A Lead may generate
-Opportunities. (from: “may lead to a sale”).
+Um Centro de Custo é como uma Conta, mas a única diferença é que seu
+A estrutura representa seu negócio mais de perto do que as Contas.
+Por exemplo, no seu Plano de Contas, você pode separar suas despesas por tipo
+(ou seja, viagens, marketing, etc.). No seu Gráfico de Centros de Custo você pode separar
+por linha de produto ou grupo de negócios (por exemplo, vendas on-line, vendas no varejo, etc.).
+
+
+
+> 
+> Contabilidade > Gráfico de Centros de Custo
+> 
+> 
+> 
+
+
+#### Lançamento de diário
+
+
+Um documento que contém entradas do Razão Geral (GL) e a soma de Débitos e
+Os créditos dessas entradas são os mesmos. No ERPNext você pode atualizar Pagamentos,
+Devoluções, etc., usando lançamentos contábeis manuais.
+
+
+
+> 
+> Contabilidade > Lançamento contábil manual
+> 
+> 
+> 
+
+
+#### Fatura de vendas
+
+
+Uma fatura enviada aos Clientes pela entrega de Itens (bens ou serviços).
+
+
+
+> 
+> Contabilidade > Fatura de vendas
+> 
+> 
+> 
+
+
+#### Fatura de compra
+
+
+Uma fatura enviada por um Fornecedor para entrega de Itens (bens ou serviços).
+
+
+
+> 
+> Contabilidade > Fatura de compra
+> 
+> 
+> 
+
+
+#### Moeda
+
+
+ERPNext permite que você reserve transações em múltiplas moedas. Existe apenas
+uma moeda para o seu livro de contas. Ao postar suas faturas com
+pagamentos em moedas diferentes, o valor é convertido para o padrão
+moeda pela taxa de conversão especificada.
+
+
+
+> 
+> Configuração > Moeda
+> 
+> 
+> 
+
+
+
+### Venda
+
+
+#### Grupo de clientes
+
+
+Uma classificação de Clientes, geralmente baseada no segmento de mercado.
+
+
+
+> 
+> Vendas > Configuração > Grupo de clientes
+> 
+> 
+> 
+
+
+#### Líder
+
+
+Uma pessoa que pode ser uma futura fonte de negócios. Um Lead pode gerar
+Oportunidades. (de: “pode levar a uma venda”).
 
 
 
@@ -305,606 +292,581 @@ Opportunities. (from: “may lead to a sale”).
 > 
 
 
-#### Opportunity
+#### Oportunidade
 
 
-A potential sale. (from: “opportunity for a business”).
+Uma venda potencial. (de: “oportunidade de negócio”).
 
 
 
 > 
-> CRM > Opportunity
+> CRM > Oportunidade
 > 
 > 
 > 
 
 
-#### Quotation
+#### Citação
 
 
-Customer's request to price an item or service.
+Solicitação do cliente para definir o preço de um item ou serviço.
 
 
 
 > 
-> Selling > Quotation
+> Venda > Cotação
 > 
 > 
 > 
 
 
-#### Sales Order
+#### Pedido de venda
 
 
-A note confirming the terms of delivery and price of an Item (product or
-service) by the Customer. Deliveries, Work Orders and Invoices are made
-on basis of Sales Orders.
+Uma nota confirmando as condições de entrega e o preço de um Item (produto ou
+serviço) pelo Cliente. Entregas, Ordens de Serviço e Faturas são feitas
+com base em pedidos de vendas.
 
 
 
 > 
-> Selling > Sales Order
+> Venda > Pedido de venda
 > 
 > 
 > 
 
 
-#### Territory
+#### Território
 
 
-A geographical area classification for sales management. You can set targets
-for Territories and each sale is linked to a Territory.
+Uma classificação de área geográfica para gerenciamento de vendas. Você pode definir metas
+para Territórios e cada venda está vinculada a um Território.
 
 
 
 > 
-> Selling > Setup > Territory
+> Venda > Configuração > Território
 > 
 > 
 > 
 
 
-#### Sales Partner
+#### Parceiro de vendas
 
 
-A third party distributer/dealer/affiliate/commission agent who sells
-the company’s products usually for a commission.
+Um distribuidor/revendedor/afiliado/agente comissionado terceirizado que vende
+os produtos da empresa geralmente mediante o pagamento de uma comissão.
 
 
 
 > 
-> Selling > Setup > Sales Partner
+> Vendas > Configuração > Parceiro de vendas
 > 
 > 
 > 
 
 
-#### Sales Person
+#### Vendedores
 
 
-Someone who pitches to the Customer and closes deals. You can set targets for
-Sales Persons and tag them in transactions.
+Alguém que apresenta o argumento de venda ao cliente e fecha negócios. Você pode definir metas para
+Vendedores e marcá-los nas transações.
 
 
 
 > 
-> Selling > Setup > Sales Person
+> Vendas > Configuração > Vendedor
 > 
 > 
 > 
 
 
 
+### Comprando
 
----
 
+#### Pedido de compra
 
-### Buying
 
+Um contrato dado a um Fornecedor para entregar os Itens especificados no prazo especificado
+custo, quantidade, datas e outros termos.
 
-#### Purchase Order
 
 
-A contract given to a Supplier to deliver the specified Items at the specified
-cost, quantity, dates and other terms.
-
-
-
 > 
-> Buying > Purchase Order
+> Compra > Ordem de compra
 > 
 > 
 > 
 
 
-#### Material Request
+#### Solicitação de material
 
 
-A request made by a system User, or automatically generated by ERPNext based
-on reorder level or projected quantity in Production Plan for purchasing a set
-of Items.
+Uma solicitação feita por um usuário do sistema, ou gerada automaticamente pelo ERPNext baseado
+no nível de novo pedido ou quantidade projetada no Plano de Produção para comprar um conjunto
+de itens.
 
 
 
 > 
-> Buying > Material Request
+> Compra > Solicitação de material
 > 
 > 
 > 
 
 
 
+### Estoque (Inventário)
 
----
 
+#### Armazém
 
-### Stock (Inventory)
 
+Um armazém lógico no qual são feitas entradas de estoque.
 
-#### Warehouse
 
 
-A logical Warehouse against which stock entries are made.
-
-
-
 > 
-> Stock > Warehouse
+> Estoque > Armazém
 > 
 > 
 > 
 
 
-#### Stock Entry
+#### Entrada de estoque
 
 
-Material transfer from a Warehouse, to a Warehouse or from one Warehouse to
-another.
+Transferência de material de um armazém para um armazém ou de um armazém para
+outro.
 
 
 
 > 
-> Stock > Stock Entry
+> Estoque > Entrada de estoque
 > 
 > 
 > 
 
 
-#### Delivery Note
+#### Nota de entrega
 
 
-A list of Items with quantities for shipment. A Delivery Note will reduce the
-stock of Items for the Warehouse from where you ship. A Delivery Note is
-usually made against a Sales Order.
+Uma lista de itens com quantidades para envio. Uma Nota de Entrega reduzirá o
+estoque de Itens para o Armazém de onde você envia. Uma nota de entrega é
+geralmente feito em relação a um pedido de venda.
 
 
 
 > 
-> Stock > Delivery Note
+> Estoque > Nota de entrega
 > 
 > 
 > 
 
 
-#### Purchase Receipt
+#### Recibo de compra
 
 
-A note stating that a particular set of Items were received from the Supplier,
-most likely against a Purchase Order.
+Uma nota informando que um determinado conjunto de Itens foi recebido do Fornecedor,
+provavelmente contra um pedido de compra.
 
 
 
 > 
-> Stock > Purchase Receipt
+> Estoque > Recibo de compra
 > 
 > 
 > 
 
 
-#### Serial Number
+#### Número de série
 
 
-A unique number given to a particular unit of an Item.
+Um número exclusivo atribuído a uma unidade específica de um item.
 
 
 
 > 
-> Stock > Serial Number
+> Estoque > Número de série
 > 
 > 
 > 
 
 
-#### Batch
+#### Lote
 
 
-A number given to a group of units of a particular Item that may be purchased
-or manufactured in a group.
+Um número dado a um grupo de unidades de um item específico que pode ser comprado
+ou fabricados em grupo.
 
 
 
 > 
-> Stock > Batch
+> Estoque > Lote
 > 
 > 
 > 
 
 
-#### Stock Ledger Entry
+#### Entrada no razão de estoque
 
 
-A unified table for all material movement from one warehouse to another. This
-is the table that is updated when a Stock Entry, Delivery Note, Purchase
-Receipt, and Sales Invoice (POS) is made.
+Uma tabela unificada para toda a movimentação de materiais de um armazém para outro. Esse
+é a tabela que é atualizada quando uma Entrada de Estoque, Nota de Remessa, Compra
+É feito o recebimento e a fatura de venda (PDV).
 
 
-#### Stock Reconciliation
+#### Reconciliação de estoque
 
 
-Update Stock of multiple Items from a spreadsheet (CSV) file.
+Atualize o estoque de vários itens a partir de um arquivo de planilha (CSV).
 
 
 
 > 
-> Stock > Stock Reconciliation
+> Estoque > Reconciliação de estoque
 > 
 > 
 > 
 
 
-#### Quality Inspection
+#### Inspeção de qualidade
 
 
-A note prepared to record certain parameters of an Item at the time of Receipt
-from Supplier, or Delivery to Customer.
+Uma nota preparada para registrar certos parâmetros de um Item no momento do Recebimento
+do Fornecedor ou Entrega ao Cliente.
 
 
 
 > 
-> Stock > Quality Inspection
+> Estoque > Inspeção de qualidade
 > 
 > 
 > 
 
 
-#### Item Group
+#### Grupo de itens
 
 
-A classification of Item.
+Uma classificação do item.
 
 
 
 > 
-> Stock > Setup > Item Group
+> Estoque > Configuração > Grupo de itens
 > 
 > 
 > 
-
 
 
 
----
+### Gestão de Recursos Humanos
 
 
-### Human Resource Management
+#### Funcionário
 
 
-#### Employee
+Registro de uma pessoa que esteve no presente ou no passado no emprego do
+empresa.
 
 
-Record of a person who has been in present or past, in the employment of the
-company.
 
-
-
 > 
-> Human Resources > Employee
+> Recursos Humanos > Funcionário
 > 
 > 
 > 
 
 
-#### Leave Application
+#### Sair da inscrição
 
 
-A record of an approved or rejected request for leave.
+Um registro de uma solicitação de licença aprovada ou rejeitada.
 
 
 
 > 
-> Human Resource > Leave Application
+> Recursos Humanos > Solicitação de licença
 > 
 > 
 > 
 
 
-#### Leave Type
+#### Tipo de saída
 
 
-A type of leave (e.g., Sick Leave, Maternity Leave, etc.).
+Um tipo de licença (por exemplo, licença médica, licença maternidade, etc.).
 
 
 
 > 
-> Human Resource > Leave and Attendance > Leave Type
+> Recursos Humanos > Licença e Presença > Tipo de Licença
 > 
 > 
 > 
 
 
-#### Payroll Entry
+#### Lançamento da folha de pagamento
 
 
-A tool that helps in creation of multiple Salary Slips for Employees.
+Uma ferramenta que auxilia na criação de vários comprovantes de salário para funcionários.
 
 
 
 > 
-> Human Resource > Payroll Entry
+> Recursos Humanos > Entrada da Folha de Pagamento
 > 
 > 
 > 
 
 
-#### Salary Slip
+#### Recibo de salário
 
 
-A record of the monthly salary given to an Employee.
+Um registro do salário mensal dado a um Funcionário.
 
 
 
 > 
-> Human Resource > Salary Slip
+> Recursos Humanos > Comprovante de Salário
 > 
 > 
 > 
 
 
-#### Salary Structure
+#### Estrutura Salarial
 
 
-A template identifying all the components of an Employees' salary (earnings),
-tax and other social security deductions.
+Um modelo que identifica todos os componentes do salário (ganhos) de um funcionário,
+impostos e outras deduções de segurança social.
 
 
 
 > 
-> Human Resource > Salary and Payroll > Salary Structure
+> Recursos Humanos > Salário e Folha de Pagamento > Estrutura Salarial
 > 
 > 
 > 
 
 
-#### Appraisal
+#### Avaliação
 
 
-A record of the performance of an Employee over a specified period based on
-certain parameters.
+Um registro do desempenho de um Funcionário durante um período especificado com base em
+determinados parâmetros.
 
 
 
 > 
-> Human Resources > Appraisal
+> Recursos Humanos > Avaliação
 > 
 > 
 > 
 
 
-#### Appraisal Template
+#### Modelo de avaliação
 
 
-A template recording the different parameters of an Employees' performance and
-their weightage for a particular role.
+Um modelo que registra os diferentes parâmetros de desempenho e
+seu peso para uma função específica.
 
 
 
 > 
-> Human Resources > Employee Setup > Appraisal Template
+> Recursos Humanos > Configuração de Funcionário > Modelo de Avaliação
 > 
 > 
 > 
 
 
-#### Attendance
+#### Presença
 
 
-A record indicating presence or absence of an Employee on a particular day.
+Um registro que indica a presença ou ausência de um Funcionário em um determinado dia.
 
 
 
 > 
-> Human Resources > Attendance
+> Recursos Humanos > Atendimento
 > 
 > 
 > 
-
-
 
 
----
 
+### Fabricação
 
-### Manufacturing
 
+#### lista de materiais (BOM)
 
-#### Bill of Materials (BOM)
 
+Uma lista de Operações e Itens com suas quantidades, que são necessários para
+produzir outro item. Uma lista de materiais (BOM) é usada para planejar compras e
+faça o cálculo do custo do produto.
 
-A list of Operations and Items with their quantities, that are required to
-produce another Item. A Bill of Materials (BOM) is used to plan purchases and
-do product costing.
 
 
-
 > 
-> Manufacturing > BOM
+> Fabricação > BOM
 > 
 > 
 > 
 
 
-#### Workstation
+#### Estação de trabalho
 
 
-A place where a BOM operation takes place. It is useful to calculate the
-direct cost of the product.
+Um local onde ocorre uma operação de BOM. É útil calcular o
+custo direto do produto.
 
 
 
 > 
-> Manufacturing > Workstation
+> Fabricação > Estação de trabalho
 > 
 > 
 > 
 
 
-#### Work Order
+#### Ordem de serviço
 
 
-A document signaling production (manufacture) of a particular Item with
-specified quantities.
+Um documento que sinaliza a produção (fabricação) de um item específico com
+quantidades especificadas.
 
 
 
 > 
-> Manufacturing > Work Order
+> Fabricação > Ordem de serviço
 > 
 > 
 > 
 
 
-#### Production Planning Tool
+#### Ferramenta de planejamento de produção
 
 
-A tool for automatic creation of Work Orders and Purchase Requests based
-on Open Sales Orders in a given period.
+Uma ferramenta para criação automática de Ordens de Serviço e Solicitações de Compra com base
+em pedidos de vendas em aberto em um determinado período.
 
 
 
 > 
-> Manufacturing > Production Planning Tool
+> Fabricação > Ferramenta de planejamento de produção
 > 
 > 
 > 
-
-
-
 
----
 
 
-### Website
+### Site
 
 
-#### Blog Post
+#### Postagem no blog
 
 
-A short article that appears in the “Blog” section of the website generated
-from the ERPNext website module. Blog is a short form of “Web Log”.
+Um pequeno artigo que aparece na seção “Blog” do site gerado
+do módulo do site ERPNext. Blog é uma forma abreviada de “Web Log”.
 
 
 
 > 
-> Website > Blog Post
+> Site > Postagem do blog
 > 
 > 
 > 
 
 
-#### Web Page
+#### Página da Web
 
 
-A web page with a unique URL (web address) on the website generated from
+Uma página da web com um URL exclusivo (endereço da web) no site gerado a partir de
 ERPNext.
 
 
 
 > 
-> Website > Web Page
+> Site > Página da Web
 > 
 > 
 > 
 
 
 
-
----
-
-
-### Setup/Customization
+### Configuração/Personalização
 
 
-#### Custom Field
+#### Campo personalizado
 
 
-A user defined field on a form/table.
+Um campo definido pelo usuário em um formulário/tabela.
 
 
 
 > 
-> Setup > Customize ERPNext > Custom Field
+> Configuração > Personalizar ERPNext > Campo Personalizado
 > 
 > 
 > 
 
 
-#### Global Defaults
+#### Padrões globais
 
 
-This is the section where you set default values for various parameters of the
-system.
-
-
-
-> 
-> Setup > Data > Global Defaults
-> 
-> 
-> 
-
-
-#### Print Heading
-
-
-A title that can be set on a transaction just for printing. For example, you
-want to print a Quotation with a title “Proposal” or “Pro forma Invoice”.
+Esta é a seção onde você define valores padrão para vários parâmetros do
+sistema.
 
 
 
 > 
-> Setup > Branding and Printing > Print Headings
+> Configuração > Dados > Padrões globais
 > 
 > 
 > 
 
 
-#### Terms and Conditions
+#### Imprimir cabeçalho
 
 
-Text of your terms of contract. In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/pt/setting-up/print/terms-and-conditions)
-
-
-
-> 
-> Selling > Setup > Terms and Conditions
-> 
-> 
-> 
-
-
-#### Unit of Measure (UOM)
-
-
-How quantity is measured for an Item. E.g., Kg, No., Pair, Packet, etc.
+Um título que pode ser definido em uma transação apenas para impressão. Por exemplo, você
+deseja imprimir uma cotação com o título “Proposta” ou “Fatura pró-forma”.
 
 
 
 > 
-> Stock > Setup > UOM
+> Configuração > Marca e impressão > Imprimir cabeçalhos
 > 
 > 
 > 
 
+
+#### Termos e Condições
+
+
+Texto dos termos do seu contrato. Nas transações de Venda/Compra podem existir determinados Termos e Condições com base nos quais o Fornecedor fornece bens ou serviços ao Cliente. Você pode aplicar os Termos e Condições às transações e eles aparecerão na impressão do documento. Para saber mais sobre os Termos e Condições, [clique aqui](/docs/pt/setting-up/print/terms-and-conditions)
+
+
+
+> 
+> Vendas > Configuração > Termos e Condições
+> 
+> 
+> 
+
+
+#### Unidade de medida (UM)
+
+
+Como a quantidade é medida para um item. Por exemplo, Kg, Nº, Par, Pacote, etc.
+
+
+
+> 
+> Estoque > Configuração > UDM
+> 
+> 
+> 
 
 
 

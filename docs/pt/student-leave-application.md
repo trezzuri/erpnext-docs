@@ -24,7 +24,7 @@ Para acessar a lista de solicitações de licença de estudante, acesse:
 	* **Grupo de alunos**: se a frequência for o dia inteiro, o grupo de alunos (turma/divisão) será usado para marcar a frequência, de modo que a licença seja calculada para o dia inteiro
 5. Com base no campo Frequência, selecione o Grupo de Alunos ou Programação do Curso. Opcionalmente, insira o motivo.
 6. Caso o aluno não esteja frequentando o instituto para participar ou representar o instituto em algum evento, ele poderá ser marcado como “Presente” no próprio Formulário de Licença marcando *Marcar como Presente*.
-7. Salvar. O 'Total de dias de licença' será calculado e definido no documento após excluir os feriados que fazem parte do seu [Feriado padrão Lista](/docs/pt/human-resources/holiday-list).
+7. Salvar. O 'Total de Dias de Férias' será calculado e definido no documento após excluir os feriados que fazem parte do seu [Feriado padrão Lista](/docs/pt/human-resources/holiday-list).
 
 
 ![Solicitação de licença de estudante](/files/student-leave-application.png)

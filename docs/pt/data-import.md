@@ -173,7 +173,7 @@ Ao selecionar um tipo de documento que pode ser enviado para importação, você
 ### 4.3 Não envie e-mails
 
 
-Digamos que você criou uma [Notificação](/docs/pt/setting-up/notifications) em seu sistema e sempre que um Lead é criado, um e-mail é enviado . Agora, se você estiver importando Leads em massa, muitos emails serão enviados, o que pode não ser o desejado. Você pode desativar esta opção para evitar o envio de e-mails.
+Digamos que você criou uma [Notificação](/docs/pt/setting-up/notifications) em seu sistema e sempre que um Lead é criado, um e-mail é enviado . Agora, se você estiver importando Leads em massa, muitos e-mails serão enviados, o que pode não ser o desejado. Você pode desativar esta opção para evitar o envio de e-mails.
 
 
 ## 5. Notas Adicionais

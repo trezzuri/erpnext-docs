@@ -65,16 +65,16 @@ Vamos considerar o exemplo a seguir para entender o cálculo.
 ![gratuity-rule-example](/files/gratuity-rule-example.png)
 
 
-1. **Laje Atual:** Se o cálculo do Valor da Gratificação for baseado na Laje Atual, o valor será o produto da Experiência Profissional (em anos), Fração de Rendimentos Aplicáveis ​​e somatório dos Componentes de Rendimentos Aplicáveis. Com base nas Regras/laje de Gratificação acima, se o funcionário tiver experiência de 5 anos, ele cai na terceira laje. O cálculo do Valor da Gratificação será o seguinte:
+1. **Laje Atual:** Se o cálculo do Valor da Gratuidade for baseado na Laje Atual, o valor será o produto da Experiência Profissional (em anos), Fração de Rendimentos Aplicáveis ​​e somatório dos Componentes de Rendimentos Aplicáveis. Com base nas Regras/laje de Gratificação acima, se o funcionário tiver experiência de 5 anos, ele cai na terceira laje. O cálculo do Valor da Gratificação será o seguinte:
 
 
-> Valor da gratificação = 5 \* 0,467 \* (Atrasado + Batico)
+> Valor da gratificação = 5 \* 0,467 \* (Atrasado + Básico)
 
 
 2. **Soma de todas as lajes anteriores:** Se o cálculo do valor da gratificação for baseado na soma de todas as lajes anteriores, o valor será a soma do produto de lajes individuais até o ano de experiência e a soma dos Aplicáveis Componente de ganhos. Com base nas Regras/placa de gratificação acima, se um funcionário tiver uma experiência de 5 anos, o cálculo do valor da gratificação será o seguinte:
 
 
-> Valor da gorjeta = [(1 \* 0) + (2 \* 0,233) + (2 \* 0,467)]\*(Atrasado + Batico)
+> Valor da gorjeta = [(1 \* 0) + (2 \* 0,233) + (2 \* 0,467)]\*(Atrasado + Básico)
 
 
 

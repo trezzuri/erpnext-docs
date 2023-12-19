@@ -27,7 +27,7 @@ Se você tiver permissões para um módulo específico, mas ele ainda não estiv
 Vamos considerar um cenário em que um usuário tem permissão para o módulo Site, mas não consegue acessá-lo.
 
 
-Como requisito batico, certifique-se de que a função "Gerente de site" esteja atribuída a esse usuário. É uma função padrão que concede permissão no módulo Site. Se as permissões foram personalizadas em sua conta, verifique o Role Permission Manager para saber qual função tem permissão no site e, em seguida, verifique se a mesma função está atribuída ao usuário.
+Como requisito básico, certifique-se de que a função "Gerente de site" esteja atribuída a esse usuário. É uma função padrão que concede permissão no módulo Site. Se as permissões foram personalizadas em sua conta, verifique o Role Permission Manager para saber qual função tem permissão no site e, em seguida, verifique se a mesma função está atribuída ao usuário.
 
 
 ![Visibilidade do módulo](/files/customize-module-visibility-4.png)

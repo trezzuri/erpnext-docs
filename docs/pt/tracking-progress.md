@@ -42,7 +42,7 @@ Para cada conteúdo que não seja do tipo questionário em um curso, uma ativida
 
 
 
-## Atividade de questionário
+## Atividade de teste
 
 
 Para cada tentativa de teste, até que o aluno possa tentar o teste, uma atividade de teste é criada. Este tipo de documento contém todas as informações sobre a tentativa, viz. as opções selecionadas para cada pergunta, a data da tentativa, o resultado do questionário e o tempo necessário para a conclusão, se o questionário tiver um limite de tempo.

@@ -2,7 +2,7 @@
 
 
 
-Sucata significa resíduos que não têm valor econômico ou apenas o valor de seu conteúdo material batico recuperável por meio de reciclagem.
+Sucata significa resíduos que não têm valor econômico ou apenas o valor de seu conteúdo material básico recuperável por meio de reciclagem.
 
 
 A sucata geralmente é aproveitada no final do processo de fabricação. Além disso, você pode encontrar alguns produtos que estão danificados ou inutilizáveis ​​devido ao prazo de validade ou por algum outro motivo, que precisam ser raspados.

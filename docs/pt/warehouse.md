@@ -89,7 +89,7 @@ Se você tiver uma Árvore de Armazém mais detalhada, provavelmente será uma b
 os cenários não exigem contabilizar o valor dos itens em estoque por prateleira ou compartimento. Por exemplo, se você tem o Armazém A e o quarto, as linhas são B, C, etc., vincule B e C à conta de A.
 
 
-> Dica: ERPNext mantém o equilíbrio do estoque para cada combinação distinta
+> Dica: O ERPNext mantém o equilíbrio do estoque para cada combinação distinta
 de Item e Armazém. Assim, você pode obter o saldo de estoque de qualquer item específico em um determinado armazém em qualquer data específica.
 
 

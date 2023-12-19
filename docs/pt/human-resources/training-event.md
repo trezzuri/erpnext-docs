@@ -11,7 +11,7 @@ Você também pode convidar seus funcionários para participar do evento usando 
 Para acessar o Evento de Treinamento, acesse:
 
 
-> Home > Recursos Humanos > Treinamento > Evento de treinamento
+> Home > Recursos Humanos > Treinamento > Evento de Treinamento
 
 
 ## 1. Pré-requisitos

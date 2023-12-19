@@ -199,7 +199,6 @@ Neste tipo de esquema promocional, o usuário tem a opção de oferecer um produ
 
 Vamos entender como configurar um esquema promocional no ERPNext usando alguns exemplos.
 
-
 ### 5.1 Esquemas de condições mistas
 
 
@@ -225,7 +224,7 @@ Para configurar isso no ERPNext os passos são os seguintes:
 ### 5.2 Para aplicar um desconto em outro item
 
 
-O cliente A comprou 30 quantidades de pacote de Bolo Britannia 5 Rs e 2 quantidades de Bolo Britannia 15 Rs. O Fornecedor deseja vender o produto Bolo Britannia 15 Rs ao preço fixo de 12. Aqui o preço original do produto Bolo Britannia 15 Rs é 15.
+O cliente A comprou 30 quantidades de pacote de Bolo Britannia 5 Rs e 2 quantidades de Bolo Britannia 15 Rs. O Fornecedor deseja vender o produto Bolo Britannia 15 Rs pelo preço fixo de 12. Aqui o preço original do produto Bolo Britannia 15 Rs é 15.
 
 
 O Fornecedor deseja aplicar a regra somente se o Cliente tiver adquirido no mínimo 30 quantidades do produto Bolo Britannia 5 Rs ou Bolo Britannia 10 Rs.

@@ -72,7 +72,7 @@ To create a new Employee Onboarding Template:
 1. Go to: Human Resources > Employee Lifecycle > Employee Onboarding Template > New.
 2. Enter the Department, Designation and Employee Grade (optional).
 3. Mention the Activities for onboarding. For each Activity, you can also mention the User or Role, or one of it, to whom this Activity will be assigned.
-4. You can also schedule the Onboarding Activities by specifying the **Begin On (Days)** i.e. when the activity has to start and the **Duration (in Days)** for the same.
+4. You can also schedule the Onboarding Activities by specifying the **Begin On (Days)*\* i.e. when the activity has to start and the \**Duration (in Days)** for the same.
 
 
 ![Onboarding Template](/files/onboarding-template972e99.png)

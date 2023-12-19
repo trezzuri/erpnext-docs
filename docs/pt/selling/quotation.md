@@ -219,7 +219,7 @@ Você pode fazer isso selecionando um **Título de impressão**. Para criar novo
 
 
 * **Campanha:** Uma campanha de vendas pode ser associada à cotação. Um conjunto de cotações pode fazer parte de uma campanha de vendas.
-* **Fonte:** Um tipo de fonte de lead pode ser vinculado se estiver citando um lead, seja de uma campanha, de um fornecedor, de uma exposição, etc. Selecione Cliente existente se estiver fazendo uma cotação para um cliente.
+* **Fonte:**Um tipo de Fonte de Lead pode ser vinculado se estiver citando um lead, seja de uma campanha, de um fornecedor, de uma exposição etc. Selecione Cliente existente se estiver fazendo uma cotação para um cliente.
 * **Cotação do fornecedor:** Uma cotação do fornecedor pode ser vinculada para comparação com sua cotação atual para um comprador. Você pode ter uma ideia do lucro/perda comparando os dois.
 
 

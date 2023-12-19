@@ -5,7 +5,7 @@
 > Introduzido na versão 12
 
 
-É um conjunto de métricas individuais que ajuda a definir suas metas de qualidade. É um processo batico de gestão da qualidade estabelecer um conjunto de objetivos de qualidade.
+É um conjunto de métricas individuais que ajuda a definir suas metas de qualidade. É um processo básico de gestão da qualidade estabelecer um conjunto de objetivos de qualidade.
 
 
 Você pode criar uma Meta de Qualidade para sua empresa com vários Objetivos de Qualidade. Diferentes Objetivos de Qualidade para uma Meta podem ter uma meta numérica definida ou uma meta medida em termos de status de conclusão (sim ou não). Ele é monitorado com base na frequência definida para essa meta.

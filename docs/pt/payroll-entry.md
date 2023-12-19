@@ -82,7 +82,7 @@ O lançamento da folha de pagamento encaminhará você para o lançamento contá
 ![Payroll Entry](/files/payroll-make-bank-entry.png)
 
 
-> **Observação:** para componentes salariais que são benefícios flexíveis e têm a opção *Criar entrada de pagamento separada contra reivindicação de benefício* marcada, o Frappe HR reservará rascunhos de lançamentos contábeis separados.
+> **Observação:** para componentes salariais que são benefícios flexíveis e que tenham a opção *Criar entrada de pagamento separada contra reivindicação de benefício* marcada, o Frappe HR reservará rascunhos de lançamentos contábeis separados.
 > 
 > 
 

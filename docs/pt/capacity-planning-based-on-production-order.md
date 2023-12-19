@@ -29,7 +29,7 @@ No mestre de Estações de Trabalho você pode definir quais operações serão 
 **Lista de materiais (BOM)**
 
 
-Em uma lista técnica, com a lista de matérias-primas necessárias para a fabricação, você também pode listar as operações e as estações de trabalho através das quais essas matérias-primas serão processadas.
+Em uma lista técnica, com a lista de matérias-primas necessárias para a fabricação, você também pode listar as operações e estações de trabalho através das quais essas matérias-primas serão processadas.
 
 
 **Ordem de produção**

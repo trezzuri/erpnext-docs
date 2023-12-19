@@ -104,7 +104,8 @@ Based on these details the schedule for depreciation of remaining amount will be
 * **Salvage Value Percentage**: If you want the `Expected Value After Useful Life` to be calculated automatically based on a percent of the `Gross Purchase Amount`, mention the percent here.
 * **Rate of Depreciation**: This will be calculated based on the amount entered in expected value after useful life.
 * **Finance Book**: The book against which the depreciation entries should be booked. For more details, click [here](/docs/en/accounts/finance-book).
-* **Daily Depreciation**: This divides the depreciation amount by the number of days in a calendar period. So the depreciation amount varies depending on the number of days in the month. For example, the depreciation amount in February is less than the depreciation amount for the months that have 31 days.
+* **Depreciate based on daily pro-rata**: This divides the depreciation amount by the number of days in a calendar period. For example, the depreciation amount in February is less than the depreciation amount for the months that have 31 days.
+* **Depreciate based on shifts:** This lets you define the number of shifts the asset would run in a period in order to depreciate it accordingly. You need to first define the shift names with their shift factors in the `Asset Shift Factor` doctype (for example: "half": 0.5, "single": 1, "double": 1.5 and "triple": 2) and set a default. Later if you want to change the shifts of an asset for a particular period, you can do so using the [Asset Shift Allocation](https://docs.erpnext.com/docs/user/manual/en/asset-shift-allocation) doctype, and the remaining shifts are automatically adjusted.
 
 ### 3.2 Depreciation Schedule
 

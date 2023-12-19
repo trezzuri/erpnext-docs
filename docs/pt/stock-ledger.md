@@ -5,7 +5,7 @@
 **Um Relatório de Registro de Ações é um registro detalhado que monitora os movimentos de ações de uma empresa.**
 
 
-As transações de entrada ou saída relacionadas à fabricação, compras, vendas e transferências de estoque são registradas no livro-razão de estoque, que é refletido no relatório do livro-razão de estoque.
+As transações de entrada ou saída relacionadas à fabricação, compras, vendas e transferências de estoque são registradas no livro-razão de estoque, que é então refletido no relatório do livro-razão de estoque.
 
 
 Ele reflete a quantidade e o valor do estoque **emitido, recebido ou transferido** junto com o item em estoque e seus detalhes de depósito.
@@ -29,7 +29,7 @@ Veja como o Relatório de Razão de Estoque representa uma **Entrada de Estoque*
 ![Relatório de razão de estoque](/files/stock-ledger.png)
 
 
-Reflete um item **Cadeira** de quantidade *1.000 unidades* com taxa de entrada (taxa batica) de *3.000 rupias* recebida no armazém  *Lojas-L* juntamente com o cálculo da Taxa de Avaliação e Valor de Saldo.
+Reflete um item **Cadeira** de quantidade *1.000 unidades* com taxa de entrada (taxa básica) de *Rs.3.000* recebida no armazém  *Lojas-L* juntamente com o cálculo da Taxa de Avaliação e Valor de Saldo.
 
 
 Você pode clicar em **Voucher #** para abrir o documento a partir do qual esta transação foi criada.
@@ -38,7 +38,7 @@ Você pode clicar em **Voucher #** para abrir o documento a partir do qual esta 
 Os livros contábeis de estoque são gerados a partir das seguintes transações:
 
 
-* Fatura de venda, fatura de compra (com *Atualizar estoque* marcada)
+* Fatura de venda, fatura de compra (com *Atualizar estoque* marcado)
 * Nota de entrega
 * Recibo de compra
 * Entrada de estoque

@@ -18,19 +18,19 @@ To access Leave Type, go to:
 
 1. Go to Leave Type list, click on New.
 2. Enter Leave Type Name.
-3. Enter Max Leaves Allowed, Applicable After (Working Days), Maximum Continuous Days Applicable (optional).
+3. Enter Maximum Leave Allocation Allowed, Applicable After (Working Days), Maximum Consecutive Leaves Allowed (optional).
 4. Save.
 
-![New Leave Type](/files/new-leave-type.png)
+![](/files/22ZtSxQ.png)![]()
 
 Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
-* **Max Leaves Allowed:** This field allows you to set the maximum number of the annual allocation of this Leave Type while creating the Leave Policy.
+* **Maximum Leave Allocation Allowed:** This field allows you to set the maximum number of the annual allocation of this Leave Type while creating the Leave Policy.
 * **Applicable After (Working Days):** Enter the minimum number of working days here. Only the employees who have worked for this number of days or more will be allowed to apply for this particular leave type. Any other leaves (such as Casual Leave, Sick Leave.etc.) availed by the Employees after their joining date will also be considered while calculating working days of the Employee.
-* **Maximum Continuous Days Applicable:** It refers to the maximum number of days this particular Leave Type can be availed at a stretch. If an employee exceeds the maximum number of days, their extended leave will be considered as ‘Leave Without Pay'.
+* **Maximum Consecutive Leaves Allowed:** It refers to the maximum number of days this particular Leave Type can be availed at a stretch. If an employee exceeds the maximum number of days, their extended leave will be considered as ‘Leave Without Pay'.
 * **Is Carry Forward:** If checked, the balance leaves of this Leave Type will be carried forward to the next allocation period.
 * **Is Leave Without Pay:** This ensures that the Leave Type will be treated as leaves without pay and salary will get deducted for this Leave Type.
-* **Is Optional:** Optional Leaves are holidays that Employees can choose to avail from a list of holidays published by the company. The Holiday List for Optional Leaves can have any number of holidays, but you can restrict the number of such leaves by setting the Max Days Leave Allowed field.
+* **Is Optional Leave:** Optional Leaves are holidays that Employees can choose to avail from a list of holidays published by the company. The Holiday List for Optional Leaves can have any number of holidays, but you can restrict the number of such leaves by setting the Max Days Leave Allowed field.
 * **Allow Negative Balance:** If checked, the system will always allow to apply and approve [Leave Applications](/docs/en/human-resources/leave-application) for the Leave Type, even if there is no leave balance.
 * **Allow Over Allocation:** If checked, the system will allow allocating more leaves than the number of days in the allocation period.
 * **Include holidays within leaves as leaves:** Check this option if you wish to count holidays within leaves as a ‘leave’. For example, if an Employee has applied for leave on Friday and Monday, and Saturday and Sunday are weekly offs, if the 'Include holidays within leaves as leaves' checkbox for the Leave Type is checked, the system will consider Saturday as Sunday as leaves too. Such holidays will be deducted from the total number of leaves.
@@ -43,7 +43,7 @@ Below is a detailed explanation of all the fields and checkboxes in Leave Type.
 
 * **Is Partially Paid Leaves:** This checkbox ensures that Leave Type will be treated as partially paid and some part of daily earnings will be paid through salary slip. If this checkbox is enabled then a field "Fraction of Daily Salary Per Leave" appears where you can define the fraction of daily salary paid on the partial leave day.
 
-![New Leave Type](/files/is-partially-paid-leaves.png)
+![](/files/8IeXPo5.png)![]()
 
 
 > **Note:** The Leave Type can be either Leave Without pay or Partially Paid.
@@ -61,11 +61,12 @@ It is possible that Employees can receive cash from their Employer for unused le
 > 
 > 
 
-![Leave Encashment](/files/leave-encashment.png)
+![](/files/N7AiiYE.png)![]()  
 
-**Encashment Threshold Days:** This field indicates the number of leave days the Employees won't be able to encash. Above the mentioned days, the Employee is eligible to encash leaves.
 
-For example, if there are 10 leaves of a particular Leave Type which is encashable, and the Employee has 8 leaves left. If Encashment Threshold Days = 5, the Employee is given encashment of only 8 - 5 = 3 leaves.
+**Non-Encashable Leaves:** This field indicates the number of leave days the Employees won't be able to encash. Above the mentioned days, the Employee is eligible to encash leaves.
+
+For example, if there are 10 leaves of a particular Leave Type which is encashable, and the Employee has 8 leaves left. If Non-Encashable Leaves = 5, the Employee is given encashment of only 8 - 5 = 3 leaves.
 
 **Earning Component:** This field allows you to specify the Salary Component that will be encashed to Employees as a part of their Salary in the Salary Slip.
 
@@ -80,7 +81,8 @@ Earned Leaves are leaves earned by an Employee after working with the company fo
 
 For example, an Employee is allotted 24 Privilege Leaves in a year, wherein the Privilege Leave is set as Earned Leave with Monthly allotment. In this case, the Employee will earn 2 (24 leaves/12 months) Privilege Leaves at the end of every month. The leave allotment process (background job) will only allot leaves considering the max leaves for the leave type and will round to 'Rounding' for fractions.
 
-![Earned Leave](/files/earned-leave.png)
+![](/files/1SrI5mm.png)![]()  
+
 
 
 > **Note:** The initial allocation of this Leave Type will be 0. Leaves will be updated at the end of the Month (or as per the 'Earned Leave Frequency' set).

@@ -35,7 +35,7 @@ Por exemplo, um Aprovador de licenças é definido no Departamento.
 ![](/files/wKT4Zcb.png)
 
 
-Agora, se um Funcionário pertencente a este Departamento criar um Pedido de Licença, todos os Aprovadores de Licença definidos para este Departamento também serão obtidos em seu Pedido de Licença.
+Agora, se um Funcionário pertencente a este Departamento criar um Pedido de Licença, todos os Aprovadores de Licença definidos para este Departamento também serão obtidos no seu Pedido de Licença.
 
 
 ![](/files/3nyXGpt.png)

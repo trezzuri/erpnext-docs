@@ -13,7 +13,7 @@ Os elementos principais e mais importantes do módulo Agricultura são:
 Aqui aprenderemos a fazer uma configuração rápida com os requisitos essenciais para gerenciar um exemplo simples de cultura, Cenouras.
 
 
-Estas instruções pressupõem que você já tenha concluído a configuração batica do ERPNext e que tenha a área do ERPNext na janela do seu navegador.
+Estas instruções pressupõem que você já tenha concluído a configuração básica do ERPNext e que tenha a área do ERPNext na janela do seu navegador.
 
 
 

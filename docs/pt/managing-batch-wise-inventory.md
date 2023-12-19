@@ -14,7 +14,7 @@ Para manter lotes em um item, você precisa mencionar 'Tem lote não' como sim n
 Você pode criar um novo lote de:
 
 
-`Estoque > Documentos > Lote> Novo`
+`Estoque > Documentos > Lote > Novo`
 
 
 Leia [Lote de estoque](/docs/pt/stock/batch.html) para saber mais.

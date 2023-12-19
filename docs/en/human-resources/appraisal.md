@@ -64,11 +64,11 @@ A KRA vs Goals table will be visible in your appraisal document.
 
 
 * **KRA and weightage**: Fetched from the appraisal template
-* **Goal Completion (%)**: Your goal completion percentage will be auto-calculated based on the **progress** of the goals linked to your KRAs.
+* **Goal Completion (%)*\*: Your goal completion percentage will be auto-calculated based on the \**progress** of the goals linked to your KRAs.
 * **Goal Score (weighted)**: Based on the weightage assigned to each KRA, the Goal Score will be computed from the completion percentage. For ex: In the screenshot below, the Development KRA has 30% weightage and the employee has completed 75% of the goals. So the goal score is 22.5 out of 30, and so on.
 
 
-You will finally get a **Total Goal Score** (out of 5) based on the **Goal Score (%)**.
+You will finally get a **Total Goal Score*\* (out of 5) based on the \**Goal Score (%)**.
 
 
 ![kra vs goals](/files/kra-vs-goals.png)

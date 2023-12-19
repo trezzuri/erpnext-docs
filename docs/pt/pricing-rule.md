@@ -211,7 +211,7 @@ A regra real a ser aplicada é definida nesta seção.
 * **Limite para sugestão**: este é o limite com base no qual o sistema irá notificá-lo para ajustar a quantidade de itens para desconto. Por exemplo, se a Quantidade Mínima for 10 e o Limite for 9, o sistema notificará para adicionar mais 1 Item para que o desconto seja aplicável. Isto também se aplica ao valor definido.
 * **Prioridade**: considere um grupo de itens, você deseja definir regras específicas para um item do grupo. Isso pode ser feito criando uma nova Regra de Preços e definindo uma prioridade mais alta. Isso também pode se aplicar ao Grupo de Clientes e ao Grupo de Fornecedores.
 * **Aplicar múltiplas regras de precificação**: para entender isso, considere um item de taxa 500. Existem duas regras de precificação nele, P1 e P2. P1 aplica 10% de desconto e P2 aplica 5%. Ativar esta opção aplicará um total de 15% na taxa do item, o que dá 425.
-* **Aplicar desconto na tarifa**: O desconto será capitalizado. Considere o mesmo cenário acima. Ao ativar esta opção, 10% serão aplicados em 500, o que dará 450, e 5% serão aplicados em 450, o que dará 427,5.
+* **Aplicar Desconto na Tarifa**: O desconto será capitalizado. Considere o mesmo cenário acima. Ao ativar esta opção, 10% serão aplicados em 500, o que dará 450, e 5% serão aplicados em 450, o que dará 427,5.
 * **Validar regra aplicada**: mostra a mensagem de validação inserida se o desconto/taxa definido manualmente por você em uma transação não corresponder à regra de preços.
 
 
@@ -246,7 +246,7 @@ Isso é útil quando o distribuidor superior na hierarquia decide o desconto/tax
 
 
 ![Regra de preços para desconto em produtos](/files/pricing-rule-same-product-free.png)
-2. "Compre 2 quantidades e ganhe 1 quantidade grátis do outro item." Para configurar esse tipo de regras. Defina o Preço ou Desconto do Produto como Desconto do Produto, desmarque a caixa de seleção 'Mesmo Item' e defina o 'Item Grátis' e a quantidade.
+2. "Compre 2 quantidades e ganhe 1 quantidade grátis do outro item." Para configurar este tipo de regras. Defina o Preço ou Desconto do Produto como Desconto do Produto, desmarque a caixa de seleção 'Mesmo Item' e defina o 'Item Grátis' e a quantidade.
 
 
 ![Regra de preços para outro produto gratuito](/files/pricing-rule-other-product-free.png)

@@ -54,7 +54,7 @@ Primeira letra: "Material" Terceira letra: "Tamanho"
 -H-Ferragens-1-1mm-5mm
 -G-Vidro-2-5mm-10mm
 -U-Estofamento-3-10mm-10cm
--P-Plattico
+-P-Plástico
 
 Segunda Letra: "Tipo"
 

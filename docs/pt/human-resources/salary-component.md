@@ -54,19 +54,19 @@ Você também pode usar algumas funções matemáticas/de data ao escrever fórm
 # Considere um componente `basic` com valor 1220,32 como exemplo:
 
 # int-lança o valor como int
-int(batico) # avalia como 1220
+int(básico) # avalia como 1220
 
 # flt-lança o valor como flt
-flt(batico, 1) # avalia como 1220,3
+flt(básico, 1) # avalia como 1220,3
 
 # round-arredonda o valor
-round(batico) # avalia como 1220
+round(básico) # avalia como 1220
 
 # ceil-arredonda o número para o número inteiro mais próximo
-ceil(batico) # avalia como 1221
+ceil(básico) # avalia como 1221
 
 # floor-arredonda o número para o número inteiro mais próximo
-floor(batico) # avalia como 1220
+floor(básico) # avalia como 1220
 
 # getdate/date-converte o valor `start_date` em um objeto `datetime.date`
 # por exemplo: o imposto profissional é de 300 em fevereiro e 200 em meses alternados. `start_date` ocupa o valor da `start_date` do comprovante de salário

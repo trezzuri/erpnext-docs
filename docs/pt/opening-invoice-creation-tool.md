@@ -16,7 +16,7 @@ Para acessar a Ferramenta de Criação de Nota Fiscal de Abertura, acesse:
 
 1. Selecione a empresa para a qual deseja importar os saldos iniciais.
 2. Selecione o tipo de fatura. Selecionar Vendas ou Compra gerará faturas de vendas ou faturas de compra, respectivamente.
-3. Marcar a caixa de seleção "Criar parte ausente" criará automaticamente clientes ou fornecedores, caso estejam ausentes, de acordo com o nome fornecido na coluna Parte.
+3. Marcar a caixa de seleção "Criar parte ausente" criará automaticamente clientes ou fornecedores em caso de falta, de acordo com o nome fornecido na coluna Parte.
 
 
 ![Ferramenta de criação de fatura de abertura](/files/opening-invoice-creation-tool.png)

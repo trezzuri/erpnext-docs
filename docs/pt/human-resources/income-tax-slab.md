@@ -50,7 +50,7 @@ data_de_nascimento > data(1937, 12, 31) e data_de_nascimento < data(1958, 01, 01
 gênero == "Masculino"
 
 //Aplica imposto por componente salarial
-batico> 10.000
+básico> 10.000
 
 //O lucro tributável anual é superior a 5 lakhs
 ganho_tributável_anual > 500.000

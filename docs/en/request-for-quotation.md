@@ -41,7 +41,7 @@ If you set a *Contact* and *Email Id*, that can later be used for sending the **
 ![Preview Email](/files/email-preview.png)![]()
 8. If you want to send further attachments to your suppliers, you can enable the checkbox   
 *Send Attached Files*. This will add each file attached to the **Request for Quotation** as an attachment to each supplier email.
-9. Once you're done, save the **Request for Quotation**  as a draft.
+9. Once you're done, save the **Request for Quotation** as a draft.
 10. When you're ready, you can submit the **Request for Quotation**. This will trigger an email to each supplier that has *Send Email* enabled.
 
 ![Create RFQ](/files/rfq-create.png)![]()  
@@ -98,6 +98,15 @@ You can print your request for quotation/purchase order on your company's letter
 #### Print Headings
 
 Titles of your documents can be changed. Know more [here](/docs/en/setting-up/print/print-headings).
+
+#### Special properties
+
+When printing a RFQ via the "Tools > Download PDF" button, you are asked select the specific supplier you want to address. In the **Print Format** for RFQ, this information can be accessed via special properties:
+
+* `&lcub;&lcub; doc.vendor }}` holds the selected supplier ID.
+* `&lcub;&lcub; doc.items[i].supplier_part_no }}` holds the *Supplier Part Number* of a requested line item.
+
+The data of the first supplier will be used while rendering the standard print preview. If you want to print for a different supplier, please use the "Tools > Download PDF" button.
 
 ## 4. Creating a Supplier Quotation after RFQ
 

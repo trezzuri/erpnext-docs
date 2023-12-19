@@ -102,11 +102,12 @@ Com base nesses detalhes, o cronograma de depreciação do valor restante será 
 * **Porcentagem do valor residual**: se você deseja o `Valor esperado Após a Vida Útil` ser calculada automaticamente com base em um percentual do `Valor Bruto da Compra`, mencione o percentual aqui.
 * **Taxa de Depreciação**: Será calculada com base no valor inserido no valor esperado após a vida útil.
 * **Livro Financeiro**: O livro contra o qual os lançamentos de depreciação devem ser contabilizados. Para obter mais detalhes, clique [aqui](/docs/pt/accounts/finance-book).
-* **Depreciação diária**: divide o valor da depreciação pelo número de dias em um período de calendário. Portanto, o valor da depreciação varia de acordo com a quantidade de dias do mês. Por exemplo, o valor da depreciação em fevereiro é menor que o valor da depreciação dos meses que têm 31 dias.
+* **Depreciação com base na proporção diária**: divide o valor da depreciação pelo número de dias em um período de calendário. Por exemplo, o valor da depreciação em fevereiro é menor que o valor da depreciação dos meses que têm 31 dias.
+* **Depreciar com base em turnos:** Isso permite você define o número de turnos que o ativo executaria em um período para depreciá-lo adequadamente. Você precisa primeiro definir os nomes dos turnos com seus fatores de deslocamento no tipo de documento `Asset Shift Factor` (por exemplo: "half": 0,5, "single": 1, "double": 1,5 e "triple": 2) e definir um padrão. Posteriormente, se você quiser alterar os turnos de um ativo para um determinado período, poderá fazê-lo usando o [Alocação de turnos de ativos](https://docs.erpnext.com/docs/user/manual/en/asset-shift-allocation ) e os turnos restantes são ajustados automaticamente.
 
 ### 3.2 Cronograma de depreciação
 
-Na contabilização de depreciações contra este Ativo, a seção Cronograma de Depreciação ficará visível. Esta tabela possui colunas para livro financeiro, data de programação, valor de depreciação, valor depreciado e lançamento contábil manual.
+Ao registrar depreciações contra este Ativo, a seção Cronograma de Depreciação ficará visível. Esta tabela possui colunas para livro financeiro, data de programação, valor de depreciação, valor depreciado e lançamento contábil manual.
 
 ![Cronograma de depreciação](/files/asset-depreciation-schedule.png)![]()  
 

@@ -95,7 +95,7 @@ Crie uma regra fiscal conforme mostrado abaixo.
 ![Regra Fiscal](/files/tax-rule.png)
 
 
-Depois que você selecionar um cliente e um endereço de cobrança desse cliente com a cidade como 'Malibu', o sistema aplicará automaticamente os impostos apropriados.
+Depois de selecionar um cliente e um endereço de cobrança desse cliente com a cidade como 'Malibu', o sistema aplicará automaticamente os impostos apropriados.
 
 
 ![Regra tributária na fatura de vendas](/files/tax-rule-in-sales-invoice.gif)

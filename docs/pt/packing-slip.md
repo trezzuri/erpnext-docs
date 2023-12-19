@@ -31,7 +31,7 @@ Antes de criar e usar uma guia de remessa, é aconselhável criar primeiro o seg
 ## 2. Como criar uma nova guia de remessa
 
 
-Normalmente, você deve criar uma guia de remessa a partir de uma nota de entrega quando ela estiver na fase Rascunho, no entanto, se quiser criar uma guia de remessa manualmente, siga estas etapas.
+Normalmente, você deve criar uma guia de remessa a partir de uma guia de remessa quando ela estiver na fase Rascunho, no entanto, se desejar criar uma guia de remessa manualmente, siga estas etapas.
 
 
 1. Vá para a lista da guia de remessa e clique em Novo.

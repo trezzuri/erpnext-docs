@@ -29,7 +29,7 @@ depois de vermos um exemplo.
 ## Exemplo
 
 
-### Informações baticas
+### Informações básicas
 
 
 Vamos supor que temos uma empresa fictícia para a qual queremos gerar um relatório de fluxo de caixa.
@@ -78,7 +78,7 @@ Para cada linha, precisamos criar um documento de Mapeamento de Fluxo de Caixa p
 
 
 Você pode pensar no Mapeamento de Fluxo de Caixa como uma representação de cada linha do relatório de fluxo de caixa. Um mapeamento de fluxo de caixa
-é filho de um Mapeador de Fluxo de Caixa que será explicado mais tarde.
+é filho de um Mapeador de Fluxo de Caixa, que será explicado mais tarde.
 
 
 Vamos começar criando Mapeamentos de Fluxo de Caixa que representarão o acréscimo de despesas não monetárias já reconhecidas em
@@ -161,7 +161,7 @@ Caixa de seleção maiúscula.
 
 Neste ponto criamos todos os mapeamentos necessários para a seção Atividades Operacionais do nosso fluxo de caixa
 declaração. No entanto, o ERPNext ainda não sabe disso até criarmos os documentos do Cash Flow Mapper. Criaremos Fluxo de Caixa
-A seguir, mapeie os documentos.
+Documentos do mapeador a seguir.
 
 
 #### Criar mapeadores de fluxo de caixa

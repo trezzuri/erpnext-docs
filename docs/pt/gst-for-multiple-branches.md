@@ -29,7 +29,7 @@ O primeiro passo é atualizar o endereço da filial da sua empresa com o GSTIN a
   
 
 
-![](https://erpnext.com/files/RU29P7U .png)
+![](https://erpnext.com/files/RU29P7U.png)
 
 ﻿
 
@@ -206,12 +206,14 @@ Aqui eu selecionei um **Cliente de Maharashtra e o endereço da empresa como Mah
 
 Ele buscou automaticamente o seguinte modelo de impostos e cobranças:
 
-![](https://erpnext.com/files/Kz3m5ux.png)  
+![](https://erpnext.com/files/Kz3m5ux.png)
 
+  
+ 
 
 ### Exemplo 2:
 
-Aqui eu selecionei um **Cliente de Maharashtra e endereço da empresa como Delhi**, ele deve buscar o modelo de estado OUT que criamos acima.
+Aqui selecionei um **Cliente de Maharashtra e o endereço da empresa é Delhi**, ele deve buscar o modelo OUT State que criamos acima.
 
   
 
@@ -224,8 +226,6 @@ Aqui eu selecionei um **Cliente de Maharashtra e endereço da empresa como Delhi
 Ele buscou automaticamente o seguinte modelo de impostos e cobranças:
 
 ![](https://erpnext.com/files/0DvILkB.png)
-
-
 
 
 

@@ -65,7 +65,7 @@ Se o item for serializado, o número de série poderá ser inserido.
 
 * **Tipo de manutenção**: se esta é uma atividade de manutenção 'Preventiva' ou 'Calibração' para restaurar o funcionamento preciso.
 * **Data de início e término**: defina a data de início e a data de término quando a manutenção deve começar e terminar.
-* **Última Data de Conclusão**: Se a manutenção não foi realizada na data programada ou antes dela, a data real da manutenção poderá ser registrada aqui.
+* **Última Data de Conclusão**: Se a manutenção não foi realizada na data programada ou antes, a data real da manutenção pode ser registrada aqui.
 
 
 ### 3.2 Manutenção de ativos em ToDo

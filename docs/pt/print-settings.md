@@ -2,7 +2,7 @@
 
 
 
-**Em Configurações de impressão você pode definir suas preferências de impressão, como tamanho do papel, tamanho de texto padrão, se deseja imprimir como PDF ou HTML, etc.**
+**Em Configurações de impressão, você pode definir suas preferências de impressão, como tamanho do papel, tamanho de texto padrão, se deseja imprimir como PDF ou HTML, etc.**
 
 
 Como o ERPNext é um aplicativo baseado em navegador, o comando de impressão real é executado pelo navegador que você está usando.
@@ -125,7 +125,7 @@ Para a família Red Hat OS:
 Depois disso, instale `pycups` no ambiente usando o comando:
 
 
-`./env/bin/pip instalar pycups`
+`./env/bin/pip install pycups`
 
 
 Isso é executado no diretório `frappe-bench`.

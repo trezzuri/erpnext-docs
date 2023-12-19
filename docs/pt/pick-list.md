@@ -86,7 +86,7 @@ Se números de série estiverem envolvidos, a linha Item terá a seguinte aparê
 6. Envie o documento assim que a separação do estoque for concluída e o item selecionado for atualizado no documento adequadamente.
 
 
-> **Observação:**
+> **Nota:**
 >
 >-A lista de seleção só pode ser criada para Ordens de Serviço que ainda estejam no estado 'Não Iniciado' ou 'Em Andamento'.
 >-Uma **entrada de estoque** só poderá ser criada após o envio da lista de seleção.
@@ -102,7 +102,7 @@ Se números de série estiverem envolvidos, a linha Item terá a seguinte aparê
 5. Envie o documento assim que a separação do estoque for concluída e o item selecionado for atualizado no documento adequadamente.
 
 
-> **Observação:**
+> **Nota:**
 >
 >-Somente Solicitações de Materiais do tipo 'Transferência de Materiais' poderão ser utilizadas para criação de Lista de Pick.
 >-Uma **entrada de estoque** do tipo 'Transferência de material' pode ser criada após o envio da lista de seleção.

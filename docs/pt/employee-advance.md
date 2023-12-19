@@ -129,7 +129,7 @@ Crie o Adiantamento do Funcionário, crie uma entrada de pagamento para indicar 
 ![Botão Voltar](/files/advance-return-button.png)
 * Se todo o adiantamento for usado, isso será refletido no campo Valor reivindicado
 * Se apenas uma parte do valor for reivindicada e o restante for devolvido, o valor devolvido será mostrado no campo 'Valor Devolvido'.
-![Valor adiantado de retorno](/files/advance-returned-amount.png)
+![Valor adiantado de devolução](/files/advance-returned-amount.png)
 
 
 ## 4. Tópicos Relacionados

@@ -11,10 +11,10 @@ Agora precisamos especificar qual será a nossa colheita. Uma cultura resume tud
 Na mesa, clique no ícone Cortar. Uma lista mostrará todas as colheitas existentes.
 
 
-No canto superior direito, clique em 'Novo' para criar o primeiro corte. Um novo documento de corte será aberto e inseriremos informações baticas.
+No canto superior direito, clique em 'Novo' para criar o primeiro corte. Um novo documento de corte será aberto e inseriremos informações básicas.
 
 
-As informações baticas devem ser inseridas da seguinte forma:
+As informações básicas devem ser inseridas da seguinte forma:
 
 
 * Título: Cenoura do topo da cenoura

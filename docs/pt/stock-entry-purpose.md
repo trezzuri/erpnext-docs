@@ -1,4 +1,4 @@
-# Objetivo de entrada de ações
+# Propósito de entrada de ações
 
 
 
@@ -50,13 +50,13 @@ No processo de fabricação, as matérias-primas são enviadas das lojas para o 
 #### 4.Finalidade: Fabricação
 
 
-A fabricação é criada a partir da ordem de serviço. Nesta entrada, tanto o item de matéria-prima quanto o item de produção são buscados na BOM, selecionada na Ordem de Serviço. Para os itens de matéria-prima, apenas o Armazém de Origem (geralmente armazém WIP) é mencionado. Para o item de produção, somente o armazém de destino mencionado na Ordem de Serviço é atualizado. No envio, o estoque de itens de matéria-prima é deduzido do Armazém de Origem, o que indica que os itens de matéria-prima foram consumidos no processo de fabricação. O Item de Produção é adicionado ao Armazém Alvo marcando a conclusão do ciclo de produção.
+A fabricação é criada a partir da Ordem de Serviço. Nesta entrada, tanto o item de matéria-prima quanto o item de produção são buscados na BOM, selecionada na Ordem de Serviço. Para os itens de matéria-prima, apenas o Armazém de Origem (geralmente armazém WIP) é mencionado. Para o item de produção, somente o armazém de destino mencionado na Ordem de Serviço é atualizado. No envio, o estoque de itens de matéria-prima é deduzido do Armazém de Origem, o que indica que os itens de matéria-prima foram consumidos no processo de fabricação. O Item de Produção é adicionado ao Armazém Alvo marcando a conclusão do ciclo de produção.
 
 
 ![Manufacture](/files/stock-entry-manufacture.gif)
 
 
-#### 5. Objetivo: Reembalar
+#### 5.Finalidade: Reembalar
 
 
 A entrada de reembalagem é criada quando itens comprados a granel são reembalados em pacotes menores. [Verifique esta página para saber mais sobre a entrada Repack.](/docs/pt/stock/articles/repack-entry.html)

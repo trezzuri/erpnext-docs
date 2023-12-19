@@ -11,7 +11,7 @@
 ![](/files/5sXm7Xi.png)  
 4) Assim que o botão Restaurar for clicado, o documento será restaurado no estado de rascunho com um novo nome de acordo com a série de nomenclatura.  
 ![](/files/IRC4OKh.png)  
-![](/files/sxprDuY .png)  
+![](/files/sxprDuY.png)  
   
 5) Você pode abrir diretamente o documento recém-restaurado através do botão "Abrir" ou pesquise o mesmo na lista desse documento (neste caso, lista de pedidos de compra).  
 ![](/files/YBy5CQ4.png)  

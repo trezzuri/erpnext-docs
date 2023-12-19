@@ -1,113 +1,112 @@
-
 # Item
 
 
 
-**An Item is a product or a service offered by your company.**
+**Um item é um produto ou serviço oferecido pela sua empresa.**
 
 
-The term Item is also applicable to raw materials or components of products yet to be produced (before they can be sold to customers). ERPNext allows you to manage all sorts of items like raw-materials, sub-assemblies, finished goods, item variants, and service items.
+O termo Item também se aplica a matérias-primas ou componentes de produtos ainda a serem produzidos (antes de serem vendidos aos clientes). O ERPNext permite que você gerencie todos os tipos de itens, como matérias-primas, subconjuntos, produtos acabados, variantes de itens e itens de serviço.
 
 
-ERPNext is optimized for itemized management of your sales and purchase. If you are in services, you can create an Item for each service that you offer. Completing the Item Master is very essential for the successful implementation of ERPNext.
+ERPNext é otimizado para gerenciamento detalhado de suas vendas e compras. Se você trabalha com serviços, pode criar um Item para cada serviço que oferece. Preencher o Item Master é essencial para o sucesso da implementação do ERPNext.
 
 
-To access the Item list, go to:
-> Home > Stock > Items and Pricing > Item
+Para acessar a lista de itens, vá para:
+> Home > Estoque > Itens e preços > Item
 
 
-## 1. Prerequisites
+## 1. Pré-requisitos
 
 
-Before creating and using an Item, it is advised that you create the following first:
+Antes de criar e usar um item, é aconselhável criar primeiro o seguinte:
 
 
-* [Item Group](/docs/pt/stock/item-group)
-* [Warehouse](/docs/pt/stock/warehouse)
-* A Unit of Measure if required
+* [Grupo de itens](/docs/pt/stock/item-group)
+* [Armazém](/docs/pt/stock/warehouse)
+* Uma unidade de medida, se necessário
 
 
-## 2. How to create an Item
+## 2. Como criar um item
 
 
-1. Go to the Item list, click on new.
-2. Enter an Item Code, the name will be auto-filled the same as Item Code on clicking inside the Item Name field.
-3. Select an Item Group.
-4. Enter the opening stock units and standard selling rate.
-5. Save.
-![Item Saved](/files/item-saved.png)
+1. Vá para a lista de itens e clique em novo.
+2. Insira um código de item, o nome será preenchido automaticamente da mesma forma que o código do item ao clicar dentro do campo Nome do item.
+3. Selecione um grupo de itens.
+4. Insira as unidades de estoque iniciais e a taxa de venda padrão.
+5. Salvar.
+![Item salvo](/files/item-saved.png)
 
 
-### 2.1 Item Properties
+### 2.1 Propriedades do item
 
 
-* **Item Name:** Item name is the actual name of your product or service.
-* **Item Code:** Item Code is a short-form to denote your Item. If you have very few Items, it is advisable to keep the Item Name and the Item Code same. This helps new users to recognize and update Item details in all transactions. In case you have a lot of Items with long names and the list runs in hundreds, it is advisable to code. To understand naming Item codes see [Item Codification](/docs/pt/stock/articles/item-codification). You can also generate Item Code based on a [Naming Series](/docs/pt/setting-up/settings/naming-series) by enabling this feature in [Stock Settings](/docs/pt/stock/stock-settings#1-item-naming-by).
-* **Item Group:** Item Group is used to categorize an Item under various criteria like products, raw materials, services, sub-assemblies, consumables or all Item groups. Create your default Item Group list under Setup > Item Group and pre-select the option while filling your New Item details under [Item Group](/docs/pt/stock/item-group). Item groups can be sub-assemblies, raw materials, etc, or based on your business use case.
-* **Default Unit of Measure:** This is the default measuring unit that you will use for your product. It could be Nos, Kgs, Meters, etc. You can store all the UOMs that your product will require under Set Up> Master Data > UOM. These can be preselected while filling New Item by using % sign to get a pop up of the UOM list. Visit the [UoM](/docs/pt/stock/uom) page for more details
+* **Nome do item:** O nome do item é o nome real do seu produto ou serviço.
+* **Código do Item:** Código do Item é uma forma abreviada para denotar seu Item. Se você tiver poucos itens, é aconselhável manter o nome do item e o código do item iguais. Isso ajuda os novos usuários a reconhecer e atualizar os detalhes do item em todas as transações. Caso você tenha muitos itens com nomes longos e a lista chegue às centenas, é aconselhável codificar. Para entender a nomenclatura dos códigos de item, consulte [Codificação de item](/docs/pt/stock/articles/item-codification). Você também pode gerar código de item com base em uma [Série de nomenclatura](/docs/pt/setting-up/settings/naming-series) ativando esse recurso em [Configurações de estoque](/docs/pt/stock/stock-settings#1-item-naming-by).
+* **Grupo de Itens:** Grupo de Itens é usado para categorizar um Item sob vários critérios, como produtos, matérias-primas, serviços, subconjuntos, consumíveis ou todos os grupos de Itens. Crie sua lista de Grupo de Itens padrão em Configuração > Grupo de Itens e pré-selecione a opção enquanto preenche os detalhes do Novo Item em [Grupo de Itens](/docs/pt/stock/item-group). Os grupos de itens podem ser submontagens, matérias-primas, etc., ou com base no seu caso de uso comercial.
+* **Unidade de medida padrão:** esta é a unidade de medida padrão que você usará para seu produto. Podem ser Nos, Kgs, Metros, etc. Você pode armazenar todas as UOMs que seu produto exigirá em Configuração> Dados mestre> UOM. Eles podem ser pré-selecionados ao preencher o Novo Item usando o sinal % para obter um pop-up da lista UOM. Visite a página [UoM](/docs/pt/stock/uom) para obter mais detalhes
 
 
-### 2.2 Options when creating an item
+### 2.2 Opções ao criar um item
 
 
-* **Disabled**: If you disable an Item, it cannot be selected in any transaction.
-* **Allow Alternative Item**: Sometimes when manufacturing a finished good, specific material may not be available. If you tick this, you can create and select an alternative item from the Item Alternative list. To know more, visit the [Item Alternative](/docs/pt/manufacturing/item-alternative) page.
-* **Maintain Stock:** If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item. Ensure to keep this option unchecked when creating a non-stock Item (make to order/engineer) or a service.
-* **Include Item in Manufacturing**: This is for raw material Items that'll be used to create finished goods. If the Item is an additional service like 'washing' that'll be used in the BOM, keep this unchecked.
-* **Valuation Rate**: There are two options to maintain valuation of stock. FIFO (first in-first out) and Moving Average. To understand this topic in detail please visit [Item Valuation, FIFO and Moving Average](/docs/pt/stock/articles/calculation-of-valuation-rate-in-fifo-and-moving-average).
-* **Standard Selling Rate**: When *creating* an Item, entering a value for this field will automatically create an [Item Price](/docs/pt/stock/item-price) at the backend. Entering a value after the Item has been saved will not work. In this case, the Item Price is created from any transactions with the Item. The rate at which you'll sell the item. This will be fetched in Sales Orders and Sales Invoices.
-* **Is Fixed Asset**: Tick this checkbox if this item is a company Asset. Check out the [Asset Module](/docs/pt/asset) to know more.
-* **Auto Create Assets on Purchase**: If Item is a Company Asset, tick this checkbox if you want to auto create assets while purchasing this item through [Purchase Cycle](/docs/pt/buying/purchase-order). Check out the [Asset Page](/docs/pt/asset/asset) to know more.
-* **Allowance Percentage**: This option will be available only when you create and save the item. This is the percent by which you will be allowed to over-bill or over-deliver this Item. If not set, it will select from [Stock Settings](/docs/pt/stock/stock-settings#3-limit-percent).
-* **Uploading an Image**: To upload an image for your icon that will appear in all transactions, save the partially filled form. Only after your file is saved the 'Change' button will appear on the Image icon. Click on Change, then click on Upload, and upload the image.
+* **Desativado**: se você desativar um item, ele não poderá ser selecionado em nenhuma transação.
+* **Permitir item alternativo**: Às vezes, ao fabricar um produto acabado, um material específico pode não estar disponível. Se você marcar esta opção, poderá criar e selecionar um item alternativo na lista Alternativa de item. Para saber mais, visite a página [Alternativa de item](/docs/pt/manufacturing/item-alternative).
+* **Manter Estoque:** Se você estiver mantendo estoque deste Item em seu Inventário, o ERPNext fará um lançamento no livro razão de estoque para cada transação deste item. Certifique-se de manter esta opção desmarcada ao criar um item sem estoque (fabricado sob encomenda/engenheiro) ou um serviço.
+* **Incluir Item na Fabricação**: Isto é para itens de matéria-prima que serão usados ​​para criar produtos acabados. Se o item for um serviço adicional como 'lavagem' que será usado na lista técnica, mantenha-o desmarcado.
+* **Taxa de avaliação**: Existem duas opções para manter a avaliação das ações. FIFO (primeiro a entrar-primeiro a sair) e média móvel. Para entender este tópico em detalhes, visite [Avaliação de itens, FIFO e média móvel](/docs/pt/stock/articles/calculation-of-valuation-rate-in-fifo-and-moving-average).
+* **Taxa de venda padrão**: ao *criar* um item, inserir um valor neste campo criará automaticamente um [Preço do item](/docs/pt/stock/item-price) no backend. Inserir um valor após o item ter sido salvo não funcionará. Neste caso, o Preço do Item é criado a partir de quaisquer transações com o Item. A taxa pela qual você venderá o item. Isso será obtido em pedidos de vendas e faturas de vendas.
+* **É um ativo fixo**: marque esta caixa de seleção se este item for um ativo da empresa. Confira o [Módulo de ativos](/docs/pt/asset) para saber mais.
+* **Criar ativos automaticamente na compra**: se o item for um ativo da empresa, marque esta caixa de seleção se desejar criar ativos automaticamente ao comprar este item por meio de [Ciclo de compra](/docs/pt/buying/purchase-order). Confira a [Página de recursos](/docs/pt/asset/asset) para saber mais.
+* **Porcentagem de permissão**: esta opção estará disponível somente quando você criar e salvar o item. Esta é a porcentagem pela qual você poderá faturar ou entregar este item a mais. Se não for definido, ele selecionará [Configurações de estoque](/docs/pt/stock/stock-settings#3-limit-percent).
+* **Enviando uma imagem**: Para enviar uma imagem para o seu ícone que aparecerá em todas as transações, salve o formulário parcialmente preenchido. Somente após o arquivo ser salvo o botão 'Alterar' aparecerá no ícone da imagem. Clique em Alterar, depois clique em Fazer upload e faça upload da imagem.
 
 
-For India:
+Para a Índia:
 
 
-* **HSN/SAC**: Harmonized System of Nomenclature (HSN) and Service Accounting Code (SAC) for GST. These numbers are defined by the government and different Items fall under different codes. New HSN codes can be added if not present in the list.
-* **Is nil rated or exempted**: For an Item that is under GST, but no tax is applied to it. Eg: Cereals.
-* **Is Non GST**: For an item that is not covered under GST. Eg: petrol.
+* **HSN/SAC**: Sistema Harmonizado de Nomenclatura (HSN) e Código de Contabilidade de Serviços (SAC) para GST. Esses números são definidos pelo governo e diferentes itens se enquadram em códigos diferentes. Novos códigos HSN podem ser adicionados se não estiverem presentes na lista.
+* **Tem classificação nula ou isenta**: para um item que está sujeito ao GST, mas nenhum imposto é aplicado a ele. Ex.: Cereais.
+* **Não é GST**: para um item que não é coberto pelo GST. Ex.: gasolina.
 
 
-## 3. Features
+## 3. Recursos
 
 
-### 3.1 Brand and Description
+### 3.1 Marca e descrição
 
 
-* **Brand**: If you have more than one brand save them under Selling > Brand and pre-select them while filling a New Item.
-* **Description**: Description of the item. The text from the Item Code will be fetched by default.
-![Item brand and description](/files/item-brand-description.png)
+* **Marca**: Se você tiver mais de uma marca, salve-as em Vendas > Marca e pré-selecione-as ao preencher um Novo Item.
+* **Descrição**: Descrição do item. O texto do Código do Item será obtido por padrão.
+![Marca e descrição do item](/files/item-brand-description.png)
 
 
-### 3.2 Barcodes
+### 3.2 Códigos de barras
 
 
-Barcodes can be recorded in Items to quickly scan and add them in transactions. In the Barcodes table you can add an Item's [barcode for scanning](/docs/pt/stock/articles/track-items-using-barcode). There are two types of barcodes in ERPNext:
+Os códigos de barras podem ser gravados em Itens para digitalizá-los rapidamente e adicioná-los nas transações. Na tabela Códigos de barras, você pode adicionar o [código de barras de um item para digitalização](/docs/pt/stock/articles/track-items-using-barcode). Existem dois tipos de códigos de barras no ERPNext:
 
 
-* **EAN**: The European Article Number is a 13 digit number. EAN is used internationally and recognized by more POS systems.
-* **UPC**: The Universal Product Code is a 12 digit number. UPC is generally used only in USA and Canada.
+* **EAN**: O número de artigo europeu é um número de 13 dígitos. O EAN é usado internacionalmente e reconhecido por mais sistemas POS.
+* **UPC**: o código universal do produto é um número de 12 dígitos. O UPC geralmente é usado apenas nos EUA e no Canadá.
 
 
-### 3.3 Inventory
+### 3.3 Inventário
 
 
-* **Shelf Life In Days**: This is for a product [Batch](/docs/pt/stock/batch). The number of days after which product batch will be unusable. For example, medicines.
-* **End of Life**: For a single item/product, the date after which it'll be completely unusable. That is, the item will be unusable in transactions and manufacturing. For example, you're using plastic crystals for manufacturing Items for the next 5 years after which you want to use plastic beads.
-* **Warranty**: To track a warranty period, it is necessary that the Item is serialized. When this Item is delivered, the delivery date and the expiry period is saved in the Serial Number master. Through the serial number master, you can track the warranty status.
+* **Prazo de validade em dias**: isto é para um produto [Lote](/docs/pt/stock/batch). O número de dias após os quais o lote do produto ficará inutilizável. Por exemplo, medicamentos.
+* **Fim da vida útil**: Para um único item/produto, a data após a qual ele ficará completamente inutilizável. Ou seja, o item ficará inutilizável nas transações e na fabricação. Por exemplo, você usará cristais de plástico para fabricar itens pelos próximos 5 anos, após os quais deseja usar contas de plástico.
+* **Garantia**: Para acompanhar o período de garantia, é necessário que o Item seja serializado. Quando este Item é entregue, a data de entrega e o prazo de validade são salvos no cadastro do Número de Série. Através do mestre do número de série, você pode acompanhar o status da garantia.
 
 
-A warranty period is a time period in which a purchased product may be returned or exchanged.
+Um período de garantia é um período de tempo durante o qual um produto adquirido pode ser devolvido ou trocado.
 
 
-![Item Warranty](/files/item-inventory.png)
-* **Weight UOM**: The Unit of Measure for the item. This can be Nos, Kilo, etc. The Weight UoM which you use internally can be different from the purchase UoM.
-* **Weight Per Unit**: The actual weight per unit of the item. Eg: 1 kilo biscuits or 10 biscuits per pack.
-* **Default Material Request Type**: When you create a new Material Request for this item, the field set here will be selected by default in the new Material Request. This is also known as an 'indent'.
-* **Valuation Method**: Select the Valuation Method whether FIFO or Moving Average. Read [Item Valuation methods](/docs/pt/stock/articles/calculation-of-valuation-rate-in-fifo-and-moving-average) to know more.
-* **Allow negative stock**: When checked the item will be allowed to go negative even if negative stock is disabled from Stock Settings. This is useful if you don't want to enable negative stock on high value items but few select low value items are allowed to go negative for few days.
+![Garantia do item](/files/item-inventory.png)
+* **UM de peso**: a unidade de medida do item. Pode ser Nos, Quilo, etc. A UM de peso que você usa internamente pode ser diferente da UM de compra.
+* **Peso por unidade**: o peso real por unidade do item. Ex: 1 quilo de biscoitos ou 10 biscoitos por pacote.
+* **Tipo de solicitação de material padrão**: quando você cria uma nova solicitação de material para este item, o campo definido aqui será selecionado por padrão na nova solicitação de material. Isso também é conhecido como 'recuo'.
+* **Método de avaliação**: selecione o método de avaliação, seja FIFO ou média móvel. Leia [Métodos de avaliação de itens](/docs/pt/stock/articles/calculation-of-valuation-rate-in-fifo-and-moving-average) para saber mais .
+* **Permitir estoque negativo**: When checked the item will be allowed to go negative even if negative stock is disabled from Stock Settings. This is useful if you don't want to enable negative stock on high value items but few select low value items are allowed to go negative for few days.
 
 
 ### 3.4 Automatic Reordering

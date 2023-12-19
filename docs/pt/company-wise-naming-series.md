@@ -19,6 +19,6 @@ Além disso, kmantenha este campo oculto (se necessário).
 ![](/files/2GJ5YLM.png)  
   
 Uma vez feito isso, clique em Atualizar.  
-Agora, vá para Fatura de Venda e crie um. Selecione a Empresa e a Série de Nomenclatura será atualizada automaticamente com base na abreviatura da empresa.  
+Agora, vá para Fatura de Venda e crie um. Selecione a empresa e a série de nomes será atualizada automaticamente com base na abreviatura da empresa.  
 ![](/files/PrEgDa7.png)
 

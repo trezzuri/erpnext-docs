@@ -23,7 +23,7 @@ Etapa 1: vá para o tipo de documento "Série de nomeação" e selecione a trans
 ![](/files/1KrOqdx.png)
 
   
-Etapa 2: Adicione uma nova série de nomes com no máximo 16 caracteres. Por exemplo, INV-.YYYY.-.#####. Adicione isto como a primeira opção e não marque "O usuário deve sempre selecionar" para torná-la a série de nomenclatura padrão
+Etapa 2: Adicione uma nova série de nomes com no máximo 16 caracteres. Por exemplo, INV-.YYYY.-.#####. Adicione isto como a primeira opção e não marque "O usuário deve sempre selecionar" para torná-la a série de nomenclatura padrão.
 
   
 

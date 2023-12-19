@@ -51,7 +51,7 @@ Quando estiver familiarizado com o ERPNext, comece a inserir seus dados ao vivo!
 * Você também pode configurar uma nova conta em <https://erpnext.com> e use o teste gratuito de 14 dias. [Descubra mais maneiras de implantar o ERPNext](getting-started-with-erpnext)
 * Configure todos os módulos com grupos de clientes, grupos de itens, armazéns, listas técnicas etc.
 * Importe clientes, fornecedores, itens, contatos e endereços usando a ferramenta de importação de dados.
-* Importe o estoque inicial usando a Ferramenta de reconciliação de estoque.
+* Importe o estoque inicial usando a ferramenta de reconciliação de estoque.
 * Crie lançamentos contábeis iniciais por meio do lançamento contábil manual e crie faturas de vendas e faturas de compra pendentes.
 * Se precisar de ajuda, [você pode adquirir suporte](https://erpnext.com/pricing) ou [pergunte no fórum de usuários](https://discuss.erpnext.com).
 

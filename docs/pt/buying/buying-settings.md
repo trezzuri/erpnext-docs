@@ -109,7 +109,7 @@ Caso de uso
 ## 3. Permitir que o item seja adicionado várias vezes em uma transação
 
 
-Quando esta caixa de seleção está desmarcada, um item não pode ser adicionado várias vezes no mesmo pedido de compra. No entanto, você ainda pode alterar explicitamente a quantidade. Esta é uma caixa de validação para evitar a compra acidental do mesmo item. Isso pode ser verificado para casos de uso específicos onde há diversas fontes para o mesmo material, por exemplo, na fabricação.
+Quando esta caixa de seleção está desmarcada, um item não pode ser adicionado várias vezes no mesmo pedido de compra. No entanto, você ainda pode alterar explicitamente a quantidade. Esta é uma caixa de verificação de validação para evitar a compra acidental do mesmo item. Isso pode ser verificado para casos de uso específicos onde há diversas fontes para o mesmo material, por exemplo, na fabricação.
 
 
 ### 4. Tópicos Relacionados

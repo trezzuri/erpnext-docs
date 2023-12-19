@@ -27,8 +27,8 @@ Antes de criar uma Presença do Funcionário, é aconselhável que você crie pr
 2. Selecione o departamento e a filial (opcional).
 3. Selecione os funcionários.
 4. Marque presente, ausente ou meio dia conforme necessário.
-5. Você também pode selecionar o turno e marcar os funcionários com Entrada Tardia e Saída Antecipada nesta visualização.
-6. A tabela de Presença Marcada abaixo da ferramenta mostrará todos os funcionários para os quais você marcou presença junto com seu status de presença. Você pode usar filtros de coluna para pesquisar um determinado funcionário ou funcionários com um status específico nesta tabela.
+5. Você também pode selecionar o turno e marcar os funcionários com entrada tardia e saída antecipada nesta visualização.
+6. A tabela de presença marcada abaixo da ferramenta mostrará todas as funcionários para os quais você marcou presença junto com seu status de presença. Você pode usar filtros de coluna para pesquisar um determinado funcionário ou funcionários com um status específico nesta tabela.
 
 ![](/files/pOo6Zsf.gif) 
 

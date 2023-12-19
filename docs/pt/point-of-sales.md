@@ -166,7 +166,7 @@ No final do dia, o caixa pode fechar o seu turno criando um Voucher de Fechament
 Clique no Menu e selecione 'Fechar o PDV'. Selecione o período, seu perfil de PDV e seu usuário para recuperar todas as vendas registradas.
 
 
-Ao criar um Voucher de Fechamento de PDV, todas as faturas de PDV obtidas no período selecionado serão consolidadas em uma Fatura de Venda final. O status de todas as faturas de PDV mudará de 'Pagas' para 'Consolidadas' assim que forem consolidadas com sucesso em uma fatura de vendas no fechamento.
+Ao criar um Voucher de Fechamento de PDV, todas as faturas de PDV obtidas no período selecionado serão consolidadas em uma Fatura de Venda final. O status de todas as faturas de PDV mudará de 'Paga' para 'Consolidada' assim que forem consolidadas com sucesso em uma fatura de venda no fechamento.
 
 
 ![Entrada de fechamento de PDV](/files/pos-closing-entry.png)

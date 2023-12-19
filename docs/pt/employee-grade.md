@@ -29,13 +29,13 @@ Antes de criar uma Classificação de Funcionário, é aconselhável criar os se
 3. Insira o alvo padrão [Política de saída](/docs/pt/human-resources/leave-policy) e padrão  [Estrutura salarial](/docs/pt/human-resources/salary-structure) para essa série.
 4. Salvar.
 
-![Employee Grade](/files/employee-grade .png)
+![Employee Grade](/files/employee-grade.png)
 
 Abaixo estão as diferentes classificações de funcionários criadas.
 
 ![Nova classificação de funcionário](/files/employee-grade1.png)
 
-Você também pode acessar o [Funcionário](/docs/pt/human-resources/employee), [Período de licença](/docs/pt/human-resources/leave-type) , [Modelo de integração de funcionários](/docs/pt/human-resources/employee-onboarding) e [Modelo de separação de funcionários](/docs/pt/human-resources/employee-separation).
+Você também pode acessar [Funcionário](/docs/pt/human-resources/employee), [Período de licença](/docs/pt/human-resources/leave-type) , [Modelo de integração de funcionários](/docs/pt/human-resources/employee-onboarding) e [Modelo de separação de funcionários](/docs/pt/human-resources/employee-separation).
 
 ## 3. Tópicos relacionados
 

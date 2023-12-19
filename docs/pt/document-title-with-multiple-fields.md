@@ -12,7 +12,7 @@ Aqui estão as etapas,
 
 
 1. Certifique-se de ter um campo que será referenciado para criar o título do documento.
-2. A configuração batica termina adicionando este nome de campo nas configurações de visualização do tipo de documento para o título.
+2. A configuração básica termina adicionando este nome de campo nas configurações de visualização do tipo de documento para o título.
 3. Se você quiser adicionar mais,
 4. Adicione os links de campo no **padrão** do campo neste formato **{field\_name}**
 

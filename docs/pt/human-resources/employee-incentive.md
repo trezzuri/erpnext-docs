@@ -29,7 +29,7 @@ Antes de criar um Incentivo ao Funcionário, é aconselhável criar o seguinte:
 2. Selecione o funcionário.
 3. Insira o valor do incentivo.
 4. Selecione a data da folha de pagamento.
-5. Selecione o [Componente salarial](/docs/pt/human-resources/salary-component) sob o qual deseja dar o incentivo.
+5. Selecione o [Componente salarial](/docs/pt/human-resources/salary-component) sob o qual deseja conceder o incentivo.
 6. Salvar e enviar.
 7. Ao enviar, o documento 'Salário Adicional' do 'Componente Salarial' especificado é criado. Isso será obtido durante a execução da entrada da folha de pagamento.
 

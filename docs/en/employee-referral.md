@@ -58,13 +58,13 @@ To access Employee Referral, go to:
 When you submit an employee referral document the initial status will be "Pending". After submitting the document, the "Create Job Applicant" button will appear at the top right corner.
 
 
-Clicking this button will create a new **Job Applicant** with the status "Open". The status of the **Employee Referral** document will change to "In Process"
+Clicking this button will create a new **Job Applicant*\* with the status "Open". The status of the \**Employee Referral** document will change to "In Process"
 
 
 ![Create Job Applicant](/files/create-job-applicant.png)
 
 
-When someone changes the status of the **Job Applicant** to "Hold" or "Replied", the status of the **Employee Referral** will remain "In Process". If the status of the **Job Applicant** changes to "Accepted" or "Rejected", the status of the **Employee Referral** document will also change to "Accepted" or "Rejected" respectively.
+When someone changes the status of the **Job Applicant*\* to "Hold" or "Replied", the status of the \**Employee Referral*\* will remain "In Process". If the status of the \**Job Applicant*\* changes to "Accepted" or "Rejected", the status of the \**Employee Referral** document will also change to "Accepted" or "Rejected" respectively.
 
 
 ### 3.2 Managing referral bonus

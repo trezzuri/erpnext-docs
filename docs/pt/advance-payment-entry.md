@@ -60,7 +60,7 @@ Ao criar uma fatura, você pode verificar se há um Adiantamento contra essa Par
 ![Obter pagamentos antecipados na fatura de vendas](/files/fetch-advance-payments-in-invoice.png)
 
 
-Ao clicar no botão **Obter recebimento antecipado**, serão buscadas as entradas de pagamento antecipado encontradas para aquela parte. Depois que as entradas de pagamento antecipado forem obtidas, você poderá alocar o valor do adiantamento nessa fatura. A alocação reduzirá imediatamente o valor pendente dessa fatura.
+Ao clicar no botão **Obter recebimento antecipado**, serão buscadas as entradas de pagamento antecipado encontradas para aquela parte. Depois que as entradas de pagamento antecipado forem obtidas, você poderá alocar o valor do adiantamento nesta fatura. A alocação reduzirá imediatamente o valor pendente dessa fatura.
 
 
 Salve e envie a fatura de vendas.

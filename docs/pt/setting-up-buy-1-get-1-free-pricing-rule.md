@@ -13,7 +13,7 @@ Para configurar uma regra de preços para o esquema "Compre 1 e leve 1 grátis",
 4) Em seguida, as informações do item gratuito precisam ser configurado na seção "Esquema de descontos em produtos". Existem dois cenários neste caso:  
 a) O item grátis é um item diferente. Por exemplo, na compra de um pacote de Açúcar, você ganha um pacote de Sal grátis. Neste caso, selecione o código do item gratuito, Salt neste caso.  
 ![](/files/sVbLj6O.png)   
-b) O item grátis é o mesmo item. Por exemplo, na compra de um pacote de Açúcar, você ganha outro pacote de Açúcar grátis. Nesse caso, marque a caixa de seleção "Mesmo item".  
+b) O item gratuito é o mesmo item. Por exemplo, na compra de um pacote de Açúcar, você ganha outro pacote de Açúcar grátis. Nesse caso, marque a caixa de seleção "Mesmo item".  
 ![](/files/aRW58BS.png)  
   
 Além disso, você pode definir a quantidade, a taxa e a UOM, se necessário.  

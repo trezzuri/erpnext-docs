@@ -100,7 +100,7 @@ Após definir o campo Fonte do gráfico, a tabela Filtros será atualizada com o
 No exemplo acima, criamos um `Dashboard Chart` personalizado para o qual já tínhamos uma `Dashboard Chart Source`. 
 
 
-Você também pode criar gráficos baticos como Contagem/Soma/Média/Agrupar por de Tarefas com base na data de criação/modificação selecionando `Contagem/Soma/Média/Agrupar por` como `Tipo de gráfico` você também pode usar um relatório existente como fonte no campo `Nome do relatório` para criar um gráfico selecionando `Relatório` como `Tipo de gráfico`.
+Você também pode criar gráficos básicos como Contagem/Soma/Média/Agrupar por de Tarefas com base na data de criação/modificação selecionando `Contagem/Soma/Média/Agrupar por` como `Tipo de gráfico` você também pode usar um relatório existente como fonte no campo `Nome do relatório` para criar um gráfico selecionando `Relatório` como `Tipo de gráfico`.
 
 
 Para `Contagem`, você precisa selecionar o `Doctype` para o qual você precisa do gráfico no campo `Tipo de documento` e `Baseado em Campo Data` em `Série Temporal Baseada em`.
@@ -142,7 +142,7 @@ Os filtros usados ​​para gerar os dados do gráfico também podem ser altera
 ![Filtros do painel](/files/dashboard-filters.png)
 
 
-Para obter os dados mais recentes, cada gráfico deve ser atualizado com força clicando no botão **Forçar atualização** no menu suspenso.
+Para obter os dados mais recentes, cada gráfico deve ser atualizado vigorosamente clicando no botão **Forçar atualização** no menu suspenso.
 
 
 

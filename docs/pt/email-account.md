@@ -86,13 +86,13 @@ As seguintes opções estão disponíveis para e-mails enviados:
 8. **Rastrear status do e-mail**: rastreie se o seu e-mail foi aberto pelo destinatário. Observe que, se você estiver enviando para vários destinatários, mesmo que um destinatário leia o e-mail, ele será considerado "Aberto".
 9. **Ativar resposta automática**: se ativado, insira uma mensagem de resposta automática.
 10. **Anexar e-mail de saída à pasta enviada**: se estiver usando servidores de e-mail personalizados como Zimbra ou CPanel, o SMTP não anexará e-mails automaticamente à pasta Enviados. Ativar esta opção garantirá que todos os e-mails sejam explicitamente anexados à pasta Enviados da conta de e-mail.
-11. **Use SSL para e-mails enviados**: use SSL como padrão para e-mails enviados. O padrão é a porta 465.
+11. **Usar SSL para e-mails enviados**: use SSL como padrão para e-mails enviados. O padrão é a porta 465.
 
 ## 4. Como o ERPNext lida com as respostas
 
 No ERPNext quando você envia um e-mail para um contato como um cliente, o remetente será o usuário que enviou o e-mail. Na propriedade **Reply-To**, o endereço de e-mail será da conta de entrada padrão (como `[replies@suaempresa.com](mailto:replies@suaempresa.com)`) . O ERPNext irá extrair automaticamente esses e-mails da conta recebida e marcá-los para a comunicação relevante.
 
-> **Nota para auto-implementadores:** Para e-mails enviados, você deve configurar seu próprio servidor SMTP ou inscreva-se em um serviço de retransmissão SMTP como mandrill.com ou sendgrid.com que permite o envio de um número maior de e-mails transacionais. Serviços de e-mail regulares, como o Gmail, restringirão você a um número limitado de e-mails por dia.
+> **Nota para auto-implementadores:** Para e-mails enviados, você deve configurar seu próprio servidor SMTP ou inscreva-se em um serviço de retransmissão SMTP como mandrill.com ou sendgrid.com que permite o envio de um número maior de e-mails transacionais. Serviços de e-mail comuns, como o Gmail, restringirão você a um número limitado de e-mails por dia.
 
 Se você encontrar erros ao configurar uma conta de e-mail, consulte [esta página](/docs/pt/setting-up/articles/email-error).
 

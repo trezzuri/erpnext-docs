@@ -42,7 +42,7 @@ Uma vez concluída esta etapa, você deverá ter dois novos campos no DocType se
   
 
 
-![](/files/SabQi7A .png)
+![](/files/SabQi7A.png)
 
   
 

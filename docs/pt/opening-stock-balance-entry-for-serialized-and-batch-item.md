@@ -59,7 +59,7 @@ Para o item serializado, mencione os números de série equivalentes à sua quan
 Para um item de lote, forneça o ID do lote no qual o saldo inicial será atualizado. Mantenha o mestre do lote pronto e atualize-o para o item do lote. Para criar um novo lote, acesse:
 
 
-`Estoque > Configuração > Lote> Novo`
+`Estoque > Configuração > Lote > Novo`
 
 
 [Clique aqui para saber como o inventário Batchwise é gerenciado no ERPNext.](/docs/pt/stock/articles/managing-batch-wise-inventory.html) 

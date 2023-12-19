@@ -11,7 +11,7 @@ Os agricultores sabem que mesmo uma pequena operação exige uma manutenção in
 ## Capturar unidades de terra e gerenciar colheitas
 
 
-Uma fazenda requer atenção adicional para gerenciar suas unidades produtivas (parcelas de terra), atividades agrícolas sensíveis ao tempo (como plantio, irrigação, fertilização, etc.), registrar dados ambientais e de colheita para análise e relatórios para ajudar a tomar decisões eficazes .
+Uma fazenda requer atenção adicional para gerenciar suas unidades produtivas (parcelas de terra), atividades agrícolas urgentes (como plantio, irrigação, fertilização, etc.), registrar dados ambientais e de colheita para análise e relatórios para ajudar a tomar decisões eficazes .
 
 
 ![Textura do solo](/files/soil-texture.png)

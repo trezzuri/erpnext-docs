@@ -1,27 +1,33 @@
 
-# Human Resources
+# Frappe HR
 
 
 
-The Human Resources (HR) module covers the processes related to the HR department of a company. It maintains a complete employee database including contact information,
-salary details, attendance, performance evaluation, leaves, and appraisal records.
+Frappe HR is an open Source, modern, and easy-to-use HR and Payroll Software for all organizations.
 
 
-The most important feature here is processing the payroll by using Payroll Entry to generate Salary Slips. Most countries have complex tax rules stating which expenses the company can make on behalf of its Employees.
+## Introduction
 
 
-There are a set of rules for the company to deduct taxes and social security
-from employee payroll. ERPNext accommodates all types of taxes and
-their calculation.
+Frappe HR has everything you need to drive excellence within the company. It's a complete HRMS solution with over 13 different modules right from Employee Management, Onboarding, Leaves, to Payroll, Taxation, and more!
 
 
-## Videos Tutorials
+## Key Features
 
 
-1. [Employees](/docs/user/videos/learn/employee)
-2. [Leave Management](/docs/user/videos/learn/leave-management)
-3. [Expense Claims](/docs/user/videos/learn/expense-claim)
-4. [Employee Advance](/docs/user/videos/learn/employee-advance)
+* Employee Management
+* Employee Lifecycle
+* Leave and Attendance
+* Shift Management
+* Expense Claims and Advances
+* Hiring
+* Performance Management
+* Fleet Management
+* Training
+* Payroll
+* Taxation
+* Compensation
+* Analytics
 
 
 

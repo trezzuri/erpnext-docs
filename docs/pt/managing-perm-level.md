@@ -17,7 +17,7 @@ O nível de permissão (forma abreviada de nível de permissão) para um campo p
 Se você precisar atribuir permissões diferentes de um campo específico a usuários diferentes, poderá fazê-lo por meio do Nível de permissão. Vamos considerar um exemplo para melhor compreensão.
 
 
-A Nota de Entrega pode ser acessada tanto pelo Gerente de Estoque quanto pelo Usuário de Estoque. Você não deseja que o Usuário do Estoque acesse o campo relacionado ao Valor na Nota de Entrega, mas outro campo deve estar visível da mesma forma que está visível no Gerenciador de Estoque.
+A Nota de Entrega pode ser acessada tanto pelo Gerente de Estoque quanto pelo Usuário de Estoque. Você não deseja que o Usuário do Estoque acesse o campo relacionado ao Valor na Nota de Entrega, mas outro campo deve estar visível assim como está visível no Gerenciador de Estoque.
 
 
 Para todos os campos relacionados, que não devem ser vistos, você pode definir o nível de permissão como (digamos) 2.

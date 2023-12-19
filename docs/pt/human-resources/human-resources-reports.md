@@ -84,7 +84,7 @@ Os usuários podem configurar relatórios automáticos por e-mail nos filtros ac
 
 O Relatório de aniversário do funcionário mostra os aniversários mensais dos seus funcionários.
 
-![Aniversário do funcionário](/files/employee-birthday .png)
+![Aniversário do funcionário](/files/employee-birthday.png)
 
 ## 8. Funcionário trabalhando em feriado
 

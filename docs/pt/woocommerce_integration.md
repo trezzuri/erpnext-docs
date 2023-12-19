@@ -26,7 +26,7 @@ Usando a integração WooCommerce, o sistema cria pedidos de vendas no ERPNext p
 
 ### 1.2 Configurações do Woocommerce
 
-1. No seu site ERPNext, vá para: **Home > Integrações > Configurações > Configurações do Woocommerce**.
+1. Em seu site ERPNext, vá para: **Home > Integrações > Configurações > Configurações do Woocommerce**.
 2. Cole a chave e o segredo da API gerados na etapa anterior nos campos "Chave do consumidor da API" e "Segredo do consumidor da API".
 3. No campo "Woocommerce" URL do servidor" cole o URL do seu site WooCommerce.
 4. Certifique-se de que "Ativar sincronização" esteja marcado.

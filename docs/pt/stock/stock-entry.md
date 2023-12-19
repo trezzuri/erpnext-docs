@@ -46,7 +46,7 @@ As entradas de estoque para fins de fabricação geralmente são criadas a parti
 3. Se você definir os armazéns de origem ou de destino padrão, eles serão preenchidos automaticamente nas linhas da tabela Itens.
 4. Os armazéns de origem/destino estarão disponíveis de acordo com a finalidade de entrada de estoque selecionada.
 5. Selecione Itens e insira uma quantidade.
-6. A taxa batica será obtida e o valor será calculado automaticamente.
+6. A taxa básica será obtida e o valor será calculado automaticamente.
 7. Salvar e enviar.
 
 
@@ -95,7 +95,7 @@ Diferentes armazéns de origem e destino podem ser definidos para diferentes ite
 ### 3.2 Sucata e perda de processo
 
 
-* **Item de sucata**: Itens de sucata são subprodutos e podem ser tratados como produtos. Os itens de sucata terão a taxa de valorização e serão adicionados ao depósito de sucata. Os usuários podem definir a taxa de avaliação para o item sucateado manualmente no campo Taxa batica.
+* **Item de sucata**: Itens de sucata são subprodutos e podem ser tratados como produtos. Os itens de sucata terão a taxa de valorização e serão adicionados ao depósito de sucata. Os usuários podem definir a taxa de avaliação para o item sucateado manualmente no campo Taxa básica.
 * **Perda de Processo**: A perda de processo não tem impacto no estoque, isso reduzirá o número de itens FG.
 Confira a imagem abaixo, o usuário planejou produzir 100 Itens FG, mas após o processo de fabricação, a quantidade foi produzida como 80. Para produzir 80 Itens FG, o usuário utilizou toda a quantidade de matéria-prima. Portanto, aqui 20 quantidades foram produzidas e, portanto, o sistema marcou-a como Quantidade de perda de processo.
 O custo de perda de processo de 20 quantidades foi adicionado às 80 quantidades do Item FG.
@@ -120,7 +120,7 @@ Para adicionar custos adicionais:
 ![Custos adicionais de entrada de estoque](/files/additional-costs-table.png)
 
 
-Os Custos Adicionais adicionados serão distribuídos entre os itens recebidos (onde o Armazém Alvo mencionado) proporcionalmente com base no Valor Batico dos itens. E o custo adicional distribuído será adicionado à taxa batica do item, para calcular a Taxa de Avaliação.
+Os Custos Adicionais adicionados serão distribuídos entre os itens recebidos (onde o Armazém Alvo mencionado) proporcionalmente com base no Valor Básico dos itens. E o custo adicional distribuído será adicionado à taxa básica do item, para calcular a Taxa de Avaliação.
 
 
 Quantidade e Taxa são mostradas a seguir quando você expande a tabela Itens.
@@ -163,7 +163,7 @@ Os títulos do recibo de compra também podem ser alterados durante a impressão
 Se o sistema de inventário permanente estiver ativado, os custos adicionais serão contabilizados na Conta de Despesas mencionada na tabela Custos Adicionais.
 
 
-![Contábil Geral de Custos Adicionais](/files/stock-entry-additional-cost.png)
+![Contabilidade Geral de Custos Adicionais](/files/stock-entry-additional-cost.png)
 ![Contábil Geral de Custos Adicionais](/files/additional-costs-general-ledger.png)
 
 
@@ -182,7 +182,7 @@ Depois de enviar uma entrada de estoque, você pode acessar o razão de estoque 
 Se você deseja transferir materiais de um armazém para outro e deseja fazer duas entradas para isso, use o recurso "Adicionar ao trânsito".
 
 
-Para utilizar o recurso "Adicionar ao Trânsito", faça o lançamento do estoque com o tipo "Transferência de Material" e marque a caixa de seleção "Adicionar ao Trânsito". A seguir você precisa selecionar o armazém de origem de onde deseja emitir o material e a seguir selecionar o armazém do tipo “Trânsito” no armazém de destino. Para fazer armazém de trânsito você pode ir ao mestre de armazém e selecionar o tipo de armazém como "Trânsito". Depois disso, adicione os itens na entrada de estoque que precisam ser transferidos e envie-os.
+Para utilizar o recurso “Adicionar ao Trânsito”, faça o lançamento do estoque com o tipo “Transferência de Material” e habilite a caixa de seleção “Adicionar ao Trânsito”. A seguir você precisa selecionar o armazém de origem de onde deseja emitir o material e a seguir selecionar o armazém do tipo “Trânsito” no armazém de destino. Para fazer armazém de trânsito você pode ir ao mestre de armazém e selecionar o tipo de armazém como "Trânsito". Depois disso, adicione os itens na entrada de estoque que precisam ser transferidos e envie-os.
 
 
 ![Adicionar ao transporte público](/private/files/add_to_transit_entry.png)
@@ -206,7 +206,7 @@ Para realizar a segunda entrada de estoque no armazém de destino, o usuário te
 
 1. [Finalidade de entrada de estoque](/docs/pt/stock/articles/stock-entry-purpose)
 2. [Reconciliação de estoque](/docs/pt/stock/stock-reconciliation)
-3. [Abrir entrada de saldo de estoque para serializados e em lote Artigo](/docs/pt/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
+3. [Abrir entrada de saldo de estoque para serializados e em lote Item](/docs/pt/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
 4. [Reconciliação de estoque](/docs/pt/stock/stock-reconciliation)
 5. [Ordem de serviço](/docs/pt/manufacturing/work-order)
 6. [Plano de produção](/docs/pt/manufacturing/production-plan)

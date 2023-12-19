@@ -61,7 +61,7 @@ da mesma forma.
 
 
 Assim, quando você faz sua análise, você entende melhor de que lado
-do seu negócio está indo melhor. Como o ERPNext tem a opção de adicionar vários
+do seu negócio está indo melhor. Como o ERPNext tem a opção de adicionar múltiplos
 Empresas, você pode criar Centros de Custo para cada Empresa e gerenciá-los
 separadamente.
 

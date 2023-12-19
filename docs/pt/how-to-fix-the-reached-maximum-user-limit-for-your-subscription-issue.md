@@ -21,7 +21,7 @@ Para corrigir isso, você terá que:
   
 
 
-No entanto, às vezes, você ainda pode enfrentar esse problema mesmo quando tiver não esgotou o número de usuários do sistema conforme seu plano de assinatura. Por exemplo, você tem um limite de 5 usuários do sistema e criou apenas 3 usuários. No entanto, ao criar o quarto usuário, você recebe a mensagem acima. A razão para isso pode ser que para alguns dos usos o campo de "Sessões Simultâneas" seja maior que 1.
+No entanto, às vezes, você ainda pode enfrentar esse problema mesmo quando tiver não esgotou o número de usuários do sistema conforme seu plano de assinatura. Por exemplo, você tem um limite de 5 usuários do sistema e criou apenas 3 usuários. No entanto, ao criar o quarto usuário, você recebe a mensagem acima. A razão para isto pode ser que para alguns dos usos o campo de "Sessões Simultâneas" seja maior que 1.
 
   
 

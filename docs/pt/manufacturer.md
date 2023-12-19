@@ -5,7 +5,7 @@
 **Um fabricante criou ou produz um item.**
 
 
-Um Fabricante não pode ser a mesma pessoa/empresa que vende o Item sob uma [Marca](/docs/pt/selling/brand) específica. Por exemplo, a Unico Plastics pode ser o fabricante de pincéis de plattico, mas pode ser vendida sob uma marca, por exemplo, Super Brushes.
+Um Fabricante não pode ser a mesma pessoa/empresa que vende o Item sob uma [Marca](/docs/pt/selling/brand) específica. Por exemplo, a Unico Plastics pode ser o fabricante de pincéis de plástico, mas pode ser vendida sob uma marca, por exemplo, Super Brushes.
 
 
 No ERPNext, um Fabricante pode ser usado para identificar Itens usando um número de peça específico.

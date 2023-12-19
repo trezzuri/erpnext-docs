@@ -50,7 +50,7 @@ In Frappe HR, we allow you to pay the amount via Salary Slip or Payment Entry.
 ### 3.1 Payment via Salary Slip
 
 
-To pay the Gratuity amount via Salary Slip you need to check the checkbox **Pay via Salary Slip**. Select **Payroll Date** and **Salary Component**, which will appear on Check.
+To pay the Gratuity amount via Salary Slip you need to check the checkbox **Pay via Salary Slip*\*. Select \**Payroll Date*\* and \**Salary Component**, which will appear on Check.
 
 
 ![payment conf via salary slip](/files/payment-conf-via-salary-slip.png)
@@ -65,7 +65,7 @@ On Submit, it will automatically create Additional Salary with respective Payrol
 ### Payment via Payment Entry
 
 
-To pay the Gratuity amount via Payment Entry you need to make sure that checkbox **Pay via Salary Slip** is unchecked. After that, it will allow you to select **Payable Account**, **Expense Account**, and **Mode of Payment**.
+To pay the Gratuity amount via Payment Entry you need to make sure that checkbox **Pay via Salary Slip*\* is unchecked. After that, it will allow you to select \**Payable Account*\*, \**Expense Account*\*, and \**Mode of Payment**.
 
 
 ![payment conf via payment entry](/files/payment-conf-via-payment-entry.png)

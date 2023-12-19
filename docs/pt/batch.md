@@ -92,7 +92,7 @@ Ao pesquisar o ID do lote sem valor no campo Armazém, o filtro Quantidade real 
 
 
 1. [Número de série](/docs/pt/stock/serial-no)
-2. [Abrir entrada de saldo de estoque para serializados e em lote Artigo](/docs/pt/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
+2. [Abrir entrada de saldo de estoque para serializados e em lote Item](/docs/pt/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
 3. [Gerenciamento de inventário em lote](/docs/pt/stock/articles/managing-batch-wise-inventory)
 
 

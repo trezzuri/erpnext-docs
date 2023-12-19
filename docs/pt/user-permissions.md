@@ -50,7 +50,7 @@ No Controle Avançado, você pode controlar melhor onde a permissão do usuário
 ### 2.1.1. Aplicável para
 
 
-Opcionalmente, você pode aplicar permissões de usuário apenas para um tipo de documento específico, definindo o Tipo de documento após desmarcar a caixa de seleção Aplicar a todos os tipos de documento.
+Opcionalmente, você pode aplicar permissões de usuário apenas para tipos de documentos específicos, definindo o Tipo de documento após desmarcar a caixa de seleção Aplicar a todos os tipos de documentos.
 Definir a opção **Aplicável para** tornará a permissão do usuário atual aplicável somente no tipo de documento mestre selecionado.
 
 
@@ -72,7 +72,7 @@ O valor de **Permitir** pode ser um DocType com uma visualização em árvore, q
 Vamos supor que **For Value**, 'Unico Plastics Inc.', tenha uma empresa filha, 'Unico Toys'. Quando uma permissão de usuário é criada para 'Unico Plastics Inc.', também são concedidas permissões para seus descendentes.
 
 
-**Ocultar descendentes** fica visível somente ao selecionar um tipo de documento de exibição em árvore. Ao ativar esta caixa de seleção, as permissões para descendentes de **For Value** não serão concedidas.
+**Ocultar descendentes** fica visível somente ao selecionar um tipo de documento de visualização em árvore. Ao ativar esta caixa de seleção, as permissões para descendentes de **For Value** não serão concedidas.
 
 
 ![Ocultar permissões descendentes](/files/hide-descendant-permissions.png)

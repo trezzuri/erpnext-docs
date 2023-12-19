@@ -51,7 +51,7 @@ Para a Índia:
 ### 2.2 Permitir a criação de fatura de compra sem pedido de compra e recibo de compra
 
 
-Se a opção "Ordem de compra obrigatória" ou "Recibo de compra obrigatório" estiver configurada como "Sim" em [Configurações de compra](/docs/pt/buying/buying-settings), ele pode ser substituído para um determinado fornecedor ativando "Permitir criação de fatura de compra sem pedido de compra" ou "Permitir criação de fatura de compra sem recibo de compra" no Cadastro de fornecedores.
+Se a opção "Ordem de compra obrigatória" ou "Recibo de compra obrigatório" estiver configurada como "Sim" em [Configurações de compra](/docs/pt/buying/buying-settings), pode ser substituído para um fornecedor específico ativando "Permitir criação de fatura de compra sem pedido de compra" ou "Permitir criação de fatura de compra sem recibo de compra" no Cadastro de fornecedores.
 
 
 ![Supplier Master](/files/supplier-po-pr-required.png)

@@ -32,7 +32,7 @@ Antes de criar uma Estrutura Salarial, é aconselhável que você tenha o seguin
 
 ### 2.1 Rendimentos e Deduções
 
-Os rendimentos especificam os componentes salariais que são ganhos por um funcionário. Esses componentes normalmente incluem subsídios baticos, bônus e incentivos que são adicionados ao salário total do funcionário. Por outro lado, as Deduções especificam os Componentes Salariais que são deduzidos do Salário Total do funcionário. Normalmente incluem os impostos.
+Os rendimentos especificam os componentes salariais que são ganhos por um funcionário. Esses componentes normalmente incluem subsídios básicos, bônus e incentivos que são adicionados ao salário total do funcionário. Por outro lado, as Deduções especificam os Componentes Salariais que são deduzidos do Salário Total do funcionário. Normalmente incluem os impostos.
 
 
 > **Observação:** Somente os componentes salariais definidos como 'Ganhos' serão mostrados na tabela de Ganhos e os componentes definidos como 'Deduções' serão mostrados na tabela Deduções.

@@ -34,29 +34,29 @@ Before creating a Leave Policy Assignment, it is advisable to create the followi
 	* If "Assignment based on" is left blank, then you will have to set the Effective From and Effective To date manually.
 4. Save and Submit.
 
-![Leave Policy Assignment](/files/leave-policy-assignment.png)
+![Leave Policy Assignment](/files/leave-policy-assignment.png)![]()
 
 On submission, Leave Allocation documents would be created automatically based on the [Leave Policy](/docs/en/human-resources/leave-policy) as shown below.
 
-![Leave Allocations](/files/granted-leaves.png)
+![Leave Allocations](/files/granted-leaves.png)![]()  
+
 
 ## 3. Features
 
 ### 3.1 Bulk Leave Policy Assignment
 
+Frappe HR also allows creating Leave Policy Assignments for multiple employees at once.
 
-> From Version 15 onwards: Use the [Leave Control Panel](https://frappehr.com/docs/v14/en/leave-control-panel) for Bulk Leave Policy Assignment
-> 
-> 
+1. Go to the Leave Policy Assignment list.
+2. Click on Bulk Leave Policy Assignment.
+3. This will take you to the [Leave Control Panel](https://frappehr.com/docs/v14/en/leave-control-panel), where you can assign Leave Policies in bulk.
 
-Frappe HR also allows creating multiple Leave Policy Assignment for multiple employees.
+![](/files/NUL3M8C.png)![]()  
 
-1. Go to Leave Policy Assignment list, click on Bulk Leave Policy Assignment.
-2. Dialog Will appear, Select Employee. You can filter Employee based on Company and Department or You can also use standard filters by clicking Add Filters.
-3. Select Leave Policy and Effective From and Effective To dates.
-4. Click on Assign.
 
-![Bulk Leave Policy Assignment](/files/bulk-leave-policy-assignment.png)
+### 3.2 Allocating Earned Leaves
+
+Leave Policy Assignments can also be used to allocate [Earned Leaves](https://frappehr.com/docs/v14/en/configuring-earned-leave).
 
 
 

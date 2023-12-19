@@ -49,7 +49,7 @@ No Frappe RH, permitimos o pagamento do valor via Boleto Salarial ou Entrada de 
 ### 3.1 Pagamento via recibo de salário
 
 
-Para pagar o valor da Gratificação via Comprovante de Salário é necessário marcar a caixa de seleção **Pagar via Comprovante de Salário**. Selecione **Data da folha de pagamento** e **Componente salarial**, que aparecerão em Cheque.
+Para efetuar o pagamento do valor da Gratificação via Comprovante de Salário é necessário marcar a caixa de seleção **Pagar via Comprovante de Salário*\*. Selecione \**Data da folha de pagamento*\* e \**Componente salarial**, que aparecerão no Cheque.
 
 
 ![pagamento conf via comprovante de salário](/files/payment-conf-via-salary-slip.png)
@@ -64,7 +64,7 @@ Ao enviar, será criado automaticamente um Salário Adicional com a respectiva D
 ### Pagamento via entrada de pagamento
 
 
-Para pagar o valor da gratificação por meio de entrada de pagamento, você precisa certificar-se de que a caixa de seleção **Pagar via comprovante de salário** esteja desmarcada. Depois disso, você poderá selecionar **Conta a Pagar**, **Conta de Despesas** e **Modo de Pagamento**.
+Para pagar o valor da Gratificação via Entrada de Pagamento você precisa ter certeza de que a caixa de seleção **Pagar via Comprovante de Salário*\* está desmarcada. Depois disso, você poderá selecionar \**Conta a pagar*\*, ​​\**Conta de despesas*\* e \**Modo de pagamento**.
 
 
 ![pagamento conf via entrada de pagamento](/files/payment-conf-via-payment-entry.png)

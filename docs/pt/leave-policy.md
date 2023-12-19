@@ -2,7 +2,7 @@
 
 
 
-**A quantidade de licenças com direito em uma empresa para um funcionário em um período de licença é conhecida como Política de licença.**
+**A quantidade de licenças com direito em uma empresa para um funcionário em um período de licença é conhecida como Política de Licença.**
 
 É uma prática que muitas empresas aplicam uma Política geral de licenças para monitorar e gerenciar com eficácia as licenças dos funcionários. O Frappe HR permite que você crie e gerencie múltiplas Políticas de Licenças e aloque licenças aos Funcionários conforme definido pela política.
 

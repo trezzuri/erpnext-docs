@@ -84,13 +84,13 @@ O método 1 é viável em qualquer situação, mas exige que você importe manua
 **Para configuração de um único local:**
 
 
-Na abordagem Push Biometric Device, a ferramenta precisa ser capaz de se comunicar com seu dispositivo biométrico via TCP/IP. Portanto, geralmente ele precisa ser executado na mesma rede LAN que o dispositivo biométrico. Para sincronizar esses logs obtidos com sua instância ERPNext, ele usa acesso API. Isso funciona melhor quando você tem um único local configurado.
+Na abordagem Push Biometric Device, a ferramenta precisa ser capaz de se comunicar com seu dispositivo biométrico via TCP/IP. Portanto, geralmente ele precisa ser executado na mesma rede LAN que o dispositivo biométrico. Para sincronizar esses logs obtidos com sua instância do ERPNext, ele usa acesso à API. Isso funciona melhor quando você tem um único local configurado.
 
 
 **Para uma configuração em vários locais:**
 
 
-Neste caso, geralmente recomendamos o método 2, onde a maioria dos fornecedores de biometria fornece serviços para sincronizar os registros do dispositivo biométrico de vários locais para o ERPNext através do acesso à API. O método 3 (ferramenta de atendimento biométrico push) também pode funcionar neste caso se você tiver algum conhecimento de rede.
+Neste caso, geralmente recomendamos o método 2, onde a maioria dos fornecedores de biometria fornece serviços para sincronizar os logs de dispositivos biométricos de vários locais para o ERPNext através de acesso à API. O método 3 (ferramenta de atendimento biométrico push) também pode funcionar neste caso se você tiver algum conhecimento de rede.
 
 
 

@@ -8,9 +8,9 @@ Um livro-razão separado que registra apenas transações em contas **a receber*
 
 Uma fatura de vendas de ₹ 1.000 e uma entrada de pagamento dessa fatura será semelhante a abaixo. ![Screenshot 2022 05 18 às 11/13/28](/files/Screenshot 2022/05/18 às 11/13/28.png)![]()
 
-### Relatórios
+### Uso
 
-#### de uso
+#### Relatórios
 
 Contas a Receber, Resumo de Contas a Receber, Contas a Pagar e Resumo de Contas a Pagar usam o Payment Ledger como fonte.
 

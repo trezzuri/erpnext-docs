@@ -142,7 +142,7 @@ por exemplo.
 
  se tornará
   `Seguro
- Materiais de trabalho
+ Materiais de Trabalho
  Despesas de Trabalho
  Materiais de Trabalho-1`
 
@@ -266,7 +266,7 @@ Se uma fatura do QuickBooks estiver vinculada a uma `Cobrança atrasada` ou `Cob
 QuickBooks tem duas variantes transacionais de Bill, todas elas serão salvas como fatura de compra.
 
 -**Conta** equivale a uma fatura de compra.
--**Crédito do fornecedor** equivale a uma fatura de compra de devolução.
+-**Crédito do Fornecedor** equivale a uma fatura de compra de devolução.
 
 ```
 

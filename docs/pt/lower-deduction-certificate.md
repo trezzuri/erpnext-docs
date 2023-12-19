@@ -50,7 +50,7 @@ No exemplo a seguir, selecionamos a categoria TDS como 'TDS-194D-Individual', qu
 
 
 ![Fornecedor com categoria de retenção de imposto](/files/supplier-with-tax-withholding-category.png)
-2. Vamos criar uma fatura de 20.000. Salvar a fatura calcula automaticamente o imposto e o anexa à tabela Impostos e Encargos de Compra. Embora a categoria tributária atribuída ao fornecedor tenha uma alíquota de 5%, a alíquota prevalecente é de 1%, mencionada no Certificado de Dedução Inferior.
+2. Vamos criar uma fatura de 20.000. Salvar a fatura calcula automaticamente o imposto e o anexa à tabela Impostos e Encargos de Compra. Embora a categoria fiscal atribuída ao fornecedor tenha uma alíquota de 5%, a alíquota prevalecente é de 1%, mencionada no Certificado de Dedução Inferior.
 
 
 ![Menos TDS na fatura de compra](/files/lower-tax-withholding-in-purchase-invoice.png)

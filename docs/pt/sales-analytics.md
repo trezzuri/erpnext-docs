@@ -80,7 +80,7 @@ Na janela de dados, colunas de informações ficam acessíveis.
 
 
 * **Mover colunas**: as colunas podem ser movidas e reorganizadas clicando nos títulos das colunas e arrastando-as.
-* **Classificação**: para classificar os dados em colunas, clique no lado direito do cabeçalho de uma coluna e você verá opções para classificar como crescente, decrescente, redefinir a classificação ou remover uma coluna .
+* **Classificação**: para classificar os dados em colunas, clique no lado direito do cabeçalho de uma coluna e você verá opções para classificar em ordem crescente, decrescente, redefinir classificação ou remover uma coluna .
 * **Filtragem**: as caixas de texto abaixo dos títulos das colunas funcionam como filtros instantâneos. Insira um número e todos os registros correspondentes serão mostrados.
 
 

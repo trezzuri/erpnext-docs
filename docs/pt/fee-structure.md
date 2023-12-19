@@ -44,7 +44,7 @@ Antes de criar uma estrutura de taxas, é aconselhável criar primeiro o seguint
 ### 2.1. Opções adicionais ao criar uma estrutura de taxas.
 
 
-* Insira os detalhes baticos como **categoria do aluno**, **período acadêmico** e **ano acadêmico**.
+* Insira os detalhes básicos como **categoria do aluno**, **período acadêmico** e **ano acadêmico**.
 * Na tabela de componentes, adicione a **Descrição** da categoria Taxas.
 
 
@@ -77,7 +77,7 @@ Para facilitar isso, você pode adicionar os detalhes da sua conta na estrutura 
 ## 3. Depois de enviar a estrutura de taxas
 
 
-Depois de enviar a estrutura de taxas, você poderá criar a [Tabela de taxas](/docs/pt/education/fee-schedule) em Fee Estrutura.
+Depois de enviar a Estrutura de Taxas, você poderá criar a [Tabela de Taxas](/docs/pt/education/fee-schedule) em Taxas Estrutura.
 
 
 ![Estrutura de taxas](/files/education-fee-structure-4.png)

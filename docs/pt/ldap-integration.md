@@ -36,7 +36,7 @@ Muitos parâmetros são obrigatórios para permitir que o ERPNext se conecte ao 
 
 
 * URL do servidor LDAP: Este é o URL do seu servidor LDAP. Deve estar no formato `ldap://yourserver:port` ou `ldaps://yourserver:port`
-* Nome distinto batico (DN): Este é o nome distinto do usuário que tem permissão para procurar detalhes do usuário em seu servidor LDAP. Este deve ser um usuário que tenha apenas permissões somente leitura em seu servidor LDAP.
+* Nome distinto básico (DN): Este é o nome distinto do usuário que tem permissão para procurar detalhes do usuário em seu servidor LDAP. Este deve ser um usuário que tenha apenas permissões somente leitura em seu servidor LDAP.
 * Senha para DN Base: Esta é a senha do usuário acima, usada para procurar detalhes do usuário em seu servidor LDAP.
 * Unidade Organizacional de Usuários: Este é o DN da Unidade Organizacional da qual todos os usuários em seu servidor LDAP devem fazer parte para poder fazer login no ERPNext.
 * Função padrão na criação: Quando o usuário é criado no ERPNext, ele receberá esta função padrão na primeira vez que efetuar login.

@@ -1,22 +1,21 @@
-
-# Purchase Invoice
-
+# Fatura de compra
 
 
-**A Purchase Invoice is a bill you receive from your Suppliers against which you need to make the payment.**
+
+**Uma fatura de compra é uma fatura que você recebe de seus fornecedores e pela qual você precisa efetuar o pagamento.**
 
 
-Purchase Invoice is the exact opposite of your Sales Invoice. Here you
-accrue expenses to your Supplier. Making a Purchase Invoice is very similar to
-making a Purchase Order.
+A Fatura de Compra é exatamente o oposto da sua Fatura de Venda. Aqui vocÊ
+acumular despesas para o seu fornecedor. Fazer uma fatura de compra é muito semelhante a
+fazendo um pedido de compra.
 
 
-To access the Purchase Invoice list, go to:
+Para acessar a lista de faturas de compra, acesse:
 
 
 
 > 
-> Home > Accounting > Accounts Payable > Purchase Invoice
+> Página inicial > Contabilidade > Contas a pagar > Fatura de compra
 > 
 > 
 > 
@@ -25,449 +24,448 @@ To access the Purchase Invoice list, go to:
 ![PI Flow](/files/pi-flow.png)
 
 
-## 1. Prerequisites
+## 1. Pré-requisitos
 
 
-Before creating and using a Purchase Invoice, it is advised to create the following first:
+Antes de criar e usar uma fatura de compra, é aconselhável criar primeiro o seguinte:
 
 
 * [Item](/docs/pt/stock/item)
-* [Supplier](/docs/pt/buying/supplier)
-* [Purchase Order](/docs/pt/buying/purchase-order)
-* [Purchase Receipt](/docs/pt/stock/purchase-receipt) (optional)
+* [Fornecedor](/docs/pt/buying/supplier)
+* [Pedido de compra](/docs/pt/buying/purchase-order)
+* [Recibo de compra](/docs/pt/stock/purchase-receipt) (opcional)
 
 
-## 2. How to create a Purchase Invoice:
+## 2. Como criar uma fatura de compra:
 
 
-A Purchase Invoice is usually created from a Purchase Order or a Purchase Receipt. The Supplier's Item details will be fetched into the Purchase Invoice. However, you can also create a Purchase Invoice directly.
+Uma fatura de compra geralmente é criada a partir de um pedido de compra ou de um recibo de compra. Os detalhes do Item do Fornecedor serão inseridos na Fatura de Compra. No entanto, você também pode criar uma fatura de compra diretamente.
 
 
-To fetch the details automatically in a Purchase Invoice, click on the **Get Items from**. The details can be fetched from a Purchase Order or Purchase Receipt.
+Para obter os detalhes automaticamente em uma fatura de compra, clique em **Obter itens de**. Os detalhes podem ser obtidos em um pedido de compra ou recibo de compra.
 
 
-For manual creation, follow these steps:
+Para criação manual, siga estas etapas:
 
 
-1. Go to the Purchase Invoice list, click on New.
-2. Select the Supplier.
-3. The posting date and time will be set to current, you can edit after you tick the checkbox below Posting Time.
-4. Set the Due Date for payment.
-5. Add Items and quantities in the Items table.
-6. The Rate and Amount will be fetched.
-7. Save and Submit.
+1. Vá para a lista Fatura de compra e clique em Novo.
+2. Selecione o fornecedor.
+3. A data e hora da postagem serão definidas como atuais. Você pode editar depois de marcar a caixa de seleção abaixo de Horário da postagem.
+4. Defina a data de vencimento do pagamento.
+5. Adicione itens e quantidades na tabela Itens.
+6. A Taxa e o Valor serão obtidos.
+7. Salvar e enviar.
 
 
-![Purchase Invoice](/files/purchase-invoice.png)
+![Fatura de compra](/files/purchase-invoice.png)
 
 
-### 2.1 Additional options when creating a Purchase Invoice
+### 2.1 Opções adicionais ao criar uma fatura de compra
 
 
-* **Is Paid**: You can tick 'Is Paid' if the amount has already been paid via an [Advance Payment Entry](/docs/pt/accounts/advance-payment-entry). This should be ticked if there is full or partial payment.
-* **Is Return (Debit Note)**: Tick this if the customer has returned the Items. To know more details, visit the [Debit Note](/docs/pt/accounts/debit-note) page.
-* **Apply Tax Withholding Amount**: If the selected Supplier has a Tax Withholding Category set, this checkbox will be enabled. For more information, visit the [Tax Withholding Category](/docs/pt/accounts/tax-withholding-category) page.
+* **É pago**: você pode marcar 'É pago' se o valor já tiver sido pago por meio de um [Entrada de pagamento antecipado](/docs/pt/accounts/advance-payment-entry). Deve ser assinalado se houver pagamento total ou parcial.
+* **É Devolução (Nota de Débito)**: Marque esta opção se o cliente devolveu os Itens. Para saber mais detalhes, visite a página [Nota de Débito](/docs/pt/accounts/debit-note).
+* **Aplicar valor de retenção de imposto**: Se o fornecedor selecionado tiver uma categoria de retenção de imposto definida, esta caixa de seleção estará habilitada. Para obter mais informações, visite a página [Categoria de retenção de imposto](/docs/pt/accounts/tax-withholding-category).
 
 
-### 2.2 Statuses
+### 2.2 Status
 
 
-* **Draft**: A draft is saved but yet to be submitted to the system.
-* **Return**: The Items have been returned to the Supplier.
-* **Debit Note Issued**: The Items have been returned and a [Debit Note](/docs/pt/accounts/debit-note) has been issued against the invoice.
-* **Submitted**: The Purchase Invoice has been submitted to the system and the general ledger has been updated.
-* **Paid**: Supplier has been fully paid the invoice amount and the corresponding [Payment Entries](/docs/pt/accounts/payment-entry) have been submitted.
-* **Partly Paid**: Supplier has been paid a part of the invoice amount and the corresponding [Payment Entries](/docs/pt/accounts/payment-entry) have been submitted.
-* **Unpaid**: The Purchase Invoice is yet to be paid.
-* **Overdue**: The due date has passed for payment.
-* **Canceled**: The invoice has been canceled due to some reason.
+* **Rascunho**: um rascunho foi salvo, mas ainda precisa ser enviado ao sistema.
+* **Devolução**: Os Itens foram devolvidos ao Fornecedor.
+* **Nota de débito emitida**: os itens foram devolvidos e uma [Nota de débito](/docs/pt/accounts/debit-note) foi emitido contra a fatura.
+* **Enviada**: a fatura de compra foi enviada ao sistema e o razão geral foi atualizado.
+* **Pago**: o fornecedor recebeu integralmente o valor da fatura e as [entradas de pagamento foram enviados.](/docs/pt/accounts/payment-entry)
+* **Parcialmente pago**: o fornecedor recebeu uma parte do valor da fatura e o [pagamento correspondente As inscrições](/docs/pt/accounts/payment-entry) foram enviadas.
+* **Não paga**: a fatura de compra ainda não foi paga.
+* **Atrasado**: o prazo para pagamento já passou.
+* **Cancelada**: a fatura foi cancelada por algum motivo.
 
 
-## 3. Features
+## 3. Recursos
 
 
-### 3.1 Accounting Dimensions
+### 3.1 Dimensões contábeis
 
 
-Accounting Dimensions lets you tag transactions based on a specific Territory, Branch, Customer, etc. This helps in viewing accounting statements separately based on the criteria selected. To know more, visit the [Accounting Dimensions](/docs/pt/accounts/accounting-dimensions) page.
+As Dimensões Contábeis permitem marcar transações com base em um Território, Filial, Cliente específico, etc. Isso ajuda a visualizar os demonstrativos contábeis separadamente com base nos critérios selecionados. Para saber mais, visite a página [Dimensões contábeis](/docs/pt/accounts/accounting-dimensions).
 
 
 
 > 
-> Note: Project and Cost Center are treated as dimensions by default.
-> 
-> 
-> 
-
-
-### 3.2 Holding the Invoice
-
-
-Sometimes you may need to hold an invoice from being submitted.
-
-
-**Hold Invoice**: Enable this checkbox to put the Purchase Invoice on hold. This can be done only before submitting the invoice. Once 'Hold Invoice' is enabled and the Purchase Invoice is submitted, the status will change to 'Temporarily on Hold'.
-
-
-![Purchase Invoice on Hold](/files/purchase-invoice-on-hold.png)
-
-
-Once the purchase invoice gets submit and you want to change 'Release Date' then you can take the help of the 'Hold Invoice' button, which is available on the top right.
-
-
-If you want to hold submitted purchase invoice then you can hold using 'Block Invoice' option and If you want to unblock again then use 'Unblock Invoice' option.
-
-
-![Block PI](/files/purchase-invoice-block.png)
-
-
-This is invoice level holding, Suppliers can be put on hold. [Learn more here](/docs/pt/buying/supplier#23-credit-limit).
-
-
-### 3.3 Supplier Invoice Details
-
-
-* **Supplier Invoice No**: The Supplier may identify this order with a number of his own. This is for reference.
-* **Supplier Invoice Date**: The date on which the Supplier placed/confirmed your order from his end.
-
-
-### 3.4 Address and Contact
-
-
-* **Supplier Address:** This is the Billing Address of the Supplier.
-* **Contact Person**: If the Supplier is a Company, the person to be contacted is fetched in this field if set in the [Supplier](/docs/pt/buying/supplier) form.
-* **Shipping Address:** Address where the items will be shipped to.
-
-
-For India, the following details can be recorded for GST purposes:
-
-
-* Supplier GSTIN
-* Place of Supply
-* Company GSTIN
-
-
-### 3.5 Currency and Price list
-
-
-You can set the currency in which the Purchase Invoice order is to be sent. This is fetched from the Purchase Order. If you set a Pricing List, then the item prices will be fetched from that list. Ticking on 'Ignore Pricing Rule' will ignore the [Pricing Rules](/docs/pt/accounts/pricing-rule) set in Accounts > Pricing Rule.
-
-
-![Purchase Invoice Price List](/files/purchase-invoice-price-list.png)
-
-
-Read about [Price Lists](/docs/pt/stock/price-lists)
-and [Multi-Currency Transactions](/docs/pt/accounts/articles/managing-transactions-in-multiple-currency)
-to know more.
-
-
-### 3.6 Subcontracting or 'Supply Raw Materials'
-
-
-Setting 'Supply Raw Materials' option is useful for subcontracting where you provide the raw materials for manufacturing an Item. To know more, visit the [Subcontracting page](/docs/pt/manufacturing/subcontracting).
-
-
-### 3.7 Items table
-
-
-* **scan barcode**: You can add Items in the Items table by scanning their barcodes if you have a barcode scanner. Read documentation for [tracking items using barcode](/docs/pt/stock/articles/track-items-using-barcode) to know more.
-* The Item Code, name, description, Image, and Manufacturer will be fetched from the [Item master](/docs/pt/stock/item).
-* **Manufacturer**: If the Item is manufactured by a specific manufacturer, it can be added here. This will be fetched if set in the Item master.
-* **Quantity and Rate**: When you select the Item code, its name, description, and UOM will be fetched. The 'UOM Conversion Factor' is set to 1 by default, you can change it depending on the UOM received from the seller, more in the next section.
-
-
-'Price List Rate' will be fetched if a Standard Buying rate is set. 'Last Purchase Rate' shows the rate of the item from your last Purchase Order. Rate is fetched if set in the item master. You can attach an Item Tax Template to apply a specific tax rate to the item.
-* **Item weights** will be fetched if set in the Item master else enter manually.
-* **Discount on Price List Rate**: You can apply a discount on individual Items percentage-wise or on the total amount of the Item. Read [Applying Discount](/docs/pt/selling/articles/applying-discount) for more details.
-* **Item Weight**: The Item Weight details per unit and Weight UOM are fetched if set in the Item master, else enter manually.
-* **Accounting Details**: The Expense account can be changed here you wish to.
-* **Deferred Expense**: If the expense for this Item will be billed over the coming months in parts, then tick on 'Enable Deferred Expense'. To know more, visit the [Deferred Expense page](/docs/pt/accounts/deferred-expense).
-* **Allow Zero Valuation Rate**: Ticking on 'Allow Zero Valuation Rate' will allow submitting the Purchase Receipt even if the Valuation Rate of the Item is 0. This can be a sample item or due to a mutual understanding with your Supplier.
-* **BOM**: If there is a [Bill of Materials](/docs/pt/manufacturing/bill-of-materials) created for the Item, it'll be fetched here. This is useful for reference when [subcontracting](/docs/pt/manufacturing/subcontracting).
-* **Item Tax Template**: You can set an Item Tax Template to apply a specific Tax amount to this particular Item. To know more, visit [this page](/docs/pt/accounts/item-tax-template).
-* **Page Break** will create a page break just before this Item when printing.
-
-
-#### Update Stock
-
-
-
-> 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the rules for cancellation of stock entries and posting backdated stock transactions in ERPNext. [Learn more here](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
+> Observação: Projeto e Centro de Custo são tratados como dimensões por padrão.
 > 
 > 
 > 
 
 
-The **Update Stock** checkbox should be checked if you want ERPNext to automatically update your inventory. Consequently, there will be no need for a Delivery Note.
+### 3.2 Retenção da fatura
 
 
-### 3.8 Taxes and charges
+Às vezes, pode ser necessário impedir o envio de uma fatura.
 
 
-The Taxes and Charges will be fetched from the [Purchase Order](/docs/pt/buying/purchase-order) or [Purchase Receipt](/docs/pt/stock/purchase-receipt).
+**Reter fatura**: marque esta caixa de seleção para suspender a fatura de compra. Isso só pode ser feito antes do envio da fatura. Depois que a opção "Reter fatura" for ativada e a fatura de compra for enviada, o status mudará para "Temporariamente em espera".
 
 
-![Purchase Invoice Tax](/files/purchase-invoice-tax.png)
+![Fatura de compra em espera](/files/purchase-invoice-on-hold.png)
 
 
-Visit the [Purchase Taxes and Charges Template](/docs/pt/buying/purchase-taxes-and-charges-template) page to know more about taxes.
+Depois que a fatura de compra for enviada e você desejar alterar a 'Data de lançamento', você poderá usar o botão 'Reter fatura', que está disponível no canto superior direito.
 
 
-The total taxes and charges will be displayed below the table.
+Se quiser reter a fatura de compra enviada, você pode reter usando a opção 'Bloquear fatura' e se quiser desbloquear novamente, use a opção 'Desbloquear fatura'.
 
 
-To add taxes automatically via a Tax Category, visit [this page](/docs/pt/accounts/tax-category).
+![Bloquear PI](/files/purchase-invoice-block.png)
 
 
-Make sure to mark all your taxes in the Taxes and Charges table correctly for an accurate valuation.
+Esta é a retenção no nível da fatura. Os fornecedores podem ser colocados em espera. [Saiba mais aqui](/docs/pt/buying/supplier#23-credit-limit).
 
 
-#### Shipping Rule
+### 3.3 Detalhes da fatura do fornecedor
 
 
-A Shipping Rule helps set the cost of shipping an Item. The cost will usually increase with the distance of shipping. To know more, visit the [Shipping Rule](/docs/pt/selling/shipping-rule) page.
+* **Número da Fatura do Fornecedor**: O Fornecedor poderá identificar este pedido com um número próprio. Isto é para referência.
+* **Data da fatura do fornecedor**: A data em que o fornecedor fez/confirmou seu pedido.
 
 
-### 3.9 Additional Discount
+### 3.4 Endereço e contato
 
 
-Any additional discounts to the whole Invoice can be set in this section. This discount could be based on the Grand Total i.e., post tax/charges or Net total i.e., pre tax/charges. The additional discount can be applied as a percentage or an amount.
+* **Endereço do fornecedor:** este é o endereço de cobrança do fornecedor.
+* **Pessoa de Contato**: Se o Fornecedor for uma Empresa, a pessoa a ser contatada é buscada neste campo se definida no [Formulário de fornecedor](/docs/pt/compra/fornecedor).
+* **Endereço de envio:** Endereço para onde os itens serão enviados.
 
 
-![Purchase Invoice Discount](/files/purchase-invoice-additional-discount.png)
+Para a Índia, os seguintes detalhes podem ser registrados para fins de GST:
 
 
-Visit the [Applying Discount](/docs/pt/selling/articles/applying-discount) page for more details.
+* Fornecedor GSTIN
+* Local de fornecimento
+* GSTIN da empresa
 
 
-### 3.10 Advance Payment
+### 3.5 Lista de moedas e preços
 
 
-For high-value Items, the seller can request an advance payment before processing the order. The **Get Advances Received** button opens a popup from where you can fetch the orders where advance payment was made. To know more, visit the [Advance Payment Entry](/docs/pt/accounts/advance-payment-entry) page.
+Você pode definir a moeda na qual o pedido da fatura de compra será enviado. Isso é obtido no pedido de compra. Se você definir uma Lista de Preços, os preços dos itens serão obtidos dessa lista. Marcar 'Ignorar regra de preços' irá ignorar as [Regras de preços](/docs/pt/accounts/pricing-rule) definidas em Contas > Regra de preços.
 
 
-### 3.11 Payment Terms
+![Lista de preços da fatura de compra](/files/purchase-invoice-price-list.png)
 
 
-The payment for an invoice may be made in parts depending on your understanding with the Supplier. This is fetched if set in the Purchase Order.
+Leia sobre as [listas de preços](/docs/pt/stock/price-lists)
+e [transações em várias moedas](/docs/pt/accounts/articles/managing-transactions-in-multiple-currency)
+para saber mais.
 
 
-![Purchase Invoice Payment Terms](/files/purchase-invoice-payment-terms.png)
+### 3.6 Subcontratação ou 'Fornecimento de matérias-primas'
 
 
-To know more, visit the [Payment Terms](/docs/pt/accounts/payment-terms) page.
+Definir a opção 'Fornecer matérias-primas' é útil para subcontratação onde você fornece as matérias-primas para a fabricação de um item. Para saber mais, visite a [página de subcontratação](/docs/pt/manufacturing/subcontracting).
 
 
-### 3.12 Write Off
+### 3.7 Tabela de itens
 
 
-Write off happens when the Customer pays an amount less than the invoice amount. This may be a small difference like 0.50. Over several orders, this might add up to a big number. For accounting accuracy, this difference amount is 'written off'. To know more, visit the [Payment Terms](/docs/pt/accounts/payment-entry#25-deductions-or-loss) page.
+* **digitalizar código de barras**: você pode adicionar itens na tabela Itens digitalizando seus códigos de barras se tiver um leitor de código de barras. Leia a documentação sobre [rastreamento de itens usando código de barras](/docs/pt/stock/articles/track-items-using-barcode) para saber mais.
+* O código do item, nome, descrição, imagem e fabricante serão obtidos no [Mestre de itens](/docs/pt/stock/item) .
+* **Fabricante**: Se o item for fabricado por um fabricante específico, ele poderá ser adicionado aqui. Isso será obtido se definido no item mestre.
+* **Quantidade e Taxa**: Ao selecionar o código do item, seu nome, descrição e UOM serão buscados. O 'Fator de conversão UOM' é definido como 1 por padrão, você pode alterá-lo dependendo da UOM recebida do vendedor, mais na próxima seção.
 
 
-### 3.13 Terms and Conditions
+'Taxa da lista de preços' será obtida se uma taxa de compra padrão for definida. 'Taxa da última compra' mostra a taxa do item do seu último pedido de compra. A taxa é obtida se definida no cadastro de itens. Você pode anexar um modelo de imposto de item para aplicar uma taxa de imposto específica ao item.
+* **Os pesos dos itens** serão obtidos se definidos no item mestre, caso contrário, serão inseridos manualmente.
+* **Desconto na tarifa da lista de preços**: Você pode aplicar um desconto em itens individuais em termos percentuais ou no valor total do item. Leia [Aplicar desconto](/docs/pt/selling/articles/applying-discount) para obter mais detalhes.
+* **Peso do item**: os detalhes do Peso do item por unidade e UDM do peso são obtidos se definidos no Cadastro de itens, caso contrário, insira-os manualmente.
+* **Detalhes da conta**: a conta de despesas pode ser alterada aqui conforme desejar.
+* **Despesa Diferida**: Se a despesa deste item for cobrada em partes nos próximos meses, marque 'Ativar Despesa Diferida'. Para saber mais, visite a [página Despesas diferidas](/docs/pt/accounts/deferred-expense).
+* **Permitir Taxa de Avaliação Zero**: Marcar 'Permitir Taxa de Avaliação Zero' permitirá o envio do Recibo de Compra mesmo que a Taxa de Avaliação do Item seja 0. Este pode ser um item de amostra ou devido a um entendimento mútuo com seu fornecedor.
+* **BOM**: se houver uma [lista de materiais](/docs/pt/manufacturing/bill-of-materials) criado para o Item, ele será buscado aqui. Isso é útil para referência ao [subcontratação](/docs/pt/manufacturing/subcontracting).
+* **Modelo de imposto de item**: você pode definir um modelo de imposto de item para aplicar um valor de imposto específico a este item específico. Para saber mais, visite [esta página](/docs/pt/accounts/item-tax-template).
+* **Quebra de página** criará uma quebra de página logo antes deste item durante a impressão.
 
 
-In Sales/Purchase transactions there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/pt/setting-up/print/terms-and-conditions)
+#### Atualizar estoque
 
 
-### 3.14 Printing Settings
 
+> 
+> Nota: A partir da versão 13 introduzimos o livro-razão imutável que altera as regras para cancelamento de entradas de estoque e lançamento de transações de estoque retroativas no ERPNext. [Saiba mais aqui](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
+> 
+> 
+> 
 
-#### Letterhead
 
+A caixa de seleção **Atualizar Estoque** deve ser marcada se você deseja que o ERPNext atualize automaticamente seu inventário. Consequentemente, não haverá necessidade de Nota de Entrega.
 
-You can print your Purchase Invoice on your Company's letterhead. Know more [here](/docs/pt/setting-up/print/letter-head).
 
+### 3.8 Impostos e encargos
 
-'Group same items' will group the same items added multiple times in the Items table. This can be seen when your print.
 
+Os Impostos e Taxas serão obtidos no [Ordem de Compra](/docs/pt/buying/purchase-order) ou [Recibo de compra](/docs/pt/stock/purchase-receipt).
 
-#### Print Headings
 
+![Imposto da fatura de compra](/files/purchase-invoice-tax.png)
 
-Purchase Invoice headings can also be changed when printing the document. You can do this by selecting a **Print Heading**. To create new Print Headings go to: Home > Settings > Printing > Print Heading. Know more [here](/docs/pt/setting-up/print/print-headings).
 
+Acesse a página [Modelo de impostos e cobranças de compra](/docs/pt/buying/purchase-taxes-and-charges-template) para saber mais sobre impostos. 
 
-There are additional checkboxes for printing the Purchase Invoice without the amount, this might be useful when the Item is of high value. You can also group the same Items in one row when printing.
 
+O total de impostos e taxas será exibido abaixo da tabela.
 
-### 3.15 GST Details (for India)
 
+Para adicionar impostos automaticamente por meio de uma categoria de imposto, visite [esta página](/docs/pt/accounts/tax-category).
 
-The following details can be set for GST:
 
+Certifique-se de marcar todos os seus impostos na tabela Impostos e Encargos corretamente para obter uma avaliação precisa.
 
-* GST Category
-* Invoice Copy
-* Reverse Charge
-* E-commerce GSTIN
-* Eligibility For ITC
-* Availed ITC Integrated Tax
-* Availed ITC Central Tax
-* Availed ITC State/UT Tax
-* Availed ITC Cess
 
+#### Regra de envio
 
-### 3.16 More Information
 
+Uma regra de envio ajuda a definir o custo de envio de um item. O custo geralmente aumenta com a distância do envio. Para saber mais, visite a página [Regras de envio](/docs/pt/selling/shipping-rule).
 
-* **Is Opening Entry**: If this is an opening entry to affect your accounts select 'Yes'. i.e. if you're migrating from another ERP to ERPNext mid year, you might want to use an Opening Entry to update account balances in ERPNext.
-* **Remarks**: Any additional remarks about the Purchase Invoice can be added here.
 
+### 3,9 Desconto adicional
 
-### 3.17 After Submitting
 
+Quaisquer descontos adicionais para toda a fatura podem ser definidos nesta seção. Este desconto pode ser baseado no total geral, ou seja, após impostos/encargos, ou no total líquido, ou seja, antes de impostos/encargos. O desconto adicional pode ser aplicado como uma porcentagem ou um valor.
 
-On submitting a Purchase Invoice, the following documents can be created against it:
 
+![Desconto na fatura de compra](/files/purchase-invoice-additional-discount.png)
 
-1. [Journal Entry](/docs/pt/accounts/journal-entry)
-2. [Payment Entry](/docs/pt/accounts/payment-entry)
-3. [Payment Request](/docs/pt/accounts/payment-request)
-4. [Landed Cost Voucher](/docs/pt/stock/landed-cost-voucher)
-5. [Asset](/docs/pt/asset/asset)
+
+Acesse a página [Aplicar desconto](/docs/pt/selling/articles/applying-discount) para obter mais detalhes.
+
+
+### 3.10 Pagamento Antecipado
+
+
+Para itens de alto valor, o vendedor pode solicitar um pagamento antecipado antes de processar o pedido. O botão **Obter Adiantamentos Recebidos** abre um popup onde você pode buscar os pedidos onde o pagamento antecipado foi feito. Para saber mais, visite a página [Entrada de pagamento antecipado](/docs/pt/accounts/advance-payment-entry).
+
+
+### 3.11 Termos de pagamento
+
+
+O pagamento de uma fatura poderá ser feito em parcelas dependendo do seu entendimento com o Fornecedor. Isso é obtido se definido no pedido de compra.
+
+
+![Termos de pagamento da fatura de compra](/files/purchase-invoice-payment-terms.png)
+
+
+Para saber mais, visite a página [Condições de pagamento](/docs/pt/accounts/payment-terms).
+
+
+### 3.12 Baixa
+
+
+A baixa ocorre quando o Cliente paga um valor inferior ao valor da fatura. Esta pode ser uma pequena diferença como 0,50. Em vários pedidos, isso pode resultar em um grande número. Para maior precisão contábil, esse valor de diferença é “baixado”. Para saber mais, visite a página [Condições de pagamento](/docs/pt/accounts/payment-entry#25-deductions-or-loss).
+
+
+### 3.13 Termos e Condições
+
+
+Em transações de Vendas/Compras pode haver certos Termos e Condições com base nos quais o Fornecedor fornece bens ou serviços ao Cliente. Você pode aplicar os Termos e Condições às transações e eles aparecerão na impressão do documento. Para saber mais sobre os Termos e Condições, [clique aqui](/docs/pt/setting-up/print/terms-and-conditions)
+
+
+### 3.14 Configurações de impressão
+
+
+#### Papel timbrado
+
+
+Você pode imprimir sua fatura de compra em papel timbrado da sua empresa. Saiba mais [aqui](/docs/pt/setting-up/print/letter-head).
+
+
+'Agrupar os mesmos itens' agrupará os mesmos itens adicionados diversas vezes na tabela Itens. Isso pode ser visto quando você imprimir.
+
+
+#### Imprimir títulos
+
+
+Os títulos da fatura de compra também podem ser alterados durante a impressão do documento. Você pode fazer isso selecionando um **Título de impressão**. Para criar novos cabeçalhos de impressão, vá para: Página inicial > Configurações > Impressão > Cabeçalho de impressão. Saiba mais [aqui](/docs/pt/setting-up/print/print-headings).
+
+
+Existem caixas de seleção adicionais para imprimir a Nota Fiscal de Compra sem o valor, isso pode ser útil quando o Item for de alto valor. Você também pode agrupar os mesmos itens em uma linha ao imprimir.
+
+
+### 3.15 Detalhes do GST (para a Índia)
+
+
+Os seguintes detalhes podem ser definidos para o GST:
+
+
+* Categoria GST
+* Cópia da fatura
+* Cobrança reversa
+* GSTIN de comércio eletrônico
+* Elegibilidade para ITC
+* Imposto integrado de TIC disponível
+* Imposto Central ITC Aproveitado
+* Imposto estadual/UT do ITC disponível
+* Taxa ITC disponível
+
+
+### 3.16 Mais informações
+
+
+* **É uma entrada de abertura**: se esta for uma entrada de abertura que afetará suas contas, selecione 'Sim'. ou seja, se você estiver migrando de outro ERP para o ERPNext no meio do ano, você pode querer usar uma Entrada de Abertura para atualizar os saldos das contas no ERPNext.
+* **Observações**: Quaisquer observações adicionais sobre a fatura de compra podem ser adicionadas aqui.
+
+
+### 3.17 Após o envio
+
+
+Ao enviar uma fatura de compra, os seguintes documentos podem ser criados:
+
+
+1. [Lançamento de diário](/docs/pt/accounts/journal-entry)
+2. [Entrada de pagamento](/docs/pt/accounts/payment-entry)
+3. [Solicitação de pagamento](/docs/pt/accounts/payment-request)
+4. [Comprovante de custo final](/docs/pt/stock/landed-cost-voucher)
+5. [Ativo](/docs/pt/asset/asset)
 
 
 ![PI Submit](/files/purchase-invoice-post-submit.png)
 
 
-## 4. More
+## 4. Mais
 
 
-### 4.1 Accounting Impact
+### 4.1 Impacto contábil
 
 
-Similar to a Sales Invoice, in a Purchase Invoice you have to enter an Expense or an Asset account for
-each row in your Items table. This helps to indicate if the Item is an Asset
-or an Expense. You can also change the Cost Center. These can also be set in the
-Item master. The Cost Center can be set at the Company level.
+Semelhante a uma fatura de venda, em uma fatura de compra você deve inserir uma conta de despesa ou ativo para
+cada linha da tabela Itens. Isso ajuda a indicar se o item é um ativo
+ou uma despesa. Você também pode alterar o Centro de Custo. Eles também podem ser definidos no
+Mestre de itens. O Centro de Custo pode ser definido no nível da Empresa.
 
 
-The Purchase Invoice will affect your accounts as follows:
+A fatura de compra afetará suas contas da seguinte forma:
 
 
-* Accounting entries (GL Entry) for a typical double entry “purchase”:
-* Debits:
-	+ Expense or Asset (net totals, excluding taxes)
-	+ Taxes (/assets if VAT-type or expense again)
-* Credits:
-	+ Supplier
+* Lançamentos contábeis (entrada GL) para uma típica “compra” de dupla entrada:
+* Débitos:
+	+ Despesa ou Ativo (totais líquidos, excluindo impostos)
+	+ Impostos (/ativos se for tipo IVA ou despesa novamente)
+* Créditos:
+	+ Fornecedor
 
 
-![Purchase Invoice Ledger](/files/purchase-invoice-ledger.png)
+![Lista de fatura de compra](/files/purchase-invoice-ledger.png)
 
 
-### 4.2 Accounting When **Is Paid** is checked
+### 4.2 Contabilidade quando **É pago** é verificado
 
 
-If **Is Paid** is checked, ERPNext will also make the following
-accounting entries:
+Se **Está Pago** estiver marcado, o ERPNext também fará o seguinte
+lançamentos contábeis:
 
 
-Debits:
+Débitos:
 
 
-* Supplier
+* Fornecedor
 
 
-Credits:
+Créditos:
 
 
-* Bank/Cash Account
+* Conta bancária/dinheiro
 
 
-To see entries in your Purchase Invoice after you “Submit”, click on “View
-Ledger”.
+Para ver as entradas na sua fatura de compra após “Enviar”, clique em “Ver
+Razão”.
 
 
-### 4.3 Is purchase an “Expense” or an “Asset”?
+### 4.3 A compra é uma “despesa” ou um “ativo”?
 
 
-If the Item is consumed immediately on purchase, or if it is a service, then
-the purchase becomes an “Expense”. For example, a telephone bill or travel
-bill is an “Expense”-it is already consumed.
+Se o Item for consumido imediatamente após a compra, ou se for um serviço, então
+a compra passa a ser uma “Despesa”. Por exemplo, uma conta telefónica ou uma conta de viagem
+a conta é uma “Despesa”-já foi consumida.
 
 
-For inventory Items, that have a value, these purchases are not yet “Expense”,
-because they still have a value while they remain in your stock. They are
-“Assets”. If they are raw-materials (used in a process), they will become
-“Expense” the moment they are consumed in the process. If they are to be sold
-to a Customer, they become “Expense” when you ship them to the Customer.
+Para itens de estoque, que possuem valor, essas compras ainda não são “Despesas”,
+porque eles ainda têm valor enquanto permanecem em seu estoque. Eles são
+"Ativos". Se forem matérias-primas (utilizadas num processo), tornar-se-ão
+“Despesas” no momento em que são consumidas no processo. Se eles forem vendidos
+para um Cliente, eles se tornam “Despesas” quando você os envia ao Cliente.
 
 
-### 4.4 Deducting Taxes at Source
+### 4.4 Dedução de impostos na fonte
 
 
-In many countries, the law may require you to deduct taxes, while paying your
-suppliers. These taxes could be based on a standard rate. Under these type of schemes, typically if a Supplier crosses a certain threshold of payment, and
-if the type of product is taxable, you may have to deduct some tax (which you
-pay back to your government, on your Supplier’s behalf).
+Em muitos países, a lei pode exigir que você deduza impostos, enquanto paga seus
+fornecedores. Esses impostos poderiam ser baseados em uma taxa padrão. Neste tipo de esquemas, normalmente se um Fornecedor ultrapassar um determinado limite de pagamento, e
+se o tipo de produto for tributável, poderá ter que deduzir algum imposto (que você
+reembolsar ao seu governo, em nome do seu fornecedor).
 
 
-To do this, you will have to make a new Tax Account under “Tax Liabilities” or
-similar and credit this Account by the percent you are bound to deduct for
-every transaction.
+Para fazer isso, você terá que criar uma nova Conta Fiscal em “Passivos Fiscais” ou
+semelhante e creditar nesta conta a porcentagem que você deve deduzir
+cada transação.
 
 
-### 4.5 Hold Payments For A Purchase Invoice
+### 4.5 Reter pagamentos de uma fatura de compra
 
 
-There are two ways to put a purchase invoice on hold:
+Há duas maneiras de suspender uma fatura de compra:
 
 
-* Date Span Hold
-* Explicit Hold
+* Período de espera
+* Retenção explícita
 
 
-#### Explicit Hold
+#### Retenção explícita
 
 
-Explicit hold holds the purchase invoice indefinitely.
-To do it, in the "Hold Invoice" section of the purchase invoice form, simply check the "Hold Invoice" checkbox. In the "Reason For Putting On Hold" text field, type a comment explaining why the invoice is to be put on hold.
+A retenção explícita retém a fatura de compra indefinidamente.
+Para isso, na seção “Reter fatura” do formulário da fatura de compra, basta marcar a caixa de seleção “Reter fatura”. No campo de texto "Motivo da suspensão", digite um comentário explicando por que a fatura deve ser suspensa.
 
 
-If you need to hold a submitted invoice, click the "Make" button
-and click "Block Invoice". Also, add a comment explaining why the invoice is to be put on hold in the dialog that pops up and click "Save".
+Se você precisar reter uma fatura enviada, clique no botão "Criar"
+e clique em “Bloquear fatura”. Além disso, adicione um comentário explicando por que a fatura deve ser suspensa na caixa de diálogo exibida e clique em "Salvar".
 
 
-#### Date Span Hold
+#### Retenção de período de data
 
 
-Date span hold holds the purchase invoice until a specified date. To do it, in the "Hold Invoice" section of the purchase invoice form, check the "Hold Invoice" checkbox. Next, input the release date in the dialog that pops up and click "Save". The release date is the date
-that the hold on the document expires.
+A retenção de período retém a fatura de compra até uma data especificada. Para isso, na seção “Reter fatura” do formulário da fatura de compra, marque a caixa de seleção “Reter fatura”. Em seguida, insira a data de lançamento na caixa de diálogo que aparece e clique em “Salvar”. A data de lançamento é a data
+que a retenção do documento expira.
 
 
-After the invoice has been saved, you can change the release date by clicking on the "Hold Invoice" drop down button and then "Change Release Date". This action will cause a dialog to appear.
+Depois que a fatura for salva, você poderá alterar a data de lançamento clicando no botão suspenso "Reter fatura" e depois em "Alterar data de lançamento". Esta ação fará com que uma caixa de diálogo apareça.
 
 
-![Purchase Invoice on hold](/files/purchase-invoice-hold.png)
+![Fatura de compra em espera](/files/purchase-invoice-hold.png)
 
 
-Select the new release date and click "Save". You should also enter a comment
-in the "Reason For Putting On Hold" field.
+Selecione a nova data de lançamento e clique em "Salvar". Você também deve inserir um comentário
+no campo "Motivo para colocar em espera".
 
 
-Take note of the following:
+Observe o seguinte:
 
 
-* All purchases that have been placed on hold will not be included in a Payment Entry's references table
-* The release date cannot be in the past.
-* You can only block or unblock a purchase invoice if it is unpaid.
-* You can only change the release date if the invoice is unpaid.
+* Todas as compras que foram suspensas não serão incluídas na tabela de referências de uma entrada de pagamento
+* A data de lançamento não pode estar no passado.
+* Você só pode bloquear ou desbloquear uma fatura de compra se ela não for paga.
+* Você só poderá alterar a data de liberação se a fatura não estiver paga.
 
 
-### 5. Related Topics
+### 5. Tópicos Relacionados
 
 
-1. [Sales Invoice](/docs/pt/accounts/sales-invoice)
-2. [Item Wise Taxation](/docs/pt/accounts/item-tax-template)
-3. [Payment Entry](/docs/pt/accounts/payment-entry)
-4. [Payment Request](/docs/pt/accounts/payment-request)
-5. [Request For Quotation](/docs/pt/buying/request-for-quotation)
-6. [Purchase Order](/docs/pt/buying/purchase-order)
-7. [Purchase Receipt](/docs/pt/stock/purchase-receipt)
-
+1. [Fatura de vendas](/docs/pt/accounts/sales-invoice)
+2. [Tributação baseada em itens](/docs/pt/accounts/item-tax-template)
+3. [Entrada de pagamento](/docs/pt/accounts/payment-entry)
+4. [Solicitação de pagamento](/docs/pt/accounts/payment-request)
+5. [Solicitação de cotação](/docs/pt/buying/request-for-quotation)
+6. [Pedido de compra](/docs/pt/buying/purchase-order)
+7. [Recibo de compra](/docs/pt/stock/purchase-receipt)
 
 
 

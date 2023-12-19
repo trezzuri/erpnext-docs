@@ -14,7 +14,7 @@ Para alterar o ID de e-mail de um usuário, siga as etapas:
   
 
 
-![](/files/7yWI427 .gif)
+![](/files/7yWI427.gif)
 
 
 

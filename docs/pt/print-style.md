@@ -8,7 +8,7 @@
 ERPNext vem com estilos predefinidos para impressão de documentos. Você também pode criar novos estilos usando CSS que podem ser aplicados a todos os seus formatos de impressão.
 
 
-Os estilos de impressão padrão no ERPNext são: Monocromático, Moderno e Clatsico.
+Os estilos de impressão padrão no ERPNext são: Monocromático, Moderno e Clássico.
 Para criar um novo **estilo de impressão** vá para:
 
 

@@ -1,121 +1,135 @@
-
-# Unicommerce Integration
-
+# Integração Unicommerce
 
 
-Unicommerce is aggregator for many e-commerce platforms that allows you to sell items through many supported marketplaces and process order via unified interface called Uniware. Learn more about Unicommerce at <https://unicommerce.com/>
+
+Unicommerce é um agregador para muitas plataformas de comércio eletrônico que permite vender itens em vários mercados suportados e processar pedidos por meio de uma interface unificada chamada Uniware. Saiba mais sobre o Unicommerce em <https://unicommerce.com/>
 
 
-## ERPNext Integration with Unicommerce
+## Integração ERPNext com Unicommerce
 
 
-ERPNext offers a full 2-way integration with Unicommerce using Uniware's REST APIs. This integration is provided using Frappe App officially supported by Frappe team. Broadly this integration covers:
+ERPNext oferece integração bidirecional completa com Unicommerce usando APIs REST da Uniware. Esta integração é fornecida usando o Frappe App oficialmente suportado pela equipe Frappe. Em termos gerais, esta integração abrange:
 
 
-1. Item catalogue syncing with Unicommerce (2-way)
-2. Inventory Syncing (1-way from ERPNext to Unicommerce)
-3. New Sales Order syncing
-4. Sales Invoice syncing OR Sales Invoice generation (Any one option should be used)
+1. Sincronização do catálogo de itens com Unicommerce (bidirecional)
+2. Sincronização de inventário (unidirecional do ERPNext para Unicommerce)
+3. Sincronização de novos pedidos de vendas
+4. Sincronização de faturas de vendas OU geração de faturas de vendas (qualquer opção deve ser usada)
 
 
-## App Installation
+## Instalação de aplicativo
 
 
-* If you are hosting your ERPNext site on Frappe Cloud, you can quickly install the app by going to your site Dashboard. The app is available in [Frappe Cloud Marketplace](https://frappecloud.com/marketplace/apps/ecommerce_integrations)
-* If your site is hosted by Frappe, please raise a support ticket to get the app installed on your site.
-* If you are self hosting ERPNext you can install the app using Frappe bench. Refer [bench documentation](https://frappeframework.com/docs/user/en/bench/frappe-commands#app-installation) for installing Frappe Apps. `bench get-app ecommerce_integrations--branch main`
+* Se você estiver hospedando seu site ERPNext no Frappe Cloud, você pode instalar o aplicativo rapidamente acessando o Painel do seu site. O aplicativo está disponível no [Frappe Cloud Marketplace](https://frappecloud.com/marketplace/apps/ecommerce_integrations)
+* Se o seu site for hospedado pela Frappe, abra um ticket de suporte para instalar o aplicativo no seu site.
+* Se você hospeda o ERPNext você mesmo pode instalar o aplicativo usando o banco Frappe. Consulte a [documentação do Bench](https://frappeframework.com/docs/user/en/bench/frappe-commands#app-installation) para instalar o Frappe Apps. `bench get-app ecommerce_integrations--branch main`
 
 
-## Authentication and basic setup
+## Autenticação e configuração básica
 
 
 ![unicommerce auth setup](/files/unicommerce-auth-setup.png)
 
 
-1. Once app is installed go to "Unicommerce Settings" page.
-2. Click on "Enable Unicommerce" checkbox.
-3. Enter your Unicommerce site, username and password.
-4. Client ID is added by default, however if you've configured a separate client ID, you need to update it here. If you're unsure about your client ID, please get in touch with Unicommerce support team.
-5. Click "Save" this will initiate process of authenticating with Unicommerce and setting up custom fields for integration.
-6. Once this setup is finished you'll see access/refresh tokens in "Authentication Details" section. This implies that authentication was successful and you can now start working on further setup.
+1. Depois que o aplicativo estiver instalado, vá para a página "Configurações do Unicommerce".
+2. Clique na caixa de seleção "Ativar Unicommerce".
+3. Insira seu site Unicommerce, nome de usuário e senha.
+4. O ID do cliente é adicionado por padrão, mas se você configurou um ID do cliente separado, será necessário atualizá-lo aqui. Se não tiver certeza sobre seu ID de cliente, entre em contato com a equipe de suporte do Unicommerce.
+5. Clique em "Salvar" para iniciar o processo de autenticação com Unicommerce e configuração de campos personalizados para integração.
+6. Assim que a configuração for concluída, você verá tokens de acesso/atualização na seção "Detalhes de autenticação". Isso significa que a autenticação foi bem-sucedida e agora você pode começar a trabalhar em outras configurações.
 
 
-If authentication fails:
+Se a autenticação falhar:
 
 
-1. Please recheck entered details.
-2. Your server might be getting blocklisted by firewall. Get in touch with Unicommerce support team to get your server's IP whitelisted.
+1. Verifique novamente os detalhes inseridos.
+2. Seu servidor pode estar na lista de bloqueio do firewall. Entre em contato com a equipe de suporte do Unicommerce para colocar o IP do seu servidor na lista de permissões.
 
 
-## Item Sync
+## Sincronização de itens
 
 
-This integration checks for newly created items and uploads them to Unicommerce on hourly basis. To enable this feature you need to setup following:
+Essa integração verifica itens recém-criados e os carrega no Unicommerce de hora em hora. Para ativar esse recurso, você precisa configurar o seguinte:
 
 
-1. Go to "Unicommerce Settings" and enable "Upload new items to Unicommerce".
-2. Set a Default Item Group. This is only used as fallback in case item group is missing.
-3. While creating a new item check "Sync with Unicommerce" checkbox, to upload that item to Unicommerce.
-4. This checkbox can also be enabled on existing items.
+1. Vá para "Configurações do Unicommerce" e ative "Fazer upload de novos itens para o Unicommerce".
+2. Defina um grupo de itens padrão. Isso só é usado como substituto caso o grupo de itens esteja faltando.
+3. Ao criar um novo item, marque a caixa de seleção "Sincronizar com Unicommerce" para fazer upload desse item para o Unicommerce.
+4. Essa caixa de seleção também pode ser ativada em itens existentes.
 
 
-Unicommerce SKU code is immutable, hence you should not change Item Code after creation.
+O código SKU do Unicommerce é imutável, portanto você não deve alterar o código do item após a criação.
 
 
-In order to correctly sync item group with product categories you need to map all item groups to their respective product categories on Unicommerce.
+Para sincronizar corretamente o grupo de itens com as categorias de produtos, você precisa mapear todos os grupos de itens para suas respectivas categorias de produtos no Unicommerce.
 
 
-To map and item group to product category:
+Para mapear um grupo de itens para uma categoria de produto:
 
 
-1. First find product category code on Unicommerce.
-2. Open related Item Group on ERPNext and update Unicommerce product category code there.
+1. Primeiro encontre o código da categoria do produto no Unicommerce.
+2. Abra o Grupo de Itens relacionados no ERPNext e atualize o código da categoria do produto Unicommerce lá.
 
 
-![Unicommerce product category](/files/unicommerce-product-category.png)
-![ERPNext item group](/files/erpnext-item-group.png)
+![Categoria de produto Unicommerce](/files/unicommerce-product-category.png)
+![Grupo de itens ERPNext](/files/erpnext-item-group.png)
 
 
-Item sync field mapping is as follows:
+O mapeamento do campo de sincronização de itens é o seguinte:
 
 
 
 
-| ERPNext field | Unicommerce Field | Comments |
+| ERPNext field | Campo Unicommerce | Comentários |
 | --- | --- | --- |
-| Item Code | SKU | Unicommerce SKU restrictions apply |
-| Item Name | Item Name |  |
-| Description | Description |  |
-| Weight per unit | Weight | Only if set in Grams. |
-| Shelf life in days | Shelf life |  |
-| HSN Code | HSN Code |  |
-| Image | Image |  |
-| Unicommerce item length | Length |  |
-| Unicommerce item width | Width |  |
-| Unicommerce item height | Height |  |
-| Disabled | Enabled | (opposite is mapped) |
-| EAN barcode | EAN |  |
-| UPC Barcode | UPC-A |  |
-| Item group | Product category |  |
+
+| Código do item | SKU | Aplicam-se restrições de SKU do Unicommerce |
+
+| Nome do item | Nome do item |  |
+
+| Descrição | Descrição |  |
+
+| Peso por unidade | Peso | Somente se definido em gramas. |
+
+| Prazo de validade em dias | Prazo de validade |  |
+
+| Código HSN | Código HSN |  |
+
+| Imagem | Imagem |  |
+
+| Comprimento do item Unicommerce | Comprimento |  |
+
+| Largura do item Unicommerce | Largura |  |
+
+| Altura do item Unicommerce | Altura |  |
+
+| Desativado | Ativado | (o oposto está mapeado) |
+
+| Código de barras EAN | EAN |  |
+
+| Código de barras UPC | UPC-A |  |
+
+| Grupo de itens | Categoria do produto |  |
 
 
-## Inventory Sync
+
+## Sincronização de inventário
 
 
-Once Item sync is setup Inventory Sync can be enabled. The integration checks for changes in ERPNext inventory and pushes them to Unicommerce on configured interval. ERPNext inventory levels are considered source of truth by the integration and Unicommerce inventory levels are overwritten by ERPNext's inventory values.
+Depois que a sincronização de itens estiver configurada, a sincronização de inventário poderá ser ativada. A integração verifica alterações no inventário do ERPNext e as envia para o Unicommerce no intervalo configurado. Os níveis de inventário do ERPNext são considerados fonte de verdade pela integração e os níveis de inventário do Unicommerce são substituídos pelos valores de inventário do ERPNext.
 
 
-1. Go to "Unicommerce Settings" and scroll down to "Inventory Sync" section.
-2. Check "Enable inventory Sync"
-3. Configure the sync frequency. Recommended frequency is 15 to 60 minutes.
-4. In Warehouse mapping table add all the facility codes you have in Unicommerce and map them with ERPNext warehouse.
-5. Check "Enabled" checkbox for all facilities you want to enable.
-6. Save the settings.
+1. Vá para "Configurações do Unicommerce" e role para baixo até a seção "Sincronização de inventário".
+2. Marque "Ativar sincronização de inventário"
+3. Configure a frequência de sincronização. A frequência recomendada é de 15 a 60 minutos.
+4. Na tabela de mapeamento do Warehouse adicione todos os códigos de instalação que você possui no Unicommerce e mapeie-os com o armazém ERPNext.
+5. Marque a caixa de seleção "Ativado" para todos os recursos que deseja ativar.
+6. Salve as configurações.
 
 
 
 > 
-> Note: All inventory is pushed to "DEFAULT" shelf. Unicommerce Shelves are not supported by this integration, make sure you only have one shelf on Unicommerce called "DEFAULT" to ensure correctness of inventory sync.
+> Observação: todo o inventário é enviado para a estante "DEFAULT". As prateleiras do Unicommerce não são suportadas por esta integração. Certifique-se de ter apenas uma prateleira no Unicommerce chamada "DEFAULT" para garantir a sincronização correta do inventário.
 > 
 > 
 > 
@@ -123,144 +137,143 @@ Once Item sync is setup Inventory Sync can be enabled. The integration checks fo
 
 
 > 
-> Note: Unicommerce, like other e-commerce intengrations does not support fractional inventory.
+> Observação: o Unicommerce, assim como outras integrações de comércio eletrônico, não oferece suporte a inventário fracionário.
 > 
 > 
 > 
 
 
-## Sales Order Processing-Workflow
+## Processamento de pedidos de vendas-Fluxo de trabalho
 
 
-Following is workflow for processing orders on ERPNext. You can alternatively also process orders on Unicommerce and only sync finished order. 
+A seguir está o fluxo de trabalho para processamento de pedidos no ERPNext. Como alternativa, você também pode processar pedidos no Unicommerce e sincronizar apenas os pedidos finalizados. 
 
 
-![Unicommerce workflow](/files/unicommerce_workflow.png)
+![fluxo de trabalho do Unicommerce](/files/unicommerce_workflow.png)
 
 
-## Sales Order Sync-Channel(s) Setup
+## Sincronização de pedidos de vendas-configuração de canais
 
 
-Unicommerce Integration supports receiving and processing from multiple channel. To allow this, setup for Sales Order sync also has to be done in multiple stages.
+A integração Unicommerce oferece suporte ao recebimento e processamento de vários canais. Para permitir isso, a configuração da sincronização de pedidos de vendas também deve ser feita em vários estágios.
 
 
-### Defaults for Sales Order Sync
+### Padrões para sincronização de pedidos de vendas
 
 
-![default sales order sync](/files/sales-order-sync.png)
+![sincronização padrão do pedido de vendas](/files/sales-order-sync.png)
 
 
-1. Go to "Unicommerce Settings".
-2. Scroll to "Sales Order Sync" setting section.
-3. Setup order sync frequency. 30 to 60 minutes is recommended frequency.
-4. Setup default customer group and naming series for documents.
+1. Vá para "Configurações do Unicommerce".
+2. Role até a seção de configuração "Sincronização de pedidos de vendas".
+3. Configure a frequência de sincronização do pedido. A frequência recomendada é de 30 a 60 minutos.
+4. Configure o grupo de clientes padrão e a série de nomenclatura para documentos.
 
 
-### Channel specific Sales Order sync configurations
+### Configurações de sincronização de pedidos de vendas específicas do canal
 
 
-![channel specific sales order sync](/files/unicommerce-channel-setup.png)
+![sincronização de pedidos de vendas específicos do canal](/files/unicommerce-channel-setup.png)
 
 
-To allow for flexible configuration for each channel you need to create "Unicommerce Channel" document for each channel you want to enable for Sales Order sync.
+Para permitir uma configuração flexível para cada canal, você precisa criar o documento "Canal Unicommerce" para cada canal que deseja ativar para sincronização de pedidos de vendas.
 
 
-1. Go to "Unicommerce Channel" from searchbar or from Unicommerce settings page.
-2. Click "Add Unicommerce Channel"
-3. Fill in required details like channel ID, default warehouse, company, accounts and naming series.
-4. If Shipping for this channel is handled by marketplace then click "Shipping Handled by marketplace" or uncheck it.
-5. After fully configuring the channel click on "Enabled" checkbox.
+1. Vá para "Canal Unicommerce" na barra de pesquisa ou na página de configurações do Unicommerce.
+2. Clique em "Adicionar canal Unicommerce"
+3. Preencha os detalhes necessários, como ID do canal, armazém padrão, empresa, contas e série de nomes.
+4. Se o envio para este canal for feito pelo marketplace, clique em "Frete feito pelo marketplace" ou desmarque-a.
+5. Após configurar totalmente o canal, clique na caixa de seleção "Ativado".
 
 
-New Sales Order created in Unicommerce will now start syncing with ERPNext. During this process if new item is encountered then it's created in ERPNext using information from Unicommerce. Relevant information about Unicommerce order is mapped to ERPNext fields, additional information can be found in "Unicommerce Details" section on Sales ORder.
+Novos pedidos de vendas criados no Unicommerce agora começarão a ser sincronizados com o ERPNext. Durante este processo, se um novo item for encontrado, ele será criado no ERPNext usando informações do Unicommerce. Informações relevantes sobre o pedido Unicommerce são mapeadas para os campos ERPNext. Informações adicionais podem ser encontradas na seção "Detalhes do Unicommerce" no Pedido de Vendas.
 
 
-## Sales Invoice Sync
+## Sincronização de faturas de vendas
 
 
-Sales Invoice syncing can be handled in one of two ways. Please select the appropriate option as per your needs.
+A sincronização da fatura de vendas pode ser feita de duas maneiras. Selecione a opção apropriada de acordo com suas necessidades.
 
 
-#### 1. Processing invoice on Unicommerce (recommended)
+#### 1. Processamento de fatura no Unicommerce (recomendado)
 
 
-If you want to process orders and invoices on Unicommerce and only sync fully processed orders in ERPNext then enable "Only Sync Completed Orders" in Unicommerce settings.
+Se você deseja processar pedidos e faturas no Unicommerce e sincronizar apenas pedidos totalmente processados ​​no ERPNext, ative "Sincronizar somente pedidos concluídos" nas configurações do Unicommerce.
 
 
-#### 2. Processing invoice on ERPNext
+#### 2. Processando fatura no ERPNext
 
 
-If you want to process orders from ERPNext only then you need to generate invoice from ERPNext's Sales Order.
+Se você deseja processar pedidos apenas do ERPNext, então você precisa gerar a fatura do Pedido de Vendas do ERPNext.
 
 
-In order to generate invoice, go to synced Unicommerce Sales Order, click on "Unicommerce > generate invoice". This will create a Sales Invoice and deduc the stock too.
+Para gerar fatura, acesse o Pedido de Venda Unicommerce sincronizado, clique em "Unicommerce > gerar fatura". Isso criará uma fatura de vendas e deduzirá o estoque também.
 
 
-![generate invoice button](/files/generate-invoice.png)
+![botão gerar fatura](/files/generate-invoice.png)
 
 
-## Shipment Manifest
+## Manifesto de Remessa
 
 
-If you're processing orders on ERPNext using method #2 described above then you need to create and submit a shipping manifest to let Unicommerce know you've shipped the orders.
+Se você estiver processando pedidos no ERPNext usando o método nº 2 descrito acima, você precisará criar e enviar um manifesto de envio para informar ao Unicommerce que você enviou os pedidos.
 
 
-Pre-requisites is to setup following doctypes, you can find code on Unicommerce manifest creation page: 
-1. Create Unicommerce Shipping Provider
-2. Create Unicommerce Shipping Method
+Os pré-requisitos são configurar os seguintes tipos de documentos. Você pode encontrar o código na página de criação de manifesto do Unicommerce:
+1. Crie um provedor de remessa Unicommerce
+2. Crie um método de envio Unicommerce
 
 
-![Unicommerce shipment manifest](/files/shipment-manifest.png)
+![Manifesto de remessa Unicommerce](/files/shipment-manifest.png)
 
 
-Process of creating manifest:
+Processo de criação do manifesto:
 
 
-1. Once you're ready to dispatch the packages to shipping provider, you should create "Unicommerce Shipment Manifest" document. Go to search bar > "Unicommerce Shipping Manifest" > + Add
-2. Select Channel ID, Shipping Method, and Shipping provider code.
-3. Now you can either use "Get Package" button to fetch open orders based on selected filters or use "Scan AWB Code" field to scan AWB of packages. Both will auto populate remaining details after saving.
-4. Once you're sure that all details look correct, save and submit the document.
-5. Upon submitting the manifest, same manifest is created and closed on Unicommerce and shipments are marked as "Dispatched". Unicommerce Manifest PDF is also fetched and attached to ERPNext manifest document.
+1. Quando estiver pronto para despachar os pacotes para o fornecedor de remessa, você deve criar o documento "Manifesto de Remessa Unicommerce". Vá para a barra de pesquisa > "Manifesto de envio Unicommerce" > + Adicionar
+2. Selecione o ID do canal, o método de envio e o código do fornecedor de envio.
+3. Agora você pode usar o botão "Obter pacote" para buscar pedidos abertos com base nos filtros selecionados ou usar o campo "Verificar código AWB" para verificar o AWB de pacotes. Ambos preencherão automaticamente os detalhes restantes após salvar.
+4. Quando tiver certeza de que todos os detalhes estão corretos, salve e envie o documento.
+5. Ao enviar o manifesto, o mesmo manifesto é criado e fechado no Unicommerce e as remessas são marcadas como “Enviadas”. O PDF do Manifesto Unicommerce também é obtido e anexado ao documento manifesto do ERPNext.
 
 
-## Status Updates
+## Atualizações de status
 
 
-![Unicommerce details section](/files/unicommerce-details-section.png)
+![Seção de detalhes do Unicommerce](/files/unicommerce-details-section.png)
 
 
-Status of Unicommerce is periodically updated in ERPNext, you can see the current status in the "Unicommerce details" section.
+O status do Unicommerce é atualizado periodicamente no ERPNext, você pode ver o status atual na seção "Detalhes do Unicommerce".
 
 
-## Order Cancellations
+## Cancelamentos de pedidos
 
 
-When order gets cancelled on Unicommerce, the integration syncs this action and cancels the order on ERPNext as well. Partially cancelled orders are also synced and cancelled items are removed from the ERPNext Sales Order. Both full and partial cancellations are synced on hourly basis and right before generating invoices. 
+Quando o pedido é cancelado no Unicommerce, a integração sincroniza esta ação e cancela o pedido também no ERPNext. Pedidos parcialmente cancelados também são sincronizados e itens cancelados são removidos do Pedido de Vendas do ERPNext. Os cancelamentos totais e parciais são sincronizados de hora em hora e logo antes da geração das faturas. 
 
 
-## Order returns
+## Devoluções de pedidos
 
 
-When return is created on Unicommerce, the integration syncs this action and creates a *Draft* Credit Note in ERPNext. 
+Quando a devolução é criada no Unicommerce, a integração sincroniza esta ação e cria uma Nota de Crédito *Rascunho* no ERPNext. 
 
 
-Both return cases are handled by integration:
+Ambos os casos de devolução são tratados pela integração:
 
 
-* RTO (return to origin)
-When shipment is returned to origin, shipment status changes and a Credit Note (with Update Stock) is created is created in ERPNext. Credit Note will be full return.
-* CIR (Customer Initiated Return)
-When a customer returns shipment, it is reflected on Unicommerce's Sales Order section. Full or Partial Credit note is created depending upon the nature of customer initated return.
+* RTO (retorno à origem)
+Quando a remessa é devolvida à origem, o status da remessa muda e uma Nota de Crédito (com Atualização de Estoque) é criada no ERPNext. A nota de crédito será de retorno total.
+* CIR (devolução iniciada pelo cliente)
+Quando um cliente devolve uma remessa, isso é refletido na seção Pedido de Venda do Unicommerce. A nota de crédito total ou parcial é criada dependendo da natureza da devolução iniciada pelo cliente.
 
 
-You can view all returns by going to "Sales Invoice" and filtering by "Is Return" set to Yes. Return tracking code is also captured on Credit Note.
+Você pode visualizar todas as devoluções acessando "Fatura de venda" e filtrando por "É devolução" definido como Sim. O código de rastreamento de devolução também é capturado na nota de crédito.
 
 
-While creating returns, the return warehouse is picked based on configured Return Warehouse in Unicommerce settings. If it's not set, original warehouse will be used. 
+Ao criar devoluções, o armazém de devoluções é selecionado com base no armazém de devoluções configurado nas configurações do Unicommerce. Se não estiver definido, o armazém original será usado. 
 
 
-![Unicommerce return warehouse](/files/return-warehouse-map.png)
-
+![Armazém de devolução Unicommerce](/files/return-warehouse-map.png)
 
 
 

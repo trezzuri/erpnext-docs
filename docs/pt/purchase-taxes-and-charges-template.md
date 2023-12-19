@@ -47,7 +47,7 @@ Antes de criar um novo modelo, observe que já foram criados modelos para muitos
 * **Adicionar ou Deduzir:** se você deseja adicionar ou deduzir o imposto do item.
 * **Linha de referência #**: Se o imposto for baseado no "Total da linha anterior", você pode selecionar o número da linha que será usada como base para este cálculo (o padrão é a linha anterior) .
 ![Tabela de impostos sobre compras](/files/purchase-taxes-table.png)
-* **Este Imposto está incluído na Taxa Batica?**: Se marcado, o valor do imposto será considerado como já incluído na Taxa de Impressão/Valor de Impressão.
+* **Este Imposto está incluído na Taxa Básica?**: Se marcado, o valor do imposto será considerado como já incluído na Taxa de Impressão/Valor de Impressão.
 * **Chefe da conta:** o razão da conta sob a qual esse imposto será contabilizado. Se você selecionar IVA ou qualquer outro valor predefinido, a alíquota será preenchida automaticamente.
 * **Centro de custo:** se o imposto/taxa for uma receita (como frete) ou despesa, ele precisará ser contabilizado em um centro de custo.
 * **Descrição:** Descrição do imposto (que será impressa nas faturas/cotações).

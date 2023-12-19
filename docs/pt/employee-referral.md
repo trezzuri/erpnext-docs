@@ -17,7 +17,7 @@ A Indicação de Funcionário é um processo em que os funcionários existentes 
 No Frappe HR, você pode gerenciar indicações de funcionários.
 
 
-Para acessar a Indicação de Funcionário, acesse:
+Para acessar a Indicação de Funcionários, acesse:
 
 
 
@@ -40,7 +40,7 @@ Para acessar a Indicação de Funcionário, acesse:
 
 
 1. Vá para Indicação de funcionário > Adicionar indicação de funcionário.
-2. Preencha os detalhes baticos da pessoa que você deseja indicar, como nome, sobrenome, e-mail, etc.
+2. Preencha os detalhes básicos da pessoa que você deseja indicar, como nome, sobrenome, e-mail, etc.
 3. Selecione Funcionário em Indicador.
 4. Salvar e enviar.
 
@@ -51,19 +51,19 @@ Para acessar a Indicação de Funcionário, acesse:
 ## 3. Recursos
 
 
-### 3.1 Criando candidato a emprego e sincronizando automaticamente o status do candidato a emprego
+### 3.1 Criação de candidato a emprego e sincronização automática do status do candidato a emprego
 
 
 Quando você envia um documento de indicação de funcionário, o status inicial será "Pendente". Após o envio do documento, o botão “Criar Candidato” aparecerá no canto superior direito.
 
 
-Clicar neste botão criará um novo **Candidato a Emprego** com o status "Aberto". O status do documento de **Indicação de Funcionário** mudará para "Em Processamento"
+Clicar neste botão criará um novo **Candidato a Emprego*\* com o status "Aberto". O status do documento \**Referência de Funcionário** mudará para "Em Processamento"
 
 
 ![Criar candidato a emprego](/files/create-job-applicant.png)
 
 
-Quando alguém altera o status do **Candidato a Emprego** para "Em Espera" ou "Respondido", o status da **Indicação de Funcionário** permanecerá "Em Processamento". Se o status do **Candidato a Emprego** mudar para "Aceito" ou "Rejeitado", o status do documento de **Indicação de Funcionário** também mudará para "Aceito" ou "Rejeitado", respectivamente .
+Quando alguém altera o status do **Candidato a Emprego*\* para "Em Espera" ou "Respondido", o status da \**Indicação de Funcionário*\* permanecerá "Em Processamento". Se o status do \**Candidato a Emprego*\* mudar para "Aceito" ou "Rejeitado", o status do documento \**Referência de Funcionário** também mudará para "Aceito" ou "Rejeitado" respectivamente.
 
 
 ### 3.2 Gerenciando bônus de indicação

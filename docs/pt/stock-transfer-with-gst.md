@@ -52,7 +52,7 @@ Em certas situações, existem requisitos legais onde os impostos devem ser apli
   
 
 
-![](/files/vM04qRB .png)
+![](/files/vM04qRB.png)
 
   
 

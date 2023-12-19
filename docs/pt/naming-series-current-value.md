@@ -8,7 +8,7 @@ O recurso Naming Series permite definir o prefixo para nomear um documento. Por 
 ### 1. Configurando o valor atual
 
 
-O recurso Naming Series também oferece uma ferramenta onde você pode definir o valor atual para um prefixo específico. Isto geralmente é necessário se você começou recentemente a usar o ERPNext, e tem transações antigas no sistema anterior, e deseja que a série de numeração comece de onde terminou no sistema antigo. Vamos considerar um cenário para entender melhor isso.
+O recurso Naming Series também oferece uma ferramenta onde você pode definir o valor atual para um prefixo específico. Isto geralmente é necessário se você começou a usar o ERPNext recentemente, e tem transações antigas no sistema anterior, e deseja que a série de numeração comece de onde terminou no sistema antigo. Vamos considerar um cenário para entender melhor isso.
 
 
 Por exemplo, você tem 322 pedidos de vendas criados em seu sistema antigo com SO00322 como ID de pedido de vendas mais alto. No ERPNext, você precisa que o primeiro Pedido de Venda pegue o #323 quando for salvo. Para ativar isso, você deve definir o valor atual para a série SO nas etapas a seguir.

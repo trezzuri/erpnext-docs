@@ -97,7 +97,7 @@ Se o Item estiver sob garantia ou AMC (Contrato Anual de Manutenção), as datas
 ### 3.4 Mais informações
 
 
-Qualquer informação adicional sobre esta unidade de item específica pode ser definida em 'Nenhum detalhe de série'.
+Qualquer informação adicional sobre esta unidade de item específica pode ser definida em 'Série sem detalhes'.
 
 
 ## 4. Vídeo

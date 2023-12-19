@@ -5,7 +5,7 @@
 **Uma marca identifica itens com um nome específico.**
 
 
-Normalmente, uma Marca é o fabricante ou embalador de um produto específico. Por exemplo, Apple é uma marca que fabrica laptops. Uma Marca não é necessariamente o [Fabricante](/docs/pt/stock/manufacturer) de um Item, é apenas o nome sob o qual um produto é vendido. Por exemplo, se você fabrica copos platticos, você pode licenciá-los para uma grande marca para que eles os vendam sob sua marca.
+Normalmente, uma Marca é o fabricante ou embalador de um produto específico. Por exemplo, Apple é uma marca que fabrica laptops. Uma Marca não é necessariamente o [Fabricante](/docs/pt/stock/manufacturer) de um Item, é apenas o nome sob o qual um produto é vendido. Por exemplo, se você fabrica copos plásticos, você pode licenciá-los para uma grande marca para que eles os vendam sob sua marca.
 
 
 No ERPNext, Marcas podem ser atribuídas a Itens para identificar e atribuir certos padrões.

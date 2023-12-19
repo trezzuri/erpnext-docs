@@ -5,7 +5,7 @@
 **Uma lista de preços é uma coleção de preços de itens de venda, compra ou ambos.**
 
 
-ERPNext permite manter vários [preços de itens de venda e compra](/docs/pt/stock/item-price) usando listas de preços.
+ERPNext permite que você mantenha múltiplos preços de itens de venda e compra usando listas de preços.
 
 
 As listas de preços podem ser usadas em cenários onde você tem preços diferentes para zonas diferentes (com base nos custos de envio), para moedas diferentes, etc. Um item pode ter vários preços com base no cliente, moeda, região, custo de envio, etc. , que pode ser armazenado como diferentes planos de tarifas.

@@ -1,4 +1,4 @@
-# Noções baticas de fabricação
+# Noções básicas de fabricação
 
 
 

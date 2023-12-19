@@ -2,7 +2,7 @@
 
 
 
-Os tipos de voluntários são um alicerce batico para o gerenciamento do voluntariado. Normalmente, uma organização cria um tipo de voluntário para cada uma das diferentes doações que oferece. Por exemplo, uma organização pode definir três tipos de voluntários para doadores “regulares”, “estudantes” e “membros”.
+Os tipos de voluntários são um alicerce básico para o gerenciamento do voluntariado. Normalmente, uma organização cria um tipo de voluntário para cada uma das diferentes doações que oferece. Por exemplo, uma organização pode definir três tipos de voluntários para doadores “regulares”, “estudantes” e “membros”.
 
 
 Neste capítulo, abordaremos a configuração mais comum para tipos de voluntários.

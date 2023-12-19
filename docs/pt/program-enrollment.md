@@ -8,7 +8,7 @@
 Para garantir que os alunos estejam associados a um determinado programa no sistema, sua Matrícula no Programa deve ser criada. A disciplina obrigatória desse programa é preenchida automaticamente na tabela Cursos Inscritos enquanto as disciplinas optativas ou optativas podem ser selecionadas manualmente.
 
 
-Se o aluno se inscreveu on-line para admissão em um determinado **Programa** e a inscrição foi aprovada, a Inscrição no Programa pode ser criada no registro do Aluno Candidato clicando no botão **Inscrever-se**  botão. Confira [Student Applicant](/docs/pt/education/student-applicant) para obter mais informações sobre isso.
+Se o aluno se inscreveu on-line para admissão em um determinado **Programa** e a inscrição for aprovada, a Inscrição no Programa poderá ser criada no registro do Aluno Candidato clicando no botão **Inscrever-se**  botão. Confira [Student Applicant](/docs/pt/education/student-applicant) para obter mais informações sobre isso.
 
 
 Para acessar a inscrição no programa, acesse:

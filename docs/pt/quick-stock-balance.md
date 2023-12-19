@@ -22,7 +22,7 @@ Para acessar esta ferramenta, acesse:
 ## 1. Usando o equilíbrio de estoque rápido
 
 
-Item e Armazém são os campos baticos necessários para utilizar totalmente o Quick Stock Balance. O código de barras do item também pode ser usado para obter detalhes do estoque.
+Item e Armazém são os campos básicos necessários para utilizar totalmente o Quick Stock Balance. O código de barras do item também pode ser usado para obter detalhes do estoque.
 
 
 ![Quick Stock Balance](/files/quick-stock-balance.png)

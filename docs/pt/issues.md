@@ -4,7 +4,7 @@
 
 O portal do cliente torna muito fácil para o cliente levantar preocupações. A
 interface simples e intuitiva facilita ao seu cliente relatar seus
-preocupações como problemas. Eles podem ver o tópico completo de seus
+preocupações como questões. Eles podem ver o tópico completo de seus
 conversa.
 
 

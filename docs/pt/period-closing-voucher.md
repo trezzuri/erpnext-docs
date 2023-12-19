@@ -63,7 +63,7 @@ Você deve selecionar uma conta de passivo como Reservas e Excedentes, ou Qualqu
 ![Ledger de voucher de encerramento do período](/files/period-closing-voucher-ledger.png)
 
 
-Se **Reservar lucro/perda inteligente do centro de custo** estiver ativado, o lucro e a perda líquidos serão contabilizados de acordo com o centro de custo da transação individual. Abaixo está o lançamento de fechamento feito para duas transações de vendas com centros de custos diferentes.
+Se **Reservar lucro/perda inteligente do centro de custo** estiver ativado, o lucro e a perda líquidos serão contabilizados de acordo com o centro de custo da transação individual. Abaixo está o lançamento de fechamento feito para duas transações de vendas com centros de custo diferentes.
 
 
 ![Voucher de encerramento do período baseado no centro de custo](/files/cost-center-wise-period-closing-voucher.png)

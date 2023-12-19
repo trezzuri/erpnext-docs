@@ -11,12 +11,12 @@ Na mesa, clique no ícone Doença. Uma lista mostrará todas as doenças existen
 > Agricultura > Doenças
 
 
-As informações baticas devem ser inseridas da seguinte forma:
+As informações básicas devem ser inseridas da seguinte forma:
 
 
 * Nome da doença: Pulgões
 * Nome científico: Aphidoidea
-* Descrição: você pode fornecer uma descrição da doença aqui
+* Descrição: você poderia fornecer uma descrição da doença aqui
 * Tarefa de tratamento: pode conter uma lista de todas as tarefas que precisam ser executadas para se livrar da doença
 
 

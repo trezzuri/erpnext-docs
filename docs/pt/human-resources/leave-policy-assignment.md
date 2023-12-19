@@ -33,29 +33,29 @@ Antes de criar uma Atribuição de Política de Licença, é aconselhável criar
 	* Se "Atribuição baseada em" for deixado em branco, você terá que definir manualmente a data de Início de Vigência e Até de Vigência.
 4. Salvar e enviar.
 
-![Sair da atribuição de política](/files/leave-policy-assignment.png)
+![Sair da atribuição de política](/files/leave-policy-assignment.png)![]()
 
-No envio, os documentos de Leave Allocation seriam criados automaticamente com base no [Política de licença](/docs/pt/human-resources/leave-policy) conforme mostrado abaixo.
+No envio, os documentos de Alocação de licença seriam criados automaticamente com base na [Política de saída](/docs/pt/human-resources/leave-policy ) conforme mostrado abaixo.
 
-![Leave Allocations](/files/granted-leaves.png)
+![Leave Allocations](/files/granted-leaves.png)![]()  
+
 
 ## 3. Recursos
 
 ### 3.1 Atribuição de política de licença em massa
 
+O Frappe HR também permite criar atribuições de política de licença para vários funcionários ao mesmo tempo.
 
-> A partir da versão 15: Use o [Painel de controle de licenças](https://frappehr.com/docs/v14/en/leave-control-panel) para atribuição de políticas de licenças em massa
-> 
-> 
+1. Vá para o Lista de atribuição de política de licença.
+2. Clique em Atribuição de política de licença em massa.
+3. Isso o levará para a [Painel de controle de saída](https://frappehr.com/docs/v14/en/leave-control-panel), onde você pode atribuir políticas de licença em massa .
 
-O Frappe HR também permite a criação de múltiplas atribuições de políticas de licenças para vários funcionários.
+![](/files/NUL3M8C.png)![]()  
 
-1. Vá para a lista Atribuição de política de licença, clique em Atribuição de política de licença em massa.
-2. A caixa de diálogo será exibida, selecione Funcionário. Você pode filtrar funcionários com base na empresa e no departamento ou também pode usar filtros padrão clicando em Adicionar filtros.
-3. Selecione Política de licença e datas de vigência desde e até vigência.
-4. Clique em Atribuir.
 
-![Atribuição de política de licença em massa](/files/bulk-leave-policy-assignment.png)
+### 3.2 Alocando licenças ganhas
+
+As atribuições de política de licenças também podem ser usadas para alocar [Folhas ganhas](https://frappehr.com/docs/v14/en/configurando-earned-leave).
 
 
 

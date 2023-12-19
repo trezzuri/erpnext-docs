@@ -90,19 +90,15 @@ def main(translate=False):
         if translate:
             content_pt = md.decode_contents()
 
-            # conteúdos > 10000 precisa dividir para traduzir corretamente.
+            # conteudo > 10000 precisa dividir para traduzir
             if len(content_pt) > 10000:
-                print(" > 100000")
-                fechamento = content_pt[:10000].rfind('>')
-
+                fechamento = content_pt[:10000].rfind('>') # primeiro fechamento de tag
                 texto1 = content_pt[:fechamento + 1]  # +1 para incluir o ">"
                 texto1 = translator.translate(texto1, src='en', dest='pt').text
-
-                texto2 = content_pt[fechamento + 1:]
+                texto2 = content_pt[fechamento + 1:] 
                 texto2 = translator.translate(texto2, src='en', dest='pt').text
                 content_pt = texto1 + texto2
             else:
-                print("ELSE")
                 content_pt = translator.translate(content_pt, src='en', dest='pt').text # traduz para portugues 
 
             # correções devido o tradutor.

@@ -6,7 +6,7 @@ Em qualquer organização, é muito importante garantir transparência e respons
 
 
 Levando esse conceito para um sistema ERP, projetamos um conjunto de ferramentas pelas quais você pode atribuir transações,
-gerencie suas tarefas, compartilhe e mantenha um calendário, mantenha uma base de conhecimento da empresa, marque e comente transações e envie seus pedidos, faturas
+gerencie suas tarefas, compartilhe e mantenha um calendário, mantenha uma base de conhecimento da empresa, marque e comente sobre transações e envie seus pedidos, faturas
 etc via e-mail. Você também pode enviar mensagens instantâneas para outros usuários usando o
 Ferramenta de mensagens.
 

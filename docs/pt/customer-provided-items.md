@@ -5,7 +5,7 @@
 Na Fabricação por Contrato, em alguns casos, o Cliente fornece itens específicos como um ou alguns dos componentes da BOM. Estes itens não podem ser recebidos através de um 'Ciclo de Compra', pois isso significará tornar o Cliente como Fornecedor ao mesmo tempo. Ele também passará por cada tipo de documento do ciclo.
 
 
-Neste recurso, o Item Fornecido pelo Cliente é recebido através de 'Entrada de Estoque' com tipo 'Recebimento de Material' de uma 'Solicitação de Material' com tipo 'Fornecido pelo Cliente'. Esse recurso é usado quando alguém subcontrata você o processo de fabricação e fornece as matérias-primas.
+Neste recurso, o Item Fornecido pelo Cliente é recebido através de 'Entrada de Estoque' com o tipo 'Recebimento de Material' de uma 'Solicitação de Material' com o tipo 'Fornecido pelo Cliente'. Esse recurso é usado quando alguém subcontrata você o processo de fabricação e fornece as matérias-primas.
 
 
 ![Solicitação de material fornecido pelo cliente](/files/material-request-customer-provided.png)

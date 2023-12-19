@@ -73,7 +73,7 @@ Você também pode filtrar vários relatórios financeiros, como Demonstração 
 Lucros e perdas são o grupo de contas de receitas e despesas que representam suas transações contábeis durante um período.
 
 
-As contas do Balanço Patrimonial são Aplicação de Fundos (Ativos) e Fontes de Fundos (Passivos) que representam o patrimônio líquido da sua empresa em um determinado momento.
+As contas do Balanço Patrimonial são Aplicação de Fundos (Ativos) e Fontes de Fundos (Passivos) que significam o patrimônio líquido da sua empresa em um determinado momento.
 
 
 Ao marcar as caixas de seleção 'Obrigatório para conta de lucros e perdas' ou 'Obrigatório para balanço patrimonial' você pode configurar suas dimensões para serem obrigatórias para 'Lucros e perdas' e 'Contas de balanço'.

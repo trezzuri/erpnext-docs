@@ -8,7 +8,7 @@ Para configurar o GoCardless, vá para `Explorar > Integrações > Configuraçõ
 ## Configurar GoCardless
 
 
-Para habilitar GoCardless em sua conta ERPNext, você precisa configurar os seguintes parâmetros e Token de Acesso e opcionalmente (mas altamente recomendado), uma chave secreta de Webhooks.
+Para habilitar GoCardless em sua conta ERPNext, você precisa configurar os seguintes parâmetros e token de acesso e opcionalmente (mas altamente recomendado), uma chave secreta de Webhooks.
 
 
 Você pode configurar vários gateways de pagamento GoCardless, se necessário. A escolha da conta do gateway de pagamento determinará qual conta GoCardless será usada para o pagamento.

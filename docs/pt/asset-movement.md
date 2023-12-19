@@ -42,7 +42,7 @@ Para fazer uma movimentação de ativos de vários ativos, é aconselhável ir a
 ![Mover vários ativos](/files/asset-movement-using-button.png)
 
 
-Há também uma opção **Transferir Ativo** no menu suspenso **Gerenciar** no canto superior direito do formulário Ativo para iniciar a movimentação de ativos. Ele preenche automaticamente os campos disponíveis no Formulário de ativos.
+Há também uma opção **Transferir Ativo** no menu suspenso **Gerenciar** no canto superior direito do formulário Ativo para iniciar a movimentação de ativos. Ele preenche automaticamente os campos disponíveis no Formulário de Ativos.
 
 
 ![Mover recurso único](/files/asset-movement-direct.png)

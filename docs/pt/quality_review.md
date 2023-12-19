@@ -13,7 +13,7 @@
 **Uma análise de qualidade é um registro do desempenho em relação à meta de qualidade em intervalos regulares.**
 
 
-Uma Revisão de Qualidade é uma inspeção com estrutura específica, funções definidas e procedimento projetado para garantir a integridade de um produto e a adesão aos padrões de qualidade. A Revisão de Qualidade é usada para verificar se todos os Objetivos de uma Meta de Qualidade foram alcançados.
+Uma Revisão de Qualidade é uma inspeção com estrutura específica, funções definidas e procedimentos projetados para garantir a integridade de um produto e a adesão aos padrões de qualidade. A Revisão de Qualidade é usada para verificar se todos os Objetivos de uma Meta de Qualidade foram alcançados.
 
 
 Para acessar a lista de Revisão de Qualidade, vá para:
@@ -71,7 +71,7 @@ se você definiu a frequência da revisão em sua meta de qualidade, a revisão 
 ## 4. Próximas etapas
 
 
-Depois de concluir uma Revisão de qualidade, você poderá criar uma [Ação de qualidade](/docs/pt/quality-management/quality_action) para ela, se desejar registrar quaisquer ações corretivas ou preventivas
+Depois de concluir uma Revisão de qualidade, você pode criar uma [Ação de qualidade](/docs/pt/quality-management/quality_action) para ela, se desejar registrar quaisquer ações corretivas ou preventivas
 
 
 ## 5. Tópicos Relacionados

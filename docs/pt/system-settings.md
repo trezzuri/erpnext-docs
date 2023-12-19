@@ -75,7 +75,7 @@ Se a caixa de seleção Aplicar permissões restritas ao usuário estiver marcad
 	+ 2 é média
 	+ 3 é forte
 	+ 4 é muito forteA complexidade é baseada no número de caracteres, letras maiúsculas, caracteres especiais, etc.
-* **Duração de expiração do link de redefinição de senha**: Esta configuração é usada para definir a duração após a qual o novo O link de redefinição de senha criado expirou. A expiração padrão do link de redefinição de senha é de 20 minutos. Definir como "0 segundos" desativa a funcionalidade "Expiração do link de redefinição de senha".
+* **Duração de expiração do link de redefinição de senha**: Esta configuração é usada para definir a duração após a qual o novo O link de redefinição de rassword criado expirou. A expiração padrão do link de redefinição de senha é de 20 minutos. Definir como "0 segundos" desativa a funcionalidade "Expiração do link de redefinição de senha".
 * **Limite de geração de link de redefinição de senha**: usando esta configuração, o limite para o número de solicitações de redefinição de senha por hora pode ser definido. O limite padrão é 3. Definir como 0 permitirá solicitações ilimitadas de geração de link de redefinição de senha.
 
 ### 1.7 Segurança de força bruta
@@ -101,7 +101,7 @@ Ao marcar 'Ativar' Two Factor Auth', as duas opções a seguir serão vistas.
 
 * **Endereço do rodapé de e-mail**: O nome da organização, endereço e outros detalhes podem ser adicionados aqui. Isso será definido como padrão em todos os e-mails enviados.
 * **Desativar rodapé de e-mail padrão**: se marcado, o rodapé de e-mail padrão será desativado para e-mails enviados. .
-* **Ocultar rodapé em relatórios de e-mail automático**: se marcado, os rodapés ficarão ocultos em [Relatórios automáticos por e-mail](/docs/pt/setting-up/email/auto-email-reports).
+* **Ocultar rodapé em relatórios de e-mail automático**: Se marcado, os rodapés ficarão ocultos em  [Relatórios automáticos por e-mail](/docs/pt/setting-up/email/auto-email-reports).
 * **Incluir link de visualização da Web no e-mail**: quando você ativa *Anexar impressão de documento* para um novo e-mail, o sistema anexa uma versão em PDF ou HTML do seu documento ao e-mail. Se você também ativar *Incluir link de visualização da Web no e-mail* nas **Configurações do sistema**, um link será adicionado ao e-mail, permitindo que o destinatário visualize o documento on-line como uma página da web. 
 
 ![system_settings_email](/files/system_settings_email.png "system_settings_email.png")

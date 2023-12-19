@@ -34,7 +34,7 @@ Observe que se você desativar o inventário permanente, os usuários terão que
 
 
 Agora, vá até um armazém e vincule esta conta ao armazém. Isso ajuda na filtragem e visualização de extratos em termos de armazenamento.
-4. Para transações de estoque, entradas de razão geral feitas no Cabeçalho da conta definido no armazém. Se o usuário não tiver definido a conta para o armazém, o sistema obterá o cabeçalho da conta do armazém pai. Se a conta não tiver sido definida para o armazém pai, o sistema obterá a conta (conta de estoque padrão) do mestre da empresa.
+4. Para transações de estoque, entradas do razão geral feitas no Cabeçalho da conta definido no armazém. Se o usuário não tiver definido a conta para o armazém, o sistema obterá o cabeçalho da conta do armazém pai. Se a conta não tiver sido definida para o armazém pai, o sistema obterá a conta (conta de estoque padrão) do mestre da empresa.
 
 
 
@@ -69,7 +69,7 @@ Plano de contas:
 	+ Renda Direta
 		- Conta de vendas
 * Despesas (Dr.)
-	+ Despesas Diretas
+	+ Despesas diretas
 		- Despesas com estoque
 			* Custo dos produtos vendidos
 			* Despesas incluídas na avaliação
@@ -326,7 +326,7 @@ As contas "Mercadorias Vendidas" também são afetadas com base no valor da aval
 **Conta fiscal**
 
 
-![Inventário permanente](/files/perpetual-st-transfer-gl.png)
+![Inventário Perpétuo](/files/perpetual-st-transfer-gl.png)
 
 
 #### 3. Tópicos Relacionados

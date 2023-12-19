@@ -11,7 +11,7 @@ Por exemplo, se um item custar US$ 100 com uma alíquota de imposto de 10%, o cl
 1) Na seção Impostos e Taxas sobre Vendas, acesse a visualização da tabela do imposto em questão e expanda a linha.
 
 
-2) Marque a opção "Este Imposto Está Incluso na Tarifa Batica?" caixa de seleção.
+2) Marque a opção "Este Imposto Está Incluso na Tarifa Básica?" caixa de seleção.
 
 
 ![](/files/hayzNam.png)

@@ -34,7 +34,7 @@ para verificar os lançamentos contábeis de uma transação de ações específ
 O sistema de Inventário Perpétuo tornará mais fácil para você manter a precisão dos valores de ativos e despesas da empresa. Os saldos de estoque sempre serão sincronizados com os saldos de contas relevantes, portanto, nenhuma entrada manual periódica precisa ser feita para equilibrá-los.
 
 
-No caso de novas transações de estoque com data retroativa ou cancelamento/alteração de uma transação existente, todos os lançamentos futuros no razão de estoque e lançamentos contábeis serão
+No caso de novas transações de estoque retroativas ou cancelamento/alteração de uma transação existente, todos os lançamentos futuros no razão de estoque e lançamentos contábeis serão
 ser recalculado para todos os itens dessa transação. O mesmo é aplicável se
 qualquer custo é adicionado ao recibo de compra enviado posteriormente através do Landed
 Comprovante de custo.
@@ -71,7 +71,7 @@ a serem registrados como ativos da empresa, geralmente conhecidos como estoque e
 A diferença entre o valor dos itens restantes a serem vendidos e o
 o valor do estoque em mãos do período anterior pode ser positivo ou negativo. Se
 positivo, esse valor é retirado das despesas (Custo dos Produtos Vendidos) e é
-adicionado ao ativo (estoque em mãos). Se negativo, uma entrada reversa
+adicionado ao ativo (estoque em estoque). Se negativo, uma entrada reversa
 foi aprovado.
 
 

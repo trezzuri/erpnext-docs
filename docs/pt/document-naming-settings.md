@@ -68,7 +68,7 @@ Você pode alterar o número de sequência inicial/atual de uma série existente
 4. Clique em Atualizar número de série.
 
 
-Por exemplo, se o número de série do Pedido de Venda atual for 16 e você quiser reiniciar ou defini-lo como 50, insira 0 ou 50 dependendo do seu caso. Qualquer novo pedido de vendas criado começará a partir do novo número de sequência.
+Por exemplo, se o número de série do Pedido de Venda atual for 16 e você quiser reiniciá-lo ou defini-lo como 50, insira 0 ou 50 dependendo do seu caso. Qualquer novo pedido de vendas criado começará a partir do novo número de sequência.
 
 
 Para saber mais sobre isso, [acesse este artigo](/docs/pt/setting-up/articles/naming-series-current-value).

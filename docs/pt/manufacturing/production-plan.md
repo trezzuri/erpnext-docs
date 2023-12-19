@@ -88,13 +88,13 @@ Clicar em 'Obter itens de subconjunto' irá buscar itens de subconjunto da lista
 #### 2.3.1 Itens de subconjunto
 
 
-O usuário terá a opção de fazer Internamente (Ordem de Trabalho)/Pedido de Compra de Subcontrato/Solicitação de Compra de Material em relação aos itens de Submontagem usando o Tipo de Fabricação. 
+O usuário terá a opção de fazer Pedido de Compra Interno (Ordem de Trabalho)/Subcontrato/Solicitação de Compra de Material em relação aos itens de Submontagem usando o Tipo de Fabricação. 
 
 
 ![Tipo de fabricação](/private/files/production_plan_sub_assembly.png)
 
 
-Se o usuário quiser fazer Solicitação de Material para seus itens de Submontagem, bem como para suas Matérias-Primas Finais, ele deverá selecionar o Tipo de Fabricação como "Solicitação de Material" para itens de Submontagem e a seguir deverá clicar no botão " Obter matérias-primas para compra" para buscar itens de submontagem na tabela de itens do plano de solicitação de material.
+Se o usuário quiser fazer uma Solicitação de Material para seus itens de Submontagem, bem como suas Matérias-Primas Finais, ele deverá selecionar o Tipo de Fabricação como "Solicitação de Material" para itens de Submontagem e a seguir deverá clicar no botão " Obter matérias-primas para compra" para buscar itens de submontagem na tabela de itens do plano de solicitação de materiais.
 
 
 ![Plano de solicitação de material](/private/files/production_plan_material_request_items.png)
@@ -125,7 +125,7 @@ Se os itens do subconjunto estiverem disponíveis no estoque ou estarão dispon�
 ### 2.4 Planejamento para solicitações de materiais
 
 
-Clicar no botão 'Obter matéria-prima para compra' irá buscar os itens de matéria-prima necessários na tabela Plano de solicitação de material. Por exemplo, para fabricar 200 bengalas de plattico, você precisa de 100 números de plattico bruto, mas tem apenas 20 em seu armazém. Clicar neste botão adicionará uma linha com 80 na coluna Quantidade necessária.
+Clicar no botão 'Obter matéria-prima para compra' irá buscar os itens de matéria-prima necessários na tabela Plano de solicitação de material. Por exemplo, para fabricar 200 bengalas de plástico, você precisa de 100 números de plástico bruto, mas tem apenas 20 em seu armazém. Clicar neste botão adicionará uma linha com 80 na coluna Quantidade necessária.
 
 
 ![Plano de solicitação de material](/private/files/fetch_materials_for_material_request_purchase.png)

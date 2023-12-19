@@ -11,7 +11,7 @@ O Frappe HR permite criar resultados de treinamento e compartilhá-los com os fu
 Para acessar o Resultado do Treinamento, acesse:
 
 
-> Home > Recursos Humanos > Treinamento > Resultado do Treinamento
+> Home > Recursos Humanos > Treinamento > Resultado do treinamento
 
 
 ## 1. Pré-requisitos

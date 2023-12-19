@@ -70,7 +70,7 @@ Para criar um novo modelo de separação de funcionários:
 1. Acesse: Recursos Humanos > Ciclo de Vida do Funcionário > Modelo de Separação de Funcionário > Novo.
 2. Insira o departamento, a designação e a categoria do funcionário (opcional).
 3. Mencione as atividades para separação. Para cada Atividade, você também pode mencionar o Usuário ou Função, ou um deles, a quem esta Atividade será atribuída.
-4. Você também pode agendar as Atividades de Separação especificando o **Início em (Dias)**, ou seja, quando a atividade deve começar e a **Duração (Dias)** para a atividade. mesmo.
+4. Você também pode agendar as Atividades de Separação especificando o **Início em (Dias)*\*, ​​ou seja, quando a atividade deve começar e a \**Duração (Dias)** pelo mesmo.
 
 
 ![Modelo de separação](/files/separation-template.png)

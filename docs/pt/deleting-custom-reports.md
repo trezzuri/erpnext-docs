@@ -2,7 +2,7 @@
 
 
 
-ERPNext possui vários [tipos de relatórios](/docs/pt/customize-erpnext/articles/making-custom-reports) que podem ser personalizados de acordo com os usuários 'requisito.
+O ERPNext possui vários [tipos de relatórios](/docs/pt/customize-erpnext/articles/making-custom-reports) que podem ser personalizados de acordo com os usuários 'requisito.
 
 
 Se houver um relatório personalizado que precise ser excluído, isso poderá ser feito seguindo as etapas. Observe que isso é aplicável apenas aos relatórios personalizados e não aos relatórios padrão.

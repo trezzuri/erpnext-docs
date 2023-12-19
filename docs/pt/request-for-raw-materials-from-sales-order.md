@@ -1,4 +1,4 @@
-# Solicitação de matéria-prima do pedido de venda
+# Solicitação de matéria-prima do pedido de vendas
 
 
 

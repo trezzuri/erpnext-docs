@@ -87,7 +87,7 @@ Depois que o grupo de alunos for criado e salvo, o seguinte poderá ser criado a
 
 
 ![Grupo de alunos](/files/education-student-group-update-email.png)
-5. **Boletins informativos**: você poderá enviar [Boletins informativos](/docs/pt/CRM/newsletter) para todos os assinantes do grupo de alunos com esta opção.
+5. **Newsletters**: você poderá enviar [Newsletters](/docs/pt/CRM/newsletter) para todos os assinantes do grupo de alunos com esta opção.
 
 
 ![Grupo de alunos](/files/education-student-group-4.png)

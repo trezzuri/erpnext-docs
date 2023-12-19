@@ -1,151 +1,158 @@
-
-# Request for Quotation
-
+# Solicitação de cotação
 
 
-**A Request for Quotation is a document that an organization sends to one or more suppliers asking a quotation for items.**
 
-![Buying Flow](/files/buying_flow_rfq.png)![]()
+**Uma solicitação de cotação é um documento que uma organização envia a um ou mais fornecedores solicitando uma cotação de itens.**
 
-To access **Request for Quotation**, open the "Buying" workspace and, under "Reports & Masters" > "Buying", click on "Request for Quotation".
+![Fluxo de compra](/files/buying_flow_rfq.png)![]()
 
-## 1. Prerequisites
+Para acessar a **Solicitação de Cotação**, abra a área de trabalho "Compra" e, em "Relatórios & Mestres" > "Compra", clique em "Solicitação de Citação".
 
-Before creating and using a **Request for Quotation**, it is advised that you create the following first:
+## 1. Pré-requisitos
 
-* [Supplier](/docs/pt/buying/supplier)
+Antes de criar e usar uma **Solicitação de Cotação**, é aconselhável que você crie primeiro o seguinte:
+
+* [Fornecedor](/docs/pt/buying/supplier)
 * [Item](/docs/pt/stock/item)
 
-## 2. How to create a Request For Quotation
+## 2. Como criar uma solicitação de cotação
 
-1. Go to the **Request For Quotation** list and click on "+ Add Request for Quotation".
-2. Enter the *Required Date*, by which you'll need the requested materials.
-3. Fill the "Suppliers" list with possible suppliers.  
-If you set a *Contact* and *Email Id*, that can later be used for sending the **Request For Quotation** via email and grant access to the supplier portal.
-4. In the next table, enter the required items along with UOM and quantity, as well as the target warehouse.
-5. The *Warehouse* can be left blank if *Maintain Stock* is not enabled for the item.
-6. If you want to send the **Request for Quotation** to your suppliers as an email, you can create an **Email Template** and select it here. In the template, you can use special variables for supplier specific data:  
+1. Vá para a lista **Solicitação de cotação** e clique em "+ Adicionar solicitação de cotação".
+2. Insira a *Data obrigatória* até a qual você precisará dos materiais solicitados.
+3. Preencha os "Fornecedores" lista com possíveis fornecedores.  
+Se você definir um *Contato* e um *Id de e-mail*, eles poderão ser usados ​​posteriormente para enviar a **Solicitação de Cotação** via e-mail e conceda acesso ao portal do fornecedor.
+4. Na próxima tabela, insira os itens necessários junto com a UOM e a quantidade, bem como o armazém de destino.
+5. O *Armazém* pode ser deixado em branco se *Manter Estoque* não estiver habilitado para o item.
+6. Se desejar enviar a **Solicitação de Cotação** aos seus fornecedores por e-mail, você pode criar um **Modelo de E-mail** e selecioná-lo aqui. No modelo, você pode usar variáveis ​​especiais para dados específicos do fornecedor:  
   
 
 
 
-	1. `&lcub;&lcub; update_password_link }}`: A link where your supplier can set a new password to log into your portal.
-	2. `&lcub;&lcub; portal_link }}`: A link to this RFQ in your supplier portal.
-	3. `&lcub;&lcub; supplier_name }}`: The company name of your supplier.
-	4. `&lcub;&lcub; contact.salutation }} &lcub;&lcub; contact.last_name }}`: The contact person of your supplier.
-	5. `&lcub;&lcub; user_fullname }}`: Your full name.  
+	1. `&lcub;&lcub; update_password_link }}` : um link onde seu fornecedor pode definir uma nova senha para fazer login em seu portal.
+	2. `&lcub;&lcub; portal_link }}`: um link a esta RFQ no portal do fornecedor.
+	3. `&lcub;&lcub; fornecedor_name }}`: o nome da empresa do seu fornecedor.
+	4. `&lcub;&lcub; contact.salutation }} &lcub;&lcub; contact.last_name }}`: a pessoa de contato do seu fornecedor.
+	5. `&lcub;&lcub; user_fullname }}`: seu nome completo.  
 	  
-	Apart from these, you can access all values in this RFQ, like `&lcub;&lcub; message_for_supplier }}` or `&lcub;&lcub; terms }}`.
-7. You can check how the email will look for a specific supplier by using the "Preview Email" button.
+	Além desses, você pode acessar todos os valores nesta RFQ, como `&lcub;&lcub; message_for_supplier }}` ou `&lcub;&lcub; termos }}`.
+7. Você pode verificar como o e-mail procurará um fornecedor específico usando o botão "Visualizar e-mail".
 
-![Preview Email](/files/email-preview.png)![]()
-8. If you want to send further attachments to your suppliers, you can enable the checkbox   
-*Send Attached Files*. This will add each file attached to the **Request for Quotation** as an attachment to each supplier email.
-9. Once you're done, save the **Request for Quotation**  as a draft.
-10. When you're ready, you can submit the **Request for Quotation**. This will trigger an email to each supplier that has *Send Email* enabled.
+![Visualizar e-mail](/files/email-preview.png)![]()
+8. Se você deseja enviar mais anexos para seu fornecedores, você pode ativar a caixa de seleção   
+*Enviar arquivos anexados*. Isso adicionará cada arquivo anexado à **Solicitação de cotação** como um anexo ao e-mail de cada fornecedor.
+9. Quando terminar, salve o **Solicitação de cotação** como um rascunho.
+10. Quando estiver pronto, você poderá enviar a **Solicitação de cotação**. Isso acionará um e-mail para cada fornecedor que tiver *Enviar e-mail* ativado.
 
-![Create RFQ](/files/rfq-create.png)![]()  
+![Criar RFQ](/files/rfq-create.png)![]()  
 
 
-A Request for Quotation (RFQ) can also be created from a submitted Material Request. Once an RFQ is created, you can print and send suppliers the PDF which will have all the details you entered relevant to the RFQ. You can also get their reply (Supplier Quotation) in ERPNext itself, see section [4.1 Supplier Quotation by User](#41-supplier-quotation-by-user). However, for a large number of items, your supplier may be more comfortable with an Excel sheet, etc.
+Uma Solicitação de Cotação (RFQ) também pode ser criada a partir de uma Solicitação de Material enviada. Depois que uma RFQ for criada, você poderá imprimir e enviar aos fornecedores o PDF que conterá todos os detalhes inseridos relevantes para a RFQ. Você também pode obter a resposta (cotação do fornecedor) no próprio ERPNext, consulte a seção [4.1 Cotação do fornecedor por usuário](#41-supplier-quotation-by-user) . Contudo, para um grande número de itens, seu fornecedor pode se sentir mais confortável com uma planilha Excel, etc.
 
-## 3. Features
+## 3. Recursos
 
-### 3.1 Get items from
+### 3.1 Obter itens de
 
-The items in the items table can be fetched from other documents. The options are: Material Request, Opportunity, and Possible Supplier.
+Os itens na tabela de itens podem ser obtidos de outros documentos. As opções são: Solicitação de Material, Oportunidade e Possível Fornecedor.
 
-* **Material Request**: Items will be fetched from a submitted Material Request that you select. A Material Request can be searched with some matching words and a date range can also be selected to filter the Material Requests.
-* **Opportunity**: Items will be fetched from a saved Opportunity. A date range can be selected here also.
-* **Possible Supplier**: Select a possible supplier. Then if you have any submitted Material Requests against this supplier, items can be fetched from that.
+* **Solicitação de Material**: Os itens serão obtidos de uma Solicitação de Material enviada que você selecionar. Uma Solicitação de Material pode ser pesquisada com algumas palavras correspondentes e um intervalo de datas também pode ser selecionado para filtrar as Solicitações de Material.
+* **Oportunidade**: os itens serão obtido de uma oportunidade salva. Um intervalo de datas também pode ser selecionado aqui.
+* **Possível Fornecedor**: Selecione um possível fornecedor. Então, se você tiver alguma solicitação de material enviada para esse fornecedor, os itens poderão ser obtidos dele.
 
 ![RFQ get items](/files/rfq-get-items.png)![]()  
+ 
+
+### 3.2 Obter Fornecedores
+
+Em vez de inserir os fornecedores manualmente na tabela, você também pode buscá-los usando o botão 'Obter Fornecedores'. Ao clicar em **Ferramentas > Obter Fornecedores**, você verá o campo 'Obter Fornecedores por'. Existem duas opções para buscar fornecedores: Por Tag ou Por Grupo.
+
+* **Por tag**: Vá para 'Categoria de Tag' pesquisando na barra de pesquisa. Você deve primeiro ter criado tags aqui e atribuído a um Fornecedor no módulo Compras. Então você pode selecionar 'Por Tag'. Ao clicar em Adicionar 'Todos os Fornecedores', os fornecedores com tags correspondentes serão buscados.
+* **Por Grupo**: Selecione 'Grupo de Fornecedores' e escolha o grupo de fornecedores dos quais os fornecedores precisam ser adicionados. Por exemplo, se você selecionar Hardware, todos os seus fornecedores de hardware serão adicionados para que você possa obter uma cotação de todos eles.
+
+![RFQ obter fornecedores ](/files/rfq-get-suppliers.png)![]()  
 
 
-### 3.2 Get Suppliers
+Na tabela Fornecedor, ao expandir uma linha com o triângulo invertido, você verá a opção 'Baixar PDF' que abrirá um PDF da RFQ.### 3.3 Link para Solicitações de Materiais:
 
-Instead of entering the suppliers manually in the table, you can also fetch them using the 'Get Suppliers' button. When you click on **Tools > Get Suppliers**, you will see the field 'Get Suppliers By'. There are two options to fetch suppliers: By Tag or By Group.
-
-* **By tag**: Go to 'Tag Category' via searching from the search bar. You must have created tags here first and assigned them to a Supplier in the Buying module. Then you can select 'By Tag'. On clicking Add 'All Suppliers', suppliers with matching tags will be fetched.
-* **By Group**: Select 'Supplier Group' and choose the supplier group from which suppliers need to be added. For example, if you select Hardware, all your hardware suppliers will be added so that you can get a quote from all of them.
-
-![RFQ get suppliers](/files/rfq-get-suppliers.png)![]()  
-
-
-In the Supplier table, on expanding a row with the inverted triangle, you'll see an option 'Download PDF' which will open a PDF of the RFQ.
-
-### 3.3 Link to Material Requests:
-
-When you click on **Tools > Link to Material Requests**, it links the Request for Quotation to available Material Requests. The items should be the same in the Request for Quotation and the Material Request.
+Ao clicar em **Ferramentas > Link para Solicitações de Materiais**, vincula a Solicitação de Cotação às Solicitações de Materiais disponíveis. Os itens devem ser os mesmos na Solicitação de Cotação e na Solicitação de Material.
 
 ![Link to Material Request](/files/link-to-material-request.png)![]()  
 
 
-Now, when the Request for Quotation is saved, you can see in the Dashboard that it is linked to the Material Request. If there are multiple Material Requests with the same items, then the link will be created with the newest Material Request.
+Agora , ao salvar a Solicitação de Cotação, você pode ver no Dashboard que ela está vinculada à Solicitação de Material. Se houver várias Solicitações de Material com os mesmos itens, o link será criado com a Solicitação de Material mais recente.
 
-### 3.5 Terms and Conditions
+### 3.5 Termos e Condições
 
-In Sales/Purchase transactions, there might be certain Terms and Conditions based on which the Supplier provides goods or services to the Customer. You can apply the Terms and Conditions to transactions and they will appear when printing the document. To know about Terms and Conditions, [click here](/docs/pt/setting-up/print/terms-and-conditions)
+Em transações de Venda/Compra, pode haver certos Termos e Condições com base nos quais o Fornecedor fornece bens ou serviços ao Cliente. Você pode aplicar os Termos e Condições às transações e eles aparecerão na impressão do documento. Para saber mais sobre os Termos e Condições, [clique aqui](/docs/pt/setting-up/print/terms-and-conditions) 
 
-### 3.6 Print Settings
+### 3.6 Configurações de impressão
 
-#### Letterhead
+#### Papel timbrado
 
-You can print your request for quotation/purchase order on your company's letterhead. Know more [here](/docs/pt/setting-up/print/letter-head).
+Você pode imprimir sua solicitação de cotação/pedido de compra em papel timbrado da sua empresa. Saiba mais [aqui](/docs/pt/setting-up/print/letter-head).
 
-'Group same items' will group the same items added multiple times in the items table. This can be seen when you print it.
+'Agrupar os mesmos itens' agrupará os mesmos itens adicionados várias vezes na tabela de itens. Isso pode ser visto quando você o imprime.
 
-#### Print Headings
+#### Imprimir cabeçalhos
 
-Titles of your documents can be changed. Know more [here](/docs/pt/setting-up/print/print-headings).
+Os títulos dos seus documentos podem ser alterados. Saiba mais [aqui](/docs/pt/setting-up/print/print-headings).
 
-## 4. Creating a Supplier Quotation after RFQ
+#### Propriedades especiais
 
-After creation of Request for Quotation, there are two ways to generate Supplier Quotation from Request for Quotation.
+Ao imprimir uma RFQ através do botão "Ferramentas > Baixar PDF", você será solicitado a selecionar o fornecedor específico que deseja abordar. No **Formato de impressão** para RFQ, essas informações podem ser acessadas por meio de propriedades especiais:
 
-### 4.1 Supplier Quotation by User
+* `&lcub;&lcub; doc.vendor }}` contém o ID do fornecedor selecionado.
+* `&lcub;&lcub; doc.items[i].supplier_part_no }}` contém o *número da peça do fornecedor* de um item de linha solicitado.
 
-1. Open Request for Quotation and click on **Supplier Quotation > Create**.
+Os dados do primeiro fornecedor serão usados ​​durante a renderização da visualização de impressão padrão. Se desejar imprimir para um fornecedor diferente, use o botão "Ferramentas > Baixar PDF".
 
-![Supplier Quotation from RFQ](/files/make-supplier-quotation-from-rfq.png)![]()
-2. Select the Supplier, click on the supplier again. In this page, click on the + next to 'Supplier Quotation'. A new Supplier Quotation page will be opened, user has to enter the quantity, rate and submit it.
+## 4. Criando uma cotação de fornecedor após RFQ
 
-![Supplier Quotation from Supplier](/files/supplier-quotation-from-sup.png)![]()
+Após a criação da solicitação de cotação, há duas maneiras de gerar a cotação de fornecedor a partir da solicitação de cotação.
 
-### 4.2 Supplier Quotation from Supplier
+### 4.1 Cotação de fornecedor por usuário
 
-1. If a [Contact](/docs/pt/CRM/contact) is created for the Supplier and an email address is associated with the Contact, the Contact details and the email address will be fetched on selecting the Supplier. Create a Contact and email address if not present already.
-2. Click on **Tools > Send Emails to Suppliers**.
+1. Abra a solicitação de cotação e clique em **Cotação do fornecedor > Criar**.
 
-**If the Supplier's account is not present**: The system will create the Supplier's account and send details to the Supplier. The Supplier will need to click on the link (Password Update) present in the email. After the password update, the Supplier can access their portal with the 'Request for Quotation' form. The Supplier will be created as a Website User.
+![Cotação do fornecedor da RFQ](/files/make-supplier-quotation-from-rfq.png)![]()
+2. Selecione o Fornecedor, clique no fornecedor novamente. Nesta página, clique no + ao lado de 'Cotação do fornecedor'. Uma nova página de cotação do fornecedor será aberta, o usuário deverá inserir a quantidade, taxa e enviá-la.
 
-![Supplier email if account not present](/files/supplier-email-with-update-password.png)![]()  
+![Cotação do fornecedor do fornecedor](/files/supplier-quotation-from-sup.png)![]()
+
+### 4.2 Cotação do Fornecedor
+
+1. Se um [Contato](/docs/pt/CRM/contact ) é criado para o Fornecedor e um endereço de e-mail é associado ao Contato, os detalhes do Contato e o endereço de e-mail serão obtidos ao selecionar o Fornecedor. Crie um contato e um endereço de e-mail, se ainda não estiver presente.
+2. Clique em **Ferramentas > Enviar e-mails para fornecedores**.
+
+**Se a conta do Fornecedor não estiver presente**: O sistema criará a conta do Fornecedor e enviará os detalhes ao Fornecedor. O Fornecedor deverá clicar no link (Atualização de Senha) presente no email. Após a atualização da senha, o Fornecedor poderá acessar seu portal através do formulário ‘Solicitação de Cotação’. O Fornecedor será criado como um Usuário do Site.
+
+![E-mail do fornecedor se a conta não estiver presente](/files/fornecedor-email-with-update-password.png)![]()  
 
 
-**If Supplier's account is present**: The system will send a Request for Quotation link to the Supplier. The Supplier must log in using his credentials to view the Request for Quotation form on the portal.
+ **Se a conta do Fornecedor estiver presente**: O sistema enviará um link de Solicitação de Cotação ao Fornecedor. O Fornecedor deverá fazer login com suas credenciais para visualizar o formulário de Solicitação de Cotação no portal.
 
-![Supplier email if account present](/files/supplier-email-normal.png)![]()
-3. Either way, when the Supplier logs in, the following screen will be shown to them. From here they can send you a quotation:
+![E-mail do fornecedor se conta presente](/files/supplier-email-normal.png)![]()
+3. De qualquer forma, quando o Fornecedor fizer login, a tela a seguir será mostrada a ele. A partir daqui, eles podem lhe enviar uma cotação:
 
-![Supplier Quotation Screen](/files/rfq-supplier-quotation.png)![]()  
+![Supplier Quotation Screen](/files/rfq-supplier-quote.png)![]()  
 
 
-The Supplier has to enter the amount and notes (payment terms) on the form and click on Submit. In the Quotations section, previous quotations will be visible.
-4. On submission, ERPNext will create a Supplier Quotation (draft mode) against the Supplier. The user has to review the Supplier Quotation and submit it. When all the items from the Request for Quotation have been quoted by a Supplier, the quote status is updated to 'Received' in the 'Suppliers' table of the Request for Quotation.
+O Fornecedor deve inserir o valor e as notas (pagamento termos) no formulário e clique em Enviar. Na seção Cotações, as cotações anteriores estarão visíveis.
+4. Ao enviar, o ERPNext criará uma Cotação do Fornecedor (modo rascunho) contra o Fornecedor. O usuário deve revisar a Cotação do Fornecedor e enviá-la. Quando todos os itens da Solicitação de Cotação tiverem sido cotados por um Fornecedor, o status da cotação será atualizado para 'Recebido' na tabela 'Fornecedores' da Solicitação de Cotação.
 
-![RFQ status after supplier quote](/files/rfq-supplier-quoted.png)![]()
+![RFQ status após cotação do fornecedor](/files/rfq-supplier-quoted.png)![]()
 
-Read [Supplier Quotation](/docs/pt/buying/supplier-quotation) to know more.
+Leia [Cotação do fornecedor](/docs/pt/buying/supplier-quotation) para saber mais.
 
-## 5. Video
+## 5. Vídeo
 
-### 6. Related Topics
+### 6. Tópicos relacionados
 
-1. [Purchase Order](/docs/pt/buying/purchase-order)
-2. [Supplier](/docs/pt/buying/supplier)
-3. [Supplier Quotation](/docs/pt/buying/supplier-quotation)
-4. [Quotation](/docs/pt/selling/quotation)
-5. [Material Request](/docs/pt/stock/material-request)
+1. [Ordem de compra](/docs/pt/buying/purchase-order)
+2. [Fornecedor](/docs/pt/buying/supplier)
+3. [Cotação do fornecedor](/docs/pt/buying/supplier-quotation)
+4. [Cotação](/docs/pt/selling/quotation)
+5. [Solicitação de material](/docs/pt/stock/material-request )
+
 
 
 

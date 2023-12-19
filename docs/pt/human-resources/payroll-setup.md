@@ -1,303 +1,297 @@
-
-# Payroll Setup
-
+# Configuração da folha de pagamento
 
 
-Salary is a fixed amount of money or compensation paid to an employee by an employer in return for the work performed.
+
+Salário é uma quantia fixa de dinheiro ou remuneração paga a um funcionário por um empregador em troca do trabalho realizado.
 
 
-Payroll is the administration of financial records of employees' salaries, wages, bonuses, net pay, and deductions.
+A folha de pagamento é a administração dos registros financeiros de salários, vencimentos, bônus, remuneração líquida e deduções dos funcionários.
 
 
-To process Payroll in Frappe HR,
+Para processar folha de pagamento no Frappe HR,
 
 
-1. Define [Payroll Period](/docs/pt/human-resources/payroll-period.html) (optional)
-2. Define [Income Tax Slab](/docs/pt/human-resources/income-tax-slab.html) (optional)
-3. Create Salary Structure with Salary Components (Earnings and Deductions)
-4. Assign Salary Structures to each Employee via Salary Structure Assignment
-5. Generate Salary Slips via [Payroll Entry](/docs/pt/human-resources/payroll-entry.html).
-6. Book the Salary in your Accounts.
+1. Definir [Período da folha de pagamento](/docs/pt/human-resources/payroll-period.html) (opcional)
+2. Definir [placa de imposto de renda](/docs/pt/human-resources/income-tax-slab.html) (opcional)
+3. Criar estrutura salarial com componentes salariais (ganhos e deduções)
+4. Atribuir estruturas salariais a cada funcionário por meio da atribuição de estrutura salarial
+5. Gere recibos de salário por meio de [Lançamento da folha de pagamento](/docs/pt/human-resources/payroll-entry.html).
+6. Reserve o Salário em suas Contas.
 
 
-## Payroll Period
+## Período da folha de pagamento
 
 
-[Payroll Period](/docs/pt/human-resources/payroll-period.html), in Frappe HR, is a period for which Employees get paid for their occupation with the Company. Payroll period helps you define Tax slabs applicable for the period, making it easier to manage changing laws.
+[Período da folha de pagamento](/docs/pt/human-resources/payroll-period.html), no Frappe HR, é um período pelo qual os funcionários são pagos sua ocupação na Empresa. O período da folha de pagamento ajuda a definir as taxas fiscais aplicáveis ​​ao período, facilitando o gerenciamento das mudanças nas leis.
 
 
-> Note: Configuring Payroll Period is optional if you do not intend to use Flexible Benefits or Tax Slabs
+> Observação: configurar o período da folha de pagamento é opcional se você não pretende usar benefícios flexíveis ou faixas fiscais
 
 
-## Salary Component
+## Componente Salarial
 
 
-This document allows you to define each Earning and Deduction component which can be used to create a Salary Structure and subsequently create Salary Slip or Additional Salary. You can also configure the type, condition and formula as well as other settings which are discussed below. You should be able to enable various combinations of the following options to configure each component as it fits your Company/Regional policies.
+Este documento permite definir cada componente de Rendimentos e Deduções que pode ser utilizado para criar uma Estrutura Salarial e posteriormente criar Recibo de Salário ou Salário Adicional. Você também pode configurar o tipo, condição e fórmula, bem como outras configurações discutidas abaixo. Você deve ser capaz de ativar várias combinações das opções a seguir para configurar cada componente de acordo com as políticas da sua empresa/regional.
 
 
-* Depends on Leave Without Pay: Leave Without Pay (LWP) happens when an Employee runs out of allocated leaves
-or takes a leave without an approval (via Leave Application). If enabled, Frappe HR will automatically deduct the
-pay in proportion of LWP days divided by the total working days for the month (based on the Holiday List).
+* Depende de licença sem remuneração: a licença sem remuneração (LWP) ocorre quando um funcionário fica sem licenças alocadas
+ou tira licença sem aprovação (por meio do Pedido de Licença). Se habilitado, o Frappe HR deduzirá automaticamente o
+pague na proporção dos dias LWP divididos pelo total de dias úteis do mês (com base na Lista de Feriados).
 
 
-> Note: If you don’t want Frappe HR to manage LWP, don’t turn on this flag in any of the Salary Components
-* Do not include in total: If this option is enabled, the component wont be added to the total of the Earnings or Deductions of the Salary Slip
+> Observação: se você não deseja que o RH do Frappe gerencie o LWP, não ative esta sinalização em nenhum dos componentes salariais
+* Não incluir no total: Se esta opção estiver habilitada, o componente não será adicionado ao total dos Rendimentos ou Descontos do Comprovante de Salário
 
 
-#### Earning
+#### Ganhos
 
 
-![Salary Component Earnings](/files/salary-component.png)
+![Ganhos do componente salarial](/files/salary-component.png)
 
 
-* Is Additional Component: This option specify that the component can only be paid as Additional Salary. Examples of this component could be Performance Bonus or pay received for on-site deputation etc. Such components are not considered to be part of normal Salary Structure. Instead, Additional Salary with these components can be submitted as required which will be added to the Salary Slip automatically.
-* Is Tax Applicable: If a component needs to be considered for Tax calculations specified as per the Payroll Period you may want to enable this option. It would be required that you have a Payroll Period and Income Tax Slab configured with valid Tax Slabs for payroll processing.
-* Is Payable: Such components can be booked against separate payable accounts and the Accounts shall be configured in the Accounts table
-* Flexible Benefits: Flexible Benefits are earning components which Employees can choose to receive on a pro-rata basis or annually when they claim for. These are mostly tax exempted, unless the Employee fail to file the claim with adequate bills/documents. If turned on, you can specify the maximum benefit allowed for an employee in a year. Employees can create [Employee Benefit Application](/docs/pt/human-resources/employee-benefit-application) with the ones they opt for.
+* É Componente Adicional: Esta opção especifica que o componente só poderá ser pago como Salário Adicional. Exemplos desta componente podem ser o Bónus de Desempenho ou o pagamento recebido por representação no local, etc. Tais componentes não são considerados parte da estrutura salarial normal. Em vez disso, o Salário Adicional com esses componentes pode ser enviado conforme necessário, e será adicionado automaticamente ao Comprovante de Salário.
+* O imposto é aplicável: Se um componente precisar ser considerado para cálculos de impostos especificados de acordo com o período da folha de pagamento, você pode querer ativar esta opção. Será necessário que você tenha um Período de Folha de Pagamento e uma Placa de Imposto de Renda configurados com Placas de Imposto válidas para processamento da folha de pagamento.
+* É a Pagar: Tais componentes podem ser contabilizados em contas a pagar separadas e as Contas devem ser configuradas na tabela Contas
+* Benefícios Flexíveis: Benefícios Flexíveis são componentes de ganho que os Funcionários podem optar por receber proporcionalmente ou anualmente quando solicitarem. Estes são, em sua maioria, isentos de impostos, a menos que o Funcionário não apresente a reclamação com faturas/documentos adequados. Se ativado, você poderá especificar o benefício máximo permitido para um funcionário em um ano. Os funcionários podem criar [Aplicativo de benefícios para funcionários](/docs/pt/human-resources/employee-benefit-application) com aqueles que escolherem.
 
 
->Note: Employee Benefit Application will only allow Employees to only choose from the flexible components which are present in the Salary Structure assigned to the Employee
+>Observação: a Aplicação de Benefícios a Empregados permitirá apenas que os Funcionários escolham apenas entre os componentes flexíveis que estão presentes na Estrutura Salarial atribuída ao Funcionário
 
 
-	+ Pay Against Benefit Claim: Employees can opt to receive flexible benefits annually via Employee Benefit Claim or along with their salary every month. If you enable this, the amount allocated for the component will be paid as the Employee submits an [Employee Benefit Claim](/docs/pt/human-resources/employee-benefit-claim.html). Else the amount will be dispersed as part of the Employee's salary on a pro-rata basis.
+	+ Reivindicação de Pagamento Contra Benefícios: Os funcionários podem optar por receber benefícios flexíveis anualmente por meio de Solicitação de Benefícios a Empregados ou junto com seu salário todos os meses. Se você ativar esta opção, o valor alocado para o componente será pago quando o funcionário enviar um [Benefício de funcionário Reivindicar](/docs/pt/human-resources/employee-benefit-claim.html). Caso contrário, o valor será distribuído como parte do salário do Funcionário de forma proporcional.
 	
 	
-		- Only Tax Impact (Cannot Claim But Part of Taxable Income): Such components are those which the company has already paid to the Employee in cash or by some other means, for example a car purchased for the Employee's use. The Employee cannot claim but is liable to pay tax. The amount allocated for this component will be considered while calculating the taxable income of the Employee.
-		- Create Separate Payment Entry Against Benefit Claim: Some of the flexible benefits may be legally required to be paid via separate vouchers. If you enable this, while posting the bank entry the amount paid for such components will be posted as a separate entry for each Employee.![Flexible Salary Component](/files/salary-component-1.png)
+		- Apenas Impacto Fiscal (Não pode ser reivindicado, mas parte do Lucro Tributável): Tais componentes são aqueles que a empresa já pagou ao Funcionário em dinheiro ou por algum outro meio, por exemplo, um carro adquirido para uso do Funcionário. O Funcionário não pode reclamar, mas é responsável pelo pagamento do imposto. O valor atribuído a esta componente será considerado no cálculo do rendimento tributável do Colaborador.
+		- Criar entrada de pagamento separada para reivindicação de benefício: alguns dos benefícios flexíveis podem ser legalmente exigidos para serem pagos por meio de vouchers separados. Se você ativar esta opção, ao lançar o lançamento bancário, o valor pago por tais componentes será lançado como um lançamento separado para cada Funcionário.![Componente salarial flexível](/files/salary-component-1.png)
 	
 	
-	> Note: Normal Tax calculation does not include Flexible Benefits as in most cases these are exempted from Tax. To tax these components anytime before that last payroll, use "Deduct Tax For Unclaimed Employee Benefits" in Payroll Entry/Salary Slip while processing the Salary.
+	> Nota: O cálculo do Imposto Normal não inclui Benefícios Flexíveis, pois na maioria dos casos estes estão isentos de Imposto. Para tributar esses componentes a qualquer momento antes da última folha de pagamento, use "Deduzir imposto para benefícios de funcionários não reclamados" em Entrada da folha de pagamento/Recibo de salário ao processar o salário.
 
 
-#### Deduction
+#### Dedução
 
 
-![Salary Component Deduction](/files/salary-component-2.png)
+![Dedução do componente salarial](/files/salary-component-2.png)
 
 
-* Variable Based On Taxable Salary: If you enable this, the component will be considered as the standard Tax deduction component. Tax will be calculated based on the Income Tax Slab linked to the employee.
+* Variável com Base no Salário Tributável: Se você ativar esta opção, o componente será considerado como o componente padrão de dedução fiscal. O imposto será calculado com base na Tabela de Imposto de Renda vinculada ao funcionário.
 
 
-## Salary Structure
+## Estrutura Salarial
 
 
-Salary Structure represents how Salaries are structured and calculated based on Earnings and Deductions. Salary structures are used to help organizations:
+Estrutura Salarial representa como os Salários são estruturados e calculados com base em Rendimentos e Deduções. As estruturas salariais são usadas para ajudar as organizações:
 
 
-1. Maintain pay levels that are competitive with the external labor market,
-2. Maintain internal pay relationships among jobs,
-3. Recognize and reward differences in the level of responsibility, skill, and performance, and manage pay expenditures.
+1. Manter níveis salariais competitivos com o mercado de trabalho externo,
+2. Manter relações salariais internas entre cargos,
+3. Reconheça e recompense as diferenças no nível de responsabilidade, habilidade e desempenho, e gerencie as despesas salariais.
 
 
-Usual components of a salary structure (in India) include:
+Os componentes usuais de uma estrutura salarial (na Índia) incluem:
 
 
-* Basic Salary: It is the taxable base income and generally not more than 40% of CTC.
-* House Rent Allowance: The HRA constitutes 40 to 50% of the basic salary.
-* Special Allowances: Makes up for the remainder part of the salary, mostly smaller than the basic salary which is completely taxable.
-* Leave Travel Allowance: The non-taxable amount paid by the employer to the employee for vacation/trips with family within India.
-* Gratuity: It is basically a lump sum amount paid by the employer when the employee resigns from the organization or retires.
-* PF: Fund collected during emergency or old age. 12% of the basic salary is automatically deducted and goes to the employee provident fund.
-* Medical Allowance: The employer pays the employee for the medical expenditures incurred. It is tax-free up to Rs.15,000.
-* Bonus: Taxable part of the CTC, usually a once a year lump sum amount, given to the employee based on the individual’s as well as the organizational performance for the year.
-* Employee Stock Options: ESOPS are Free/discounted shares given by the company to the employees. This is done to primarily increase employee retention.
+* Salário Básico: É o rendimento base tributável e geralmente não superior a 40% do CTC.
+* Subsídio para aluguel de casa: O HRA constitui 40 a 50% do salário base.
+* Subsídios Especiais: Compensa a parte restante do salário, em sua maioria menor que o salário base, que é totalmente tributável.
+* Subsídio de viagem por licença: o valor não tributável pago pelo empregador ao funcionário para férias/viagens com a família na Índia.
+* Gorjeta: é basicamente um valor fixo pago pelo empregador quando o funcionário se demite da organização ou se aposenta.
+* PF: Fundo arrecadado em situações de emergência ou velhice. 12% do salário base é descontado automaticamente e vai para a caixa de previdência dos funcionários.
+* Subsídio Médico: O empregador paga ao empregado pelas despesas médicas incorridas. É isento de impostos até Rs.15.000.
+* Bônus: parte tributável do CTC, geralmente um valor único anual, concedido ao funcionário com base no desempenho individual e organizacional no ano.
+* Opções de ações para funcionários: ESOPS são ações gratuitas/com desconto dadas pela empresa aos funcionários. Isso é feito principalmente para aumentar a retenção de funcionários.
 
 
-![Submitted Salary Structure](/files/salary-structure.png)
-A submitted Salary Structure
+![Estrutura salarial enviada](/files/salary-structure.png)
+Uma estrutura salarial enviada
 
 
-### Creating a New Salary Structure
+### Criando uma nova estrutura salarial
 
 
-To create a new Salary Structure go to:
+Para criar uma nova Estrutura Salarial acesse:
 
 
-> Human Resources > Payroll Setup > Salary Structure > New Salary Structure
+> Recursos Humanos > Configuração da Folha de Pagamento > Estrutura Salarial > Nova Estrutura Salarial
 
 
-In the new Salary Structure,
+Na nova estrutura salarial,
 
 
-1. Name the salary Structure and set the company, letterhead for Salary Slip printing and frequency of payroll etc.
-2. Set the starting date from which this is valid (Note: There can only be one Salary Structure that can be “Active” for an Employee during any period).
-3. Configure Leave Encashment Amount per Day which will be the amount payable to Employees on Leave Encashment requests.
-4. Max Benefits amount is the maximum amount eligible as Flexible Components to employees.
+1. Nomeie a estrutura salarial e defina a empresa, papel timbrado para impressão do comprovante de salário e frequência da folha de pagamento etc.
+2. Defina a data de início da validade (Nota: Só pode haver uma Estrutura Salarial que pode estar “Ativa” para um Funcionário durante qualquer período).
+3. Configure o valor do reembolso de licenças por dia, que será o valor a pagar aos funcionários nas solicitações de reembolso de licenças.
+4. O valor máximo de benefícios é o valor máximo elegível como Componentes Flexíveis para funcionários.
 
 
-#### Salary Slip Based on Timesheet
+#### Recibo de salário com base no quadro de horários
 
 
-Salary Slip based on Timesheet is applicable if you have timesheet based payroll system
+O comprovante de salário baseado em quadro de horários é aplicável se você tiver um sistema de folha de pagamento baseado em quadro de horários
 
 
-1. Check "Salary Slip Based on Timesheet"
-2. Select the salary component and enter Hour Rate (Note: This salary component gets added to earnings in Salary Slip)
+1. Verifique "Recibo de salário com base no quadro de horários"
+2. Selecione o componente salarial e insira a Taxa Horária (Observação: Este componente salarial é adicionado aos ganhos no Comprovante de Salário)
 
 
-![Salary Slip based on Timesheet](/files/salary-timesheet.png)
+![Comprovante de salário baseado no quadro de horários](/files/salary-timesheet.png)
 
 
-#### Earnings and Deductions in Salary Structure
+#### Ganhos e deduções na estrutura salarial
 
 
-In the “Earnings” and “Deductions” tables, you can select the earnings and deductions components The condition and formula configured in Salary Component will be copied by default, but you may change this if required. You may also want to select the Base component in the Earnings table. Note that the amount eligible for each employee should be configured in Salary Structure Assignment.
+Nas tabelas “Rendimentos” e “Descontos”, você pode selecionar os componentes de rendimentos e descontos. A condição e a fórmula configuradas no Componente Salarial serão copiadas por padrão, mas você poderá alterar isso se necessário. Você também pode selecionar o componente Base na tabela Ganhos. Observe que o valor elegível para cada funcionário deverá ser configurado em Atribuição de Estrutura Salarial.
 
 
-If the condition and formula for any of the earnings or deductions are not configured in Salary Component, you can calculate the values of Salary Components based on,
+Se a condição e a fórmula para qualquer um dos rendimentos ou deduções não estiverem configuradas no Componente Salarial, você poderá calcular os valores dos Componentes Salariais com base em,
 
 
-#### Condition and Formula
+#### Condição e Fórmula
 
 
-![Condition and Formula](/files/condition-formula.png)
+![Condição e Fórmula](/files/condition-formula.png)
 
 
-#### Condition and Amount
+#### Condição e valor
 
 
-![Condition and Amount](/files/condition-amount.png)
+![Condição e valor](/files/condition-amount.png)
 
 
-In conditions and formulas,
+Em condições e fórmulas,
 
 
-* Use field "base" for using base salary of the Employee
-* Use Salary Component abbreviations. For example: BS for Basic Salary
-* Use field name for employee details. For example: Employment Type for employment\_type
+* Use o campo "base" para utilizar o salário base do Funcionário
+* Use abreviações dos componentes salariais. Por exemplo: BS para Salário Básico
+* Use o nome do campo para detalhes do funcionário. Por exemplo: Tipo de emprego para Employment\_type
 
 
-#### Account Details
+#### Detalhes da conta
 
 
-![Salary Structure Account](/files/salary-structure-account.png)
+![Conta de estrutura salarial](/files/salary-structure-account.png)
 
 
-* Select Mode of Payment and Payment Account for the Salary Slips which will be generated using this Salary Structure
+* Selecione a forma de pagamento e a conta de pagamento para os comprovantes de salário que serão gerados usando esta estrutura salarial
 
 
-Finally, *Save* the Salary Structure.
+Finalmente, *salve* a estrutura salarial.
 
 
-### Leave Without Pay (LWP)
+### Sair sem remuneração (LWP)
 
 
-Leave Without Pay (LWP) happens when an Employee runs out of allocated leaves or takes a leave without an approval (via Leave Application). If you want Frappe HR to automatically deduct salary in case of LWP, then you must check on
-the “Apply LWP” column in the Earning Type and Deduction Type masters. The amount of pay cut is the proportion of LWP days divided by the total working days for the month (based on the Holiday List).
+A Licença Sem Remuneração (LWP) acontece quando um Funcionário fica sem licenças alocadas ou tira uma licença sem aprovação (por meio do Pedido de Licença). Se você deseja que o Frappe HR desconte automaticamente o salário em caso de LWP, então você deve verificar
+a coluna “Aplicar LWP” nos mestres Tipo de ganho e Tipo de dedução. O valor do corte salarial é a proporção de dias LWP dividida pelo total de dias úteis do mês (com base na Lista de Feriados).
 
 
-If you don’t want Frappe HR to manage LWP, leave the LWP unchecked in all of the Earning Types and Deduction Types.
+Se você não deseja que o Frappe HR gerencie o LWP, deixe o LWP desmarcado em todos os Tipos de Ganhos e Tipos de Dedução.
 
 
-## Salary Structure Assignment
+## Atribuição de estrutura salarial
 
 
-Salary Structure Assignment allows you to assign salary structure and specify the base pay eligible for each employee. It is important that you set the base salary for each assignment as this will be the base salary used for calculations as per the Salary Structure.
+Atribuição de estrutura salarial permite atribuir uma estrutura salarial e especificar o pagamento base elegível para cada funcionário. É importante que você defina o salário base para cada atribuição, pois este será o salário base utilizado para os cálculos conforme a Estrutura Salarial.
 
 
-To create a new Salary Structure Assignment go to:
+Para criar uma nova Atribuição de Estrutura Salarial, acesse:
 
 
-> Human Resources > Payroll > Salary Structure Assignment > New Salary Structure Assignment
+> Recursos Humanos > Folha de Pagamento > Atribuição de Estrutura Salarial > Nova Atribuição de Estrutura Salarial
 
 
-![Salary Structure Assignment](/files/salary-structure-assignment.png)
+![Atribuição de estrutura salarial](/files/salary-structure-assignment.png)
 
 
 
+# Processamento de folha de pagamento
 
----
 
+Você pode processar a folha de pagamento em massa para funcionários de um departamento, filial ou designação ou processar a folha de pagamento individualmente criando recibos de salário para cada funcionário.
 
-# Processing Payroll
 
+## Processamento de folha de pagamento usando entrada de folha de pagamento
 
-You can either bulk process payroll for Employees under a department, branch or designation or process payroll individually by creating Salary Slips for each employee.
 
+Você também pode criar comprovantes de salário para vários funcionários usando o lançamento da folha de pagamento:
 
-## Payroll Processing Using Payroll Entry
 
+> Recursos Humanos > Folha de Pagamento > Lançamento da Folha de Pagamento > Novo Lançamento da Folha de Pagamento
 
-You can also create salary slip for multiple employees using Payroll Entry:
 
+#### Lançamento da folha de pagamento
 
-> Human Resources > Payroll > Payroll Entry > New Payroll Entry
 
+![Entrada da folha de pagamento](/files/payroll-entry.png)
 
-#### Payroll Entry
 
+No lançamento da folha de pagamento,
 
-![Payroll Entry](/files/payroll-entry.png)
 
+1. Selecione a Empresa para a qual deseja criar os Recibos de Salário. Você também pode selecionar outros campos como Filial, Departamento, Designação ou Projeto para ser mais específico.
+2. Verifique o *Recibo de salário com base no quadro de horários* se desejar processar recibos de salário com base no quadro de horários.
+3. Selecione a Data de Postagem e a periodicidade da folha de pagamento com a qual deseja gerar os Recibos de Salário.
+4. Clique em "Obter detalhes do funcionário" para obter uma lista de funcionários para os quais os comprovantes de salário serão criados com base nos critérios selecionados.
+5. Insira as datas de início e término do período processado na folha de pagamento.
+6. Você pode marcar *Deduzir imposto para benefícios de funcionários não reclamados* se quiser deduzir impostos para todos os benefícios (componentes salariais que são *É benefício flexível*) pagos aos funcionários até o atual folha de pagamento
+7. Da mesma forma, *Deduzir imposto para comprovante de isenção fiscal não enviado* permite que você deduza impostos sobre os rendimentos que foram isentos nas folhas de pagamento anteriores, conforme declarado em [Declaração de isenção fiscal do funcionário](/docs/pt/human-resources/employee-tax-exemption-declaration) mas o funcionário não enviou provas suficientes [Envio de prova de isenção fiscal de funcionário](/docs/pt/human-recursos/employee-tax-isemption-proof-submission)
+8. Selecione o centro de custo e a conta de pagamento.
+9. Salve o formulário e envie-o para criar registros de recibo de salário para cada funcionário ativo no período selecionado. Caso os Boletos de Salário já tenham sido criados, o sistema não criará mais Boletos de Salário. Você também pode simplesmente salvar o formulário como Rascunho e criar os comprovantes de salário posteriormente.
 
-In Payroll Entry,
 
+![Entrada da folha de pagamento enviada](/files/created-payroll.png)
 
-1. Select the Company for which you want to create the Salary Slips. You can also select the other fields like Branch, Department, Designation or Project to be more specific.
-2. Check *Salary Slip based on Timesheet* if you want to process timesheet based Salary Slips.
-3. Select the Posting Date and the frequency of payroll which you want to create the Salary Slips.
-4. Click on "Get Employee Details" to get a list of Employees for which the Salary Slips will be created based on the selected criteria.
-5. Enter the Start and End dates for the payroll period.
-6. You can check *Deduct Tax For Unclaimed Employee Benefits* if you want to deduct taxes for all benefits (Salary Components which are *Is Flexible Benefit*) paid to employees till the current payroll
-7. Similarly, *Deduct Tax For Unsubmitted Tax Exemption Proof* allows you to deduct taxes for the earnings which were exempted in the previous payrolls as declared in [Employee Tax Exemption Declaration](/docs/pt/human-resources/employee-tax-exemption-declaration) but the Employee has not submitted sufficient proof [Employee Tax Exemption Proof Submission](/docs/pt/human-resources/employee-tax-exemption-proof-submission)
-8. Select the Cost Center and Payment Account.
-9. Save the form and Submit it to create Salary Slip records for each active Employee for the time period selected. If the Salary Slips are already created, the system will not create any more Salary Slips. You can also just save the form as Draft and create the Salary Slips later.
 
+Depois que todos os comprovantes de salário forem criados, você poderá usar *Ver comprovantes de salário* para verificar se eles foram criados corretamente ou editá-los se desejar deduzir licença sem remuneração (LWP).
 
-![Submitted Payroll Entry](/files/created-payroll.png)
 
+Após a verificação, você pode "Enviar" todos juntos clicando em "Enviar comprovante de salário".
 
-Once all Salary Slips are created, you can use *View Salary Slips* to verify if they are created correctly or edit it if you want to deduct Leave Without Pay (LWP).
 
+>Observação: o envio de comprovantes de salário também reservará a conta padrão da Folha de Pagamento a Pagar para registrar o acúmulo de salário.
 
-After checking, you can "Submit" them all together by clicking on "Submit Salary Slip".
 
+#### Reserva de salários em contas
 
->Note: Submitting Salary Slips will also book the default Payroll Payable account to record the accrual of salary.
 
+A etapa final é registrar os Salários em suas Contas.
 
-#### Booking Salaries in Accounts
 
+Os salários nas empresas geralmente são tratados com extrema privacidade. Na maioria dos casos, as empresas emitem um único pagamento ao banco combinando todos os salários e o banco distribui os salários para a conta salário de cada funcionário. Dessa forma, haverá apenas um lançamento de pagamento nos livros contábeis da empresa e qualquer pessoa com acesso às contas da empresa não terá acesso aos salários individuais.
 
-The final step is to book the Salaries in your Accounts.
 
+O lançamento de pagamento de salário é um lançamento contábil manual que debita o total do componente salarial do tipo de ganho e credita o total do componente salarial do tipo dedução de todos os funcionários na conta padrão definida no nível do componente salarial para cada componente.
 
-Salaries in businesses are usually dealt with extreme privacy. In most cases, the companies issues a single payment to the bank combining all salaries and the bank distributes the salaries to each employee’s salary account. This way there is only one payment entry in the company’s books of accounts and anyone with access to the company’s accounts will not have access to the individual salaries.
 
-
-The salary payment entry is a Journal Entry that debits the total of the earning type salary component and credits the total of deduction type salary component of all Employees to the default account set at Salary Component level for each component.
-
-
-To generate your salary payment voucher from Payroll Entry, click on-
-> Make > Bank Entry
+Para gerar seu comprovante de pagamento de salário a partir do Lançamento da Folha de Pagamento, clique em-
+> Fazer > Lançamento Bancário
 
 
 ![Payroll Make Entry](/files/payroll-make-bank-entry.png)
 
 
-Payroll Entry will route you to Journal Entry with relevant filters to view the draft Journal Vouchers created. You shall set reference number and date for the transactions and Submit the Journal Entries.
+O lançamento da folha de pagamento encaminhará você para o lançamento contábil manual com filtros relevantes para visualizar os rascunhos de comprovantes contábeis criados. Você deve definir o número de referência e a data das transações e enviar os lançamentos contábeis manuais.
 
 
->Note: For Salary Components which are Flexible Benefits and has *Create Separate Payment Entry Against Benefit Claim* checked, Frappe HR will book separate draft Journal Entries.
+>Observação: para componentes salariais que são benefícios flexíveis e têm a opção *Criar entrada de pagamento separada contra reivindicação de benefício* marcada, o Frappe HR reservará lançamentos contábeis manuais separados.
 
 
-![Payroll Entry](/files/payroll-journal-entry.png)
+![Entrada da folha de pagamento](/files/payroll-journal-entry.png)
 
 
-## Creating Salary Slips Manually
+## Criando recibos de salário manualmente
 
 
-Once the Salary Structure is created and assigned to employees via Salary Structure Assignment, you can make a Salary Slip individually. Go to:
+Depois que a Estrutura Salarial for criada e atribuída aos funcionários via Atribuição de Estrutura Salarial, você poderá fazer um Comprovante de Salário individualmente. Acesse:
 
 
-> Human Resources > Payroll > Salary Slip > New Salary Slip
+> Recursos Humanos > Folha de Pagamento > Comprovante de Salário > Novo Comprovante de Salário
 
 
-#### Salary Slip
+#### Recibo de salário
 
 
-![Salary Slip](/files/salary-slip.png)
-
+![Recibo de salário](/files/salary-slip.png)
 
 
 

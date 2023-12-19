@@ -2,7 +2,7 @@
 
 
 
-**As Configurações de Educação permitirão que você faça uma configuração batica para o seu Instituto, onde você pode definir o Ano Acadêmico, o Período Acadêmico e outros padrões para sua conta ERPNext.**
+**As Configurações de Educação permitirão que você faça uma configuração básica para o seu Instituto, onde você pode definir o Ano Acadêmico, o Período Acadêmico e outros padrões para sua conta ERPNext.**
 
 
 Essas definições de configuração terão impacto em todo o módulo.

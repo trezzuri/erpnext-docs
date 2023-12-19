@@ -162,8 +162,6 @@ Stock Ledger would look as shown below:
 
 
 
-
-
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Posting Date** | **Qty** | **Balance Qty** | **Voucher Type** |

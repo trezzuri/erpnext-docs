@@ -2,7 +2,7 @@
 
 
 
-**Uma variante de item é uma versão de um item com atributos diferentes, como tamanhos ou cores.**
+**Uma variante de item é uma versão de um item com diferentes atributos, como tamanhos ou cores.**
 
 
 Ex: suponha que uma camiseta seja um item e venha em diferentes tamanhos e cores, como pequeno, médio, grande e vermelho, azul, verde. No ERPNext a camiseta será considerada como um modelo de Item e cada uma das variações será uma Variante de Item.

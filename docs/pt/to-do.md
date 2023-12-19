@@ -28,7 +28,7 @@ Para acessar o ToDo, vá para
 ## 1. Como criar uma tarefa
 
 
-1. Vá para a lista de tarefas e clique em novo.
+1. Vá para a lista de tarefas pendentes e clique em novo.
 2. Você será redirecionado para uma entrada rápida para ToDo, onde será solicitado que você insira a descrição do ToDo.
 3. Salvar.
 
@@ -59,7 +59,7 @@ Depois que um ToDo for criado, o usuário designado receberá uma notificação 
 1. **Status**: Você pode definir o status do ToDo. Durante a criação, o status do ToDo seria 'Aberto' por padrão. O usuário pode alterá-lo para 'Fechado' quando a tarefa for concluída.
 2. **Prioridade**: Você pode definir a Prioridade desta tarefa como Baixa, Média ou Alta.
 3. **Cor**: você pode optar por atribuir uma cor a cada uma de suas tarefas. Por exemplo, um ToDo criado como um lembrete semanal para envio de relatórios pode receber a cor roxa, enquanto todos os ToDos pessoais podem receber a cor amarela.
-4. **Data de vencimento**: você pode adicionar a data de vencimento a todas as tarefas.
+4. **Data de Vencimento**: você pode adicionar a Data de Vencimento a todas as tarefas.
 5. **Alocado para**: Nos casos em que você está atribuindo um ToDo a outro usuário do ERPNext, você pode fazê-lo aqui.
 
 

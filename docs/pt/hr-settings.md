@@ -10,7 +10,7 @@ Existem várias configurações disponíveis nas Configurações de RH.
 
 ## 1. Configurações do funcionário
 
-![Experiência profissional anterior](/files/hr-settings1.png)
+![Experiência profissional anterior](/files/hr-settings1.png)![]()
 
 ### 1.1. Idade de aposentadoria:
 
@@ -34,15 +34,16 @@ No documento de relatório de despesas, o campo 'Aprovador de despesas' é defin
 
 > As configurações da folha de pagamento farão parte das configurações de RH até a versão 12. Na versão 13, as configurações da folha de pagamento farão parte do novo módulo, Folha de pagamento.
 
-## 2. Configurações da folha de pagamento
+## 2. Configurações de folha de pagamento
 
-![Experiência profissional anterior](/files/hr-settings2.png)
+![Experiência profissional anterior](/files/hr-settings2.png)![]()  
 
-#### 2.1 Calcular dias úteis da folha de pagamento com base Nos
 
-Dias Úteis no Comprovante de Salário podem ser calculados com base no Pedido de Licença ou nos registros de Presença. Você pode selecionar a opção com base no que deseja calcular os dias úteis.
+### 2.1 Calcular dias úteis da folha de pagamento com base em
 
-#### 2.2 Máximo de horas de trabalho em relação ao quadro de horários
+dias úteis no comprovante de salário podem ser calculado com base no pedido de licença ou nos registros de presença. Você pode selecionar a opção com base no que deseja calcular os dias úteis.
+
+### 2.2 Máximo de horas de trabalho em relação ao quadro de horários
 
 Para comprovantes de salário baseados no quadro de horários, você pode definir o máximo de horas permitidas contra um único quadro de horários. Defina este valor como zero para desabilitar esta validação.
 
@@ -77,59 +78,71 @@ Aqui está um exemplo sobre como definir uma Política de Senha para o PDF do co
 
 ```
 SAL-{first_name}-{date_of_birth.year}
+  
 
 ```
 Isso gerará uma senha como SAL-Jane-1972
 
-## 3. Configurações de saída
+## **3. Configurações de mudança**
 
-![Experiência de trabalho anterior](/files/hr-settings3.png)
+**![](https://lh7-us.googleusercontent.com/A9IyXp8Eyjcnl4aVb164XrJ-bE-senEbgybURCe9zXcvMAKbzj-wXdCNPNgBc8xyWvpCBDQrXnHfMv5827Q6nFb2tEj-zwLnYtsuSpuaTbyKdqFOhenGoOsqQRydhWMbIalDoshnR1Lh)![]()**  
 
-### 3.1 Modelo de notificação de aprovação de saída
 
-Ao criar ou atualizar um pedido de licença com um aprovador de licença, um e-mail é enviado a esse aprovador de licença notificando sobre o novo pedido de licença. O modelo de e-mail utilizado para este fim pode ser selecionado aqui.
+###  **3.1 Permitir múltiplas atribuições de turno para a mesma data**
 
-### 3.2 Modelo de notificação de status de licença
+Ativar esta opção permite que o usuário crie atribuições de turno para um funcionário com atribuições pré-existentes em qualquer uma das datas dentro do intervalo selecionado e vice-versa. 
 
-Ao enviar/cancelar um pedido de licença, o funcionário recebe um e-mail com o status atualizado de seu pedido de licença. O modelo de e-mail usado para essa finalidade pode ser selecionado aqui.
+## 4. Sair das configurações
 
-### 3.3 Aprovador de licença obrigatório no pedido de licença
+![Experiência de trabalho anterior](/files/hr-settings3.png)![]()  
+
+
+### 4.1 Modelo de notificação de aprovação de licença
+
+Ao criar ou atualizar um pedido de licença com um aprovador de licença, um e-mail será enviado a esse aprovador de licença notificando sobre o novo pedido de licença. O modelo de e-mail utilizado para este fim pode ser selecionado aqui.
+
+### 4.2 Modelo de notificação de status de licença
+
+No envio/cancelamento de um pedido de licença, o funcionário recebe um e-mail com o status atualizado de seu pedido de licença. O modelo de e-mail usado para essa finalidade pode ser selecionado aqui.
+
+### 4.3 Aprovador de licença obrigatório no pedido de licença
 
 No documento de solicitação de licença, o campo 'Aprovador de licença' é definido como obrigatório ao verificar isso. opção.
 
-### 3.4 Mostrar licenças de todos os membros do departamento no calendário
+### 4.4 Mostrar licenças de todos os membros do departamento no calendário
 
 As licenças aprovadas de todos os funcionários do mesmo departamento são mostradas na visualização do calendário ao marcar esta opção.
 
- ### 3.5 Reembolso automático de licenças
+ ### 4.5 Reembolso automático de licenças
 
-Se marcado, o sistema gera um rascunho de registro de Resgate de licenças no vencimento da alocação de licenças para todos os tipos de licenças recuperáveis.
+Se marcado, o sistema gera um registro preliminar de Resgate de licenças no vencimento da alocação de licenças para todos os tipos de licenças recuperáveis.
 
-### 3.6 Restringir solicitação de licença retroativa
+### 4.6 Restringir solicitação de licença retroativa
 
 Se marcada, o sistema não permitirá fazer um pedido de licença retroativo.
 
 > Introduzido na versão 13
 
-### 3.7 Alocação automática de licenças com base na política de licenças
+### 4.7 Alocação automática de licenças com base na política de licenças
 
 Se marcado, as licenças serão concedidas aos funcionários automaticamente com base na data de vigência a partir de acordo com a presente Atribuição de Política de Licenças.
 
-## 4. Configurações de contratação
+## 5. Configurações de contratação
 
-![image](https://user-images.githubusercontent.com/24353136/135511758-4300b29e-78c2-4492-a6a7-d75d0632fd5a.png)
+![image](https://user-images.githubusercontent.com/24353136/135511758-4300b29e-78c2-4492-a6a7-d75d0632fd5a.png)![]()  
 
-### 4.1 Verificar Vagas na Criação de Oferta de Emprego
 
-Na criação de uma oferta de emprego para um determinado cargo, as vagas presentes no plano de pessoal daquele cargo são verificadas para alertar evitar que o usuário contrate excessivamente para uma posição específica.
+### 5.1 Verificar vagas Na criação de ofertas de emprego
 
-### 4.2 Enviar lembrete de entrevista
+Na criação de uma oferta de emprego para um determinado cargo, as vagas presentes no plano de pessoal desse cargo são verificadas para alertar o usuário sobre contratações excessivas para um determinado cargo.
 
-Ativar esta opção enviará um e-mail de lembrete a todos os entrevistadores associados à rodada de entrevistas de uma próxima entrevista. Este e-mail será agendado de acordo com o campo Lembrar antes definido pelo usuário.
+ ### 5.2 Enviar lembrete de entrevista
 
-### 4.2 Enviar lembrete de feedback da entrevista
+Ativar esta opção enviará um e-mail de lembrete a todos os entrevistadores associados à rodada de entrevista de uma entrevista futura. Este e-mail será agendado de acordo com o campo Lembrar antes definido pelo usuário.
 
-A ativação desta opção acionará e-mails de lembrete a serem enviados aos entrevistadores associados. com uma rodada de entrevistas conduzida, mas ainda não enviou seu feedback.
+### 5.2 Enviar lembrete de feedback da entrevista
+
+Ativar esta opção acionará e-mails de lembrete a serem enviados aos entrevistadores associados. com uma rodada de entrevistas conduzida, mas ainda não enviou seu feedback.
 
 
 

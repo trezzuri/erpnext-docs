@@ -2,7 +2,7 @@
 
 
 
-**O Seguro Saúde do Colaborador é um benefício estendido pela empresa aos seus colaboradores. Quando uma empresa oferece assistência de seguro saúde, ela paga prêmios totais ou parciais pela apólice de seguro saúde.**
+**O Seguro Saúde do Colaborador é um benefício estendido pela empresa aos seus colaboradores. Quando uma empresa fornece assistência de seguro saúde, ela paga prêmios totais ou parciais pela apólice de seguro saúde.**
 
 O Frappe HR permite que você salve os detalhes do Seguro Saúde do Funcionário e vincule-os ao cadastro desse Funcionário específico. .
 

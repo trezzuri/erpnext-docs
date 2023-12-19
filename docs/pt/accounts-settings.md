@@ -98,7 +98,7 @@ Se marcada, as Contas de Desconto poderão ser adicionadas na tabela de Itens da
 ### 2. Adicionar automaticamente impostos e cobranças do modelo de imposto de item
 
 
-Ativar esta opção preencherá a tabela Impostos nas transações se um [Modelo de imposto de item](/docs/pt/accounts/item-tax-template) estiver definido para um Item e esse Item é selecionado na transação.
+Ativar esta opção preencherá a tabela Impostos nas transações se um [Modelo de imposto de item](/docs/pt/accounts/item-tax-template) estiver definido para um Item e esse item é selecionado na transação.
 
 
 ### 3. Reservar prejuízo fiscal com desconto por pagamento antecipado
@@ -128,7 +128,7 @@ Os usuários com esta função têm permissão para definir contas congeladas e 
 ## Configurações de contabilidade diferida
 
 
-![Configurações de contabilidade diferida](/files/Configurações de contabilidade diferida .png)
+![Configurações de contabilidade diferida](/files/Configurações de contabilidade diferida.png)
 
 
 ### 1. Reservar entradas diferidas com base em
@@ -176,7 +176,7 @@ A tabela Cronograma de pagamento é visível usando [Termos de pagamento](/docs/
 ## Configurações de câmbio
 
 
-![Configurações do Câmbio](/files/Configurações do Câmbio .png)
+![Configurações do Câmbio](/files/Configurações do Câmbio.png)
 
 
 ### 1. Permitir taxas de câmbio obsoletas

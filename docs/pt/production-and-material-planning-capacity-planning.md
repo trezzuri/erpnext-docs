@@ -59,7 +59,7 @@ Na Estação de Trabalho o usuário pode definir a 'Capacidade de Produção'. E
 O sistema criará automaticamente o Cartão de Trabalho com cronometragem para cada operação com base no tempo necessário para concluir essa operação e na disponibilidade da estação de trabalho. O usuário deve definir a data de início planejada e com base no tempo de operação, o sistema calcula a data de término planejada.
 
 
-![Ordem de serviço](/files/job_card_timing.png)
+![Ordem de trabalho](/files/job_card_timing.png)
 
 
 ### 2.4 Data de início e data de término planejadas da ordem de serviço

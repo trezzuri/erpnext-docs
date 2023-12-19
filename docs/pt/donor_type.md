@@ -5,7 +5,7 @@
 O tipo de documento Donor Type permite criar diferentes perfis de doador para o doador.
 
 
-Os tipos de doadores são um alicerce batico para o gerenciamento de doadores e contribuições. Normalmente, uma organização configurará um tipo de doador para cada uma das diferentes doações que oferece. Por exemplo, uma organização pode definir três tipos de doação para doadores 'regulares', 'Organização' e 'honorários'.
+Os tipos de doadores são um alicerce básico para o gerenciamento de doadores e contribuições. Normalmente, uma organização configurará um tipo de doador para cada uma das diferentes doações que oferece. Por exemplo, uma organização pode definir três tipos de doação para doadores 'regulares', 'Organização' e 'honorários'.
 
 
 Neste capítulo, abordaremos a configuração mais comum para os tipos de doadores.

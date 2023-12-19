@@ -29,7 +29,7 @@ Antes de criar e usar uma Declaração de Venda, é aconselhável que você crie
 
 
 ![Devolução contra nota de entrega](/files/sales-return-against-delivery-note.png)
-3. Você também pode criar o lançamento de devolução em relação à fatura de venda original. Para devolver o estoque junto com a nota de crédito, marque a opção "Atualizar estoque" na fatura de devolução de venda.
+3. Você também pode criar a entrada de devolução em relação à fatura de venda original. Para devolver o estoque junto com a nota de crédito, marque a opção "Atualizar estoque" na fatura de devolução de venda.
 
 
 ![Devolução contra fatura de vendas](/files/sales-return-against-sales-invoice.png)

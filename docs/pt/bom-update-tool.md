@@ -5,7 +5,7 @@
 **Na ferramenta de atualização de BOM, você pode substituir uma BOM de submontagem e atualizar os custos de todas as BOMs principais.**
 
 
-Usando este utilitário, você pode substituir uma BOM existente de um item de submontagem que esteja vinculado a uma BOM pai. O sistema atualizará a nova BOM em todas as BOMs pai onde ela foi usada. Você precisa criar uma nova BOM primeiro.
+Usando este utilitário, você pode substituir uma BOM existente de um item de submontagem que está vinculado a uma BOM pai. O sistema atualizará a nova BOM em todas as BOMs pai onde ela foi usada. Você precisa criar uma nova BOM primeiro.
 
 
 Para usar a ferramenta de atualização de BOM, acesse:

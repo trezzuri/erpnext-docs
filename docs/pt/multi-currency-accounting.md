@@ -47,7 +47,7 @@ Para Cliente/Fornecedor (Parte), você também pode definir sua moeda de faturam
 Depois de definir a Moeda nas contas necessárias e selecionar as contas relevantes no registro da Parte, você estará pronto para fazer transações com elas. Se a moeda da conta da parte for diferente da moeda da Empresa, o sistema restringirá a realização de transações com essa parte.
 
 
-Você precisa alterar a moeda para a moeda da parte na transação (Venda ou Ordem de Compra/Fatura). Se a moeda da conta da parte for igual à moeda da empresa, você poderá fazer transações para essa Parte em qualquer moeda. Mas os lançamentos contábeis (Lançamentos GL) serão sempre na moeda da conta do partido.
+Você precisa alterar a moeda para a moeda da parte na transação (Venda ou Ordem de Compra/Fatura). Se a moeda da conta da parte for igual à moeda da empresa, você poderá fazer transações para essa parte em qualquer moeda. Mas os lançamentos contábeis (Lançamentos GL) serão sempre na moeda da conta do partido.
 
 
 

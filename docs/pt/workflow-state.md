@@ -5,7 +5,7 @@
 **Um estado de fluxo de trabalho é um estado no fluxo de trabalho que você cria.**
 
 
-Diferentes estados de fluxo de trabalho podem ser alcançados antes ou depois da aplicação de diferentes ações de fluxo de trabalho neles. Se você deseja criar um fluxo de trabalho onde haja várias aprovações do gerente, gerente sênior, gerente geral, etc., você pode definir os estados para ele em Estados do fluxo de trabalho.
+Diferentes estados de fluxo de trabalho podem ser alcançados antes ou depois da aplicação de diferentes ações de fluxo de trabalho neles. Se você deseja criar um fluxo de trabalho onde há várias aprovações do gerente, gerente sênior, gerente geral, etc., você pode definir os estados para ele em Estados do fluxo de trabalho.
 
 
 Por padrão, os seguintes estados de fluxo de trabalho são criados no ERPNext:

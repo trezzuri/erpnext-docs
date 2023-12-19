@@ -15,7 +15,7 @@ aproveitar a isenção de seus rendimentos tributáveis, os indivíduos são obr
 O Frappe HR permite configurar Lajes de Imposto de Renda e o imposto é calculado com base na projeção de rendimento anual do funcionário. Para isso, os funcionários são obrigados a declarar o valor da isenção que pretendem reivindicar no início do exercício, para que as deduções fiscais na folha de pagamento sejam calculadas com base no rendimento anual projetado menos a isenção. Os funcionários podem declarar isso por meio da [Declaração de isenção fiscal do funcionário](/docs/pt/human-resources/employee-tax-exemption-declaration).
 
 
-Se não for apresentada nenhuma declaração pelo trabalhador, as deduções mensais serão calculadas sem qualquer isenção do rendimento anual do trabalhador. Porém, caso o empregado apresente a declaração entre o período da folha de pagamento, a isenção do imposto será aplicada a partir da próxima folha de pagamento. Qualquer imposto adicional cobrado em folhas de pagamento anteriores será ajustado na última folha de pagamento ou ao usar *Dedução de imposto para comprovante de isenção fiscal não enviado* no lançamento da folha de pagamento ou no comprovante de salário.
+Se não for apresentada nenhuma declaração pelo trabalhador, as deduções mensais serão calculadas sem qualquer isenção da remuneração anual do trabalhador. Porém, caso o empregado apresente a declaração entre o período da folha de pagamento, a isenção do imposto será aplicada a partir da próxima folha de pagamento. Qualquer imposto adicional cobrado em folhas de pagamento anteriores será ajustado na última folha de pagamento ou ao usar *Dedução de imposto para comprovante de isenção fiscal não enviado* no lançamento da folha de pagamento ou no comprovante de salário.
 
 
 Além disso, no final do ano, os funcionários enviam o comprovante real dos gastos para arquivamento via [Envio de comprovante de isenção fiscal de funcionário](/docs/pt/human-resources/employee-tax-exemption-proof-submit). Na última folha de pagamento do Período Consignado, o Frappe RH verifica o envio de comprovantes dos funcionários e, caso não seja encontrado, o imposto referente à renda isenta será adicionado ao componente de dedução padrão.
@@ -59,7 +59,7 @@ Para o ano fiscal de 2018-19, na Índia, a isenção do subsídio de aluguel de 
 Como parte da Declaração de Isenção Fiscal do Funcionário, os funcionários também deverão preencher a Isenção HRA. A Frappe HR calculará a isenção elegível para HRA e a isentará no cálculo do lucro tributável.
 
 
-> Observação: Os componentes do salário batico e do HRA devem ser configurados na Empresa para que a isenção do HRA funcione
+> Observação: Os componentes do salário básico e do HRA devem ser configurados na Empresa para que a isenção do HRA funcione.
 
 
 ### Opções de lançamento de folha de pagamento e recibo de salário
@@ -74,10 +74,10 @@ O Frappe HR simplifica o processamento da folha de pagamento processando automat
 Se você deseja recolher impostos sobre benefícios antes da última folha de pagamento, marque esta opção e o Frappe HR recalculará o imposto e adicionará o imposto para todos os benefícios não tributados ao gerar o Comprovante de Salário.
 
 
-* Deduzir imposto para comprovante de isenção fiscal não enviado: esta opção permite deduzir impostos sobre os rendimentos que foram isentos em folhas de pagamento anteriores, conforme declarado em [Declaração de isenção fiscal do funcionário](/docs/pt/human-resources/Employee-tax-exemption-declaration), mas o funcionário não enviou provas suficientes via [Envio de comprovante de isenção fiscal de funcionário](/docs/pt/human-resources/employee-tax-isenção-prova-submissão). Deve-se observar que se esta opção for marcada, o Frappe HR não considera a Declaração de Isenção de Imposto de Funcionário dos funcionários e levará apenas em consideração o *Envio de Comprovante de Isenção de Imposto de Funcionário* ao calcular a isenção dos rendimentos anuais dos funcionários. .
+* Deduzir imposto para comprovante de isenção fiscal não enviado: esta opção permite deduzir impostos sobre os rendimentos que foram isentos em folhas de pagamento anteriores, conforme declarado em [Declaração de isenção fiscal do funcionário](/docs/pt/human-resources/Employee-tax-exemption-declaration), mas o funcionário não enviou provas suficientes via [Envio de prova de isenção fiscal de funcionário](/docs/pt/human-resources/employee-tax-isenção-prova-submissão). Deve-se observar que se esta opção for marcada, o Frappe HR não considera a Declaração de Isenção de Imposto de Funcionário dos funcionários e levará apenas em consideração o *Envio de Comprovante de Isenção de Imposto de Funcionário* ao calcular a isenção dos rendimentos anuais dos funcionários. .
 
 
-> Observação: se necessário, você ainda pode processar a folha de pagamento dos funcionários individualmente, criando manualmente um novo Comprovante de Salário e ambas as opções ficam disponíveis no Comprovante de Salário
+> Nota: Se necessário, você ainda pode processar a folha de pagamento dos funcionários individualmente, criando manualmente um novo Comprovante de Salário e ambas as opções são disponibilizadas no Comprovante de Salário
 
 
 # Laje de Imposto de Renda
@@ -89,7 +89,7 @@ A [Laje de Imposto de Renda](/docs/pt/human-resources/income-tax-slab) ajuda a d
 # Componente Salarial
 
 
-Para habilitar a dedução fiscal automática com base nas lajes fiscais configuradas na Laje do Imposto de Renda, é necessário configurar um Componente Salarial do tipo *Dedução* com a opção *Variável Baseada no Salário Tributável* habilitada . Esta caixa de seleção permite o cálculo automático do Imposto de Renda considerando as lajes fiscais e a declaração apresentada pelo funcionário. O imposto será calculado anualmente sobre o salário tributável restante e dividido igualmente em 12 meses.
+Para habilitar a dedução fiscal automática com base nas lajes fiscais configuradas na Laje do Imposto de Renda, é necessário configurar um Componente Salarial do tipo *Dedução* com a opção *Variável Baseada no Salário Tributável* habilitada . Este checkbox permite o cálculo automático do Imposto de Renda considerando as lajes fiscais e a declaração apresentada pelo funcionário. O imposto será calculado anualmente sobre o salário tributável restante e dividido igualmente em 12 meses.
 
 
 >**Observação Importante:** Se você configurar condição e fórmula para este componente de Dedução, a condição e fórmula serão consideradas para cálculo do Componente Salarial e as Lajes Fiscais configuradas na Laje Imposto de Renda serão ignoradas. No entanto, você ainda pode usar a opção *Deduzir Imposto por Comprovante de Isenção de Imposto Não Submetido* em Lançamento de Folha de Pagamento/Recibo de Salário para deduzir impostos com base nas Lajes Fiscais configuradas na Laje de Imposto de Renda, isentando [Envio de prova de isenção fiscal de funcionário](/docs/pt/human-resources/employee-tax-exemption-proof-submission) que dará precedência à dedução fiscal baseada na Laje Fiscal.

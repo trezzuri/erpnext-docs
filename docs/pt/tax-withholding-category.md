@@ -5,7 +5,7 @@
 **A categoria de retenção de imposto é deduzida na fonte.**
 
 
-De acordo com isso, a pessoa responsável por efetuar os pagamentos é obrigada a deduzir o imposto na fonte de acordo com as taxas prescritas. Em vez de receber de você o imposto sobre sua renda posteriormente, o governo deseja que os pagadores deduzam o imposto antecipadamente e o depositem no governo.
+De acordo com isso, a pessoa responsável por efetuar os pagamentos é obrigada a deduzir o imposto na fonte de acordo com as taxas prescritas. Em vez de receber de você o imposto sobre sua renda posteriormente, o governo quer que os pagadores deduzam o imposto antecipadamente e o depositem no governo.
 
 
 Para acessar a lista de categorias de retenção de impostos, acesse:
@@ -69,7 +69,7 @@ Considere um fornecedor ao qual é aplicada uma categoria de retenção de impos
 Por exemplo, digamos que uma taxa de 5% será aplicável à fatura em que o limite único seja 20.000 e o limite cumulativo seja 30.000. Se uma fatura for criada com um total geral de 20.000, o limite único será acionado e um imposto de 5% será cobrado.
 
 
-Mas se o valor da fatura totalizar 15.000, nenhum imposto será cobrado, pois não ultrapassou o limite. Se novamente for criada outra fatura contra o mesmo fornecedor com um total de 15.000, embora não tenha ultrapassado o limite Único, os encargos serão deduzidos desde a soma da última fatura e esta fatura soma 30.000, o que é igual ao Limite cumulativo especificado.
+Mas se o valor da fatura totalizar 15.000, nenhum imposto será cobrado, pois não ultrapassou o limite. Se novamente outra fatura for criada contra o mesmo fornecedor com um total de 15.000, embora não tenha ultrapassado o limite Único, os encargos serão deduzidos desde a soma da última fatura e esta fatura soma 30.000, o que é igual ao Limite cumulativo especificado.
 
 
 ## 3. Usando retenção de impostos
@@ -78,7 +78,7 @@ Mas se o valor da fatura totalizar 15.000, nenhum imposto será cobrado, pois n�
 ### 3.1 Uso na fatura de compra
 
 
-No exemplo a seguir, selecionamos 'TDS-194C-Individual' que tem um limite único de 30.000, limite cumulativo de 1.00.000 e taxa de 1%.
+No exemplo a seguir, selecionamos 'TDS-194C-Individual', que tem um limite único de 30.000, limite cumulativo de 1.00.000 e taxa de 1%.
 
 
 1. Se o **Fornecedor** tiver o campo de retenção de imposto definido, ao selecionar esse Fornecedor, uma caixa de seleção ficará visível na fatura de compra para selecionar se deseja aplicar imposto ou não.
@@ -178,7 +178,7 @@ Como a fatura ultrapassa o limite cumulativo (50 Lakhs), vemos que o imposto foi
 
 
 1. **Considere o valor total do razão da parte**: Em muitas situações, o limite deve ser calculado sobre o valor total do razão da parte, em vez da soma do total líquido de faturas específicas. Ao ativar esta verificação, o limite cumulativo será verificado em relação à soma do total geral de todas as faturas de um fornecedor/cliente específico.
-2. **Deduzir apenas imposto sobre valor excedente**: Ao ativar este imposto será deduzido apenas sobre o valor que exceder o limite e não o valor total. Por exemplo, se o limite cumulativo for 50.000 e se o valor acumulado for até 52.000, o imposto será aplicado apenas sobre 2.000 e não sobre todos os 52.000.
+2. **Deduzir apenas o imposto sobre o valor excedente**: Ao ativar este imposto será deduzido apenas sobre o valor que exceder o limite e não o valor total. Por exemplo, se o limite cumulativo for 50.000 e se o valor acumulado for até 52.000, o imposto será aplicado apenas sobre 2.000 e não sobre todos os 52.000.
 3. **Arredondar valor do imposto**: ativar esta verificação arredondará o valor do imposto calculado para o valor inteiro mais próximo (método de arredondamento normal)
 
 

@@ -71,7 +71,7 @@ Para criar um novo modelo de integração de funcionários:
 1. Acesse: Recursos Humanos > Ciclo de Vida do Funcionário > Modelo de integração de funcionários > Novo.
 2. Insira o departamento, a designação e a categoria do funcionário (opcional).
 3. Mencione as atividades de integração. Para cada Atividade, você também pode mencionar o Usuário ou Função, ou uma delas, a quem esta Atividade será atribuída.
-4. Você também pode agendar as atividades de integração especificando o **Início em (dias)**, ou seja, quando a atividade deve começar e a **Duração (em dias)** para o mesmo.
+4. Você também pode agendar as atividades de integração especificando o **Início em (dias)*\*, ​​ou seja, quando a atividade deve começar e a \**Duração (em dias)** pelo mesmo.
 
 
 ![Modelo de integração](/files/onboarding-template972e99.png)

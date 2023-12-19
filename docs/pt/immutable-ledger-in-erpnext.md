@@ -41,7 +41,7 @@ Assim, os usuários não poderão mais publicar transações de ações retroati
 ![Entrada com data anterior](/files/backdated-entry603ad4.png)
 
 
-Por exemplo: suponha que uma transação de estoque tenha sido feita para o **item A** com horário de lançamento como `19-06-2020 23:00:10` então, após esta transação, você não poderá poste uma transação para o **item A** com horário de lançamento anterior a esse carimbo de data/hora.
+Por exemplo: suponha que uma transação de estoque tenha sido feita para o **Item A** com horário de lançamento como `19-06-2020 23:00:10` então, após esta transação, você não poderá poste uma transação para o **item A** com horário de lançamento anterior a esse carimbo de data/hora.
 
 
 

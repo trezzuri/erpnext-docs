@@ -78,7 +78,7 @@ Ele pode ser usado na página do carrinho de compras antes de fazer o pedido par
 1. **Válido de-até**-validade do cupom
 2. **Uso Máximo**-Limite para limitar o uso do código do cupom
 3. **Usado**-para cada pedido de vendas enviado com código de cupom , a contagem usada aumenta em 1.
-4. **Descrição do código do cupom**-pode ser usada durante a criação do modelo de e-mail para informar clientes em potencial sobre o código do cupom e informações do esquema
+4. **Descrição do código do cupom**-pode ser usado durante a criação do modelo de e-mail para informar clientes em potencial sobre o código do cupom e informações do esquema
 
 
 ![Regra de preços baseada em código de cupom](/files/coupon-code-pricing-rule.png)

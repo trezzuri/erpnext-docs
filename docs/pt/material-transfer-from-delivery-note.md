@@ -24,7 +24,7 @@ Considerando estes cenários, a disponibilização de Transferência de Material
 #### Ativar o Target Warehouse
 
 
-O tipo de documento do item da nota de entrega possui um campo oculto de Target Warehouse (anteriormente Customer Warehouse). Você pode habilitá-lo em [Configurações de estoque](/docs/pt/stock/stock-settings) ativando "Permitir transferência de material da nota de entrega e fatura de venda".
+O tipo de documento do item da nota de entrega possui um campo oculto de Target Warehouse (anteriormente Customer Warehouse). Você pode ativá-lo em [Configurações de estoque](/docs/pt/stock/stock-settings) ativando "Permitir transferência de material da nota de entrega e fatura de venda".
 Observe também que o cliente selecionado deve representar a mesma empresa. Para isso, habilite a opção ‘É Cliente Interno’ no formulário do cliente e selecione sua empresa no campo ‘Representa Empresa’.
 
 

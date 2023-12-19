@@ -32,7 +32,7 @@ Você também pode criar seus próprios formatos de impressão personalizados us
 ![Personalizar formato de impressão](/files/customize-print-format.gif)
 
 
-Para criar Formatos de Impressão Personalizados, o ERPNext vem com vários modelos pré-definidos em três estilos, nomeadamente, Moderno, Monocromático e Clatsico.
+Para criar Formatos de Impressão Personalizados, o ERPNext vem com vários modelos pré-definidos em três estilos, nomeadamente, Moderno, Monocromático e Clássico.
 
 
 Para criar suas versões, abra um modelo existente em:

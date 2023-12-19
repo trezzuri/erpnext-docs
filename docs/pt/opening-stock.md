@@ -30,7 +30,7 @@ Crie o [Lote](/docs/pt/stock/batch) e o [Serial No](/docs/pt/stock/serial-no) re
 1. Vá para **Estoque > Transações de estoque > Entrada de estoque > Novo**.
 2. Selecione 'Recebimento de material' em 'Tipo de entrada de estoque'.
 3. Selecione o armazém em 'Default Target Warehouse'.
-4. Na tabela Itens selecione Código do Item, Quantidade e Taxa Batica.
+4. Na tabela Itens selecione Código do Item, Quantidade e Taxa Básica.
 5. Para itens em lote, selecione Nº do lote.
 6. Para itens serializados, selecione Nº de série.
 7. Salvar e enviar.

@@ -1,422 +1,420 @@
-
-# Journal Entry
-
-
-
-**A Journal Entry is an entry made in the general ledger and it indicates the affected accounts.**
-
-
-A Journal Entry is a multi purpose transaction where the debit and credit accounts can be selected.
-
-
-All types of accounting entries other than Sales and Purchase transactions are made using the **Journal Entry**. A **Journal Entry** is a standard accounting transaction that affects multiple Accounts and the sum of debits is equal to the sum of credits. A Journal Entry Impacts the main ledger.
-
-
-Journal Entries can be used for entering expenses, opening entries, contra entries, bank payments, excise entries, etc. For example, booking running expenses, direct expenses like petrol/transport, sundry expenses, adjustment entries, and adjusting invoice amount.
+# Entrada no diário
 
 
 
-> 
-> Note: From version-13 onwards we have introduced immutable ledger which changes the way cancellation of accounting entries works in ERPNext. [Learn more here](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
-> 
-> 
-> 
+**Um lançamento contábil manual é um lançamento feito no razão geral e indica as contas afetadas.**
 
 
-To access the Journal Entry list, go to:
+Um lançamento contábil manual é uma transação multifuncional onde as contas de débito e crédito podem ser selecionadas.
+
+
+Todos os tipos de lançamentos contábeis, exceto transações de vendas e compras, são feitos usando o **Lançamento Diário**. Um **lançamento contábil** é uma transação contábil padrão que afeta diversas contas e a soma dos débitos é igual à soma dos créditos. Um lançamento contábil manual afeta o razão principal.
+
+
+Os lançamentos contábeis manuais podem ser usados ​​para inserir despesas, abrir lançamentos, contra-lançamentos, pagamentos bancários, lançamentos de impostos especiais de consumo, etc. Por exemplo, registrar despesas correntes, despesas diretas como gasolina/transporte, despesas diversas, lançamentos de ajuste e ajuste do valor da fatura .
 
 
 
 > 
-> Home > Accounting > General Ledger > Journal Entry
+> Nota: A partir da versão 13 introduzimos o livro razão imutável que muda a forma como o cancelamento de lançamentos contábeis funciona no ERPNext. [Saiba mais aqui](/docs/pt/accounts/articles/immutable-ledger-in-erpnext).
 > 
 > 
 > 
 
 
-## 1. How to create a Journal Entry
+Para acessar a lista de lançamentos contábeis manuais, vá para:
 
 
-1. Go to the Journal Entry list, click on New.
-2. The default Entry Type will be 'Journal Entry'. This is a general purpose entry type. Visit [section 3](/docs/pt/accounts/journal-entry#3-journal-entry-types) to know more about entry types.
-3. You can change the Posting Date.
-4. Expand the table, select an Account from which amount is debited.
-5. The above details can be added from a [Journal Entry Template](/docs/pt/accounts/journal-entry-template) too with the 'From Template' field.
-6. Select the Party Type and Party if it's a Debtor entry.
-7. Add a row where the amount will be credited.
-8. Note that, in the end, total debit and credit amounts should add up to be the same.
-9. Save and Submit.
+
+> 
+> Página inicial > Contabilidade > Razão > Lançamento contábil manual
+> 
+> 
+> 
 
 
-![Journal Entry](/files/journal-entry.png)
+## 1. Como criar um lançamento contábil manual
 
 
-**Finance Book**: You can post this entry to a specific [Finance Book](/docs/pt/accounts/finance-book). On leaving this field blank, this Journal Entry will show up in all Finance Books. This field will only be visible if 'Enable Finance Books' under the Fixed Asset Defaults section of the Company master is checked.
+1. Vá para a lista de lançamentos contábeis manuais e clique em Novo.
+2. O tipo de entrada padrão será 'Lançamento de diário'. Este é um tipo de entrada de uso geral. Visite a [seção 3](/docs/pt/accounts/journal-entry#3-journal-entry-types) para saber mais sobre os tipos de entrada.
+3. Você pode alterar a data de postagem.
+4. Expanda a tabela e selecione uma conta da qual o valor será debitado.
+5. Os detalhes acima podem ser adicionados a partir de um [Modelo de entrada de diário](/docs/pt/accounts/journal-entry-template) também com o 'Do modelo' campo.
+6. Selecione o Tipo de Parte e a Parte se for uma entrada de Devedor.
+7. Adicione uma linha onde o valor será creditado.
+8. Observe que, no final, os valores totais de débito e crédito devem ser iguais.
+9. Salvar e enviar.
 
 
-### 1.1 Quick Entry
+![Lançamento de diário](/files/journal-entry.png)
 
 
-When creating a Journal Entry, a **Quick Entry** button can be seen on the top right. This makes creating the Journal Entry a bit easier. Enter the amount, select the accounts, add a remark. This will populate the 'Accounting Entries' table with the selected details.
+**Livro Financeiro**: você pode postar esta entrada em um [Livro Financeiro](/docs/pt/accounts/finance-book) específico . Ao deixar este campo em branco, este Lançamento Contabilístico aparecerá em todos os Livros Financeiros. Este campo só estará visível se a opção 'Ativar livros financeiros' na seção Padrões de ativos fixos do cadastro da empresa estiver marcada.
 
 
-![Quick Entry](/files/quick-journal-entry.png)
+### 1.1 Entrada Rápida
 
 
-## 2. Features
+Ao criar um lançamento contábil manual, um botão de **Entrada Rápida** pode ser visto no canto superior direito. Isso torna a criação do lançamento contábil manual um pouco mais fácil. Insira o valor, selecione as contas, adicione um comentário. Isso preencherá a tabela 'Lançamentos contábeis' com os detalhes selecionados.
 
 
-### 2.1 Accounting Entries
+![Entrada rápida](/files/quick-journal-entry.png)
 
 
-1. **Accounting Dimensions**: A Project or Cost Center can be linked here to track the costing separately. To know more, [visit this page](/docs/pt/accounts/accounting-dimensions). ![Accounting Dimension](/files/journal-entry-accounting-dimension.png)
-2. **Bank Account No**: If you've added a [Bank Account](/docs/pt/accounts/bank-account), the number associated with that bank account will be fetched.
-3. **Reference Type**: If this Accounting Entry is associated with another transaction, it can be referenced here. Select the Reference Type and select the specific document. For example, if you're creating a Journal Entry against a specific Sales Invoice. Link this Journal Entry to the invoice. The “outstanding” amount of that invoice will be affected.
+## 2. Recursos
+
+
+### 2.1 Lançamentos contábeis
+
+
+1. **Dimensões Contábeis**: Um Projeto ou Centro de Custo pode ser vinculado aqui para rastrear o custo separadamente. Para saber mais, [visite esta página](/docs/pt/accounts/accounting-dimensions). ![Dimensão contábil](/files/journal-entry-accounting-dimension.png)
+2. **Número da conta bancária**: se você adicionou uma [Conta bancária](/docs/pt/accounts/bank-account), o número associado a essa conta bancária será obtido.
+3. **Tipo de Referência**: Se este Lançamento Contábil estiver associado a outra transação, ele poderá ser referenciado aqui. Selecione o Tipo de Referência e selecione o documento específico. Por exemplo, se você estiver criando um lançamento contábil manual em relação a uma fatura de vendas específica. Vincule este lançamento contábil manual à fatura. O valor “pendente” dessa fatura será afetado.
 4. ![Reference](/files/journal-entry-reference.png)
 
 
-Following are the documents that can be selected in the Journal Entry under Reference Type:
+A seguir estão os documentos que podem ser selecionados no lançamento contábil manual em Tipo de referência:
 
 
-1. [Sales Invoice](/docs/pt/accounts/sales-invoice)
-2. [Purchase Invoice](/docs/pt/accounts/purchase-invoice)
-3. Journal Entry
-4. [Sales Order](/docs/pt/selling/sales-order)
-5. [Purchase Order](/docs/pt/buying/purchase-order)
-6. [Expense Claim](/docs/pt/human-resources/expense-claim)
-7. [Asset](/docs/pt/asset/asset)
-8. [Loan](/docs/pt/loan-management/loan)
-9. [Payroll Entry](/docs/pt/human-resources/payroll-entry)
-10. [Employee Advance](/docs/pt/human-resources/employee-advance)
-11. [Exchange Rate Revaluation](/docs/pt/accounts/exchange-rate-revaluation)
-12. [Invoice Discounting](/docs/pt/accounts/invoice_discounting)
-13. **Is Advance**: If this is an advance payment by a Customer, set this option to 'Yes'. This is useful when you have linked a 'Reference Type' form to this Journal Entry. Selecting “Yes” will link this Journal Entry to the transaction selected in the 'Reference Name' field. To know more, visit the [Advance Payment Entry](/docs/pt/accounts/advance-payment-entry) page.
-14. **User Remark**: Any additional remarks about the entry can be added in this field.
+1. [Fatura de vendas](/docs/pt/accounts/sales-invoice)
+2. [Fatura de compra](/docs/pt/accounts/purchase-invoice)
+3. Lançamento do diário
+4. [Ordem de vendas](/docs/pt/selling/sales-order)
+5. [Pedido de compra](/docs/pt/buying/purchase-order)
+6. [Relatório de despesas](/docs/pt/human-resources/expense-claim)
+7. [Ativo](/docs/pt/asset/asset)
+8. [Empréstimo](/docs/pt/loan-management/loan)
+9. [Lançamento da folha de pagamento](/docs/pt/human-resources/payroll-entry)
+10. [Avanço do funcionário](/docs/pt/human-resources/employee-advance)
+11. [Reavaliação da taxa de câmbio](/docs/pt/accounts/exchange-rate-revaluation)
+12. [Desconto na fatura](/docs/pt/accounts/invoice_discounting)
+13. **É Adiantamento**: Se este for um pagamento antecipado de um Cliente, defina esta opção como 'Sim'. Isto é útil quando você vincula um formulário 'Tipo de referência' a este lançamento contábil manual. Selecionar “Sim” vinculará este lançamento contábil manual à transação selecionada no campo 'Nome de referência'. Para saber mais, visite a página [Entrada de pagamento antecipado](/docs/pt/accounts/advance-payment-entry).
+14. **Observação do usuário**: quaisquer comentários adicionais sobre a entrada podem ser adicionados neste campo.
 
 
-### 2.2 Reverse Journal Entry
+### 2.2 Lançamento reverso no diário
 
 
-In any submitted Journal Entry, there is a dedicated button to reverse the Journal Entry. On clicking the 'Reverse Journal Entry' button, the system creates a new Journal Entry by reversing debit and credit amount against the respective accounts.
+Em qualquer Lançamento Contábil enviado, há um botão dedicado para reverter o Lançamento Contábil. Ao clicar no botão 'Reverter lançamento contábil manual', o sistema cria um novo lançamento contábil revertendo o valor do débito e do crédito nas respectivas contas.
 
 
 ![Reverse Journal Entry](/files/reverse-journal-entry.png)
 
 
-### 2.3 Difference Entry
+### 2.3 Entrada de diferença
 
 
-The “Difference” is the difference that remains after summing all debit and credit amounts.
+A “Diferença” é a diferença que resta após a soma de todos os valores de débito e crédito.
 
 
-As per double entry accounting system, the total debit should be equal to the total credit.
+De acordo com o sistema de contabilidade de partidas dobradas, o débito total deve ser igual ao crédito total.
 
 
-This should be zero if the Journal Entry is to be “Submitted”. If this number is not zero, you can click on “Make Difference Entry” and the system will automatically add a new row with the amount required to make the total as zero. Select the account to debit/credit and proceed.
+Deve ser zero se o Lançamento Contábil for “Enviado”. Caso esse número não seja zero, você pode clicar em “Fazer lançamento de diferença” e o sistema adicionará automaticamente uma nova linha com o valor necessário para zerar o total. Selecione a conta para debitar/crédito e prossiga.
 
 
 ![Make Difference](/files/journal-entry-make-difference-entry.png)
 
 
-### 2.4 Referencing
+### 2.4 Referenciação
 
 
-A Reference Number can be entered manually and a Reference Date can be set. On entering a Reference Number here, a 'Remark' will be seen, for example:
-
-
-
-> 
-> Note: supplier
-> 
-> 
-> 
+Um número de referência pode ser inserido manualmente e uma data de referência pode ser definida. Ao inserir um Número de Referência aqui, uma 'Observação' será vista, por exemplo:
 
 
 
 > 
-> Reference #2321 dated 30-09-2019 ₹ 1,000.00 against Sales Invoice ACC-SINV-2019-00064
+> Nota: fornecedor
 > 
 > 
 > 
 
 
-In th Reference section, the following fields can be entered manually if the bill was recorded offline and not in the ERPNext system. This is only for reference purposes.
-
-
-1. Bill No
-2. Bill Date
-3. Due Date
-
-
-### 2.5 Multi Currency entries
-
-
-If the accounts selected are in different currencies, tick the 'Multi Currency' checkbox. If this checkbox is not enabled, you will not be able to select any foreign currencies in the Journal Entry. This will show the different currency and fetch the 'Exchange Rate'. To know more, visit the [Multi Currency Accounting](/docs/pt/accounts/multi-currency-accounting) page.
-
-
-![Multi Currency](/files/multi-currency-journal-entry.png)
-
-
-### 2.6 Journal Entry Template
-
-
-**From Template** field: Selecting an option in this will load details from a Journal Entry Template.
-
-
-It will fetch and add the following details to the entry:
-
-
-1. Entry Type
-2. Company
-3. Series
-4. Accounts in Accounting Entries
-5. Is Opening
-
-
-To learn more go to the [Journal Entry Template](/docs/pt/accounts/journal-entry-template) page.
-
-
-### 2.7 Print Settings
-
-
-![Journal Print Settings](/files/journal-entry-print-settings.png)
-
-
-**Pay To/Recd From**: The name entered here will show up in the Sales Invoice. This is useful for printing cheques. Go to the print view in the Journal Entry and select the 'Cheque Printing Format'.
-
-
-#### Letterhead
-
-
-You can print your Journal Entry on your company's letterhead. Know more [here](/docs/pt/setting-up/print/letter-head).
-
-
-#### Print Headings
-
-
-Journal Entries can also be titled differently for printing purposes. You can do this by selecting a **Print Heading**. To create new Print Headings go to:
-
-
-Home > Settings > Printing > Print Heading
-
-
-Read [Print Headings](/docs/pt/setting-up/print/print-headings) to know more.
-
-
-### 2.7 More Information
-
-
-1. **Mode of Payment**: Whether the payment was done using Wire Transfer, Bank Draft, Credit Card, Cheque, or Cash. New Modes of Payment can also be created. If a Bank Account is set in Mode of Payment, it will be fetched here when the Mode of Payment is selected.
-2. **Is Opening**: If the Journal Entry is of type 'Opening Entry' this field will be set to 'Yes'. To know more, visit the [Opening Balance](/docs/pt/accounts/opening-balance) page.
-3. **From Template**: When a template is selected, the 'Accounting Entries' table will be emptied first before loading the accounts from the template. You can add more account entries after that.
-
-
-## 3. Journal Entry Types
-
-
-Let's take a look at some of the common accounting entries that can be done via Journal Entry in ERPNext.
-
-
-### 3.1 Journal Entry
-
-
-This is a general purpose entry type which can be used for different purposes. Let's see a few examples.
-
-
-#### Expenses (non accruing)
-
-
-Many times it may not be necessary to accrue an expense, but it can be directly booked against an expense Account on payment. For example, a travel allowance or a telephone bill. You can directly debit Telephone Expense (instead of your telephone company) and credit your Bank on payment.
-
-
-1. Debit: Expense Account (like Telephone expense).
-2. Credit: Bank or Cash Account.
-
-
-#### Crediting Salaries
-
-
-For crediting employee salaries, 'Journal Entry' type is used. In this case,
-
-
-1. Debit: The salary components.
-2. Credit: The bank account.
-
-
-### 3.2 Inter Company Journal Entry
-
-
-If a transaction occurs between a parent and child company, or sister companies, or two companies belonging to the same group, this option can be used to make an Inter Company Journal Entry.
-
-
-To know more visit the [Inter Company Journal Entry](/docs/pt/accounts/inter-company-journal-entry) page.
-
-
-### 3.3 Bank Entry
-
-
-Use this type when making or receiving a payment using a [Bank Account](/docs/pt/accounts/bank-account). For example, paying for an entertainment charges etc using the Company's bank account.
-
-
-### 3.4 Cash Entry
-
-
-This is the same as 'Bank Entry' but the payment is made via Cash Account.
-
-
-### 3.5 Credit Card Entry
-
-
-This is a type of entry to easily identify all credit card entries.
-
-
-### 3.6 Debit Note
-
-
-This is a document sent by a customer (your Company) to a supplier (your Supplier) when returning goods/items.
-
-
-You can also create a Debit Note directly from a Purchase Invoice.
-
-
-"Debit Note" is made for a Supplier against a Purchase Invoice or accepted as a credit note from Supplier when a company returns goods. When a Debit Note is made, the Company can either receive a payment from the Supplier or adjust the amount in another invoice.
-
-
-1. Debit: Supplier Account.
-2. Credit: Purchase Return Account.
-
-
-To know more, [visit this page](/docs/pt/accounts/debit-note).
-
-
-### 3.7 Credit Note
-
-
-This is a document sent by a supplier to a customer when returning goods/items.
-
-
-"Credit Note" is made for a Customer against a Sales Invoice when the company needs to adjust a payment for returned goods. When a Credit Note is made, the seller can either make a payment to the customer or adjust the amount in another invoice.
-
-
-1. Debit: Sales Return Account.
-2. Credit: Customer Account.
-
-
-To know more, [visit this page](/docs/pt/accounts/credit-note).
-
-
 
 > 
-> A debit/credit note is usually issued for the value of the goods returned or lesser.
+> Referência nº 2321 datada de 30/09/2019 ₹ 1.000,00 em relação à fatura de vendas ACC-SINV-2019-00064
 > 
 > 
 > 
 
 
-### 3.8 Contra Entry
+Na seção Referência, os seguintes campos podem ser inseridos manualmente se a conta foi registrada offline e não no sistema ERPNext. Isto é apenas para fins de referência.
 
 
-A Contra Entry is booked when the transaction is booked within the same Company of types:
+1. Número da fatura
+2. Data da fatura
+3. Data de vencimento
 
 
-1. Cash to Cash
-2. Bank to Bank
-3. Cash to Bank
-4. Bank to Cash
+### 2.5 Entradas em múltiplas moedas
 
 
-This is used to record withdrawing or depositing money from a Bank Account. When this entry is used, the money does not leave the company unless it is again used to pay for something.
+Se as contas selecionadas estiverem em moedas diferentes, marque a caixa de seleção 'Multimoedas'. Se esta caixa de seleção não estiver ativada, você não poderá selecionar nenhuma moeda estrangeira no lançamento contábil manual. Isto irá mostrar a moeda diferente e obter a 'Taxa de Câmbio'. Para saber mais, visite a página [Contabilidade multimoeda](/docs/pt/accounts/multi-currency-accounting).
 
 
-### 3.9 Excise Entry
+![Multi-moeda](/files/multi-currency-journal-entry.png)
 
 
-When a Company buys goods from a Supplier, company pays excise duty on these goods to Supplier. And when a company sells these goods to Customers, it receives excise duty. Company will deduct payable excise duty and deposit balance in Govt. account.
+### 2.6 Modelo de entrada de diário
 
 
-When a Company buys goods with Excise duty:
+Campo **Do modelo**: selecionar uma opção carregará os detalhes de um modelo de lançamento contábil manual.
 
 
-1. Debit: Purchase Account, Excise Duty Account.
-2. Credit: Supplier Account.
+Ele buscará e adicionará os seguintes detalhes à entrada:
 
 
-When a Company sells goods with Excise duty:
+1. Tipo de entrada
+2. Empresa
+3. Série
+4. Contas em lançamentos contábeis
+5. Está abrindo
 
 
-1. Debit: Customer Account.
-2. Credit: Sales Account, Excise Duty Account.
+Para saber mais, acesse a página [Modelo de entrada de diário](/docs/pt/accounts/journal-entry-template).
+
+
+### 2.7 Configurações de impressão
+
+
+![Configurações de impressão do diário](/files/journal-entry-print-settings.png)
+
+
+**Pagar para/Recebido de**: O nome inserido aqui aparecerá na fatura de vendas. Isto é útil para imprimir cheques. Vá para a visualização de impressão no lançamento contábil manual e selecione o 'Formato de impressão de cheque'.
+
+
+#### Papel timbrado
+
+
+Você pode imprimir seu lançamento contábil manual em papel timbrado da sua empresa. Saiba mais [aqui](/docs/pt/setting-up/print/letter-head).
+
+
+#### Imprimir títulos
+
+
+As entradas do diário também podem ter títulos diferentes para fins de impressão. Você pode fazer isso selecionando um **Título de impressão**. Para criar novos títulos de impressão, vá para:
+
+
+Página inicial > Configurações > Impressão > Cabeçalho de impressão
+
+
+Leia [Imprimir cabeçalhos](/docs/pt/setting-up/print/print-headings) para saber mais.
+
+
+### 2.7 Mais informações
+
+
+1. **Modo de pagamento**: se o pagamento foi feito por transferência bancária, cheque bancário, cartão de crédito, cheque ou dinheiro. Novas formas de pagamento também podem ser criadas. Se uma conta bancária estiver definida como forma de pagamento, ela será obtida aqui quando a forma de pagamento for selecionada.
+2. **Está abrindo**: Se o Lançamento Contábil for do tipo 'Lançamento de Abertura' este campo será definido como 'Sim'. Para saber mais, visite a página [Saldo inicial](/docs/pt/accounts/opening-balance).
+3. **Do modelo**: quando um modelo é selecionado, a tabela 'Entradas contábeis' será esvaziada primeiro, antes de carregar as contas do modelo. Você pode adicionar mais entradas de conta depois disso.
+
+
+## 3. Tipos de lançamento contábil manual
+
+
+Vamos dar uma olhada em alguns dos lançamentos contábeis comuns que podem ser feitos através do lançamento contábil manual no ERPNext.
+
+
+### 3.1 Lançamento de diário
+
+
+Este é um tipo de entrada de uso geral que pode ser usado para diferentes propósitos. Vejamos alguns exemplos.
+
+
+#### Despesas (não acumuladas)
+
+
+Muitas vezes pode não ser necessário acumular uma despesa, mas ela pode ser contabilizada diretamente em uma conta de despesas no momento do pagamento. Por exemplo, um subsídio de viagem ou uma conta de telefone. Você pode debitar diretamente as despesas telefônicas (em vez da companhia telefônica) e creditar seu banco no momento do pagamento.
+
+
+1. Débito: conta de despesas (como despesas de telefone).
+2. Crédito: conta bancária ou em dinheiro.
+
+
+#### Crédito de salários
+
+
+Para creditar salários de funcionários, é usado o tipo 'Lançamento Diário'. Neste caso,
+
+
+1. Débito: os componentes do salário.
+2. Crédito: a conta bancária.
+
+
+### 3.2 Lançamento contábil entre empresas
+
+
+Se uma transação ocorrer entre uma empresa controladora e uma empresa filha, ou empresas irmãs, ou duas empresas pertencentes ao mesmo grupo, esta opção poderá ser usada para fazer um lançamento contábil entre empresas.
+
+
+Para saber mais, visite a página [Lançamento contábil entre empresas](/docs/pt/accounts/inter-company-journal-entry).
+
+
+### 3.3 Entrada bancária
+
+
+Use esse tipo ao efetuar ou receber um pagamento usando uma [Conta bancária](/docs/pt/accounts/bank-account). Por exemplo, pagar despesas de entretenimento, etc., usando a conta bancária da Empresa.
+
+
+### 3.4 Entrada em dinheiro
+
+
+É o mesmo que 'Entrada Bancária', mas o pagamento é feito através de Conta em Dinheiro.
+
+
+### 3.5 Entrada de cartão de crédito
+
+
+Este é um tipo de entrada para identificar facilmente todas as entradas de cartão de crédito.
+
+
+### 3.6 Nota de Débito
+
+
+Este é um documento enviado por um cliente (sua Empresa) a um fornecedor (seu Fornecedor) ao devolver mercadorias/itens.
+
+
+Você também pode criar uma nota de débito diretamente de uma fatura de compra.
+
+
+A "Nota de Débito" é feita para um Fornecedor contra uma Fatura de Compra ou aceita como uma nota de crédito do Fornecedor quando uma empresa devolve mercadorias. Quando uma Nota de Débito é emitida, a Empresa pode receber um pagamento do Fornecedor ou ajustar o valor em outra fatura.
+
+
+1. Débito: Conta do Fornecedor.
+2. Crédito: conta de devolução de compra.
+
+
+Para saber mais, [visite esta página](/docs/pt/accounts/debit-note).
+
+
+### 3.7 Nota de crédito
+
+
+Este é um documento enviado por um fornecedor a um cliente ao devolver mercadorias/itens.
+
+
+A "Nota de Crédito" é emitida para um Cliente contra uma Fatura de Venda quando a empresa precisa ajustar um pagamento por mercadorias devolvidas. Quando uma Nota de Crédito é emitida, o vendedor pode efetuar um pagamento ao cliente ou ajustar o valor em outra fatura.
+
+
+1. Débito: conta de devolução de vendas.
+2. Crédito: Conta do Cliente.
+
+
+Para saber mais, [visite esta página](/docs/pt/accounts/credit-note).
 
 
 
 > 
-> Note: Applicable in India, might not be applicable for your country. Please check your country regulations.
+> Uma nota de débito/crédito geralmente é emitida pelo valor das mercadorias devolvidas ou inferior.
 > 
 > 
 > 
 
 
-### 3.10 Write Offs or Bad Debts
+### 3.8 Contraentrada
 
 
-If you are writing off an Invoice as a bad debt, you can create a Journal Voucher similar to a Payment, except instead of debiting your Bank, you can debit an Expense Account called Bad Debts.
+Uma Contra Entrada é registrada quando a transação é registrada dentro da mesma Empresa dos tipos:
 
 
-1. Debit: Bad Debts Written Off
-2. Credit: Customer
+1. Dinheiro em dinheiro
+2. De banco para banco
+3. Dinheiro para banco
+4. Banco para dinheiro
 
 
-
-> 
-> Note: There may be regulations in your country before you can write off bad debts.
-> 
-> 
-> 
+Isso é usado para registrar saques ou depósitos de dinheiro de uma conta bancária. Quando esta entrada é utilizada, o dinheiro não sai da empresa a menos que seja novamente usado para pagar alguma coisa.
 
 
-### 3.11 Opening Entry
+### 3.9 Entrada de impostos especiais de consumo
 
 
-This entry is useful when moving from an another software to ERPNext during any time of the year. Your outstanding bills, equities etc. can be recorded to ERPNext using this entry type. Selecting type will fetch the Balance Sheet accounts.
+Quando uma Empresa compra mercadorias de um Fornecedor, a empresa paga impostos especiais de consumo sobre essas mercadorias ao Fornecedor. E quando uma empresa vende estes produtos aos Clientes, recebe impostos especiais de consumo. A empresa deduzirá o imposto especial de consumo a pagar e o saldo do depósito no governo. conta.
 
 
-### 3.12 Depreciation
+Quando uma empresa compra mercadorias com impostos especiais de consumo:
 
 
-Depreciation is when you write off certain value of your assets as an expense. For example if you have a computer that you will use for say 5 years, you can distribute its expense over the period and pass a Journal Entry at the end of each year reducing its value by a certain percentage.
+1. Débito: conta de compra, conta de impostos especiais de consumo.
+2. Crédito: Conta do Fornecedor.
 
 
-1. Debit: Depreciation (Expense).
-2. Credit: Asset (the Account under which you had booked the asset to be depreciated).
+Quando uma empresa vende mercadorias com impostos especiais de consumo:
 
 
-To know more, visit the [Asset Depreciation](/docs/pt/asset/asset-depreciation) page.
+1. Débito: Conta do Cliente.
+2. Crédito: conta de vendas, conta de impostos especiais de consumo.
 
 
 
 > 
-> Note: There may be regulations in your country that define by how much amount you can depreciate a class of Assets.
+> Observação: aplicável na Índia, pode não ser aplicável em seu país. Verifique os regulamentos do seu país.
 > 
 > 
 > 
 
 
-### 3.13 Exchange Rate Revaluation
+### 3.10 Baixas ou dívidas incobráveis
 
 
-If your Chart of Accounts has accounts with multiple currencies, a Journal Entry of type 'Exchange Rate Revaluation' helps in dealing with this situation. This entry is intended to be created from an Exchange Rate Revaluation form. To know more [visit the Exchange Rate Revaluation page](/docs/pt/accounts/exchange-rate-revaluation).
+Se você estiver baixando uma fatura como uma dívida inadimplente, poderá criar um comprovante contábil semelhante a um pagamento, exceto que, em vez de debitar seu banco, você poderá debitar uma conta de despesas chamada Dívidas incobráveis.
 
 
-### 4. Related Topics
+1. Débito: dívidas incobráveis ​​anuladas
+2. Crédito: Cliente
 
 
-1. [Inter Company Journal Entry](/docs/pt/accounts/inter-company-journal-entry)
-2. [Credit Note](/docs/pt/accounts/credit-note)
-3. [Debit Note](/docs/pt/accounts/debit-note)
-4. [Sales Invoice](/docs/pt/accounts/sales-invoice)
-5. [Difference Entry Button](/docs/pt/accounts/articles/difference-entry-button)
-6. [Finance Book](/docs/pt/accounts/finance-book)
 
+> 
+> Observação: pode haver regulamentações em seu país antes que você possa amortizar dívidas incobráveis.
+> 
+> 
+> 
+
+
+### 3.11 Inscrição de Abertura
+
+
+Esta entrada é útil ao mudar de outro software para o ERPNext durante qualquer época do ano. Suas contas pendentes, ações, etc. podem ser registradas no ERPNext usando este tipo de entrada. Selecionar o tipo irá buscar as contas do Balanço Patrimonial.
+
+
+### 3.12 Depreciação
+
+
+A depreciação ocorre quando você baixa determinado valor de seus ativos como despesa. Por exemplo, se você tiver um computador que usará por, digamos, 5 anos, poderá distribuir suas despesas ao longo do período e passar um lançamento contábil manual no final de cada ano, reduzindo seu valor em uma determinada porcentagem.
+
+
+1. Débito: Depreciação (Despesa).
+2. Crédito: Ativo (a conta sob a qual você registrou o ativo a ser depreciado).
+
+
+Para saber mais, visite a página [Depreciação de ativos](/docs/pt/asset/asset-depreciation).
+
+
+
+> 
+> Observação: pode haver regulamentos em seu país que definam o valor que você pode depreciar uma classe de ativos.
+> 
+> 
+> 
+
+
+### 3.13 Reavaliação cambial
+
+
+Se o seu Plano de Contas possui contas com múltiplas moedas, um Lançamento Contábil do tipo 'Reavaliação Cambial' ajuda a lidar com esta situação. Esta entrada deve ser criada a partir de um formulário de Reavaliação da Taxa de Câmbio. Para saber mais [visite a página Reavaliação da Taxa de Câmbio](/docs/pt/accounts/exchange-rate-revaluation).
+
+
+### 4. Tópicos Relacionados
+
+
+1. [Lançamento contábil entre empresas](/docs/pt/accounts/inter-company-journal-entry)
+2. [Nota de crédito](/docs/pt/accounts/credit-note)
+3. [Nota de débito](/docs/pt/accounts/debit-note)
+4. [Fatura de vendas](/docs/pt/accounts/sales-invoice)
+5. [Botão de entrada de diferenças](/docs/pt/accounts/articles/difference-entry-button)
+6. [Livro de finanças](/docs/pt/accounts/finance-book)
 
 
 

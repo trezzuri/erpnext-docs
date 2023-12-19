@@ -23,11 +23,11 @@ Se o seu negócio envolve a terceirização de determinados processos para um fo
 
 ### 1.1 Criando uma BOM
 
-Faça uma [lista de materiais](/docs/pt/manufacturing/bill-of-materials) para o item processado, com os itens não processados ​​como sub-Unid. Vamos considerar um exemplo simples, onde você fabrica uma caneta. A caneta processada será nomeada na Lista de Materiais (BOM), enquanto a ponta, plattico, tinta, etc. serão categorizados como subitens.
+Faça uma [lista de materiais](/docs/pt/manufacturing/bill-of-materials) para o item processado, com os itens não processados ​​como sub-Unid. Vamos considerar um exemplo simples, onde você fabrica uma caneta. A caneta processada será nomeada na Lista de Materiais (BOM), enquanto a ponta, plástico, tinta, etc. serão categorizados como subitens.
 
 Esta BOM estará sem Operações se todas o trabalho de produção é feito por terceiros. Vejamos com um exemplo simples de Assembly de CPU:
 
-![bom items](/files/bom-items .png)![]()  
+![bom items](/files/bom-items.png)![]()  
 
 
 ### 1.2 Criando um pedido de compra
@@ -112,8 +112,8 @@ No entanto, o Fornecedor pode optar por incluir os itens fornecidos pelo fornece
 ## 2. Notas
 
 * Certifique-se de que a “Taxa” do Item processado seja o custo de processamento/serviço (excluindo o custo da matéria-prima).
-* O ERPNext adicionará automaticamente a taxa de matéria-prima para seu propósito de avaliação quando você receber o item acabado em seu estoque.
-* O ERPNext irá automaticamente padronizar o 'Armazém de Reserva' no Ordem de subcontratação da BOM. Se não for encontrado na BOM, o padrão será o Armazém padrão definido no Item. Você pode definir o Armazém Reserva padrão para todos os Itens no Pedido de Subcontratação no campo 'Armazém Reserva' na seção Matérias-Primas Fornecidas.
+* O ERPNext adicionará automaticamente a taxa de matéria-prima para fins de avaliação quando você receber o item acabado em seu estoque.
+* O ERPNext irá automaticamente padronizar o 'Armazém Reserva' na Ordem de Subcontratação da BOM. Se não for encontrado na BOM, o padrão será o Armazém padrão definido no Item. Você pode definir o Armazém Reserva padrão para todos os Itens no Pedido de Subcontratação no campo 'Armazém Reserva' na seção Matérias-Primas Fornecidas.
 
 ## 3. Tópicos relacionados
 

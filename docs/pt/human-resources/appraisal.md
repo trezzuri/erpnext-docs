@@ -63,11 +63,11 @@ Uma tabela KRA vs Metas ficará visível em seu documento de avaliação.
 
 
 * **KRA e ponderação**: obtidos do modelo de avaliação
-* **Conclusão da meta (%)**: a porcentagem de conclusão da sua meta será calculada automaticamente com base no **progresso** das metas vinculadas aos seus KRAs.
+* **Conclusão da meta (%)*\*: a porcentagem de conclusão da sua meta será calculada automaticamente com base no \**progresso** das metas vinculadas aos seus KRAs.
 * **Pontuação da meta (ponderada)**: com base na ponderação atribuída a cada KRA, a pontuação da meta será calculada a partir da porcentagem de conclusão. Por ex: Na imagem abaixo, o KRA de Desenvolvimento tem ponderação de 30% e o funcionário cumpriu 75% das metas. Portanto, o placar do gol é 22,5 em 30 e assim por diante.
 
 
-Você finalmente obterá uma **pontuação total de gols** (de 5) com base na **pontuação de gols (%)**.
+Você finalmente obterá uma **pontuação total de metas*\* (de 5) com base na \**pontuação de metas (%)**.
 
 
 ![kra vs gols](/files/kra-vs-goals.png)

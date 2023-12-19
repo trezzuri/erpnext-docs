@@ -101,7 +101,7 @@ Para obter dados de comissão do parceiro de vendas por item do pedido de vendas
 ### 3.3 Variação desejada do parceiro de vendas
 
 
-Este relatório fornecerá a variação entre o desempenho alvo e real do parceiro de vendas com base nos dados do pedido de vendas/fatura de vendas/nota de entrega. O usuário pode visualizar o período do relatório como mensal, trimestral, semestral ou anual.
+Este relatório fornecerá a variação entre o desempenho alvo e real do parceiro de vendas com base nos dados do pedido de venda/fatura de venda/nota de entrega. O usuário pode visualizar o período do relatório como mensal, trimestral, semestral ou anual.
 
 
 ![Sales Partner Target](/files/Screenshot 2021-09-09 at 12.02.19 PM.png)

@@ -32,7 +32,7 @@ Você pode reordenar e mostrar ou ocultar esses cartões de módulo.
 ![Arrastar e soltar](/files/drag-and-drop.gif)
 
 
-## Página do Módulo
+## Página do módulo
 
 
 Clicar em qualquer cartão de módulo o levará à página do módulo. Aqui o usuário pode navegar por todos os tipos de documentos, relatórios e configurações associados a um módulo específico.

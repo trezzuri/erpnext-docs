@@ -11,7 +11,7 @@ There are various settings available in the HR Settings.
 
 ## 1. Employee Settings
 
-![Previous Work Experience](/files/hr-settings1.png)
+![Previous Work Experience](/files/hr-settings1.png)![]()
 
 ### 1.1. Retirement Age:
 
@@ -37,13 +37,14 @@ In Expense Claim Document the 'Expense Approver' field is set to mandatory on ch
 
 ## 2. Payroll Settings
 
-![Previous Work Experience](/files/hr-settings2.png)
+![Previous Work Experience](/files/hr-settings2.png)![]()  
 
-#### 2.1 Calculate Payroll Working Days Based On
+
+### 2.1 Calculate Payroll Working Days Based On
 
 Working Days in Salary Slip can be calculated based on Leave Application or Attendance records. You can select the option based on what you want to calculate working days.
 
-#### 2.2 Max working hours against Timesheet
+### 2.2 Max working hours against Timesheet
 
 For salary slips based on the timesheet, you can set the maximum allowed hours against a single timesheet. Set this value to zero to disable this validation.
 
@@ -78,57 +79,69 @@ Here is an example of how to set a Password Policy for the salary slip PDF.
 
 ```
 SAL-{first_name}-{date_of_birth.year}
+  
 
 ```
 This will generate a password like SAL-Jane-1972
 
-## 3. Leave Settings
+## **3. Shift Settings**
 
-![Previous Work Experience](/files/hr-settings3.png)
+**![](https://lh7-us.googleusercontent.com/A9IyXp8Eyjcnl4aVb164XrJ-bE-senEbgybURCe9zXcvMAKbzj-wXdCNPNgBc8xyWvpCBDQrXnHfMv5827Q6nFb2tEj-zwLnYtsuSpuaTbyKdqFOhenGoOsqQRydhWMbIalDoshnR1Lh)![]()**  
 
-### 3.1 Leave Approval Notification Template
+
+### **3.1 Allow Multiple Shift Assignments for Same Date**
+
+Enabling this allows the user to create Shift Assignments for an employee with pre-existing Assignments on any of the dates within the selected range, and vice versa.
+
+## 4. Leave Settings
+
+![Previous Work Experience](/files/hr-settings3.png)![]()  
+
+
+### 4.1 Leave Approval Notification Template
 
 On creating or updating a leave application with a leave approver, an email is sent to this leave approver notifying about the new leave application. The email template used for this purpose can be selected here.
 
-### 3.2 Leave Status Notification Template
+### 4.2 Leave Status Notification Template
 
 On Submission/Cancellation of a leave application, the employee receives an email with the updated status of their leave application. The email template used for this purpose can be selected here.
 
-### 3.3 Leave Approver Mandatory In Leave Application
+### 4.3 Leave Approver Mandatory In Leave Application
 
 In Leave Application document the 'Leave Approver' field is set to mandatory on checking this option.
 
-### 3.4 Show Leaves Of All Department Members In Calendar
+### 4.4 Show Leaves Of All Department Members In Calendar
 
 The approved leaves of all employees in the same department are shown in the calendar view on checking this option.
 
-### 3.5 Auto Leave Encashment
+### 4.5 Auto Leave Encashment
 
 If checked, the system generates a draft Leave Encashment record on the expiry of the leave allocation for all encashable Leave Types.
 
-### 3.6 Restrict Backdated Leave Application
+### 4.6 Restrict Backdated Leave Application
 
 If checked, the system will not allow making a backdated leave application.
 
 > Introduced in version 13
 
-### 3.7 Automatic Allocate Leaves Based On Leave Policy
+### 4.7 Automatic Allocate Leaves Based On Leave Policy
 
 If checked, leaves will be granted to the employees automatically based on the Effective From date as per the present Leave Policy Assignment.
 
-## 4. Hiring Settings
+## 5. Hiring Settings
 
-![image](https://user-images.githubusercontent.com/24353136/135511758-4300b29e-78c2-4492-a6a7-d75d0632fd5a.png)
+![image](https://user-images.githubusercontent.com/24353136/135511758-4300b29e-78c2-4492-a6a7-d75d0632fd5a.png)![]()  
 
-### 4.1 Check Vacancies On Job Offer Creation
+
+### 5.1 Check Vacancies On Job Offer Creation
 
 On the creation of a job offer for a particular position, vacancies present in the staffing plan for that position are checked to warn the user from over hiring for a particular position.
 
-### 4.2 Send Interview Reminder
+### 5.2 Send Interview Reminder
 
 Enabling this will send a reminder email to all the Interviewers associated with the Interview Round of an upcoming Interview. This mail will be scheduled according to the Remind Before field set by the user.
 
-### 4.2 Send Interview Feedback Reminder
+### 5.2 Send Interview Feedback Reminder
 
 Enabling this option will trigger reminder emails to be sent to Interviewers who are associated with a conducted Interview Round but haven't yet submitted their Feedback for it.
 

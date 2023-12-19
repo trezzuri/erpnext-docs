@@ -26,7 +26,7 @@ Antes de criar uma descomprometimento de garantia de empréstimo, você deve cri
 * [Empréstimo](/docs/pt/loan-management/loan)
 
 
-## 2. Como criar uma descomprometimento de garantia de empréstimo
+## 2. Como criar um cancelamento de garantia de empréstimo
 
 
 1. Vá para a lista de cancelamento de títulos de empréstimo e clique em Novo.

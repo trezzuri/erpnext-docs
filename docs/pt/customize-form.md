@@ -65,14 +65,14 @@ Você também pode acessar a visualização de lista de qualquer tipo de documen
 
 
 * **Ocultar cópia**: esta caixa, quando marcada, restringe um usuário a criar uma 'Cópia' de um formulário específico.
-* **É Tabela**: Esta opção está disponível apenas durante a personalização dos Formulários que estão presentes nos formulários tabela do sistema. Por exemplo, se você estiver criando uma Tabela de Itens para ser adicionada a um Formulário Personalizado, você pode ativar esta opção. Confira [Tabela-filho](/docs/pt/customize-erpnext/articles/customizing-data-visibility-in-child-table) para obter mais informações.
-* **Entrada Rápida**: Marcar esta caixa permitirá que você crie uma 'Entrada Rápida' usando um formulário específico. Isso significa que sempre que um usuário criar este formulário a partir de outro formulário existente, uma caixa aparecerá que permitirá ao usuário criar o DocType inserindo apenas os detalhes baticos. Por exemplo, verifique Entrada rápida em [Entrada de diário](/docs/pt/accounts/journal-entry#11-quick-entry).
+* **É Tabela**: Esta opção está disponível apenas durante a personalização dos Formulários que estão presentes nos formulários tabela do sistema. Por exemplo, se você estiver criando uma Tabela de Itens para ser adicionada a um Formulário Personalizado, você pode ativar esta opção. Confira [Tabela filho](/docs/pt/customize-erpnext/articles/customizing-data-visibility-in-child-table) para obter mais informações.
+* **Entrada Rápida**: Marcar esta caixa permitirá que você crie uma 'Entrada Rápida' usando um formulário específico. Isso significa que sempre que um usuário criar este formulário a partir de outro formulário existente, uma caixa aparecerá que permitirá ao usuário criar o DocType inserindo apenas os detalhes básicos. Por exemplo, verifique Entrada rápida em [Entrada de diário](/docs/pt/accounts/journal-entry#11-quick-entry).
 * **Rastrear alterações**: marcar esta caixa garantirá que quaisquer alterações feitas por qualquer um dos usuários neste DocType serão rastreadas e exibidas.
 
 
 ![Rastrear alterações](/files/customize-track-changes.png)
 * **Rastrear visualizações**: esta opção fornecerá um rastreamento de todas as visualizações desse DocType específico.
-* **Permitir repetição automática**: esta opção, se marcada, permitirá que você ative a repetição automática de um DocType periodicamente. Por exemplo, se houver um pedido de vendas que precisa ser feito várias vezes, você pode ativar esta opção e então [Configurar Repetição automática](/docs/pt/automation/auto-repeat) para qualquer pedido de vendas específico.
+* **Permitir repetição automática**: esta opção, se marcada, permitirá que você ative a repetição automática de um DocType periodicamente. Por exemplo, se houver um pedido de venda que precisa ser feito várias vezes, você pode ativar esta opção e então [Configurar Repetição automática](/docs/pt/automation/auto-repeat) para qualquer pedido de vendas específico.
 * **Permitir importação**: Esta opção permitirá ao usuário importar dados de qualquer arquivo. Confira a [Ferramenta de importação de dados](/docs/pt/setting-up/data/data-import) para obter mais informações.
 * **Mostrar pop-up de visualização**: esta opção foi introduzida na versão 12. Se marcada, um pequeno pop-up aparecerá ao passar o mouse sobre links deste tipo de documento (na visualização de lista e em outros campos de link). Este pop-up conterá os campos obrigatórios do documento e os campos para os quais `in_preview` está marcado. Confira [Visualização do link](https://erpnext.com/version-12/release-notes/features#link-preview) para obter mais informações.
 
@@ -80,7 +80,7 @@ Você também pode acessar a visualização de lista de qualquer tipo de documen
 Depois de clicar em Atualizar, suas personalizações serão atualizadas no formulário.
 
 
-### 1.2. Personalizando os campos
+### 1.2. Personalizando os Campos
 
 
 Todo formulário no ERPNext possui um conjunto padrão de campos. Caso precise capturar alguma informação, mas não exista um campo padrão disponível para isso, você pode inserir Campo Personalizado em um formulário conforme sua necessidade. Adicionar, editar ou excluir Campos também pode ser feito aqui. Você também pode colocar os campos conforme sua necessidade no formulário, adicionando-os abaixo ou acima de quaisquer outros campos já presentes. [Clique aqui](/docs/pt/customize-erpnext/custom-field) para obter mais informações sobre campos personalizados.

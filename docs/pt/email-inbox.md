@@ -14,7 +14,7 @@ No ERPNext, você pode configurar a Caixa de Entrada de Email para cada Usuário
 ## 1. Crie um usuário
 
 
-Você pode configurar uma caixa de entrada de e-mail somente para um usuário do sistema. Portanto, certifique-se de ter adicionado você e seus colegas como usuário e atribuído a eles as permissões necessárias.
+Você pode configurar uma caixa de entrada de e-mail apenas para um usuário do sistema. Portanto, certifique-se de ter adicionado você e seus colegas como usuário e atribuído a eles as permissões necessárias.
 
 
 Para saber como adicionar um novo usuário, acesse a [página do usuário.](/docs/pt/setting-up/users-and-permissions/adding-users)

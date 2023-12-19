@@ -39,7 +39,7 @@ Aqui estão as funcionalidades disponíveis no domínio ERPNext Education para s
 3. [Registro do aluno](/docs/pt/education/student-log)
 4. [Nome do lote do aluno](/docs/pt/education/student-batch-name)
 5. [Grupo de alunos](/docs/pt/education/student-group)
-6. [Ferramenta de criação de grupo de alunos](/docs/pt/education/student-group-creation-tool)
+6. [Ferramenta de criação de grupos de alunos](/docs/pt/education/student-group-creation-tool)
 
 
 ### 3. Entrada
@@ -93,7 +93,7 @@ Aqui estão as funcionalidades disponíveis no domínio ERPNext Education para s
 
 1. [Ferramenta de frequência do aluno](/docs/pt/education/student-attendance-tool)
 2. [Ferramenta de resultados da avaliação](/docs/pt/education/assessment_result_tool)
-3. [Ferramenta de criação de grupo de alunos](/docs/pt/education/student-group-creation-tool)
+3. [Ferramenta de criação de grupos de alunos](/docs/pt/education/student-group-creation-tool)
 4. [Ferramenta de inscrição no programa](/docs/pt/education/program-enrollment-tool)
 5. [Ferramenta de agendamento de cursos](/docs/pt/education/course-scheduling-tool)
 

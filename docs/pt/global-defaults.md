@@ -2,7 +2,7 @@
 
 
 
-**Os valores padrão para documentos como Moeda, Ano Fiscal etc. podem ser definidos nos Padrões Globais.**
+**Os valores padrão para documentos como Moeda, Ano fiscal etc. podem ser definidos nos Padrões globais.**
 
 
 Os valores definidos aqui afetarão todos os usuários e os valores padrão para vários campos serão definidos para eles.

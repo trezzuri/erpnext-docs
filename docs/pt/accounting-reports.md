@@ -72,7 +72,7 @@ Um balancete é um relatório contábil que lista os saldos de todas as suas con
 * Débito: valor total debitado na conta entre o período selecionado
 * Crédito: valor total creditado na conta entre o período selecionado
 * Fechamento (Dr): saldo devedor final como em até a data
-* Fechamento (Cr): Saldo de crédito final até a data
+* Fechamento (Cr): saldo de crédito final até a data
 
 
 Existem também algumas outras opções para incluir ou excluir lançamentos de encerramento de período, mostrar/ocultar contas com saldo zero e mostrar saldos não fechados de lucros e perdas (receitas e despesas) do ano fiscal anterior. Todos os números do relatório são apresentados na moeda base da empresa.
@@ -201,7 +201,7 @@ O relatório GSTR-2 ajuda os usuários indianos a registrar declarações mensai
 Acesse: **Contas > Análise > Registro de vendas por item *ou* Registro de compra por item**.
 
 
-O relatório de registro de vendas e compras de itens mostra todas as transações de vendas e compras de um determinado período com taxa de item, quantidade, valor e detalhes de impostos. Neste relatório, os impostos têm uma coluna separada, para que você possa obter facilmente os impostos individuais para cada item individual. A partir deste relatório você pode ver quais itens são mais vendidos ou comprados.
+O relatório de registro de vendas e compras de itens mostra todas as transações de vendas e compras de um determinado período com taxa de item, quantidade, valor e detalhes de impostos. Neste relatório, os impostos têm uma coluna separada, para que você possa obter facilmente os impostos individuais para cada item individual. A partir deste relatório, você pode ver quais itens são mais vendidos ou comprados.
 
 
 ![Item Wise Sales Register](/files/item-wise-sales-report.png)
@@ -219,7 +219,7 @@ Uma análise mais detalhada também pode ser feita usando o filtro 'Agrupar por'
 Acesse: **Contas > Análise > Tendências de faturas de vendas *ou* Tendências de faturas de compras**.
 
 
-Outro relatório muito útil são as tendências de faturas. A partir deste relatório você pode obter facilmente os itens de tendências mensalmente, trimestralmente, semestralmente ou anualmente. Você terá uma ideia de vendas e compras tanto em quantidade quanto em valor.
+Outro relatório muito útil é o de tendências de faturas. A partir dele você pode obter facilmente os itens de tendência mensalmente, trimestralmente, semestralmente ou anualmente. Você terá uma ideia de vendas e compras tanto em quantidade quanto em quantidade.
 
 
 ![Tendências da fatura de vendas](/files/sales-invoice-trends.png)
@@ -230,9 +230,9 @@ Outro relatório muito útil são as tendências de faturas. A partir deste rela
 
 * **Itens pedidos a serem cobrados:** O relatório mostra os itens que foram pedidos pelos clientes, em relação aos quais as vendas
 A fatura não foi criada/foi criada parcialmente.
-* **Itens entregues a serem cobrados:** os itens que foram entregues aos clientes, mas a fatura de vendas não foi criada/foi criada parcialmente.
+* **Itens entregues a serem cobrados:** os itens que foram entregues aos clientes, mas a fatura de vendas não foi criada/foi parcialmente criada.
 * **Itens do pedido de compra a serem faturados:** O relatório mostra os itens que foram pedidos aos fornecedores, mas a fatura de compra não foi criada/foi parcialmente criada.
-* **Itens recebidos a serem faturados:** os itens que foram recebidos dos fornecedores, mas a fatura de compra não foi criada/foi criada parcialmente.
+* **Itens recebidos a serem faturados:** os itens que foram recebidos dos fornecedores, mas a fatura de compra não foi criada/foi parcialmente criada.
 
 
 ## 8. Outros relatórios

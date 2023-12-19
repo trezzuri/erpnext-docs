@@ -109,7 +109,7 @@ Você pode saber mais sobre como permitir que os usuários visualizem projetos [
 ### 2.2. Datas de início e término
 
 
-* **Data de início real**: com base no início real do projeto, rastreado por meio de planilhas de horas, a data e hora de início reais do projeto serão registradas automaticamente.
+* **Data de início real**: Com base no início real do projeto, rastreado por meio de planilhas de horas, a data e hora de início reais do projeto serão registradas automaticamente.
 * **Data de término real**: Com base no término real do projeto, rastreado pela última atualização do quadro de horários, a data e hora de término reais do projeto serão registradas automaticamente. Para saber mais sobre quadros de horários, [clique aqui](/docs/pt/projects/timesheets/).
 
 
@@ -121,9 +121,9 @@ Você pode saber mais sobre como permitir que os usuários visualizem projetos [
 
 * **Custo estimado**: insira o custo estimado do projeto.
 * **Valor total de vendas**: se você já vinculou o projeto a um pedido de vendas, o valor total do pedido de vendas será preenchido automaticamente aqui.
-* **Valor total do custo**: o sistema irá buscar automaticamente o valor total do custo de todos os quadros de horários vinculados a este projeto.
+* **Valor total do custo**: O sistema irá buscar automaticamente o Valor total do custo de todos os quadros de horários vinculados a este projeto.
 * **Valor total faturável**: O sistema irá buscar automaticamente o Valor total faturável de todos os quadros de horários vinculados a este projeto.
-* **Declaração de despesas totais**: com base nas despesas declaradas por um [Funcionário](/docs/pt/human-resources/employee) para Após a conclusão do Projeto, o Relatório de Despesas Total será calculado automaticamente.
+* **Declaração de despesas totais**: com base nas despesas declaradas por um [Funcionário](/docs/pt/human-resources/employee) para após a conclusão do Projeto, o Relatório de Despesas Total será calculado automaticamente.
 * **Valor total faturado**: o valor total faturado é preenchido automaticamente no sistema usando a fatura de vendas criada em relação ao pedido de vendas.
 * **Custo total de compra**: O custo total de compra de um projeto é o custo obtido das faturas de compra criadas em relação a um pedido de compra emitido para fornecimento de materiais necessários para um projeto.
 * **Custo total do material consumido**: Usando a entrada de estoque feita de acordo com a necessidade de materiais no projeto, o custo total do material consumido é capturado.

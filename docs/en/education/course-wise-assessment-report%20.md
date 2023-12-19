@@ -1,8 +1,0 @@
-
-# Course wise Assessment Report
-
-
-
-
-
-

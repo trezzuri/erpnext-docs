@@ -110,7 +110,7 @@ Os seguintes detalhes do [Cliente](/docs/pt/CRM/customer) serão obtidos:
 
 
 * **Empresa:** A Garantia ou AMC criada a partir da empresa será selecionada automaticamente.
-* **Levantado por:** o usuário pode inserir o nome da pessoa que levantou a garantia ou AMC caso o cliente seja uma organização.
+* **Levantado por:** O usuário pode inserir o Nome da pessoa que levantou a Garantia ou AMC caso o Cliente seja uma organização.
 * **Da Empresa:** o usuário pode inserir o nome da empresa da qual a garantia ou AMC foi criada.
 
 

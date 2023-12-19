@@ -27,7 +27,7 @@ O arquivo disponível para download estará no formato JSON.
 ## 2. Solicitação de download de dados pessoais DocType
 
 
-A solicitação também fica registrada no DocType "Solicitação de download de dados pessoais", o link do arquivo que é enviado ao usuário via email também está anexado ao documento. Pesquise Solicitação de download de dados pessoais na barra de pesquisa.
+A solicitação também fica registrada no DocType “Solicitação de Download de Dados Pessoais”, o link do arquivo que é enviado ao usuário via e-mail também está anexado ao documento. Pesquise Solicitação de download de dados pessoais na barra de pesquisa.
 
 
 ![Doctype de solicitação de download de dados pessoais](/files/personal-data-download-request-doctype.png)

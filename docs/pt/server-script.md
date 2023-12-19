@@ -131,7 +131,7 @@ frappe.session.user # usuário atual
 frappe.session.csrf_token # token CSRF da sessão atual
 frappe.user # usuário atual
 frappe.get_fullname # nome completo do usuário atual
-frappe.get_gravatar # frappe.utils.get_gravatar_url
+frappe.get_gravatar #frappe.utils.get_gravatar_url
 frappe.full_name = # nome completo do usuário atual
 
 #ORM
@@ -156,7 +156,7 @@ frappe.db.commit
 frappe.msgprint #msgprint
 frappe.get_hooks # ganchos de aplicativo
 frappe.utils # métodos em frappe.utils
-frappe.render_template # frappe.render_template,
+frappe.render_template #frappe.render_template,
 frappe.get_url #frappe.utils.get_url
 frappe.sendmail # envia e-mail via script do servidor
 frappe.get_print # obtém pdf para um documento

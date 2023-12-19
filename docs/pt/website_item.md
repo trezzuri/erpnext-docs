@@ -121,7 +121,7 @@ Os códigos de cupom podem ser adicionados na finalização da compra, mas os cl
 
 
 Você pode adicionar uma seção de estilo adicional usando a marcação Bootstrap 4 para a página Item do site.
-![Exibição avançada do item do site](/files/web-item-advanced-display.png)
+![Item do site Advacned Display](/files/web-item-advanced-display.png)
 
 
 ### Adicionando detalhes de preço

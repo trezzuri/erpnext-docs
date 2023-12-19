@@ -33,7 +33,7 @@ Além dos recursos obrigatórios mencionados acima, alguns recursos adicionais q
 ### 2.1 Detalhes adicionais do veículo
 
 
-Detalhes adicionais do veículo, como número do chassi, data de aquisição, valor do veículo (quantia), localização, funcionário que gerencia o veículo e detalhes do seguro podem ser capturados no cadastro do veículo.
+Detalhes adicionais do veículo, como número do chassi, data de aquisição, valor do veículo (valor), localização, funcionário que gerencia o veículo e detalhes do seguro podem ser capturados no cadastro do veículo.
 
 
 ![Veículo](/files/vehicle1.png)

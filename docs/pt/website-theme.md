@@ -41,7 +41,7 @@ seu site e faça com que ele corresponda à sua marca.
 ### 2.1 Configuração do tema
 
 
-A seção "Configuração do tema" existe para inicializar um tema batico. Aqui
+A seção "Configuração do tema" existe para inicializar um tema básico. Aqui
 você pode escolher o esquema de cores, a fonte e os estilos dos botões.
 
 
