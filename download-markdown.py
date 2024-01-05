@@ -157,9 +157,6 @@ def main(translate=False):
             "{% endblock %}\n"
             )
 
-            print(content_pt_jinja)
-            return
-
             fname = basepath + "/pt" + file_folder + ".md"
             f = open(fname, "w")
             f.write(content_pt_jinja)
