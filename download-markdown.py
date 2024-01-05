@@ -136,15 +136,33 @@ def main(translate=False):
             content_pt = content_pt.replace("/docs/v14/user/manual/en/", "/docs/pt/") # substitui os links da documentação original
             content_pt = content_pt.replace("/docs/v13/user/videos/", "https://docs.erpnext.com/docs/v13/user/videos/")
             content_pt = content_pt.replace("/docs/v14/user/videos/", "https://docs.erpnext.com/docs/v14/user/videos/")
-            #content_pt = content_pt.replace("ERPNext", "SOMA")
-            #content_pt = content_pt.replace("ERPnext", "SOMA")
             content_pt = content_pt.replace("{{", "&lcub;&lcub;") # substitui as chaves pois senão dá erro no markdown quando instalado no frappe
 
-            print(content_pt)
+            lines = content_pt.strip().split('\n')  # divide em linhas e remove espaços em branco
+            title = lines[0].lstrip('#').strip()  # remove '#' do título e espaços em branco extras
+            block_content = "\n".join(lines[1:])  # obtém o restante do conteúdo
+
+            content_pt_jinja = (
+            "{% extends 'templates/web.html' %}\n"
+            "{%- block title -%}"+title+"{%- endblock -%}\n"
+            "{% block navbar %}\n"
+            "<div style='position: fixed; left: 0; top: 0; bottom: 0; width: 250px; background-color: #f2f2f2; padding: 10px; overflow-y: scroll;'>\n"
+            "{index}\n"  
+            "</div>\n"
+            "{% endblock %}\n"
+            "{% block page_content %}\n"
+            + "\n# " + title + "\n"
+            + block_content
+            + "\n{next}\n"  
+            "{% endblock %}\n"
+            )
+
+            print(content_pt_jinja)
+            return
 
             fname = basepath + "/pt" + file_folder + ".md"
             f = open(fname, "w")
-            f.write(content_pt)
+            f.write(content_pt_jinja)
             f.close()
 
         # adiciona a url no arquivo txt para controle, ao fim do código pois se der erro não deve adicionar.

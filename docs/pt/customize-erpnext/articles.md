@@ -1,8 +1,0 @@
-# Artigos
-
-
-
-* custo do projeto
-
-
-
